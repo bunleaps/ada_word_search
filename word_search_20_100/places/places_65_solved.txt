@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| m  c  v  t  f  q  i  d  r  d  b  j  v  i  l  l  a  g  e  w |
+ 1| a  c  o  p  x  u  n  p  k  o  c  l  a  k  e  d  l  m  v  g |
+ 2| n  s  r  n  e  w  i  n  a  g  a  c  y  i  f  h  v  q  t  u |
+ 3| q  f  m  e  t  p  s  x  c  h  k  d  m  t  i  r  t  k  h  r |
+ 4| o  f  j  o  s  i  k  y  l  t  x  n  s  t  r  e  e  t  g  n |
+ 5| c  s  y  q  u  t  n  q  i  p  y  i  r  p  u  u  t  k  n  r |
+ 6| y  h  c  q  v  n  a  e  u  j  h  o  s  p  i  t  a  l  o  r |
+ 7| p  x  k  h  q  m  t  u  n  r  p  m  n  e  e  a  i  d  g  a |
+ 8| v  c  w  r  o  w  i  a  r  t  f  a  m  i  e  g  c  j  t  r |
+ 9| y  j  o  v  b  o  g  t  i  a  f  f  r  s  s  a  w  h  n  m |
+10| s  a  m  u  x  j  l  b  b  n  n  p  b  k  n  l  r  z  g  t |
+11| p  n  b  f  n  w  d  m  e  d  j  t  z  w  b  n  a  r  n  b |
+12| k  h  c  i  b  t  u  t  u  a  h  a  o  l  g  w  w  n  p  f |
+13| n  i  f  p  y  z  r  a  f  s  c  t  k  b  q  p  e  u  d  c |
+14| c  d  n  t  a  f  t  y  o  k  e  h  a  r  i  v  e  r  l  h |
+15| n  g  i  e  i  x  s  d  r  u  g  u  g  m  p  u  b  i  h  u |
+16| f  c  s  p  n  l  n  n  e  g  v  c  m  t  s  n  t  j  b  r |
+17| d  e  s  e  r  t  i  y  s  s  x  a  m  l  b  g  g  b  q  c |
+18| v  c  e  t  v  e  q  t  t  x  l  x  o  u  p  a  o  x  w  h |
+19| g  z  t  w  f  q  w  w  f  i  v  v  c  l  h  q  x  i  q  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+village: ((0, 12), (0, 18))
+river: ((14, 13), (14, 17))
+lake: ((1, 11), (1, 14))
+forest: ((13, 8), (18, 8))
+desert: ((17, 0), (17, 5))
+street: ((4, 12), (4, 17))
+hospital: ((6, 10), (6, 17))
+church: ((13, 19), (18, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+village: ((0, 12), (0, 18))
+river: ((14, 13), (14, 17))
+lake: ((1, 11), (1, 14))
+forest: ((13, 8), (18, 8))
+desert: ((17, 0), (17, 5))
+street: ((4, 12), (4, 17))
+hospital: ((6, 10), (6, 17))
+church: ((13, 19), (18, 19))
+
+Naïve Time taken: 0.0650 seconds
+Naïve Memory used: 0.00 MB

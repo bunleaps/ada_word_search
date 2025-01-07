@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| u  p  h  j  f  n  w  g  t  e  z  k  x  g  j  h  k  x  i  e |
+ 1| q  m  o  l  t  f  c  k  w  w  p  p  d  f  t  r  n  f  a  i |
+ 2| q  m  a  g  w  h  a  g  a  g  w  i  u  x  t  a  n  t  u  u |
+ 3| l  d  e  v  h  i  w  s  s  s  i  m  r  d  x  u  b  n  k  s |
+ 4| i  k  t  u  k  e  e  r  p  z  s  p  i  d  e  r  o  g  p  k |
+ 5| d  r  a  g  o  n  f  l  y  n  n  o  w  m  n  e  s  x  g  v |
+ 6| a  n  o  b  j  j  y  g  m  s  y  l  v  w  e  u  f  l  y  v |
+ 7| b  t  g  r  a  s  s  h  o  p  p  e  r  b  b  e  u  e  a  b |
+ 8| c  e  k  p  t  r  q  u  z  f  b  j  l  d  j  w  j  p  f  e |
+ 9| o  m  i  h  m  e  v  y  q  z  q  u  g  a  p  u  x  v  z  e |
+10| c  d  i  a  i  i  r  x  b  u  v  p  t  s  d  r  m  c  d  t |
+11| k  k  w  q  m  u  b  m  m  m  h  j  f  t  b  y  h  b  u  l |
+12| r  a  u  e  d  o  n  y  i  s  o  f  f  l  e  x  b  e  p  e |
+13| o  z  m  e  y  m  t  b  v  t  f  b  o  y  e  r  e  u  y  n |
+14| a  t  k  f  m  a  o  h  i  q  e  k  i  o  k  a  f  q  g  t |
+15| c  g  y  s  i  b  d  u  f  p  l  b  j  l  f  c  n  l  z  h |
+16| h  q  j  q  b  v  q  z  s  r  a  c  g  y  q  n  e  q  y  r |
+17| m  m  a  r  h  s  q  d  n  h  y  b  u  f  r  y  b  x  x  b |
+18| m  y  v  p  o  b  u  j  t  k  e  j  k  b  e  l  t  p  c  m |
+19| c  h  v  m  k  x  v  v  r  x  k  j  k  k  z  p  k  m  o  e |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+ant: ((2, 15), (2, 17))
+bee: ((11, 14), (13, 14))
+cockroach: ((8, 0), (16, 0))
+fly: ((5, 6), (5, 8))
+spider: ((4, 10), (4, 15))
+grasshopper: ((7, 2), (7, 12))
+dragonfly: ((5, 0), (5, 8))
+beetle: ((7, 19), (12, 19))
+wasp: ((1, 8), (4, 8))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+ant: ((2, 15), (2, 17))
+bee: ((11, 14), (13, 14))
+cockroach: ((8, 0), (16, 0))
+fly: ((5, 6), (5, 8))
+spider: ((4, 10), (4, 15))
+grasshopper: ((7, 2), (7, 12))
+dragonfly: ((5, 0), (5, 8))
+beetle: ((7, 19), (12, 19))
+wasp: ((1, 8), (4, 8))
+
+Naïve Time taken: 0.0397 seconds
+Naïve Memory used: 0.00 MB

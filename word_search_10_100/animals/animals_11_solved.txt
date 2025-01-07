@@ -1,0 +1,39 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| i  e  l  e  p  h  a  n  t  r |
+ 1| n  g  i  r  a  f  f  e  n  e |
+ 2| s  n  a  k  e  l  r  a  r  p |
+ 3| e  c  w  m  a  e  i  a  t  t |
+ 4| c  f  l  m  g  b  e  o  s  i |
+ 5| t  o  m  i  i  b  r  z  f  l |
+ 6| r  a  t  h  o  r  i  h  y  e |
+ 7| m  n  p  y  a  n  s  r  c  o |
+ 8| a  m  n  p  w  i  w  q  d  m |
+ 9| a  w  o  l  f  r  o  g  y  r |
+  +------------------------------+
+Dynamic Programming Solution:
+reptile: ((0, 9), (6, 9))
+insect: ((0, 0), (5, 0))
+elephant: ((0, 1), (0, 8))
+giraffe: ((1, 1), (1, 7))
+snake: ((2, 0), (2, 4))
+frog: ((9, 4), (9, 7))
+wolf: ((9, 1), (9, 4))
+ant: ((0, 6), (0, 8))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+reptile: ((0, 9), (6, 9))
+insect: ((0, 0), (5, 0))
+elephant: ((0, 1), (0, 8))
+giraffe: ((1, 1), (1, 7))
+snake: ((2, 0), (2, 4))
+frog: ((9, 4), (9, 7))
+wolf: ((9, 1), (9, 4))
+ant: ((0, 6), (0, 8))
+
+Naïve Time taken: 0.0151 seconds
+Naïve Memory used: 0.00 MB

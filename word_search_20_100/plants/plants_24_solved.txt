@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  b  o  r  a  l  c  v  y  a  d  u  b  u  x  n  k  l  m  b |
+ 1| n  g  r  a  s  s  z  k  r  g  f  x  c  p  p  a  l  m  a  a |
+ 2| u  l  j  x  t  o  h  z  s  u  n  f  l  o  w  e  r  w  p  m |
+ 3| u  f  o  i  e  w  d  v  j  t  o  f  d  n  u  f  e  x  l  b |
+ 4| s  h  l  k  v  v  d  g  h  m  p  d  r  q  m  k  z  z  e  o |
+ 5| f  e  d  o  s  e  j  x  b  t  i  e  q  r  y  g  p  j  y  o |
+ 6| p  u  r  n  w  r  c  h  e  h  f  f  y  l  u  s  p  s  b  q |
+ 7| s  g  c  k  n  e  z  c  c  g  o  w  i  t  n  z  i  h  w  p |
+ 8| q  s  c  n  i  k  r  r  l  o  c  l  p  u  p  a  b  m  p  j |
+ 9| p  a  f  g  r  t  o  g  j  s  u  a  z  t  d  z  q  w  h  t |
+10| k  w  z  a  v  s  x  t  p  i  n  e  c  z  z  u  z  o  a  s |
+11| h  s  q  i  v  y  v  i  n  e  k  f  l  t  b  x  n  f  y  z |
+12| f  t  g  c  q  k  w  i  n  e  r  e  w  q  u  l  m  b  i  b |
+13| b  u  k  x  a  m  t  c  h  g  s  v  u  v  x  s  r  g  w  c |
+14| u  l  y  l  n  r  y  q  p  o  g  v  f  j  b  n  s  n  e  b |
+15| a  i  j  o  l  k  m  p  r  h  m  c  t  z  j  o  h  e  h  c |
+16| v  p  y  p  a  x  a  r  w  c  o  v  p  j  i  p  r  e  h  e |
+17| l  c  n  o  l  z  t  b  i  f  s  e  g  b  m  t  u  d  r  l |
+18| c  i  v  n  w  c  k  q  y  e  s  b  m  h  q  p  b  c  r  u |
+19| w  m  l  f  h  b  l  l  j  f  n  q  t  k  g  o  q  e  q  g |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+flower: ((2, 11), (2, 16))
+grass: ((1, 1), (1, 5))
+shrub: ((14, 16), (18, 16))
+moss: ((15, 10), (18, 10))
+vine: ((11, 6), (11, 9))
+bamboo: ((0, 19), (5, 19))
+pine: ((10, 8), (10, 11))
+maple: ((0, 18), (4, 18))
+tulip: ((12, 1), (16, 1))
+sunflower: ((2, 8), (2, 16))
+ivy: ((11, 3), (11, 5))
+palm: ((1, 14), (1, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+flower: ((2, 11), (2, 16))
+grass: ((1, 1), (1, 5))
+shrub: ((14, 16), (18, 16))
+moss: ((15, 10), (18, 10))
+vine: ((11, 6), (11, 9))
+bamboo: ((0, 19), (5, 19))
+pine: ((10, 8), (10, 11))
+maple: ((0, 18), (4, 18))
+tulip: ((12, 1), (16, 1))
+sunflower: ((2, 8), (2, 16))
+ivy: ((11, 3), (11, 5))
+palm: ((1, 14), (1, 17))
+
+Naïve Time taken: 0.0860 seconds
+Naïve Memory used: 0.00 MB

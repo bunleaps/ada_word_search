@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| u  e  s  y  e  f  w  r  f  m  a  c  h  t  d  v  t  p  p  b |
+ 1| y  e  s  t  e  r  d  a  y  x  i  h  l  q  k  q  b  u  f  p |
+ 2| t  y  g  s  w  l  a  p  x  e  a  y  t  k  t  l  l  h  g  f |
+ 3| o  l  f  e  e  e  w  z  d  c  r  f  x  r  o  a  s  h  t  z |
+ 4| d  e  y  j  o  c  e  j  m  u  v  y  t  t  m  m  y  k  c  a |
+ 5| a  o  x  k  c  w  o  k  t  o  p  i  e  e  o  n  t  h  z  a |
+ 6| y  b  i  g  s  e  v  n  d  x  r  s  n  y  r  s  i  o  w  l |
+ 7| t  o  n  o  t  v  e  t  d  a  n  n  a  z  r  n  z  h  j  d |
+ 8| k  p  w  u  n  c  n  x  i  u  y  d  i  n  o  j  o  a  l  a |
+ 9| d  b  n  q  i  k  x  o  s  r  b  s  f  n  w  z  s  o  c  m |
+10| d  i  y  b  g  j  p  r  u  w  e  e  k  l  g  c  x  r  n  o |
+11| m  z  f  x  h  k  v  o  k  a  u  a  c  s  t  u  j  o  r  n |
+12| j  w  d  f  t  h  h  g  z  n  s  r  s  u  k  j  v  z  m  t |
+13| n  x  e  z  b  g  o  i  k  l  a  e  l  n  v  g  r  p  q  h |
+14| n  w  t  e  o  n  j  i  i  e  d  o  p  r  n  j  c  q  a  s |
+15| c  o  g  l  k  z  w  h  y  a  l  r  j  i  s  d  i  h  v  v |
+16| z  i  r  j  h  e  e  h  c  g  r  f  n  s  o  p  g  s  w  y |
+17| u  m  f  h  u  i  n  e  s  g  r  e  d  e  q  i  o  i  y  c |
+18| x  n  e  z  v  l  d  d  o  x  v  a  z  u  s  k  g  v  t  b |
+19| t  k  v  w  n  f  v  j  f  e  p  m  h  o  l  i  d  a  y  i |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+day: ((1, 6), (1, 8))
+week: ((10, 9), (10, 12))
+month: ((9, 19), (13, 19))
+night: ((8, 4), (12, 4))
+today: ((2, 0), (6, 0))
+tomorrow: ((2, 14), (9, 14))
+yesterday: ((1, 0), (1, 8))
+holiday: ((19, 12), (19, 18))
+sunrise: ((11, 13), (17, 13))
+
+DP Time taken: 0.0021 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+day: ((1, 6), (1, 8))
+week: ((10, 9), (10, 12))
+month: ((9, 19), (13, 19))
+night: ((8, 4), (12, 4))
+today: ((2, 0), (6, 0))
+tomorrow: ((2, 14), (9, 14))
+yesterday: ((1, 0), (1, 8))
+holiday: ((19, 12), (19, 18))
+sunrise: ((11, 13), (17, 13))
+
+Naïve Time taken: 0.0651 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| d  o  a  c  c  o  u  n  t  a  n  t  t  j  f  t  l  g  m  x |
+ 1| n  p  t  n  s  a  p  y  t  d  c  m  e  c  h  a  n  i  c  c |
+ 2| i  a  r  g  g  c  r  f  p  g  u  r  g  s  f  j  t  e  i  q |
+ 3| t  h  v  o  k  m  i  c  i  v  y  k  a  e  t  x  s  v  n  h |
+ 4| n  x  j  v  g  s  u  e  h  f  e  c  h  t  v  p  f  d  t  d |
+ 5| t  u  p  g  k  r  x  s  n  i  f  c  h  b  q  h  i  w  v  x |
+ 6| a  t  r  u  m  c  a  c  i  t  t  a  n  e  j  e  r  m  d  w |
+ 7| l  q  q  s  c  s  w  m  t  c  i  e  r  f  b  w  e  r  i  i |
+ 8| x  p  w  m  e  n  b  v  m  e  i  s  c  m  i  k  f  d  z  q |
+ 9| d  g  r  n  k  s  a  u  q  e  n  a  t  t  e  q  i  p  k  x |
+10| o  e  b  n  o  e  f  m  k  t  r  g  n  j  n  r  g  i  t  d |
+11| x  g  n  o  y  g  p  o  l  i  c  e  i  w  h  b  h  t  y  u |
+12| s  z  z  t  z  w  n  k  i  g  a  y  t  n  f  y  t  h  w  e |
+13| a  z  h  j  i  m  n  c  k  e  e  s  p  t  e  w  e  y  q  y |
+14| f  g  l  n  n  s  h  w  j  e  i  w  e  i  p  e  r  c  o  h |
+15| p  g  s  s  m  b  t  y  i  t  q  i  z  l  l  b  r  w  x  n |
+16| d  l  a  w  y  e  r  w  r  i  t  e  r  a  t  o  t  s  m  c |
+17| h  d  u  u  p  d  w  a  i  c  m  s  u  n  j  b  t  m  y  g |
+18| s  d  o  c  t  o  r  f  q  b  r  t  e  a  c  h  e  r  e  q |
+19| o  n  w  c  p  h  o  t  o  g  r  a  p  h  e  r  g  c  x  x |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+teacher: ((18, 11), (18, 17))
+doctor: ((18, 1), (18, 6))
+lawyer: ((16, 1), (16, 6))
+writer: ((16, 7), (16, 12))
+firefighter: ((4, 16), (14, 16))
+police: ((11, 6), (11, 11))
+mechanic: ((1, 11), (1, 18))
+accountant: ((0, 2), (0, 11))
+photographer: ((19, 4), (19, 15))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+teacher: ((18, 11), (18, 17))
+doctor: ((18, 1), (18, 6))
+lawyer: ((16, 1), (16, 6))
+writer: ((16, 7), (16, 12))
+firefighter: ((4, 16), (14, 16))
+police: ((11, 6), (11, 11))
+mechanic: ((1, 11), (1, 18))
+accountant: ((0, 2), (0, 11))
+photographer: ((19, 4), (19, 15))
+
+Naïve Time taken: 0.0505 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  n  p  c  v  a  z  m  j  o  e  k  h  c  a  t  k  w  b  i |
+ 1| w  o  m  e  e  x  y  k  z  y  u  e  w  h  o  r  r  m  e  r |
+ 2| v  s  c  u  n  a  b  c  j  q  x  m  c  a  u  g  u  p  m  p |
+ 3| y  a  l  g  m  c  c  g  r  h  s  i  t  l  m  i  l  e  k  h |
+ 4| c  g  q  n  l  s  i  v  b  a  v  g  z  k  b  s  e  i  d  s |
+ 5| y  u  m  x  q  s  j  l  p  d  y  x  x  n  o  h  r  m  l  r |
+ 6| m  s  c  i  s  s  o  r  s  e  s  o  y  a  o  a  w  a  c  n |
+ 7| e  w  r  f  k  a  n  d  y  i  n  a  n  q  k  r  x  r  x  f |
+ 8| i  x  n  e  o  j  y  f  m  r  h  s  r  s  e  p  h  k  w  e |
+ 9| x  j  v  z  u  r  e  m  o  q  c  o  q  p  g  e  g  e  i  h |
+10| o  l  w  n  e  b  j  t  n  t  i  l  a  h  x  n  h  r  k  o |
+11| k  i  b  d  g  t  a  z  r  o  i  p  i  f  j  e  e  o  c  y |
+12| l  b  l  b  a  l  o  m  p  e  t  g  b  p  f  r  t  r  g  t |
+13| v  o  u  w  u  h  w  g  t  r  d  e  t  s  b  s  z  p  b  p |
+14| f  s  x  c  h  e  c  i  p  h  p  t  b  r  r  o  q  o  f  l |
+15| h  t  l  u  r  e  r  a  s  e  r  g  l  o  y  o  a  t  h  b |
+16| o  a  u  s  t  a  p  l  e  r  o  g  p  z  o  j  w  r  n  x |
+17| c  c  j  a  l  r  v  k  v  g  f  e  v  a  i  k  o  a  d  a |
+18| x  u  o  r  k  o  g  r  n  u  d  k  t  o  k  b  a  g  u  p |
+19| h  i  g  h  l  i  g  h  t  e  r  x  p  k  c  i  t  c  k  j |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pen: ((8, 15), (10, 15))
+ruler: ((1, 16), (5, 16))
+eraser: ((15, 5), (15, 10))
+marker: ((5, 17), (10, 17))
+chalk: ((0, 13), (4, 13))
+book: ((4, 14), (7, 14))
+bag: ((18, 15), (18, 17))
+scissors: ((6, 1), (6, 8))
+stapler: ((16, 3), (16, 9))
+sharpener: ((4, 15), (12, 15))
+highlighter: ((19, 0), (19, 10))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pen: ((8, 15), (10, 15))
+ruler: ((1, 16), (5, 16))
+eraser: ((15, 5), (15, 10))
+marker: ((5, 17), (10, 17))
+chalk: ((0, 13), (4, 13))
+book: ((4, 14), (7, 14))
+bag: ((18, 15), (18, 17))
+scissors: ((6, 1), (6, 8))
+stapler: ((16, 3), (16, 9))
+sharpener: ((4, 15), (12, 15))
+highlighter: ((19, 0), (19, 10))
+
+Naïve Time taken: 0.0591 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  s  i  n  g  e  r  o  o  n  o  k  o  n  p  u  m  a  r  c |
+ 1| c  m  q  j  f  v  r  b  f  z  b  w  b  j  q  t  u  l  v  c |
+ 2| h  x  w  w  o  n  l  u  v  l  a  y  b  z  k  f  y  h  l  o |
+ 3| o  q  b  y  x  o  f  h  y  f  g  n  c  f  l  c  w  f  b  n |
+ 4| r  t  j  z  z  u  g  f  e  p  k  h  e  a  l  t  g  m  t  c |
+ 5| d  v  i  o  l  i  n  h  l  a  i  s  b  z  y  r  c  o  w  e |
+ 6| t  m  r  w  m  h  c  e  r  u  d  a  h  q  r  u  p  r  h  r |
+ 7| l  e  i  d  i  e  t  t  p  g  t  p  n  a  i  m  a  p  m  t |
+ 8| m  m  w  c  n  f  s  c  o  g  j  e  h  o  c  p  f  k  p  m |
+ 9| x  u  z  n  r  e  r  v  z  a  o  g  u  o  s  e  s  h  u  p |
+10| k  r  o  u  h  o  z  t  z  v  i  u  f  t  n  t  c  n  g  t |
+11| b  o  s  c  f  n  p  m  t  c  w  i  o  r  g  e  x  c  u  b |
+12| b  p  r  r  t  s  u  h  b  a  z  a  m  r  f  p  s  y  i  i |
+13| d  o  q  m  m  j  u  o  o  k  m  h  l  g  w  d  q  u  t  q |
+14| l  a  k  u  o  y  g  n  g  n  t  e  c  b  h  o  v  t  a  o |
+15| x  o  r  b  x  d  a  b  q  y  e  u  l  z  u  l  f  n  r  q |
+16| w  d  e  w  n  l  n  g  h  l  d  o  c  o  h  m  c  o  k  m |
+17| a  s  f  a  b  h  t  r  o  f  i  f  t  z  d  c  m  t  r  k |
+18| q  o  b  z  k  e  q  c  w  e  r  g  c  x  i  y  n  e  l  j |
+19| y  h  a  r  m  o  n  y  n  s  a  x  o  p  h  o  n  e  j  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((10, 18), (15, 18))
+violin: ((5, 1), (5, 6))
+saxophone: ((19, 9), (19, 17))
+trumpet: ((4, 15), (10, 15))
+singer: ((0, 1), (0, 6))
+harmony: ((19, 1), (19, 7))
+note: ((15, 17), (18, 17))
+chord: ((1, 0), (5, 0))
+concert: ((1, 19), (7, 19))
+lyrics: ((4, 14), (9, 14))
+
+DP Time taken: 0.0024 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((10, 18), (15, 18))
+violin: ((5, 1), (5, 6))
+saxophone: ((19, 9), (19, 17))
+trumpet: ((4, 15), (10, 15))
+singer: ((0, 1), (0, 6))
+harmony: ((19, 1), (19, 7))
+note: ((15, 17), (18, 17))
+chord: ((1, 0), (5, 0))
+concert: ((1, 19), (7, 19))
+lyrics: ((4, 14), (9, 14))
+
+Naïve Time taken: 0.0820 seconds
+Naïve Memory used: 0.00 MB

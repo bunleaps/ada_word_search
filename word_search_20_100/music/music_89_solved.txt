@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| z  i  p  j  s  i  l  j  r  d  c  h  o  r  d  a  r  s  a  y |
+ 1| b  s  i  d  x  s  s  d  i  r  s  k  v  p  o  f  h  i  w  g |
+ 2| m  a  b  u  s  h  k  l  l  w  a  s  i  x  w  m  y  w  m  w |
+ 3| u  j  o  a  t  f  w  f  j  k  x  k  o  n  t  r  t  s  r  c |
+ 4| z  u  g  r  n  x  f  b  e  x  o  c  l  h  x  r  h  g  p  o |
+ 5| d  h  d  u  c  d  x  e  u  p  p  k  i  a  g  g  m  k  l  w |
+ 6| w  k  q  h  p  h  t  b  d  c  h  b  n  r  v  m  c  h  y  m |
+ 7| l  m  v  m  a  o  e  l  t  v  o  d  p  m  n  c  m  v  r  e |
+ 8| y  h  u  r  n  j  x  s  p  w  n  n  s  o  j  a  i  h  i  b |
+ 9| t  t  c  f  r  u  c  d  t  a  e  l  b  n  p  l  c  m  c  r |
+10| d  s  k  r  g  u  i  t  a  r  u  g  h  y  i  b  r  r  s  w |
+11| c  n  i  j  c  p  u  i  e  f  a  f  f  k  a  u  o  z  a  l |
+12| o  z  t  n  i  t  e  b  s  t  l  l  c  n  n  m  p  s  d  i |
+13| x  c  b  b  g  n  p  m  g  b  r  u  g  o  o  e  h  r  z  v |
+14| q  t  h  o  r  e  u  f  l  y  f  u  t  w  n  j  o  p  h  w |
+15| n  o  e  k  x  r  r  w  w  o  t  b  m  e  w  c  n  x  q  w |
+16| e  w  p  x  d  k  p  i  o  h  e  m  b  p  c  d  e  d  c  k |
+17| q  r  j  l  s  m  e  l  o  d  y  n  q  n  e  s  r  r  o  a |
+18| h  e  a  d  p  h  o  n  e  s  i  j  l  z  z  t  c  p  t  q |
+19| g  q  g  n  j  f  g  g  t  a  g  x  k  t  l  n  y  r  a  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((10, 4), (10, 9))
+piano: ((9, 14), (13, 14))
+violin: ((1, 12), (6, 12))
+saxophone: ((1, 10), (9, 10))
+melody: ((17, 5), (17, 10))
+harmony: ((4, 13), (10, 13))
+rhythm: ((0, 16), (5, 16))
+chord: ((0, 10), (0, 14))
+lyrics: ((5, 18), (10, 18))
+album: ((8, 15), (12, 15))
+microphone: ((7, 16), (16, 16))
+headphones: ((18, 0), (18, 9))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((10, 4), (10, 9))
+piano: ((9, 14), (13, 14))
+violin: ((1, 12), (6, 12))
+saxophone: ((1, 10), (9, 10))
+melody: ((17, 5), (17, 10))
+harmony: ((4, 13), (10, 13))
+rhythm: ((0, 16), (5, 16))
+chord: ((0, 10), (0, 14))
+lyrics: ((5, 18), (10, 18))
+album: ((8, 15), (12, 15))
+microphone: ((7, 16), (16, 16))
+headphones: ((18, 0), (18, 9))
+
+Naïve Time taken: 0.0635 seconds
+Naïve Memory used: 0.00 MB

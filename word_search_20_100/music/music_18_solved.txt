@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| o  r  c  h  e  s  t  r  a  a  l  b  u  m  k  c  h  l  x  e |
+ 1| n  z  s  l  l  r  t  y  b  o  g  u  v  k  b  f  a  p  w  v |
+ 2| v  b  k  i  b  n  d  m  r  j  e  i  k  c  m  z  r  t  h  j |
+ 3| h  y  f  g  n  t  v  a  h  v  u  q  f  s  x  j  m  y  s  p |
+ 4| b  y  m  h  m  g  r  w  u  a  x  f  d  q  r  d  o  e  x  v |
+ 5| m  c  j  r  f  o  e  u  l  r  u  h  r  n  f  w  n  g  x  r |
+ 6| i  o  d  m  u  t  k  r  m  l  o  z  f  u  c  o  y  s  t  g |
+ 7| c  n  x  j  e  f  b  b  f  p  l  a  o  c  h  m  r  f  s  u |
+ 8| r  c  x  y  z  l  j  k  n  w  e  y  n  p  o  j  h  l  o  i |
+ 9| o  e  o  p  k  w  o  p  f  m  x  t  d  o  r  s  y  u  d  t |
+10| p  r  a  v  r  o  r  d  z  s  t  a  n  j  d  a  t  t  y  a |
+11| h  t  r  b  i  j  z  s  y  g  e  a  w  s  c  x  h  e  e  r |
+12| o  b  a  n  d  o  a  q  t  h  i  h  m  v  i  o  m  k  n  c |
+13| n  u  u  u  l  y  l  q  a  p  c  u  o  w  l  p  p  u  b  l |
+14| e  i  u  n  u  w  k  i  b  i  r  r  e  q  r  h  n  s  n  x |
+15| v  m  d  l  o  n  y  w  n  d  e  y  a  a  p  o  t  h  m  l |
+16| u  y  d  i  r  t  m  d  k  c  c  v  y  f  r  n  j  n  s  o |
+17| x  o  n  l  t  s  e  y  p  o  z  s  u  a  l  e  t  i  p  w |
+18| s  l  y  r  i  c  s  l  l  o  g  l  h  i  y  d  j  s  o  y |
+19| s  i  c  g  m  g  g  x  h  q  j  v  e  j  k  n  k  c  b  j |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((6, 19), (11, 19))
+flute: ((7, 17), (11, 17))
+saxophone: ((9, 15), (17, 15))
+band: ((12, 1), (12, 4))
+orchestra: ((0, 0), (0, 8))
+harmony: ((0, 16), (6, 16))
+rhythm: ((7, 16), (12, 16))
+chord: ((6, 14), (10, 14))
+concert: ((5, 1), (11, 1))
+lyrics: ((18, 1), (18, 6))
+album: ((0, 9), (0, 13))
+microphone: ((5, 0), (14, 0))
+
+DP Time taken: 0.0012 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((6, 19), (11, 19))
+flute: ((7, 17), (11, 17))
+saxophone: ((9, 15), (17, 15))
+band: ((12, 1), (12, 4))
+orchestra: ((0, 0), (0, 8))
+harmony: ((0, 16), (6, 16))
+rhythm: ((7, 16), (12, 16))
+chord: ((6, 14), (10, 14))
+concert: ((5, 1), (11, 1))
+lyrics: ((18, 1), (18, 6))
+album: ((0, 9), (0, 13))
+microphone: ((5, 0), (14, 0))
+
+Naïve Time taken: 0.0645 seconds
+Naïve Memory used: 0.00 MB

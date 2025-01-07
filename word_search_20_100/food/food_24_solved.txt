@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| n  h  e  l  j  c  n  d  o  z  s  n  g  y  k  w  s  n  u  x |
+ 1| b  b  s  j  q  c  a  h  g  g  w  f  s  h  q  k  o  d  p  q |
+ 2| u  r  v  t  r  o  y  k  c  j  p  t  b  s  g  d  i  v  s  o |
+ 3| r  i  m  z  e  t  p  r  e  b  c  j  g  e  q  s  p  v  w  n |
+ 4| r  c  s  g  p  a  t  h  y  g  p  i  q  s  x  c  i  u  j  c |
+ 5| i  e  k  w  m  s  k  u  p  y  m  x  c  o  c  h  e  a  m  p |
+ 6| t  c  s  t  j  u  v  s  f  o  b  m  c  m  h  e  w  s  p  w |
+ 7| o  i  q  e  k  s  e  o  n  j  a  a  w  x  o  e  p  n  k  c |
+ 8| l  r  h  p  e  h  v  n  u  e  t  a  m  v  c  s  i  o  i  o |
+ 9| c  h  a  r  s  i  e  r  r  c  t  g  s  q  o  e  b  o  j  q |
+10| f  i  g  k  f  b  p  c  y  s  m  f  c  n  l  c  c  d  k  s |
+11| h  h  p  i  p  e  e  i  a  z  l  v  r  w  a  u  p  l  d  x |
+12| e  t  m  u  v  c  e  p  k  h  x  f  o  p  t  r  t  e  b  o |
+13| q  t  o  i  i  a  b  u  r  g  e  r  w  g  e  r  g  s  e  d |
+14| u  s  b  r  e  a  d  p  m  b  q  t  p  g  f  y  b  f  z  k |
+15| h  s  a  l  a  d  n  p  i  z  z  a  m  l  x  l  p  e  w  v |
+16| c  o  o  k  i  e  s  e  a  w  r  x  c  t  o  p  o  d  l  w |
+17| j  n  d  x  p  z  s  a  n  d  w  i  c  h  f  q  b  c  g  e |
+18| y  m  o  q  u  k  l  y  g  d  k  r  k  e  w  a  m  p  k  x |
+19| q  m  g  n  s  g  n  k  y  y  m  n  f  k  t  l  w  o  c  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((15, 7), (15, 11))
+burger: ((13, 6), (13, 11))
+sandwich: ((17, 6), (17, 13))
+salad: ((15, 1), (15, 5))
+sushi: ((5, 5), (9, 5))
+rice: ((2, 1), (5, 1))
+noodles: ((7, 17), (13, 17))
+burrito: ((1, 0), (7, 0))
+curry: ((10, 15), (14, 15))
+bread: ((14, 2), (14, 6))
+cheese: ((4, 15), (9, 15))
+chocolate: ((5, 14), (13, 14))
+cookies: ((16, 0), (16, 6))
+pie: ((3, 16), (5, 16))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((15, 7), (15, 11))
+burger: ((13, 6), (13, 11))
+sandwich: ((17, 6), (17, 13))
+salad: ((15, 1), (15, 5))
+sushi: ((5, 5), (9, 5))
+rice: ((2, 1), (5, 1))
+noodles: ((7, 17), (13, 17))
+burrito: ((1, 0), (7, 0))
+curry: ((10, 15), (14, 15))
+bread: ((14, 2), (14, 6))
+cheese: ((4, 15), (9, 15))
+chocolate: ((5, 14), (13, 14))
+cookies: ((16, 0), (16, 6))
+pie: ((3, 16), (5, 16))
+
+Naïve Time taken: 0.0534 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,43 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| c  m  o  s  q  u  i  t  o  d |
+ 1| o  l  l  f  s  t  t  o  m  r |
+ 2| c  b  e  a  t  a  x  t  w  a |
+ 3| k  e  q  n  d  m  l  i  d  g |
+ 4| r  e  a  w  x  y  o  k  q  o |
+ 5| o  t  f  a  i  f  b  t  c  n |
+ 6| a  l  l  s  l  l  p  u  h  f |
+ 7| c  e  e  p  n  y  f  m  g  l |
+ 8| h  w  a  s  p  i  d  e  r  y |
+ 9| b  u  t  t  e  r  f  l  y  c |
+  +------------------------------+
+Dynamic Programming Solution:
+bee: ((2, 1), (4, 1))
+butterfly: ((9, 0), (9, 8))
+mosquito: ((0, 1), (0, 8))
+cockroach: ((0, 0), (8, 0))
+fly: ((9, 6), (9, 8))
+spider: ((8, 3), (8, 8))
+dragonfly: ((0, 9), (8, 9))
+beetle: ((2, 1), (7, 1))
+wasp: ((8, 1), (8, 4))
+flea: ((5, 2), (8, 2))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+bee: ((2, 1), (4, 1))
+butterfly: ((9, 0), (9, 8))
+mosquito: ((0, 1), (0, 8))
+cockroach: ((0, 0), (8, 0))
+fly: ((9, 6), (9, 8))
+spider: ((8, 3), (8, 8))
+dragonfly: ((0, 9), (8, 9))
+beetle: ((2, 1), (7, 1))
+wasp: ((8, 1), (8, 4))
+flea: ((5, 2), (8, 2))
+
+Naïve Time taken: 0.0050 seconds
+Naïve Memory used: 0.00 MB

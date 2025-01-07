@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  u  t  t  e  r  f  l  y  e  e  z  f  p  s  q  m  d  d  o |
+ 1| j  s  y  v  j  u  y  e  b  r  o  g  o  n  y  f  v  k  e  q |
+ 2| d  z  n  v  f  a  y  c  g  g  a  n  n  i  d  f  l  k  k  b |
+ 3| c  y  y  y  m  q  k  s  o  b  d  r  a  g  o  n  f  l  y  d |
+ 4| t  q  u  h  b  e  e  m  b  w  g  x  r  a  n  j  c  h  a  v |
+ 5| q  z  t  d  s  q  d  w  c  f  i  m  g  i  t  l  x  d  e  q |
+ 6| t  n  i  e  c  f  v  a  g  a  w  c  r  s  h  s  t  x  v  z |
+ 7| q  v  t  b  r  s  d  t  n  h  b  b  a  x  f  a  k  s  e  w |
+ 8| h  t  x  r  h  m  o  m  g  t  v  l  s  n  f  s  x  i  x  a |
+ 9| c  w  n  t  u  i  i  u  l  e  s  w  s  c  g  p  h  p  d  s |
+10| l  v  o  d  l  v  b  t  p  n  z  k  h  k  w  i  p  u  c  p |
+11| o  m  u  h  f  y  m  e  e  q  a  c  o  y  z  d  j  k  o  l |
+12| q  h  w  j  d  b  p  l  r  c  a  i  p  m  j  e  q  t  a  o |
+13| g  b  f  a  l  g  t  j  q  o  n  e  p  y  c  r  i  k  z  k |
+14| h  i  l  l  b  e  a  i  r  c  b  m  e  e  t  u  v  y  r  s |
+15| k  x  u  g  e  c  n  k  f  k  l  s  r  x  q  n  q  a  c  g |
+16| s  w  a  b  m  a  c  t  l  i  q  h  h  s  r  k  i  o  s  f |
+17| j  j  r  m  o  o  w  e  y  x  x  a  o  e  m  j  f  u  h  m |
+18| v  m  s  x  c  q  c  s  j  d  i  m  a  u  q  k  j  n  d  l |
+19| j  p  p  k  i  g  p  u  t  v  q  z  o  w  g  p  g  o  v  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+bee: ((4, 4), (4, 6))
+butterfly: ((0, 0), (0, 8))
+fly: ((0, 6), (0, 8))
+spider: ((8, 15), (13, 15))
+grasshopper: ((5, 12), (15, 12))
+dragonfly: ((3, 10), (3, 18))
+wasp: ((7, 19), (10, 19))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+bee: ((4, 4), (4, 6))
+butterfly: ((0, 0), (0, 8))
+fly: ((0, 6), (0, 8))
+spider: ((8, 15), (13, 15))
+grasshopper: ((5, 12), (15, 12))
+dragonfly: ((3, 10), (3, 18))
+wasp: ((7, 19), (10, 19))
+
+Naïve Time taken: 0.0421 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| u  g  m  c  o  n  s  t  e  l  l  a  t  i  o  n  k  e  w  l |
+ 1| s  n  p  s  x  k  x  y  x  t  n  w  s  x  b  j  t  q  n  x |
+ 2| a  n  l  g  h  b  a  v  f  i  o  z  s  o  g  e  e  g  a  g |
+ 3| t  l  a  y  a  p  s  r  z  z  m  g  i  h  k  l  j  x  x  a |
+ 4| e  i  n  b  c  l  o  o  j  k  c  v  h  c  h  h  r  f  n  s |
+ 5| l  k  e  u  l  e  a  i  v  z  m  b  o  t  x  e  r  f  s  o |
+ 6| l  m  t  w  t  a  d  x  w  b  r  r  j  i  u  z  x  n  t  l |
+ 7| i  d  w  e  c  b  c  b  y  l  l  o  a  m  o  o  n  e  e  a |
+ 8| t  u  m  k  f  w  h  k  s  t  c  i  g  u  j  k  s  s  z  r |
+ 9| e  e  w  b  t  g  h  y  h  p  p  o  g  a  l  i  e  n  s  z |
+10| s  g  l  d  t  i  z  l  t  o  a  p  m  h  h  q  y  k  g  s |
+11| f  b  o  e  z  u  e  b  d  k  l  c  x  e  t  l  z  x  y  y |
+12| x  x  x  c  s  l  z  i  w  j  v  e  e  n  t  y  h  c  b  s |
+13| w  m  g  w  x  c  o  m  f  x  c  v  u  c  e  f  e  a  m  t |
+14| z  u  h  c  d  r  o  e  d  z  q  w  c  i  r  b  m  a  r  e |
+15| q  j  j  s  e  t  x  p  j  s  n  s  u  p  z  a  u  b  r  m |
+16| q  r  e  t  d  c  q  v  e  g  a  z  b  b  p  u  f  l  b  r |
+17| k  v  s  i  l  a  a  s  t  r  o  n  a  u  t  s  d  t  a  q |
+18| a  a  r  i  y  r  o  r  b  i  t  l  s  t  a  r  g  f  h  t |
+19| l  d  l  s  v  x  o  x  u  y  u  n  i  v  e  r  s  e  q  w |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+planet: ((1, 2), (6, 2))
+star: ((18, 12), (18, 15))
+moon: ((7, 13), (7, 16))
+satellite: ((1, 0), (9, 0))
+astronaut: ((17, 6), (17, 14))
+orbit: ((18, 6), (18, 10))
+universe: ((19, 10), (19, 17))
+constellation: ((0, 3), (0, 15))
+aliens: ((9, 13), (9, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((1, 2), (6, 2))
+star: ((18, 12), (18, 15))
+moon: ((7, 13), (7, 16))
+satellite: ((1, 0), (9, 0))
+astronaut: ((17, 6), (17, 14))
+orbit: ((18, 6), (18, 10))
+universe: ((19, 10), (19, 17))
+constellation: ((0, 3), (0, 15))
+aliens: ((9, 13), (9, 18))
+
+Naïve Time taken: 0.0516 seconds
+Naïve Memory used: 0.00 MB

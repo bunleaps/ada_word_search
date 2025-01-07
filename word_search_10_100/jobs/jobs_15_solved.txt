@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| z  f  k  w  c  h  e  f  w  h |
+ 1| e  n  g  i  n  e  e  r  m  w |
+ 2| t  e  a  c  h  e  r  a  u  l |
+ 3| d  e  n  t  i  s  t  p  s  a |
+ 4| w  r  i  t  e  r  i  i  i  w |
+ 5| d  o  c  t  o  r  c  l  c  y |
+ 6| f  a  r  m  e  r  c  o  i  e |
+ 7| d  p  o  l  i  c  e  t  a  r |
+ 8| r  r  a  r  t  i  s  t  n  s |
+ 9| t  e  n  u  r  s  e  w  u  w |
+  +------------------------------+
+Dynamic Programming Solution:
+teacher: ((2, 0), (2, 6))
+doctor: ((5, 0), (5, 5))
+engineer: ((1, 0), (1, 7))
+lawyer: ((2, 9), (7, 9))
+nurse: ((9, 2), (9, 6))
+chef: ((0, 4), (0, 7))
+pilot: ((3, 7), (7, 7))
+artist: ((8, 2), (8, 7))
+musician: ((1, 8), (8, 8))
+writer: ((4, 0), (4, 5))
+police: ((7, 1), (7, 6))
+farmer: ((6, 0), (6, 5))
+dentist: ((3, 0), (3, 6))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+teacher: ((2, 0), (2, 6))
+doctor: ((5, 0), (5, 5))
+engineer: ((1, 0), (1, 7))
+lawyer: ((2, 9), (7, 9))
+nurse: ((9, 2), (9, 6))
+chef: ((0, 4), (0, 7))
+pilot: ((3, 7), (7, 7))
+artist: ((8, 2), (8, 7))
+musician: ((1, 8), (8, 8))
+writer: ((4, 0), (4, 5))
+police: ((7, 1), (7, 6))
+farmer: ((6, 0), (6, 5))
+dentist: ((3, 0), (3, 6))
+
+Naïve Time taken: 0.0040 seconds
+Naïve Memory used: 0.00 MB

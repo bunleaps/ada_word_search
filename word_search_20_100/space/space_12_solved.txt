@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| q  s  a  t  e  l  l  i  t  e  i  a  n  e  b  u  l  a  r  b |
+ 1| u  x  y  o  q  h  s  f  i  e  y  f  g  o  v  d  u  g  j  w |
+ 2| n  c  o  m  e  t  a  p  j  h  p  j  i  j  f  b  u  q  p  h |
+ 3| k  h  o  v  s  p  a  c  e  c  r  a  f  t  o  l  d  d  p  b |
+ 4| c  u  h  r  l  g  m  q  u  n  i  v  e  r  s  e  t  d  j  u |
+ 5| o  n  d  i  b  q  q  g  s  t  j  u  w  n  i  h  w  a  h  h |
+ 6| n  l  n  i  i  i  x  a  q  l  p  l  m  v  p  o  f  i  w  q |
+ 7| s  w  i  w  l  f  t  p  l  g  v  l  d  p  a  d  s  v  d  r |
+ 8| t  a  k  g  u  m  a  o  g  i  t  f  a  j  s  s  o  m  m  z |
+ 9| e  t  b  x  h  j  z  s  c  a  e  w  m  n  t  a  l  w  e  c |
+10| l  l  c  l  l  t  t  d  t  h  l  n  y  v  e  m  a  c  t  w |
+11| l  c  p  b  a  k  y  a  b  r  d  a  s  g  r  t  r  r  e  u |
+12| a  j  n  w  a  c  f  e  r  x  o  f  x  g  o  s  p  s  o  y |
+13| t  v  c  e  f  q  k  a  a  m  s  n  g  y  i  i  s  v  r  v |
+14| i  y  g  b  v  z  t  h  e  r  x  q  a  x  d  u  y  o  i  y |
+15| o  k  u  f  z  s  h  y  o  q  p  h  l  u  h  s  s  j  z  h |
+16| n  i  v  y  q  m  o  o  n  l  p  z  x  x  t  r  t  y  v  w |
+17| l  z  v  i  g  b  r  x  z  q  e  b  y  x  j  i  e  v  o  j |
+18| t  e  l  e  s  c  o  p  e  u  o  w  z  w  x  k  m  e  d  i |
+19| t  t  i  m  b  r  o  c  k  e  t  p  c  q  f  n  c  t  h  b |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+moon: ((16, 5), (16, 8))
+asteroid: ((7, 14), (14, 14))
+comet: ((2, 1), (2, 5))
+nebula: ((0, 12), (0, 17))
+satellite: ((0, 1), (0, 9))
+telescope: ((18, 0), (18, 8))
+rocket: ((19, 5), (19, 10))
+spacecraft: ((3, 4), (3, 13))
+universe: ((4, 8), (4, 15))
+meteor: ((8, 18), (13, 18))
+constellation: ((4, 0), (16, 0))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+moon: ((16, 5), (16, 8))
+asteroid: ((7, 14), (14, 14))
+comet: ((2, 1), (2, 5))
+nebula: ((0, 12), (0, 17))
+satellite: ((0, 1), (0, 9))
+telescope: ((18, 0), (18, 8))
+rocket: ((19, 5), (19, 10))
+spacecraft: ((3, 4), (3, 13))
+universe: ((4, 8), (4, 15))
+meteor: ((8, 18), (13, 18))
+constellation: ((4, 0), (16, 0))
+
+Naïve Time taken: 0.0524 seconds
+Naïve Memory used: 0.00 MB

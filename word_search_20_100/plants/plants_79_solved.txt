@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| w  v  o  v  w  t  e  z  v  k  w  s  n  c  p  t  x  j  q  w |
+ 1| c  x  e  a  i  l  d  n  e  e  j  a  n  r  g  t  q  i  p  v |
+ 2| k  x  i  t  i  n  c  i  c  h  r  e  n  r  z  w  m  k  v  j |
+ 3| p  b  d  y  c  e  e  q  e  e  u  b  a  s  u  h  y  b  i  b |
+ 4| a  u  y  p  l  q  t  t  w  m  u  h  a  h  x  l  h  w  v  p |
+ 5| l  f  b  p  m  k  k  o  y  z  c  n  x  m  i  s  q  g  y  g |
+ 6| m  d  a  m  e  c  l  s  s  c  r  o  q  l  b  p  y  f  k  p |
+ 7| t  m  f  u  u  f  i  m  e  e  o  g  n  d  o  o  n  j  h  i |
+ 8| u  t  h  t  n  a  r  x  f  c  s  h  m  k  a  w  o  z  i  n |
+ 9| l  s  x  u  d  u  o  o  g  v  z  z  f  p  k  v  e  a  h  e |
+10| i  t  s  j  s  y  s  v  t  e  c  d  w  i  i  f  n  j  z  r |
+11| p  n  g  i  q  n  e  t  m  r  z  f  o  p  x  s  w  w  v  w |
+12| f  j  v  c  s  q  f  l  o  w  e  r  m  e  j  z  i  a  f  e |
+13| s  c  k  s  s  r  s  f  z  s  k  e  h  n  m  r  p  n  f  n |
+14| f  a  h  s  h  s  x  s  f  p  s  h  g  j  a  j  t  h  a  s |
+15| f  c  b  w  o  r  a  i  o  x  a  k  a  r  n  f  v  j  z  p |
+16| c  t  y  m  a  r  u  r  y  y  t  z  v  k  a  y  d  e  p  q |
+17| e  u  g  c  n  v  i  b  f  w  x  t  k  a  w  s  u  z  a  t |
+18| g  s  r  d  v  j  g  l  s  d  q  r  c  k  v  r  s  u  x  d |
+19| v  z  b  s  c  h  n  o  b  o  r  c  h  i  d  f  b  n  u  s |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+flower: ((12, 6), (12, 11))
+cactus: ((13, 1), (18, 1))
+oak: ((7, 14), (9, 14))
+pine: ((6, 19), (9, 19))
+rose: ((8, 6), (11, 6))
+tulip: ((7, 0), (11, 0))
+orchid: ((19, 9), (19, 14))
+ivy: ((3, 18), (5, 18))
+palm: ((3, 0), (6, 0))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+flower: ((12, 6), (12, 11))
+cactus: ((13, 1), (18, 1))
+oak: ((7, 14), (9, 14))
+pine: ((6, 19), (9, 19))
+rose: ((8, 6), (11, 6))
+tulip: ((7, 0), (11, 0))
+orchid: ((19, 9), (19, 14))
+ivy: ((3, 18), (5, 18))
+palm: ((3, 0), (6, 0))
+
+Naïve Time taken: 0.0680 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| t  b  s  c  r  i  p  t  f  c  h  x  p  a  v  s  w  p  t  e |
+ 1| d  o  c  u  m  e  n  t  a  r  y  r  l  o  v  w  b  l  o  f |
+ 2| a  n  i  m  a  t  i  o  n  n  t  e  o  p  p  g  t  k  c  b |
+ 3| f  d  t  m  m  m  b  v  i  i  u  w  e  m  e  c  s  c  f  o |
+ 4| s  b  k  u  y  k  x  a  f  q  a  z  t  g  a  l  o  s  b  x |
+ 5| k  r  y  q  t  z  l  f  e  d  k  x  a  k  e  n  l  r  n  o |
+ 6| s  a  p  t  c  l  y  s  s  p  m  g  i  g  x  n  c  d  n  f |
+ 7| j  a  k  c  i  g  i  q  t  j  r  q  o  f  e  n  r  e  v  f |
+ 8| b  r  j  v  c  v  p  c  i  g  d  e  y  s  e  f  b  e  s  i |
+ 9| l  n  k  z  u  d  o  x  v  m  i  t  m  f  k  q  a  a  i  c |
+10| o  d  d  k  r  h  h  g  a  m  r  s  r  i  o  m  n  c  h  e |
+11| c  o  r  a  r  j  e  c  l  u  e  y  n  a  e  o  u  t  o  o |
+12| k  w  w  a  c  a  r  g  x  s  c  c  c  v  i  r  g  o  r  g |
+13| b  a  s  v  m  t  o  r  d  i  t  u  i  o  y  l  e  r  r  b |
+14| u  n  b  q  a  a  r  w  i  c  o  l  j  n  m  j  e  u  o  q |
+15| s  d  d  d  b  l  p  e  y  a  r  w  k  y  e  e  j  r  r  u |
+16| t  h  r  i  l  l  e  r  s  l  h  h  x  j  c  m  d  c  v  w |
+17| e  l  h  u  g  p  n  b  r  s  t  b  s  m  c  m  a  y  l  l |
+18| r  c  w  s  c  r  e  e  n  p  l  a  y  t  j  z  e  i  x  u |
+19| z  h  p  r  o  d  u  c  e  r  c  l  g  z  v  l  w  k  t  d |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+actor: ((9, 17), (13, 17))
+director: ((8, 10), (15, 10))
+script: ((0, 2), (0, 7))
+blockbuster: ((8, 0), (18, 0))
+hero: ((10, 6), (13, 6))
+thriller: ((16, 0), (16, 7))
+horror: ((10, 18), (15, 18))
+animation: ((2, 0), (2, 8))
+musical: ((10, 9), (16, 9))
+documentary: ((1, 0), (1, 10))
+producer: ((19, 2), (19, 9))
+boxoffice: ((2, 19), (10, 19))
+screenplay: ((18, 3), (18, 12))
+festival: ((4, 8), (11, 8))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+actor: ((9, 17), (13, 17))
+director: ((8, 10), (15, 10))
+script: ((0, 2), (0, 7))
+blockbuster: ((8, 0), (18, 0))
+hero: ((10, 6), (13, 6))
+thriller: ((16, 0), (16, 7))
+horror: ((10, 18), (15, 18))
+animation: ((2, 0), (2, 8))
+musical: ((10, 9), (16, 9))
+documentary: ((1, 0), (1, 10))
+producer: ((19, 2), (19, 9))
+boxoffice: ((2, 19), (10, 19))
+screenplay: ((18, 3), (18, 12))
+festival: ((4, 8), (11, 8))
+
+Naïve Time taken: 0.0775 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| w  z  m  l  o  n  u  s  t  d  c  o  u  n  t  r  y  q  a  c |
+ 1| v  c  w  d  q  q  s  c  m  g  d  m  r  u  n  q  e  y  x  a |
+ 2| d  d  h  t  e  e  z  j  o  a  y  u  o  y  s  i  c  m  d  u |
+ 3| p  x  e  u  c  s  a  o  u  n  l  z  t  u  x  b  h  a  a  b |
+ 4| q  e  z  w  r  n  e  n  l  f  t  i  l  o  n  b  u  n  g  h |
+ 5| i  f  e  w  w  c  r  r  z  d  c  i  d  u  s  t  m  u  f  p |
+ 6| v  k  y  j  t  r  h  n  t  h  w  b  n  j  o  k  a  z  h  p |
+ 7| e  o  k  i  y  m  r  i  v  e  r  o  z  e  x  k  j  i  j  f |
+ 8| p  l  d  w  r  j  r  p  k  g  k  v  l  z  n  e  h  y  n  d |
+ 9| e  l  g  n  z  o  h  g  d  j  e  a  e  e  m  t  x  f  n  r |
+10| h  a  m  e  d  w  a  x  g  g  t  a  w  s  q  d  h  s  j  y |
+11| v  s  c  h  o  o  l  d  a  i  h  j  n  h  o  t  h  l  n  s |
+12| c  w  q  t  h  b  o  l  p  x  s  z  m  o  o  c  w  g  z  b |
+13| o  t  a  r  w  n  l  s  v  x  d  t  g  p  a  r  k  e  m  o |
+14| l  x  y  y  w  i  o  f  v  l  z  h  r  e  b  s  v  l  u  l |
+15| m  d  c  o  v  h  e  k  r  h  d  e  b  e  p  v  n  v  s  a |
+16| i  n  t  n  c  n  x  g  f  s  q  j  j  j  e  t  n  q  e  k |
+17| g  d  d  r  e  s  t  a  u  r  a  n  t  s  e  t  r  v  u  e |
+18| v  x  t  f  o  r  e  s  t  u  h  r  o  b  d  u  j  z  m  n |
+19| p  i  z  q  i  s  l  a  n  d  l  e  b  a  t  m  m  k  p  d |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+park: ((13, 13), (13, 16))
+river: ((7, 6), (7, 10))
+lake: ((14, 19), (17, 19))
+forest: ((18, 3), (18, 8))
+island: ((19, 4), (19, 9))
+country: ((0, 10), (0, 16))
+school: ((11, 1), (11, 6))
+museum: ((13, 18), (18, 18))
+restaurant: ((17, 3), (17, 12))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+park: ((13, 13), (13, 16))
+river: ((7, 6), (7, 10))
+lake: ((14, 19), (17, 19))
+forest: ((18, 3), (18, 8))
+island: ((19, 4), (19, 9))
+country: ((0, 10), (0, 16))
+school: ((11, 1), (11, 6))
+museum: ((13, 18), (18, 18))
+restaurant: ((17, 3), (17, 12))
+
+Naïve Time taken: 0.0596 seconds
+Naïve Memory used: 0.00 MB

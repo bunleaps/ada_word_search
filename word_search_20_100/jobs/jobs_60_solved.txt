@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  d  u  c  g  k  x  d  i  m  j  e  x  b  e  c  v  f  e  y |
+ 1| n  n  w  w  g  k  d  x  y  v  i  i  w  f  i  a  q  a  c  t |
+ 2| v  n  o  z  a  w  g  m  j  z  l  g  o  r  t  g  c  r  a  c |
+ 3| p  p  l  x  a  s  n  l  u  m  a  a  z  y  i  i  l  m  c  g |
+ 4| r  p  f  p  t  f  k  v  t  s  s  j  w  k  h  t  m  e  c  g |
+ 5| o  i  i  v  p  e  g  e  m  z  i  i  n  y  m  s  e  r  o  b |
+ 6| g  l  c  v  a  p  a  t  u  c  f  c  d  k  e  j  c  r  u  g |
+ 7| r  o  f  g  f  x  m  c  u  i  w  r  i  e  n  r  h  q  n  p |
+ 8| a  t  d  i  k  p  b  p  h  c  c  p  s  a  n  h  a  x  t  h |
+ 9| m  k  y  s  r  m  b  d  x  e  d  q  c  a  n  t  n  p  a  o |
+10| m  k  b  l  p  e  r  n  b  a  r  t  i  s  t  p  i  j  n  t |
+11| e  r  w  d  o  m  f  m  u  k  n  k  e  j  l  p  c  s  t  o |
+12| r  g  c  l  s  p  m  i  y  r  e  c  n  v  g  o  m  r  t  g |
+13| f  z  h  q  m  n  e  e  g  w  s  h  t  g  m  l  k  i  f  r |
+14| g  d  o  c  t  o  r  b  k  h  y  e  i  h  g  i  a  o  b  a |
+15| l  a  p  l  l  h  r  f  k  w  t  f  s  w  k  c  t  g  l  p |
+16| o  x  r  d  a  o  b  w  q  d  x  e  t  y  f  e  s  w  d  h |
+17| r  m  q  o  j  r  d  o  j  e  n  l  r  q  z  e  n  p  y  e |
+18| t  r  m  r  j  l  l  v  e  n  g  i  n  e  e  r  c  t  p  r |
+19| v  d  x  s  m  u  e  a  r  c  h  i  t  e  c  t  z  v  y  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+doctor: ((14, 1), (14, 6))
+engineer: ((18, 8), (18, 15))
+chef: ((12, 11), (15, 11))
+pilot: ((4, 1), (8, 1))
+artist: ((10, 9), (10, 14))
+scientist: ((8, 12), (16, 12))
+architect: ((19, 7), (19, 15))
+police: ((11, 15), (16, 15))
+farmer: ((0, 17), (5, 17))
+mechanic: ((4, 16), (11, 16))
+accountant: ((2, 18), (11, 18))
+photographer: ((7, 19), (18, 19))
+programmer: ((3, 0), (12, 0))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+doctor: ((14, 1), (14, 6))
+engineer: ((18, 8), (18, 15))
+chef: ((12, 11), (15, 11))
+pilot: ((4, 1), (8, 1))
+artist: ((10, 9), (10, 14))
+scientist: ((8, 12), (16, 12))
+architect: ((19, 7), (19, 15))
+police: ((11, 15), (16, 15))
+farmer: ((0, 17), (5, 17))
+mechanic: ((4, 16), (11, 16))
+accountant: ((2, 18), (11, 18))
+photographer: ((7, 19), (18, 19))
+programmer: ((3, 0), (12, 0))
+
+Naïve Time taken: 0.0549 seconds
+Naïve Memory used: 0.00 MB

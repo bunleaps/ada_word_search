@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| d  m  e  m  x  b  n  z  j  f  a  s  i  q  l  o  m  x  w  l |
+ 1| d  o  o  n  e  g  z  d  x  n  h  q  f  t  m  k  d  h  y  e |
+ 2| l  s  k  t  y  r  u  v  c  j  h  q  o  c  y  h  a  n  d  g |
+ 3| w  k  a  f  p  d  j  m  u  m  e  t  o  f  d  m  n  o  q  t |
+ 4| q  i  w  n  a  t  t  v  c  e  o  e  t  i  l  i  a  s  i  f |
+ 5| l  n  q  e  r  w  o  q  n  s  u  e  z  k  a  y  r  h  k  o |
+ 6| d  b  h  a  t  q  q  k  t  j  t  t  h  r  a  b  w  x  m  n |
+ 7| r  t  e  l  e  r  a  r  m  j  g  h  b  f  p  v  g  v  f  k |
+ 8| l  h  b  e  a  y  g  q  r  i  m  a  t  b  k  r  q  k  l  c |
+ 9| s  o  o  v  p  h  e  q  c  u  s  j  b  a  c  k  l  a  z  j |
+10| f  t  s  z  t  f  x  t  u  c  m  h  q  c  f  p  b  f  f  e |
+11| x  n  k  u  q  q  r  z  q  n  o  p  o  z  h  s  s  h  i  j |
+12| d  s  o  e  a  r  n  e  c  k  n  p  a  u  o  e  c  d  n  d |
+13| k  m  u  s  b  s  y  y  o  r  z  c  s  g  l  a  s  u  g  b |
+14| j  q  m  g  e  t  v  m  o  w  n  l  x  a  m  d  b  t  e  r |
+15| t  g  t  m  n  a  e  s  q  s  z  t  h  o  c  k  e  d  r  f |
+16| s  h  a  f  s  l  k  y  g  d  j  i  t  q  r  g  f  r  i  o |
+17| m  d  f  x  k  y  x  g  g  v  b  s  q  u  j  f  y  u  v  x |
+18| z  z  s  u  o  l  q  m  x  p  f  v  w  y  d  l  z  c  q  l |
+19| y  v  m  k  s  e  n  u  d  x  x  c  v  m  d  b  v  d  a  v |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+hand: ((2, 15), (2, 18))
+foot: ((1, 12), (4, 12))
+leg: ((0, 19), (2, 19))
+arm: ((7, 6), (7, 8))
+ear: ((12, 3), (12, 5))
+back: ((9, 12), (9, 15))
+neck: ((12, 6), (12, 9))
+finger: ((10, 18), (15, 18))
+skin: ((2, 1), (5, 1))
+teeth: ((3, 11), (7, 11))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+hand: ((2, 15), (2, 18))
+foot: ((1, 12), (4, 12))
+leg: ((0, 19), (2, 19))
+arm: ((7, 6), (7, 8))
+ear: ((12, 3), (12, 5))
+back: ((9, 12), (9, 15))
+neck: ((12, 6), (12, 9))
+finger: ((10, 18), (15, 18))
+skin: ((2, 1), (5, 1))
+teeth: ((3, 11), (7, 11))
+
+Naïve Time taken: 0.0682 seconds
+Naïve Memory used: 0.00 MB

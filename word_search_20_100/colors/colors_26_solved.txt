@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  d  b  x  j  j  c  d  y  d  l  a  f  g  a  w  l  f  o  x |
+ 1| f  j  t  f  g  r  a  y  c  f  q  d  y  t  i  g  w  p  b  n |
+ 2| c  a  h  f  m  f  c  i  e  n  r  s  c  j  k  j  s  l  i  m |
+ 3| q  n  c  x  g  r  e  e  n  q  u  f  i  m  k  d  j  v  y  a |
+ 4| p  q  q  q  v  x  x  l  u  p  p  j  w  l  c  e  w  g  r  r |
+ 5| s  i  d  q  i  n  n  i  r  w  h  i  i  h  v  p  b  q  y  o |
+ 6| a  b  n  z  w  q  y  o  n  o  r  a  n  g  e  e  z  y  k  o |
+ 7| d  u  d  k  h  k  o  s  l  e  n  n  m  h  z  m  r  n  y  n |
+ 8| k  r  u  g  c  f  r  z  x  i  w  c  q  q  t  d  j  a  s  k |
+ 9| a  n  f  a  b  k  k  e  g  r  v  f  d  h  u  n  d  h  l  o |
+10| l  v  l  w  l  l  o  a  o  c  m  e  w  h  w  d  o  a  u  p |
+11| a  b  t  e  a  l  u  m  l  d  n  u  t  o  v  b  t  h  m  w |
+12| y  r  c  y  a  n  q  e  d  j  a  c  r  w  g  g  t  n  a  q |
+13| f  j  e  q  e  i  b  e  i  g  e  b  x  g  r  e  e  l  g  q |
+14| c  l  f  d  p  d  n  a  l  j  j  c  d  z  t  g  w  w  e  o |
+15| c  p  f  d  p  a  z  a  a  w  t  x  a  i  l  q  o  k  n  v |
+16| i  m  t  g  m  q  k  f  o  l  u  h  h  g  k  l  p  x  t  i |
+17| v  n  a  v  y  c  x  h  a  k  j  w  z  o  l  v  u  c  a  p |
+18| w  m  p  o  p  u  r  p  l  e  y  v  u  e  e  d  o  h  g  r |
+19| g  f  f  l  p  n  j  f  j  a  o  v  y  k  u  c  v  u  x  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+green: ((3, 4), (3, 8))
+purple: ((18, 4), (18, 9))
+orange: ((6, 9), (6, 14))
+gray: ((1, 4), (1, 7))
+cyan: ((12, 2), (12, 5))
+magenta: ((11, 18), (17, 18))
+navy: ((17, 1), (17, 4))
+teal: ((11, 2), (11, 5))
+gold: ((9, 8), (12, 8))
+maroon: ((2, 19), (7, 19))
+beige: ((13, 6), (13, 10))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+green: ((3, 4), (3, 8))
+purple: ((18, 4), (18, 9))
+orange: ((6, 9), (6, 14))
+gray: ((1, 4), (1, 7))
+cyan: ((12, 2), (12, 5))
+magenta: ((11, 18), (17, 18))
+navy: ((17, 1), (17, 4))
+teal: ((11, 2), (11, 5))
+gold: ((9, 8), (12, 8))
+maroon: ((2, 19), (7, 19))
+beige: ((13, 6), (13, 10))
+
+Naïve Time taken: 0.0590 seconds
+Naïve Memory used: 0.00 MB

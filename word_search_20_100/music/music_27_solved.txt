@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  j  f  n  d  u  g  x  a  m  e  c  o  n  c  e  r  t  c  d |
+ 1| n  r  u  t  l  e  m  r  l  n  f  t  w  r  u  d  n  c  d  p |
+ 2| l  j  b  m  g  y  z  q  y  z  v  v  p  p  u  r  o  f  y  c |
+ 3| s  a  x  o  p  h  o  n  e  x  f  e  s  u  x  u  t  d  z  u |
+ 4| m  h  n  l  y  r  i  c  s  s  v  s  m  i  d  m  e  j  a  b |
+ 5| i  p  s  t  u  h  d  t  z  h  o  r  b  a  n  s  u  z  r  u |
+ 6| c  p  i  a  n  o  q  r  k  a  m  v  u  q  l  g  w  l  w  x |
+ 7| r  m  r  c  h  e  m  u  l  r  z  d  i  x  u  b  e  s  x  k |
+ 8| o  y  o  x  e  b  v  m  g  m  z  m  s  o  m  p  u  r  w  h |
+ 9| p  p  u  p  a  o  c  p  j  o  u  b  u  x  l  m  v  m  x  s |
+10| h  x  y  x  d  f  t  e  q  n  r  j  g  t  h  i  u  q  u  u |
+11| o  b  w  h  p  h  l  t  q  y  t  n  o  t  a  m  n  o  r  x |
+12| n  s  d  f  h  r  s  u  v  v  t  l  y  d  b  m  c  d  q  v |
+13| e  b  e  g  o  f  n  c  t  s  v  h  n  r  a  g  w  n  a  f |
+14| h  j  a  u  n  c  l  h  g  e  r  d  i  r  n  v  b  k  r  p |
+15| x  t  g  i  e  t  b  d  a  l  r  g  v  c  d  s  p  k  w  f |
+16| r  o  u  t  s  s  p  q  l  o  z  k  q  d  s  g  t  q  o  f |
+17| q  z  q  a  a  o  r  c  h  e  s  t  r  a  f  y  h  q  s  d |
+18| w  a  g  r  k  k  m  c  m  o  u  w  m  k  o  a  o  f  q  g |
+19| l  l  b  y  u  c  x  m  e  l  o  d  y  n  z  b  e  c  s  o |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((13, 3), (18, 3))
+piano: ((6, 1), (6, 5))
+drums: ((1, 15), (5, 15))
+saxophone: ((3, 0), (3, 8))
+trumpet: ((5, 7), (11, 7))
+band: ((12, 14), (15, 14))
+orchestra: ((17, 5), (17, 13))
+melody: ((19, 7), (19, 12))
+harmony: ((5, 9), (11, 9))
+note: ((1, 16), (4, 16))
+concert: ((0, 11), (0, 17))
+lyrics: ((4, 3), (4, 8))
+microphone: ((4, 0), (13, 0))
+headphones: ((7, 4), (16, 4))
+
+DP Time taken: 0.0022 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((13, 3), (18, 3))
+piano: ((6, 1), (6, 5))
+drums: ((1, 15), (5, 15))
+saxophone: ((3, 0), (3, 8))
+trumpet: ((5, 7), (11, 7))
+band: ((12, 14), (15, 14))
+orchestra: ((17, 5), (17, 13))
+melody: ((19, 7), (19, 12))
+harmony: ((5, 9), (11, 9))
+note: ((1, 16), (4, 16))
+concert: ((0, 11), (0, 17))
+lyrics: ((4, 3), (4, 8))
+microphone: ((4, 0), (13, 0))
+headphones: ((7, 4), (16, 4))
+
+Naïve Time taken: 0.0518 seconds
+Naïve Memory used: 0.00 MB

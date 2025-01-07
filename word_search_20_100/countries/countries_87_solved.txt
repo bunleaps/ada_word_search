@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  a  a  u  x  l  d  k  f  i  n  l  a  n  d  x  s  m  e  b |
+ 1| g  u  h  d  r  r  a  u  s  t  r  a  l  i  a  x  a  p  u  k |
+ 2| n  e  p  a  i  h  b  m  n  f  r  z  m  u  n  i  o  d  s  k |
+ 3| s  a  r  o  y  t  b  i  u  b  k  u  c  y  s  v  r  x  w  u |
+ 4| j  v  c  m  r  f  u  p  j  a  p  a  n  s  v  a  w  l  i  s |
+ 5| m  z  z  d  a  t  j  r  f  y  u  a  u  t  a  u  s  e  t  q |
+ 6| e  m  z  k  p  n  u  p  k  y  a  r  k  n  m  m  b  b  z  h |
+ 7| x  k  k  e  k  o  y  g  f  e  b  u  i  h  y  c  j  v  e  d |
+ 8| i  f  y  n  b  q  l  i  a  u  y  t  n  m  h  x  c  y  r  m |
+ 9| c  n  r  y  e  m  k  a  c  l  n  s  u  g  b  b  m  x  l  m |
+10| o  q  d  a  p  r  g  f  n  e  g  x  m  n  t  l  z  v  a  c |
+11| f  f  n  i  a  j  m  r  g  d  l  c  h  i  n  a  z  u  n  i |
+12| g  k  f  m  a  l  l  r  e  s  h  a  s  w  e  d  e  n  d  f |
+13| g  u  n  f  i  e  a  r  j  e  a  e  n  k  x  h  c  r  l  b |
+14| p  e  p  z  q  g  k  t  b  s  c  n  c  d  i  d  a  y  z  j |
+15| d  n  a  y  s  y  k  j  o  l  p  e  x  v  e  t  n  c  q  a |
+16| y  r  l  d  t  p  m  z  o  a  d  a  l  m  w  l  a  z  y  h |
+17| b  r  p  i  p  t  y  h  x  g  d  u  i  b  s  h  d  l  k  v |
+18| b  w  n  n  o  r  w  a  y  b  w  d  k  n  w  j  a  v  y  y |
+19| r  j  n  q  g  p  s  u  f  r  a  n  c  e  i  t  l  o  d  w |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+canada: ((13, 16), (18, 16))
+france: ((19, 8), (19, 13))
+china: ((11, 11), (11, 15))
+japan: ((4, 8), (4, 12))
+australia: ((1, 6), (1, 14))
+egypt: ((13, 5), (17, 5))
+kenya: ((6, 3), (10, 3))
+mexico: ((5, 0), (10, 0))
+uk: ((1, 18), (1, 19))
+sweden: ((12, 12), (12, 17))
+norway: ((18, 3), (18, 8))
+finland: ((0, 8), (0, 14))
+switzerland: ((2, 18), (12, 18))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+canada: ((13, 16), (18, 16))
+france: ((19, 8), (19, 13))
+china: ((11, 11), (11, 15))
+japan: ((4, 8), (4, 12))
+australia: ((1, 6), (1, 14))
+egypt: ((13, 5), (17, 5))
+kenya: ((6, 3), (10, 3))
+mexico: ((5, 0), (10, 0))
+uk: ((1, 18), (1, 19))
+sweden: ((12, 12), (12, 17))
+norway: ((18, 3), (18, 8))
+finland: ((0, 8), (0, 14))
+switzerland: ((2, 18), (12, 18))
+
+Naïve Time taken: 0.0731 seconds
+Naïve Memory used: 0.00 MB

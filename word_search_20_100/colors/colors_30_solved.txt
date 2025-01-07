@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  e  i  g  e  c  a  s  a  e  o  b  c  d  h  b  r  t  n  a |
+ 1| q  t  x  e  d  o  k  j  e  l  c  o  o  z  t  r  v  g  h  s |
+ 2| z  v  q  e  r  x  s  f  k  j  n  m  s  f  d  o  f  a  n  c |
+ 3| h  d  r  p  f  x  p  s  t  o  j  a  z  w  t  w  g  b  x  f |
+ 4| w  r  m  c  x  i  h  i  v  d  n  r  w  u  b  n  d  w  r  l |
+ 5| h  h  i  l  o  v  v  y  n  s  m  o  r  w  l  b  q  l  g  d |
+ 6| w  p  i  v  h  t  x  s  w  k  c  o  s  b  a  h  h  s  r  q |
+ 7| n  b  j  t  j  k  z  x  z  m  g  n  n  u  c  h  y  i  a  v |
+ 8| f  y  c  q  e  j  p  s  q  x  u  o  m  e  k  o  k  l  y  l |
+ 9| y  a  k  w  q  f  a  v  a  y  f  c  s  g  b  l  p  v  u  q |
+10| s  e  f  a  h  b  y  q  v  o  m  m  d  h  m  i  w  e  w  m |
+11| y  t  l  e  s  d  e  a  a  n  k  t  l  h  a  v  y  r  r  w |
+12| i  e  o  l  a  d  n  y  a  e  i  t  l  t  m  e  q  m  t  b |
+13| b  a  b  g  o  n  u  y  l  w  c  y  n  n  s  w  n  u  e  x |
+14| p  l  l  r  j  w  c  p  b  k  z  e  q  g  o  l  d  g  a  k |
+15| z  t  c  e  u  t  r  x  f  l  g  l  v  z  w  r  n  p  i  o |
+16| u  g  f  e  l  u  o  r  g  a  u  v  v  e  c  a  y  z  c  o |
+17| c  f  d  n  p  y  m  u  m  r  l  e  d  o  r  v  z  b  l  r |
+18| d  v  p  z  k  i  y  b  x  x  m  t  q  o  w  e  n  m  x  z |
+19| d  y  g  n  a  q  i  a  d  j  a  u  x  z  c  l  q  l  c  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+green: ((13, 3), (17, 3))
+black: ((4, 14), (8, 14))
+gray: ((5, 18), (8, 18))
+brown: ((0, 15), (4, 15))
+teal: ((11, 1), (14, 1))
+gold: ((14, 13), (14, 16))
+silver: ((6, 17), (11, 17))
+maroon: ((2, 11), (7, 11))
+beige: ((0, 0), (0, 4))
+olive: ((8, 15), (12, 15))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+green: ((13, 3), (17, 3))
+black: ((4, 14), (8, 14))
+gray: ((5, 18), (8, 18))
+brown: ((0, 15), (4, 15))
+teal: ((11, 1), (14, 1))
+gold: ((14, 13), (14, 16))
+silver: ((6, 17), (11, 17))
+maroon: ((2, 11), (7, 11))
+beige: ((0, 0), (0, 4))
+olive: ((8, 15), (12, 15))
+
+Naïve Time taken: 0.0683 seconds
+Naïve Memory used: 0.00 MB

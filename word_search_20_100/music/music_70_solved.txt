@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| t  r  u  m  p  e  t  d  r  b  e  h  r  m  p  d  r  f  p  m |
+ 1| q  v  k  d  r  h  p  v  g  n  a  e  w  p  z  s  x  y  g  q |
+ 2| l  m  u  v  r  c  c  f  g  n  v  h  f  f  i  r  k  r  s  a |
+ 3| c  n  m  q  t  u  c  z  h  a  n  e  o  d  c  a  h  t  h  i |
+ 4| v  r  x  a  w  y  m  a  y  o  t  a  k  h  e  s  n  s  c  b |
+ 5| y  k  g  p  b  k  t  s  j  e  k  d  u  q  j  t  p  o  h  a |
+ 6| q  l  m  y  r  l  r  i  a  k  k  p  s  a  r  q  x  d  l  n |
+ 7| o  o  k  b  t  e  e  r  e  r  y  h  v  e  c  v  y  q  y  d |
+ 8| g  e  b  q  g  a  q  n  l  t  f  o  c  i  d  d  p  g  r  n |
+ 9| a  j  a  n  g  c  o  x  f  j  j  n  s  n  o  d  x  g  i  u |
+10| d  d  i  h  j  h  w  k  t  h  o  e  q  l  k  l  u  g  c  t |
+11| p  s  a  r  p  k  e  q  z  c  l  s  e  k  m  p  i  c  s  w |
+12| l  x  q  o  a  a  x  n  s  c  o  m  i  v  b  n  i  n  f  l |
+13| c  y  x  m  f  a  l  b  u  m  h  a  r  m  o  n  y  w  b  s |
+14| d  a  q  o  g  r  h  y  t  h  m  f  m  p  g  h  w  d  w  k |
+15| s  l  f  z  u  g  g  g  w  b  b  m  j  a  e  r  a  n  z  q |
+16| l  m  f  u  y  g  u  i  t  a  r  l  d  f  x  z  l  o  b  a |
+17| l  q  i  x  x  n  r  w  g  b  u  c  v  h  w  f  r  t  o  u |
+18| f  u  m  i  c  r  o  p  h  o  n  e  f  l  u  t  e  e  a  f |
+19| m  c  h  o  r  d  o  r  c  h  e  s  t  r  a  f  h  q  n  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((16, 5), (16, 10))
+flute: ((18, 12), (18, 16))
+trumpet: ((0, 0), (0, 6))
+band: ((4, 19), (7, 19))
+orchestra: ((19, 6), (19, 14))
+harmony: ((13, 10), (13, 16))
+rhythm: ((14, 5), (14, 10))
+note: ((15, 17), (18, 17))
+chord: ((19, 1), (19, 5))
+lyrics: ((6, 18), (11, 18))
+album: ((13, 5), (13, 9))
+microphone: ((18, 2), (18, 11))
+headphones: ((2, 11), (11, 11))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((16, 5), (16, 10))
+flute: ((18, 12), (18, 16))
+trumpet: ((0, 0), (0, 6))
+band: ((4, 19), (7, 19))
+orchestra: ((19, 6), (19, 14))
+harmony: ((13, 10), (13, 16))
+rhythm: ((14, 5), (14, 10))
+note: ((15, 17), (18, 17))
+chord: ((19, 1), (19, 5))
+lyrics: ((6, 18), (11, 18))
+album: ((13, 5), (13, 9))
+microphone: ((18, 2), (18, 11))
+headphones: ((2, 11), (11, 11))
+
+Naïve Time taken: 0.0675 seconds
+Naïve Memory used: 0.00 MB

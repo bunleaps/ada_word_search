@@ -1,0 +1,43 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| n  n  s  t  o  m  a  c  h  v |
+ 1| a  o  o  k  s  e  y  e  m  n |
+ 2| b  r  s  t  f  d  d  t  a  t |
+ 3| a  t  m  e  a  o  t  e  b  n |
+ 4| c  c  o  e  e  r  o  e  m  e |
+ 5| k  h  h  e  a  e  g  t  o  c |
+ 6| h  e  h  e  r  e  d  h  u  k |
+ 7| r  s  h  u  l  n  l  r  t  t |
+ 8| y  t  b  r  a  i  n  d  h  x |
+ 9| g  h  r  h  k  n  e  e  n  v |
+  +------------------------------+
+Dynamic Programming Solution:
+eye: ((1, 5), (1, 7))
+ear: ((4, 4), (6, 4))
+mouth: ((4, 8), (8, 8))
+stomach: ((0, 2), (0, 8))
+back: ((2, 0), (5, 0))
+chest: ((4, 1), (8, 1))
+neck: ((3, 9), (6, 9))
+knee: ((9, 4), (9, 7))
+brain: ((8, 2), (8, 6))
+teeth: ((2, 7), (6, 7))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+eye: ((1, 5), (1, 7))
+ear: ((4, 4), (6, 4))
+mouth: ((4, 8), (8, 8))
+stomach: ((0, 2), (0, 8))
+back: ((2, 0), (5, 0))
+chest: ((4, 1), (8, 1))
+neck: ((3, 9), (6, 9))
+knee: ((9, 4), (9, 7))
+brain: ((8, 2), (8, 6))
+teeth: ((2, 7), (6, 7))
+
+Naïve Time taken: 0.0147 seconds
+Naïve Memory used: 0.00 MB

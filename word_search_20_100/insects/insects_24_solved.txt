@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  z  h  z  h  k  d  r  a  g  o  n  f  l  y  v  u  p  g  f |
+ 1| g  g  n  f  c  o  v  t  c  f  w  t  b  h  f  k  r  k  v  o |
+ 2| s  t  r  e  u  b  t  p  o  w  d  u  w  o  o  p  y  w  s  r |
+ 3| l  p  n  a  z  y  b  f  b  k  f  n  t  l  y  y  o  h  e  o |
+ 4| g  u  i  e  s  w  a  u  f  o  b  c  l  e  m  v  b  e  a  r |
+ 5| q  m  r  d  i  s  f  k  t  t  p  r  f  c  u  p  b  k  j  e |
+ 6| k  a  k  s  e  n  h  i  p  t  k  p  d  l  f  z  w  z  x  b |
+ 7| y  h  c  q  z  r  u  o  a  l  e  s  p  z  w  h  u  a  t  x |
+ 8| r  f  q  f  g  q  p  p  p  b  v  r  t  y  u  k  b  j  f  h |
+ 9| b  l  r  e  s  w  d  d  g  p  t  x  f  e  v  x  b  v  l  t |
+10| w  e  y  o  w  w  g  y  c  e  e  h  t  l  d  y  a  a  y  l |
+11| l  a  m  j  x  q  k  p  a  j  i  r  s  e  y  s  e  z  t  a |
+12| s  f  a  d  w  a  s  p  w  n  l  l  a  m  r  h  v  p  k  d |
+13| p  u  n  m  p  e  w  b  e  e  t  l  e  g  t  m  b  e  e  y |
+14| h  n  v  n  x  e  m  a  h  h  v  n  e  o  o  y  i  y  o  b |
+15| k  d  q  v  s  p  o  u  u  z  y  s  m  w  n  a  l  t  w  u |
+16| u  b  c  o  c  k  r  o  a  c  h  c  o  w  v  g  n  g  e  g |
+17| s  o  m  t  d  i  t  p  h  q  l  m  d  k  x  n  b  y  k  j |
+18| e  p  w  a  i  u  t  e  t  i  b  f  z  i  t  r  k  t  y  r |
+19| r  a  v  g  v  r  b  e  e  g  g  s  b  p  p  j  u  z  v  b |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+bee: ((13, 7), (13, 9))
+ladybug: ((10, 19), (16, 19))
+cockroach: ((16, 2), (16, 10))
+fly: ((0, 12), (0, 14))
+dragonfly: ((0, 6), (0, 14))
+beetle: ((13, 7), (13, 12))
+wasp: ((12, 4), (12, 7))
+flea: ((8, 1), (11, 1))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+bee: ((13, 7), (13, 9))
+ladybug: ((10, 19), (16, 19))
+cockroach: ((16, 2), (16, 10))
+fly: ((0, 12), (0, 14))
+dragonfly: ((0, 6), (0, 14))
+beetle: ((13, 7), (13, 12))
+wasp: ((12, 4), (12, 7))
+flea: ((8, 1), (11, 1))
+
+Naïve Time taken: 0.0439 seconds
+Naïve Memory used: 0.00 MB

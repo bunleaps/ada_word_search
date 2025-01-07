@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| n  j  o  y  f  u  l  z  p  w |
+ 1| e  a  a  c  a  l  m  q  r  o |
+ 2| r  t  w  v  s  a  d  m  o  r |
+ 3| v  l  o  n  e  l  y  z  u  r |
+ 4| o  m  h  a  p  p  y  m  d  i |
+ 5| u  v  e  x  c  i  t  e  d  e |
+ 6| s  u  r  p  r  i  s  e  d  d |
+ 7| s  c  a  r  e  d  o  i  j  s |
+ 8| c  o  n  f  u  s  e  d  g  o |
+ 9| x  a  n  g  r  y  o  e  t  j |
+  +------------------------------+
+Dynamic Programming Solution:
+happy: ((4, 2), (4, 6))
+sad: ((2, 4), (2, 6))
+angry: ((9, 1), (9, 5))
+excited: ((5, 2), (5, 8))
+nervous: ((0, 0), (6, 0))
+surprised: ((6, 0), (6, 8))
+scared: ((7, 0), (7, 5))
+calm: ((1, 3), (1, 6))
+joyful: ((0, 1), (0, 6))
+confused: ((8, 0), (8, 7))
+worried: ((0, 9), (6, 9))
+lonely: ((3, 1), (3, 6))
+proud: ((0, 8), (4, 8))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+happy: ((4, 2), (4, 6))
+sad: ((2, 4), (2, 6))
+angry: ((9, 1), (9, 5))
+excited: ((5, 2), (5, 8))
+nervous: ((0, 0), (6, 0))
+surprised: ((6, 0), (6, 8))
+scared: ((7, 0), (7, 5))
+calm: ((1, 3), (1, 6))
+joyful: ((0, 1), (0, 6))
+confused: ((8, 0), (8, 7))
+worried: ((0, 9), (6, 9))
+lonely: ((3, 1), (3, 6))
+proud: ((0, 8), (4, 8))
+
+Naïve Time taken: 0.0050 seconds
+Naïve Memory used: 0.00 MB

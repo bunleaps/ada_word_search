@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| z  b  d  i  b  m  k  r  x  m  q  i  c  m  e  z  r  i  l  b |
+ 1| e  q  t  w  j  u  o  x  w  a  s  z  a  j  j  a  c  v  j  b |
+ 2| v  k  w  x  o  s  t  j  a  r  v  e  g  b  j  r  p  w  z  v |
+ 3| x  u  r  e  d  c  i  n  c  o  b  a  l  n  f  m  u  z  v  m |
+ 4| g  n  p  h  y  l  e  l  n  o  l  b  y  p  r  i  r  o  k  r |
+ 5| b  l  s  a  g  e  k  o  v  n  u  v  r  k  i  c  p  f  a  s |
+ 6| w  a  r  n  r  n  x  t  p  e  e  j  h  k  w  d  l  a  w  v |
+ 7| h  g  r  g  a  q  s  t  i  g  r  m  a  h  d  j  e  o  j  g |
+ 8| m  f  e  w  p  v  g  y  n  o  p  p  f  b  g  o  i  t  h  a |
+ 9| u  s  i  f  h  u  y  q  k  l  e  e  c  l  a  h  f  b  g  e |
+10| m  e  w  i  u  i  z  w  f  i  j  n  a  a  x  z  f  z  r  o |
+11| t  e  a  l  l  m  t  f  y  v  i  t  k  c  f  g  k  c  b  e |
+12| u  k  v  u  w  p  g  e  v  e  n  t  c  k  h  p  j  z  d  e |
+13| j  n  b  b  d  w  g  t  w  e  g  u  t  b  a  d  m  z  z  j |
+14| n  z  b  e  z  m  f  a  g  a  d  v  y  e  u  e  w  y  d  y |
+15| k  a  q  r  i  w  z  a  o  b  s  s  g  g  g  o  b  t  n  j |
+16| u  p  a  x  o  g  m  p  s  v  y  n  z  n  l  y  f  a  r  p |
+17| k  w  o  h  i  w  e  l  t  f  u  d  a  l  x  s  y  x  x  w |
+18| x  h  u  j  a  i  n  g  o  l  d  r  e  l  l  c  g  d  m  j |
+19| f  z  y  w  m  r  n  j  j  m  o  y  m  a  b  j  i  j  f  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+red: ((3, 2), (3, 4))
+blue: ((3, 10), (6, 10))
+purple: ((2, 16), (7, 16))
+pink: ((6, 8), (9, 8))
+black: ((8, 13), (12, 13))
+teal: ((11, 0), (11, 3))
+gold: ((18, 7), (18, 10))
+maroon: ((0, 9), (5, 9))
+olive: ((8, 9), (12, 9))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+red: ((3, 2), (3, 4))
+blue: ((3, 10), (6, 10))
+purple: ((2, 16), (7, 16))
+pink: ((6, 8), (9, 8))
+black: ((8, 13), (12, 13))
+teal: ((11, 0), (11, 3))
+gold: ((18, 7), (18, 10))
+maroon: ((0, 9), (5, 9))
+olive: ((8, 9), (12, 9))
+
+Naïve Time taken: 0.0685 seconds
+Naïve Memory used: 0.00 MB

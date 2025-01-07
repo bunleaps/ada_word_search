@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| v  l  w  b  k  q  o  p  x  w  g  z  d  k  x  v  w  k  p  g |
+ 1| i  m  i  c  r  o  p  h  o  n  e  x  w  y  x  y  h  d  b  i |
+ 2| o  a  a  l  b  u  m  x  v  g  a  q  q  t  a  d  e  j  l  y |
+ 3| l  n  j  e  j  p  q  f  n  v  t  b  a  o  r  v  a  a  w  j |
+ 4| i  q  o  f  b  l  s  s  s  e  u  g  l  c  h  z  d  o  g  k |
+ 5| n  w  v  t  m  z  f  b  p  j  y  u  z  k  y  h  p  r  s  h |
+ 6| q  x  l  p  e  w  o  m  q  d  j  i  i  t  t  y  h  c  v  u |
+ 7| o  k  y  j  n  m  u  v  o  q  e  t  r  e  h  z  o  h  n  s |
+ 8| h  j  r  k  z  r  z  l  a  m  h  a  p  w  m  q  n  e  h  a |
+ 9| y  w  i  p  t  p  e  v  t  c  e  r  d  i  v  f  e  s  r  g |
+10| z  q  c  b  p  m  y  r  d  n  g  j  b  t  a  f  s  t  b  v |
+11| f  x  s  p  m  f  e  a  o  k  g  m  z  l  r  n  d  r  e  y |
+12| u  w  c  g  r  c  l  h  f  l  u  t  e  f  b  n  o  a  s  b |
+13| v  c  r  h  n  c  p  e  b  f  y  u  j  v  a  e  h  d  s  g |
+14| n  n  c  o  u  o  f  w  n  n  d  f  r  b  d  v  q  m  x  g |
+15| v  m  c  c  x  c  y  u  o  q  w  w  c  n  c  e  u  d  r  j |
+16| a  z  y  a  h  g  r  m  c  h  o  r  d  p  z  r  q  m  v  i |
+17| d  l  s  f  g  b  r  l  b  h  s  e  y  d  d  i  p  i  r  u |
+18| v  q  f  t  u  a  q  e  z  u  a  h  o  w  k  r  e  h  f  e |
+19| o  b  z  x  h  h  f  v  k  s  i  n  g  e  r  b  w  i  y  n |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((4, 11), (9, 11))
+violin: ((0, 0), (5, 0))
+flute: ((12, 8), (12, 12))
+singer: ((19, 9), (19, 14))
+orchestra: ((4, 17), (12, 17))
+rhythm: ((3, 14), (8, 14))
+chord: ((16, 8), (16, 12))
+lyrics: ((6, 2), (11, 2))
+album: ((2, 2), (2, 6))
+microphone: ((1, 1), (1, 10))
+headphones: ((1, 16), (10, 16))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((4, 11), (9, 11))
+violin: ((0, 0), (5, 0))
+flute: ((12, 8), (12, 12))
+singer: ((19, 9), (19, 14))
+orchestra: ((4, 17), (12, 17))
+rhythm: ((3, 14), (8, 14))
+chord: ((16, 8), (16, 12))
+lyrics: ((6, 2), (11, 2))
+album: ((2, 2), (2, 6))
+microphone: ((1, 1), (1, 10))
+headphones: ((1, 16), (10, 16))
+
+Naïve Time taken: 0.0590 seconds
+Naïve Memory used: 0.00 MB

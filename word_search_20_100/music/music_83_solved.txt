@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  c  a  u  f  b  u  s  w  u  j  q  q  n  n  d  h  p  d  c |
+ 1| x  q  h  h  f  v  e  p  w  a  t  a  a  c  d  b  q  h  p  x |
+ 2| s  q  b  o  l  j  v  y  v  e  h  d  p  s  w  n  w  b  m  c |
+ 3| t  i  w  l  r  m  k  g  p  b  b  q  w  k  a  h  j  d  z  o |
+ 4| x  d  n  q  v  d  c  m  l  f  a  s  w  l  y  r  i  c  s  n |
+ 5| y  p  r  g  h  e  u  j  d  s  f  n  z  r  v  g  l  h  j  c |
+ 6| g  h  i  a  e  r  j  i  h  a  l  c  d  t  u  m  v  u  i  e |
+ 7| y  e  n  a  t  r  r  s  a  x  y  b  j  d  q  i  k  r  w  r |
+ 8| z  a  v  o  n  m  p  y  r  o  r  h  b  r  d  c  g  h  e  t |
+ 9| p  d  m  m  t  o  r  i  m  p  g  y  y  u  k  r  u  y  f  m |
+10| s  p  s  k  p  e  i  o  o  h  k  r  x  m  j  o  i  t  s  e |
+11| c  h  l  y  x  t  p  h  n  o  o  j  a  s  c  p  t  h  q  l |
+12| s  o  c  q  l  y  e  d  y  n  j  e  f  v  d  h  a  m  d  o |
+13| s  n  j  r  n  w  x  d  q  e  z  f  c  r  j  o  r  p  v  d |
+14| y  e  l  v  i  o  l  i  n  v  y  h  u  e  n  n  g  l  n  y |
+15| d  s  p  l  b  d  w  f  l  u  t  e  j  j  h  e  h  r  c  l |
+16| j  c  o  w  u  s  x  h  w  c  k  n  a  h  o  i  d  k  r  u |
+17| r  u  b  z  o  y  u  o  r  c  h  e  s  t  r  a  n  o  r  u |
+18| r  b  h  a  k  m  c  o  n  q  q  i  c  o  a  l  b  u  m  h |
+19| v  m  w  t  l  u  d  q  p  v  y  r  v  n  f  l  y  h  p  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((8, 16), (13, 16))
+drums: ((7, 13), (11, 13))
+violin: ((14, 3), (14, 8))
+flute: ((15, 7), (15, 11))
+saxophone: ((5, 9), (13, 9))
+orchestra: ((17, 7), (17, 15))
+melody: ((9, 19), (14, 19))
+harmony: ((6, 8), (12, 8))
+rhythm: ((7, 17), (12, 17))
+concert: ((2, 19), (8, 19))
+lyrics: ((4, 13), (4, 18))
+album: ((18, 14), (18, 18))
+microphone: ((6, 15), (15, 15))
+headphones: ((6, 1), (15, 1))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((8, 16), (13, 16))
+drums: ((7, 13), (11, 13))
+violin: ((14, 3), (14, 8))
+flute: ((15, 7), (15, 11))
+saxophone: ((5, 9), (13, 9))
+orchestra: ((17, 7), (17, 15))
+melody: ((9, 19), (14, 19))
+harmony: ((6, 8), (12, 8))
+rhythm: ((7, 17), (12, 17))
+concert: ((2, 19), (8, 19))
+lyrics: ((4, 13), (4, 18))
+album: ((18, 14), (18, 18))
+microphone: ((6, 15), (15, 15))
+headphones: ((6, 1), (15, 1))
+
+Naïve Time taken: 0.0646 seconds
+Naïve Memory used: 0.00 MB

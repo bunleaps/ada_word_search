@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| i  d  z  v  s  l  h  o  p  e  f  u  l  d  a  u  d  w  t  e |
+ 1| r  i  x  k  m  a  o  c  o  n  f  u  s  e  d  g  q  q  i  z |
+ 2| e  s  w  c  k  y  d  n  g  x  s  y  n  r  c  c  w  n  r  v |
+ 3| l  a  b  g  l  r  h  y  e  u  s  i  e  x  h  a  d  c  a  i |
+ 4| a  p  s  v  w  n  a  v  t  l  s  s  r  x  j  l  l  y  k  d |
+ 5| x  p  k  r  f  c  p  x  a  x  y  a  v  c  y  c  w  m  t  s |
+ 6| e  o  r  a  f  o  p  y  x  z  v  d  o  s  h  w  e  c  t  w |
+ 7| d  i  s  w  u  n  y  z  w  n  j  p  u  n  n  o  w  j  b  x |
+ 8| g  n  s  q  o  z  a  d  d  t  i  i  s  d  v  t  e  o  x  q |
+ 9| b  t  c  b  z  o  e  e  f  g  o  d  e  w  q  k  i  y  l  v |
+10| s  e  a  p  h  p  t  v  d  i  e  t  k  j  l  a  n  f  f  h |
+11| u  d  r  a  u  i  b  h  l  s  a  k  n  u  j  n  p  u  o  n |
+12| r  i  e  d  c  i  v  j  s  r  k  x  j  n  y  x  u  l  j  w |
+13| p  q  d  x  u  m  y  a  t  s  g  i  z  h  t  i  k  y  a  o |
+14| r  e  e  w  o  t  r  s  h  l  d  s  p  d  y  o  r  o  n  r |
+15| i  w  p  t  l  r  u  l  n  a  e  m  p  r  o  u  d  w  g  r |
+16| s  j  v  i  a  r  c  h  u  j  b  g  y  f  a  s  e  p  r  i |
+17| e  t  u  b  f  l  x  s  r  d  m  g  c  l  d  y  v  g  y  e |
+18| d  g  m  t  f  y  h  f  a  c  b  u  n  v  q  d  t  n  r  d |
+19| q  e  j  o  i  v  e  n  g  e  j  m  d  c  l  u  x  k  s  t |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+happy: ((3, 6), (7, 6))
+sad: ((4, 11), (6, 11))
+angry: ((13, 18), (17, 18))
+nervous: ((2, 12), (8, 12))
+surprised: ((10, 0), (18, 0))
+scared: ((8, 2), (13, 2))
+joyful: ((7, 17), (12, 17))
+confused: ((1, 7), (1, 14))
+worried: ((12, 19), (18, 19))
+proud: ((15, 12), (15, 16))
+relaxed: ((1, 0), (7, 0))
+anxious: ((10, 15), (16, 15))
+disappointed: ((0, 1), (11, 1))
+hopeful: ((0, 6), (0, 12))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+happy: ((3, 6), (7, 6))
+sad: ((4, 11), (6, 11))
+angry: ((13, 18), (17, 18))
+nervous: ((2, 12), (8, 12))
+surprised: ((10, 0), (18, 0))
+scared: ((8, 2), (13, 2))
+joyful: ((7, 17), (12, 17))
+confused: ((1, 7), (1, 14))
+worried: ((12, 19), (18, 19))
+proud: ((15, 12), (15, 16))
+relaxed: ((1, 0), (7, 0))
+anxious: ((10, 15), (16, 15))
+disappointed: ((0, 1), (11, 1))
+hopeful: ((0, 6), (0, 12))
+
+Naïve Time taken: 0.0558 seconds
+Naïve Memory used: 0.00 MB

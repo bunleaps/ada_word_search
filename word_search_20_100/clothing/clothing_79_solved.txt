@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  h  a  t  i  m  a  d  t  r  o  l  j  z  z  u  y  b  f  p |
+ 1| r  s  w  q  c  o  a  t  i  s  p  x  h  b  p  e  m  c  n  g |
+ 2| x  p  f  b  w  y  p  s  f  f  z  n  p  e  g  d  x  n  i  z |
+ 3| z  s  o  c  k  s  n  w  v  g  z  q  w  l  e  n  e  b  w  d |
+ 4| t  c  j  b  c  a  q  p  o  c  h  r  y  t  e  s  g  w  s  g |
+ 5| i  a  l  q  e  l  g  o  q  p  x  e  t  s  a  f  l  p  h  y |
+ 6| e  c  c  j  h  x  q  k  g  r  j  a  s  m  n  i  g  a  e  b |
+ 7| v  u  b  e  q  z  s  j  k  b  h  e  a  x  l  m  s  e  z  d |
+ 8| p  v  f  h  g  t  m  r  g  j  r  j  t  z  e  t  s  s  e  w |
+ 9| u  m  e  c  o  r  i  d  s  d  a  r  n  v  n  p  i  j  y  j |
+10| n  m  m  o  x  d  g  e  s  p  b  j  l  a  a  g  j  v  x  d |
+11| i  b  b  a  x  y  v  a  k  b  b  v  p  y  k  v  m  v  c  o |
+12| f  a  g  h  u  o  s  b  i  c  p  f  h  d  t  d  j  v  i  s |
+13| o  s  a  p  l  j  v  i  r  l  f  h  a  e  d  q  x  h  q  w |
+14| r  n  r  g  l  u  t  i  t  s  h  i  r  t  a  e  r  r  v  e |
+15| m  u  j  j  k  d  j  r  t  k  f  c  u  x  s  h  o  e  s  a |
+16| w  z  p  j  z  e  v  s  r  r  a  s  m  o  y  l  o  y  y  t |
+17| i  j  a  c  k  e  t  n  a  o  p  o  m  x  g  p  x  s  h  e |
+18| q  l  p  w  n  e  o  c  g  e  x  o  w  h  a  x  r  n  a  r |
+19| m  j  h  i  z  r  s  n  e  a  k  e  r  s  h  h  h  f  b  g |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+shirt: ((14, 9), (14, 13))
+jacket: ((17, 1), (17, 6))
+skirt: ((10, 8), (14, 8))
+coat: ((1, 4), (1, 7))
+sweater: ((12, 19), (18, 19))
+shoes: ((15, 14), (15, 18))
+socks: ((3, 1), (3, 5))
+hat: ((0, 1), (0, 3))
+belt: ((1, 13), (4, 13))
+sneakers: ((19, 6), (19, 13))
+tie: ((4, 0), (6, 0))
+uniform: ((9, 0), (15, 0))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+shirt: ((14, 9), (14, 13))
+jacket: ((17, 1), (17, 6))
+skirt: ((10, 8), (14, 8))
+coat: ((1, 4), (1, 7))
+sweater: ((12, 19), (18, 19))
+shoes: ((15, 14), (15, 18))
+socks: ((3, 1), (3, 5))
+hat: ((0, 1), (0, 3))
+belt: ((1, 13), (4, 13))
+sneakers: ((19, 6), (19, 13))
+tie: ((4, 0), (6, 0))
+uniform: ((9, 0), (15, 0))
+
+Naïve Time taken: 0.0545 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  f  r  d  m  q  g  t  o  t  y  w  p  e  v  w  e  m  t  o |
+ 1| u  c  h  o  c  o  l  a  t  e  y  v  l  a  h  p  f  p  w  n |
+ 2| e  q  u  i  p  o  s  q  c  f  y  f  m  c  f  w  h  i  b  g |
+ 3| l  u  l  x  i  x  s  c  a  y  y  a  u  s  u  t  f  e  q  a |
+ 4| p  g  z  s  z  u  f  b  m  k  e  h  t  a  a  r  s  z  n  c |
+ 5| b  d  c  z  z  l  b  o  i  r  c  m  o  l  k  o  r  c  o  j |
+ 6| v  w  p  x  a  o  k  v  c  i  a  b  o  a  f  k  j  y  o  u |
+ 7| d  l  y  m  h  w  n  e  w  v  h  t  r  d  b  r  e  a  d  v |
+ 8| v  z  p  t  x  u  c  d  r  c  i  l  c  g  m  i  b  l  l  a |
+ 9| t  x  a  y  u  i  n  s  t  r  y  c  u  f  h  k  v  q  e  t |
+10| w  j  s  x  j  a  q  o  r  c  i  e  o  s  c  o  s  r  s  h |
+11| n  g  t  w  s  l  r  u  r  d  v  m  u  q  t  m  t  g  m  k |
+12| c  a  a  x  a  b  b  p  w  z  b  s  r  z  a  f  e  p  g  u |
+13| q  j  d  v  l  h  u  u  r  f  c  f  a  i  u  d  a  m  b  x |
+14| w  a  c  f  v  w  r  o  r  h  b  h  i  h  c  p  k  s  f  c |
+15| n  a  b  l  q  m  c  c  s  g  q  l  e  e  s  e  k  g  b  r |
+16| g  o  w  e  t  a  o  o  i  h  e  h  i  e  g  i  d  l  x  q |
+17| k  q  k  i  t  h  i  p  b  e  e  r  i  h  s  z  w  a  b  m |
+18| t  a  u  i  u  t  w  h  o  l  o  v  j  k  q  e  t  o  x  d |
+19| c  o  o  k  i  e  s  e  t  r  o  g  l  q  d  x  y  l  b  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((2, 4), (6, 4))
+pasta: ((8, 2), (12, 2))
+salad: ((3, 13), (7, 13))
+soup: ((9, 7), (12, 7))
+steak: ((10, 16), (14, 16))
+noodles: ((4, 18), (10, 18))
+bread: ((7, 14), (7, 18))
+chocolate: ((1, 1), (1, 9))
+cookies: ((19, 0), (19, 6))
+pie: ((1, 17), (3, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((2, 4), (6, 4))
+pasta: ((8, 2), (12, 2))
+salad: ((3, 13), (7, 13))
+soup: ((9, 7), (12, 7))
+steak: ((10, 16), (14, 16))
+noodles: ((4, 18), (10, 18))
+bread: ((7, 14), (7, 18))
+chocolate: ((1, 1), (1, 9))
+cookies: ((19, 0), (19, 6))
+pie: ((1, 17), (3, 17))
+
+Naïve Time taken: 0.0644 seconds
+Naïve Memory used: 0.00 MB

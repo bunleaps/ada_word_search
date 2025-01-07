@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| n  x  n  j  l  a  w  y  e  r  h  q  x  i  s  m  d  o  g  v |
+ 1| y  x  z  m  q  d  i  k  t  l  w  u  q  w  n  q  w  p  u  c |
+ 2| q  h  c  o  m  d  m  k  a  r  c  h  i  t  e  c  t  y  p  c |
+ 3| p  d  m  u  s  i  c  i  a  n  x  g  r  e  p  t  j  y  h  q |
+ 4| g  r  o  w  a  p  f  y  v  e  i  s  a  l  v  z  v  d  o  y |
+ 5| a  b  r  c  z  r  f  w  s  m  x  h  u  n  v  b  x  a  t  w |
+ 6| c  z  y  r  t  b  g  r  h  d  m  s  g  p  l  z  j  r  o  r |
+ 7| c  u  p  s  a  o  u  g  s  t  e  f  q  p  i  l  o  t  g  f |
+ 8| o  f  f  o  a  n  r  a  w  q  e  n  s  o  u  o  p  i  r  w |
+ 9| u  i  m  d  l  f  f  f  p  t  p  a  t  t  q  c  m  s  a  f |
+10| n  r  k  e  j  i  b  e  r  a  t  o  c  i  r  w  p  t  p  a |
+11| t  e  c  h  e  f  c  e  m  d  g  a  b  h  s  v  r  s  h  r |
+12| a  f  h  n  s  i  t  e  u  z  u  z  s  j  e  t  v  p  e  m |
+13| n  i  x  v  i  i  y  b  t  j  d  s  w  o  f  r  z  c  r  e |
+14| t  g  y  z  r  x  q  m  e  c  h  a  n  i  c  c  n  q  a  r |
+15| a  h  k  w  a  p  g  o  r  n  s  e  n  g  i  n  e  e  r  t |
+16| k  t  c  c  o  s  a  l  g  s  c  i  e  n  t  i  s  t  a  i |
+17| f  e  s  x  c  q  c  j  u  p  r  o  g  r  a  m  m  e  r  y |
+18| g  r  n  a  j  j  o  g  v  v  m  r  d  e  c  t  b  l  h  o |
+19| e  i  u  a  o  x  w  r  l  z  q  v  e  m  j  j  y  o  d  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+engineer: ((15, 11), (15, 18))
+lawyer: ((0, 4), (0, 9))
+chef: ((11, 2), (11, 5))
+pilot: ((7, 13), (7, 17))
+artist: ((5, 17), (10, 17))
+musician: ((3, 2), (3, 9))
+scientist: ((16, 9), (16, 17))
+architect: ((2, 8), (2, 16))
+firefighter: ((8, 1), (18, 1))
+farmer: ((9, 19), (14, 19))
+mechanic: ((14, 7), (14, 14))
+accountant: ((5, 0), (14, 0))
+photographer: ((2, 18), (13, 18))
+programmer: ((17, 9), (17, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+engineer: ((15, 11), (15, 18))
+lawyer: ((0, 4), (0, 9))
+chef: ((11, 2), (11, 5))
+pilot: ((7, 13), (7, 17))
+artist: ((5, 17), (10, 17))
+musician: ((3, 2), (3, 9))
+scientist: ((16, 9), (16, 17))
+architect: ((2, 8), (2, 16))
+firefighter: ((8, 1), (18, 1))
+farmer: ((9, 19), (14, 19))
+mechanic: ((14, 7), (14, 14))
+accountant: ((5, 0), (14, 0))
+photographer: ((2, 18), (13, 18))
+programmer: ((17, 9), (17, 18))
+
+Naïve Time taken: 0.0430 seconds
+Naïve Memory used: 0.00 MB

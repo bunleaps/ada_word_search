@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| m  e  r  f  v  b  a  b  o  x  o  f  f  i  c  e  s  o  w  d |
+ 1| k  z  p  m  r  o  m  a  n  c  e  s  f  s  k  h  e  r  o  m |
+ 2| b  l  o  c  k  b  u  s  t  e  r  g  x  c  r  m  z  a  y  p |
+ 3| p  t  w  t  w  t  s  q  q  f  d  i  r  e  c  t  o  r  m  b |
+ 4| u  n  h  r  t  g  r  u  b  b  f  r  e  c  r  r  g  k  u  l |
+ 5| w  c  h  r  r  x  m  a  d  a  c  t  o  r  o  p  q  u  s  c |
+ 6| x  o  z  p  i  j  t  s  i  j  j  r  m  r  b  m  j  c  y  p |
+ 7| o  j  o  r  m  l  l  o  q  l  f  d  r  s  q  s  e  t  l  p |
+ 8| c  j  v  u  g  a  l  e  s  z  e  o  o  v  i  c  d  d  g  n |
+ 9| b  i  y  k  c  g  r  e  c  t  h  r  e  n  d  r  o  j  y  a |
+10| y  w  v  i  b  e  g  m  r  p  w  l  r  g  f  e  c  s  e  n |
+11| n  p  s  f  i  f  a  g  i  a  m  o  u  e  e  e  u  e  c  i |
+12| e  u  w  m  w  t  m  c  p  e  c  n  f  n  s  n  m  q  o  m |
+13| m  w  e  a  a  k  l  b  t  p  y  q  c  r  t  p  e  u  z  a |
+14| d  r  j  m  j  d  e  j  o  r  a  z  l  e  i  l  n  e  u  t |
+15| p  d  a  u  r  w  z  p  s  m  e  l  r  y  v  a  t  l  x  i |
+16| r  r  f  a  a  k  k  c  e  h  u  s  r  n  a  y  a  c  z  o |
+17| d  k  w  v  g  o  u  n  i  z  q  n  s  i  l  t  r  p  p  n |
+18| t  a  g  d  w  v  i  p  r  o  d  u  c  e  r  z  y  d  v  q |
+19| c  s  u  v  s  c  j  v  i  l  l  a  i  n  m  u  s  g  u  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+actor: ((5, 9), (5, 13))
+director: ((3, 10), (3, 17))
+script: ((8, 8), (13, 8))
+blockbuster: ((2, 0), (2, 10))
+sequel: ((10, 17), (15, 17))
+villain: ((19, 7), (19, 13))
+hero: ((1, 15), (1, 18))
+romance: ((1, 4), (1, 10))
+animation: ((9, 19), (17, 19))
+documentary: ((8, 16), (18, 16))
+producer: ((18, 7), (18, 14))
+boxoffice: ((0, 7), (0, 15))
+screenplay: ((7, 15), (16, 15))
+genre: ((10, 13), (14, 13))
+festival: ((10, 14), (17, 14))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+actor: ((5, 9), (5, 13))
+director: ((3, 10), (3, 17))
+script: ((8, 8), (13, 8))
+blockbuster: ((2, 0), (2, 10))
+sequel: ((10, 17), (15, 17))
+villain: ((19, 7), (19, 13))
+hero: ((1, 15), (1, 18))
+romance: ((1, 4), (1, 10))
+animation: ((9, 19), (17, 19))
+documentary: ((8, 16), (18, 16))
+producer: ((18, 7), (18, 14))
+boxoffice: ((0, 7), (0, 15))
+screenplay: ((7, 15), (16, 15))
+genre: ((10, 13), (14, 13))
+festival: ((10, 14), (17, 14))
+
+Naïve Time taken: 0.0712 seconds
+Naïve Memory used: 0.00 MB

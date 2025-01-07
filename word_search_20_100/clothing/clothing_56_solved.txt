@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  p  v  m  j  p  a  j  a  m  a  s  c  y  u  q  r  n  e  l |
+ 1| k  u  p  t  y  s  v  g  b  j  w  r  r  o  c  t  s  j  u  f |
+ 2| w  s  z  r  d  o  q  x  s  n  p  z  b  h  a  n  l  i  v  d |
+ 3| t  f  c  o  o  m  c  e  w  j  h  m  t  w  a  t  o  f  m  u |
+ 4| q  i  c  a  k  q  s  e  e  a  s  x  i  e  j  n  f  a  g  q |
+ 5| n  e  e  r  r  g  v  d  a  i  h  o  j  p  e  c  m  s  m  s |
+ 6| j  h  q  m  o  f  p  m  t  r  i  d  i  g  a  v  i  r  y  g |
+ 7| a  s  p  r  s  i  s  m  e  s  r  k  c  o  x  n  o  m  o  i |
+ 8| c  n  i  a  n  v  k  p  r  y  t  u  o  s  u  f  t  e  w  h |
+ 9| k  e  n  o  j  i  i  o  i  f  r  k  e  d  i  o  g  s  b  m |
+10| e  a  i  n  u  s  r  x  o  t  t  o  u  n  r  m  e  w  e  l |
+11| t  k  e  p  v  j  t  v  x  g  h  f  u  q  k  e  a  u  l  a |
+12| v  e  p  q  r  c  s  z  z  s  a  x  k  l  s  y  s  q  t  a |
+13| r  r  b  h  w  e  p  s  o  c  k  s  o  y  c  t  s  s  j  s |
+14| d  s  a  l  v  k  a  z  y  z  u  f  t  f  a  t  s  f  e  f |
+15| x  a  r  o  r  p  o  v  c  z  z  k  o  h  g  t  d  l  m  k |
+16| g  n  l  q  t  m  b  b  i  l  v  r  h  t  o  j  r  q  t  p |
+17| f  g  g  y  v  v  o  o  a  e  i  e  n  o  h  x  v  g  n  j |
+18| q  z  f  m  d  e  h  s  o  b  q  z  b  m  j  s  i  f  s  m |
+19| j  m  e  z  a  p  i  v  h  w  x  m  f  z  i  v  a  q  t  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+shirt: ((4, 10), (8, 10))
+jacket: ((6, 0), (11, 0))
+skirt: ((7, 6), (11, 6))
+sweater: ((2, 8), (8, 8))
+socks: ((13, 7), (13, 11))
+belt: ((9, 18), (12, 18))
+sneakers: ((7, 1), (14, 1))
+pajamas: ((0, 5), (0, 11))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+shirt: ((4, 10), (8, 10))
+jacket: ((6, 0), (11, 0))
+skirt: ((7, 6), (11, 6))
+sweater: ((2, 8), (8, 8))
+socks: ((13, 7), (13, 11))
+belt: ((9, 18), (12, 18))
+sneakers: ((7, 1), (14, 1))
+pajamas: ((0, 5), (0, 11))
+
+Naïve Time taken: 0.0675 seconds
+Naïve Memory used: 0.00 MB

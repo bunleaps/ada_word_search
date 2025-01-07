@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| c  b  e  e  t  l  e  r  f  b |
+ 1| o  l  a  d  y  b  u  g  c  u |
+ 2| c  n  e  e  y  w  a  s  p  t |
+ 3| k  k  e  s  p  i  d  e  r  t |
+ 4| r  b  r  f  j  m  a  f  v  e |
+ 5| o  f  l  e  a  o  n  f  v  r |
+ 6| a  v  s  o  o  t  t  n  c  f |
+ 7| c  s  p  p  i  h  w  r  n  l |
+ 8| h  m  o  s  q  u  i  t  o  y |
+ 9| m  e  f  l  y  x  v  z  h  j |
+  +------------------------------+
+Dynamic Programming Solution:
+ant: ((4, 6), (6, 6))
+bee: ((0, 1), (0, 3))
+butterfly: ((0, 9), (8, 9))
+mosquito: ((8, 1), (8, 8))
+ladybug: ((1, 1), (1, 7))
+cockroach: ((0, 0), (8, 0))
+fly: ((9, 2), (9, 4))
+spider: ((3, 3), (3, 8))
+moth: ((4, 5), (7, 5))
+beetle: ((0, 1), (0, 6))
+wasp: ((2, 5), (2, 8))
+flea: ((5, 1), (5, 4))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+ant: ((4, 6), (6, 6))
+bee: ((0, 1), (0, 3))
+butterfly: ((0, 9), (8, 9))
+mosquito: ((8, 1), (8, 8))
+ladybug: ((1, 1), (1, 7))
+cockroach: ((0, 0), (8, 0))
+fly: ((9, 2), (9, 4))
+spider: ((3, 3), (3, 8))
+moth: ((4, 5), (7, 5))
+beetle: ((0, 1), (0, 6))
+wasp: ((2, 5), (2, 8))
+flea: ((5, 1), (5, 4))
+
+Naïve Time taken: 0.0031 seconds
+Naïve Memory used: 0.00 MB

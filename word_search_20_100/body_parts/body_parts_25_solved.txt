@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  t  l  s  u  t  w  v  r  q  t  a  m  v  c  f  q  n  j  w |
+ 1| i  o  x  p  w  c  k  f  s  x  q  t  e  e  t  h  l  j  t  h |
+ 2| n  g  s  h  y  m  a  l  h  g  f  h  e  v  r  w  e  c  b  c |
+ 3| g  k  c  a  a  u  c  p  o  h  y  e  c  e  y  u  a  a  p  v |
+ 4| e  r  f  q  h  n  b  d  u  u  o  g  m  n  m  g  l  u  d  m |
+ 5| r  s  y  w  a  i  d  q  l  t  o  g  x  r  e  l  a  u  r  k |
+ 6| g  a  k  w  d  g  i  x  d  l  b  r  a  i  n  c  r  s  h  r |
+ 7| d  b  r  i  h  q  l  h  e  e  g  p  z  d  n  w  k  l  i  s |
+ 8| n  z  g  k  n  e  e  w  r  g  w  y  m  u  d  r  n  b  f  r |
+ 9| t  h  u  v  l  n  e  a  w  y  x  g  u  v  h  t  w  n  f  w |
+10| q  k  w  c  w  n  h  a  h  k  o  h  i  k  z  c  a  b  y  d |
+11| u  s  r  r  e  w  z  c  r  s  t  f  o  o  t  a  q  o  f  p |
+12| m  f  t  e  c  p  n  h  v  y  e  j  t  i  y  c  b  e  k  c |
+13| d  t  w  o  z  j  c  e  n  r  j  a  m  c  r  k  o  e  i  w |
+14| p  f  q  s  m  t  g  s  s  q  k  c  m  k  c  d  y  s  a  r |
+15| v  b  x  i  a  a  b  t  z  w  z  o  c  a  g  e  a  w  s  d |
+16| y  m  o  u  t  h  c  e  g  p  v  f  b  k  c  f  r  s  x  y |
+17| v  u  o  y  p  p  y  h  m  v  k  t  b  o  m  o  k  f  s  r |
+18| n  d  k  v  q  n  t  d  y  q  d  m  h  e  a  r  t  z  x  d |
+19| r  g  d  g  y  z  z  n  o  s  e  q  v  z  b  t  w  g  k  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+foot: ((11, 11), (11, 14))
+leg: ((6, 9), (8, 9))
+ear: ((18, 13), (18, 15))
+mouth: ((16, 1), (16, 5))
+nose: ((19, 7), (19, 10))
+chest: ((11, 7), (15, 7))
+knee: ((8, 3), (8, 6))
+shoulder: ((1, 8), (8, 8))
+finger: ((0, 0), (5, 0))
+heart: ((18, 12), (18, 16))
+brain: ((6, 10), (6, 14))
+teeth: ((1, 11), (1, 15))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+foot: ((11, 11), (11, 14))
+leg: ((6, 9), (8, 9))
+ear: ((18, 13), (18, 15))
+mouth: ((16, 1), (16, 5))
+nose: ((19, 7), (19, 10))
+chest: ((11, 7), (15, 7))
+knee: ((8, 3), (8, 6))
+shoulder: ((1, 8), (8, 8))
+finger: ((0, 0), (5, 0))
+heart: ((18, 12), (18, 16))
+brain: ((6, 10), (6, 14))
+teeth: ((1, 11), (1, 15))
+
+Naïve Time taken: 0.0571 seconds
+Naïve Memory used: 0.00 MB

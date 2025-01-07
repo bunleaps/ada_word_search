@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  k  n  o  t  e  l  a  e  r  t  m  o  v  q  y  v  u  u  f |
+ 1| e  b  a  n  d  s  z  k  i  h  t  x  i  v  w  t  l  c  a  b |
+ 2| h  b  q  n  g  u  c  h  f  y  e  i  v  v  e  n  g  h  p  y |
+ 3| y  y  l  x  a  p  v  h  e  t  r  z  f  m  q  z  w  o  u  q |
+ 4| a  s  p  n  u  u  g  g  e  h  q  q  r  l  r  r  a  r  o  g |
+ 5| v  d  x  k  h  y  i  n  a  m  a  t  j  e  k  w  f  d  u  u |
+ 6| j  f  l  s  a  x  o  p  h  o  n  e  g  w  f  l  u  t  e  i |
+ 7| n  c  o  n  c  e  r  t  s  g  d  n  a  p  g  o  h  y  o  t |
+ 8| l  y  r  i  c  s  d  q  s  m  i  r  b  b  n  v  e  q  e  a |
+ 9| a  h  u  o  v  l  d  s  u  s  t  t  h  a  z  t  a  g  w  r |
+10| m  e  l  o  d  y  m  b  p  s  d  u  i  v  l  r  d  r  q  x |
+11| t  m  n  g  d  u  l  e  e  j  j  p  s  m  j  u  p  b  i  e |
+12| l  j  n  o  r  a  n  h  j  w  p  r  a  f  x  m  h  g  b  s |
+13| m  f  h  d  c  m  c  c  w  a  n  p  f  b  k  p  o  o  e  x |
+14| m  u  b  x  z  r  b  o  r  o  t  u  u  o  q  e  n  v  b  b |
+15| p  b  i  m  o  d  l  g  u  e  m  i  m  c  u  t  e  e  p  f |
+16| g  v  h  a  r  m  o  n  y  y  o  o  d  p  b  p  s  q  q  x |
+17| k  m  i  c  r  o  p  h  o  n  e  a  j  s  z  s  y  t  u  w |
+18| a  w  u  c  n  a  e  m  k  t  u  y  g  q  g  m  x  t  m  w |
+19| k  n  h  p  p  s  v  i  o  l  i  n  o  h  p  y  d  o  l  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((4, 19), (9, 19))
+violin: ((19, 6), (19, 11))
+flute: ((6, 14), (6, 18))
+saxophone: ((6, 3), (6, 11))
+trumpet: ((9, 15), (15, 15))
+band: ((1, 1), (1, 4))
+melody: ((10, 0), (10, 5))
+harmony: ((16, 2), (16, 8))
+rhythm: ((0, 9), (5, 9))
+note: ((0, 2), (0, 5))
+chord: ((1, 17), (5, 17))
+concert: ((7, 1), (7, 7))
+lyrics: ((8, 0), (8, 5))
+microphone: ((17, 1), (17, 10))
+headphones: ((7, 16), (16, 16))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((4, 19), (9, 19))
+violin: ((19, 6), (19, 11))
+flute: ((6, 14), (6, 18))
+saxophone: ((6, 3), (6, 11))
+trumpet: ((9, 15), (15, 15))
+band: ((1, 1), (1, 4))
+melody: ((10, 0), (10, 5))
+harmony: ((16, 2), (16, 8))
+rhythm: ((0, 9), (5, 9))
+note: ((0, 2), (0, 5))
+chord: ((1, 17), (5, 17))
+concert: ((7, 1), (7, 7))
+lyrics: ((8, 0), (8, 5))
+microphone: ((17, 1), (17, 10))
+headphones: ((7, 16), (16, 16))
+
+Naïve Time taken: 0.0450 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  m  l  o  l  k  m  e  d  e  l  a  o  b  b  b  e  j  g  s |
+ 1| l  p  u  s  k  l  k  o  b  p  u  s  e  r  y  c  l  f  p  l |
+ 2| t  h  w  v  t  h  h  c  k  n  e  n  x  a  x  o  a  n  p  b |
+ 3| w  w  o  d  t  e  q  g  s  c  s  v  m  i  x  p  w  w  w  h |
+ 4| c  z  a  u  f  t  y  q  k  p  j  b  f  n  w  i  d  i  m  y |
+ 5| j  s  o  h  m  q  l  e  l  i  m  k  q  o  e  a  k  v  d  i |
+ 6| j  m  e  y  b  c  s  l  h  j  m  v  c  d  e  b  a  c  k  k |
+ 7| s  i  t  a  r  m  t  j  e  l  a  b  s  h  r  m  z  z  h  a |
+ 8| k  v  p  i  f  n  o  n  n  g  k  r  f  y  h  i  v  g  p  o |
+ 9| t  g  n  r  c  a  e  i  s  h  o  u  l  d  e  r  w  t  w  s |
+10| f  a  j  d  a  l  k  e  o  m  c  d  d  x  s  b  l  g  o  o |
+11| x  i  u  j  t  s  s  b  r  a  n  h  m  j  q  l  u  c  g  a |
+12| x  b  n  o  c  o  x  u  j  a  u  y  e  n  e  c  k  q  t  m |
+13| m  z  o  g  n  e  s  j  h  j  k  y  s  s  j  d  y  j  v  n |
+14| f  f  k  d  e  h  v  a  z  q  w  n  l  z  t  r  g  y  a  j |
+15| t  i  w  t  g  r  e  j  o  q  c  n  d  d  k  j  b  p  t  x |
+16| x  t  z  i  f  w  a  a  f  u  t  e  e  t  h  n  p  w  f  p |
+17| j  p  x  u  a  l  r  b  r  z  y  e  z  i  q  f  e  m  o  u |
+18| x  m  q  u  o  s  g  f  g  t  w  d  r  o  f  r  w  e  y  y |
+19| u  p  x  i  x  s  t  o  m  a  c  h  i  o  z  e  i  w  k  g |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+arm: ((7, 3), (7, 5))
+ear: ((15, 6), (17, 6))
+stomach: ((19, 5), (19, 11))
+back: ((6, 15), (6, 18))
+neck: ((12, 13), (12, 16))
+shoulder: ((9, 8), (9, 15))
+toe: ((7, 6), (9, 6))
+brain: ((0, 13), (4, 13))
+teeth: ((16, 10), (16, 14))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+arm: ((7, 3), (7, 5))
+ear: ((15, 6), (17, 6))
+stomach: ((19, 5), (19, 11))
+back: ((6, 15), (6, 18))
+neck: ((12, 13), (12, 16))
+shoulder: ((9, 8), (9, 15))
+toe: ((7, 6), (9, 6))
+brain: ((0, 13), (4, 13))
+teeth: ((16, 10), (16, 14))
+
+Naïve Time taken: 0.0640 seconds
+Naïve Memory used: 0.00 MB

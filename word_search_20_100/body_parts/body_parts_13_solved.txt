@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| y  s  h  o  u  l  d  e  r  t  g  n  e  c  k  d  g  h  m  e |
+ 1| v  d  o  u  w  e  g  l  v  k  i  l  b  v  c  s  g  i  r  v |
+ 2| f  a  k  s  h  x  q  y  l  h  n  c  u  p  v  y  v  f  d  x |
+ 3| r  h  w  t  c  m  s  k  s  v  z  e  l  e  g  l  s  u  c  u |
+ 4| l  u  f  o  b  l  k  k  q  l  b  d  e  x  a  y  w  s  m  e |
+ 5| s  x  m  m  r  s  y  n  i  j  a  c  q  x  i  r  z  e  k  f |
+ 6| c  q  y  a  a  f  v  l  y  n  n  o  w  x  i  m  z  k  q  z |
+ 7| h  d  q  c  i  o  m  j  e  y  e  l  g  u  d  k  z  z  l  f |
+ 8| e  c  m  h  n  m  y  h  t  n  i  r  y  j  t  o  h  o  t  o |
+ 9| s  r  l  h  x  p  w  a  w  m  e  l  o  r  g  g  m  r  s  m |
+10| t  z  z  q  r  f  d  s  r  g  x  o  a  m  i  o  x  y  e  t |
+11| j  f  r  u  v  d  o  a  n  d  t  e  w  o  c  y  x  x  b  e |
+12| j  o  w  h  z  i  a  i  p  p  h  d  o  u  r  h  v  d  k  u |
+13| n  o  i  c  f  s  f  s  c  z  o  r  k  t  x  h  n  g  j  l |
+14| d  t  r  t  d  r  y  g  g  z  d  f  z  h  t  h  a  o  w  c |
+15| u  k  j  e  b  a  c  k  g  z  g  y  n  e  o  e  a  n  u  e |
+16| h  x  m  e  h  b  q  u  y  h  n  x  c  q  e  a  e  z  d  n |
+17| w  b  m  t  x  y  z  t  d  l  h  m  h  p  v  d  e  s  q  p |
+18| s  p  s  h  n  o  s  e  f  i  a  z  q  f  t  t  s  g  e  a |
+19| c  g  y  w  s  y  o  t  l  i  f  v  e  f  e  a  r  f  a  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+head: ((14, 15), (17, 15))
+foot: ((11, 1), (14, 1))
+leg: ((3, 12), (3, 14))
+eye: ((7, 8), (7, 10))
+ear: ((19, 14), (19, 16))
+mouth: ((10, 13), (14, 13))
+nose: ((18, 4), (18, 7))
+stomach: ((2, 3), (8, 3))
+back: ((15, 4), (15, 7))
+chest: ((6, 0), (10, 0))
+neck: ((0, 11), (0, 14))
+shoulder: ((0, 1), (0, 8))
+toe: ((14, 14), (16, 14))
+brain: ((4, 4), (8, 4))
+teeth: ((14, 3), (18, 3))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+head: ((14, 15), (17, 15))
+foot: ((11, 1), (14, 1))
+leg: ((3, 12), (3, 14))
+eye: ((7, 8), (7, 10))
+ear: ((19, 14), (19, 16))
+mouth: ((10, 13), (14, 13))
+nose: ((18, 4), (18, 7))
+stomach: ((2, 3), (8, 3))
+back: ((15, 4), (15, 7))
+chest: ((6, 0), (10, 0))
+neck: ((0, 11), (0, 14))
+shoulder: ((0, 1), (0, 8))
+toe: ((14, 14), (16, 14))
+brain: ((4, 4), (8, 4))
+teeth: ((14, 3), (18, 3))
+
+Naïve Time taken: 0.0486 seconds
+Naïve Memory used: 0.00 MB

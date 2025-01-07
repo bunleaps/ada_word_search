@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| d  l  d  i  l  y  c  p  y  b  t  q  k  f  c  l  c  k  z  z |
+ 1| s  i  g  v  g  r  u  y  e  i  e  p  a  n  t  s  i  i  i  m |
+ 2| j  x  e  u  s  q  h  h  j  k  c  l  q  l  z  l  o  g  u  k |
+ 3| q  o  w  w  b  c  c  k  p  b  j  q  t  u  z  q  r  e  n  s |
+ 4| a  s  k  i  r  t  g  a  e  v  p  k  c  d  l  q  u  r  f  h |
+ 5| i  s  e  h  c  j  e  j  v  n  q  n  l  z  v  h  a  t  c  o |
+ 6| z  d  v  w  o  a  p  s  d  u  m  j  i  b  c  s  p  i  f  e |
+ 7| z  q  b  b  a  c  b  n  p  g  n  n  z  n  x  b  p  s  y  s |
+ 8| i  o  r  w  t  k  v  e  s  a  e  q  h  z  s  z  p  f  i  j |
+ 9| p  j  i  u  g  e  i  a  c  b  j  v  s  t  z  i  v  n  d  n |
+10| c  s  a  n  i  t  s  k  a  v  i  a  o  q  m  p  w  k  j  a |
+11| t  h  d  i  r  o  w  e  r  a  s  o  m  l  y  k  t  i  e  h |
+12| g  i  z  f  r  b  e  r  f  k  b  i  w  a  o  n  v  l  r  z |
+13| k  r  h  o  k  b  a  s  u  p  o  v  v  w  s  b  d  l  e  d |
+14| x  t  c  r  l  q  t  d  t  z  v  o  u  n  s  n  s  z  i  p |
+15| u  c  t  m  h  w  e  w  e  d  m  w  a  d  r  e  s  s  x  z |
+16| f  s  l  o  i  m  r  u  m  u  i  e  i  a  a  p  q  o  o  n |
+17| k  g  l  o  v  e  s  m  a  m  j  k  h  b  k  k  s  g  u  x |
+18| w  b  m  h  j  d  d  y  t  p  n  s  o  c  k  s  s  d  g  x |
+19| r  q  f  u  s  s  t  i  v  p  g  b  k  g  d  z  u  v  w  y |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+shirt: ((10, 1), (14, 1))
+pants: ((1, 11), (1, 15))
+jacket: ((5, 5), (10, 5))
+dress: ((15, 13), (15, 17))
+skirt: ((4, 1), (4, 5))
+coat: ((5, 4), (8, 4))
+sweater: ((10, 6), (16, 6))
+shoes: ((3, 19), (7, 19))
+socks: ((18, 11), (18, 15))
+gloves: ((17, 1), (17, 6))
+scarf: ((8, 8), (12, 8))
+hat: ((5, 15), (5, 17))
+sneakers: ((6, 7), (13, 7))
+tie: ((11, 16), (11, 18))
+uniform: ((9, 3), (15, 3))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+shirt: ((10, 1), (14, 1))
+pants: ((1, 11), (1, 15))
+jacket: ((5, 5), (10, 5))
+dress: ((15, 13), (15, 17))
+skirt: ((4, 1), (4, 5))
+coat: ((5, 4), (8, 4))
+sweater: ((10, 6), (16, 6))
+shoes: ((3, 19), (7, 19))
+socks: ((18, 11), (18, 15))
+gloves: ((17, 1), (17, 6))
+scarf: ((8, 8), (12, 8))
+hat: ((5, 15), (5, 17))
+sneakers: ((6, 7), (13, 7))
+tie: ((11, 16), (11, 18))
+uniform: ((9, 3), (15, 3))
+
+Naïve Time taken: 0.0445 seconds
+Naïve Memory used: 0.00 MB

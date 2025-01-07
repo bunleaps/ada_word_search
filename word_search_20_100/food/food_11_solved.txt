@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| h  p  g  t  a  s  e  q  e  n  h  y  s  s  z  v  w  o  a  l |
+ 1| o  m  t  i  c  t  y  a  y  t  o  e  y  r  q  n  p  o  v  s |
+ 2| c  v  v  o  u  e  j  g  v  t  c  o  d  q  y  g  l  i  h  b |
+ 3| d  c  i  b  p  a  n  q  e  r  q  l  d  e  y  k  l  k  e  i |
+ 4| l  h  e  k  u  k  m  l  d  s  v  i  k  l  g  o  h  j  m  s |
+ 5| u  o  u  r  q  r  y  q  z  o  l  a  h  t  e  k  e  y  x  o |
+ 6| r  c  g  u  z  p  r  h  u  u  c  u  g  y  h  s  k  p  s  m |
+ 7| b  o  h  j  t  f  w  i  q  p  p  u  m  s  f  q  z  a  c  n |
+ 8| r  l  g  f  b  e  d  q  t  c  h  e  e  s  e  p  o  s  o  z |
+ 9| e  a  f  e  n  y  m  u  u  o  z  o  p  q  k  h  h  t  o  g |
+10| a  t  y  s  u  s  h  i  q  r  i  u  w  e  d  f  f  a  k  u |
+11| d  e  c  k  q  u  j  q  r  r  g  c  t  t  v  a  c  h  i  l |
+12| b  j  i  a  n  m  n  w  k  i  u  l  e  l  h  u  n  v  e  w |
+13| p  g  c  u  r  r  y  k  n  c  t  v  a  c  u  z  b  g  s  o |
+14| g  u  k  j  h  f  h  t  q  e  o  w  i  r  r  h  p  h  j  s |
+15| b  f  b  u  r  g  e  r  r  c  s  w  t  d  l  e  z  i  g  a |
+16| d  w  n  w  t  g  t  v  a  i  d  i  c  a  h  w  a  h  y  l |
+17| g  e  o  o  u  z  i  t  p  n  z  m  k  e  p  v  v  m  i  a |
+18| t  a  h  r  n  c  t  g  a  b  n  w  g  m  a  o  b  c  j  d |
+19| p  i  z  z  a  b  e  s  k  v  z  p  a  a  n  g  n  g  z  j |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((19, 0), (19, 4))
+burger: ((15, 2), (15, 7))
+pasta: ((6, 17), (10, 17))
+salad: ((14, 19), (18, 19))
+soup: ((4, 9), (7, 9))
+steak: ((0, 5), (4, 5))
+sushi: ((10, 3), (10, 7))
+rice: ((11, 9), (14, 9))
+curry: ((13, 2), (13, 6))
+bread: ((7, 0), (11, 0))
+cheese: ((8, 9), (8, 14))
+chocolate: ((3, 1), (11, 1))
+cookies: ((7, 18), (13, 18))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((19, 0), (19, 4))
+burger: ((15, 2), (15, 7))
+pasta: ((6, 17), (10, 17))
+salad: ((14, 19), (18, 19))
+soup: ((4, 9), (7, 9))
+steak: ((0, 5), (4, 5))
+sushi: ((10, 3), (10, 7))
+rice: ((11, 9), (14, 9))
+curry: ((13, 2), (13, 6))
+bread: ((7, 0), (11, 0))
+cheese: ((8, 9), (8, 14))
+chocolate: ((3, 1), (11, 1))
+cookies: ((7, 18), (13, 18))
+
+Naïve Time taken: 0.0565 seconds
+Naïve Memory used: 0.00 MB

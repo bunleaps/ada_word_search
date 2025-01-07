@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| i  z  h  o  v  e  r  b  o  a  r  d  t  f  n  v  p  p  h  m |
+ 1| q  a  o  i  f  n  s  w  b  v  e  l  s  r  r  p  k  s  q  o |
+ 2| m  v  d  m  r  x  q  h  a  v  n  n  p  n  k  g  w  u  t  t |
+ 3| z  t  x  o  e  i  q  y  e  g  l  z  m  h  f  k  r  b  a  o |
+ 4| c  g  t  r  a  i  n  e  l  l  i  k  k  i  n  j  y  m  n  r |
+ 5| s  p  a  c  e  s  h  i  p  r  i  l  j  j  w  r  u  a  y  c |
+ 6| j  i  b  k  a  q  w  i  d  u  o  c  u  f  p  y  z  r  j  y |
+ 7| f  t  i  p  g  s  c  o  o  t  e  r  o  w  w  b  b  i  k  c |
+ 8| x  f  c  u  v  w  a  q  f  r  z  r  q  p  s  s  k  n  e  l |
+ 9| v  l  y  z  e  a  q  r  a  n  g  b  i  k  t  p  c  e  v  e |
+10| v  c  c  r  e  r  n  c  a  u  p  n  b  c  b  e  i  k  s  h |
+11| n  r  l  g  r  r  d  m  h  i  m  m  k  p  k  s  r  f  w  g |
+12| i  q  e  d  y  b  k  z  t  y  r  j  e  p  l  s  y  s  r  y |
+13| u  q  p  i  n  f  h  v  b  r  k  p  i  w  u  e  h  w  d  a |
+14| h  c  x  r  p  c  b  u  s  s  a  w  l  p  o  w  h  a  p  c |
+15| j  a  p  x  x  u  e  o  w  d  v  m  o  a  o  y  d  z  w  h |
+16| t  j  j  b  j  u  u  n  a  v  x  y  v  u  n  r  m  q  y  t |
+17| k  n  b  q  d  d  b  w  s  t  d  x  e  g  t  e  i  i  u  p |
+18| d  r  m  i  m  g  f  y  f  n  e  e  y  e  l  a  w  e  e  h |
+19| o  t  c  s  t  t  r  u  c  k  u  g  t  w  j  a  e  i  a  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+truck: ((19, 5), (19, 9))
+van: ((16, 9), (16, 7))
+motorcycle: ((0, 19), (9, 19))
+bicycle: ((6, 2), (12, 2))
+scooter: ((7, 5), (7, 11))
+bus: ((14, 6), (14, 8))
+train: ((4, 2), (4, 6))
+yacht: ((12, 19), (16, 19))
+submarine: ((1, 17), (9, 17))
+spaceship: ((5, 0), (5, 8))
+hoverboard: ((0, 2), (0, 11))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+truck: ((19, 5), (19, 9))
+van: ((16, 9), (16, 7))
+motorcycle: ((0, 19), (9, 19))
+bicycle: ((6, 2), (12, 2))
+scooter: ((7, 5), (7, 11))
+bus: ((14, 6), (14, 8))
+train: ((4, 2), (4, 6))
+yacht: ((12, 19), (16, 19))
+submarine: ((1, 17), (9, 17))
+spaceship: ((5, 0), (5, 8))
+hoverboard: ((0, 2), (0, 11))
+
+Naïve Time taken: 0.0487 seconds
+Naïve Memory used: 0.00 MB

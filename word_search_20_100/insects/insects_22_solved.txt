@@ -1,0 +1,45 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  z  l  x  i  d  r  u  m  q  f  s  c  b  d  s  g  w  p  s |
+ 1| i  f  h  c  a  w  r  s  o  b  v  m  a  g  b  e  w  c  n  d |
+ 2| a  m  a  b  t  e  n  a  y  n  e  k  a  h  e  m  d  i  q  h |
+ 3| v  i  r  h  z  k  b  g  g  z  c  e  h  o  o  g  t  g  o  s |
+ 4| z  g  r  b  w  i  d  h  e  o  h  i  v  u  g  y  e  n  d  x |
+ 5| f  g  c  z  r  w  m  l  q  c  n  f  x  h  t  f  x  w  y  n |
+ 6| f  u  w  j  v  a  t  t  a  f  c  f  a  d  n  z  u  w  g  u |
+ 7| g  a  r  o  j  e  b  o  j  x  w  a  l  g  v  r  k  c  r  h |
+ 8| l  n  r  c  e  g  r  b  m  o  r  d  c  y  t  t  g  d  a  n |
+ 9| v  q  e  b  m  k  m  o  s  q  u  i  t  o  b  e  j  o  s  r |
+10| z  p  l  s  c  h  l  a  d  y  b  u  g  j  u  t  o  e  s  m |
+11| u  l  u  o  p  s  t  x  v  u  t  n  e  d  t  t  s  x  h  u |
+12| w  v  c  p  u  x  r  e  l  g  m  e  s  l  t  d  i  g  o  d |
+13| t  e  o  g  v  e  q  h  r  w  n  o  e  o  e  d  w  a  p  h |
+14| x  z  v  p  d  c  h  o  p  m  r  w  t  l  r  j  i  v  p  g |
+15| x  c  s  i  z  r  o  l  g  j  i  g  q  h  f  c  t  y  e  o |
+16| f  a  p  a  l  a  t  e  y  b  a  t  s  s  l  m  u  a  r  e |
+17| w  s  e  a  l  b  n  j  h  e  s  o  e  q  y  c  s  n  z  j |
+18| l  l  k  x  c  p  d  t  w  c  l  z  z  a  d  q  z  t  n  u |
+19| f  n  s  h  o  a  a  y  p  f  f  t  i  e  f  l  y  w  c  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+ant: ((16, 17), (18, 17))
+butterfly: ((9, 14), (17, 14))
+mosquito: ((9, 6), (9, 13))
+ladybug: ((10, 6), (10, 12))
+fly: ((19, 14), (19, 16))
+grasshopper: ((6, 18), (16, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+ant: ((16, 17), (18, 17))
+butterfly: ((9, 14), (17, 14))
+mosquito: ((9, 6), (9, 13))
+ladybug: ((10, 6), (10, 12))
+fly: ((19, 14), (19, 16))
+grasshopper: ((6, 18), (16, 18))
+
+Naïve Time taken: 0.0505 seconds
+Naïve Memory used: 0.00 MB

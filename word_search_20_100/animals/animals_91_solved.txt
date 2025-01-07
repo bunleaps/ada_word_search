@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  b  r  j  w  q  h  y  z  n  r  z  u  t  u  a  d  r  m  d |
+ 1| v  e  r  p  h  b  q  f  g  t  d  g  v  c  g  u  i  l  v  d |
+ 2| f  a  u  e  a  j  r  p  p  o  o  s  r  r  s  o  w  o  s  d |
+ 3| h  r  l  z  l  g  l  u  o  r  u  w  m  o  r  n  y  u  r  j |
+ 4| m  z  l  g  e  i  e  r  f  p  s  l  g  c  h  w  a  s  m  t |
+ 5| w  c  a  n  t  l  a  x  o  m  a  s  g  o  i  v  e  k  e  q |
+ 6| w  a  a  d  i  g  b  t  i  m  d  f  c  d  n  d  t  s  e  c |
+ 7| o  a  k  t  n  g  c  w  m  z  b  t  x  i  o  p  l  p  b  f |
+ 8| l  b  p  a  y  o  e  a  u  o  w  a  k  l  c  a  i  a  u  z |
+ 9| f  e  k  p  s  f  m  l  c  i  d  i  z  e  e  r  c  m  t  l |
+10| r  q  j  l  f  n  v  o  e  n  v  b  t  x  r  r  v  p  t  v |
+11| u  j  a  a  a  x  a  g  a  p  k  p  l  g  o  o  c  h  e  h |
+12| z  u  r  r  k  a  a  p  j  q  h  t  t  i  s  t  g  i  r  o |
+13| b  i  b  r  m  q  e  b  i  r  d  a  r  d  o  x  k  b  f  n |
+14| g  e  a  k  u  a  r  u  l  k  n  e  n  b  j  n  j  i  l  e |
+15| z  h  i  n  s  e  c  t  x  j  g  y  l  t  s  f  k  a  y  y |
+16| s  f  s  i  x  p  w  n  p  i  r  s  z  h  w  l  i  n  w  b |
+17| j  i  o  g  k  r  v  q  t  u  u  w  r  s  e  g  r  s  g  e |
+18| t  b  e  a  g  l  e  s  a  l  e  h  m  c  j  y  b  r  h  e |
+19| o  u  o  d  o  l  p  h  i  n  s  y  d  i  b  l  z  n  n  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+amphibian: ((8, 17), (16, 17))
+bird: ((13, 7), (13, 10))
+insect: ((15, 2), (15, 7))
+crocodile: ((1, 13), (9, 13))
+parrot: ((7, 15), (12, 15))
+dolphin: ((19, 3), (19, 9))
+whale: ((0, 4), (4, 4))
+eagle: ((18, 2), (18, 6))
+bear: ((0, 1), (3, 1))
+wolf: ((6, 0), (9, 0))
+rhinoceros: ((3, 14), (12, 14))
+ant: ((5, 2), (5, 4))
+butterfly: ((7, 18), (15, 18))
+honeybee: ((11, 19), (18, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+amphibian: ((8, 17), (16, 17))
+bird: ((13, 7), (13, 10))
+insect: ((15, 2), (15, 7))
+crocodile: ((1, 13), (9, 13))
+parrot: ((7, 15), (12, 15))
+dolphin: ((19, 3), (19, 9))
+whale: ((0, 4), (4, 4))
+eagle: ((18, 2), (18, 6))
+bear: ((0, 1), (3, 1))
+wolf: ((6, 0), (9, 0))
+rhinoceros: ((3, 14), (12, 14))
+ant: ((5, 2), (5, 4))
+butterfly: ((7, 18), (15, 18))
+honeybee: ((11, 19), (18, 19))
+
+Naïve Time taken: 0.0953 seconds
+Naïve Memory used: 0.00 MB

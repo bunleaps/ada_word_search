@@ -1,0 +1,39 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| a  f  r  a  n  c  e  h  a  q |
+ 1| p  r  d  q  j  a  p  a  n  d |
+ 2| o  o  g  c  h  v  i  c  y  q |
+ 3| b  h  r  e  a  d  t  l  k  m |
+ 4| u  r  z  t  n  n  a  b  e  s |
+ 5| x  k  a  i  u  t  a  l  n  p |
+ 6| u  s  a  z  i  g  i  d  y  a |
+ 7| e  w  c  h  i  n  a  n  a  i |
+ 8| e  g  y  p  t  l  h  l  a  n |
+ 9| a  g  e  r  m  a  n  y  q  o |
+  +------------------------------+
+Dynamic Programming Solution:
+france: ((0, 1), (0, 6))
+germany: ((9, 1), (9, 7))
+spain: ((4, 9), (8, 9))
+china: ((7, 2), (7, 6))
+japan: ((1, 4), (1, 8))
+egypt: ((8, 0), (8, 4))
+kenya: ((3, 8), (7, 8))
+usa: ((6, 0), (6, 2))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+france: ((0, 1), (0, 6))
+germany: ((9, 1), (9, 7))
+spain: ((4, 9), (8, 9))
+china: ((7, 2), (7, 6))
+japan: ((1, 4), (1, 8))
+egypt: ((8, 0), (8, 4))
+kenya: ((3, 8), (7, 8))
+usa: ((6, 0), (6, 2))
+
+Naïve Time taken: 0.0150 seconds
+Naïve Memory used: 0.00 MB

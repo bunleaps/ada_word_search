@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| g  n  q  r  v  i  l  l  a  g  e  u  o  g  l  y  r  o  y  m |
+ 1| o  t  u  e  a  x  d  m  c  o  n  t  i  n  e  n  t  z  f  g |
+ 2| w  g  o  s  n  m  j  m  q  d  n  q  s  v  l  g  i  q  a  k |
+ 3| z  h  e  t  c  h  f  t  k  n  e  i  o  u  g  w  j  y  i  s |
+ 4| f  p  m  a  r  v  d  l  v  u  j  t  d  y  o  h  m  n  t  c |
+ 5| t  q  m  u  h  o  s  p  i  t  a  l  g  p  o  l  w  w  d  h |
+ 6| a  w  d  r  n  b  e  a  c  h  t  o  w  n  d  o  a  r  k  o |
+ 7| q  h  f  a  p  t  p  k  m  h  s  b  n  f  h  d  r  k  y  o |
+ 8| u  w  t  n  c  d  g  w  n  i  p  c  o  l  v  z  k  b  e  l |
+ 9| b  k  b  t  m  a  k  p  a  r  k  d  h  m  l  n  w  c  d  y |
+10| s  k  u  m  j  g  d  s  r  c  i  t  y  u  u  m  r  s  e  g |
+11| s  c  i  f  c  t  s  r  t  i  x  n  d  s  c  q  m  h  s  r |
+12| p  s  o  s  o  z  q  d  h  r  v  e  x  e  c  i  o  j  e  x |
+13| i  o  t  u  l  r  o  b  j  r  e  e  d  u  g  c  u  w  r  s |
+14| b  x  h  c  n  a  e  v  z  o  m  e  r  m  o  r  n  o  t  q |
+15| f  b  a  l  f  t  n  s  n  x  u  h  t  v  b  k  t  k  x  n |
+16| l  e  v  c  b  v  r  d  t  f  m  t  u  o  j  b  a  c  q  y |
+17| x  j  n  i  j  n  r  y  s  k  d  v  t  j  f  c  i  m  z  x |
+18| f  r  m  r  o  a  d  o  d  y  v  f  q  h  p  p  n  t  a  k |
+19| n  e  k  a  k  o  o  q  q  k  c  h  u  r  c  h  m  f  t  d |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+city: ((10, 9), (10, 12))
+town: ((6, 10), (6, 13))
+village: ((0, 4), (0, 10))
+park: ((9, 7), (9, 10))
+beach: ((6, 5), (6, 9))
+mountain: ((11, 16), (18, 16))
+desert: ((9, 18), (14, 18))
+continent: ((1, 8), (1, 16))
+road: ((18, 3), (18, 6))
+school: ((3, 19), (8, 19))
+hospital: ((5, 4), (5, 11))
+museum: ((9, 13), (14, 13))
+church: ((19, 10), (19, 15))
+restaurant: ((0, 3), (9, 3))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((10, 9), (10, 12))
+town: ((6, 10), (6, 13))
+village: ((0, 4), (0, 10))
+park: ((9, 7), (9, 10))
+beach: ((6, 5), (6, 9))
+mountain: ((11, 16), (18, 16))
+desert: ((9, 18), (14, 18))
+continent: ((1, 8), (1, 16))
+road: ((18, 3), (18, 6))
+school: ((3, 19), (8, 19))
+hospital: ((5, 4), (5, 11))
+museum: ((9, 13), (14, 13))
+church: ((19, 10), (19, 15))
+restaurant: ((0, 3), (9, 3))
+
+Naïve Time taken: 0.0942 seconds
+Naïve Memory used: 0.00 MB

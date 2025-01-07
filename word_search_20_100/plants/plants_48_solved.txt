@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| t  g  x  l  h  u  m  a  w  e  p  t  z  g  k  f  i  o  w  l |
+ 1| d  l  r  g  r  h  i  u  i  m  t  i  s  y  x  o  g  k  b  h |
+ 2| s  l  o  x  z  n  p  b  w  w  n  i  n  w  h  h  o  z  v  z |
+ 3| h  o  s  g  l  k  f  k  u  r  u  q  z  e  t  j  l  o  o  i |
+ 4| h  r  e  s  f  l  o  w  e  r  k  f  c  w  f  u  v  z  h  q |
+ 5| v  c  q  k  s  g  y  f  k  g  q  j  c  p  s  s  z  m  q  y |
+ 6| d  h  x  o  e  r  e  e  x  f  a  u  n  b  z  m  a  u  s  a |
+ 7| g  i  y  b  e  f  j  n  h  a  a  j  t  u  l  i  p  s  o  s |
+ 8| k  d  e  e  g  a  x  m  n  k  t  g  i  n  y  p  a  j  r  k |
+ 9| b  d  r  j  n  c  l  e  j  w  x  k  f  z  i  r  h  h  f  k |
+10| p  t  y  g  j  d  q  s  h  r  u  b  f  t  g  r  s  d  k  l |
+11| v  e  l  l  i  b  r  d  f  s  q  r  q  d  i  p  n  a  p  s |
+12| g  i  m  m  t  p  a  p  h  y  e  e  w  m  o  s  s  i  u  n |
+13| s  y  n  c  a  o  i  k  a  s  b  o  w  s  d  a  y  s  e  x |
+14| k  j  y  e  n  p  m  f  u  l  a  k  v  i  m  v  e  y  o  f |
+15| d  n  f  h  y  m  l  t  m  c  m  h  p  a  i  h  i  j  b  p |
+16| o  j  k  l  k  p  c  e  l  f  b  t  o  z  t  r  g  y  z  v |
+17| o  a  i  g  d  a  k  s  g  z  o  g  x  e  s  g  s  a  m  m |
+18| o  l  u  k  c  z  s  u  g  c  o  s  f  d  t  u  d  k  p  g |
+19| g  b  s  u  n  f  l  o  w  e  r  t  b  q  b  m  z  z  c  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+flower: ((4, 4), (4, 9))
+shrub: ((10, 7), (10, 11))
+moss: ((12, 13), (12, 16))
+bamboo: ((13, 10), (18, 10))
+rose: ((1, 2), (4, 2))
+tulip: ((7, 12), (7, 16))
+daisy: ((10, 17), (14, 17))
+sunflower: ((19, 2), (19, 10))
+orchid: ((3, 1), (8, 1))
+
+DP Time taken: 0.0021 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+flower: ((4, 4), (4, 9))
+shrub: ((10, 7), (10, 11))
+moss: ((12, 13), (12, 16))
+bamboo: ((13, 10), (18, 10))
+rose: ((1, 2), (4, 2))
+tulip: ((7, 12), (7, 16))
+daisy: ((10, 17), (14, 17))
+sunflower: ((19, 2), (19, 10))
+orchid: ((3, 1), (8, 1))
+
+Naïve Time taken: 0.0595 seconds
+Naïve Memory used: 0.00 MB

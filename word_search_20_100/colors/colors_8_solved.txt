@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| z  l  f  t  x  b  c  n  v  z  j  n  k  u  r  c  z  v  l  g |
+ 1| x  t  u  i  b  a  c  o  h  z  l  f  z  s  f  n  a  h  e  d |
+ 2| c  e  r  e  l  b  w  q  x  v  e  p  r  l  w  t  c  g  h  j |
+ 3| f  a  t  k  a  l  y  g  c  t  m  z  d  o  t  r  i  i  q  c |
+ 4| j  l  o  x  c  u  i  y  i  k  x  z  r  c  u  e  o  e  s  z |
+ 5| l  l  y  v  k  e  e  h  l  d  i  b  z  o  b  n  q  s  d  e |
+ 6| g  v  k  d  s  m  w  n  f  y  j  e  f  j  a  n  b  a  t  j |
+ 7| r  r  e  b  r  g  a  h  e  s  s  j  t  d  y  k  k  i  u  m |
+ 8| x  r  a  n  d  y  r  i  k  z  e  e  k  c  c  c  o  g  b  o |
+ 9| o  f  u  y  c  e  m  a  p  a  q  b  j  s  m  m  e  c  z  j |
+10| y  n  k  n  v  o  t  x  t  w  w  r  q  k  d  o  o  d  y  o |
+11| p  i  u  l  i  e  m  n  o  u  i  k  k  o  l  r  m  z  j  o |
+12| h  q  i  r  v  x  e  l  a  q  i  n  o  z  j  a  p  e  g  e |
+13| i  s  z  i  l  g  l  y  a  c  i  e  y  z  f  n  u  m  d  k |
+14| v  v  l  r  a  e  j  y  u  p  a  o  l  s  o  g  r  a  a  t |
+15| x  o  d  m  y  b  j  b  m  v  j  g  i  j  r  e  p  r  p  x |
+16| t  w  z  u  d  g  b  t  e  y  h  z  o  u  w  l  l  o  h  r |
+17| b  x  g  r  l  m  l  n  v  j  y  q  v  l  u  w  e  o  g  j |
+18| b  n  m  h  t  d  q  a  n  j  e  v  e  t  d  t  m  n  q  z |
+19| g  r  e  e  n  j  n  c  r  s  i  j  n  k  v  n  l  r  v  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+blue: ((2, 5), (5, 5))
+green: ((19, 0), (19, 4))
+purple: ((12, 16), (17, 16))
+orange: ((10, 15), (15, 15))
+black: ((1, 4), (5, 4))
+teal: ((1, 1), (4, 1))
+maroon: ((13, 17), (18, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+blue: ((2, 5), (5, 5))
+green: ((19, 0), (19, 4))
+purple: ((12, 16), (17, 16))
+orange: ((10, 15), (15, 15))
+black: ((1, 4), (5, 4))
+teal: ((1, 1), (4, 1))
+maroon: ((13, 17), (18, 17))
+
+Naïve Time taken: 0.0802 seconds
+Naïve Memory used: 0.00 MB

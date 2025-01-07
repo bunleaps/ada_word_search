@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  k  q  m  h  g  g  o  m  h  p  i  e  s  c  u  h  b  v  e |
+ 1| u  x  n  q  y  m  e  j  a  y  v  h  j  a  h  a  v  x  j  l |
+ 2| w  z  d  p  s  n  z  k  i  g  t  l  f  l  o  w  o  n  j  d |
+ 3| b  f  a  a  s  a  n  d  w  i  c  h  f  a  c  l  l  f  b  t |
+ 4| g  u  r  b  s  p  o  k  b  h  e  h  v  d  o  l  y  l  c  e |
+ 5| c  u  r  r  y  a  d  x  l  c  j  u  n  b  l  n  b  y  g  w |
+ 6| x  r  a  r  t  l  h  s  i  o  m  p  y  l  a  o  z  j  y  q |
+ 7| t  i  z  s  i  f  f  r  u  d  o  a  s  u  t  o  b  m  x  r |
+ 8| n  z  a  l  k  t  e  v  a  s  a  q  p  z  e  d  h  b  u  a |
+ 9| f  p  h  a  m  s  o  e  l  w  h  t  j  o  o  l  v  b  c  o |
+10| f  u  e  n  e  v  r  p  k  z  i  i  n  r  f  e  r  h  e  z |
+11| y  t  w  e  d  b  k  i  c  e  c  r  e  a  m  s  t  m  f  e |
+12| s  y  h  y  z  t  k  t  s  k  a  s  k  y  n  m  a  o  x  h |
+13| d  c  s  g  u  g  i  l  o  q  p  d  s  q  a  q  c  x  u  k |
+14| k  r  o  s  m  w  z  l  u  l  d  e  i  l  w  r  o  n  g  v |
+15| r  x  g  s  k  b  b  a  p  m  i  i  l  b  e  x  d  g  q  s |
+16| t  u  d  j  o  f  z  a  e  k  j  q  e  g  x  m  l  k  t  s |
+17| y  e  p  z  g  z  p  z  o  n  o  k  r  r  x  d  k  f  j  v |
+18| z  c  z  w  i  u  u  o  m  p  a  u  r  z  o  d  a  f  a  l |
+19| j  o  r  p  x  z  c  t  q  c  b  w  d  s  j  l  h  y  d  i |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+sandwich: ((3, 4), (3, 11))
+salad: ((0, 13), (4, 13))
+soup: ((12, 8), (15, 8))
+noodles: ((5, 15), (11, 15))
+taco: ((11, 16), (14, 16))
+curry: ((5, 0), (5, 4))
+chocolate: ((0, 14), (8, 14))
+icecream: ((11, 7), (11, 14))
+pie: ((0, 10), (0, 12))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+sandwich: ((3, 4), (3, 11))
+salad: ((0, 13), (4, 13))
+soup: ((12, 8), (15, 8))
+noodles: ((5, 15), (11, 15))
+taco: ((11, 16), (14, 16))
+curry: ((5, 0), (5, 4))
+chocolate: ((0, 14), (8, 14))
+icecream: ((11, 7), (11, 14))
+pie: ((0, 10), (0, 12))
+
+Naïve Time taken: 0.0655 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,41 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| j  a  c  k  e  t  s  k  s  n |
+ 1| g  l  o  v  e  s  h  x  w  y |
+ 2| p  a  n  t  s  o  i  n  e  a |
+ 3| d  d  f  h  s  e  r  q  a  c |
+ 4| r  t  q  k  s  u  t  s  t  o |
+ 5| e  l  c  n  u  f  t  t  e  a |
+ 6| s  o  a  t  r  o  r  i  r  t |
+ 7| s  e  l  a  o  i  v  b  e  h |
+ 8| j  e  c  b  k  h  a  t  e  w |
+ 9| b  s  i  s  h  o  e  s  q  z |
+  +------------------------------+
+Dynamic Programming Solution:
+shirt: ((0, 6), (4, 6))
+pants: ((2, 0), (2, 4))
+jacket: ((0, 0), (0, 5))
+dress: ((3, 0), (7, 0))
+coat: ((3, 9), (6, 9))
+sweater: ((0, 8), (6, 8))
+shoes: ((9, 3), (9, 7))
+gloves: ((1, 0), (1, 5))
+hat: ((8, 5), (8, 7))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+shirt: ((0, 6), (4, 6))
+pants: ((2, 0), (2, 4))
+jacket: ((0, 0), (0, 5))
+dress: ((3, 0), (7, 0))
+coat: ((3, 9), (6, 9))
+sweater: ((0, 8), (6, 8))
+shoes: ((9, 3), (9, 7))
+gloves: ((1, 0), (1, 5))
+hat: ((8, 5), (8, 7))
+
+Naïve Time taken: 0.0101 seconds
+Naïve Memory used: 0.00 MB

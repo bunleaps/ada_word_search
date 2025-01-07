@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  d  p  d  b  i  f  i  v  d  e  m  s  t  g  t  p  b  y  k |
+ 1| t  n  o  t  w  i  c  e  g  f  b  o  h  v  h  z  a  x  t  v |
+ 2| x  q  a  a  v  u  x  a  r  m  o  s  r  r  y  j  x  x  r  d |
+ 3| o  t  h  w  k  x  m  m  w  n  o  s  u  l  k  s  d  z  e  m |
+ 4| z  k  q  x  e  y  z  s  c  r  k  n  b  d  n  u  p  k  e  g |
+ 5| r  z  r  t  f  p  u  d  e  q  p  r  s  h  o  n  o  w  m  r |
+ 6| t  c  s  c  r  t  l  o  y  h  r  e  n  r  r  f  n  m  r  s |
+ 7| o  u  b  o  c  x  s  t  s  m  e  n  x  e  j  l  o  a  q  s |
+ 8| s  v  l  a  v  s  o  o  k  f  l  o  w  e  r  o  p  b  m  n |
+ 9| l  p  c  i  a  d  o  d  b  a  l  l  f  a  l  w  b  j  c  e |
+10| j  e  o  r  p  b  k  k  x  c  m  a  e  v  q  e  s  w  e  e |
+11| z  p  g  m  m  n  j  s  z  u  d  e  p  p  q  r  q  l  i  z |
+12| u  g  s  a  g  p  i  n  e  u  n  o  f  a  s  v  p  z  m  l |
+13| f  p  b  r  b  j  d  q  j  i  r  r  e  l  c  a  f  d  v  i |
+14| g  m  e  e  v  q  k  a  v  u  r  c  u  m  m  m  c  j  a  l |
+15| e  m  n  f  u  t  i  z  i  o  d  h  s  w  y  m  z  r  f  y |
+16| l  c  k  l  d  n  w  c  l  s  x  i  h  v  x  k  a  j  k  h |
+17| h  j  u  h  f  s  q  r  h  p  y  d  i  q  r  o  s  e  z  i |
+18| b  l  x  g  v  l  h  w  o  d  x  r  c  k  m  q  x  p  s  i |
+19| e  v  v  h  m  m  q  u  k  k  q  l  x  m  d  i  b  i  o  n |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tree: ((1, 18), (4, 18))
+flower: ((8, 9), (8, 14))
+shrub: ((0, 12), (4, 12))
+moss: ((0, 11), (3, 11))
+pine: ((12, 5), (12, 8))
+rose: ((17, 14), (17, 17))
+sunflower: ((3, 15), (11, 15))
+lily: ((12, 19), (15, 19))
+orchid: ((12, 11), (17, 11))
+palm: ((11, 13), (14, 13))
+
+DP Time taken: 0.0021 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((1, 18), (4, 18))
+flower: ((8, 9), (8, 14))
+shrub: ((0, 12), (4, 12))
+moss: ((0, 11), (3, 11))
+pine: ((12, 5), (12, 8))
+rose: ((17, 14), (17, 17))
+sunflower: ((3, 15), (11, 15))
+lily: ((12, 19), (15, 19))
+orchid: ((12, 11), (17, 11))
+palm: ((11, 13), (14, 13))
+
+Naïve Time taken: 0.0746 seconds
+Naïve Memory used: 0.00 MB

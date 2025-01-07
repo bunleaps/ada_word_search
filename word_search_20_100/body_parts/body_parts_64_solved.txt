@@ -1,0 +1,45 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| r  y  g  j  g  w  b  u  p  e  q  w  a  z  i  u  v  p  c  g |
+ 1| x  p  x  e  t  h  n  t  t  o  v  z  e  s  a  v  m  q  v  e |
+ 2| o  f  z  o  c  t  e  m  r  t  f  l  a  x  b  r  s  h  o  i |
+ 3| g  x  p  e  o  b  e  a  y  x  e  x  v  s  a  p  e  h  u  h |
+ 4| n  a  s  o  z  b  e  a  d  j  n  e  c  x  m  w  q  p  b  s |
+ 5| j  o  f  s  u  e  x  j  l  h  q  y  t  x  v  h  n  b  y  v |
+ 6| n  d  w  h  t  e  a  t  n  n  a  a  f  h  p  i  k  s  t  k |
+ 7| a  s  z  o  e  u  d  m  o  u  t  h  v  w  a  j  w  d  h  s |
+ 8| j  r  g  u  t  m  u  b  h  c  w  s  u  r  o  i  r  c  v  y |
+ 9| a  f  v  l  h  h  z  a  r  e  h  f  b  j  s  q  a  i  m  h |
+10| i  l  r  d  m  n  s  c  o  o  a  e  h  e  d  m  j  i  k  l |
+11| n  f  c  e  p  h  t  k  h  h  u  r  s  i  o  n  k  c  q  y |
+12| i  t  j  r  e  a  r  p  u  o  t  j  t  t  i  o  e  q  v  d |
+13| b  k  e  h  x  u  t  d  o  f  v  o  s  k  x  n  q  e  v  o |
+14| o  y  f  q  b  k  p  o  s  t  j  n  s  a  c  g  e  f  v  n |
+15| e  n  t  k  a  b  n  d  e  d  r  r  i  b  x  n  g  l  p  v |
+16| d  a  i  n  q  a  n  c  c  u  s  i  v  m  k  e  s  p  c  q |
+17| e  s  l  r  k  a  h  c  y  t  z  d  b  u  l  h  c  b  o  l |
+18| r  l  l  j  h  p  z  i  m  c  p  h  f  s  p  h  o  x  i  c |
+19| d  e  d  n  f  f  i  n  g  e  r  r  b  m  d  h  n  p  o  a |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+ear: ((12, 4), (12, 6))
+mouth: ((7, 7), (7, 11))
+back: ((8, 7), (11, 7))
+shoulder: ((5, 3), (12, 3))
+finger: ((19, 5), (19, 10))
+toe: ((2, 9), (0, 9))
+
+DP Time taken: 0.0015 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+ear: ((12, 4), (12, 6))
+mouth: ((7, 7), (7, 11))
+back: ((8, 7), (11, 7))
+shoulder: ((5, 3), (12, 3))
+finger: ((19, 5), (19, 10))
+toe: ((2, 9), (0, 9))
+
+Naïve Time taken: 0.0755 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,45 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| w  h  a  l  e  f  d  d  a  i |
+ 1| s  n  a  k  e  u  i  e  m  n |
+ 2| y  b  i  r  d  g  l  s  p  s |
+ 3| t  i  g  e  r  i  e  l  h  e |
+ 4| e  b  u  a  t  f  t  l  i  c |
+ 5| a  h  e  p  f  o  a  q  b  t |
+ 6| g  b  e  a  r  m  j  e  i  a |
+ 7| l  r  r  r  m  k  c  j  a  n |
+ 8| e  i  a  a  l  i  o  n  n  t |
+ 9| g  p  m  f  r  o  g  v  p  v |
+  +------------------------------+
+Dynamic Programming Solution:
+amphibian: ((0, 8), (8, 8))
+bird: ((2, 1), (2, 4))
+insect: ((0, 9), (5, 9))
+lion: ((8, 4), (8, 7))
+tiger: ((3, 0), (3, 4))
+snake: ((1, 0), (1, 4))
+frog: ((9, 3), (9, 6))
+whale: ((0, 0), (0, 4))
+eagle: ((4, 0), (8, 0))
+bear: ((6, 1), (6, 4))
+ant: ((6, 9), (8, 9))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+amphibian: ((0, 8), (8, 8))
+bird: ((2, 1), (2, 4))
+insect: ((0, 9), (5, 9))
+lion: ((8, 4), (8, 7))
+tiger: ((3, 0), (3, 4))
+snake: ((1, 0), (1, 4))
+frog: ((9, 3), (9, 6))
+whale: ((0, 0), (0, 4))
+eagle: ((4, 0), (8, 0))
+bear: ((6, 1), (6, 4))
+ant: ((6, 9), (8, 9))
+
+Naïve Time taken: 0.0150 seconds
+Naïve Memory used: 0.00 MB

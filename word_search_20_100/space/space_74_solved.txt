@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  j  q  f  t  s  d  q  v  d  a  s  t  r  o  n  a  u  t  i |
+ 1| y  i  i  b  k  h  a  v  t  m  a  m  a  c  h  f  s  x  r  t |
+ 2| m  s  f  o  e  g  l  g  e  n  l  y  i  o  c  l  s  q  q  t |
+ 3| e  o  t  g  w  e  i  u  l  z  i  r  v  m  n  i  e  s  q  s |
+ 4| t  m  r  a  e  i  g  w  e  g  e  t  a  e  q  h  n  y  b  c |
+ 5| e  z  o  b  r  b  h  c  s  g  n  e  b  t  v  d  x  h  s  g |
+ 6| o  g  i  o  i  p  t  x  c  x  s  k  k  n  y  a  b  c  o  b |
+ 7| r  a  u  c  n  t  y  j  o  t  f  m  k  i  l  c  f  o  l  p |
+ 8| d  z  s  n  u  e  e  s  p  y  t  y  c  a  j  h  z  n  a  l |
+ 9| d  g  h  t  i  t  a  s  e  h  g  w  g  q  q  o  u  s  r  n |
+10| v  z  p  m  e  v  r  s  p  a  c  e  c  r  a  f  t  t  q  y |
+11| m  a  h  k  g  r  e  b  l  q  r  t  z  o  i  i  h  e  s  k |
+12| o  s  c  g  i  q  o  r  s  a  t  e  l  l  i  t  e  l  y  t |
+13| i  o  s  i  t  n  c  i  s  t  m  r  f  s  o  k  e  l  s  z |
+14| r  y  f  a  l  t  e  p  d  e  i  s  l  k  d  n  v  a  t  v |
+15| s  x  h  r  e  g  l  b  f  y  u  y  u  q  c  n  v  t  e  x |
+16| b  e  w  b  q  z  s  a  u  m  p  e  h  s  k  o  z  i  m  v |
+17| v  s  g  m  b  a  m  z  b  l  a  c  k  h  o  l  e  o  c  q |
+18| j  r  f  w  p  l  a  n  e  t  a  e  m  h  d  i  v  n  m  h |
+19| e  b  k  d  l  e  g  u  g  x  i  s  e  p  d  k  m  j  m  z |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+planet: ((18, 4), (18, 9))
+comet: ((1, 13), (5, 13))
+blackhole: ((17, 8), (17, 16))
+satellite: ((12, 8), (12, 16))
+telescope: ((1, 8), (9, 8))
+astronaut: ((0, 10), (0, 18))
+spacecraft: ((10, 7), (10, 16))
+meteor: ((2, 0), (7, 0))
+lightyear: ((2, 6), (10, 6))
+constellation: ((6, 17), (18, 17))
+aliens: ((1, 10), (6, 10))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((18, 4), (18, 9))
+comet: ((1, 13), (5, 13))
+blackhole: ((17, 8), (17, 16))
+satellite: ((12, 8), (12, 16))
+telescope: ((1, 8), (9, 8))
+astronaut: ((0, 10), (0, 18))
+spacecraft: ((10, 7), (10, 16))
+meteor: ((2, 0), (7, 0))
+lightyear: ((2, 6), (10, 6))
+constellation: ((6, 17), (18, 17))
+aliens: ((1, 10), (6, 10))
+
+Naïve Time taken: 0.0544 seconds
+Naïve Memory used: 0.00 MB

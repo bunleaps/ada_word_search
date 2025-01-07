@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| z  x  j  a  v  r  h  y  t  h  m  d  b  n  t  m  a  r  f  h |
+ 1| r  s  w  o  s  u  b  h  j  i  w  b  u  n  g  f  b  b  a  q |
+ 2| z  g  m  l  m  e  l  o  d  y  v  x  x  o  l  p  c  z  m  l |
+ 3| h  f  u  i  y  a  h  i  n  n  x  l  u  d  r  u  m  s  c  e |
+ 4| m  s  k  i  c  r  s  v  s  d  z  r  n  w  m  y  c  l  i  i |
+ 5| o  v  m  l  t  r  i  z  x  u  a  l  b  u  m  t  b  k  b  o |
+ 6| f  q  i  f  o  a  o  c  v  i  o  l  i  n  f  g  b  t  r  r |
+ 7| h  a  c  k  z  b  r  p  s  j  y  f  l  u  t  e  i  q  t  c |
+ 8| k  c  h  o  r  d  r  y  h  q  q  w  q  c  u  z  k  k  f  h |
+ 9| v  b  c  z  g  e  x  s  e  o  j  p  n  t  z  m  z  n  b  e |
+10| o  j  q  f  g  p  n  m  a  i  n  u  o  e  x  b  x  f  t  s |
+11| r  m  n  n  o  x  t  j  o  x  x  e  t  b  p  k  y  r  j  t |
+12| h  c  i  r  h  e  b  n  f  o  o  z  e  a  o  v  e  u  h  r |
+13| r  s  m  h  p  v  a  m  n  y  o  p  u  n  z  c  p  j  a  a |
+14| r  s  o  m  o  i  r  c  e  j  b  h  h  d  n  q  v  w  r  e |
+15| w  d  u  o  p  h  g  o  e  i  f  w  j  o  a  j  i  i  m  p |
+16| e  r  d  s  j  n  z  v  w  m  l  k  c  h  n  c  n  q  o  z |
+17| t  u  m  w  k  x  u  y  q  a  c  f  t  i  c  e  i  o  n  b |
+18| f  b  g  e  j  u  h  g  m  g  g  z  t  p  s  o  d  t  y  y |
+19| h  e  z  y  h  e  a  d  p  h  o  n  e  s  m  z  y  f  s  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+drums: ((3, 13), (3, 17))
+violin: ((6, 8), (6, 13))
+flute: ((7, 11), (7, 15))
+band: ((11, 13), (14, 13))
+orchestra: ((5, 19), (13, 19))
+melody: ((2, 4), (2, 9))
+harmony: ((12, 18), (18, 18))
+rhythm: ((0, 5), (0, 10))
+note: ((9, 12), (12, 12))
+chord: ((8, 1), (8, 5))
+album: ((5, 10), (5, 14))
+headphones: ((19, 4), (19, 13))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+drums: ((3, 13), (3, 17))
+violin: ((6, 8), (6, 13))
+flute: ((7, 11), (7, 15))
+band: ((11, 13), (14, 13))
+orchestra: ((5, 19), (13, 19))
+melody: ((2, 4), (2, 9))
+harmony: ((12, 18), (18, 18))
+rhythm: ((0, 5), (0, 10))
+note: ((9, 12), (12, 12))
+chord: ((8, 1), (8, 5))
+album: ((5, 10), (5, 14))
+headphones: ((19, 4), (19, 13))
+
+Naïve Time taken: 0.0490 seconds
+Naïve Memory used: 0.00 MB

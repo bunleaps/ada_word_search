@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| u  h  h  d  e  h  e  l  s  j  z  w  d  q  g  d  m  z  j  t |
+ 1| i  a  a  e  z  c  r  q  z  t  s  r  i  l  i  h  a  u  i  u |
+ 2| p  t  k  a  h  m  o  e  s  e  d  k  t  s  p  q  w  g  h  t |
+ 3| s  j  o  k  g  s  y  a  s  y  d  g  i  e  u  j  m  b  k  r |
+ 4| m  c  e  e  n  a  o  r  t  h  l  k  v  r  b  r  p  h  w  e |
+ 5| l  l  s  a  y  h  u  e  x  z  o  w  z  k  t  z  t  q  w  q |
+ 6| d  l  o  r  n  f  r  k  f  w  t  e  o  d  e  e  a  q  m  s |
+ 7| s  b  c  c  z  s  s  s  y  n  s  s  s  i  z  d  b  n  k  n |
+ 8| x  e  k  h  m  a  t  w  d  a  w  x  t  w  t  k  e  d  o  e |
+ 9| r  q  s  h  m  n  c  g  v  t  e  c  z  t  f  p  l  y  k  a |
+10| b  d  l  a  a  j  n  l  o  u  a  j  i  k  s  g  t  r  x  k |
+11| j  y  j  p  e  y  m  o  y  t  t  a  c  h  d  r  c  g  w  e |
+12| k  a  i  h  c  r  h  v  b  q  e  c  y  d  i  y  g  e  f  r |
+13| p  p  f  b  o  u  c  e  u  s  r  k  c  h  t  k  s  s  g  s |
+14| e  h  w  f  j  s  r  s  q  p  g  e  s  n  i  e  f  u  o  n |
+15| m  f  i  t  s  v  n  t  r  h  d  t  g  e  x  e  j  k  g  e |
+16| h  n  y  e  u  a  e  r  x  i  c  z  o  r  y  u  m  a  z  k |
+17| u  e  r  l  i  j  c  b  i  l  i  e  f  h  t  g  v  j  x  k |
+18| j  d  r  n  j  u  h  s  f  h  f  t  r  s  c  a  r  f  g  f |
+19| e  h  w  u  r  c  e  r  x  v  t  e  b  o  o  t  s  h  d  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+jacket: ((10, 11), (15, 11))
+sweater: ((7, 10), (13, 10))
+socks: ((5, 2), (9, 2))
+gloves: ((9, 7), (14, 7))
+scarf: ((18, 13), (18, 17))
+hat: ((0, 1), (2, 1))
+belt: ((7, 16), (10, 16))
+sneakers: ((6, 19), (13, 19))
+boots: ((19, 12), (19, 16))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+jacket: ((10, 11), (15, 11))
+sweater: ((7, 10), (13, 10))
+socks: ((5, 2), (9, 2))
+gloves: ((9, 7), (14, 7))
+scarf: ((18, 13), (18, 17))
+hat: ((0, 1), (2, 1))
+belt: ((7, 16), (10, 16))
+sneakers: ((6, 19), (13, 19))
+boots: ((19, 12), (19, 16))
+
+Naïve Time taken: 0.0685 seconds
+Naïve Memory used: 0.00 MB

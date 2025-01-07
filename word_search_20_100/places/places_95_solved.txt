@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  e  c  i  j  c  e  i  m  z  q  n  o  i  c  d  m  i  c  c |
+ 1| h  k  r  v  o  b  h  a  n  l  s  f  h  j  x  g  o  r  z  o |
+ 2| q  r  h  i  g  y  c  u  c  c  s  b  g  d  k  f  u  w  l  u |
+ 3| p  n  x  e  n  z  o  v  r  u  l  c  t  s  l  r  n  d  j  n |
+ 4| k  z  w  y  v  e  n  i  l  c  w  a  h  b  r  q  t  s  w  t |
+ 5| f  o  r  e  s  t  t  l  l  h  h  x  k  o  u  a  a  a  a  r |
+ 6| s  h  p  z  t  s  i  l  j  v  r  f  c  e  o  j  i  y  x  y |
+ 7| g  t  p  f  s  g  n  a  r  w  h  t  t  o  n  l  n  x  h  g |
+ 8| y  b  r  t  l  j  e  g  j  v  r  i  v  e  r  y  j  f  t  h |
+ 9| u  r  v  e  v  y  n  e  g  k  q  s  k  c  j  t  o  o  r  a |
+10| l  o  l  v  e  q  t  w  c  c  b  r  i  a  y  x  o  g  f  v |
+11| z  a  x  m  m  t  s  a  i  f  a  h  n  k  t  h  i  w  z  u |
+12| d  d  c  f  s  w  m  o  t  p  b  t  i  x  c  j  s  a  n  z |
+13| b  o  t  f  x  i  u  s  y  b  u  t  g  a  t  l  l  u  f  c |
+14| p  g  k  a  k  k  s  g  c  z  r  w  e  s  p  z  a  x  d  f |
+15| m  b  w  t  j  o  e  j  n  e  z  b  h  k  t  x  n  s  m  z |
+16| n  e  w  u  w  f  u  t  s  g  w  o  w  p  t  b  d  w  p  s |
+17| h  p  i  h  g  f  m  e  r  o  h  o  s  p  i  t  a  l  h  a |
+18| q  k  c  u  o  n  d  l  l  m  t  j  i  f  q  f  q  d  y  s |
+19| g  i  o  h  q  r  e  s  t  a  u  r  a  n  t  x  f  o  g  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+city: ((10, 8), (13, 8))
+village: ((3, 7), (9, 7))
+mountain: ((0, 16), (7, 16))
+river: ((8, 10), (8, 14))
+forest: ((5, 0), (5, 5))
+island: ((11, 16), (16, 16))
+country: ((0, 19), (6, 19))
+continent: ((2, 6), (10, 6))
+road: ((9, 1), (12, 1))
+hospital: ((17, 10), (17, 17))
+museum: ((12, 6), (17, 6))
+restaurant: ((19, 5), (19, 14))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((10, 8), (13, 8))
+village: ((3, 7), (9, 7))
+mountain: ((0, 16), (7, 16))
+river: ((8, 10), (8, 14))
+forest: ((5, 0), (5, 5))
+island: ((11, 16), (16, 16))
+country: ((0, 19), (6, 19))
+continent: ((2, 6), (10, 6))
+road: ((9, 1), (12, 1))
+hospital: ((17, 10), (17, 17))
+museum: ((12, 6), (17, 6))
+restaurant: ((19, 5), (19, 14))
+
+Naïve Time taken: 0.0587 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| j  k  q  z  x  x  x  q  k  j  z  o  z  x  t  j  l  d  c  t |
+ 1| q  r  i  i  r  r  p  m  l  r  k  c  s  t  n  j  x  o  j  r |
+ 2| i  v  b  m  i  l  t  j  i  q  j  n  c  g  d  n  h  m  o  a |
+ 3| s  e  u  o  g  a  m  g  c  k  y  d  o  c  m  v  a  k  u  i |
+ 4| q  l  s  t  b  i  a  t  q  h  y  d  o  k  y  r  l  w  s  n |
+ 5| n  f  w  o  z  r  l  t  o  i  r  c  t  p  t  b  a  u  t  x |
+ 6| w  f  e  r  j  p  t  g  y  a  w  g  e  c  y  h  y  k  b  b |
+ 7| e  t  i  c  j  l  y  f  o  k  e  e  r  y  s  l  l  j  r  n |
+ 8| f  f  t  y  t  a  o  b  e  n  l  m  t  k  a  g  r  e  x  m |
+ 9| b  t  z  c  c  n  r  z  i  c  y  t  c  w  y  c  t  i  i  y |
+10| x  d  x  l  v  e  r  r  y  j  g  i  a  u  q  p  h  g  m  k |
+11| w  w  t  e  v  a  a  c  s  l  r  r  l  x  o  k  p  t  q  j |
+12| c  x  y  o  j  m  i  m  h  r  r  z  a  c  i  i  w  u  b  z |
+13| w  r  h  e  b  b  o  h  t  x  w  u  i  a  h  m  v  p  m  f |
+14| h  u  w  u  u  l  j  b  a  m  j  l  h  s  m  a  v  a  k  z |
+15| m  k  s  v  g  i  o  k  p  s  e  e  e  v  a  i  s  m  n  l |
+16| u  c  a  r  v  v  w  a  z  h  e  c  g  h  h  v  u  g  e  h |
+17| n  u  k  d  i  t  r  u  c  k  a  n  h  t  j  f  y  y  b  d |
+18| c  o  o  g  n  m  u  y  g  p  f  a  b  i  w  z  a  v  v  k |
+19| a  c  i  x  b  o  a  t  s  p  o  q  h  u  h  d  p  o  d  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+car: ((16, 1), (16, 3))
+truck: ((17, 5), (17, 9))
+motorcycle: ((2, 3), (11, 3))
+scooter: ((1, 12), (7, 12))
+bus: ((2, 2), (4, 2))
+train: ((0, 19), (4, 19))
+airplane: ((3, 5), (10, 5))
+boat: ((8, 7), (8, 4))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+car: ((16, 1), (16, 3))
+truck: ((17, 5), (17, 9))
+motorcycle: ((2, 3), (11, 3))
+scooter: ((1, 12), (7, 12))
+bus: ((2, 2), (4, 2))
+train: ((0, 19), (4, 19))
+airplane: ((3, 5), (10, 5))
+boat: ((8, 7), (8, 4))
+
+Naïve Time taken: 0.0552 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,73 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| i  o  t  t  w  p  o  h  t  i  d  i  v  i  n  g  w  v  s  s |
+ 1| z  r  c  e  i  e  s  v  o  l  l  e  y  b  a  l  l  q  k  c |
+ 2| p  r  o  c  n  m  f  x  h  p  h  u  u  x  s  r  a  z  a  x |
+ 3| j  r  h  b  m  n  g  b  h  b  o  x  i  n  g  d  m  u  t  j |
+ 4| r  s  w  i  m  m  i  n  g  s  i  m  v  e  d  j  s  x  i  k |
+ 5| i  b  g  j  u  d  o  s  x  s  c  y  c  l  i  n  g  l  n  i |
+ 6| f  e  l  o  g  f  d  r  k  k  v  n  h  b  g  d  l  x  g  o |
+ 7| d  l  e  j  l  p  x  f  a  i  q  t  o  b  k  a  h  y  y  t |
+ 8| l  k  t  p  s  f  u  r  r  i  z  d  c  u  b  a  b  x  s  q |
+ 9| s  k  z  f  o  k  s  b  a  n  k  n  k  t  e  g  b  c  q  d |
+10| p  i  r  e  c  r  s  a  t  g  o  p  e  y  u  e  a  x  j  w |
+11| q  r  x  n  c  h  o  u  e  h  t  k  y  r  p  g  s  f  y  r |
+12| a  o  v  c  e  c  b  a  t  e  s  d  f  b  q  x  e  w  g  e |
+13| r  w  x  i  r  n  r  a  k  a  p  q  p  j  f  c  b  m  v  s |
+14| c  i  q  n  w  t  r  c  b  p  k  k  n  a  j  y  a  u  t  t |
+15| h  n  h  g  w  a  i  a  x  d  k  r  s  t  w  j  l  p  a  l |
+16| e  g  j  m  m  r  z  b  r  j  p  k  d  m  a  d  l  h  i  i |
+17| r  v  o  q  c  s  n  o  w  b  o  a  r  d  i  n  g  o  f  n |
+18| y  m  p  g  y  m  n  a  s  t  i  c  s  t  i  x  r  i  i  g |
+19| x  o  e  s  u  r  f  i  n  g  x  s  a  i  l  i  n  g  s  t |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+soccer: ((8, 4), (13, 4))
+baseball: ((9, 16), (16, 16))
+hockey: ((6, 12), (11, 12))
+volleyball: ((1, 7), (1, 16))
+cycling: ((5, 10), (5, 16))
+skating: ((0, 18), (6, 18))
+surfing: ((19, 3), (19, 9))
+archery: ((12, 0), (18, 0))
+boxing: ((3, 9), (3, 14))
+karate: ((6, 8), (11, 8))
+wrestling: ((10, 19), (18, 19))
+gymnastics: ((18, 3), (18, 12))
+judo: ((5, 3), (5, 6))
+swimming: ((4, 1), (4, 8))
+diving: ((0, 10), (0, 15))
+skiing: ((5, 9), (10, 9))
+snowboarding: ((17, 5), (17, 16))
+fencing: ((9, 3), (15, 3))
+rowing: ((11, 1), (16, 1))
+sailing: ((19, 11), (19, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+soccer: ((8, 4), (13, 4))
+baseball: ((9, 16), (16, 16))
+hockey: ((6, 12), (11, 12))
+volleyball: ((1, 7), (1, 16))
+cycling: ((5, 10), (5, 16))
+skating: ((0, 18), (6, 18))
+surfing: ((19, 3), (19, 9))
+archery: ((12, 0), (18, 0))
+boxing: ((3, 9), (3, 14))
+karate: ((6, 8), (11, 8))
+wrestling: ((10, 19), (18, 19))
+gymnastics: ((18, 3), (18, 12))
+judo: ((5, 3), (5, 6))
+swimming: ((4, 1), (4, 8))
+diving: ((0, 10), (0, 15))
+skiing: ((5, 9), (10, 9))
+snowboarding: ((17, 5), (17, 16))
+fencing: ((9, 3), (15, 3))
+rowing: ((11, 1), (16, 1))
+sailing: ((19, 11), (19, 17))
+
+Naïve Time taken: 0.0595 seconds
+Naïve Memory used: 0.00 MB

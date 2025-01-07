@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  h  p  c  p  d  i  b  j  x  g  c  m  z  g  n  g  e  u  g |
+ 1| o  m  l  k  f  w  z  l  m  p  c  h  d  v  l  j  s  z  x  f |
+ 2| p  o  t  s  y  q  f  c  s  z  e  e  s  g  u  a  a  z  x  k |
+ 3| y  a  p  i  z  z  a  g  h  u  m  e  i  d  a  v  n  l  n  c |
+ 4| m  j  c  i  h  s  u  h  u  o  i  s  o  u  p  i  d  w  a  v |
+ 5| b  j  i  e  z  v  q  w  h  k  c  e  v  b  g  x  w  f  q  i |
+ 6| u  h  c  q  q  p  t  d  o  e  k  o  x  d  s  p  i  s  x  s |
+ 7| r  f  e  c  w  w  a  o  r  a  k  j  l  e  w  i  c  a  z  f |
+ 8| r  b  c  k  b  e  c  s  e  q  c  a  l  a  l  e  h  l  i  k |
+ 9| i  y  r  c  r  o  z  t  e  t  t  d  b  p  t  l  y  a  g  i |
+10| t  n  e  b  a  k  s  r  h  d  o  l  e  i  x  e  w  d  i  c |
+11| o  w  a  p  x  k  m  i  d  o  d  g  i  s  x  v  d  d  l  d |
+12| u  p  m  h  a  l  e  c  n  g  v  i  c  u  r  r  y  y  s  l |
+13| o  x  y  g  a  s  p  e  n  a  y  i  u  d  w  b  x  d  g  e |
+14| y  h  b  v  p  i  t  d  h  t  a  c  o  u  n  u  l  z  m  u |
+15| r  t  d  z  t  w  n  a  p  p  p  d  y  i  b  r  m  y  b  i |
+16| o  v  c  j  t  q  k  u  h  b  l  q  h  w  n  g  e  z  j  v |
+17| y  v  v  i  m  m  c  d  l  t  c  s  k  v  j  e  q  v  o  n |
+18| y  j  j  t  m  e  b  o  v  s  u  m  f  u  b  r  k  h  m  s |
+19| z  o  k  s  k  k  r  t  i  s  u  x  l  q  m  e  q  d  t  t |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((3, 2), (3, 6))
+burger: ((13, 15), (18, 15))
+sandwich: ((1, 16), (8, 16))
+salad: ((6, 17), (10, 17))
+soup: ((4, 11), (4, 14))
+rice: ((10, 7), (13, 7))
+taco: ((14, 9), (14, 12))
+burrito: ((5, 0), (11, 0))
+curry: ((12, 12), (12, 16))
+cheese: ((0, 11), (5, 11))
+icecream: ((5, 2), (12, 2))
+pie: ((6, 15), (8, 15))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((3, 2), (3, 6))
+burger: ((13, 15), (18, 15))
+sandwich: ((1, 16), (8, 16))
+salad: ((6, 17), (10, 17))
+soup: ((4, 11), (4, 14))
+rice: ((10, 7), (13, 7))
+taco: ((14, 9), (14, 12))
+burrito: ((5, 0), (11, 0))
+curry: ((12, 12), (12, 16))
+cheese: ((0, 11), (5, 11))
+icecream: ((5, 2), (12, 2))
+pie: ((6, 15), (8, 15))
+
+Naïve Time taken: 0.0637 seconds
+Naïve Memory used: 0.00 MB

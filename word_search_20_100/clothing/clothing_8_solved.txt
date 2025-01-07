@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| i  x  s  y  q  y  x  k  w  s  c  g  f  j  g  s  c  p  v  m |
+ 1| g  b  o  o  t  s  a  p  i  g  b  s  w  d  a  m  f  p  x  w |
+ 2| s  p  p  t  s  i  l  e  o  c  a  l  y  c  w  x  u  x  b  n |
+ 3| q  l  a  y  z  c  j  v  l  m  o  l  v  s  k  i  r  t  g  q |
+ 4| z  o  k  m  r  a  d  o  a  u  s  l  d  u  b  s  n  s  s  g |
+ 5| c  s  p  a  n  t  s  j  o  t  h  c  r  l  l  l  p  h  x  l |
+ 6| g  n  x  t  t  p  a  s  p  v  k  f  a  i  t  w  e  i  v  r |
+ 7| h  e  e  o  n  p  b  h  m  d  d  j  g  r  x  b  t  r  p  x |
+ 8| q  a  d  r  b  a  z  o  d  o  o  v  x  s  f  n  m  t  s  p |
+ 9| j  k  r  s  s  b  m  e  e  b  q  s  u  p  p  h  a  t  n  o |
+10| f  e  e  n  q  o  h  s  o  y  e  p  w  n  s  d  p  v  h  y |
+11| s  r  s  h  f  y  b  j  b  v  z  z  q  e  i  s  g  k  e  l |
+12| k  s  s  k  f  o  r  a  o  a  b  e  g  f  a  f  k  z  i  d |
+13| s  g  y  x  b  p  s  l  x  p  j  d  r  r  g  t  o  u  c  q |
+14| s  o  a  f  e  q  g  p  u  p  d  a  t  i  e  j  e  r  a  f |
+15| s  r  c  t  l  y  j  e  a  n  s  r  c  w  r  t  m  r  m  e |
+16| u  k  q  k  t  p  y  e  j  q  d  q  b  k  w  j  e  b  d  d |
+17| l  v  d  l  s  y  t  m  u  v  a  w  z  w  e  j  x  o  w  u |
+18| r  p  f  y  t  z  v  z  f  p  q  f  h  f  t  t  s  f  i  j |
+19| i  p  m  g  r  j  l  q  u  z  z  a  q  j  a  t  b  i  s  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+shirt: ((4, 17), (8, 17))
+pants: ((5, 2), (5, 6))
+dress: ((8, 2), (12, 2))
+skirt: ((3, 13), (3, 17))
+shoes: ((6, 7), (10, 7))
+hat: ((9, 15), (9, 17))
+belt: ((13, 4), (16, 4))
+jeans: ((15, 6), (15, 10))
+sneakers: ((5, 1), (12, 1))
+boots: ((1, 1), (1, 5))
+tie: ((14, 12), (14, 14))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+shirt: ((4, 17), (8, 17))
+pants: ((5, 2), (5, 6))
+dress: ((8, 2), (12, 2))
+skirt: ((3, 13), (3, 17))
+shoes: ((6, 7), (10, 7))
+hat: ((9, 15), (9, 17))
+belt: ((13, 4), (16, 4))
+jeans: ((15, 6), (15, 10))
+sneakers: ((5, 1), (12, 1))
+boots: ((1, 1), (1, 5))
+tie: ((14, 12), (14, 14))
+
+Naïve Time taken: 0.0640 seconds
+Naïve Memory used: 0.00 MB

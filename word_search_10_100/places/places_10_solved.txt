@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| g  f  l  a  k  e  j  q  l  h |
+ 1| d  e  s  e  r  t  m  a  r  r |
+ 2| a  b  w  i  f  h  o  v  c  r |
+ 3| b  e  a  s  s  i  u  i  i  i |
+ 4| q  a  u  l  t  i  n  l  t  v |
+ 5| t  c  p  a  r  k  t  l  y  e |
+ 6| o  h  t  n  e  h  a  a  s  r |
+ 7| w  a  z  d  e  z  i  g  w  t |
+ 8| n  g  z  s  t  h  n  e  b  i |
+ 9| b  u  i  f  o  r  e  s  t  y |
+  +------------------------------+
+Dynamic Programming Solution:
+city: ((2, 8), (5, 8))
+town: ((5, 0), (8, 0))
+village: ((2, 7), (8, 7))
+park: ((5, 2), (5, 5))
+beach: ((2, 1), (6, 1))
+mountain: ((1, 6), (8, 6))
+river: ((2, 9), (6, 9))
+lake: ((0, 2), (0, 5))
+forest: ((9, 3), (9, 8))
+desert: ((1, 0), (1, 5))
+island: ((2, 3), (7, 3))
+street: ((3, 4), (8, 4))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((2, 8), (5, 8))
+town: ((5, 0), (8, 0))
+village: ((2, 7), (8, 7))
+park: ((5, 2), (5, 5))
+beach: ((2, 1), (6, 1))
+mountain: ((1, 6), (8, 6))
+river: ((2, 9), (6, 9))
+lake: ((0, 2), (0, 5))
+forest: ((9, 3), (9, 8))
+desert: ((1, 0), (1, 5))
+island: ((2, 3), (7, 3))
+street: ((3, 4), (8, 4))
+
+Naïve Time taken: 0.0090 seconds
+Naïve Memory used: 0.00 MB

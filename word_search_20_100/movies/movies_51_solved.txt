@@ -1,0 +1,77 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| v  w  i  v  j  y  b  l  f  g  f  c  n  o  v  o  j  n  v  q |
+ 1| i  c  i  b  l  l  l  z  b  m  d  i  r  e  c  t  o  r  s  l |
+ 2| l  x  t  s  p  s  o  d  o  c  u  m  e  n  t  a  r  y  z  e |
+ 3| l  s  r  c  r  a  c  l  x  j  w  z  m  n  c  m  h  f  w  s |
+ 4| a  x  a  r  o  c  k  n  o  i  m  v  y  r  i  d  o  e  f  e |
+ 5| i  p  i  i  d  t  b  f  f  a  c  t  o  r  n  g  r  s  u  q |
+ 6| n  i  l  p  u  r  u  d  f  g  a  g  q  t  e  m  r  t  j  u |
+ 7| l  t  e  t  c  e  s  i  i  p  w  e  k  t  m  u  o  i  w  e |
+ 8| p  o  r  l  e  s  t  q  c  b  a  w  r  y  a  s  r  v  l  l |
+ 9| o  o  d  e  r  s  e  p  e  d  r  e  p  o  x  i  y  a  y  h |
+10| p  i  p  n  b  l  r  e  d  q  d  h  y  q  m  c  d  l  l  r |
+11| o  d  i  c  p  a  n  i  m  a  t  i  o  n  s  a  i  s  e  f |
+12| f  g  r  i  o  r  p  r  h  e  r  o  p  v  h  l  n  d  d  w |
+13| k  a  o  s  c  r  e  e  n  p  l  a  y  c  u  z  q  c  q  v |
+14| j  a  r  l  q  l  n  m  m  m  o  g  r  o  y  x  k  g  e  s |
+15| t  l  h  o  l  d  w  w  i  e  h  i  h  m  y  v  d  n  s  y |
+16| a  q  b  i  c  j  h  e  v  e  a  w  o  e  j  v  m  j  h  e |
+17| u  h  r  v  i  s  x  y  a  k  r  j  d  d  s  x  m  g  x  o |
+18| w  h  n  e  u  d  r  m  n  h  n  e  h  y  u  h  f  l  b  r |
+19| t  w  g  e  n  r  e  b  d  r  a  m  a  v  y  a  k  t  h  t |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+actor: ((5, 9), (5, 13))
+actress: ((3, 5), (9, 5))
+director: ((1, 10), (1, 17))
+cinema: ((3, 14), (8, 14))
+script: ((2, 3), (7, 3))
+blockbuster: ((0, 6), (10, 6))
+trailer: ((2, 2), (8, 2))
+sequel: ((3, 19), (8, 19))
+villain: ((0, 0), (6, 0))
+hero: ((12, 8), (12, 11))
+comedy: ((13, 13), (18, 13))
+drama: ((19, 8), (19, 12))
+horror: ((3, 16), (8, 16))
+animation: ((11, 5), (11, 13))
+musical: ((6, 15), (12, 15))
+documentary: ((2, 7), (2, 17))
+producer: ((2, 4), (9, 4))
+boxoffice: ((1, 8), (9, 8))
+award: ((6, 10), (10, 10))
+screenplay: ((13, 3), (13, 12))
+genre: ((19, 2), (19, 6))
+festival: ((3, 17), (10, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+actor: ((5, 9), (5, 13))
+actress: ((3, 5), (9, 5))
+director: ((1, 10), (1, 17))
+cinema: ((3, 14), (8, 14))
+script: ((2, 3), (7, 3))
+blockbuster: ((0, 6), (10, 6))
+trailer: ((2, 2), (8, 2))
+sequel: ((3, 19), (8, 19))
+villain: ((0, 0), (6, 0))
+hero: ((12, 8), (12, 11))
+comedy: ((13, 13), (18, 13))
+drama: ((19, 8), (19, 12))
+horror: ((3, 16), (8, 16))
+animation: ((11, 5), (11, 13))
+musical: ((6, 15), (12, 15))
+documentary: ((2, 7), (2, 17))
+producer: ((2, 4), (9, 4))
+boxoffice: ((1, 8), (9, 8))
+award: ((6, 10), (10, 10))
+screenplay: ((13, 3), (13, 12))
+genre: ((19, 2), (19, 6))
+festival: ((3, 17), (10, 17))
+
+Naïve Time taken: 0.0567 seconds
+Naïve Memory used: 0.00 MB

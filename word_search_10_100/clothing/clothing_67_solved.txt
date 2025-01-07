@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| j  e  a  n  s  h  i  r  t  n |
+ 1| s  w  k  s  h  o  e  s  s  q |
+ 2| w  s  p  a  n  t  s  w  c  e |
+ 3| e  j  k  g  f  w  a  j  a  d |
+ 4| a  d  b  i  l  f  v  a  r  v |
+ 5| t  s  r  o  r  o  y  c  f  c |
+ 6| e  v  t  e  o  t  v  k  l  o |
+ 7| r  m  f  i  s  t  r  e  z  a |
+ 8| b  e  l  t  e  s  s  t  s  t |
+ 9| h  a  t  s  o  c  k  s  b  z |
+  +------------------------------+
+Dynamic Programming Solution:
+shirt: ((0, 4), (0, 8))
+pants: ((2, 2), (2, 6))
+jacket: ((3, 7), (8, 7))
+coat: ((5, 9), (8, 9))
+sweater: ((1, 0), (7, 0))
+shoes: ((1, 3), (1, 7))
+socks: ((9, 3), (9, 7))
+scarf: ((1, 8), (5, 8))
+hat: ((9, 0), (9, 2))
+belt: ((8, 0), (8, 3))
+jeans: ((0, 0), (0, 4))
+tie: ((8, 3), (6, 3))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+shirt: ((0, 4), (0, 8))
+pants: ((2, 2), (2, 6))
+jacket: ((3, 7), (8, 7))
+coat: ((5, 9), (8, 9))
+sweater: ((1, 0), (7, 0))
+shoes: ((1, 3), (1, 7))
+socks: ((9, 3), (9, 7))
+scarf: ((1, 8), (5, 8))
+hat: ((9, 0), (9, 2))
+belt: ((8, 0), (8, 3))
+jeans: ((0, 0), (0, 4))
+tie: ((8, 3), (6, 3))
+
+Naïve Time taken: 0.0090 seconds
+Naïve Memory used: 0.00 MB

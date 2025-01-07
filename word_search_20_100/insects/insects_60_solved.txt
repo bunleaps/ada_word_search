@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  s  b  k  u  b  f  s  n  d  p  v  u  m  p  t  f  f  z  m |
+ 1| j  p  e  j  f  j  l  j  w  q  h  u  v  t  e  i  s  l  l  b |
+ 2| f  i  u  h  h  u  e  q  k  p  d  l  n  o  g  u  l  a  y  w |
+ 3| t  d  s  a  l  r  a  q  o  k  i  m  c  n  r  n  v  n  f  y |
+ 4| l  e  u  l  a  z  t  c  j  d  y  t  u  k  a  f  c  t  f  l |
+ 5| y  r  r  x  d  g  i  j  o  e  i  g  u  w  s  s  d  w  b  x |
+ 6| l  f  n  m  y  u  w  k  k  o  b  c  w  f  s  r  f  s  x  u |
+ 7| k  g  k  v  b  y  w  d  l  x  j  z  a  w  h  d  r  y  m  b |
+ 8| z  i  f  c  u  r  l  m  z  d  b  g  s  a  o  r  q  i  k  n |
+ 9| x  g  i  l  g  a  l  j  t  w  e  v  p  e  p  w  c  u  i  p |
+10| j  b  u  t  t  e  r  f  l  y  e  b  d  f  p  g  l  d  q  h |
+11| d  f  r  m  o  s  q  u  i  t  o  v  f  z  e  h  y  z  s  g |
+12| o  i  e  n  e  e  t  e  r  m  i  t  e  f  r  r  y  y  r  y |
+13| c  o  c  k  r  o  a  c  h  d  s  s  l  c  c  r  c  j  m  i |
+14| y  c  x  n  u  d  r  a  g  o  n  f  l  y  x  a  q  e  o  m |
+15| v  v  s  q  h  b  o  j  c  i  w  a  h  k  r  y  l  o  t  q |
+16| n  f  m  l  f  v  u  d  a  f  r  r  c  x  n  t  m  t  h  x |
+17| b  s  r  d  c  e  d  w  i  w  b  p  j  j  e  c  e  l  z  d |
+18| t  h  l  h  q  x  e  t  d  b  y  k  a  e  v  t  b  o  n  b |
+19| v  n  f  m  a  i  p  w  b  d  v  v  b  t  h  r  m  t  i  h |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+ant: ((2, 17), (4, 17))
+bee: ((8, 10), (10, 10))
+butterfly: ((10, 1), (10, 9))
+mosquito: ((11, 3), (11, 10))
+ladybug: ((3, 4), (9, 4))
+cockroach: ((13, 0), (13, 8))
+fly: ((10, 7), (10, 9))
+spider: ((0, 1), (5, 1))
+grasshopper: ((2, 14), (12, 14))
+dragonfly: ((14, 5), (14, 13))
+moth: ((13, 18), (16, 18))
+wasp: ((6, 12), (9, 12))
+flea: ((0, 6), (3, 6))
+termite: ((12, 6), (12, 12))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+ant: ((2, 17), (4, 17))
+bee: ((8, 10), (10, 10))
+butterfly: ((10, 1), (10, 9))
+mosquito: ((11, 3), (11, 10))
+ladybug: ((3, 4), (9, 4))
+cockroach: ((13, 0), (13, 8))
+fly: ((10, 7), (10, 9))
+spider: ((0, 1), (5, 1))
+grasshopper: ((2, 14), (12, 14))
+dragonfly: ((14, 5), (14, 13))
+moth: ((13, 18), (16, 18))
+wasp: ((6, 12), (9, 12))
+flea: ((0, 6), (3, 6))
+termite: ((12, 6), (12, 12))
+
+Naïve Time taken: 0.0349 seconds
+Naïve Memory used: 0.00 MB

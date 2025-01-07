@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| h  y  n  y  q  p  v  c  p  v  x  u  s  f  h  a  n  d  b  y |
+ 1| o  l  n  o  s  e  n  x  p  x  n  v  r  k  y  h  z  p  o  l |
+ 2| k  i  b  q  k  i  b  b  v  e  s  h  m  s  o  d  l  o  s  b |
+ 3| y  h  e  g  a  a  s  t  o  m  a  c  h  y  d  n  s  n  w  p |
+ 4| t  e  e  r  o  c  v  u  n  c  j  f  d  x  y  g  f  x  s  d |
+ 5| w  k  b  h  t  j  m  e  o  k  x  a  m  r  u  e  h  l  n  q |
+ 6| v  k  j  g  l  z  u  z  v  z  e  w  e  l  a  o  h  g  e  z |
+ 7| c  h  e  s  t  e  d  l  n  h  e  d  z  m  o  u  t  h  c  y |
+ 8| m  h  a  e  g  v  g  s  q  p  l  f  k  x  g  j  n  m  k  c |
+ 9| p  t  e  d  f  c  h  n  q  u  o  v  i  q  g  s  e  m  f  f |
+10| i  n  o  w  n  f  i  f  o  i  i  u  x  n  s  z  l  x  k  d |
+11| k  u  k  l  c  k  l  h  g  i  s  f  k  s  g  b  u  r  t  r |
+12| z  d  v  y  s  s  s  n  c  j  s  d  l  s  e  e  i  y  c  n |
+13| h  h  t  e  e  t  h  n  b  t  o  q  c  a  d  y  r  l  g  b |
+14| e  e  i  v  q  k  a  t  o  g  a  h  x  u  h  l  e  f  z  a |
+15| r  v  a  u  c  r  x  o  u  j  p  q  r  x  w  b  i  a  i  w |
+16| z  f  n  r  a  t  f  w  h  d  a  w  r  x  h  k  n  t  a  d |
+17| r  j  l  e  t  w  s  j  n  g  r  e  b  n  c  m  x  o  f  x |
+18| t  l  y  a  f  n  y  a  o  o  m  v  m  a  f  t  f  e  h  x |
+19| h  q  j  m  x  z  o  r  y  c  m  a  b  q  h  s  o  h  s  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+hand: ((0, 14), (0, 17))
+arm: ((16, 10), (18, 10))
+mouth: ((7, 13), (7, 17))
+nose: ((1, 2), (1, 5))
+stomach: ((3, 6), (3, 12))
+chest: ((7, 0), (7, 4))
+neck: ((5, 18), (8, 18))
+toe: ((16, 17), (18, 17))
+teeth: ((13, 2), (13, 6))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+hand: ((0, 14), (0, 17))
+arm: ((16, 10), (18, 10))
+mouth: ((7, 13), (7, 17))
+nose: ((1, 2), (1, 5))
+stomach: ((3, 6), (3, 12))
+chest: ((7, 0), (7, 4))
+neck: ((5, 18), (8, 18))
+toe: ((16, 17), (18, 17))
+teeth: ((13, 5), (13, 1))
+
+Naïve Time taken: 0.0679 seconds
+Naïve Memory used: 0.00 MB

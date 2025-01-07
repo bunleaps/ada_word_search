@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  y  e  f  p  i  a  m  k  w  k  t  c  o  o  k  i  e  s  y |
+ 1| p  i  z  z  a  s  m  r  e  t  z  o  k  j  n  c  d  i  r  c |
+ 2| s  f  a  j  r  y  x  t  h  g  o  s  e  f  p  r  u  z  c  x |
+ 3| u  s  g  v  e  o  a  h  i  t  e  t  q  u  v  p  y  j  i  g |
+ 4| s  i  l  k  f  l  o  t  i  m  b  e  r  h  m  c  v  k  q  c |
+ 5| h  o  a  m  o  g  u  r  h  g  u  a  s  p  r  t  f  s  i  k |
+ 6| i  c  v  c  l  v  r  c  w  p  d  k  a  s  e  c  c  q  d  o |
+ 7| x  y  o  q  m  u  i  p  c  u  m  t  v  s  q  i  t  f  q  n |
+ 8| n  h  i  t  b  w  t  a  c  o  s  c  e  d  c  c  b  l  f  w |
+ 9| c  a  d  a  d  n  s  n  g  a  s  e  h  r  j  u  x  o  m  s |
+10| d  x  l  n  t  q  o  q  p  a  h  v  e  g  d  j  r  p  n  q |
+11| b  d  a  p  q  x  u  l  o  c  o  b  u  s  m  m  u  r  p  k |
+12| w  s  c  g  u  e  p  d  x  f  c  n  s  a  g  g  h  c  y  g |
+13| e  j  g  n  r  p  b  u  w  d  o  u  k  l  y  d  d  j  s  q |
+14| u  b  s  z  h  i  u  u  a  p  j  d  w  a  a  b  x  e  q  i |
+15| q  a  i  z  k  m  c  e  r  z  o  e  z  d  q  k  l  r  u  k |
+16| f  u  u  n  u  c  r  e  p  g  g  t  r  i  o  d  e  v  b  d |
+17| z  j  e  r  o  b  y  c  o  j  e  j  m  g  o  t  r  c  w  z |
+18| c  r  i  c  e  c  r  e  a  m  f  r  f  o  s  p  i  e  b  h |
+19| q  g  f  s  k  q  v  o  p  o  j  l  n  h  e  y  p  d  b  d |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((1, 0), (1, 4))
+salad: ((11, 13), (15, 13))
+soup: ((9, 6), (12, 6))
+steak: ((2, 11), (6, 11))
+sushi: ((2, 0), (6, 0))
+rice: ((18, 1), (18, 4))
+taco: ((8, 6), (8, 9))
+icecream: ((18, 2), (18, 9))
+cookies: ((0, 12), (0, 18))
+pie: ((18, 15), (18, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((1, 0), (1, 4))
+salad: ((11, 13), (15, 13))
+soup: ((9, 6), (12, 6))
+steak: ((2, 11), (6, 11))
+sushi: ((2, 0), (6, 0))
+rice: ((18, 1), (18, 4))
+taco: ((8, 6), (8, 9))
+icecream: ((18, 2), (18, 9))
+cookies: ((0, 12), (0, 18))
+pie: ((18, 15), (18, 17))
+
+Naïve Time taken: 0.0538 seconds
+Naïve Memory used: 0.00 MB

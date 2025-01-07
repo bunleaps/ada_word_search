@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| f  r  o  s  t  d  r  y  r  l |
+ 1| e  j  c  w  i  n  d  y  r  f |
+ 2| h  o  t  u  h  u  m  i  d  h |
+ 3| r  w  v  c  l  o  u  d  y  s |
+ 4| f  o  g  g  y  f  s  s  s  n |
+ 5| h  a  i  l  s  u  n  n  y  o |
+ 6| s  t  o  r  m  y  o  u  a  w |
+ 7| v  c  o  l  d  k  w  e  j  y |
+ 8| r  a  i  n  y  c  y  g  i  o |
+ 9| j  t  h  u  n  d  e  r  p  o |
+  +------------------------------+
+Dynamic Programming Solution:
+sunny: ((5, 4), (5, 8))
+rainy: ((8, 0), (8, 4))
+cloudy: ((3, 3), (3, 8))
+stormy: ((6, 0), (6, 5))
+snowy: ((4, 6), (8, 6))
+windy: ((1, 3), (1, 7))
+foggy: ((4, 0), (4, 4))
+humid: ((2, 4), (2, 8))
+dry: ((0, 5), (0, 7))
+hot: ((2, 0), (2, 2))
+cold: ((7, 1), (7, 4))
+thunder: ((9, 1), (9, 7))
+frost: ((0, 0), (0, 4))
+hail: ((5, 0), (5, 3))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+sunny: ((5, 4), (5, 8))
+rainy: ((8, 0), (8, 4))
+cloudy: ((3, 3), (3, 8))
+stormy: ((6, 0), (6, 5))
+snowy: ((4, 6), (8, 6))
+windy: ((1, 3), (1, 7))
+foggy: ((4, 0), (4, 4))
+humid: ((2, 4), (2, 8))
+dry: ((0, 5), (0, 7))
+hot: ((2, 0), (2, 2))
+cold: ((7, 1), (7, 4))
+thunder: ((9, 1), (9, 7))
+frost: ((0, 0), (0, 4))
+hail: ((5, 0), (5, 3))
+
+Naïve Time taken: 0.0050 seconds
+Naïve Memory used: 0.00 MB

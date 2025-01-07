@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  j  a  t  u  t  b  l  m  s  d  v  p  v  x  l  w  b  t  z |
+ 1| i  q  u  w  h  o  f  o  k  f  c  p  a  o  g  t  i  n  n  b |
+ 2| f  w  s  h  a  r  t  v  x  t  o  r  r  s  p  k  l  e  d  w |
+ 3| c  v  w  c  s  r  i  r  f  o  d  l  i  o  p  c  l  t  s  y |
+ 4| a  c  t  o  r  j  d  l  a  r  f  e  y  p  d  h  o  s  s  y |
+ 5| n  j  v  m  f  e  r  f  l  i  f  f  c  b  t  u  e  r  s  x |
+ 6| i  d  i  c  n  e  e  o  q  e  l  i  i  f  b  r  c  h  n  p |
+ 7| m  n  l  q  z  r  s  n  m  g  r  e  l  c  t  u  f  e  h  r |
+ 8| a  t  l  s  l  d  r  t  p  a  e  e  r  c  e  j  c  r  r  e |
+ 9| t  d  a  j  v  o  z  q  i  l  n  n  a  f  d  y  h  o  a  m |
+10| i  y  i  m  m  c  a  f  d  v  a  c  r  k  d  q  b  y  j  i |
+11| o  v  n  p  h  u  p  r  i  j  a  y  e  e  k  k  x  c  b  e |
+12| n  q  v  e  i  x  s  s  r  f  e  l  m  h  c  h  f  i  v  r |
+13| s  e  q  u  e  l  n  i  e  s  u  o  d  o  y  d  f  n  b  e |
+14| x  k  w  k  y  y  a  c  c  e  c  b  t  r  f  l  c  e  p  w |
+15| r  p  u  d  d  m  x  t  t  a  o  s  u  r  f  s  q  m  y  r |
+16| s  j  y  w  a  g  p  v  o  a  l  t  f  o  k  k  i  a  m  a |
+17| k  b  l  r  z  l  x  e  r  w  x  o  e  r  n  n  k  r  p  k |
+18| b  a  d  v  u  n  d  b  l  o  c  k  b  u  s  t  e  r  p  w |
+19| x  p  d  o  c  u  m  e  n  t  a  r  y  r  a  l  a  l  p  w |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+actor: ((4, 0), (4, 4))
+director: ((10, 8), (17, 8))
+cinema: ((11, 17), (16, 17))
+blockbuster: ((18, 7), (18, 17))
+sequel: ((13, 0), (13, 5))
+premiere: ((6, 19), (13, 19))
+villain: ((5, 2), (11, 2))
+hero: ((6, 17), (9, 17))
+horror: ((12, 13), (17, 13))
+animation: ((4, 0), (12, 0))
+documentary: ((19, 2), (19, 12))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+actor: ((4, 0), (4, 4))
+director: ((10, 8), (17, 8))
+cinema: ((11, 17), (16, 17))
+blockbuster: ((18, 7), (18, 17))
+sequel: ((13, 0), (13, 5))
+premiere: ((6, 19), (13, 19))
+villain: ((5, 2), (11, 2))
+hero: ((6, 17), (9, 17))
+horror: ((12, 13), (17, 13))
+animation: ((4, 0), (12, 0))
+documentary: ((19, 2), (19, 12))
+
+Naïve Time taken: 0.0795 seconds
+Naïve Memory used: 0.00 MB

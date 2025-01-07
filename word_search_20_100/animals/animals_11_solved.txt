@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| t  v  e  j  c  v  g  n  y  q  n  i  q  w  a  i  n  f  j  c |
+ 1| u  c  h  t  n  z  t  e  l  k  k  v  u  a  o  x  x  b  f  d |
+ 2| i  r  f  u  e  j  g  i  h  h  m  w  l  n  j  l  s  h  j  z |
+ 3| q  o  s  a  i  y  o  w  g  e  n  v  r  t  f  u  f  v  n  s |
+ 4| x  c  h  s  n  a  k  e  e  e  d  y  k  h  p  h  h  d  q  b |
+ 5| y  o  a  e  q  t  n  b  o  y  r  k  s  o  q  p  q  n  m  u |
+ 6| r  d  r  s  p  o  y  t  x  f  p  i  t  e  b  r  g  s  z  t |
+ 7| w  i  k  x  i  e  h  v  q  i  f  c  p  b  l  a  d  n  a  t |
+ 8| o  l  b  l  n  a  b  a  b  r  o  c  n  q  e  k  f  d  z  e |
+ 9| h  e  i  o  t  a  m  w  x  e  h  p  b  i  r  d  n  x  e  r |
+10| b  n  h  v  z  l  w  p  l  r  a  i  q  x  q  a  e  n  l  f |
+11| e  a  g  l  e  r  a  a  h  g  o  r  n  u  p  t  h  u  e  l |
+12| c  b  f  d  u  e  m  z  w  i  i  r  h  o  p  w  b  q  p  y |
+13| a  g  s  p  l  m  y  e  k  v  b  r  e  h  c  a  p  j  h  b |
+14| u  i  a  a  a  b  j  b  i  h  g  i  a  p  u  e  g  y  a  b |
+15| w  c  h  m  k  x  t  r  n  b  e  z  a  f  t  h  r  y  n  f |
+16| w  w  u  g  g  g  g  a  a  p  z  u  u  n  f  i  e  o  t  r |
+17| o  d  q  o  o  o  p  a  r  r  o  t  e  f  j  e  l  i  s  o |
+18| k  d  o  l  p  h  i  n  g  h  i  n  s  e  c  t  y  e  v  g |
+19| r  z  o  k  a  n  g  a  r  o  o  t  e  s  e  u  z  i  z  u |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+bird: ((9, 12), (9, 15))
+insect: ((18, 10), (18, 15))
+elephant: ((9, 18), (16, 18))
+crocodile: ((1, 1), (9, 1))
+snake: ((4, 3), (4, 7))
+frog: ((15, 19), (18, 19))
+parrot: ((17, 6), (17, 11))
+dolphin: ((18, 1), (18, 7))
+eagle: ((11, 0), (11, 4))
+kangaroo: ((19, 3), (19, 10))
+zebra: ((12, 7), (16, 7))
+ant: ((1, 13), (3, 13))
+butterfly: ((4, 19), (12, 19))
+shark: ((3, 2), (7, 2))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+bird: ((9, 12), (9, 15))
+insect: ((18, 10), (18, 15))
+elephant: ((9, 18), (16, 18))
+crocodile: ((1, 1), (9, 1))
+snake: ((4, 3), (4, 7))
+frog: ((15, 19), (18, 19))
+parrot: ((17, 6), (17, 11))
+dolphin: ((18, 1), (18, 7))
+eagle: ((11, 0), (11, 4))
+kangaroo: ((19, 3), (19, 10))
+zebra: ((12, 7), (16, 7))
+ant: ((1, 13), (3, 13))
+butterfly: ((4, 19), (12, 19))
+shark: ((3, 2), (7, 2))
+
+Naïve Time taken: 0.0898 seconds
+Naïve Memory used: 0.00 MB

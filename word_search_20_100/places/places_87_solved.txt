@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| v  b  w  n  j  p  e  p  o  y  h  g  q  l  a  r  a  c  a  o |
+ 1| i  j  v  c  i  t  y  o  r  d  m  o  s  c  h  o  o  l  t  x |
+ 2| c  x  l  e  a  l  r  l  f  q  o  n  s  w  j  i  r  n  d  d |
+ 3| a  g  c  f  x  w  g  k  u  i  u  x  t  p  q  l  e  s  f  p |
+ 4| w  f  h  u  f  u  t  k  a  b  n  q  g  c  i  n  s  z  g  r |
+ 5| b  r  d  i  s  t  r  e  e  t  t  w  s  a  i  t  t  i  t  b |
+ 6| z  e  t  e  e  m  j  n  g  u  a  y  r  t  d  v  a  w  t  v |
+ 7| g  b  a  e  t  x  n  j  o  e  i  o  n  a  i  k  u  l  v  h |
+ 8| z  o  w  c  g  y  i  v  k  c  n  o  o  k  t  b  r  n  v  i |
+ 9| a  x  w  o  h  v  j  a  i  n  c  r  r  r  n  g  a  b  t  g |
+10| a  l  f  u  c  v  l  i  q  r  o  a  e  k  e  s  n  x  o  i |
+11| g  d  o  h  x  c  d  m  u  k  p  s  b  q  y  h  t  k  w  y |
+12| m  c  r  v  h  t  f  g  o  b  e  k  t  c  p  k  m  d  n  v |
+13| u  o  e  o  d  c  f  l  r  d  x  b  i  f  f  j  s  r  s  a |
+14| s  u  s  r  d  i  s  l  a  n  d  u  v  i  l  l  a  g  e  o |
+15| e  n  t  i  c  m  k  n  f  m  h  e  j  o  d  q  d  q  g  v |
+16| u  t  g  v  v  a  m  k  k  h  h  t  v  w  r  r  w  k  r  s |
+17| m  r  g  e  q  p  t  z  y  k  s  o  o  z  h  z  d  j  h  q |
+18| s  y  m  r  p  c  w  o  d  r  e  p  x  e  j  s  h  t  m  j |
+19| m  a  m  h  x  a  c  h  u  r  c  h  q  v  y  s  m  e  h  h |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+city: ((1, 3), (1, 6))
+town: ((9, 18), (12, 18))
+village: ((14, 12), (14, 18))
+mountain: ((1, 10), (8, 10))
+river: ((14, 3), (18, 3))
+forest: ((10, 2), (15, 2))
+island: ((14, 5), (14, 10))
+country: ((12, 1), (18, 1))
+street: ((5, 4), (5, 9))
+school: ((1, 12), (1, 17))
+museum: ((12, 0), (17, 0))
+church: ((19, 6), (19, 11))
+restaurant: ((2, 16), (11, 16))
+
+DP Time taken: 0.0022 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((1, 3), (1, 6))
+town: ((9, 18), (12, 18))
+village: ((14, 12), (14, 18))
+mountain: ((1, 10), (8, 10))
+river: ((14, 3), (18, 3))
+forest: ((10, 2), (15, 2))
+island: ((14, 5), (14, 10))
+country: ((12, 1), (18, 1))
+street: ((5, 4), (5, 9))
+school: ((1, 12), (1, 17))
+museum: ((12, 0), (17, 0))
+church: ((19, 6), (19, 11))
+restaurant: ((2, 16), (11, 16))
+
+Naïve Time taken: 0.0511 seconds
+Naïve Memory used: 0.00 MB

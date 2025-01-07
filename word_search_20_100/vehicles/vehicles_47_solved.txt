@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| k  l  n  c  a  r  j  q  s  g  c  c  s  d  m  e  v  a  l  h |
+ 1| r  t  s  x  u  j  e  j  e  n  y  a  c  h  t  a  r  j  x  s |
+ 2| z  h  q  f  i  l  v  n  t  c  m  v  q  i  k  x  z  l  b  u |
+ 3| m  q  s  q  c  r  a  w  r  g  h  n  p  i  v  r  b  a  d  b |
+ 4| k  l  s  y  g  l  a  b  j  a  r  t  r  a  m  e  u  w  g  m |
+ 5| z  z  c  h  p  h  r  h  i  q  p  p  e  g  t  m  s  v  w  a |
+ 6| m  i  p  r  s  g  n  r  a  r  e  k  t  l  i  w  v  r  d  r |
+ 7| b  p  i  k  d  a  b  x  j  f  e  t  i  r  m  l  e  a  k  i |
+ 8| h  a  c  p  v  j  f  h  z  z  x  l  n  p  u  t  s  g  g  n |
+ 9| o  i  h  o  v  e  r  b  o  a  r  d  f  j  p  c  i  l  u  e |
+10| r  k  o  v  l  x  d  g  x  w  e  s  n  o  i  n  k  x  v  e |
+11| m  o  t  o  r  c  y  c  l  e  p  z  c  r  i  x  q  l  p  h |
+12| q  m  p  i  r  x  o  t  p  i  x  i  e  a  z  o  k  b  l  y |
+13| h  d  d  u  u  q  f  s  h  i  l  t  r  k  v  a  e  j  j  i |
+14| x  c  t  a  x  i  g  s  i  e  o  t  r  g  j  t  g  y  p  u |
+15| k  c  m  e  k  q  e  e  h  o  z  h  q  q  a  u  r  b  j  z |
+16| y  v  s  b  p  c  j  u  c  z  d  i  u  o  c  h  o  m  q  e |
+17| z  z  g  q  a  l  r  s  u  f  y  n  b  g  i  c  l  i  b  w |
+18| a  n  j  p  f  g  m  q  e  s  n  r  p  r  g  y  n  y  u  b |
+19| p  a  s  p  b  t  h  b  w  u  y  g  n  d  y  i  k  k  c  w |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+car: ((0, 3), (0, 5))
+motorcycle: ((11, 0), (11, 9))
+bus: ((3, 16), (5, 16))
+yacht: ((1, 10), (1, 14))
+submarine: ((1, 19), (9, 19))
+tram: ((4, 11), (4, 14))
+taxi: ((14, 2), (14, 5))
+hoverboard: ((9, 2), (9, 11))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+car: ((0, 3), (0, 5))
+motorcycle: ((11, 0), (11, 9))
+bus: ((3, 16), (5, 16))
+yacht: ((1, 10), (1, 14))
+submarine: ((1, 19), (9, 19))
+tram: ((4, 11), (4, 14))
+taxi: ((14, 2), (14, 5))
+hoverboard: ((9, 2), (9, 11))
+
+Naïve Time taken: 0.0501 seconds
+Naïve Memory used: 0.00 MB

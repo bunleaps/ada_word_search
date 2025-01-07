@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  x  o  j  c  w  z  f  c  f  t  i  o  d  h  s  r  w  c  n |
+ 1| g  q  c  t  x  a  e  h  e  o  n  e  t  w  o  r  k  l  x  k |
+ 2| w  A  z  t  c  z  q  d  a  s  d  m  p  k  n  l  y  n  a  o |
+ 3| m  g  I  a  a  i  e  f  r  r  e  i  m  e  t  a  e  p  r  q |
+ 4| s  h  z  b  m  m  n  d  o  o  d  m  n  b  e  a  v  k  h  t |
+ 5| e  i  u  l  e  o  l  t  v  i  n  w  p  g  j  z  q  f  c  c |
+ 6| d  f  w  e  r  n  t  p  e  m  e  e  a  r  z  n  w  s  p  w |
+ 7| f  f  f  t  a  i  q  h  c  r  q  s  u  r  i  b  q  d  h  q |
+ 8| v  u  w  b  g  t  q  p  j  b  n  w  w  k  e  n  p  c  z  l |
+ 9| h  t  e  a  f  o  x  d  a  t  a  e  y  t  u  i  t  r  q  s |
+10| v  l  f  m  n  r  u  n  a  t  i  x  t  p  v  j  z  e  l  n |
+11| b  m  x  b  u  u  c  o  m  p  u  t  e  r  o  q  g  d  r  c |
+12| l  o  q  a  m  d  d  l  k  e  y  b  o  a  r  d  b  r  a  h |
+13| s  u  z  o  t  c  l  f  m  e  p  r  o  b  o  t  e  j  u  i |
+14| g  s  c  u  n  v  m  c  y  s  a  t  e  l  l  i  t  e  a  p |
+15| m  e  g  i  r  z  i  l  q  v  b  f  w  l  c  f  b  b  b  z |
+16| o  r  c  z  k  s  p  o  y  n  c  w  d  b  p  z  s  m  k  s |
+17| c  u  k  a  e  j  p  u  s  o  f  t  w  a  r  e  d  m  q  q |
+18| h  u  m  g  h  g  w  d  r  x  b  w  x  u  q  n  o  d  u  i |
+19| m  s  m  a  r  t  p  h  o  n  e  g  z  q  m  u  v  b  n  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+computer: ((11, 6), (11, 13))
+smartphone: ((19, 1), (19, 10))
+tablet: ((2, 3), (7, 3))
+software: ((17, 8), (17, 15))
+keyboard: ((12, 8), (12, 15))
+mouse: ((11, 1), (15, 1))
+monitor: ((4, 5), (10, 5))
+camera: ((2, 4), (7, 4))
+cloud: ((14, 7), (18, 7))
+data: ((9, 7), (9, 10))
+network: ((1, 10), (1, 16))
+robot: ((13, 11), (13, 15))
+chip: ((11, 19), (14, 19))
+satellite: ((14, 9), (14, 17))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+computer: ((11, 6), (11, 13))
+smartphone: ((19, 1), (19, 10))
+tablet: ((2, 3), (7, 3))
+software: ((17, 8), (17, 15))
+keyboard: ((12, 8), (12, 15))
+mouse: ((11, 1), (15, 1))
+monitor: ((4, 5), (10, 5))
+camera: ((2, 4), (7, 4))
+cloud: ((14, 7), (18, 7))
+data: ((9, 7), (9, 10))
+network: ((1, 10), (1, 16))
+robot: ((13, 11), (13, 15))
+chip: ((11, 19), (14, 19))
+satellite: ((14, 9), (14, 17))
+
+Naïve Time taken: 0.0514 seconds
+Naïve Memory used: 0.00 MB

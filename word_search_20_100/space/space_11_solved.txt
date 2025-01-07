@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  l  f  a  c  o  n  s  t  e  l  l  a  t  i  o  n  p  e  m |
+ 1| l  i  f  v  x  x  r  h  b  t  f  o  t  u  m  j  v  o  i  b |
+ 2| i  g  g  w  o  s  t  a  r  y  s  r  z  l  i  e  p  s  r  q |
+ 3| e  h  f  a  r  k  j  a  p  e  o  c  n  r  y  z  z  p  h  i |
+ 4| n  t  x  t  i  z  f  a  z  v  l  q  d  o  s  a  v  a  m  u |
+ 5| s  y  a  j  w  s  m  e  m  g  a  p  v  c  t  v  o  c  h  n |
+ 6| u  e  n  p  l  a  n  e  t  u  r  o  n  k  b  q  r  e  f  i |
+ 7| l  a  u  n  r  g  e  r  e  u  s  s  d  e  l  p  b  c  z  v |
+ 8| u  r  w  f  r  q  w  t  h  r  s  e  p  t  a  w  i  r  v  e |
+ 9| t  u  g  k  v  p  i  c  x  z  y  b  f  a  c  t  t  a  p  r |
+10| l  e  e  a  i  l  f  t  w  k  s  i  t  s  k  k  w  f  f  s |
+11| o  w  l  s  l  i  a  f  a  e  t  u  l  t  h  i  z  t  x  e |
+12| o  z  q  e  b  a  h  s  m  v  e  j  h  r  o  q  h  b  v  j |
+13| v  s  t  q  s  m  x  a  t  a  m  s  a  o  l  w  x  z  n  y |
+14| q  a  s  q  h  c  e  y  x  e  i  a  f  n  e  k  l  n  q  c |
+15| s  g  g  z  a  k  o  t  i  u  r  z  v  a  j  k  o  c  b  r |
+16| n  e  b  u  l  a  a  p  e  a  m  o  u  u  b  t  b  z  w  r |
+17| k  c  c  o  m  e  t  s  e  o  r  r  i  t  f  c  l  q  v  b |
+18| v  m  o  o  n  i  f  p  t  a  r  x  p  d  a  q  f  i  h  n |
+19| y  c  p  t  l  q  r  k  o  s  q  f  k  e  r  t  h  x  j  j |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+planet: ((6, 3), (6, 8))
+star: ((2, 5), (2, 8))
+moon: ((18, 1), (18, 4))
+comet: ((17, 2), (17, 6))
+nebula: ((16, 0), (16, 5))
+blackhole: ((6, 14), (14, 14))
+rocket: ((3, 13), (8, 13))
+astronaut: ((9, 13), (17, 13))
+spacecraft: ((2, 17), (11, 17))
+orbit: ((5, 16), (9, 16))
+universe: ((4, 19), (11, 19))
+lightyear: ((0, 1), (8, 1))
+constellation: ((0, 4), (0, 16))
+aliens: ((0, 0), (5, 0))
+
+DP Time taken: 0.0012 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((6, 3), (6, 8))
+star: ((2, 5), (2, 8))
+moon: ((18, 1), (18, 4))
+comet: ((17, 2), (17, 6))
+nebula: ((16, 0), (16, 5))
+blackhole: ((6, 14), (14, 14))
+rocket: ((3, 13), (8, 13))
+astronaut: ((9, 13), (17, 13))
+spacecraft: ((2, 17), (11, 17))
+orbit: ((5, 16), (9, 16))
+universe: ((4, 19), (11, 19))
+lightyear: ((0, 1), (8, 1))
+constellation: ((0, 4), (0, 16))
+aliens: ((0, 0), (5, 0))
+
+Naïve Time taken: 0.0503 seconds
+Naïve Memory used: 0.00 MB

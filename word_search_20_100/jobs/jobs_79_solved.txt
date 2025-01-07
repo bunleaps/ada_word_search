@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  l  l  k  m  w  i  r  s  e  o  w  d  o  o  n  y  a  a  p |
+ 1| d  e  k  z  h  t  r  d  w  f  n  t  t  e  h  j  h  a  i  s |
+ 2| k  j  q  q  l  f  q  u  c  p  o  g  c  j  s  e  b  c  x  g |
+ 3| k  w  r  i  t  e  r  d  x  l  o  t  i  z  r  t  g  c  a  p |
+ 4| j  f  h  z  e  m  i  i  i  l  e  l  o  n  f  x  f  o  l  h |
+ 5| j  i  r  f  t  q  u  p  k  k  l  g  i  t  e  t  l  u  q  o |
+ 6| e  r  c  s  c  t  l  s  v  v  g  t  l  c  k  e  f  n  s  t |
+ 7| g  e  a  r  t  i  s  t  i  f  m  p  u  n  e  t  r  t  c  o |
+ 8| p  f  l  g  w  j  g  r  d  c  c  h  e  f  s  x  b  a  i  g |
+ 9| r  i  o  b  e  p  e  s  q  r  i  w  w  i  b  z  s  n  e  r |
+10| o  g  g  q  z  y  h  t  e  t  t  a  t  b  g  w  i  t  n  a |
+11| g  h  d  s  w  h  y  h  v  v  x  n  n  b  v  u  z  h  t  p |
+12| r  t  p  a  a  k  c  v  b  r  e  d  k  h  t  d  u  h  i  h |
+13| a  e  l  p  o  a  d  a  e  d  c  z  w  i  z  o  t  r  s  e |
+14| m  r  e  e  e  g  m  m  n  n  z  r  b  n  j  c  k  r  t  r |
+15| m  q  q  t  x  t  r  f  m  u  w  l  j  f  n  t  d  r  g  d |
+16| e  t  e  j  l  a  y  t  k  r  h  o  r  v  x  o  m  v  i  q |
+17| r  i  h  h  f  m  h  e  i  s  r  g  y  l  y  r  q  t  d  d |
+18| f  m  e  c  h  a  n  i  c  e  c  z  o  o  r  v  n  f  t  u |
+19| p  e  i  v  p  a  r  c  h  i  t  e  c  t  q  x  e  g  o  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+doctor: ((12, 15), (17, 15))
+nurse: ((14, 9), (18, 9))
+chef: ((8, 10), (8, 13))
+artist: ((7, 2), (7, 7))
+writer: ((3, 1), (3, 6))
+scientist: ((6, 18), (14, 18))
+architect: ((19, 5), (19, 13))
+firefighter: ((4, 1), (14, 1))
+mechanic: ((18, 1), (18, 8))
+accountant: ((1, 17), (10, 17))
+photographer: ((3, 19), (14, 19))
+programmer: ((8, 0), (17, 0))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+doctor: ((12, 15), (17, 15))
+nurse: ((14, 9), (18, 9))
+chef: ((8, 10), (8, 13))
+artist: ((7, 2), (7, 7))
+writer: ((3, 1), (3, 6))
+scientist: ((6, 18), (14, 18))
+architect: ((19, 5), (19, 13))
+firefighter: ((4, 1), (14, 1))
+mechanic: ((18, 1), (18, 8))
+accountant: ((1, 17), (10, 17))
+photographer: ((3, 19), (14, 19))
+programmer: ((8, 0), (17, 0))
+
+Naïve Time taken: 0.0564 seconds
+Naïve Memory used: 0.00 MB

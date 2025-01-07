@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| n  v  t  s  w  h  i  a  f  q  l  e  k  z  q  j  x  u  h  x |
+ 1| e  p  b  g  v  o  w  r  s  w  i  t  z  e  r  l  a  n  d  k |
+ 2| z  o  w  q  c  q  t  b  o  d  t  u  r  k  e  y  j  j  t  d |
+ 3| i  r  b  r  q  h  a  z  p  u  j  e  k  x  n  a  p  t  x  b |
+ 4| t  t  r  r  r  c  i  r  s  w  e  d  e  n  i  g  p  j  a  p |
+ 5| a  u  a  z  f  n  t  n  g  g  z  n  r  l  f  y  e  i  z  y |
+ 6| l  g  z  j  y  j  a  d  a  e  e  t  a  t  g  v  s  r  t  f |
+ 7| y  a  i  k  o  i  i  o  y  c  n  r  g  e  t  s  a  d  x  i |
+ 8| w  l  l  x  d  t  o  n  n  y  t  t  t  l  u  h  g  x  e  n |
+ 9| v  j  a  n  l  g  a  a  l  s  s  n  i  r  y  y  s  x  g  l |
+10| s  l  i  j  e  m  r  u  u  f  a  y  p  n  g  v  u  l  p  a |
+11| k  d  g  n  r  f  w  a  e  d  a  x  e  a  a  r  j  z  b  n |
+12| e  e  m  e  o  t  u  d  a  w  a  z  n  p  n  i  e  o  x  d |
+13| n  n  g  k  z  c  n  n  r  y  h  p  v  i  k  l  c  s  d  r |
+14| y  m  d  b  h  a  a  o  n  a  n  b  a  u  i  i  p  n  h  c |
+15| a  a  n  i  l  c  n  n  s  a  e  p  v  l  x  o  a  t  m  j |
+16| s  r  i  o  q  w  s  u  p  i  s  h  y  e  d  l  y  o  h  q |
+17| r  k  p  u  t  s  d  a  j  m  k  v  m  d  e  s  o  r  f  o |
+18| j  u  u  i  z  s  j  e  l  p  o  k  u  c  j  t  y  j  a  p |
+19| x  c  w  g  r  e  e  c  e  d  p  y  i  u  k  x  i  k  v  y |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+brazil: ((3, 2), (8, 2))
+italy: ((3, 0), (7, 0))
+portugal: ((1, 1), (8, 1))
+kenya: ((11, 0), (15, 0))
+uk: ((18, 12), (18, 11))
+sweden: ((4, 8), (4, 13))
+denmark: ((11, 1), (17, 1))
+finland: ((6, 19), (12, 19))
+switzerland: ((1, 8), (1, 18))
+turkey: ((2, 10), (2, 15))
+greece: ((19, 3), (19, 8))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+brazil: ((3, 2), (8, 2))
+italy: ((3, 0), (7, 0))
+portugal: ((1, 1), (8, 1))
+kenya: ((11, 0), (15, 0))
+uk: ((18, 12), (18, 11))
+sweden: ((4, 8), (4, 13))
+denmark: ((11, 1), (17, 1))
+finland: ((6, 19), (12, 19))
+switzerland: ((1, 8), (1, 18))
+turkey: ((2, 10), (2, 15))
+greece: ((19, 3), (19, 8))
+
+Naïve Time taken: 0.0818 seconds
+Naïve Memory used: 0.00 MB

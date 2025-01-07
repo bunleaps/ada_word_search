@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  l  l  a  w  o  e  o  b  u  i  d  g  j  o  y  y  r  r  j |
+ 1| r  h  y  v  a  w  l  y  p  q  h  r  r  a  f  k  t  z  d  c |
+ 2| e  c  d  u  q  v  e  i  s  s  l  h  p  y  v  k  h  t  z  v |
+ 3| e  b  x  t  s  v  y  u  g  p  o  m  n  c  z  q  u  s  q  s |
+ 4| z  l  u  w  m  n  s  k  z  b  i  i  i  r  z  o  n  i  p  k |
+ 5| e  i  h  q  n  m  e  h  a  p  a  c  c  o  d  q  d  a  n  w |
+ 6| r  z  j  u  s  k  w  s  f  r  x  j  l  a  w  u  e  f  p  f |
+ 7| k  z  s  m  n  v  i  r  s  l  j  b  n  o  b  b  r  j  j  a |
+ 8| a  a  r  f  o  u  n  q  d  x  w  r  p  l  u  d  r  y  h  h |
+ 9| d  r  d  e  w  y  d  y  z  e  o  b  o  j  u  d  p  e  z  y |
+10| d  d  r  f  y  b  y  h  c  t  h  j  j  g  k  y  y  o  c  l |
+11| a  z  t  u  t  z  q  r  u  h  o  t  b  j  m  e  j  e  d  i |
+12| f  n  i  w  f  o  g  g  y  i  w  d  z  r  l  q  n  n  v  g |
+13| i  c  s  g  e  k  h  g  t  z  l  g  o  z  y  a  c  p  q  h |
+14| z  q  o  r  n  e  n  u  k  o  x  t  z  x  c  j  y  n  a  t |
+15| u  f  t  l  r  l  q  n  m  h  s  i  j  i  r  j  a  t  a  n |
+16| y  q  y  f  d  l  p  a  v  i  r  x  r  h  g  b  s  t  g  i |
+17| j  u  r  g  i  j  l  b  h  d  d  r  f  i  h  o  l  u  h  n |
+18| q  n  i  a  i  f  s  g  x  e  u  b  m  a  r  r  d  m  w  g |
+19| l  o  h  w  y  i  r  y  m  h  w  i  e  f  d  p  d  y  h  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+snowy: ((6, 4), (10, 4))
+windy: ((6, 6), (10, 6))
+foggy: ((12, 4), (12, 8))
+dry: ((8, 15), (8, 17))
+hot: ((11, 9), (11, 11))
+thunder: ((1, 16), (7, 16))
+lightning: ((10, 19), (18, 19))
+breeze: ((0, 0), (5, 0))
+blizzard: ((3, 1), (10, 1))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+snowy: ((6, 4), (10, 4))
+windy: ((6, 6), (10, 6))
+foggy: ((12, 4), (12, 8))
+dry: ((8, 15), (8, 17))
+hot: ((11, 9), (11, 11))
+thunder: ((1, 16), (7, 16))
+lightning: ((10, 19), (18, 19))
+breeze: ((0, 0), (5, 0))
+blizzard: ((3, 1), (10, 1))
+
+Naïve Time taken: 0.1293 seconds
+Naïve Memory used: 0.00 MB

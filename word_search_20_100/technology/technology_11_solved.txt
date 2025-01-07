@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  j  o  n  y  q  r  d  n  s  r  z  b  v  j  j  k  f  v  g |
+ 1| m  h  q  f  d  n  f  t  r  k  n  h  h  d  w  m  e  s  u  g |
+ 2| a  a  d  c  m  u  s  z  u  o  u  u  k  s  d  v  y  a  u  f |
+ 3| r  r  o  y  o  o  w  o  k  v  n  n  v  s  u  o  b  t  b  n |
+ 4| t  d  i  i  i  m  u  e  f  g  v  e  d  s  c  g  o  e  k  v |
+ 5| p  w  i  c  f  i  p  s  m  t  c  i  i  j  j  p  a  l  w  a |
+ 6| h  a  j  q  a  n  e  u  e  v  w  r  b  v  m  a  r  l  a  o |
+ 7| o  r  d  u  l  m  e  d  t  v  s  a  u  h  o  g  d  i  d  j |
+ 8| n  e  o  j  h  i  e  t  z  e  o  g  r  k  n  z  v  t  f  d |
+ 9| e  t  j  h  h  l  g  r  w  n  r  t  k  e  i  t  d  e  c  a |
+10| n  j  j  m  j  l  g  t  a  o  e  l  n  p  t  a  u  h  b  t |
+11| c  h  p  r  i  n  t  e  r  n  r  o  a  i  o  b  z  d  l  a |
+12| c  c  d  A  I  q  x  y  r  w  h  k  c  y  r  l  z  c  m  u |
+13| o  c  o  d  i  n  g  e  k  x  s  c  o  o  s  e  r  l  k  p |
+14| k  u  f  z  s  s  t  m  a  l  l  t  h  h  c  t  o  o  h  j |
+15| z  u  e  b  n  n  y  e  n  d  o  c  p  a  y  f  u  u  y  j |
+16| t  y  t  i  i  t  k  s  z  b  n  o  w  n  d  g  o  d  f  v |
+17| s  z  r  f  i  l  j  p  o  r  c  q  n  a  g  m  y  g  b  g |
+18| i  w  c  b  j  b  s  r  k  q  t  f  d  o  b  g  d  u  s  k |
+19| h  b  w  a  z  l  z  h  c  h  i  p  h  b  t  q  f  p  e  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+smartphone: ((0, 0), (9, 0))
+tablet: ((9, 15), (14, 15))
+hardware: ((1, 1), (8, 1))
+keyboard: ((0, 16), (7, 16))
+monitor: ((6, 14), (12, 14))
+printer: ((11, 2), (11, 8))
+AI: ((12, 3), (12, 4))
+cloud: ((12, 17), (16, 17))
+coding: ((13, 1), (13, 6))
+data: ((8, 19), (11, 19))
+chip: ((19, 8), (19, 11))
+satellite: ((1, 17), (9, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+smartphone: ((0, 0), (9, 0))
+tablet: ((9, 15), (14, 15))
+hardware: ((1, 1), (8, 1))
+keyboard: ((0, 16), (7, 16))
+monitor: ((6, 14), (12, 14))
+printer: ((11, 2), (11, 8))
+AI: ((12, 3), (12, 4))
+cloud: ((12, 17), (16, 17))
+coding: ((13, 1), (13, 6))
+data: ((8, 19), (11, 19))
+chip: ((19, 8), (19, 11))
+satellite: ((1, 17), (9, 17))
+
+Naïve Time taken: 0.0611 seconds
+Naïve Memory used: 0.00 MB

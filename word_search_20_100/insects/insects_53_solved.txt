@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| m  w  w  e  n  z  v  i  l  p  f  l  e  a  s  h  m  z  b  n |
+ 1| b  p  g  z  s  w  y  i  h  z  z  l  k  f  s  r  o  q  f  s |
+ 2| c  b  b  h  t  r  d  c  l  y  f  a  g  r  y  g  m  u  m  a |
+ 3| k  w  g  f  l  y  a  r  f  b  b  u  t  t  e  r  f  l  y  u |
+ 4| w  a  w  r  p  o  h  m  a  v  s  k  h  p  b  e  e  d  s  h |
+ 5| m  s  r  l  r  f  y  j  a  g  n  n  t  e  r  m  i  t  e  z |
+ 6| q  p  w  k  u  x  j  d  x  i  o  k  b  v  w  u  c  r  s  n |
+ 7| v  y  c  b  s  w  b  w  k  p  u  n  q  m  v  d  x  t  k  p |
+ 8| z  o  a  m  o  s  q  u  i  t  o  b  f  t  c  r  p  g  m  u |
+ 9| c  e  t  l  f  n  y  p  d  f  p  f  g  l  e  p  t  k  l  p |
+10| h  a  c  u  v  j  q  f  b  g  o  b  z  p  y  s  z  b  b  z |
+11| g  l  u  r  p  e  b  l  k  z  t  r  p  m  h  u  p  j  l  u |
+12| j  q  i  l  m  u  m  a  g  n  t  o  f  o  i  s  l  r  p  b |
+13| r  q  y  b  d  r  r  c  a  r  h  y  e  t  b  e  a  j  c  d |
+14| l  t  e  b  e  y  x  r  n  s  k  j  b  h  e  r  d  d  n  e |
+15| i  p  w  d  b  m  t  w  s  a  t  j  w  d  w  j  y  e  w  x |
+16| k  x  i  d  y  j  h  a  j  t  t  r  z  d  h  h  b  v  l  m |
+17| r  p  p  c  t  c  r  v  o  h  s  k  d  q  g  b  u  t  j  a |
+18| s  h  e  c  a  g  y  k  v  b  e  e  t  l  e  w  g  s  a  g |
+19| p  v  f  y  q  u  w  x  g  a  q  a  j  y  e  z  l  w  j  o |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+bee: ((4, 14), (4, 16))
+butterfly: ((3, 10), (3, 18))
+mosquito: ((8, 3), (8, 10))
+ladybug: ((12, 16), (18, 16))
+fly: ((3, 3), (3, 5))
+moth: ((11, 13), (14, 13))
+beetle: ((18, 9), (18, 14))
+wasp: ((3, 1), (6, 1))
+flea: ((0, 10), (0, 13))
+termite: ((5, 12), (5, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+bee: ((4, 14), (4, 16))
+butterfly: ((3, 10), (3, 18))
+mosquito: ((8, 3), (8, 10))
+ladybug: ((12, 16), (18, 16))
+fly: ((3, 3), (3, 5))
+moth: ((11, 13), (14, 13))
+beetle: ((18, 9), (18, 14))
+wasp: ((3, 1), (6, 1))
+flea: ((0, 10), (0, 13))
+termite: ((5, 12), (5, 18))
+
+Naïve Time taken: 0.0310 seconds
+Naïve Memory used: 0.00 MB

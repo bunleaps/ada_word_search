@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| d  c  v  d  f  t  q  q  d  w  h  s  t  i  k  d  e  b  o  u |
+ 1| q  o  w  q  p  d  k  y  c  A  c  n  b  a  d  e  t  o  r  w |
+ 2| j  m  i  c  y  f  t  z  t  I  r  m  m  y  b  s  m  e  y  z |
+ 3| s  p  y  f  r  o  f  u  b  u  v  j  k  o  i  l  t  q  d  o |
+ 4| o  u  f  q  b  d  j  e  s  m  q  f  z  i  n  n  e  l  u  u |
+ 5| s  t  f  o  c  j  j  e  o  c  h  i  p  v  i  i  a  t  n  z |
+ 6| l  e  r  z  p  d  g  h  f  i  o  z  t  r  i  g  t  n  y  y |
+ 7| w  r  c  l  o  u  d  n  t  z  p  j  p  a  n  v  l  o  f  b |
+ 8| l  c  c  d  h  g  i  p  w  k  h  n  o  k  t  n  b  j  r  g |
+ 9| k  f  o  r  a  v  p  m  a  v  j  t  r  a  e  s  b  r  d  e |
+10| d  e  d  g  r  s  k  n  r  l  k  o  s  h  r  s  m  x  a  d |
+11| n  g  i  d  d  a  e  u  e  v  w  q  c  x  n  l  o  p  k  a |
+12| o  g  n  d  w  t  y  o  g  t  r  t  x  h  e  f  u  e  a  t |
+13| i  l  g  r  a  e  b  i  e  y  e  j  g  w  t  k  s  f  z  a |
+14| s  e  v  o  r  l  o  n  w  m  a  f  r  i  n  b  e  o  o  a |
+15| z  k  k  n  e  l  a  v  a  r  z  l  v  f  w  j  z  a  v  z |
+16| q  i  t  e  n  i  r  j  e  e  d  t  h  w  x  t  q  k  i  g |
+17| a  h  g  k  d  t  d  m  z  q  j  s  h  n  a  z  v  k  e  j |
+18| i  f  v  o  h  e  a  s  m  a  r  t  p  h  o  n  e  g  u  x |
+19| i  z  a  k  k  c  p  f  m  a  q  m  m  j  e  x  s  b  z  u |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+computer: ((0, 1), (7, 1))
+smartphone: ((18, 7), (18, 16))
+internet: ((6, 14), (13, 14))
+software: ((4, 8), (11, 8))
+hardware: ((8, 4), (15, 4))
+keyboard: ((10, 6), (17, 6))
+mouse: ((10, 16), (14, 16))
+drone: ((12, 3), (16, 3))
+AI: ((1, 9), (2, 9))
+cloud: ((7, 2), (7, 6))
+coding: ((8, 2), (13, 2))
+data: ((10, 19), (13, 19))
+chip: ((5, 9), (5, 12))
+satellite: ((10, 5), (18, 5))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+computer: ((0, 1), (7, 1))
+smartphone: ((18, 7), (18, 16))
+internet: ((6, 14), (13, 14))
+software: ((4, 8), (11, 8))
+hardware: ((8, 4), (15, 4))
+keyboard: ((10, 6), (17, 6))
+mouse: ((10, 16), (14, 16))
+drone: ((12, 3), (16, 3))
+AI: ((1, 9), (2, 9))
+cloud: ((7, 2), (7, 6))
+coding: ((8, 2), (13, 2))
+data: ((10, 19), (13, 19))
+chip: ((5, 9), (5, 12))
+satellite: ((10, 5), (18, 5))
+
+Naïve Time taken: 0.0553 seconds
+Naïve Memory used: 0.00 MB

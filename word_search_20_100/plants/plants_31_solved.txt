@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| g  g  b  w  x  q  v  u  j  o  h  w  a  h  r  b  p  j  a  e |
+ 1| d  o  r  s  h  b  v  d  d  t  u  s  l  e  o  k  n  o  j  n |
+ 2| d  a  i  s  y  x  h  x  y  m  g  r  a  s  s  t  o  x  l  g |
+ 3| y  t  w  a  o  j  r  u  e  g  v  i  n  e  p  b  q  w  i  p |
+ 4| x  w  v  q  r  y  z  g  q  i  u  i  a  l  m  k  s  b  l  a |
+ 5| w  m  k  b  c  r  o  i  y  p  d  y  j  a  y  g  q  v  y  l |
+ 6| v  a  b  s  h  w  e  c  w  y  p  e  b  m  m  s  g  p  d  m |
+ 7| a  h  x  h  i  r  t  v  h  e  a  i  w  b  b  o  h  e  x  m |
+ 8| z  n  s  r  d  m  o  n  f  w  s  g  n  m  o  s  s  w  m  i |
+ 9| u  b  c  u  g  l  c  n  r  s  u  d  c  e  d  c  u  i  w  s |
+10| p  w  d  b  c  z  k  e  t  p  n  i  w  z  m  v  t  y  t  d |
+11| b  r  c  m  z  v  w  z  v  x  f  m  a  p  l  e  v  l  m  c |
+12| k  q  l  i  w  o  v  u  d  g  l  w  q  q  w  i  s  o  w  d |
+13| a  l  b  p  l  v  m  o  y  u  o  i  l  i  p  u  r  a  d  x |
+14| c  h  v  f  y  a  n  r  e  z  w  k  k  h  t  b  z  k  e  y |
+15| a  g  v  z  m  f  f  q  b  n  e  t  c  c  s  p  h  s  i  j |
+16| n  g  x  e  a  s  w  e  a  z  r  h  a  y  s  g  o  d  w  d |
+17| r  i  v  e  w  c  v  n  r  t  a  c  k  x  d  r  o  t  c  i |
+18| s  g  f  q  r  t  a  p  r  n  u  y  y  g  w  k  y  s  p  w |
+19| n  m  k  m  t  r  e  e  t  u  l  i  p  o  w  g  v  i  e  i |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tree: ((19, 4), (19, 7))
+flower: ((11, 10), (16, 10))
+grass: ((2, 10), (2, 14))
+shrub: ((6, 3), (10, 3))
+moss: ((8, 13), (8, 16))
+vine: ((3, 10), (3, 13))
+oak: ((12, 17), (14, 17))
+maple: ((11, 11), (11, 15))
+tulip: ((19, 8), (19, 12))
+daisy: ((2, 0), (2, 4))
+sunflower: ((8, 10), (16, 10))
+lily: ((2, 18), (5, 18))
+orchid: ((3, 4), (8, 4))
+palm: ((3, 19), (6, 19))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((19, 4), (19, 7))
+flower: ((11, 10), (16, 10))
+grass: ((2, 10), (2, 14))
+shrub: ((6, 3), (10, 3))
+moss: ((8, 13), (8, 16))
+vine: ((3, 10), (3, 13))
+oak: ((12, 17), (14, 17))
+maple: ((11, 11), (11, 15))
+tulip: ((19, 8), (19, 12))
+daisy: ((2, 0), (2, 4))
+sunflower: ((8, 10), (16, 10))
+lily: ((2, 18), (5, 18))
+orchid: ((3, 4), (8, 4))
+palm: ((3, 19), (6, 19))
+
+Naïve Time taken: 0.0559 seconds
+Naïve Memory used: 0.00 MB

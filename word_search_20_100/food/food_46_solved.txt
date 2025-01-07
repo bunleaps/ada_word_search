@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  f  j  z  q  r  w  d  f  k  j  l  l  q  d  n  c  o  e  a |
+ 1| a  w  u  q  f  t  z  c  h  o  c  o  l  a  t  e  q  q  j  f |
+ 2| h  s  o  u  p  t  t  b  h  s  t  e  a  k  n  x  q  c  h  h |
+ 3| r  d  n  j  y  g  m  z  p  i  e  p  a  s  t  a  a  u  r  t |
+ 4| i  z  k  z  t  f  n  z  f  y  o  f  c  d  m  j  n  u  e  o |
+ 5| c  v  u  d  n  h  z  u  m  t  f  v  n  a  s  u  s  h  i  d |
+ 6| e  p  n  d  x  r  e  n  i  h  q  k  d  v  k  i  i  l  f  h |
+ 7| f  u  t  o  s  t  r  r  s  p  i  z  z  a  d  e  i  y  v  t |
+ 8| i  l  a  x  n  z  r  e  n  r  k  q  w  y  d  v  r  i  o  l |
+ 9| d  x  c  m  u  u  i  z  o  y  a  u  j  c  c  q  q  g  s  d |
+10| s  c  o  c  b  k  y  b  o  f  j  w  b  u  r  g  e  r  u  q |
+11| p  u  g  t  o  n  x  m  d  e  t  v  d  k  a  m  o  h  r  j |
+12| m  r  y  o  s  g  a  e  l  b  s  a  n  d  w  i  c  h  a  k |
+13| y  r  c  k  i  e  s  f  e  s  r  c  e  r  w  z  j  h  l  h |
+14| m  y  i  f  r  e  g  y  s  b  r  e  y  m  v  b  z  j  d  q |
+15| r  x  b  c  e  r  n  w  z  l  f  y  a  x  k  e  w  a  q  j |
+16| q  n  e  h  e  p  e  e  s  a  l  a  d  d  z  e  o  z  f  p |
+17| v  c  c  w  b  m  f  f  y  f  f  m  e  a  i  g  e  u  g  m |
+18| i  d  l  t  r  b  p  r  k  c  b  a  j  g  q  v  x  x  c  f |
+19| i  j  a  u  q  w  u  j  l  t  l  a  c  l  w  h  k  c  f  g |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((7, 9), (7, 13))
+burger: ((10, 12), (10, 17))
+pasta: ((3, 11), (3, 15))
+sandwich: ((12, 10), (12, 17))
+salad: ((16, 8), (16, 12))
+soup: ((2, 1), (2, 4))
+steak: ((2, 9), (2, 13))
+sushi: ((5, 14), (5, 18))
+rice: ((3, 0), (6, 0))
+noodles: ((8, 8), (14, 8))
+taco: ((7, 2), (10, 2))
+curry: ((10, 1), (14, 1))
+chocolate: ((1, 7), (1, 15))
+pie: ((3, 8), (3, 10))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((7, 9), (7, 13))
+burger: ((10, 12), (10, 17))
+pasta: ((3, 11), (3, 15))
+sandwich: ((12, 10), (12, 17))
+salad: ((16, 8), (16, 12))
+soup: ((2, 1), (2, 4))
+steak: ((2, 9), (2, 13))
+sushi: ((5, 14), (5, 18))
+rice: ((3, 0), (6, 0))
+noodles: ((8, 8), (14, 8))
+taco: ((7, 2), (10, 2))
+curry: ((10, 1), (14, 1))
+chocolate: ((1, 7), (1, 15))
+pie: ((3, 8), (3, 10))
+
+Naïve Time taken: 0.0478 seconds
+Naïve Memory used: 0.00 MB

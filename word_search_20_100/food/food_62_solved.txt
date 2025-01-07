@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| q  g  h  f  e  l  s  a  n  d  w  i  c  h  o  r  s  a  e  l |
+ 1| g  x  c  h  e  e  s  e  n  f  b  n  k  w  q  p  t  b  e  f |
+ 2| e  j  v  k  o  w  z  h  e  y  r  q  s  a  w  k  e  i  m  k |
+ 3| s  u  s  h  i  o  w  d  k  t  e  z  f  q  x  f  a  g  z  w |
+ 4| d  c  h  o  c  o  l  a  t  e  a  b  b  z  v  s  k  g  i  n |
+ 5| f  b  d  r  p  u  w  r  s  p  d  t  u  l  o  p  p  q  b  x |
+ 6| e  w  i  c  k  j  c  r  i  c  e  h  o  r  d  d  i  v  y  t |
+ 7| w  y  t  d  a  s  j  i  w  s  t  t  x  j  g  g  l  e  v  y |
+ 8| z  m  r  k  o  w  z  l  m  o  q  l  a  b  d  e  g  v  q  k |
+ 9| i  c  e  c  r  e  a  m  f  j  b  e  f  c  j  s  r  r  i  u |
+10| u  q  g  b  g  m  f  b  u  r  r  i  t  o  o  w  l  s  z  k |
+11| i  g  n  n  d  y  b  z  r  m  x  o  o  p  i  p  e  m  s  m |
+12| d  m  g  c  o  p  i  z  z  a  b  t  t  a  u  i  o  n  o  a |
+13| u  k  q  u  p  o  v  w  y  y  c  h  b  o  k  u  o  r  l  p |
+14| n  l  a  r  w  c  d  s  w  u  s  d  s  o  d  o  f  t  v  s |
+15| t  m  a  r  o  x  a  l  g  o  a  q  o  i  m  a  u  s  c  z |
+16| y  j  c  y  o  t  m  c  e  l  u  c  j  f  r  f  s  e  l  n |
+17| y  e  w  z  s  z  u  e  a  s  m  f  z  y  v  t  k  m  e  z |
+18| i  x  u  a  s  z  v  s  i  p  l  i  f  g  l  a  x  i  e  q |
+19| l  w  p  q  e  l  f  a  y  g  j  i  f  c  c  q  p  p  i  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((12, 5), (12, 9))
+sandwich: ((0, 6), (0, 13))
+steak: ((0, 16), (4, 16))
+sushi: ((3, 0), (3, 4))
+rice: ((6, 7), (6, 10))
+burrito: ((10, 7), (10, 13))
+curry: ((12, 3), (16, 3))
+bread: ((1, 10), (5, 10))
+cheese: ((1, 2), (1, 7))
+chocolate: ((4, 1), (4, 9))
+icecream: ((9, 0), (9, 7))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((12, 5), (12, 9))
+sandwich: ((0, 6), (0, 13))
+steak: ((0, 16), (4, 16))
+sushi: ((3, 0), (3, 4))
+rice: ((6, 7), (6, 10))
+burrito: ((10, 7), (10, 13))
+curry: ((12, 3), (16, 3))
+bread: ((1, 10), (5, 10))
+cheese: ((1, 2), (1, 7))
+chocolate: ((4, 1), (4, 9))
+icecream: ((9, 0), (9, 7))
+
+Naïve Time taken: 0.0502 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| o  t  u  l  q  i  t  k  q  d  r  y  j  e  d  h  e  v  l  d |
+ 1| n  h  s  i  q  i  a  m  t  o  r  n  a  d  o  i  m  t  p  u |
+ 2| p  r  o  p  d  m  t  r  v  a  m  z  h  j  b  s  m  a  d  p |
+ 3| l  e  m  t  l  i  g  h  t  n  i  n  g  y  p  t  c  u  y  d |
+ 4| k  x  s  d  a  y  g  p  u  a  z  f  f  v  s  c  v  x  c  i |
+ 5| u  h  i  p  d  i  w  q  q  q  m  n  o  o  w  d  m  n  m  q |
+ 6| l  e  k  u  o  n  n  w  k  q  n  y  r  g  e  q  m  g  y  v |
+ 7| o  t  o  y  h  a  n  i  y  a  y  f  y  n  g  i  q  w  s  o |
+ 8| v  l  w  i  n  d  y  n  r  n  c  m  a  t  c  y  o  s  l  y |
+ 9| c  e  t  t  x  n  f  y  i  v  r  c  q  c  w  n  a  c  h  x |
+10| i  z  o  h  i  q  d  a  o  o  i  l  l  g  s  q  h  t  h  b |
+11| o  b  r  s  u  g  r  q  t  r  d  r  i  z  z  l  e  p  a  v |
+12| q  f  g  m  p  n  m  s  r  a  x  y  b  p  l  a  y  e  u  q |
+13| x  t  l  t  r  s  d  u  e  r  p  g  y  i  z  f  g  e  x  d |
+14| c  j  h  t  i  e  h  e  i  z  p  n  a  b  x  e  z  s  r  a |
+15| s  a  q  h  u  m  i  d  r  c  n  h  d  f  h  e  c  q  t  q |
+16| b  c  y  o  n  l  r  v  y  u  e  l  o  v  e  p  p  a  g  r |
+17| b  l  i  z  z  a  r  d  s  z  o  o  i  r  w  q  s  h  k  i |
+18| t  i  m  f  g  a  y  u  n  c  g  x  b  i  x  u  s  q  i  u |
+19| o  p  x  j  k  n  k  k  t  u  f  n  t  o  t  l  m  x  h  x |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+windy: ((8, 2), (8, 6))
+humid: ((15, 3), (15, 7))
+dry: ((0, 9), (0, 11))
+lightning: ((3, 4), (3, 12))
+drizzle: ((11, 10), (11, 16))
+blizzard: ((17, 0), (17, 7))
+tornado: ((1, 8), (1, 14))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+windy: ((8, 2), (8, 6))
+humid: ((15, 3), (15, 7))
+dry: ((0, 9), (0, 11))
+lightning: ((3, 4), (3, 12))
+drizzle: ((11, 10), (11, 16))
+blizzard: ((17, 0), (17, 7))
+tornado: ((1, 8), (1, 14))
+
+Naïve Time taken: 0.0975 seconds
+Naïve Memory used: 0.00 MB

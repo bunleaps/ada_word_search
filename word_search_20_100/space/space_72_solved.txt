@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  b  q  h  q  z  i  g  h  s  l  i  g  h  t  y  e  a  r  a |
+ 1| z  l  s  a  g  m  b  k  b  f  n  n  l  d  a  b  b  s  s  z |
+ 2| n  v  a  k  z  o  o  z  e  r  h  e  q  w  n  b  l  p  f  s |
+ 3| a  w  u  o  w  o  d  s  e  s  s  d  b  z  b  s  a  a  o  a |
+ 4| y  m  f  q  m  n  z  s  p  t  y  w  w  u  i  z  c  c  w  l |
+ 5| n  k  k  m  c  r  r  a  d  x  t  m  t  y  l  z  k  e  u  i |
+ 6| n  w  z  c  o  e  d  i  a  g  d  e  f  y  z  a  h  c  n  e |
+ 7| w  x  y  e  v  x  o  l  s  g  k  h  l  y  v  r  o  r  o  n |
+ 8| x  m  t  i  s  r  a  k  x  c  m  h  z  e  a  o  l  a  j  s |
+ 9| m  e  n  q  e  g  o  s  o  s  m  q  o  t  s  m  e  f  f  t |
+10| m  u  f  t  c  t  y  r  f  w  a  x  s  s  u  c  a  t  k  w |
+11| x  e  s  h  e  c  a  p  x  g  h  t  h  h  o  g  o  p  g  x |
+12| g  a  y  m  d  n  w  i  l  d  m  n  e  v  s  o  d  p  s  v |
+13| f  j  o  a  k  o  r  b  i  t  x  z  f  l  e  n  x  r  e  q |
+14| y  c  r  w  e  w  h  v  w  s  o  n  m  d  l  n  j  j  j  d |
+15| k  h  x  j  p  l  a  n  e  t  y  j  n  p  k  i  t  r  s  z |
+16| a  s  t  r  o  n  a  u  t  j  t  z  e  r  b  f  t  u  o  e |
+17| l  n  s  o  l  a  r  d  s  y  s  t  e  m  o  h  b  e  k  t |
+18| e  c  o  n  s  t  e  l  l  a  t  i  o  n  m  l  v  s  i  y |
+19| n  c  i  u  d  r  p  x  y  l  u  q  u  u  l  y  v  n  z  w |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+planet: ((15, 4), (15, 9))
+moon: ((1, 5), (4, 5))
+blackhole: ((1, 16), (9, 16))
+astronaut: ((16, 0), (16, 8))
+spacecraft: ((1, 17), (10, 17))
+orbit: ((13, 5), (13, 9))
+lightyear: ((0, 10), (0, 18))
+constellation: ((18, 1), (18, 13))
+aliens: ((3, 19), (8, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((15, 4), (15, 9))
+moon: ((1, 5), (4, 5))
+blackhole: ((1, 16), (9, 16))
+astronaut: ((16, 0), (16, 8))
+spacecraft: ((1, 17), (10, 17))
+orbit: ((13, 5), (13, 9))
+lightyear: ((0, 10), (0, 18))
+constellation: ((18, 1), (18, 13))
+aliens: ((3, 19), (8, 19))
+
+Naïve Time taken: 0.0571 seconds
+Naïve Memory used: 0.00 MB

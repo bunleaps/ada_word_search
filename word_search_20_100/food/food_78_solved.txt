@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| y  y  q  j  u  g  w  q  o  a  l  h  p  k  i  u  w  h  v  x |
+ 1| i  w  n  k  q  a  z  z  u  g  o  y  f  d  f  c  h  p  l  g |
+ 2| n  v  u  d  r  p  m  b  r  e  a  d  k  a  a  g  c  l  k  v |
+ 3| u  p  d  r  i  i  i  a  b  u  i  z  r  j  t  y  h  x  c  t |
+ 4| s  c  i  z  c  e  g  e  y  c  h  e  e  s  e  n  o  q  x  t |
+ 5| r  n  o  z  e  g  t  y  m  y  g  c  z  m  n  o  c  x  a  i |
+ 6| o  j  m  o  z  d  c  p  g  r  o  o  a  b  v  o  o  c  e  v |
+ 7| m  t  b  v  k  a  a  j  u  s  e  e  k  g  b  d  l  w  d  v |
+ 8| v  s  m  n  y  i  k  b  c  o  r  o  v  c  j  l  a  t  s  t |
+ 9| o  z  n  u  f  a  e  q  p  c  h  m  e  y  j  e  t  t  h  c |
+10| s  o  z  r  t  w  m  s  e  y  r  m  f  a  p  s  e  w  m  y |
+11| b  u  r  r  i  t  o  c  b  i  n  l  r  c  i  j  f  n  i  i |
+12| z  p  q  b  z  e  i  s  t  e  a  k  y  h  k  i  s  i  x  n |
+13| g  i  t  v  r  g  a  p  n  m  u  b  s  x  j  s  o  e  x  s |
+14| r  o  y  h  c  t  p  p  y  w  s  o  v  q  x  a  u  p  k  k |
+15| a  l  j  f  s  p  w  z  s  j  w  u  y  l  w  l  p  j  m  p |
+16| o  l  s  a  n  d  w  i  c  h  l  r  s  w  z  a  z  d  t  d |
+17| c  s  p  t  a  c  o  k  a  d  r  n  x  h  m  d  i  e  i  a |
+18| i  g  v  r  r  d  k  p  m  u  x  o  e  u  i  i  p  m  j  o |
+19| t  s  g  e  m  x  p  d  c  b  r  w  l  u  u  f  s  f  z  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+sandwich: ((16, 2), (16, 9))
+salad: ((13, 15), (17, 15))
+soup: ((12, 16), (15, 16))
+steak: ((12, 7), (12, 11))
+rice: ((2, 4), (5, 4))
+noodles: ((4, 15), (10, 15))
+taco: ((17, 3), (17, 6))
+burrito: ((11, 0), (11, 6))
+bread: ((2, 7), (2, 11))
+cheese: ((4, 9), (4, 14))
+chocolate: ((2, 16), (10, 16))
+cake: ((6, 6), (9, 6))
+pie: ((2, 5), (4, 5))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+sandwich: ((16, 2), (16, 9))
+salad: ((13, 15), (17, 15))
+soup: ((12, 16), (15, 16))
+steak: ((12, 7), (12, 11))
+rice: ((2, 4), (5, 4))
+noodles: ((4, 15), (10, 15))
+taco: ((17, 3), (17, 6))
+burrito: ((11, 0), (11, 6))
+bread: ((2, 7), (2, 11))
+cheese: ((4, 9), (4, 14))
+chocolate: ((2, 16), (10, 16))
+cake: ((6, 6), (9, 6))
+pie: ((2, 5), (4, 5))
+
+Naïve Time taken: 0.0551 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| t  b  b  s  h  a  k  v  d  k |
+ 1| e  q  l  a  b  s  t  a  r  v |
+ 2| l  n  a  t  c  o  m  e  t  s |
+ 3| e  e  c  e  m  r  p  f  o  g |
+ 4| s  b  k  l  e  o  l  g  r  a |
+ 5| c  u  h  l  t  c  a  m  b  l |
+ 6| o  l  o  i  e  k  n  o  i  a |
+ 7| p  a  l  t  o  e  e  o  t  x |
+ 8| e  r  e  e  r  t  t  n  x  y |
+ 9| o  a  s  t  e  r  o  i  d  i |
+  +------------------------------+
+Dynamic Programming Solution:
+planet: ((3, 6), (8, 6))
+star: ((1, 5), (1, 8))
+galaxy: ((3, 9), (8, 9))
+moon: ((5, 7), (8, 7))
+asteroid: ((9, 1), (9, 8))
+comet: ((2, 4), (2, 8))
+nebula: ((2, 1), (7, 1))
+blackhole: ((0, 2), (8, 2))
+satellite: ((0, 3), (8, 3))
+telescope: ((0, 0), (8, 0))
+rocket: ((3, 5), (8, 5))
+orbit: ((3, 8), (7, 8))
+meteor: ((3, 4), (8, 4))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((3, 6), (8, 6))
+star: ((1, 5), (1, 8))
+galaxy: ((3, 9), (8, 9))
+moon: ((5, 7), (8, 7))
+asteroid: ((9, 1), (9, 8))
+comet: ((2, 4), (2, 8))
+nebula: ((2, 1), (7, 1))
+blackhole: ((0, 2), (8, 2))
+satellite: ((0, 3), (8, 3))
+telescope: ((0, 0), (8, 0))
+rocket: ((3, 5), (8, 5))
+orbit: ((3, 8), (7, 8))
+meteor: ((3, 4), (8, 4))
+
+Naïve Time taken: 0.0070 seconds
+Naïve Memory used: 0.00 MB

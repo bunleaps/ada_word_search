@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  j  x  w  y  q  n  o  f  f  t  o  d  a  y  k  x  a  m  g |
+ 1| f  d  a  t  e  s  m  a  q  b  h  i  e  a  f  t  c  g  b  w |
+ 2| t  j  e  p  s  e  s  o  z  b  s  f  s  x  y  x  t  l  h  r |
+ 3| e  b  e  c  s  u  k  w  r  z  b  p  x  a  y  s  v  d  r  z |
+ 4| r  h  j  v  a  v  n  e  k  n  a  u  d  h  i  q  g  y  f  g |
+ 5| n  r  g  b  e  d  v  s  n  k  i  r  d  w  t  o  a  l  k  t |
+ 6| o  b  o  o  t  n  e  j  e  d  e  n  g  d  w  d  w  a  s  o |
+ 7| o  c  y  n  h  z  i  p  b  t  d  m  g  g  k  r  y  n  y  m |
+ 8| n  a  k  s  s  t  u  n  s  v  m  u  i  e  m  a  s  k  f  o |
+ 9| m  v  d  d  u  d  l  e  g  v  i  a  e  n  v  x  z  e  j  r |
+10| k  y  d  n  n  m  y  j  s  d  y  w  n  l  u  n  k  r  w  r |
+11| o  i  y  o  r  t  l  s  h  u  t  h  x  f  h  t  v  b  f  o |
+12| a  b  c  u  i  h  o  l  i  d  a  y  r  f  s  j  e  l  r  w |
+13| j  e  d  g  s  y  e  a  r  f  w  u  o  g  p  w  u  l  m  c |
+14| s  j  x  n  e  l  w  f  e  u  r  x  v  b  m  o  n  t  h  i |
+15| m  g  w  e  i  v  n  y  k  u  r  j  d  h  g  s  w  n  n  w |
+16| u  q  g  d  t  g  c  a  o  z  d  d  c  k  i  q  i  m  v  x |
+17| h  r  l  u  b  p  h  h  o  y  i  o  e  t  v  k  o  x  x  f |
+18| l  t  d  s  h  c  n  t  p  a  u  e  c  r  y  g  x  i  s  h |
+19| d  a  y  t  x  v  e  l  m  c  w  c  e  n  t  u  r  y  u  z |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+day: ((0, 12), (0, 14))
+month: ((14, 14), (14, 18))
+year: ((13, 5), (13, 8))
+century: ((19, 11), (19, 17))
+afternoon: ((0, 0), (8, 0))
+today: ((0, 10), (0, 14))
+tomorrow: ((5, 19), (12, 19))
+holiday: ((12, 5), (12, 11))
+sunrise: ((8, 4), (14, 4))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+day: ((0, 12), (0, 14))
+month: ((14, 14), (14, 18))
+year: ((13, 5), (13, 8))
+century: ((19, 11), (19, 17))
+afternoon: ((0, 0), (8, 0))
+today: ((0, 10), (0, 14))
+tomorrow: ((5, 19), (12, 19))
+holiday: ((12, 5), (12, 11))
+sunrise: ((8, 4), (14, 4))
+
+Naïve Time taken: 0.0773 seconds
+Naïve Memory used: 0.00 MB

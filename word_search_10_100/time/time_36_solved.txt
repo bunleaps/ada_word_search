@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| y  k  h  t  y  m  c  d  e  x |
+ 1| e  s  o  o  e  o  m  e  v  t |
+ 2| a  e  u  d  g  n  i  c  e  o |
+ 3| r  c  r  a  g  t  n  a  n  m |
+ 4| n  o  e  y  y  h  u  d  i  o |
+ 5| i  n  v  a  d  v  t  e  n  r |
+ 6| g  d  d  g  a  s  e  u  g  r |
+ 7| h  c  e  n  t  u  r  y  j  o |
+ 8| t  b  m  o  r  n  i  n  g  w |
+ 9| k  h  d  y  s  w  e  e  k  l |
+  +------------------------------+
+Dynamic Programming Solution:
+second: ((1, 1), (6, 1))
+minute: ((1, 6), (6, 6))
+hour: ((0, 2), (3, 2))
+day: ((2, 3), (4, 3))
+week: ((9, 5), (9, 8))
+month: ((0, 5), (4, 5))
+year: ((0, 0), (3, 0))
+decade: ((0, 7), (5, 7))
+century: ((7, 1), (7, 7))
+morning: ((8, 2), (8, 8))
+evening: ((0, 8), (6, 8))
+night: ((4, 0), (8, 0))
+today: ((0, 3), (4, 3))
+tomorrow: ((1, 9), (8, 9))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+second: ((1, 1), (6, 1))
+minute: ((1, 6), (6, 6))
+hour: ((0, 2), (3, 2))
+day: ((2, 3), (4, 3))
+week: ((9, 5), (9, 8))
+month: ((0, 5), (4, 5))
+year: ((0, 0), (3, 0))
+decade: ((0, 7), (5, 7))
+century: ((7, 1), (7, 7))
+morning: ((8, 2), (8, 8))
+evening: ((0, 8), (6, 8))
+night: ((4, 0), (8, 0))
+today: ((0, 3), (4, 3))
+tomorrow: ((1, 9), (8, 9))
+
+Naïve Time taken: 0.0169 seconds
+Naïve Memory used: 0.00 MB

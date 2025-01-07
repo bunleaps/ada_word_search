@@ -1,0 +1,33 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| w  r  r  p  a  r  k  c  f  k |
+ 1| n  z  p  n  s  t  e  c  y  x |
+ 2| b  m  w  b  r  g  c  t  e  r |
+ 3| f  o  v  e  h  t  i  g  t  i |
+ 4| t  n  s  c  s  c  a  d  i  v |
+ 5| r  e  a  e  a  l  a  f  k  e |
+ 6| d  e  r  d  l  o  l  c  b  r |
+ 7| b  o  u  i  r  l  a  k  e  t |
+ 8| f  o  v  i  s  l  a  n  d  w |
+ 9| q  m  o  u  n  t  a  i  n  r |
+  +------------------------------+
+Dynamic Programming Solution:
+park: ((0, 3), (0, 6))
+mountain: ((9, 1), (9, 8))
+river: ((2, 9), (6, 9))
+lake: ((7, 5), (7, 8))
+island: ((8, 3), (8, 8))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+park: ((0, 3), (0, 6))
+mountain: ((9, 1), (9, 8))
+river: ((2, 9), (6, 9))
+lake: ((7, 5), (7, 8))
+island: ((8, 3), (8, 8))
+
+Naïve Time taken: 0.0110 seconds
+Naïve Memory used: 0.00 MB

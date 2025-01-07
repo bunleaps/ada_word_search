@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| c  i  y  a  t  o  d  a  y  w |
+ 1| e  v  e  n  i  n  g  g  d  e |
+ 2| n  m  a  s  e  c  o  n  d  e |
+ 3| t  i  r  q  w  j  e  g  e  k |
+ 4| u  n  n  q  v  k  k  h  c  d |
+ 5| r  u  s  i  e  v  t  h  a  a |
+ 6| y  t  y  e  g  n  f  o  d  y |
+ 7| y  e  w  a  o  h  f  u  e  p |
+ 8| m  m  i  m  x  k  t  r  i  z |
+ 9| s  m  o  r  n  i  n  g  m  s |
+  +------------------------------+
+Dynamic Programming Solution:
+second: ((2, 3), (2, 8))
+minute: ((2, 1), (7, 1))
+hour: ((5, 7), (8, 7))
+day: ((0, 6), (0, 8))
+week: ((0, 9), (3, 9))
+year: ((0, 2), (3, 2))
+decade: ((2, 8), (7, 8))
+century: ((0, 0), (6, 0))
+morning: ((9, 1), (9, 7))
+evening: ((1, 0), (1, 6))
+today: ((0, 4), (0, 8))
+weekday: ((0, 9), (6, 9))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+second: ((2, 3), (2, 8))
+minute: ((2, 1), (7, 1))
+hour: ((5, 7), (8, 7))
+day: ((0, 6), (0, 8))
+week: ((0, 9), (3, 9))
+year: ((0, 2), (3, 2))
+decade: ((2, 8), (7, 8))
+century: ((0, 0), (6, 0))
+morning: ((9, 1), (9, 7))
+evening: ((1, 0), (1, 6))
+today: ((0, 4), (0, 8))
+weekday: ((0, 9), (6, 9))
+
+Naïve Time taken: 0.0143 seconds
+Naïve Memory used: 0.00 MB

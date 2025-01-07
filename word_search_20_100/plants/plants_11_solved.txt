@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| u  n  p  x  a  j  c  t  i  f  j  o  y  p  l  e  h  d  b  f |
+ 1| x  x  m  e  b  e  s  z  p  h  l  w  d  q  o  j  j  k  m  f |
+ 2| u  x  d  o  k  y  q  a  n  x  l  f  e  g  t  o  a  k  h  y |
+ 3| i  b  j  r  s  q  i  r  x  d  l  f  l  o  w  e  r  q  r  m |
+ 4| u  g  g  u  q  s  e  g  u  b  o  a  f  u  n  e  d  n  r  h |
+ 5| p  g  o  x  y  f  e  a  f  a  d  a  v  a  j  k  n  v  d  n |
+ 6| a  g  r  p  s  g  t  m  w  m  x  q  y  c  s  a  a  v  m  s |
+ 7| l  z  c  a  n  p  k  d  s  b  r  t  p  i  n  e  a  b  c  z |
+ 8| m  a  h  k  s  f  w  h  y  o  r  w  m  x  a  t  c  p  x  x |
+ 9| u  v  i  u  w  s  r  s  z  o  y  m  p  a  j  p  x  m  a  e |
+10| s  x  d  q  n  j  i  e  e  c  i  o  o  e  p  t  r  e  e  u |
+11| e  u  e  j  y  a  f  s  w  r  y  t  c  r  o  l  e  a  k  o |
+12| r  n  n  l  d  v  o  a  g  e  z  g  a  x  m  l  e  g  g  o |
+13| r  v  m  f  n  r  a  f  v  f  m  s  c  s  z  m  i  s  x  u |
+14| i  v  y  g  l  e  s  i  z  d  n  i  t  b  n  q  b  l  y  h |
+15| h  r  k  g  n  o  k  t  u  l  i  p  u  j  s  r  n  n  y  e |
+16| n  z  t  i  z  a  w  n  k  s  v  v  s  a  n  f  d  k  q  z |
+17| z  o  v  q  i  g  j  e  n  h  d  z  a  s  h  r  u  b  t  k |
+18| n  k  u  m  x  d  t  c  r  p  m  h  s  b  i  b  p  r  u  d |
+19| d  q  q  q  w  b  v  w  o  a  w  p  s  q  b  d  k  j  h  g |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tree: ((10, 15), (10, 18))
+flower: ((3, 11), (3, 16))
+shrub: ((17, 13), (17, 17))
+cactus: ((11, 12), (16, 12))
+bamboo: ((4, 9), (9, 9))
+oak: ((2, 15), (2, 17))
+pine: ((7, 12), (7, 15))
+tulip: ((15, 7), (15, 11))
+orchid: ((5, 2), (10, 2))
+ivy: ((14, 0), (14, 2))
+palm: ((5, 0), (8, 0))
+
+DP Time taken: 0.0014 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((10, 15), (10, 18))
+flower: ((3, 11), (3, 16))
+shrub: ((17, 13), (17, 17))
+cactus: ((11, 12), (16, 12))
+bamboo: ((4, 9), (9, 9))
+oak: ((2, 15), (2, 17))
+pine: ((7, 12), (7, 15))
+tulip: ((15, 7), (15, 11))
+orchid: ((5, 2), (10, 2))
+ivy: ((14, 0), (14, 2))
+palm: ((5, 0), (8, 0))
+
+Naïve Time taken: 0.0561 seconds
+Naïve Memory used: 0.00 MB

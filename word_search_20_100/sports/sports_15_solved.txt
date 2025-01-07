@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  r  u  e  y  n  t  z  g  r  s  w  i  m  m  i  n  g  x  m |
+ 1| m  x  n  u  n  p  m  j  m  g  v  c  l  x  q  e  x  g  n  v |
+ 2| d  b  o  f  k  s  u  a  z  k  l  b  f  v  x  i  n  i  g  g |
+ 3| s  u  r  f  i  n  g  a  r  l  f  t  e  n  n  i  s  n  o  y |
+ 4| n  h  x  i  k  a  a  w  a  a  z  i  i  s  d  o  i  b  e  m |
+ 5| j  u  o  x  y  r  r  b  c  g  t  r  b  r  b  x  l  g  r  n |
+ 6| u  e  n  c  t  w  t  c  n  y  e  h  a  m  o  y  z  n  o  a |
+ 7| d  u  g  x  k  e  w  i  h  w  c  o  o  b  w  m  b  w  k  s |
+ 8| o  g  b  i  k  e  l  z  n  e  b  l  a  n  u  j  z  i  t  t |
+ 9| o  s  o  s  r  t  y  w  l  w  r  a  i  w  c  h  k  e  h  i |
+10| h  w  a  l  s  r  f  o  o  z  r  y  l  n  p  l  k  h  e  c |
+11| r  b  t  e  f  u  m  n  t  e  k  l  s  y  g  c  k  k  y  s |
+12| s  v  r  s  w  g  s  s  c  g  a  r  g  k  i  o  n  q  v  m |
+13| k  w  o  m  f  b  h  c  n  b  r  h  o  r  i  i  r  g  y  e |
+14| a  a  m  y  l  y  o  i  y  x  a  x  c  w  n  i  n  z  p  f |
+15| t  n  z  a  w  s  l  e  n  e  t  d  l  o  i  i  n  x  u  x |
+16| i  h  n  i  o  i  l  x  y  e  e  b  w  t  v  n  d  g  k  z |
+17| n  o  f  f  a  l  f  e  n  c  i  n  g  i  e  l  g  p  l  p |
+18| g  k  o  s  o  t  l  t  z  k  u  r  d  p  g  e  e  q  v  s |
+19| r  b  x  v  m  j  b  p  b  a  s  e  b  a  l  l  y  z  e  v |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+baseball: ((19, 8), (19, 15))
+tennis: ((3, 11), (3, 16))
+rugby: ((10, 5), (14, 5))
+skating: ((12, 0), (18, 0))
+surfing: ((3, 0), (3, 6))
+karate: ((11, 10), (16, 10))
+gymnastics: ((2, 19), (11, 19))
+judo: ((5, 0), (8, 0))
+swimming: ((0, 10), (0, 17))
+fencing: ((17, 6), (17, 12))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+baseball: ((19, 8), (19, 15))
+tennis: ((3, 11), (3, 16))
+rugby: ((10, 5), (14, 5))
+skating: ((12, 0), (18, 0))
+surfing: ((3, 0), (3, 6))
+karate: ((11, 10), (16, 10))
+gymnastics: ((2, 19), (11, 19))
+judo: ((5, 0), (8, 0))
+swimming: ((0, 10), (0, 17))
+fencing: ((17, 6), (17, 12))
+
+Naïve Time taken: 0.0741 seconds
+Naïve Memory used: 0.00 MB

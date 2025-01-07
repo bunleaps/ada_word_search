@@ -1,0 +1,39 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| g  n  s  t  a  p  l  e  r  f |
+ 1| m  f  o  l  d  e  r  k  x  x |
+ 2| t  w  y  t  p  a  p  e  r  b |
+ 3| a  r  p  p  e  s  q  e  u  b |
+ 4| g  u  y  e  j  b  s  e  q  o |
+ 5| d  l  e  n  n  a  o  u  o  o |
+ 6| x  e  u  k  r  c  b  o  d  k |
+ 7| f  r  v  e  m  v  i  a  k  y |
+ 8| m  a  r  k  e  r  b  l  g  f |
+ 9| z  p  l  c  h  a  l  k  i  a |
+  +------------------------------+
+Dynamic Programming Solution:
+pen: ((3, 3), (5, 3))
+ruler: ((3, 1), (7, 1))
+marker: ((8, 0), (8, 5))
+chalk: ((9, 3), (9, 7))
+book: ((3, 9), (6, 9))
+paper: ((2, 4), (2, 8))
+stapler: ((0, 2), (0, 8))
+folder: ((1, 1), (1, 6))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pen: ((3, 3), (5, 3))
+ruler: ((3, 1), (7, 1))
+marker: ((8, 0), (8, 5))
+chalk: ((9, 3), (9, 7))
+book: ((3, 9), (6, 9))
+paper: ((2, 4), (2, 8))
+stapler: ((0, 2), (0, 8))
+folder: ((1, 1), (1, 6))
+
+Naïve Time taken: 0.0073 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| t  n  z  n  u  r  a  l  i  s  k  a  m  i  j  b  l  m  e  q |
+ 1| q  l  z  k  i  e  n  q  p  p  e  s  m  n  o  r  w  a  y  e |
+ 2| p  f  k  b  a  a  z  z  l  a  o  i  s  d  b  r  k  v  f  n |
+ 3| q  s  p  n  p  b  g  s  w  i  t  z  e  r  l  a  n  d  j  j |
+ 4| l  g  i  a  l  a  n  t  a  n  q  t  x  i  i  a  s  e  y  s |
+ 5| d  h  j  s  j  f  p  m  z  s  a  c  k  e  n  k  h  a  m  j |
+ 6| c  m  a  w  x  c  r  h  u  x  g  b  v  q  v  d  i  j  k  b |
+ 7| o  i  m  e  y  k  a  a  g  r  a  r  n  i  z  s  i  y  g  n |
+ 8| s  r  c  d  r  n  c  n  n  l  e  a  p  e  s  j  h  a  c  v |
+ 9| g  o  g  e  a  m  w  i  a  c  b  z  z  u  t  u  l  m  j  g |
+10| r  m  e  n  t  o  a  b  k  d  e  i  r  j  e  i  f  i  c  a |
+11| e  w  r  p  t  u  w  h  a  e  a  l  j  k  t  k  i  i  i  u |
+12| e  x  m  v  o  r  i  n  d  y  n  z  e  g  a  b  n  q  t  s |
+13| c  t  a  q  m  r  i  c  x  n  j  y  t  u  y  i  l  b  a  t |
+14| e  s  n  b  h  t  t  l  e  o  i  p  a  s  o  m  a  r  l  r |
+15| y  r  y  a  n  i  m  u  c  l  y  a  p  a  s  o  n  w  y  a |
+16| g  u  r  e  v  h  p  i  g  g  a  p  o  l  a  n  d  c  b  l |
+17| v  k  g  t  q  a  x  g  e  a  g  n  t  u  r  k  e  y  k  i |
+18| u  r  y  a  c  e  h  a  k  m  l  x  d  k  l  k  b  h  e  a |
+19| a  f  y  k  m  y  c  f  a  d  e  n  m  a  r  k  z  w  d  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+brazil: ((6, 11), (11, 11))
+germany: ((9, 2), (15, 2))
+italy: ((11, 18), (15, 18))
+spain: ((0, 9), (4, 9))
+australia: ((10, 19), (18, 19))
+usa: ((13, 13), (15, 13))
+uk: ((16, 1), (17, 1))
+sweden: ((5, 3), (10, 3))
+norway: ((1, 13), (1, 18))
+denmark: ((19, 9), (19, 15))
+finland: ((10, 16), (16, 16))
+switzerland: ((3, 7), (3, 17))
+turkey: ((17, 12), (17, 17))
+greece: ((9, 0), (14, 0))
+poland: ((16, 11), (16, 16))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+brazil: ((6, 11), (11, 11))
+germany: ((9, 2), (15, 2))
+italy: ((11, 18), (15, 18))
+spain: ((0, 9), (4, 9))
+australia: ((10, 19), (18, 19))
+usa: ((13, 13), (15, 13))
+uk: ((16, 1), (17, 1))
+sweden: ((5, 3), (10, 3))
+norway: ((1, 13), (1, 18))
+denmark: ((19, 9), (19, 15))
+finland: ((10, 16), (16, 16))
+switzerland: ((3, 7), (3, 17))
+turkey: ((17, 12), (17, 17))
+greece: ((9, 0), (14, 0))
+poland: ((16, 11), (16, 16))
+
+Naïve Time taken: 0.0870 seconds
+Naïve Memory used: 0.00 MB

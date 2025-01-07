@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| o  y  n  z  y  c  l  t  r  d  k  n  p  b  r  e  e  z  e  k |
+ 1| b  h  a  i  l  h  u  m  i  d  c  h  q  p  y  z  e  h  i  l |
+ 2| l  l  k  q  i  o  f  q  x  u  m  g  r  h  j  q  v  x  k  i |
+ 3| i  u  p  j  p  l  i  t  j  u  r  b  f  o  g  g  y  n  q  g |
+ 4| z  g  t  a  p  c  m  s  i  i  n  r  n  r  z  z  l  u  m  h |
+ 5| z  j  c  l  m  q  s  y  n  t  m  w  n  t  t  f  k  w  k  t |
+ 6| a  w  n  d  v  i  w  h  k  b  p  p  i  d  l  m  c  g  i  n |
+ 7| r  q  n  v  s  o  z  h  x  n  g  z  u  n  p  x  g  s  s  i |
+ 8| d  n  k  c  n  h  y  s  r  y  d  n  h  w  d  u  c  v  r  n |
+ 9| p  d  n  s  p  m  u  o  c  c  r  a  v  e  b  y  a  r  b  g |
+10| c  t  z  i  r  g  v  r  w  c  y  u  d  s  j  g  w  r  m  f |
+11| n  e  t  o  f  x  u  u  r  k  l  y  v  r  c  d  g  x  l  w |
+12| e  t  t  c  o  l  d  r  r  i  n  o  e  r  i  m  b  d  w  y |
+13| l  s  o  n  h  t  e  m  d  n  c  q  u  j  i  z  h  c  z  o |
+14| r  z  t  r  f  d  d  k  u  m  y  a  e  d  g  y  z  z  n  p |
+15| x  a  g  d  n  r  y  s  n  a  x  w  n  h  y  h  f  l  t  t |
+16| q  d  i  u  z  a  o  m  t  i  l  f  m  e  z  o  d  g  e  f |
+17| q  q  h  n  d  u  d  s  x  e  b  s  x  o  m  y  g  u  t  x |
+18| n  t  m  g  y  p  b  o  t  v  x  o  x  a  k  m  z  y  a  p |
+19| q  l  z  u  x  r  h  o  t  k  t  r  s  n  y  b  b  v  z  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+foggy: ((3, 12), (3, 16))
+humid: ((1, 5), (1, 9))
+dry: ((8, 10), (10, 10))
+hot: ((19, 6), (19, 8))
+cold: ((12, 3), (12, 6))
+lightning: ((1, 19), (9, 19))
+breeze: ((0, 13), (0, 18))
+hail: ((1, 1), (1, 4))
+blizzard: ((1, 0), (8, 0))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+foggy: ((3, 12), (3, 16))
+humid: ((1, 5), (1, 9))
+dry: ((8, 10), (10, 10))
+hot: ((19, 6), (19, 8))
+cold: ((12, 3), (12, 6))
+lightning: ((1, 19), (9, 19))
+breeze: ((0, 13), (0, 18))
+hail: ((1, 1), (1, 4))
+blizzard: ((1, 0), (8, 0))
+
+Naïve Time taken: 0.1459 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  b  i  g  o  d  j  q  v  j  r  t  x  m  j  b  s  s  j  i |
+ 1| w  d  a  l  b  u  m  u  c  c  n  i  g  n  g  s  a  u  j  a |
+ 2| l  n  v  j  v  c  d  k  a  f  n  f  a  v  x  a  z  y  i  x |
+ 3| y  j  v  f  k  f  k  g  k  u  e  u  w  z  y  x  b  i  q  l |
+ 4| r  p  h  l  o  h  m  p  m  h  e  a  d  p  h  o  n  e  s  l |
+ 5| i  q  b  u  g  c  y  i  y  s  a  b  m  q  o  p  j  f  v  j |
+ 6| c  d  l  t  v  f  l  a  t  r  u  m  p  e  t  h  o  f  p  y |
+ 7| s  z  a  e  d  a  v  n  j  v  a  r  f  l  e  o  q  g  z  s |
+ 8| h  h  e  r  e  i  v  o  n  r  d  z  t  n  m  n  m  n  k  i |
+ 9| e  u  j  h  c  w  z  q  t  n  l  g  o  x  p  e  p  o  k  n |
+10| d  d  f  y  g  q  u  s  a  h  u  h  o  i  r  y  i  t  j  g |
+11| r  r  m  t  u  n  e  b  w  l  p  a  m  a  g  v  r  z  a  e |
+12| h  e  u  h  c  h  k  u  y  o  i  m  t  h  z  e  n  l  t  r |
+13| i  y  j  m  c  d  b  y  r  d  v  i  v  n  c  o  w  r  f  g |
+14| u  g  j  r  s  m  v  c  o  a  u  s  p  n  a  d  g  e  d  y |
+15| w  l  o  p  k  k  i  h  g  g  y  p  o  o  v  d  p  n  q  q |
+16| p  w  k  x  n  m  k  m  y  l  a  c  h  o  r  d  i  o  y  e |
+17| m  e  l  o  d  y  r  v  i  o  l  i  n  z  h  c  v  t  v  n |
+18| q  r  p  h  a  r  m  o  n  y  b  g  h  y  i  g  x  e  p  q |
+19| c  r  c  x  v  h  q  z  e  a  v  f  k  q  y  f  o  q  r  e |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+piano: ((4, 7), (8, 7))
+violin: ((17, 7), (17, 12))
+flute: ((3, 3), (7, 3))
+saxophone: ((1, 15), (9, 15))
+trumpet: ((6, 8), (6, 14))
+singer: ((7, 19), (12, 19))
+melody: ((17, 0), (17, 5))
+harmony: ((18, 3), (18, 9))
+rhythm: ((8, 3), (13, 3))
+note: ((15, 17), (18, 17))
+chord: ((16, 11), (16, 15))
+lyrics: ((2, 0), (7, 0))
+album: ((1, 2), (1, 6))
+headphones: ((4, 9), (4, 18))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+piano: ((4, 7), (8, 7))
+violin: ((17, 7), (17, 12))
+flute: ((3, 3), (7, 3))
+saxophone: ((1, 15), (9, 15))
+trumpet: ((6, 8), (6, 14))
+singer: ((7, 19), (12, 19))
+melody: ((17, 0), (17, 5))
+harmony: ((18, 3), (18, 9))
+rhythm: ((8, 3), (13, 3))
+note: ((15, 17), (18, 17))
+chord: ((16, 11), (16, 15))
+lyrics: ((2, 0), (7, 0))
+album: ((1, 2), (1, 6))
+headphones: ((4, 9), (4, 18))
+
+Naïve Time taken: 0.0507 seconds
+Naïve Memory used: 0.00 MB

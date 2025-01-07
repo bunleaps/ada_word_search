@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| g  o  l  d  c  y  a  n  n  m |
+ 1| p  g  u  o  r  a  n  g  e  a |
+ 2| w  u  r  m  n  a  v  y  v  g |
+ 3| b  y  r  e  t  e  a  l  s  e |
+ 4| b  e  b  p  e  h  p  g  w  n |
+ 5| l  l  i  l  l  n  i  k  h  t |
+ 6| a  l  m  g  u  e  n  j  i  a |
+ 7| c  o  r  d  e  e  k  d  t  y |
+ 8| k  w  e  b  r  o  w  n  e  b |
+ 9| h  r  f  s  v  g  r  a  y  d |
+  +------------------------------+
+Dynamic Programming Solution:
+yellow: ((3, 1), (8, 1))
+orange: ((1, 3), (1, 8))
+pink: ((4, 6), (7, 6))
+black: ((4, 0), (8, 0))
+white: ((4, 8), (8, 8))
+gray: ((9, 5), (9, 8))
+brown: ((8, 3), (8, 7))
+cyan: ((0, 4), (0, 7))
+magenta: ((0, 9), (6, 9))
+navy: ((2, 4), (2, 7))
+teal: ((3, 4), (3, 7))
+gold: ((0, 0), (0, 3))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+yellow: ((3, 1), (8, 1))
+orange: ((1, 3), (1, 8))
+pink: ((4, 6), (7, 6))
+black: ((4, 0), (8, 0))
+white: ((4, 8), (8, 8))
+gray: ((9, 5), (9, 8))
+brown: ((8, 3), (8, 7))
+cyan: ((0, 4), (0, 7))
+magenta: ((0, 9), (6, 9))
+navy: ((2, 4), (2, 7))
+teal: ((3, 4), (3, 7))
+gold: ((0, 0), (0, 3))
+
+Naïve Time taken: 0.0126 seconds
+Naïve Memory used: 0.00 MB

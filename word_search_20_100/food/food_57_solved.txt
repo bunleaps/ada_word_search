@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  e  n  f  e  o  s  g  n  q  w  b  l  a  h  z  z  k  s  x |
+ 1| e  s  v  h  z  p  s  t  p  w  m  y  a  m  x  i  b  i  t  x |
+ 2| y  c  a  a  b  n  s  l  e  a  w  n  y  c  u  r  i  c  e  i |
+ 3| v  b  y  l  h  o  t  c  t  a  s  y  g  t  a  c  o  i  d  k |
+ 4| c  g  c  c  a  p  m  n  h  h  k  t  w  z  j  d  h  w  d  m |
+ 5| u  s  c  o  d  d  a  i  c  o  o  t  a  n  y  s  z  a  e  q |
+ 6| c  p  c  y  o  e  k  i  u  t  c  y  g  o  u  d  e  c  s  f |
+ 7| a  i  v  r  v  k  w  f  i  d  a  o  b  s  c  r  b  m  q  a |
+ 8| n  z  r  e  b  d  i  r  r  u  m  c  l  i  b  q  z  i  n  w |
+ 9| o  z  o  r  n  r  r  e  b  r  z  b  k  a  u  l  k  c  w  z |
+10| o  a  n  a  u  u  t  j  s  b  n  d  x  n  t  s  r  e  b  y |
+11| d  w  s  a  b  m  a  b  p  z  f  d  h  k  n  e  c  c  p  s |
+12| l  q  t  c  w  p  o  u  f  e  q  f  s  m  z  e  u  r  f  i |
+13| e  o  y  m  b  d  p  r  n  u  e  x  o  s  g  w  r  e  k  g |
+14| s  r  p  s  c  u  v  g  k  x  t  k  t  o  b  q  r  a  a  y |
+15| g  t  c  a  k  e  d  e  j  u  j  f  o  u  r  x  y  m  g  f |
+16| j  o  w  n  a  y  f  r  n  o  n  l  g  p  b  n  x  f  t  h |
+17| c  h  e  e  s  e  u  x  q  r  l  a  b  q  w  w  v  k  q  l |
+18| z  s  r  n  v  h  x  i  g  o  r  d  f  v  s  t  u  r  r  h |
+19| i  f  y  v  f  t  q  v  p  i  e  x  q  i  g  r  i  l  s  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((6, 1), (10, 1))
+burger: ((11, 7), (16, 7))
+soup: ((13, 13), (16, 13))
+rice: ((2, 15), (2, 18))
+noodles: ((8, 0), (14, 0))
+taco: ((3, 13), (3, 16))
+curry: ((11, 16), (15, 16))
+cheese: ((17, 0), (17, 5))
+icecream: ((8, 17), (15, 17))
+cake: ((15, 2), (15, 5))
+pie: ((19, 8), (19, 10))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((6, 1), (10, 1))
+burger: ((11, 7), (16, 7))
+soup: ((13, 13), (16, 13))
+rice: ((2, 15), (2, 18))
+noodles: ((8, 0), (14, 0))
+taco: ((3, 13), (3, 16))
+curry: ((11, 16), (15, 16))
+cheese: ((17, 0), (17, 5))
+icecream: ((8, 17), (15, 17))
+cake: ((15, 2), (15, 5))
+pie: ((19, 8), (19, 10))
+
+Naïve Time taken: 0.0626 seconds
+Naïve Memory used: 0.00 MB

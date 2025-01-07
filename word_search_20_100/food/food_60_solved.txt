@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| v  g  j  r  i  w  v  r  c  u  r  r  y  y  e  c  x  s  m  r |
+ 1| c  n  o  e  w  w  p  v  r  o  r  i  c  e  o  i  u  d  a  s |
+ 2| m  c  o  o  k  i  e  s  j  f  h  m  x  d  t  p  i  d  i  s |
+ 3| p  d  c  s  a  l  a  d  f  s  u  k  t  g  e  i  p  k  f  e |
+ 4| x  a  m  e  o  d  g  n  z  j  j  h  e  e  a  z  s  r  y  n |
+ 5| f  e  w  x  y  u  y  o  c  h  e  e  s  e  p  z  i  y  l  o |
+ 6| w  l  n  o  o  d  l  e  s  i  e  m  c  x  y  a  a  j  e  o |
+ 7| h  g  s  t  e  a  k  w  g  q  a  p  f  d  a  r  e  b  s  c |
+ 8| a  b  u  r  r  i  t  o  y  e  t  o  o  t  e  z  n  d  f  w |
+ 9| u  b  z  t  g  u  x  r  r  l  u  v  s  t  b  s  a  v  h  r |
+10| s  d  x  q  u  p  h  c  k  j  l  a  a  t  i  e  o  x  c  d |
+11| e  a  o  v  u  j  e  z  p  t  p  l  v  b  r  m  m  u  r  g |
+12| v  d  n  v  y  c  u  j  a  b  o  j  t  b  c  b  z  e  p  p |
+13| r  x  j  d  i  t  t  u  u  c  g  m  u  b  q  l  g  a  l  c |
+14| h  d  f  a  w  h  o  a  o  j  s  u  s  h  i  r  u  p  c  h |
+15| e  v  v  c  h  i  o  h  c  f  b  a  b  u  u  f  h  r  a  d |
+16| e  w  n  f  u  d  c  r  d  o  q  g  s  b  n  q  q  o  k  w |
+17| c  j  f  t  m  k  f  h  w  v  w  w  j  z  a  q  f  v  e  s |
+18| g  r  v  m  k  e  p  i  e  y  t  w  s  r  v  l  x  e  a  g |
+19| p  c  l  t  h  r  f  l  e  w  x  r  i  d  a  x  q  c  j  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((2, 15), (6, 15))
+salad: ((3, 3), (3, 7))
+steak: ((7, 2), (7, 6))
+sushi: ((14, 10), (14, 14))
+rice: ((1, 10), (1, 13))
+noodles: ((6, 2), (6, 8))
+burrito: ((8, 1), (8, 7))
+curry: ((0, 8), (0, 12))
+cheese: ((5, 8), (5, 13))
+cake: ((14, 18), (17, 18))
+cookies: ((2, 1), (2, 7))
+pie: ((3, 16), (3, 14))
+
+DP Time taken: 0.0021 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((2, 15), (6, 15))
+salad: ((3, 3), (3, 7))
+steak: ((7, 2), (7, 6))
+sushi: ((14, 10), (14, 14))
+rice: ((1, 10), (1, 13))
+noodles: ((6, 2), (6, 8))
+burrito: ((8, 1), (8, 7))
+curry: ((0, 8), (0, 12))
+cheese: ((5, 8), (5, 13))
+cake: ((14, 18), (17, 18))
+cookies: ((2, 1), (2, 7))
+pie: ((3, 16), (3, 14))
+
+Naïve Time taken: 0.0486 seconds
+Naïve Memory used: 0.00 MB

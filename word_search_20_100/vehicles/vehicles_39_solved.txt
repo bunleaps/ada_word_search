@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| g  c  y  y  m  g  a  u  g  e  o  z  p  h  i  x  o  s  v  j |
+ 1| n  h  t  n  i  o  t  x  o  u  f  p  z  f  y  j  c  q  d  q |
+ 2| r  v  o  y  d  y  q  o  m  l  r  a  l  q  g  r  t  l  y  s |
+ 3| c  s  t  v  b  m  o  t  o  r  c  y  c  l  e  s  v  l  p  m |
+ 4| j  u  u  r  e  l  e  m  g  a  z  y  y  w  f  i  y  h  h  t |
+ 5| m  e  f  b  u  r  z  u  h  r  k  r  r  i  f  r  m  i  e  w |
+ 6| i  o  y  c  m  c  b  s  h  v  i  z  h  p  b  n  b  o  l  d |
+ 7| g  e  k  e  w  a  k  o  g  a  b  k  i  c  b  b  e  v  i  t |
+ 8| c  i  z  r  m  y  r  s  a  a  v  h  t  m  s  s  n  i  c  n |
+ 9| h  o  s  a  q  j  o  i  r  r  s  w  i  e  u  c  x  s  o  r |
+10| m  m  r  k  u  w  q  r  n  e  d  g  n  b  n  a  x  a  p  u |
+11| h  t  r  m  g  l  a  t  c  e  n  a  w  s  t  d  l  u  t  p |
+12| t  r  a  i  n  c  h  a  y  a  l  e  t  b  q  i  b  a  e  i |
+13| w  i  e  r  d  c  p  e  v  p  n  d  g  i  o  a  p  g  r  f |
+14| a  h  z  a  a  s  v  o  r  p  z  r  y  c  x  n  i  q  k  d |
+15| k  e  l  y  z  h  t  i  i  h  m  o  v  y  g  b  o  a  t  v |
+16| k  h  e  p  x  g  a  u  d  c  g  z  x  c  f  t  n  x  b  q |
+17| b  b  z  d  s  s  c  o  o  t  e  r  t  l  p  k  q  n  a  s |
+18| h  d  b  u  d  r  i  c  k  s  h  a  w  e  m  z  x  n  u  u |
+19| b  c  b  t  d  t  r  w  b  k  a  n  e  t  y  n  f  z  g  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+motorcycle: ((3, 5), (3, 14))
+bicycle: ((12, 13), (18, 13))
+scooter: ((17, 5), (17, 11))
+train: ((12, 0), (12, 4))
+helicopter: ((4, 18), (13, 18))
+boat: ((15, 15), (15, 18))
+rickshaw: ((18, 5), (18, 12))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+motorcycle: ((3, 5), (3, 14))
+bicycle: ((12, 13), (18, 13))
+scooter: ((17, 5), (17, 11))
+train: ((12, 0), (12, 4))
+helicopter: ((4, 18), (13, 18))
+boat: ((15, 15), (15, 18))
+rickshaw: ((18, 5), (18, 12))
+
+Naïve Time taken: 0.0556 seconds
+Naïve Memory used: 0.00 MB

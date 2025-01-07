@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  u  x  z  o  g  j  s  t  r  a  w  b  e  r  r  y  q  e  y |
+ 1| e  w  x  u  c  e  p  a  p  a  y  a  y  i  g  o  g  b  n  v |
+ 2| m  u  b  w  l  j  g  p  e  a  p  r  i  c  o  t  r  v  w  m |
+ 3| o  l  b  p  h  l  x  l  r  j  r  f  g  t  y  m  c  c  c  w |
+ 4| n  f  p  m  l  x  p  r  p  e  l  h  p  e  a  c  h  a  r  k |
+ 5| o  a  o  j  c  p  h  h  h  n  e  c  t  a  r  i  n  e  a  e |
+ 6| y  l  m  h  a  x  u  c  o  a  l  e  w  s  k  y  n  y  s  t |
+ 7| u  j  h  e  n  h  w  a  t  e  r  m  e  l  o  n  r  l  p  a |
+ 8| y  y  n  s  r  i  q  s  g  r  m  z  w  r  x  r  e  s  b  n |
+ 9| w  i  q  g  r  a  p  e  i  o  j  j  z  y  e  t  l  o  e  g |
+10| p  l  s  v  m  w  o  r  a  n  g  e  r  b  a  w  h  a  r  e |
+11| b  a  n  a  n  a  l  m  t  y  e  r  k  n  m  r  x  p  r  r |
+12| d  t  n  i  n  r  u  u  h  m  e  c  a  a  a  l  c  f  y  i |
+13| n  x  w  c  z  l  n  e  e  b  a  r  v  o  n  l  j  k  v  n |
+14| e  i  f  g  p  o  p  t  e  l  g  x  g  r  g  s  f  d  z  e |
+15| k  y  w  s  c  a  a  u  b  e  a  a  p  s  o  f  n  i  i  m |
+16| x  d  g  o  r  d  l  o  m  z  k  i  v  r  m  o  v  q  g  j |
+17| w  u  c  u  e  b  v  o  g  o  o  o  a  f  l  k  b  g  f  d |
+18| c  h  y  e  u  s  p  w  x  s  k  e  s  e  o  e  l  i  i  o |
+19| i  h  t  a  z  a  b  b  v  u  p  t  m  r  q  k  x  u  i  u |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+banana: ((11, 0), (11, 5))
+grape: ((9, 3), (9, 7))
+lemon: ((0, 0), (4, 0))
+mango: ((11, 14), (15, 14))
+nectarine: ((5, 9), (5, 17))
+orange: ((10, 6), (10, 11))
+papaya: ((1, 6), (1, 11))
+peach: ((4, 12), (4, 16))
+raspberry: ((4, 18), (12, 18))
+strawberry: ((0, 7), (0, 16))
+tangerine: ((6, 19), (14, 19))
+watermelon: ((7, 6), (7, 15))
+apricot: ((2, 9), (2, 15))
+melon: ((7, 11), (7, 15))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+banana: ((11, 0), (11, 5))
+grape: ((9, 3), (9, 7))
+lemon: ((0, 0), (4, 0))
+mango: ((11, 14), (15, 14))
+nectarine: ((5, 9), (5, 17))
+orange: ((10, 6), (10, 11))
+papaya: ((1, 6), (1, 11))
+peach: ((4, 12), (4, 16))
+raspberry: ((4, 18), (12, 18))
+strawberry: ((0, 7), (0, 16))
+tangerine: ((6, 19), (14, 19))
+watermelon: ((7, 6), (7, 15))
+apricot: ((2, 9), (2, 15))
+melon: ((7, 11), (7, 15))
+
+Naïve Time taken: 0.0616 seconds
+Naïve Memory used: 0.00 MB

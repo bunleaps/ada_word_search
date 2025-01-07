@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| m  i  d  w  y  s  h  o  u  l  d  e  r  k  h  y  l  x  t  k |
+ 1| o  y  j  c  x  l  g  x  g  u  h  i  f  r  n  e  a  e  t  g |
+ 2| p  z  x  o  h  b  w  d  n  u  d  b  d  s  b  e  a  p  g  m |
+ 3| q  s  k  w  o  b  l  e  q  e  t  w  i  e  k  t  e  r  t  z |
+ 4| s  j  p  c  s  s  g  y  k  g  c  n  f  v  b  d  a  c  t  b |
+ 5| s  s  y  i  f  i  n  g  e  r  o  k  x  y  u  e  r  k  r  a |
+ 6| t  y  j  g  g  e  z  a  o  z  c  u  h  i  x  v  c  g  l  r |
+ 7| o  o  a  x  n  n  l  e  o  a  v  s  v  h  o  c  y  u  z  v |
+ 8| m  f  q  d  t  j  m  r  b  a  c  k  k  k  r  n  c  u  m  m |
+ 9| a  a  x  s  k  p  m  q  a  u  r  s  z  i  u  o  r  b  h  f |
+10| c  d  e  d  e  l  a  m  i  u  l  x  g  p  n  s  f  r  z  c |
+11| h  h  a  a  h  a  n  d  d  o  t  y  a  f  c  e  a  m  l  t |
+12| c  e  r  e  o  y  w  w  p  i  b  a  t  r  c  n  y  f  x  o |
+13| h  g  t  n  m  y  u  s  b  r  i  g  e  a  m  t  p  n  w  e |
+14| i  h  u  g  t  f  f  g  y  r  o  b  e  e  t  e  o  y  g  w |
+15| c  e  l  c  b  z  c  t  d  b  a  w  t  x  y  y  q  b  r  p |
+16| s  a  i  c  j  l  o  y  c  s  l  i  h  r  x  e  d  e  j  a |
+17| j  x  a  o  m  o  u  t  h  r  b  y  n  u  n  o  n  t  n  k |
+18| m  x  w  a  f  x  e  a  m  s  q  u  h  h  s  z  h  o  t  o |
+19| i  w  k  y  w  i  y  l  u  i  m  j  a  g  g  d  y  h  b  x |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+hand: ((11, 4), (11, 7))
+eye: ((14, 15), (16, 15))
+ear: ((10, 2), (12, 2))
+mouth: ((17, 4), (17, 8))
+nose: ((8, 15), (11, 15))
+stomach: ((5, 0), (11, 0))
+back: ((8, 8), (8, 11))
+shoulder: ((0, 5), (0, 12))
+finger: ((5, 4), (5, 9))
+toe: ((11, 19), (13, 19))
+teeth: ((12, 12), (16, 12))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+hand: ((11, 4), (11, 7))
+eye: ((14, 15), (16, 15))
+ear: ((10, 2), (12, 2))
+mouth: ((17, 4), (17, 8))
+nose: ((8, 15), (11, 15))
+stomach: ((5, 0), (11, 0))
+back: ((8, 8), (8, 11))
+shoulder: ((0, 5), (0, 12))
+finger: ((5, 4), (5, 9))
+toe: ((11, 19), (13, 19))
+teeth: ((12, 12), (16, 12))
+
+Naïve Time taken: 0.0616 seconds
+Naïve Memory used: 0.00 MB

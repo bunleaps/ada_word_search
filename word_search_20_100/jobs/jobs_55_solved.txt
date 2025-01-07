@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  w  q  o  a  u  e  q  p  k  a  m  p  c  j  m  u  y  a  h |
+ 1| m  n  r  l  v  r  l  p  v  q  l  l  e  s  m  q  g  j  v  p |
+ 2| u  f  d  i  k  x  j  a  x  x  c  k  g  c  s  l  f  q  p  h |
+ 3| s  i  w  e  t  q  j  b  w  z  r  w  f  z  h  s  t  l  e  z |
+ 4| i  r  b  y  n  e  p  h  h  y  g  c  i  y  p  a  s  o  x  s |
+ 5| c  e  a  a  b  t  r  j  s  t  e  d  a  t  v  h  n  c  l  a |
+ 6| i  f  s  r  h  v  i  v  b  c  s  r  p  i  b  h  x  i  r  r |
+ 7| a  i  t  t  x  m  f  s  t  i  o  j  j  c  r  b  l  z  c  c |
+ 8| n  g  w  i  w  w  a  h  t  v  z  c  n  h  o  c  y  e  j  h |
+ 9| p  h  u  s  x  o  c  t  m  s  c  i  e  n  t  i  s  t  v  i |
+10| r  t  q  t  b  w  o  h  a  c  c  o  u  n  t  a  n  t  g  t |
+11| o  e  z  a  e  l  g  k  e  z  h  w  y  g  i  l  s  v  t  e |
+12| g  r  f  m  i  q  o  c  v  f  e  w  o  f  a  r  m  e  r  c |
+13| r  t  v  p  z  j  i  l  e  n  g  i  n  e  e  r  o  x  t  t |
+14| a  z  y  u  m  l  o  m  a  y  z  x  r  n  f  z  h  h  g  t |
+15| m  c  s  f  o  x  l  c  s  y  l  g  s  u  m  p  j  z  m  u |
+16| m  d  f  p  k  d  o  c  t  o  r  n  x  r  d  x  k  d  x  p |
+17| e  a  h  p  u  e  i  c  a  n  j  q  h  s  u  y  c  m  u  a |
+18| r  y  t  e  a  c  h  e  r  m  t  g  e  e  i  p  c  d  x  q |
+19| p  c  m  v  h  p  h  o  t  o  g  r  a  p  h  e  r  n  v  b |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+teacher: ((18, 2), (18, 8))
+doctor: ((16, 5), (16, 10))
+engineer: ((13, 8), (13, 15))
+nurse: ((14, 13), (18, 13))
+artist: ((5, 3), (10, 3))
+musician: ((1, 0), (8, 0))
+scientist: ((9, 9), (9, 17))
+architect: ((5, 19), (13, 19))
+firefighter: ((2, 1), (12, 1))
+farmer: ((12, 13), (12, 18))
+accountant: ((10, 8), (10, 17))
+photographer: ((19, 5), (19, 16))
+programmer: ((9, 0), (18, 0))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+teacher: ((18, 2), (18, 8))
+doctor: ((16, 5), (16, 10))
+engineer: ((13, 8), (13, 15))
+nurse: ((14, 13), (18, 13))
+artist: ((5, 3), (10, 3))
+musician: ((1, 0), (8, 0))
+scientist: ((9, 9), (9, 17))
+architect: ((5, 19), (13, 19))
+firefighter: ((2, 1), (12, 1))
+farmer: ((12, 13), (12, 18))
+accountant: ((10, 8), (10, 17))
+photographer: ((19, 5), (19, 16))
+programmer: ((9, 0), (18, 0))
+
+Naïve Time taken: 0.0480 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| f  m  o  u  n  t  a  i  n  r |
+ 1| v  i  l  l  a  g  e  j  k  f |
+ 2| g  s  c  h  o  o  l  p  r  o |
+ 3| a  l  s  d  g  h  k  a  d  r |
+ 4| e  a  t  r  i  v  e  r  e  e |
+ 5| l  n  r  c  i  t  y  k  s  s |
+ 6| a  d  e  r  o  a  d  i  e  t |
+ 7| k  b  e  a  c  h  z  x  r  r |
+ 8| e  r  t  o  w  n  m  n  t  x |
+ 9| p  c  o  u  n  t  r  y  f  w |
+  +------------------------------+
+Dynamic Programming Solution:
+city: ((5, 3), (5, 6))
+town: ((8, 2), (8, 5))
+village: ((1, 0), (1, 6))
+park: ((2, 7), (5, 7))
+beach: ((7, 1), (7, 5))
+mountain: ((0, 1), (0, 8))
+river: ((4, 3), (4, 7))
+lake: ((5, 0), (8, 0))
+forest: ((1, 9), (6, 9))
+desert: ((3, 8), (8, 8))
+island: ((1, 1), (6, 1))
+country: ((9, 1), (9, 7))
+street: ((3, 2), (8, 2))
+road: ((6, 3), (6, 6))
+school: ((2, 1), (2, 6))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((5, 3), (5, 6))
+town: ((8, 2), (8, 5))
+village: ((1, 0), (1, 6))
+park: ((2, 7), (5, 7))
+beach: ((7, 1), (7, 5))
+mountain: ((0, 1), (0, 8))
+river: ((4, 3), (4, 7))
+lake: ((5, 0), (8, 0))
+forest: ((1, 9), (6, 9))
+desert: ((3, 8), (8, 8))
+island: ((1, 1), (6, 1))
+country: ((9, 1), (9, 7))
+street: ((3, 2), (8, 2))
+road: ((6, 3), (6, 6))
+school: ((2, 1), (2, 6))
+
+Naïve Time taken: 0.0070 seconds
+Naïve Memory used: 0.00 MB

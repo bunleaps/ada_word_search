@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| o  s  a  d  l  u  g  c  w  a  r  q  m  y  s  t  f  c  y  c |
+ 1| c  i  x  v  x  z  x  e  q  l  d  e  c  w  e  e  n  b  k  u |
+ 2| j  c  h  a  h  l  v  u  i  h  t  d  h  o  u  w  j  v  w  r |
+ 3| j  e  e  v  s  x  e  d  p  a  a  s  e  k  y  q  f  o  l  r |
+ 4| g  c  q  o  e  c  a  s  l  e  s  u  e  q  a  a  m  q  e  y |
+ 5| t  r  p  r  u  i  h  o  a  l  w  s  s  r  b  h  m  r  j  q |
+ 6| z  e  s  e  t  l  c  w  w  n  q  h  e  l  n  z  w  a  e  n |
+ 7| t  a  c  q  j  o  p  k  c  b  d  i  o  c  y  m  z  f  a  o |
+ 8| a  m  k  a  h  m  m  a  j  o  w  w  k  b  u  r  g  e  r  e |
+ 9| c  p  w  c  k  l  p  d  s  p  o  j  i  r  o  z  r  r  h  b |
+10| o  s  v  g  a  e  n  v  a  t  i  k  s  c  e  p  t  h  a  g |
+11| c  n  r  t  o  p  b  h  l  y  a  z  i  o  h  g  i  g  t  f |
+12| c  x  l  g  q  o  e  k  a  p  b  b  z  e  u  y  k  e  o  a |
+13| p  n  o  o  d  l  e  s  d  f  p  e  o  a  s  p  s  g  t  p |
+14| f  q  d  b  e  e  u  e  w  e  d  f  k  p  y  k  r  c  f  u |
+15| i  n  f  k  p  x  f  r  w  a  m  a  n  a  r  i  h  u  p  v |
+16| x  j  i  x  w  c  g  c  e  n  e  i  r  i  c  e  q  w  v  x |
+17| l  c  w  p  s  b  a  r  c  t  g  c  q  x  x  p  g  d  r  r |
+18| w  a  a  r  f  b  b  x  s  v  b  u  r  r  i  t  o  k  k  l |
+19| l  a  q  g  c  o  f  n  d  v  o  x  e  k  l  s  q  w  v  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+burger: ((8, 13), (8, 18))
+salad: ((9, 8), (13, 8))
+sushi: ((3, 11), (7, 11))
+rice: ((16, 12), (16, 15))
+noodles: ((13, 1), (13, 7))
+taco: ((7, 0), (10, 0))
+burrito: ((18, 10), (18, 16))
+curry: ((0, 19), (4, 19))
+cheese: ((1, 12), (6, 12))
+icecream: ((1, 1), (8, 1))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+burger: ((8, 13), (8, 18))
+salad: ((9, 8), (13, 8))
+sushi: ((3, 11), (7, 11))
+rice: ((16, 12), (16, 15))
+noodles: ((13, 1), (13, 7))
+taco: ((7, 0), (10, 0))
+burrito: ((18, 10), (18, 16))
+curry: ((0, 19), (4, 19))
+cheese: ((1, 12), (6, 12))
+icecream: ((1, 1), (8, 1))
+
+Naïve Time taken: 0.0619 seconds
+Naïve Memory used: 0.00 MB

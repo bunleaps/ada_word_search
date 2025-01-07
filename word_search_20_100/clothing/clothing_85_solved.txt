@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  o  c  k  s  a  j  z  f  m  k  t  o  s  f  w  c  e  h  v |
+ 1| c  e  y  a  o  l  v  e  t  m  l  f  b  c  h  e  r  c  x  i |
+ 2| p  o  t  v  d  h  k  p  a  g  l  o  v  e  s  i  u  y  s  u |
+ 3| a  x  a  t  b  n  l  o  t  n  z  u  v  n  v  j  r  s  h  v |
+ 4| j  r  s  t  i  n  u  a  c  n  s  j  h  l  n  k  h  t  r  v |
+ 5| a  k  n  w  w  b  r  x  a  n  m  a  r  s  k  i  r  t  i  p |
+ 6| m  y  e  e  l  e  t  u  y  x  y  c  t  t  a  o  e  x  c  n |
+ 7| a  i  a  v  a  o  r  x  o  y  m  k  y  z  a  r  g  o  j  h |
+ 8| s  r  k  q  i  m  e  t  b  r  s  e  o  w  d  w  p  h  t  u |
+ 9| a  a  e  p  h  i  g  v  o  t  c  t  n  f  b  i  x  g  i  p |
+10| a  x  r  u  e  a  f  f  f  b  a  d  e  h  m  i  x  i  e  t |
+11| i  z  s  b  s  n  i  c  r  s  r  a  t  t  s  m  y  m  q  i |
+12| b  b  t  s  q  n  e  i  o  w  f  m  s  w  c  d  t  w  d  r |
+13| r  r  e  k  u  s  m  c  z  e  b  e  l  t  h  l  b  f  t  c |
+14| m  r  t  r  n  q  j  f  h  a  s  p  j  j  w  i  f  m  g  n |
+15| d  y  t  n  h  f  c  f  v  t  h  a  k  c  k  x  y  j  a  d |
+16| e  k  k  i  h  a  t  i  k  e  o  n  y  s  x  s  l  a  k  o |
+17| h  s  o  b  g  u  g  u  b  r  e  t  e  h  i  f  t  o  z  p |
+18| b  x  t  p  s  t  j  t  y  b  s  s  b  z  w  h  z  v  m  q |
+19| w  t  a  v  d  x  g  r  o  l  f  c  p  r  b  o  o  t  s  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pants: ((14, 11), (18, 11))
+jacket: ((4, 11), (9, 11))
+skirt: ((5, 13), (5, 17))
+sweater: ((11, 9), (17, 9))
+shoes: ((14, 10), (18, 10))
+socks: ((0, 0), (0, 4))
+gloves: ((2, 9), (2, 14))
+scarf: ((8, 10), (12, 10))
+hat: ((16, 4), (16, 6))
+belt: ((13, 10), (13, 13))
+sneakers: ((4, 2), (11, 2))
+boots: ((19, 14), (19, 18))
+tie: ((8, 18), (10, 18))
+pajamas: ((2, 0), (8, 0))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pants: ((14, 11), (18, 11))
+jacket: ((4, 11), (9, 11))
+skirt: ((5, 13), (5, 17))
+sweater: ((11, 9), (17, 9))
+shoes: ((14, 10), (18, 10))
+socks: ((0, 0), (0, 4))
+gloves: ((2, 9), (2, 14))
+scarf: ((8, 10), (12, 10))
+hat: ((16, 4), (16, 6))
+belt: ((13, 10), (13, 13))
+sneakers: ((4, 2), (11, 2))
+boots: ((19, 14), (19, 18))
+tie: ((8, 18), (10, 18))
+pajamas: ((2, 0), (8, 0))
+
+Naïve Time taken: 0.0500 seconds
+Naïve Memory used: 0.00 MB

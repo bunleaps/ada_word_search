@@ -1,0 +1,45 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| t  v  i  o  l  i  n  i  v  o |
+ 1| f  q  s  i  n  g  e  r  m  i |
+ 2| a  l  b  u  m  g  k  t  e  p |
+ 3| h  n  u  d  r  u  m  s  l  i |
+ 4| b  g  o  t  k  i  k  w  o  a |
+ 5| a  k  e  t  e  t  q  u  d  n |
+ 6| n  g  v  p  e  a  v  s  y  o |
+ 7| d  e  c  h  o  r  d  z  a  i |
+ 8| s  a  x  o  p  h  o  n  e  y |
+ 9| i  u  t  r  u  m  p  e  t  w |
+  +------------------------------+
+Dynamic Programming Solution:
+guitar: ((2, 5), (7, 5))
+piano: ((2, 9), (6, 9))
+drums: ((3, 3), (3, 7))
+violin: ((0, 1), (0, 6))
+saxophone: ((8, 0), (8, 8))
+trumpet: ((9, 2), (9, 8))
+singer: ((1, 2), (1, 7))
+band: ((4, 0), (7, 0))
+melody: ((1, 8), (6, 8))
+chord: ((7, 2), (7, 6))
+album: ((2, 0), (2, 4))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((2, 5), (7, 5))
+piano: ((2, 9), (6, 9))
+drums: ((3, 3), (3, 7))
+violin: ((0, 1), (0, 6))
+saxophone: ((8, 0), (8, 8))
+trumpet: ((9, 2), (9, 8))
+singer: ((1, 2), (1, 7))
+band: ((4, 0), (7, 0))
+melody: ((1, 8), (6, 8))
+chord: ((7, 2), (7, 6))
+album: ((2, 0), (2, 4))
+
+Naïve Time taken: 0.0075 seconds
+Naïve Memory used: 0.00 MB

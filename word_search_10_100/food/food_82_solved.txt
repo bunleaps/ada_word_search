@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| l  j  s  u  s  h  i  s  y  r |
+ 1| z  b  u  r  g  e  r  y  w  n |
+ 2| t  a  c  o  s  t  e  a  k  o |
+ 3| s  a  n  d  w  i  c  h  y  o |
+ 4| p  i  z  z  a  x  o  r  a  d |
+ 5| c  r  s  s  g  k  r  t  p  l |
+ 6| a  i  p  o  u  u  s  h  v  e |
+ 7| k  c  i  u  c  a  z  w  s  s |
+ 8| e  e  e  p  p  t  o  a  y  a |
+ 9| c  s  a  l  a  d  i  h  m  t |
+  +------------------------------+
+Dynamic Programming Solution:
+pizza: ((4, 0), (4, 4))
+burger: ((1, 1), (1, 6))
+sandwich: ((3, 0), (3, 7))
+salad: ((9, 1), (9, 5))
+soup: ((5, 3), (8, 3))
+steak: ((2, 4), (2, 8))
+sushi: ((0, 2), (0, 6))
+rice: ((5, 1), (8, 1))
+noodles: ((1, 9), (7, 9))
+taco: ((2, 0), (2, 3))
+cake: ((5, 0), (8, 0))
+pie: ((6, 2), (8, 2))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((4, 0), (4, 4))
+burger: ((1, 1), (1, 6))
+sandwich: ((3, 0), (3, 7))
+salad: ((9, 1), (9, 5))
+soup: ((5, 3), (8, 3))
+steak: ((2, 4), (2, 8))
+sushi: ((0, 2), (0, 6))
+rice: ((5, 1), (8, 1))
+noodles: ((1, 9), (7, 9))
+taco: ((2, 0), (2, 3))
+cake: ((5, 0), (8, 0))
+pie: ((6, 2), (8, 2))
+
+Naïve Time taken: 0.0080 seconds
+Naïve Memory used: 0.00 MB

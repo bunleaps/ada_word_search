@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  z  h  u  a  g  o  e  n  j  n  s  n  q  w  o  n  w  c  h |
+ 1| t  z  s  s  c  a  r  e  d  l  f  n  z  z  h  l  i  g  y  o |
+ 2| q  a  i  k  y  i  o  n  k  y  d  n  g  l  h  y  c  p  x  p |
+ 3| t  n  v  w  z  j  j  z  r  e  v  d  u  r  x  x  b  r  i  e |
+ 4| r  x  i  n  a  f  f  g  s  a  e  v  i  r  h  y  v  o  i  f |
+ 5| f  i  t  r  h  z  n  i  r  t  r  n  l  h  a  t  i  u  a  u |
+ 6| r  o  o  f  d  a  r  t  n  h  v  d  t  t  p  v  p  d  e  l |
+ 7| u  u  q  v  o  p  a  i  e  i  a  g  y  o  p  y  p  m  u  y |
+ 8| s  s  v  d  r  h  o  w  r  s  t  c  t  n  y  g  l  s  x  u |
+ 9| t  j  c  u  p  p  m  v  o  k  q  q  o  y  z  a  m  w  n  w |
+10| r  w  s  c  p  k  l  h  z  r  e  c  j  n  c  y  i  k  f  t |
+11| a  t  d  a  k  u  b  i  n  z  r  q  a  u  f  c  x  d  v  w |
+12| t  y  s  g  f  y  h  f  n  e  t  i  e  w  u  u  e  q  n  c |
+13| e  i  o  y  t  c  h  s  t  o  r  k  e  x  i  x  s  d  u  u |
+14| d  z  o  y  z  o  v  z  c  k  o  v  w  d  a  s  e  e  r  q |
+15| v  j  f  w  o  g  j  c  v  u  l  s  o  l  g  t  r  j  d  j |
+16| z  l  x  e  v  k  g  x  f  r  j  v  e  u  i  x  b  q  b  f |
+17| u  o  j  v  p  w  i  y  x  f  p  r  q  c  s  x  v  s  w  h |
+18| f  e  m  b  a  r  r  a  s  s  e  d  x  s  h  l  k  i  h  y |
+19| y  k  l  o  n  e  l  y  z  e  t  e  u  q  q  x  m  c  p  v |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+happy: ((4, 14), (8, 14))
+sad: ((14, 15), (14, 13))
+scared: ((1, 3), (1, 8))
+frustrated: ((5, 0), (14, 0))
+lonely: ((19, 2), (19, 7))
+embarrassed: ((18, 1), (18, 11))
+proud: ((2, 17), (6, 17))
+anxious: ((2, 1), (8, 1))
+guilty: ((2, 12), (7, 12))
+hopeful: ((0, 19), (6, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+happy: ((4, 14), (8, 14))
+sad: ((14, 15), (14, 13))
+scared: ((1, 3), (1, 8))
+frustrated: ((5, 0), (14, 0))
+lonely: ((19, 2), (19, 7))
+embarrassed: ((18, 1), (18, 11))
+proud: ((2, 17), (6, 17))
+anxious: ((2, 1), (8, 1))
+guilty: ((2, 12), (7, 12))
+hopeful: ((0, 19), (6, 19))
+
+Naïve Time taken: 0.0588 seconds
+Naïve Memory used: 0.00 MB

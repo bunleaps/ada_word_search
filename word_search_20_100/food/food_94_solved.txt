@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| q  k  h  u  a  l  a  w  s  l  c  h  e  e  s  e  b  f  c  a |
+ 1| s  x  v  g  r  m  u  x  n  h  r  u  j  z  t  g  o  w  r  f |
+ 2| i  c  o  o  k  i  e  s  a  p  i  l  k  u  b  j  u  e  r  y |
+ 3| s  s  a  n  d  w  i  c  h  e  c  b  v  e  p  z  o  v  g  t |
+ 4| b  c  h  o  c  o  l  a  t  e  e  h  w  u  h  i  t  y  w  h |
+ 5| a  u  s  z  y  a  r  f  a  v  b  e  o  v  h  r  r  t  a  t |
+ 6| a  r  r  x  q  e  k  r  f  z  i  s  r  s  k  g  k  a  x  y |
+ 7| q  d  t  g  f  a  r  e  p  p  r  z  u  h  i  u  s  c  a  i |
+ 8| b  q  x  j  e  g  w  w  o  i  a  s  d  s  q  c  u  o  v  e |
+ 9| i  r  i  q  h  r  f  q  h  s  z  s  z  w  x  l  i  c  p  u |
+10| c  g  e  r  j  s  a  l  a  d  z  z  t  g  l  e  k  k  s  b |
+11| e  z  z  a  c  x  s  y  j  o  m  e  a  a  k  t  v  i  d  o |
+12| c  h  x  y  d  u  x  c  t  f  k  j  e  s  a  q  p  f  y  x |
+13| r  r  y  f  j  c  k  i  q  q  n  w  s  l  k  l  g  r  a  k |
+14| e  f  b  z  g  d  r  r  w  v  e  w  x  k  o  v  r  l  e  p |
+15| a  q  s  v  v  r  g  c  t  v  r  i  i  z  m  u  r  j  k  r |
+16| m  j  s  s  u  s  t  e  a  k  e  z  u  v  c  v  p  g  v  y |
+17| u  e  i  b  x  z  n  o  o  d  l  e  s  o  e  k  y  c  o  e |
+18| n  q  j  p  r  a  n  j  l  m  l  e  r  u  q  m  c  y  l  i |
+19| h  e  v  t  f  r  a  a  i  r  n  l  g  b  t  r  x  m  y  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+sandwich: ((3, 1), (3, 8))
+salad: ((10, 5), (10, 9))
+steak: ((16, 5), (16, 9))
+rice: ((1, 10), (4, 10))
+noodles: ((17, 6), (17, 12))
+taco: ((5, 17), (8, 17))
+cheese: ((0, 10), (0, 15))
+chocolate: ((4, 1), (4, 9))
+icecream: ((9, 0), (16, 0))
+cookies: ((2, 1), (2, 7))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+sandwich: ((3, 1), (3, 8))
+salad: ((10, 5), (10, 9))
+steak: ((16, 5), (16, 9))
+rice: ((1, 10), (4, 10))
+noodles: ((17, 6), (17, 12))
+taco: ((5, 17), (8, 17))
+cheese: ((0, 10), (0, 15))
+chocolate: ((4, 1), (4, 9))
+icecream: ((9, 0), (16, 0))
+cookies: ((2, 1), (2, 7))
+
+Naïve Time taken: 0.0679 seconds
+Naïve Memory used: 0.00 MB

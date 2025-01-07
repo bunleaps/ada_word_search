@@ -1,0 +1,65 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  i  b  s  d  k  b  r  y  y  c  l  i  p  b  o  a  r  d  u |
+ 1| t  w  r  m  a  r  k  e  r  r  u  i  q  z  q  i  h  z  i  j |
+ 2| a  n  g  q  c  h  i  g  h  l  i  g  h  t  e  r  c  y  e  v |
+ 3| p  o  u  y  r  k  f  j  n  x  p  z  s  x  p  c  a  q  d  p |
+ 4| l  t  w  t  a  t  o  g  d  s  e  r  a  s  e  r  l  f  c  n |
+ 5| e  e  y  l  y  f  a  s  r  r  n  r  r  l  c  k  c  o  p  s |
+ 6| r  b  c  z  o  b  u  y  p  r  i  e  i  x  o  p  u  l  y  c |
+ 7| o  o  z  e  n  h  w  g  k  u  p  d  n  s  o  r  l  d  v  i |
+ 8| n  o  d  r  s  b  c  v  b  a  b  i  r  p  v  a  a  e  s  s |
+ 9| i  k  q  n  v  l  o  z  p  r  b  y  b  d  e  q  t  r  h  s |
+10| r  q  n  f  b  m  g  o  d  e  d  n  f  x  c  w  o  t  a  o |
+11| h  n  l  x  x  e  h  s  k  h  x  n  y  a  x  n  r  j  r  r |
+12| d  v  q  l  h  t  k  s  r  u  b  p  e  l  s  s  m  l  p  s |
+13| k  a  y  h  z  l  p  q  u  d  d  r  i  q  i  u  m  p  e  v |
+14| d  a  b  a  a  q  u  r  l  e  y  c  b  a  g  l  u  e  n  y |
+15| y  o  c  h  j  j  w  g  e  v  n  l  q  a  j  w  i  h  e  v |
+16| z  z  c  r  s  g  q  h  r  e  u  n  k  m  r  o  h  s  r  k |
+17| a  d  r  i  d  r  o  p  p  r  x  w  v  p  g  h  u  c  z  r |
+18| h  q  z  q  g  m  m  l  o  c  g  u  v  e  k  h  q  k  g  e |
+19| v  o  j  f  s  u  z  q  e  z  q  k  a  r  k  q  m  c  t  s |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pen: ((3, 10), (5, 10))
+notebook: ((2, 1), (9, 1))
+ruler: ((12, 8), (16, 8))
+eraser: ((4, 10), (4, 15))
+marker: ((1, 3), (1, 8))
+book: ((6, 1), (9, 1))
+bag: ((14, 12), (14, 14))
+glue: ((14, 14), (14, 17))
+scissors: ((5, 19), (12, 19))
+calculator: ((2, 16), (11, 16))
+stapler: ((0, 0), (6, 0))
+sharpener: ((8, 18), (16, 18))
+folder: ((4, 17), (9, 17))
+highlighter: ((2, 5), (2, 15))
+crayons: ((2, 4), (8, 4))
+clipboard: ((0, 10), (0, 18))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pen: ((3, 10), (5, 10))
+notebook: ((2, 1), (9, 1))
+ruler: ((12, 8), (16, 8))
+eraser: ((4, 10), (4, 15))
+marker: ((1, 3), (1, 8))
+book: ((6, 1), (9, 1))
+bag: ((14, 12), (14, 14))
+glue: ((14, 14), (14, 17))
+scissors: ((5, 19), (12, 19))
+calculator: ((2, 16), (11, 16))
+stapler: ((0, 0), (6, 0))
+sharpener: ((8, 18), (16, 18))
+folder: ((4, 17), (9, 17))
+highlighter: ((2, 5), (2, 15))
+crayons: ((2, 4), (8, 4))
+clipboard: ((0, 10), (0, 18))
+
+Naïve Time taken: 0.0460 seconds
+Naïve Memory used: 0.00 MB

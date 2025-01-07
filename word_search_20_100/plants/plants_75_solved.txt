@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  r  b  q  y  m  m  l  x  t  o  s  g  o  s  u  k  u  e  x |
+ 1| b  s  j  s  b  b  r  u  z  k  v  c  f  i  m  f  r  k  b  y |
+ 2| p  a  l  m  z  g  p  x  e  k  d  t  p  i  c  e  a  z  o  n |
+ 3| e  c  p  n  o  f  y  g  j  o  b  r  w  v  w  r  n  f  k  g |
+ 4| p  c  a  j  y  z  e  y  x  j  a  e  b  o  y  w  v  v  s  d |
+ 5| l  r  r  c  d  t  w  r  u  u  m  e  l  n  l  b  p  w  u  u |
+ 6| u  x  z  o  t  h  h  a  n  x  b  f  v  y  i  c  i  v  y  t |
+ 7| b  t  a  i  v  u  l  r  s  n  o  r  h  l  l  p  s  y  r  r |
+ 8| z  o  d  z  i  q  s  w  h  g  o  g  c  b  y  l  x  l  r  a |
+ 9| b  r  t  c  n  d  v  u  r  z  x  a  t  i  d  q  c  z  o  y |
+10| e  c  u  d  e  y  o  j  u  e  x  x  k  g  y  l  v  d  s  v |
+11| c  h  l  q  l  p  h  j  b  c  p  r  a  r  s  j  d  x  e  s |
+12| x  i  i  y  q  i  s  j  q  b  b  m  e  n  k  h  h  w  m  s |
+13| o  d  p  o  d  k  u  y  d  t  l  w  s  e  t  f  v  r  a  p |
+14| m  f  z  t  u  d  g  t  y  q  o  i  k  p  i  n  e  s  q  u |
+15| a  y  c  e  i  t  a  i  v  l  n  z  i  u  k  p  n  w  w  f |
+16| p  q  a  f  z  m  y  i  f  o  l  a  v  b  n  s  d  r  p  w |
+17| l  f  x  x  l  p  k  n  s  k  b  x  g  v  s  r  y  m  u  t |
+18| e  f  u  f  j  k  u  u  i  y  f  d  v  o  w  r  b  p  b  m |
+19| l  i  d  e  i  s  u  g  r  a  s  s  m  y  c  v  a  o  t  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tree: ((2, 11), (5, 11))
+grass: ((19, 7), (19, 11))
+shrub: ((7, 8), (11, 8))
+vine: ((7, 4), (10, 4))
+bamboo: ((3, 10), (8, 10))
+pine: ((14, 13), (14, 16))
+maple: ((14, 0), (18, 0))
+rose: ((8, 18), (11, 18))
+tulip: ((9, 2), (13, 2))
+lily: ((5, 14), (8, 14))
+orchid: ((8, 1), (13, 1))
+ivy: ((6, 16), (6, 18))
+palm: ((2, 0), (2, 3))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((2, 11), (5, 11))
+grass: ((19, 7), (19, 11))
+shrub: ((7, 8), (11, 8))
+vine: ((7, 4), (10, 4))
+bamboo: ((3, 10), (8, 10))
+pine: ((14, 13), (14, 16))
+maple: ((14, 0), (18, 0))
+rose: ((8, 18), (11, 18))
+tulip: ((9, 2), (13, 2))
+lily: ((7, 14), (4, 14))
+orchid: ((8, 1), (13, 1))
+ivy: ((6, 16), (6, 18))
+palm: ((2, 0), (2, 3))
+
+Naïve Time taken: 0.1039 seconds
+Naïve Memory used: 0.00 MB

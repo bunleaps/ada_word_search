@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  v  e  c  q  i  k  h  o  s  p  i  t  a  l  f  z  h  c  h |
+ 1| q  v  e  a  o  o  r  k  a  u  n  x  q  a  l  k  z  l  m  s |
+ 2| q  c  j  j  q  n  s  t  b  n  o  i  p  g  j  p  h  b  u  v |
+ 3| b  i  t  w  c  d  t  y  e  c  d  j  s  t  v  j  i  h  s  f |
+ 4| o  t  k  s  l  j  g  i  v  u  h  q  j  l  k  n  m  b  e  o |
+ 5| r  y  q  t  o  w  n  y  n  i  s  u  z  a  a  h  k  j  u  r |
+ 6| w  d  b  z  g  d  n  m  y  e  l  n  r  u  w  n  v  l  m  e |
+ 7| y  d  e  f  s  f  e  b  j  q  n  l  c  c  p  e  d  l  h  s |
+ 8| m  e  n  r  t  a  p  s  y  o  v  t  a  k  h  a  o  n  d  t |
+ 9| k  c  z  i  r  q  j  u  e  e  f  u  n  g  l  q  r  h  e  k |
+10| b  h  u  v  e  s  l  q  k  r  x  j  x  c  e  k  o  k  r  w |
+11| f  p  b  e  e  c  s  a  c  m  t  p  q  e  z  o  a  i  b  h |
+12| v  w  l  r  t  h  l  h  r  o  s  i  g  c  f  j  d  q  q  x |
+13| a  n  p  s  c  o  g  a  t  u  y  p  z  o  b  e  n  u  h  t |
+14| u  i  p  a  w  o  b  h  g  n  n  p  i  u  b  t  o  m  o  y |
+15| m  f  e  h  t  l  w  k  x  t  f  w  q  n  l  j  m  a  j  m |
+16| v  b  c  c  j  s  o  o  t  a  c  t  o  t  y  j  k  x  b  m |
+17| y  r  f  k  y  z  n  q  z  i  l  v  n  r  l  m  b  l  m  p |
+18| o  d  k  f  n  t  d  v  i  n  v  y  r  y  k  j  e  f  e  q |
+19| z  u  t  t  r  e  s  t  a  u  r  a  n  t  h  o  w  t  e  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+city: ((2, 1), (5, 1))
+town: ((5, 3), (5, 6))
+mountain: ((11, 9), (18, 9))
+river: ((8, 3), (12, 3))
+forest: ((3, 19), (8, 19))
+country: ((12, 13), (18, 13))
+street: ((7, 4), (12, 4))
+road: ((9, 16), (12, 16))
+school: ((10, 5), (15, 5))
+hospital: ((0, 7), (0, 14))
+museum: ((1, 18), (6, 18))
+restaurant: ((19, 4), (19, 13))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((2, 1), (5, 1))
+town: ((5, 3), (5, 6))
+mountain: ((11, 9), (18, 9))
+river: ((8, 3), (12, 3))
+forest: ((3, 19), (8, 19))
+country: ((12, 13), (18, 13))
+street: ((7, 4), (12, 4))
+road: ((9, 16), (12, 16))
+school: ((10, 5), (15, 5))
+hospital: ((0, 7), (0, 14))
+museum: ((1, 18), (6, 18))
+restaurant: ((19, 4), (19, 13))
+
+Naïve Time taken: 0.0595 seconds
+Naïve Memory used: 0.00 MB

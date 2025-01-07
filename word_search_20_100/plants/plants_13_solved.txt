@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  j  v  k  r  f  r  q  e  u  t  d  y  q  i  d  a  g  p  w |
+ 1| h  s  a  i  c  n  m  x  k  x  g  a  k  r  q  z  h  c  y  a |
+ 2| g  y  j  u  n  a  l  c  m  n  i  i  a  k  b  y  u  v  j  v |
+ 3| f  e  e  q  n  e  t  c  m  x  s  s  q  j  r  z  i  w  n  i |
+ 4| f  m  o  s  s  w  q  a  v  a  l  y  z  f  o  o  i  i  p  j |
+ 5| g  u  z  g  z  f  e  d  h  y  z  l  a  m  n  w  s  r  j  r |
+ 6| s  g  y  h  t  z  s  v  o  p  p  o  i  a  x  v  q  n  b  o |
+ 7| v  f  l  o  w  e  r  h  y  q  d  k  f  p  x  u  z  e  n  m |
+ 8| g  t  h  b  o  g  x  i  r  q  w  a  c  l  o  a  k  a  t  u |
+ 9| r  u  p  r  r  a  c  t  p  u  b  t  k  e  s  f  e  r  n  e |
+10| a  l  a  j  c  z  b  r  a  w  b  u  p  g  u  s  b  p  u  x |
+11| s  i  y  t  h  x  k  e  t  r  y  l  g  l  h  m  k  s  a  t |
+12| s  p  y  n  i  i  x  e  e  x  s  w  e  o  s  k  f  r  m  m |
+13| m  w  n  s  d  r  s  w  e  u  s  n  b  w  m  q  m  o  y  d |
+14| e  d  e  b  e  h  o  x  t  o  i  k  a  o  i  p  y  s  e  k |
+15| a  n  z  c  l  l  m  c  y  p  p  q  m  g  z  a  n  e  x  s |
+16| u  j  h  y  f  f  a  r  m  q  a  s  b  p  l  l  u  f  i  e |
+17| v  w  n  n  h  c  l  p  i  z  b  w  o  p  i  m  v  m  k  j |
+18| q  c  u  s  f  n  f  y  w  t  i  u  o  p  v  i  t  m  a  f |
+19| e  s  l  i  l  y  v  a  j  g  b  e  y  z  x  n  r  o  y  j |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tree: ((9, 7), (12, 7))
+flower: ((7, 1), (7, 6))
+grass: ((8, 0), (12, 0))
+fern: ((9, 15), (9, 18))
+moss: ((4, 1), (4, 4))
+bamboo: ((13, 12), (18, 12))
+oak: ((8, 14), (8, 16))
+maple: ((5, 13), (9, 13))
+rose: ((12, 17), (15, 17))
+tulip: ((8, 1), (12, 1))
+daisy: ((0, 11), (4, 11))
+lily: ((19, 2), (19, 5))
+orchid: ((8, 4), (13, 4))
+palm: ((14, 15), (17, 15))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((9, 7), (12, 7))
+flower: ((7, 1), (7, 6))
+grass: ((8, 0), (12, 0))
+fern: ((9, 15), (9, 18))
+moss: ((4, 1), (4, 4))
+bamboo: ((13, 12), (18, 12))
+oak: ((8, 14), (8, 16))
+maple: ((5, 13), (9, 13))
+rose: ((12, 17), (15, 17))
+tulip: ((8, 1), (12, 1))
+daisy: ((0, 11), (4, 11))
+lily: ((19, 2), (19, 5))
+orchid: ((8, 4), (13, 4))
+palm: ((14, 15), (17, 15))
+
+Naïve Time taken: 0.0560 seconds
+Naïve Memory used: 0.00 MB

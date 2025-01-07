@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| m  n  e  e  s  v  s  s  f  u  y  g  u  l  x  n  p  m  n  k |
+ 1| i  n  c  z  z  u  y  f  x  f  k  u  w  c  c  x  s  t  l  m |
+ 2| c  n  v  a  r  n  g  s  b  m  s  i  e  b  c  x  c  r  c  e |
+ 3| r  s  m  l  v  o  l  f  a  l  g  t  i  i  a  f  e  z  m  l |
+ 4| o  i  i  o  g  t  b  j  a  x  v  a  l  d  n  l  i  d  j  o |
+ 5| p  k  s  n  u  e  g  j  j  b  o  r  c  h  z  t  b  l  u  d |
+ 6| h  d  m  g  g  v  i  o  l  i  n  p  c  o  e  d  g  u  y  y |
+ 7| o  r  n  c  g  e  l  f  b  a  n  d  h  h  n  o  x  u  m  d |
+ 8| n  u  f  p  w  x  r  h  s  c  y  c  i  o  o  c  p  e  y  y |
+ 9| e  m  t  a  p  i  a  n  o  c  o  u  q  q  n  r  e  b  y  d |
+10| a  s  k  v  t  r  u  m  p  e  t  t  p  s  j  e  d  r  a  o |
+11| q  o  r  c  h  e  s  t  r  a  p  w  b  c  t  d  g  u  t  x |
+12| m  j  y  m  t  h  a  r  m  o  n  y  o  u  u  s  w  c  g  b |
+13| w  i  x  l  h  h  x  m  k  o  t  p  l  y  c  z  y  o  j  r |
+14| b  e  o  s  n  d  v  r  d  m  p  f  t  i  g  q  t  f  a  n |
+15| i  e  y  g  r  h  y  t  h  m  c  o  r  c  c  r  a  v  j  u |
+16| i  g  r  u  y  z  q  w  j  l  i  y  u  s  m  j  k  u  z  p |
+17| s  i  h  l  k  u  x  j  g  t  l  g  e  g  k  q  u  t  j  s |
+18| d  v  v  z  t  d  h  e  a  d  p  h  o  n  e  s  c  p  q  b |
+19| f  f  e  r  v  x  j  m  q  u  c  u  t  a  j  b  o  c  y  g |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((0, 11), (5, 11))
+piano: ((9, 4), (9, 8))
+drums: ((6, 1), (10, 1))
+violin: ((6, 5), (6, 10))
+trumpet: ((10, 4), (10, 10))
+band: ((7, 8), (7, 11))
+orchestra: ((11, 1), (11, 9))
+melody: ((1, 19), (6, 19))
+harmony: ((12, 5), (12, 11))
+rhythm: ((15, 4), (15, 9))
+note: ((2, 5), (5, 5))
+microphone: ((0, 0), (9, 0))
+headphones: ((18, 6), (18, 15))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((0, 11), (5, 11))
+piano: ((9, 4), (9, 8))
+drums: ((6, 1), (10, 1))
+violin: ((6, 5), (6, 10))
+trumpet: ((10, 4), (10, 10))
+band: ((7, 8), (7, 11))
+orchestra: ((11, 1), (11, 9))
+melody: ((1, 19), (6, 19))
+harmony: ((12, 5), (12, 11))
+rhythm: ((15, 4), (15, 9))
+note: ((2, 5), (5, 5))
+microphone: ((0, 0), (9, 0))
+headphones: ((18, 6), (18, 15))
+
+Naïve Time taken: 0.0476 seconds
+Naïve Memory used: 0.00 MB

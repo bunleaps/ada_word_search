@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| k  s  r  x  s  a  k  e  c  c  m  x  o  g  x  c  v  z  d  x |
+ 1| w  a  l  b  u  m  f  n  p  j  i  n  f  f  n  o  y  h  a  p |
+ 2| h  x  b  j  a  b  r  o  s  x  c  x  g  m  o  n  s  e  j  l |
+ 3| f  o  s  o  j  s  k  w  h  s  r  x  d  k  t  c  p  a  e  h |
+ 4| d  p  x  q  r  i  a  h  l  l  o  t  m  p  e  e  u  d  d  b |
+ 5| c  h  g  s  r  c  n  j  j  i  p  r  s  x  e  r  f  p  c  i |
+ 6| y  o  z  a  g  r  h  j  e  v  h  u  p  p  h  t  p  h  s  a |
+ 7| t  n  o  z  x  u  u  e  g  c  o  m  t  x  k  w  r  o  j  e |
+ 8| t  e  h  c  l  m  i  f  s  e  n  p  u  d  s  e  r  n  i  s |
+ 9| i  p  m  p  y  e  w  t  m  t  e  e  p  n  g  p  h  e  j  f |
+10| z  b  m  e  r  l  i  q  a  x  r  t  q  n  o  g  y  s  k  h |
+11| s  p  c  q  i  o  l  l  v  r  j  a  i  c  j  i  t  z  q  a |
+12| c  t  h  k  c  d  e  y  m  i  g  s  u  g  y  o  h  i  w  r |
+13| h  u  o  g  s  y  w  o  d  r  u  m  s  e  l  y  m  g  b  m |
+14| c  v  r  d  j  g  m  l  p  a  p  r  g  l  e  y  o  x  o  o |
+15| p  l  d  a  u  v  r  t  i  g  t  k  d  t  b  c  a  u  v  n |
+16| k  c  z  l  p  i  b  j  a  q  t  l  u  p  d  a  f  g  u  y |
+17| h  v  i  o  l  i  n  e  n  b  l  l  n  y  q  x  n  r  j  q |
+18| y  b  c  c  f  i  g  u  o  k  f  b  f  m  j  j  v  d  g  t |
+19| l  e  i  b  v  w  r  h  v  k  x  t  q  f  z  x  g  y  v  u |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+piano: ((14, 8), (18, 8))
+drums: ((13, 8), (13, 12))
+violin: ((17, 1), (17, 6))
+saxophone: ((0, 1), (8, 1))
+trumpet: ((4, 11), (10, 11))
+melody: ((8, 5), (13, 5))
+harmony: ((10, 19), (16, 19))
+rhythm: ((8, 16), (13, 16))
+note: ((1, 14), (4, 14))
+chord: ((11, 2), (15, 2))
+concert: ((0, 15), (6, 15))
+lyrics: ((8, 4), (13, 4))
+album: ((1, 1), (1, 5))
+microphone: ((0, 10), (9, 10))
+headphones: ((1, 17), (10, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+piano: ((14, 8), (18, 8))
+drums: ((13, 8), (13, 12))
+violin: ((17, 1), (17, 6))
+saxophone: ((0, 1), (8, 1))
+trumpet: ((4, 11), (10, 11))
+melody: ((8, 5), (13, 5))
+harmony: ((10, 19), (16, 19))
+rhythm: ((8, 16), (13, 16))
+note: ((1, 14), (4, 14))
+chord: ((11, 2), (15, 2))
+concert: ((0, 15), (6, 15))
+lyrics: ((8, 4), (13, 4))
+album: ((1, 1), (1, 5))
+microphone: ((0, 10), (9, 10))
+headphones: ((1, 17), (10, 17))
+
+Naïve Time taken: 0.0592 seconds
+Naïve Memory used: 0.00 MB

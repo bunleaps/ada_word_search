@@ -1,0 +1,71 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| d  q  e  A  p  p  b  b  e  z  h  h  q  p  g  c  k  k  c  k |
+ 1| n  w  s  I  s  c  l  o  u  d  v  p  r  a  o  h  e  m  n  i |
+ 2| d  n  x  w  y  p  j  m  b  a  w  c  g  h  z  m  y  a  e  b |
+ 3| a  e  u  x  e  v  f  f  e  c  h  i  p  s  c  f  b  f  t  l |
+ 4| t  a  f  x  x  w  v  q  m  d  q  k  j  r  h  b  o  h  w  u |
+ 5| a  h  a  r  d  w  a  r  e  o  q  a  j  e  w  i  a  d  o  v |
+ 6| o  g  r  v  t  b  m  k  w  z  l  v  l  c  v  z  r  p  r  l |
+ 7| p  v  s  b  k  z  t  t  a  b  l  e  t  u  a  e  d  v  k  q |
+ 8| v  a  e  s  a  t  e  l  l  i  t  e  m  o  u  s  e  a  l  w |
+ 9| p  t  e  l  i  n  t  e  r  n  e  t  h  d  g  p  q  s  w  u |
+10| e  o  w  v  e  x  x  h  g  a  l  y  a  p  y  r  b  u  e  w |
+11| t  c  a  m  e  r  a  g  s  l  x  s  a  q  w  i  a  q  l  h |
+12| w  p  e  q  p  f  k  e  c  o  d  i  n  g  p  n  j  h  g  o |
+13| p  s  a  k  f  x  e  y  r  u  f  t  c  j  s  t  b  w  k  h |
+14| e  c  o  m  p  u  t  e  r  e  j  s  u  f  r  e  s  r  d  l |
+15| d  r  o  n  e  n  j  t  b  c  w  r  f  i  y  r  d  i  g  g |
+16| j  o  f  o  e  m  o  n  i  t  o  r  y  m  g  m  l  m  k  t |
+17| u  m  b  g  n  b  s  m  a  r  t  p  h  o  n  e  i  m  q  j |
+18| z  p  g  s  o  f  t  w  a  r  e  s  e  r  v  r  i  k  i  l |
+19| f  h  r  r  j  u  o  u  n  x  h  q  f  t  i  g  a  j  i  n |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+computer: ((14, 1), (14, 8))
+smartphone: ((17, 6), (17, 15))
+tablet: ((7, 7), (7, 12))
+internet: ((9, 4), (9, 11))
+software: ((18, 3), (18, 10))
+hardware: ((5, 1), (5, 8))
+keyboard: ((0, 16), (7, 16))
+mouse: ((8, 12), (8, 16))
+monitor: ((16, 5), (16, 11))
+printer: ((9, 15), (15, 15))
+camera: ((11, 1), (11, 6))
+drone: ((15, 0), (15, 4))
+AI: ((0, 3), (1, 3))
+cloud: ((1, 5), (1, 9))
+coding: ((12, 8), (12, 13))
+data: ((2, 0), (5, 0))
+network: ((1, 18), (7, 18))
+chip: ((3, 9), (3, 12))
+satellite: ((8, 3), (8, 11))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+computer: ((14, 1), (14, 8))
+smartphone: ((17, 6), (17, 15))
+tablet: ((7, 7), (7, 12))
+internet: ((9, 4), (9, 11))
+software: ((18, 3), (18, 10))
+hardware: ((5, 1), (5, 8))
+keyboard: ((0, 16), (7, 16))
+mouse: ((8, 12), (8, 16))
+monitor: ((16, 5), (16, 11))
+printer: ((9, 15), (15, 15))
+camera: ((11, 1), (11, 6))
+drone: ((15, 0), (15, 4))
+AI: ((0, 3), (1, 3))
+cloud: ((1, 5), (1, 9))
+coding: ((12, 8), (12, 13))
+data: ((2, 0), (5, 0))
+network: ((1, 18), (7, 18))
+chip: ((3, 9), (3, 12))
+satellite: ((8, 3), (8, 11))
+
+Naïve Time taken: 0.0314 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,43 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| s  a  x  o  p  h  o  n  e  y |
+ 1| o  r  c  h  e  s  t  r  a  b |
+ 2| t  r  u  m  p  e  t  e  n  e |
+ 3| m  g  o  n  o  t  e  i  s  f |
+ 4| e  p  i  a  n  o  l  m  b  l |
+ 5| l  d  b  w  d  o  u  s  a  u |
+ 6| o  u  z  d  i  r  n  w  n  t |
+ 7| d  e  j  v  d  t  a  d  d  e |
+ 8| y  s  i  n  g  e  r  g  q  x |
+ 9| z  l  t  g  u  i  t  a  r  w |
+  +------------------------------+
+Dynamic Programming Solution:
+guitar: ((9, 3), (9, 8))
+piano: ((4, 1), (4, 5))
+flute: ((3, 9), (7, 9))
+saxophone: ((0, 0), (0, 8))
+trumpet: ((2, 0), (2, 6))
+singer: ((8, 1), (8, 6))
+band: ((4, 8), (7, 8))
+orchestra: ((1, 0), (1, 8))
+melody: ((3, 0), (8, 0))
+note: ((3, 3), (3, 6))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((9, 3), (9, 8))
+piano: ((4, 1), (4, 5))
+flute: ((3, 9), (7, 9))
+saxophone: ((0, 0), (0, 8))
+trumpet: ((2, 0), (2, 6))
+singer: ((8, 1), (8, 6))
+band: ((4, 8), (7, 8))
+orchestra: ((1, 0), (1, 8))
+melody: ((3, 0), (8, 0))
+note: ((3, 3), (3, 6))
+
+Naïve Time taken: 0.0090 seconds
+Naïve Memory used: 0.00 MB

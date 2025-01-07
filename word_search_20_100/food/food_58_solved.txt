@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| k  i  c  a  s  s  z  p  v  e  d  b  u  r  r  i  t  o  w  e |
+ 1| h  g  n  w  b  m  v  a  u  o  y  a  o  j  o  l  s  j  g  o |
+ 2| o  s  l  c  o  y  g  s  j  n  h  q  h  c  l  z  j  g  h  y |
+ 3| l  c  e  a  t  g  i  t  k  j  d  d  d  u  k  j  o  r  w  l |
+ 4| k  o  t  k  u  i  q  a  u  h  m  s  a  r  c  j  d  w  c  d |
+ 5| w  j  e  e  k  s  o  u  p  z  n  k  a  r  f  a  p  f  x  m |
+ 6| e  i  u  y  p  o  q  l  l  q  z  z  d  y  e  e  t  d  f  a |
+ 7| r  g  x  a  p  f  w  l  d  q  c  b  m  r  i  t  a  k  w  k |
+ 8| a  i  j  w  k  c  l  l  r  h  r  c  b  p  b  l  n  s  u  z |
+ 9| q  p  c  e  k  m  a  i  c  e  x  h  q  g  a  n  x  y  n  i |
+10| i  v  t  e  a  r  o  i  g  c  e  e  o  s  p  c  w  j  u  q |
+11| v  n  l  d  t  c  w  r  b  h  w  e  b  t  i  b  h  m  y  c |
+12| b  x  s  u  a  d  u  d  t  x  v  s  m  u  z  n  o  t  s  h |
+13| e  g  x  t  n  b  p  s  y  k  e  e  q  p  z  x  i  v  p  n |
+14| s  t  e  a  k  i  e  s  a  l  p  a  z  d  a  d  e  v  z  o |
+15| z  x  s  z  h  i  k  m  d  m  k  g  r  a  w  r  b  r  h  e |
+16| g  t  d  s  k  y  p  o  e  m  w  z  z  t  v  z  l  k  s  y |
+17| d  e  u  o  e  n  o  i  y  s  c  h  o  c  o  l  a  t  e  v |
+18| f  s  o  k  o  n  u  p  r  c  w  k  i  e  v  h  g  e  p  v |
+19| e  c  y  f  m  x  p  i  c  e  c  r  e  a  m  v  r  c  y  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((10, 14), (14, 14))
+pasta: ((0, 7), (4, 7))
+soup: ((5, 5), (5, 8))
+steak: ((14, 0), (14, 4))
+burrito: ((0, 11), (0, 17))
+curry: ((2, 13), (6, 13))
+cheese: ((8, 11), (13, 11))
+chocolate: ((17, 10), (17, 18))
+icecream: ((19, 7), (19, 14))
+cake: ((2, 3), (5, 3))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((10, 14), (14, 14))
+pasta: ((0, 7), (4, 7))
+soup: ((5, 5), (5, 8))
+steak: ((14, 0), (14, 4))
+burrito: ((0, 11), (0, 17))
+curry: ((2, 13), (6, 13))
+cheese: ((8, 11), (13, 11))
+chocolate: ((17, 10), (17, 18))
+icecream: ((19, 7), (19, 14))
+cake: ((2, 3), (5, 3))
+
+Naïve Time taken: 0.0565 seconds
+Naïve Memory used: 0.00 MB

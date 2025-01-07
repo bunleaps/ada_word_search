@@ -1,0 +1,67 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| t  z  g  o  r  a  n  g  e  l  m  y  l  w  i  c  a  r  u  t |
+ 1| p  s  o  l  z  r  q  n  n  i  a  a  d  d  n  j  z  z  v  g |
+ 2| h  t  t  o  p  r  z  a  z  v  h  r  n  o  i  w  j  e  a  d |
+ 3| a  p  p  r  e  e  a  b  p  m  w  w  m  g  u  x  r  x  v  h |
+ 4| p  o  o  u  a  o  a  i  o  s  l  e  t  x  o  n  n  t  p  s |
+ 5| r  c  m  m  y  w  x  g  e  h  l  b  p  k  s  e  k  q  i  b |
+ 6| i  i  e  e  z  z  b  s  d  m  h  g  r  p  m  c  e  q  n  l |
+ 7| c  k  g  e  l  p  h  e  c  h  e  r  r  y  y  t  d  y  e  u |
+ 8| o  c  r  p  p  k  i  z  r  f  f  i  q  r  c  a  r  m  a  e |
+ 9| t  o  a  a  s  a  i  j  h  r  c  l  r  v  a  r  p  i  p  b |
+10| u  c  n  p  j  v  i  w  o  y  y  e  b  s  e  i  s  f  p  e |
+11| e  o  a  a  b  z  i  w  i  z  b  j  g  b  w  n  l  f  l  r |
+12| i  n  t  y  p  a  n  y  t  p  c  e  k  g  u  e  e  e  e  r |
+13| x  u  e  a  e  p  n  i  s  e  v  c  w  z  w  p  t  e  w  y |
+14| i  t  d  s  a  l  v  a  l  n  a  g  d  r  a  a  l  c  j  s |
+15| e  o  f  e  c  t  r  p  n  l  r  g  y  r  d  c  l  f  h  g |
+16| p  c  i  y  h  d  p  g  b  a  o  b  g  z  m  y  o  t  l  w |
+17| c  z  g  d  i  a  n  c  s  w  a  t  e  r  m  e  l  o  n  l |
+18| q  p  a  p  m  e  l  o  n  p  l  u  m  v  x  z  d  r  b  n |
+19| w  p  e  a  r  q  l  r  u  q  t  a  n  g  e  r  i  n  e  o |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+apple: ((8, 18), (12, 18))
+cherry: ((7, 8), (7, 13))
+fig: ((15, 2), (17, 2))
+nectarine: ((4, 15), (12, 15))
+orange: ((0, 3), (0, 8))
+papaya: ((8, 3), (13, 3))
+pear: ((19, 1), (19, 4))
+peach: ((12, 4), (16, 4))
+pineapple: ((4, 18), (12, 18))
+plum: ((18, 9), (18, 12))
+pomegranate: ((3, 2), (13, 2))
+tangerine: ((19, 10), (19, 18))
+watermelon: ((17, 9), (17, 18))
+blueberry: ((5, 19), (13, 19))
+apricot: ((3, 0), (9, 0))
+coconut: ((8, 1), (14, 1))
+melon: ((17, 14), (17, 18))
+
+DP Time taken: 0.0019 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+apple: ((8, 18), (12, 18))
+cherry: ((7, 8), (7, 13))
+fig: ((15, 2), (17, 2))
+nectarine: ((4, 15), (12, 15))
+orange: ((0, 3), (0, 8))
+papaya: ((8, 3), (13, 3))
+pear: ((19, 1), (19, 4))
+peach: ((12, 4), (16, 4))
+pineapple: ((4, 18), (12, 18))
+plum: ((18, 9), (18, 12))
+pomegranate: ((3, 2), (13, 2))
+tangerine: ((19, 10), (19, 18))
+watermelon: ((17, 9), (17, 18))
+blueberry: ((5, 19), (13, 19))
+apricot: ((3, 0), (9, 0))
+coconut: ((8, 1), (14, 1))
+melon: ((17, 14), (17, 18))
+
+Naïve Time taken: 0.0665 seconds
+Naïve Memory used: 0.00 MB

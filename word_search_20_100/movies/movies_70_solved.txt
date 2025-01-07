@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| h  b  i  k  v  a  z  a  w  f  g  w  t  x  q  y  l  j  x  w |
+ 1| f  o  r  i  p  l  n  a  w  t  l  j  c  f  q  g  w  y  o  p |
+ 2| p  x  v  u  c  j  q  l  c  a  w  t  u  u  h  e  r  h  w  j |
+ 3| m  o  u  i  v  o  e  f  s  e  r  o  b  c  s  e  x  o  a  p |
+ 4| s  f  x  q  l  k  m  l  a  e  p  d  o  x  l  a  i  r  z  p |
+ 5| d  f  q  e  m  l  h  e  a  c  q  p  c  i  q  y  i  r  d  n |
+ 6| i  i  m  v  y  u  a  o  d  h  v  u  a  t  w  u  z  o  o  t |
+ 7| r  c  p  x  p  b  a  i  e  y  p  r  e  s  u  u  q  r  c  h |
+ 8| e  e  o  m  r  l  c  m  n  r  t  d  m  l  b  z  o  a  u  r |
+ 9| c  l  p  u  o  o  t  r  b  f  i  i  n  q  r  s  m  q  m  i |
+10| t  e  c  s  d  c  r  p  r  e  m  i  e  r  e  a  c  k  e  l |
+11| o  b  o  i  u  k  e  z  k  t  m  j  a  l  r  e  m  e  n  l |
+12| r  i  r  c  c  b  s  t  m  e  b  m  a  d  j  v  c  e  t  e |
+13| t  w  n  a  e  u  s  r  d  u  e  v  a  c  h  n  e  t  a  r |
+14| w  q  y  l  r  s  k  b  t  n  i  e  o  c  a  c  p  p  r  s |
+15| r  m  y  v  r  t  k  y  i  t  s  r  e  m  t  i  m  i  y  k |
+16| w  q  e  v  a  e  d  c  s  l  e  e  o  m  r  o  g  w  l  z |
+17| m  c  q  p  i  r  h  e  z  h  h  r  a  c  e  m  r  r  s  m |
+18| r  g  e  n  r  e  f  d  r  v  a  l  s  t  s  g  n  o  w  q |
+19| s  c  r  e  e  n  p  l  a  y  a  n  i  m  a  t  i  o  n  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+actress: ((7, 6), (13, 6))
+director: ((5, 0), (12, 0))
+blockbuster: ((7, 5), (17, 5))
+popcorn: ((7, 2), (13, 2))
+premiere: ((10, 7), (10, 14))
+thriller: ((6, 19), (13, 19))
+horror: ((2, 17), (7, 17))
+animation: ((19, 10), (19, 18))
+musical: ((8, 3), (14, 3))
+documentary: ((5, 18), (15, 18))
+producer: ((7, 4), (14, 4))
+boxoffice: ((0, 1), (8, 1))
+screenplay: ((19, 0), (19, 9))
+genre: ((18, 1), (18, 5))
+
+DP Time taken: 0.0019 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+actress: ((7, 6), (13, 6))
+director: ((5, 0), (12, 0))
+blockbuster: ((7, 5), (17, 5))
+popcorn: ((7, 2), (13, 2))
+premiere: ((10, 7), (10, 14))
+thriller: ((6, 19), (13, 19))
+horror: ((2, 17), (7, 17))
+animation: ((19, 10), (19, 18))
+musical: ((8, 3), (14, 3))
+documentary: ((5, 18), (15, 18))
+producer: ((7, 4), (14, 4))
+boxoffice: ((0, 1), (8, 1))
+screenplay: ((19, 0), (19, 9))
+genre: ((18, 1), (18, 5))
+
+Naïve Time taken: 0.0799 seconds
+Naïve Memory used: 0.00 MB

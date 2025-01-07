@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| n  t  c  o  o  k  i  e  s  b  e  b  m  b  x  l  f  q  k  y |
+ 1| k  s  n  o  b  k  y  d  v  s  s  m  w  v  a  b  d  h  b  i |
+ 2| n  h  s  b  u  r  g  e  r  a  t  t  u  l  v  f  k  f  r  x |
+ 3| w  h  g  q  z  s  x  s  i  n  e  a  s  v  c  i  l  f  e  k |
+ 4| a  z  z  w  o  x  f  w  c  d  a  x  r  h  d  m  b  b  a  p |
+ 5| p  t  m  t  a  c  o  w  e  w  k  a  h  s  t  w  l  m  d  a |
+ 6| g  c  l  i  p  m  z  c  x  i  h  c  u  o  w  k  l  x  b  z |
+ 7| a  c  p  c  f  j  q  b  k  c  m  j  i  c  h  d  g  m  u  v |
+ 8| z  k  h  z  u  l  o  c  e  h  w  m  i  a  m  u  p  n  r  o |
+ 9| p  e  h  e  w  x  v  l  a  z  h  c  m  z  x  t  u  a  r  u |
+10| i  i  n  c  e  g  g  v  w  n  o  p  w  n  a  o  h  j  i  c |
+11| e  t  c  z  h  s  s  d  h  e  y  t  i  w  d  y  p  s  t  b |
+12| z  a  v  e  z  o  e  o  s  s  d  p  i  z  r  l  t  h  o  f |
+13| z  c  p  l  c  f  c  e  u  j  a  s  p  r  z  l  z  w  x  d |
+14| k  a  a  w  p  r  l  o  t  p  x  l  u  x  y  a  c  p  t  z |
+15| t  k  s  a  v  d  e  y  l  c  p  c  a  g  s  u  s  h  i  t |
+16| w  e  t  d  o  r  w  a  e  a  c  m  d  d  m  c  u  k  b  b |
+17| w  b  a  o  a  q  s  o  m  h  t  r  z  u  q  o  g  e  j  p |
+18| d  e  n  c  n  a  b  t  k  k  o  e  s  i  a  c  q  l  y  x |
+19| d  w  f  v  g  x  l  r  s  f  y  n  d  y  e  h  v  l  m  e |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+burger: ((2, 3), (2, 8))
+pasta: ((13, 2), (17, 2))
+sandwich: ((1, 9), (8, 9))
+steak: ((1, 10), (5, 10))
+sushi: ((15, 14), (15, 18))
+rice: ((2, 8), (5, 8))
+taco: ((5, 3), (5, 6))
+burrito: ((6, 18), (12, 18))
+bread: ((1, 18), (5, 18))
+cake: ((13, 1), (16, 1))
+cookies: ((0, 2), (0, 8))
+pie: ((9, 0), (11, 0))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+burger: ((2, 3), (2, 8))
+pasta: ((13, 2), (17, 2))
+sandwich: ((1, 9), (8, 9))
+steak: ((1, 10), (5, 10))
+sushi: ((15, 14), (15, 18))
+rice: ((2, 8), (5, 8))
+taco: ((5, 3), (5, 6))
+burrito: ((6, 18), (12, 18))
+bread: ((1, 18), (5, 18))
+cake: ((13, 1), (16, 1))
+cookies: ((0, 2), (0, 8))
+pie: ((9, 0), (11, 0))
+
+Naïve Time taken: 0.0593 seconds
+Naïve Memory used: 0.00 MB

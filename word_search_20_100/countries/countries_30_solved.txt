@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| v  s  g  r  e  e  c  e  b  a  u  s  t  r  a  l  i  a  m  w |
+ 1| y  x  s  d  x  b  v  t  g  c  r  u  t  x  k  i  e  w  m  n |
+ 2| d  r  w  r  e  k  t  f  c  z  c  g  d  y  s  p  d  q  z  f |
+ 3| y  j  e  b  d  n  n  f  y  j  v  a  e  w  o  h  f  d  r  i |
+ 4| h  c  d  r  r  i  m  e  f  a  a  p  n  n  w  q  o  s  k  n |
+ 5| m  p  e  i  a  a  k  a  m  f  p  p  n  a  t  w  r  x  o  l |
+ 6| l  p  n  p  c  r  z  g  r  z  k  i  a  f  d  i  k  b  j  a |
+ 7| u  r  s  n  u  g  r  i  i  k  e  e  u  n  c  a  n  p  g  n |
+ 8| o  u  z  t  v  u  z  u  l  i  n  k  i  f  k  n  y  a  y  d |
+ 9| a  s  x  o  c  w  q  q  l  h  y  n  c  q  i  a  m  n  h  a |
+10| m  s  f  r  a  n  c  e  q  u  a  c  v  v  w  y  a  a  u  z |
+11| e  i  r  p  i  c  e  l  a  n  d  b  s  r  s  m  d  f  l  c |
+12| x  a  y  c  o  r  s  l  x  i  r  w  o  z  r  n  y  u  o  w |
+13| i  b  g  r  j  l  a  k  m  z  t  n  f  e  i  r  v  j  k  l |
+14| c  k  k  d  n  g  a  m  l  p  m  a  g  x  o  n  t  w  l  o |
+15| o  h  n  d  u  b  v  n  m  k  j  a  l  r  p  o  d  b  h  y |
+16| k  x  i  t  s  y  k  r  d  f  e  j  t  y  q  t  v  i  a  o |
+17| b  l  r  n  i  u  a  r  e  g  y  p  t  n  u  s  u  s  a  o |
+18| b  o  u  l  a  s  w  i  t  z  e  r  l  a  n  d  u  o  u  n |
+19| p  f  i  v  l  b  t  l  a  g  v  v  c  a  u  i  i  x  a  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+france: ((10, 2), (10, 7))
+russia: ((7, 1), (12, 1))
+australia: ((0, 9), (0, 17))
+egypt: ((17, 8), (17, 12))
+kenya: ((6, 10), (10, 10))
+mexico: ((10, 0), (15, 0))
+usa: ((17, 16), (17, 18))
+sweden: ((1, 2), (6, 2))
+finland: ((2, 19), (8, 19))
+iceland: ((11, 4), (11, 10))
+switzerland: ((18, 5), (18, 15))
+greece: ((0, 2), (0, 7))
+
+DP Time taken: 0.0019 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+france: ((10, 2), (10, 7))
+russia: ((7, 1), (12, 1))
+australia: ((0, 9), (0, 17))
+egypt: ((17, 8), (17, 12))
+kenya: ((6, 10), (10, 10))
+mexico: ((10, 0), (15, 0))
+usa: ((17, 16), (17, 18))
+sweden: ((1, 2), (6, 2))
+finland: ((2, 19), (8, 19))
+iceland: ((11, 4), (11, 10))
+switzerland: ((18, 5), (18, 15))
+greece: ((0, 2), (0, 7))
+
+Naïve Time taken: 0.0776 seconds
+Naïve Memory used: 0.00 MB

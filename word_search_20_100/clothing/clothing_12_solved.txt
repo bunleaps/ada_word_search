@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| y  a  j  v  d  p  u  s  n  e  a  k  e  r  s  g  d  e  a  g |
+ 1| m  j  e  e  h  i  e  t  o  w  r  l  s  h  c  t  s  v  v  r |
+ 2| n  k  q  d  w  j  w  c  b  w  f  x  k  m  q  o  w  s  r  d |
+ 3| w  u  u  r  r  i  b  k  e  i  p  u  i  j  e  j  a  o  q  s |
+ 4| g  l  o  v  e  s  j  j  h  t  b  f  r  n  g  f  o  t  q  z |
+ 5| g  v  h  j  g  w  z  t  a  u  t  c  t  i  n  a  y  u  e  b |
+ 6| s  m  m  v  p  p  l  i  t  c  h  e  p  r  l  a  s  n  r  h |
+ 7| v  s  t  z  w  e  a  y  c  m  j  e  a  n  s  f  n  y  u  b |
+ 8| r  e  h  a  b  g  i  n  a  y  j  a  c  k  e  t  w  g  b  a |
+ 9| c  d  h  o  w  o  n  r  t  f  t  c  l  s  i  g  s  y  h  i |
+10| g  t  c  o  e  m  o  g  w  s  c  f  s  r  d  j  z  i  w  d |
+11| e  j  k  h  v  s  s  p  s  j  w  e  s  y  i  v  g  l  z  q |
+12| p  b  o  i  q  k  r  c  i  u  r  y  w  t  t  b  w  n  v  e |
+13| e  a  u  q  c  n  b  i  a  d  d  o  e  i  m  o  h  o  p  w |
+14| k  k  n  o  f  s  m  m  s  r  h  n  a  u  h  o  h  x  c  y |
+15| n  r  s  s  k  w  u  n  k  o  f  t  t  x  y  t  i  o  f  m |
+16| t  r  p  v  s  k  s  h  i  r  t  c  e  o  z  s  t  v  q  i |
+17| f  q  c  t  i  z  l  j  p  p  u  u  r  d  i  v  t  i  e  q |
+18| p  a  j  a  m  a  s  g  n  p  a  u  n  i  f  o  r  m  e  s |
+19| w  i  h  l  j  k  g  g  a  l  i  x  a  j  h  q  w  e  k  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+shirt: ((16, 6), (16, 10))
+jacket: ((8, 10), (8, 15))
+skirt: ((1, 12), (5, 12))
+sweater: ((11, 12), (17, 12))
+gloves: ((4, 0), (4, 5))
+hat: ((4, 8), (6, 8))
+jeans: ((7, 10), (7, 14))
+sneakers: ((0, 7), (0, 14))
+boots: ((12, 15), (16, 15))
+tie: ((17, 16), (17, 18))
+pajamas: ((18, 0), (18, 6))
+uniform: ((18, 11), (18, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+shirt: ((16, 6), (16, 10))
+jacket: ((8, 10), (8, 15))
+skirt: ((1, 12), (5, 12))
+sweater: ((11, 12), (17, 12))
+gloves: ((4, 0), (4, 5))
+hat: ((4, 8), (6, 8))
+jeans: ((7, 10), (7, 14))
+sneakers: ((0, 7), (0, 14))
+boots: ((12, 15), (16, 15))
+tie: ((17, 16), (17, 18))
+pajamas: ((18, 0), (18, 6))
+uniform: ((18, 11), (18, 17))
+
+Naïve Time taken: 0.0538 seconds
+Naïve Memory used: 0.00 MB

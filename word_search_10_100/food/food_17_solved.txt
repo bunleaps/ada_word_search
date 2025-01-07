@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| z  p  a  s  t  a  k  n  s  k |
+ 1| p  i  z  z  a  h  n  h  t  r |
+ 2| s  o  u  p  c  a  k  e  e  s |
+ 3| s  a  n  d  w  i  c  h  a  u |
+ 4| n  o  o  d  l  e  s  x  k  s |
+ 5| a  m  b  u  r  g  e  r  j  h |
+ 6| t  a  c  o  c  u  r  r  y  i |
+ 7| b  u  r  r  i  t  o  b  w  c |
+ 8| g  p  i  e  s  a  l  a  d  q |
+ 9| b  v  h  r  i  c  e  m  y  s |
+  +------------------------------+
+Dynamic Programming Solution:
+pizza: ((1, 0), (1, 4))
+burger: ((5, 2), (5, 7))
+pasta: ((0, 1), (0, 5))
+sandwich: ((3, 0), (3, 7))
+salad: ((8, 4), (8, 8))
+soup: ((2, 0), (2, 3))
+steak: ((0, 8), (4, 8))
+sushi: ((2, 9), (6, 9))
+rice: ((9, 3), (9, 6))
+noodles: ((4, 0), (4, 6))
+taco: ((6, 0), (6, 3))
+burrito: ((7, 0), (7, 6))
+curry: ((6, 4), (6, 8))
+cake: ((2, 4), (2, 7))
+pie: ((8, 1), (8, 3))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((1, 0), (1, 4))
+burger: ((5, 2), (5, 7))
+pasta: ((0, 1), (0, 5))
+sandwich: ((3, 0), (3, 7))
+salad: ((8, 4), (8, 8))
+soup: ((2, 0), (2, 3))
+steak: ((0, 8), (4, 8))
+sushi: ((2, 9), (6, 9))
+rice: ((9, 3), (9, 6))
+noodles: ((4, 0), (4, 6))
+taco: ((6, 0), (6, 3))
+burrito: ((7, 0), (7, 6))
+curry: ((6, 4), (6, 8))
+cake: ((2, 4), (2, 7))
+pie: ((8, 1), (8, 3))
+
+Naïve Time taken: 0.0070 seconds
+Naïve Memory used: 0.00 MB

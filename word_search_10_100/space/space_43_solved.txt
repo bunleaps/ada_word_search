@@ -1,0 +1,41 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| m  d  v  a  h  s  a  b  n  o |
+ 1| x  o  x  i  s  a  s  l  e  r |
+ 2| r  k  o  l  n  t  t  a  b  c |
+ 3| g  o  v  n  r  e  r  c  u  o |
+ 4| a  y  c  a  o  l  o  k  l  m |
+ 5| l  k  t  k  f  l  n  h  a  e |
+ 6| a  s  k  x  e  i  a  o  d  t |
+ 7| x  o  r  b  i  t  u  l  j  e |
+ 8| y  p  l  a  n  e  t  e  u  d |
+ 9| a  s  t  e  r  o  i  d  o  u |
+  +------------------------------+
+Dynamic Programming Solution:
+planet: ((8, 1), (8, 6))
+galaxy: ((3, 0), (8, 0))
+asteroid: ((9, 0), (9, 7))
+comet: ((2, 9), (6, 9))
+nebula: ((0, 8), (5, 8))
+blackhole: ((0, 7), (8, 7))
+satellite: ((0, 5), (8, 5))
+astronaut: ((0, 6), (8, 6))
+orbit: ((7, 1), (7, 5))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((8, 1), (8, 6))
+galaxy: ((3, 0), (8, 0))
+asteroid: ((9, 0), (9, 7))
+comet: ((2, 9), (6, 9))
+nebula: ((0, 8), (5, 8))
+blackhole: ((0, 7), (8, 7))
+satellite: ((0, 5), (8, 5))
+astronaut: ((0, 6), (8, 6))
+orbit: ((7, 1), (7, 5))
+
+Naïve Time taken: 0.0090 seconds
+Naïve Memory used: 0.00 MB

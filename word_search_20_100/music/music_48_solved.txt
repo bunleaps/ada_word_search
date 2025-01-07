@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| n  m  c  o  n  c  e  r  t  n  v  v  s  u  f  e  s  i  g  p |
+ 1| v  i  w  a  v  q  q  c  m  l  p  b  j  g  u  u  f  d  j  e |
+ 2| m  c  v  f  h  t  e  h  n  e  x  l  a  z  t  q  q  g  o  k |
+ 3| r  r  w  r  o  z  t  s  n  t  s  r  w  i  g  z  a  y  j  e |
+ 4| e  o  v  e  h  y  d  o  k  e  t  y  g  g  e  n  k  q  h  l |
+ 5| t  p  a  y  h  r  h  c  n  s  g  q  g  y  u  c  u  f  u  m |
+ 6| x  h  d  r  f  p  x  o  e  p  p  i  a  n  o  i  n  w  g  e |
+ 7| t  o  j  f  o  y  h  h  l  r  y  c  e  o  a  h  t  x  c  l |
+ 8| f  n  d  x  h  p  c  w  d  y  n  c  u  f  d  a  p  a  h  o |
+ 9| b  e  a  j  d  r  p  y  z  m  r  o  u  m  n  r  j  c  r  d |
+10| i  s  e  a  o  d  n  h  b  d  s  i  t  i  s  m  d  l  m  y |
+11| j  j  e  r  r  i  u  k  h  j  r  k  c  e  n  o  e  n  d  c |
+12| g  h  x  o  l  g  s  r  b  g  m  u  f  s  h  n  d  g  j  s |
+13| x  i  h  o  d  r  z  t  q  n  u  h  m  l  e  y  v  k  w  o |
+14| h  c  i  e  e  b  e  k  r  x  l  l  s  s  u  h  a  u  w  h |
+15| b  v  s  g  t  p  t  k  b  a  n  d  k  l  t  t  o  o  b  o |
+16| i  y  n  n  m  e  m  l  i  z  z  g  a  r  u  p  e  w  p  e |
+17| j  i  y  u  i  a  x  p  r  i  v  a  k  k  z  k  x  r  k  m |
+18| s  b  r  b  c  k  h  h  s  b  f  h  k  g  g  f  a  v  h  s |
+19| r  t  y  l  x  p  q  s  p  w  a  l  b  u  m  q  u  y  x  w |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+piano: ((6, 10), (6, 14))
+band: ((15, 8), (15, 11))
+melody: ((5, 19), (10, 19))
+harmony: ((7, 15), (13, 15))
+concert: ((0, 2), (0, 8))
+album: ((19, 10), (19, 14))
+microphone: ((0, 1), (9, 1))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+piano: ((6, 10), (6, 14))
+band: ((15, 8), (15, 11))
+melody: ((5, 19), (10, 19))
+harmony: ((7, 15), (13, 15))
+concert: ((0, 2), (0, 8))
+album: ((19, 10), (19, 14))
+microphone: ((0, 1), (9, 1))
+
+Naïve Time taken: 0.0665 seconds
+Naïve Memory used: 0.00 MB

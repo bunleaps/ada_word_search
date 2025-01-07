@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| u  i  c  h  a  l  k  x  g  c |
+ 1| g  s  t  a  p  l  e  r  p  n |
+ 2| l  f  r  q  n  a  r  b  a  s |
+ 3| u  e  y  e  d  l  a  o  p  p |
+ 4| e  d  p  x  u  y  s  o  e  e |
+ 5| m  a  r  k  e  r  e  k  r  n |
+ 6| s  c  i  s  s  o  r  s  g  c |
+ 7| p  l  r  u  l  e  r  a  s  i |
+ 8| v  p  x  m  r  o  b  m  g  l |
+ 9| n  o  t  e  b  o  o  k  b  z |
+  +------------------------------+
+Dynamic Programming Solution:
+pencil: ((3, 9), (8, 9))
+pen: ((3, 9), (5, 9))
+notebook: ((9, 0), (9, 7))
+ruler: ((7, 2), (7, 6))
+eraser: ((1, 6), (6, 6))
+marker: ((5, 0), (5, 5))
+chalk: ((0, 2), (0, 6))
+book: ((9, 4), (9, 7))
+glue: ((1, 0), (4, 0))
+scissors: ((6, 0), (6, 7))
+paper: ((1, 8), (5, 8))
+stapler: ((1, 1), (1, 7))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pencil: ((3, 9), (8, 9))
+pen: ((3, 9), (5, 9))
+notebook: ((9, 0), (9, 7))
+ruler: ((7, 2), (7, 6))
+eraser: ((1, 6), (6, 6))
+marker: ((5, 0), (5, 5))
+chalk: ((0, 2), (0, 6))
+book: ((9, 4), (9, 7))
+glue: ((1, 0), (4, 0))
+scissors: ((6, 0), (6, 7))
+paper: ((1, 8), (5, 8))
+stapler: ((1, 1), (1, 7))
+
+Naïve Time taken: 0.0090 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| i  l  u  f  i  r  e  f  i  g  h  t  e  r  j  a  k  c  c  z |
+ 1| x  p  v  q  y  p  h  o  t  o  g  r  a  p  h  e  r  a  f  u |
+ 2| z  i  o  p  g  t  h  g  r  l  m  e  c  h  a  n  i  c  n  h |
+ 3| y  b  z  l  s  c  m  a  q  c  h  e  f  o  r  c  j  c  j  e |
+ 4| s  y  i  o  i  p  k  v  r  w  w  d  t  y  u  o  k  o  w  c |
+ 5| c  c  d  t  n  c  c  k  t  t  n  l  o  i  y  l  o  u  y  d |
+ 6| l  r  i  j  h  q  e  s  e  r  i  k  p  c  b  o  x  n  d  l |
+ 7| e  u  h  e  v  t  i  k  s  n  t  s  r  a  t  w  n  t  k  k |
+ 8| f  k  n  q  n  t  g  i  a  b  g  w  t  u  h  o  s  a  m  k |
+ 9| y  v  g  u  n  t  h  a  f  d  v  i  f  e  t  y  r  n  u  q |
+10| p  s  u  e  r  o  i  d  r  c  p  r  n  w  e  y  w  t  s  z |
+11| h  b  d  t  v  s  h  s  g  c  e  f  x  e  q  e  c  i  i  p |
+12| k  y  x  t  p  i  e  g  t  y  h  m  y  y  e  o  c  a  c  w |
+13| d  c  i  e  c  i  n  i  w  e  q  i  f  c  v  r  l  f  i  b |
+14| a  d  c  a  n  e  l  a  x  i  k  v  t  u  e  s  y  a  a  y |
+15| e  w  v  c  r  s  l  o  k  l  i  n  a  e  n  s  u  r  n  q |
+16| d  k  u  h  f  g  c  o  t  c  i  o  m  k  c  u  j  m  c  n |
+17| f  i  g  e  v  q  p  w  q  w  r  i  t  e  r  t  m  e  n  t |
+18| j  i  k  r  n  l  v  p  r  o  g  r  a  m  m  e  r  r  v  r |
+19| d  a  z  b  b  p  f  r  f  m  u  p  v  r  g  e  x  c  u  v |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+teacher: ((12, 3), (18, 3))
+chef: ((3, 9), (3, 12))
+musician: ((8, 18), (15, 18))
+writer: ((17, 9), (17, 14))
+firefighter: ((0, 3), (0, 13))
+farmer: ((13, 17), (18, 17))
+mechanic: ((2, 10), (2, 17))
+accountant: ((1, 17), (10, 17))
+photographer: ((1, 5), (1, 16))
+programmer: ((18, 7), (18, 16))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+teacher: ((12, 3), (18, 3))
+chef: ((3, 9), (3, 12))
+musician: ((8, 18), (15, 18))
+writer: ((17, 9), (17, 14))
+firefighter: ((0, 3), (0, 13))
+farmer: ((13, 17), (18, 17))
+mechanic: ((2, 10), (2, 17))
+accountant: ((1, 17), (10, 17))
+photographer: ((1, 5), (1, 16))
+programmer: ((18, 7), (18, 16))
+
+Naïve Time taken: 0.0542 seconds
+Naïve Memory used: 0.00 MB

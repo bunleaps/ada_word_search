@@ -1,0 +1,37 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| m  o  u  n  t  a  i  n  t  c |
+ 1| s  l  k  r  l  c  l  g  o  o |
+ 2| t  f  a  e  i  o  i  e  i  u |
+ 3| r  o  u  k  o  v  g  t  d  n |
+ 4| e  r  w  h  e  a  e  n  y  t |
+ 5| e  e  c  n  l  h  a  r  j  r |
+ 6| t  s  v  l  c  l  k  x  c  y |
+ 7| l  t  i  a  s  r  o  a  d  j |
+ 8| j  v  e  i  p  a  r  k  w  v |
+ 9| u  b  h  d  e  s  e  r  t  w |
+  +------------------------------+
+Dynamic Programming Solution:
+park: ((8, 4), (8, 7))
+mountain: ((0, 0), (0, 7))
+forest: ((2, 1), (7, 1))
+desert: ((9, 3), (9, 8))
+country: ((0, 9), (6, 9))
+street: ((1, 0), (6, 0))
+road: ((7, 5), (7, 8))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+park: ((8, 4), (8, 7))
+mountain: ((0, 0), (0, 7))
+forest: ((2, 1), (7, 1))
+desert: ((9, 3), (9, 8))
+country: ((0, 9), (6, 9))
+street: ((1, 0), (6, 0))
+road: ((7, 5), (7, 8))
+
+Naïve Time taken: 0.0100 seconds
+Naïve Memory used: 0.00 MB

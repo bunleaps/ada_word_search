@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| r  s  v  l  s  g  w  p  a  y  b  c  z  s  h  l  o  k  n  w |
+ 1| a  y  t  m  p  g  v  e  h  b  t  e  e  t  h  c  y  s  b  p |
+ 2| j  v  r  o  c  r  y  m  z  e  l  z  m  o  i  k  s  h  h  n |
+ 3| c  b  w  r  m  e  p  u  l  f  k  n  e  e  k  z  d  o  r  e |
+ 4| c  b  k  u  s  a  p  n  l  c  m  b  z  d  t  u  z  u  r  k |
+ 5| m  i  h  z  v  r  c  h  a  k  r  m  h  p  j  k  h  l  x  q |
+ 6| x  t  w  c  w  w  f  h  f  d  w  q  n  e  c  k  l  d  k  f |
+ 7| g  j  v  h  t  g  f  j  p  x  e  i  f  e  z  n  p  e  c  i |
+ 8| o  f  t  e  h  b  x  x  h  e  a  r  t  f  a  e  t  r  l  v |
+ 9| z  b  c  s  w  g  h  m  r  o  l  p  r  n  g  r  u  l  f  c |
+10| j  r  c  t  n  t  q  n  s  d  l  k  o  c  b  a  j  s  v  i |
+11| x  a  j  a  j  d  z  b  a  x  m  i  x  q  i  r  y  h  d  r |
+12| n  i  c  o  d  m  i  e  h  s  o  m  b  d  r  m  r  s  j  x |
+13| i  n  r  n  s  k  h  k  s  r  u  s  k  f  l  n  o  d  x  r |
+14| s  w  a  g  w  w  t  q  k  v  t  y  g  x  u  r  f  i  n  l |
+15| v  h  b  r  p  j  s  a  i  p  h  m  q  d  e  i  e  d  h  e |
+16| q  w  x  a  z  m  i  b  n  j  w  u  p  g  r  x  m  o  a  g |
+17| v  c  p  y  c  c  n  o  s  e  q  k  n  f  o  o  t  j  f  k |
+18| b  m  s  j  s  k  w  x  y  s  e  i  x  x  h  f  t  o  e  i |
+19| w  u  d  f  g  d  i  e  t  i  f  u  p  g  w  t  l  u  p  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+foot: ((17, 13), (17, 16))
+leg: ((14, 19), (16, 19))
+arm: ((10, 15), (12, 15))
+ear: ((8, 9), (8, 11))
+mouth: ((11, 10), (15, 10))
+nose: ((17, 6), (17, 9))
+chest: ((6, 3), (10, 3))
+neck: ((6, 12), (6, 15))
+knee: ((3, 10), (3, 13))
+shoulder: ((1, 17), (8, 17))
+toe: ((18, 16), (18, 18))
+heart: ((8, 8), (8, 12))
+brain: ((9, 1), (13, 1))
+skin: ((13, 8), (16, 8))
+teeth: ((1, 10), (1, 14))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+foot: ((17, 13), (17, 16))
+leg: ((14, 19), (16, 19))
+arm: ((10, 15), (12, 15))
+ear: ((8, 9), (8, 11))
+mouth: ((11, 10), (15, 10))
+nose: ((17, 6), (17, 9))
+chest: ((6, 3), (10, 3))
+neck: ((6, 12), (6, 15))
+knee: ((3, 10), (3, 13))
+shoulder: ((1, 17), (8, 17))
+toe: ((18, 16), (18, 18))
+heart: ((8, 8), (8, 12))
+brain: ((9, 1), (13, 1))
+skin: ((13, 8), (16, 8))
+teeth: ((1, 10), (1, 14))
+
+Naïve Time taken: 0.0594 seconds
+Naïve Memory used: 0.00 MB

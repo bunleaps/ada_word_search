@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| m  c  a  a  f  r  p  z  g  d |
+ 1| t  r  m  e  r  e  f  i  i  n |
+ 2| i  o  p  l  o  p  i  n  r  m |
+ 3| g  c  h  e  g  t  s  s  a  m |
+ 4| e  o  i  p  l  i  h  e  f  a |
+ 5| r  d  b  h  i  l  u  c  f  m |
+ 6| h  i  i  a  o  e  p  t  e  m |
+ 7| y  l  a  n  n  b  e  a  r  a |
+ 8| z  e  n  t  s  n  a  k  e  l |
+ 9| r  a  p  b  i  r  d  u  m  v |
+  +------------------------------+
+Dynamic Programming Solution:
+mammal: ((3, 9), (8, 9))
+reptile: ((0, 5), (6, 5))
+amphibian: ((0, 2), (8, 2))
+bird: ((9, 3), (9, 6))
+fish: ((1, 6), (4, 6))
+insect: ((1, 7), (6, 7))
+lion: ((4, 4), (7, 4))
+tiger: ((1, 0), (5, 0))
+elephant: ((1, 3), (8, 3))
+giraffe: ((0, 8), (6, 8))
+crocodile: ((0, 1), (8, 1))
+snake: ((8, 4), (8, 8))
+frog: ((0, 4), (3, 4))
+bear: ((7, 5), (7, 8))
+ant: ((6, 3), (8, 3))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+mammal: ((3, 9), (8, 9))
+reptile: ((0, 5), (6, 5))
+amphibian: ((0, 2), (8, 2))
+bird: ((9, 3), (9, 6))
+fish: ((1, 6), (4, 6))
+insect: ((1, 7), (6, 7))
+lion: ((4, 4), (7, 4))
+tiger: ((1, 0), (5, 0))
+elephant: ((1, 3), (8, 3))
+giraffe: ((0, 8), (6, 8))
+crocodile: ((0, 1), (8, 1))
+snake: ((8, 4), (8, 8))
+frog: ((0, 4), (3, 4))
+bear: ((7, 5), (7, 8))
+ant: ((6, 3), (8, 3))
+
+Naïve Time taken: 0.0196 seconds
+Naïve Memory used: 0.00 MB

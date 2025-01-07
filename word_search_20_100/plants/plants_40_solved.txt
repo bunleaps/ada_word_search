@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| h  j  b  j  v  a  o  q  x  d  t  f  m  r  m  n  u  u  d  z |
+ 1| k  h  q  h  z  v  t  a  y  g  t  r  o  s  e  a  x  o  e  h |
+ 2| w  b  s  m  u  p  s  f  j  j  y  s  l  w  g  m  p  f  w  t |
+ 3| s  c  u  x  a  f  i  g  k  s  s  y  b  z  r  m  v  l  r  v |
+ 4| k  w  n  h  c  t  e  j  i  g  j  h  u  g  k  m  l  y  e  p |
+ 5| s  q  f  o  y  e  a  a  i  i  w  j  r  a  r  d  i  c  l  v |
+ 6| w  g  l  g  r  t  d  m  a  c  i  q  y  u  f  w  l  x  u  r |
+ 7| h  f  o  t  o  s  g  c  f  e  i  n  f  d  b  w  y  e  n  b |
+ 8| m  t  w  r  p  u  d  s  d  s  c  c  v  i  g  p  b  r  u  f |
+ 9| b  d  e  t  s  a  s  j  q  z  m  v  t  u  l  i  p  f  g  u |
+10| x  m  r  e  d  o  l  v  s  i  t  i  i  g  g  l  o  n  j  c |
+11| c  s  e  l  m  l  e  m  p  g  r  v  q  n  b  w  m  e  i  i |
+12| i  a  e  y  s  o  y  q  i  v  r  y  z  l  e  d  e  u  r  q |
+13| u  r  c  c  o  v  r  x  n  m  i  a  j  g  i  l  o  w  k  d |
+14| m  c  f  t  u  n  n  q  e  n  t  y  s  h  h  e  p  a  n  p |
+15| s  r  e  s  u  b  a  m  b  o  o  s  c  s  g  p  o  y  s  t |
+16| l  b  r  n  k  s  l  o  p  j  q  r  x  o  w  h  l  m  p  m |
+17| k  e  n  d  u  h  a  h  u  u  o  m  u  w  h  m  o  v  u  y |
+18| j  r  y  o  e  l  z  n  i  s  p  u  s  m  l  b  p  i  j  h |
+19| u  t  e  r  o  x  l  j  a  r  a  g  f  l  o  w  e  r  h  u |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+flower: ((19, 12), (19, 17))
+fern: ((14, 2), (17, 2))
+bamboo: ((15, 5), (15, 10))
+pine: ((11, 8), (14, 8))
+rose: ((1, 11), (1, 14))
+tulip: ((9, 12), (9, 16))
+sunflower: ((2, 2), (10, 2))
+lily: ((4, 16), (7, 16))
+ivy: ((10, 11), (12, 11))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+flower: ((19, 12), (19, 17))
+fern: ((14, 2), (17, 2))
+bamboo: ((15, 5), (15, 10))
+pine: ((11, 8), (14, 8))
+rose: ((1, 11), (1, 14))
+tulip: ((9, 12), (9, 16))
+sunflower: ((2, 2), (10, 2))
+lily: ((4, 16), (7, 16))
+ivy: ((10, 11), (12, 11))
+
+Naïve Time taken: 0.0693 seconds
+Naïve Memory used: 0.00 MB

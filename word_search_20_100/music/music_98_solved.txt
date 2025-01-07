@@ -1,0 +1,67 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| y  m  b  m  q  j  b  a  n  d  m  p  a  r  h  c  u  l  f  a |
+ 1| s  f  s  e  r  w  z  n  v  y  v  m  p  a  a  f  d  b  h  x |
+ 2| o  o  h  b  x  h  o  t  n  l  k  o  m  c  g  n  o  t  e  m |
+ 3| k  q  p  c  n  t  y  o  o  k  l  r  z  w  r  e  p  l  a  v |
+ 4| k  d  m  y  z  d  m  t  u  x  w  c  b  r  n  p  u  f  d  i |
+ 5| s  k  c  g  u  r  f  b  h  k  p  h  t  h  k  l  f  t  p  o |
+ 6| i  z  o  b  a  s  r  u  g  m  s  e  b  x  a  p  c  b  h  l |
+ 7| h  u  n  h  d  c  h  o  r  d  a  s  f  k  d  c  w  y  o  i |
+ 8| l  p  c  g  d  a  l  b  u  m  x  t  p  l  m  r  g  o  n  n |
+ 9| u  s  e  n  f  c  p  n  j  f  o  r  m  p  i  u  u  q  e  x |
+10| l  y  r  i  c  s  l  v  j  a  p  a  w  l  c  t  v  m  s  y |
+11| b  h  t  t  k  t  u  p  q  v  h  h  f  q  r  i  z  r  s  t |
+12| b  d  p  i  a  n  o  j  u  x  o  g  t  g  o  a  z  y  r  g |
+13| h  s  t  w  q  t  p  l  l  p  n  d  r  l  p  a  e  n  i  c |
+14| r  i  n  g  u  n  q  p  k  h  e  z  u  j  h  h  r  p  x  g |
+15| p  n  g  u  i  t  a  r  k  q  z  t  m  g  o  u  y  f  m  s |
+16| q  g  h  p  x  o  b  k  b  g  n  w  p  s  n  m  c  q  s  v |
+17| x  e  c  f  a  q  t  k  g  a  k  b  e  m  e  l  o  d  y  k |
+18| z  r  r  r  j  x  t  b  i  x  t  i  t  h  l  e  n  q  f  u |
+19| t  v  d  t  y  f  l  u  t  e  p  d  x  s  q  j  d  j  r  v |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((15, 2), (15, 7))
+piano: ((12, 2), (12, 6))
+violin: ((3, 19), (8, 19))
+flute: ((19, 5), (19, 9))
+saxophone: ((6, 10), (14, 10))
+trumpet: ((12, 12), (18, 12))
+singer: ((13, 1), (18, 1))
+band: ((0, 6), (0, 9))
+orchestra: ((2, 11), (10, 11))
+melody: ((17, 13), (17, 18))
+note: ((2, 15), (2, 18))
+chord: ((7, 5), (7, 9))
+concert: ((5, 2), (11, 2))
+lyrics: ((10, 0), (10, 5))
+album: ((8, 5), (8, 9))
+microphone: ((8, 14), (17, 14))
+headphones: ((1, 18), (10, 18))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((15, 2), (15, 7))
+piano: ((12, 2), (12, 6))
+violin: ((3, 19), (8, 19))
+flute: ((19, 5), (19, 9))
+saxophone: ((6, 10), (14, 10))
+trumpet: ((12, 12), (18, 12))
+singer: ((13, 1), (18, 1))
+band: ((0, 6), (0, 9))
+orchestra: ((2, 11), (10, 11))
+melody: ((17, 13), (17, 18))
+note: ((2, 15), (2, 18))
+chord: ((7, 5), (7, 9))
+concert: ((5, 2), (11, 2))
+lyrics: ((10, 0), (10, 5))
+album: ((8, 5), (8, 9))
+microphone: ((8, 14), (17, 14))
+headphones: ((1, 18), (10, 18))
+
+Naïve Time taken: 0.0424 seconds
+Naïve Memory used: 0.00 MB

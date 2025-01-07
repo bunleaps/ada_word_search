@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  k  x  b  j  b  u  r  g  e  r  v  a  e  s  f  c  y  y  u |
+ 1| d  u  r  j  b  p  c  o  t  i  q  o  v  r  p  c  o  m  u  d |
+ 2| f  c  u  q  j  s  f  t  h  j  t  p  s  v  a  b  o  f  n  o |
+ 3| p  l  g  x  s  e  p  c  u  i  c  r  l  u  e  l  k  d  v  y |
+ 4| j  q  x  f  k  a  i  j  r  a  b  q  y  d  h  c  i  t  b  k |
+ 5| m  r  m  x  n  w  l  r  y  q  z  f  q  m  p  i  e  a  j  t |
+ 6| g  u  v  a  d  q  u  a  f  b  z  v  c  f  o  u  s  c  w  p |
+ 7| n  k  l  n  e  b  u  c  d  h  a  o  p  a  s  t  a  o  i  q |
+ 8| t  e  a  c  z  k  f  h  k  b  z  z  e  c  h  l  o  v  l  u |
+ 9| u  s  i  s  l  r  z  o  i  g  c  c  f  w  v  u  d  l  q  k |
+10| p  r  a  e  o  j  u  c  c  t  h  u  p  e  z  a  c  l  g  u |
+11| g  i  k  x  u  u  m  o  e  x  e  r  g  n  e  n  l  r  h  r |
+12| i  a  z  n  x  x  p  l  c  f  e  r  h  r  s  q  q  e  e  m |
+13| c  n  k  z  l  w  y  a  r  x  s  y  b  z  f  p  c  y  s  u |
+14| x  i  u  r  a  k  i  t  e  b  e  i  s  t  e  a  k  p  u  i |
+15| k  b  p  m  v  l  o  e  a  m  f  d  b  u  g  d  n  u  s  w |
+16| g  h  i  x  x  p  m  z  m  t  u  b  k  q  p  g  b  q  h  t |
+17| c  i  l  k  k  z  b  m  u  n  i  q  u  h  x  g  b  a  i  y |
+18| s  e  l  b  z  e  e  y  h  b  u  f  b  j  t  c  k  b  r  a |
+19| e  t  z  s  d  x  h  n  o  o  d  l  e  s  d  o  m  f  e  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+burger: ((0, 5), (0, 10))
+pasta: ((7, 12), (7, 16))
+steak: ((14, 12), (14, 16))
+sushi: ((13, 18), (17, 18))
+noodles: ((19, 7), (19, 13))
+taco: ((4, 17), (7, 17))
+curry: ((9, 11), (13, 11))
+cheese: ((9, 10), (14, 10))
+chocolate: ((7, 7), (15, 7))
+icecream: ((9, 8), (16, 8))
+cookies: ((0, 16), (6, 16))
+pie: ((5, 14), (5, 16))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+burger: ((0, 5), (0, 10))
+pasta: ((7, 12), (7, 16))
+steak: ((14, 12), (14, 16))
+sushi: ((13, 18), (17, 18))
+noodles: ((19, 7), (19, 13))
+taco: ((4, 17), (7, 17))
+curry: ((9, 11), (13, 11))
+cheese: ((9, 10), (14, 10))
+chocolate: ((7, 7), (15, 7))
+icecream: ((9, 8), (16, 8))
+cookies: ((0, 16), (6, 16))
+pie: ((5, 14), (5, 16))
+
+Naïve Time taken: 0.0570 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  a  m  k  r  h  b  s  o  l  a  r  p  s  y  s  t  e  m  g |
+ 1| p  s  m  c  o  n  s  t  e  l  l  a  t  i  o  n  w  c  p  p |
+ 2| a  t  j  d  s  f  e  a  k  c  y  s  u  j  c  e  v  z  c  l |
+ 3| c  r  g  f  h  t  l  p  o  n  d  a  q  e  r  r  n  i  b  a |
+ 4| e  o  z  r  p  u  x  w  z  u  v  h  f  e  a  v  f  o  y  n |
+ 5| c  n  q  b  b  u  x  h  d  t  w  u  t  t  s  r  d  a  i  e |
+ 6| r  a  m  e  l  g  a  l  a  x  y  i  s  g  b  a  k  f  i  t |
+ 7| a  u  n  o  f  u  q  k  i  m  l  q  q  w  j  v  b  x  w  m |
+ 8| f  t  m  x  r  u  n  t  e  l  e  s  c  o  p  e  z  l  q  g |
+ 9| t  x  g  f  o  b  m  i  e  y  i  m  i  l  v  k  n  y  e  y |
+10| y  x  z  k  c  b  i  t  v  m  o  g  d  n  z  p  p  s  e  a |
+11| w  r  u  u  i  o  a  t  d  e  k  c  h  m  m  p  s  l  w  b |
+12| q  e  w  x  q  s  m  i  y  z  r  j  a  t  z  g  o  b  m  x |
+13| g  c  b  s  o  a  o  a  y  j  m  s  r  m  y  h  j  k  p  x |
+14| r  l  o  n  x  r  m  t  o  g  g  w  e  b  k  e  a  l  s  k |
+15| c  s  q  m  e  v  u  r  o  c  k  e  t  c  v  j  a  o  a  r |
+16| c  h  n  t  e  v  z  n  m  o  o  n  a  g  j  z  q  r  e  u |
+17| v  g  s  m  j  t  a  d  t  r  i  l  v  c  e  o  f  o  l  g |
+18| q  a  m  e  t  e  o  r  x  j  b  w  s  o  y  h  g  h  y  k |
+19| j  i  a  l  i  e  n  s  m  i  p  s  k  j  t  u  k  b  h  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+planet: ((1, 19), (6, 19))
+galaxy: ((6, 5), (6, 10))
+moon: ((16, 8), (16, 11))
+telescope: ((8, 7), (8, 15))
+rocket: ((15, 7), (15, 12))
+astronaut: ((0, 1), (8, 1))
+spacecraft: ((0, 0), (9, 0))
+meteor: ((18, 2), (18, 7))
+constellation: ((1, 3), (1, 15))
+aliens: ((19, 2), (19, 7))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((1, 19), (6, 19))
+galaxy: ((6, 5), (6, 10))
+moon: ((16, 8), (16, 11))
+telescope: ((8, 7), (8, 15))
+rocket: ((15, 7), (15, 12))
+astronaut: ((0, 1), (8, 1))
+spacecraft: ((0, 0), (9, 0))
+meteor: ((18, 2), (18, 7))
+constellation: ((1, 3), (1, 15))
+aliens: ((19, 2), (19, 7))
+
+Naïve Time taken: 0.0511 seconds
+Naïve Memory used: 0.00 MB

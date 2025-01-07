@@ -1,0 +1,69 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| j  c  t  n  s  z  g  z  y  q  t  d  o  c  t  o  r  b  u  f |
+ 1| a  r  c  h  i  t  e  c  t  l  d  b  m  j  p  z  j  m  v  c |
+ 2| z  p  f  j  h  e  a  i  a  f  o  t  u  g  d  f  j  t  h  m |
+ 3| w  h  i  x  j  m  j  p  m  e  c  h  a  n  i  c  z  c  p  j |
+ 4| k  o  r  o  b  p  y  r  j  l  g  q  j  a  u  f  i  s  o  z |
+ 5| s  t  e  a  p  h  s  o  w  n  n  j  g  w  c  m  k  w  l  t |
+ 6| n  o  f  s  z  z  c  g  f  u  m  c  s  n  w  v  m  r  i  a |
+ 7| z  g  i  f  o  m  i  r  d  e  n  t  i  s  t  h  u  f  c  n |
+ 8| m  r  g  a  z  t  e  a  c  h  e  r  d  k  v  o  s  k  e  h |
+ 9| j  a  h  r  i  h  n  m  j  v  u  g  d  y  m  v  i  w  u  q |
+10| j  p  t  m  l  h  t  m  x  g  b  k  b  g  t  x  c  d  r  u |
+11| j  h  e  e  o  e  i  e  j  d  y  b  c  i  q  j  i  u  i  n |
+12| u  e  r  r  h  h  s  r  m  l  y  l  x  t  h  s  a  q  x  n |
+13| w  r  w  v  p  s  t  z  m  j  s  r  d  k  w  h  n  l  x  a |
+14| r  w  e  n  g  i  n  e  e  r  j  q  t  n  u  r  s  e  j  r |
+15| i  w  w  s  m  b  p  i  c  l  t  o  r  c  t  y  l  i  t  t |
+16| t  l  a  w  y  e  r  w  g  h  l  y  x  q  b  v  m  o  l  i |
+17| e  n  k  b  e  v  t  n  y  i  e  e  m  h  h  z  r  u  k  s |
+18| r  u  k  s  k  m  y  o  p  g  f  f  y  g  z  f  n  z  x  t |
+19| d  m  s  a  c  c  o  u  n  t  a  n  t  i  i  v  a  i  c  a |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+teacher: ((8, 5), (8, 11))
+doctor: ((0, 11), (0, 16))
+engineer: ((14, 2), (14, 9))
+lawyer: ((16, 1), (16, 6))
+nurse: ((14, 13), (14, 17))
+artist: ((13, 19), (18, 19))
+musician: ((6, 16), (13, 16))
+writer: ((13, 0), (18, 0))
+scientist: ((5, 6), (13, 6))
+architect: ((1, 0), (1, 8))
+firefighter: ((2, 2), (12, 2))
+police: ((3, 18), (8, 18))
+farmer: ((7, 3), (12, 3))
+mechanic: ((3, 8), (3, 15))
+accountant: ((19, 3), (19, 12))
+dentist: ((7, 8), (7, 14))
+photographer: ((2, 1), (13, 1))
+programmer: ((3, 7), (12, 7))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+teacher: ((8, 5), (8, 11))
+doctor: ((0, 11), (0, 16))
+engineer: ((14, 2), (14, 9))
+lawyer: ((16, 1), (16, 6))
+nurse: ((14, 13), (14, 17))
+artist: ((13, 19), (18, 19))
+musician: ((6, 16), (13, 16))
+writer: ((13, 0), (18, 0))
+scientist: ((5, 6), (13, 6))
+architect: ((1, 0), (1, 8))
+firefighter: ((2, 2), (12, 2))
+police: ((3, 18), (8, 18))
+farmer: ((7, 3), (12, 3))
+mechanic: ((3, 8), (3, 15))
+accountant: ((19, 3), (19, 12))
+dentist: ((7, 8), (7, 14))
+photographer: ((2, 1), (13, 1))
+programmer: ((3, 7), (12, 7))
+
+Naïve Time taken: 0.0392 seconds
+Naïve Memory used: 0.00 MB

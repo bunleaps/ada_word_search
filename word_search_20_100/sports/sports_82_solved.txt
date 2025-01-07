@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| h  v  o  l  l  e  y  b  a  l  l  a  c  v  g  t  b  b  d  e |
+ 1| z  g  i  a  r  c  h  e  r  y  o  l  g  r  j  m  t  s  a  q |
+ 2| s  n  o  w  b  o  a  r  d  i  n  g  g  g  n  s  s  p  r  m |
+ 3| g  y  m  n  a  s  t  i  c  s  v  f  l  c  o  l  k  y  h  p |
+ 4| a  o  p  m  a  r  a  t  h  o  n  q  g  d  j  p  a  c  g  e |
+ 5| i  t  e  n  n  i  s  y  k  e  m  u  u  n  g  l  t  n  d  z |
+ 6| u  y  s  x  v  a  x  i  s  x  f  j  z  n  l  g  i  l  b  u |
+ 7| l  z  h  k  o  d  m  u  o  z  e  j  i  a  n  l  n  w  k  o |
+ 8| y  c  z  o  i  x  u  e  c  t  k  v  b  i  t  a  g  p  p  q |
+ 9| g  y  q  y  c  i  a  v  c  t  i  t  c  s  f  m  o  e  y  p |
+10| o  c  n  t  c  k  n  l  e  d  e  n  e  s  g  m  w  m  d  u |
+11| l  l  c  s  u  p  e  g  r  k  e  r  z  b  p  o  o  g  n  k |
+12| f  i  d  p  h  p  o  y  s  f  w  n  m  z  h  z  n  u  t  p |
+13| c  n  f  d  j  d  b  a  s  e  b  a  l  l  e  i  p  e  g  b |
+14| p  g  a  p  h  h  b  i  i  z  n  n  z  t  l  g  k  n  g  o |
+15| r  h  s  w  i  m  m  i  n  g  b  u  a  i  y  c  i  n  g  x |
+16| t  e  h  z  y  r  u  g  b  y  m  r  a  v  i  f  i  p  a  i |
+17| g  o  c  l  o  t  l  j  w  r  a  s  t  r  r  w  h  k  k  n |
+18| s  z  y  i  e  f  m  f  k  k  d  i  c  u  o  i  t  z  a  g |
+19| a  b  g  i  z  j  n  u  t  g  p  s  s  r  x  i  g  h  d  d |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+soccer: ((6, 8), (11, 8))
+baseball: ((13, 6), (13, 13))
+tennis: ((5, 1), (5, 6))
+golf: ((9, 0), (12, 0))
+volleyball: ((0, 1), (0, 10))
+rugby: ((16, 5), (16, 9))
+cycling: ((8, 1), (14, 1))
+skating: ((2, 16), (8, 16))
+archery: ((1, 3), (1, 9))
+boxing: ((13, 19), (18, 19))
+gymnastics: ((3, 0), (3, 9))
+marathon: ((4, 3), (4, 10))
+swimming: ((15, 2), (15, 9))
+snowboarding: ((2, 0), (2, 11))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+soccer: ((6, 8), (11, 8))
+baseball: ((13, 6), (13, 13))
+tennis: ((5, 1), (5, 6))
+golf: ((9, 0), (12, 0))
+volleyball: ((0, 1), (0, 10))
+rugby: ((16, 5), (16, 9))
+cycling: ((8, 1), (14, 1))
+skating: ((2, 16), (8, 16))
+archery: ((1, 3), (1, 9))
+boxing: ((13, 19), (18, 19))
+gymnastics: ((3, 0), (3, 9))
+marathon: ((4, 3), (4, 10))
+swimming: ((15, 2), (15, 9))
+snowboarding: ((2, 0), (2, 11))
+
+Naïve Time taken: 0.0711 seconds
+Naïve Memory used: 0.00 MB

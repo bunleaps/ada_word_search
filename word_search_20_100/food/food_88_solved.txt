@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| m  s  r  i  g  j  f  t  f  o  s  d  h  e  q  v  m  d  h  p |
+ 1| g  q  x  j  i  t  n  c  a  r  m  t  z  p  p  t  q  d  q  c |
+ 2| d  c  o  o  k  i  e  s  k  h  s  p  e  z  h  i  g  v  w  h |
+ 3| s  a  d  b  i  v  w  c  f  s  m  t  m  a  x  b  z  a  q  o |
+ 4| c  d  w  h  u  c  y  t  k  a  k  a  m  s  k  w  n  z  r  c |
+ 5| j  y  s  o  y  r  t  o  e  h  t  k  n  x  v  a  d  j  a  o |
+ 6| m  u  a  u  y  c  r  r  c  d  o  j  a  x  r  a  c  z  q  l |
+ 7| s  l  m  a  m  b  c  i  f  p  g  m  x  a  l  p  g  g  n  a |
+ 8| b  g  c  m  b  e  w  e  t  u  g  d  f  a  e  e  a  o  a  t |
+ 9| l  c  o  w  c  d  b  f  e  o  k  z  s  r  i  c  e  l  x  e |
+10| h  n  d  i  n  l  t  u  e  p  i  e  n  y  v  j  o  c  v  s |
+11| z  a  p  a  i  c  c  q  r  v  j  f  u  u  h  a  a  b  j  b |
+12| z  t  s  o  r  q  j  i  i  g  b  z  g  n  n  c  o  r  v  s |
+13| k  t  q  b  p  a  s  t  a  h  e  l  h  p  o  h  j  e  t  h |
+14| p  i  l  e  w  i  c  c  c  l  q  r  i  k  o  e  m  a  a  v |
+15| h  s  b  j  e  m  t  i  z  u  w  r  m  j  d  e  m  d  c  e |
+16| j  m  o  n  k  o  h  r  a  l  r  f  k  a  l  s  k  t  o  b |
+17| i  d  k  u  q  n  k  q  h  n  e  r  b  u  e  e  e  d  m  d |
+18| d  x  r  d  p  p  q  r  z  a  o  d  y  s  s  z  w  p  b  a |
+19| o  r  m  n  f  q  d  p  b  c  a  k  e  z  t  n  p  q  o  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pasta: ((13, 4), (13, 8))
+rice: ((9, 13), (9, 16))
+noodles: ((12, 14), (18, 14))
+taco: ((13, 18), (16, 18))
+bread: ((11, 17), (15, 17))
+cheese: ((12, 15), (17, 15))
+chocolate: ((1, 19), (9, 19))
+cake: ((19, 9), (19, 12))
+cookies: ((2, 1), (2, 7))
+pie: ((10, 9), (10, 11))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pasta: ((13, 4), (13, 8))
+rice: ((9, 13), (9, 16))
+noodles: ((12, 14), (18, 14))
+taco: ((13, 18), (16, 18))
+bread: ((11, 17), (15, 17))
+cheese: ((12, 15), (17, 15))
+chocolate: ((1, 19), (9, 19))
+cake: ((19, 9), (19, 12))
+cookies: ((2, 1), (2, 7))
+pie: ((10, 9), (10, 11))
+
+Naïve Time taken: 0.0670 seconds
+Naïve Memory used: 0.00 MB

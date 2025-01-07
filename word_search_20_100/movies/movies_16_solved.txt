@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| p  a  d  c  y  f  x  f  s  s  e  q  u  e  l  y  t  h  k  i |
+ 1| b  r  x  t  i  d  k  g  v  q  o  z  v  f  v  c  w  o  r  n |
+ 2| a  b  o  c  n  n  i  g  q  d  p  i  d  t  v  f  s  r  r  z |
+ 3| w  f  b  d  o  v  e  r  a  r  f  d  p  b  r  m  e  r  x  k |
+ 4| a  s  d  v  u  z  t  m  e  z  p  i  s  g  e  r  o  o  y  x |
+ 5| r  z  d  y  t  c  k  r  a  c  r  o  e  w  n  y  a  r  r  c |
+ 6| d  f  c  b  u  f  e  t  h  c  t  d  n  e  u  s  e  i  k  s |
+ 7| u  f  d  t  q  n  f  r  s  d  j  o  g  d  t  t  v  n  s  d |
+ 8| b  u  q  r  h  r  t  r  a  i  l  e  r  k  s  b  i  t  c  o |
+ 9| r  p  r  e  m  i  e  r  e  d  j  x  w  u  z  o  l  i  r  c |
+10| o  z  z  f  e  s  t  i  v  a  l  y  b  l  l  x  l  b  e  u |
+11| m  k  r  t  o  t  m  w  w  a  d  k  p  s  s  o  a  k  e  m |
+12| a  b  t  r  q  h  u  l  p  e  c  l  e  s  o  f  i  d  n  e |
+13| n  k  e  x  g  r  s  l  m  o  t  w  e  x  o  f  n  r  p  n |
+14| c  h  t  o  t  i  i  o  l  f  p  r  x  b  d  i  h  a  l  t |
+15| e  n  x  c  r  l  c  b  s  t  t  c  x  d  d  c  j  m  a  a |
+16| o  w  c  o  m  l  a  o  x  c  a  r  o  s  y  e  p  a  y  r |
+17| j  r  t  b  v  e  l  v  a  h  i  w  g  r  t  k  l  a  c  y |
+18| a  c  r  r  v  r  w  q  z  m  p  r  u  i  n  a  w  n  p  p |
+19| a  a  n  i  m  a  t  i  o  n  n  z  n  d  i  n  o  m  i  w |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+trailer: ((8, 6), (8, 12))
+sequel: ((0, 9), (0, 14))
+premiere: ((9, 1), (9, 8))
+villain: ((7, 16), (13, 16))
+romance: ((9, 0), (15, 0))
+thriller: ((11, 5), (18, 5))
+drama: ((12, 17), (16, 17))
+horror: ((0, 17), (5, 17))
+animation: ((19, 1), (19, 9))
+musical: ((11, 6), (17, 6))
+documentary: ((7, 19), (17, 19))
+boxoffice: ((8, 15), (16, 15))
+award: ((2, 0), (6, 0))
+screenplay: ((7, 18), (16, 18))
+festival: ((10, 3), (10, 10))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+trailer: ((8, 6), (8, 12))
+sequel: ((0, 9), (0, 14))
+premiere: ((9, 1), (9, 8))
+villain: ((7, 16), (13, 16))
+romance: ((9, 0), (15, 0))
+thriller: ((11, 5), (18, 5))
+drama: ((12, 17), (16, 17))
+horror: ((0, 17), (5, 17))
+animation: ((19, 1), (19, 9))
+musical: ((11, 6), (17, 6))
+documentary: ((7, 19), (17, 19))
+boxoffice: ((8, 15), (16, 15))
+award: ((2, 0), (6, 0))
+screenplay: ((7, 18), (16, 18))
+festival: ((10, 3), (10, 10))
+
+Naïve Time taken: 0.0970 seconds
+Naïve Memory used: 0.00 MB

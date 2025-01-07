@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| w  b  l  z  w  p  e  m  a  q  g  o  b  c  y  f  i  i  z  l |
+ 1| i  y  f  z  o  n  q  a  n  n  y  k  g  h  z  j  x  r  s  d |
+ 2| o  s  c  c  a  m  e  r  a  t  y  j  w  i  j  c  n  j  v  m |
+ 3| t  o  o  t  f  j  v  t  a  b  l  e  t  p  s  k  g  l  l  v |
+ 4| e  f  d  j  s  m  a  r  t  p  h  o  n  e  j  x  x  j  u  m |
+ 5| y  t  i  q  s  o  c  i  u  x  r  m  r  o  b  o  t  g  y  d |
+ 6| u  w  n  e  n  u  w  g  l  e  r  n  e  f  c  e  g  s  p  v |
+ 7| j  a  g  k  h  s  o  q  t  g  q  i  w  r  a  r  f  z  t  v |
+ 8| l  r  t  i  y  e  p  u  v  j  m  d  v  f  n  p  w  u  i  r |
+ 9| n  e  w  e  t  k  p  r  s  i  i  y  c  l  e  l  x  q  n  d |
+10| f  b  j  v  v  m  e  l  i  m  o  n  i  t  o  r  l  r  t  n |
+11| a  p  w  i  o  c  a  y  a  n  v  c  i  e  j  c  i  i  e  e |
+12| c  f  s  c  p  y  e  j  b  v  t  l  l  q  c  u  x  v  r  t |
+13| z  j  j  t  j  w  d  v  y  o  l  e  y  o  y  r  u  e  n  w |
+14| p  y  s  q  u  i  p  e  d  e  a  s  r  q  u  u  k  A  e  o |
+15| d  e  l  q  b  x  i  d  t  r  x  r  v  d  p  d  k  I  t  r |
+16| h  b  o  g  y  e  q  a  c  l  o  r  d  a  o  g  l  s  g  k |
+17| v  i  i  d  o  e  s  u  w  m  d  n  y  t  q  l  x  w  q  x |
+18| d  b  a  k  f  q  x  w  g  l  o  k  e  a  f  d  v  a  x  y |
+19| p  o  y  p  e  g  u  s  u  c  h  a  r  d  w  a  r  e  o  z |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+smartphone: ((4, 4), (4, 13))
+tablet: ((3, 7), (3, 12))
+internet: ((8, 18), (15, 18))
+software: ((2, 1), (9, 1))
+hardware: ((19, 10), (19, 17))
+mouse: ((4, 5), (8, 5))
+monitor: ((10, 9), (10, 15))
+camera: ((2, 3), (2, 8))
+AI: ((14, 17), (15, 17))
+coding: ((2, 2), (7, 2))
+data: ((15, 13), (18, 13))
+network: ((10, 19), (16, 19))
+robot: ((5, 12), (5, 16))
+chip: ((0, 13), (3, 13))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+smartphone: ((4, 4), (4, 13))
+tablet: ((3, 7), (3, 12))
+internet: ((8, 18), (15, 18))
+software: ((2, 1), (9, 1))
+hardware: ((19, 10), (19, 17))
+mouse: ((4, 5), (8, 5))
+monitor: ((10, 9), (10, 15))
+camera: ((2, 3), (2, 8))
+AI: ((14, 17), (15, 17))
+coding: ((2, 2), (7, 2))
+data: ((15, 13), (18, 13))
+network: ((10, 19), (16, 19))
+robot: ((5, 12), (5, 16))
+chip: ((0, 13), (3, 13))
+
+Naïve Time taken: 0.0631 seconds
+Naïve Memory used: 0.00 MB

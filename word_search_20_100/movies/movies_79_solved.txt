@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| j  p  l  m  b  s  p  r  o  d  u  c  e  r  h  n  k  r  l  u |
+ 1| s  l  b  g  e  l  t  d  h  b  a  c  o  m  e  d  y  o  t  v |
+ 2| w  h  q  u  z  r  o  x  o  o  o  k  z  k  d  m  t  m  q  b |
+ 3| h  y  l  f  b  a  b  c  r  c  l  x  j  c  a  p  n  a  f  a |
+ 4| z  m  x  j  m  e  j  e  k  l  u  i  o  m  j  j  j  n  v  z |
+ 5| d  u  b  e  i  g  h  r  n  b  q  m  t  f  a  x  v  c  q  l |
+ 6| e  i  n  t  t  e  o  i  p  v  u  e  e  r  f  w  f  e  l  t |
+ 7| o  i  r  h  h  n  c  u  o  n  r  s  o  n  a  i  b  l  y  s |
+ 8| c  t  y  e  p  r  z  o  o  w  w  q  t  d  t  i  c  a  e  e |
+ 9| m  x  q  p  c  e  i  i  v  m  b  a  b  e  y  a  l  e  m  q |
+10| c  y  v  r  n  t  t  l  i  y  b  w  b  a  r  p  r  e  p  u |
+11| x  b  l  e  p  a  o  u  l  j  n  a  b  b  n  i  w  y  r  e |
+12| w  h  w  m  m  q  u  r  l  e  d  r  j  e  a  c  t  o  r  l |
+13| m  u  s  i  c  a  l  s  a  a  r  d  e  t  p  n  n  b  j  e |
+14| q  u  n  e  p  n  s  a  i  o  p  r  p  b  r  k  r  c  o  n |
+15| w  a  p  r  p  e  d  c  n  f  c  i  t  o  w  y  x  f  i  i |
+16| o  c  q  e  r  i  c  n  z  s  r  f  c  y  r  s  e  y  e  q |
+17| f  e  s  t  i  v  a  l  g  c  v  p  f  a  l  g  h  n  n  d |
+18| q  f  c  a  d  n  i  m  s  w  o  l  c  d  r  a  m  a  o  o |
+19| a  a  t  c  l  p  m  m  u  p  h  o  r  r  o  r  a  e  z  a |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+actor: ((12, 14), (12, 18))
+sequel: ((7, 19), (12, 19))
+premiere: ((9, 3), (16, 3))
+villain: ((9, 8), (15, 8))
+romance: ((0, 17), (6, 17))
+comedy: ((1, 11), (1, 16))
+drama: ((18, 13), (18, 17))
+horror: ((19, 10), (19, 15))
+musical: ((13, 0), (13, 6))
+producer: ((0, 6), (0, 13))
+award: ((9, 11), (13, 11))
+genre: ((5, 5), (9, 5))
+festival: ((17, 0), (17, 7))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+actor: ((12, 14), (12, 18))
+sequel: ((7, 19), (12, 19))
+premiere: ((9, 3), (16, 3))
+villain: ((9, 8), (15, 8))
+romance: ((0, 17), (6, 17))
+comedy: ((1, 11), (1, 16))
+drama: ((18, 13), (18, 17))
+horror: ((19, 10), (19, 15))
+musical: ((13, 0), (13, 6))
+producer: ((0, 6), (0, 13))
+award: ((9, 11), (13, 11))
+genre: ((5, 5), (9, 5))
+festival: ((17, 0), (17, 7))
+
+Naïve Time taken: 0.0748 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| x  f  j  m  v  a  m  u  s  i  c  i  a  n  k  g  t  n  w  p |
+ 1| m  n  b  g  k  v  d  r  u  c  m  t  n  t  d  k  i  b  n  m |
+ 2| g  r  e  j  l  p  e  h  a  p  h  t  a  n  p  o  r  j  s  w |
+ 3| e  q  a  m  z  e  c  j  g  t  s  r  n  v  f  v  i  x  d  p |
+ 4| y  b  m  v  n  d  h  x  q  i  o  n  g  e  h  u  w  m  z  f |
+ 5| t  c  y  i  i  x  e  f  t  t  m  r  o  i  j  e  r  e  y  b |
+ 6| m  g  g  x  y  g  f  n  c  d  e  g  q  l  f  o  i  c  x  b |
+ 7| l  n  a  s  w  t  e  o  t  y  s  t  l  r  h  s  t  h  n  d |
+ 8| e  x  r  g  u  i  d  z  w  i  w  y  e  s  n  y  e  a  z  a |
+ 9| r  d  a  a  c  j  y  a  e  n  s  m  i  n  b  k  r  n  o  v |
+10| f  a  p  s  z  s  l  d  v  t  m  t  k  i  p  f  h  i  c  g |
+11| a  r  t  m  u  k  p  k  f  a  d  n  u  r  s  e  i  c  i  x |
+12| r  c  b  u  e  k  i  v  r  l  i  r  w  j  t  q  f  z  a  b |
+13| m  h  a  q  z  w  l  g  d  t  e  a  c  h  e  r  o  i  r  a |
+14| e  i  k  l  h  f  o  d  u  j  p  o  l  i  c  e  j  m  t  z |
+15| r  t  c  c  w  r  t  o  o  m  o  q  x  b  p  f  z  j  i  z |
+16| o  e  m  q  p  e  r  f  i  r  e  f  i  g  h  t  e  r  s  n |
+17| z  c  k  o  h  n  h  e  n  s  i  a  o  x  t  v  j  k  t  i |
+18| s  t  p  h  o  t  o  g  r  a  p  h  e  r  w  j  e  d  f  b |
+19| w  m  e  o  a  c  c  o  u  n  t  a  n  t  c  l  r  v  b  t |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+teacher: ((13, 9), (13, 15))
+nurse: ((11, 11), (11, 15))
+chef: ((3, 6), (6, 6))
+pilot: ((11, 6), (15, 6))
+artist: ((12, 18), (17, 18))
+musician: ((0, 6), (0, 13))
+writer: ((4, 16), (9, 16))
+architect: ((10, 1), (18, 1))
+firefighter: ((16, 7), (16, 17))
+police: ((14, 10), (14, 15))
+farmer: ((10, 0), (15, 0))
+mechanic: ((4, 17), (11, 17))
+accountant: ((19, 4), (19, 13))
+photographer: ((18, 2), (18, 13))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+teacher: ((13, 9), (13, 15))
+nurse: ((11, 11), (11, 15))
+chef: ((3, 6), (6, 6))
+pilot: ((11, 6), (15, 6))
+artist: ((12, 18), (17, 18))
+musician: ((0, 6), (0, 13))
+writer: ((4, 16), (9, 16))
+architect: ((10, 1), (18, 1))
+firefighter: ((16, 7), (16, 17))
+police: ((14, 10), (14, 15))
+farmer: ((10, 0), (15, 0))
+mechanic: ((4, 17), (11, 17))
+accountant: ((19, 4), (19, 13))
+photographer: ((18, 2), (18, 13))
+
+Naïve Time taken: 0.0490 seconds
+Naïve Memory used: 0.00 MB

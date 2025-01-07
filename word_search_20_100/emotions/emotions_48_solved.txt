@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  m  b  a  r  r  a  s  s  e  d  v  l  t  p  f  b  h  x  o |
+ 1| o  j  i  i  f  d  f  r  u  s  t  r  a  t  e  d  y  m  d  w |
+ 2| s  e  u  c  a  x  v  v  w  d  v  h  z  j  o  n  l  t  i  o |
+ 3| q  y  m  p  o  l  i  r  s  g  s  a  o  r  c  a  w  c  s  r |
+ 4| x  v  m  x  r  n  j  b  r  z  e  n  k  p  c  v  s  b  a  r |
+ 5| d  p  n  q  z  o  f  y  e  e  x  x  u  r  e  u  u  c  p  i |
+ 6| n  j  h  q  g  g  u  u  n  g  l  q  c  r  o  f  p  b  p  e |
+ 7| f  x  n  v  j  n  l  d  s  x  n  a  h  i  y  r  u  k  o  d |
+ 8| q  l  f  e  s  a  d  n  g  e  h  j  x  m  t  y  m  l  i  d |
+ 9| x  f  u  o  r  s  j  o  b  f  d  n  q  e  t  e  x  t  n  x |
+10| d  l  q  w  j  v  u  y  n  a  a  v  z  l  d  u  d  s  t  y |
+11| h  s  t  o  a  o  o  m  x  v  r  k  i  h  o  l  q  e  e  b |
+12| c  p  c  u  y  p  y  u  k  b  u  u  q  a  y  n  m  f  d  b |
+13| f  x  e  a  u  q  a  f  s  b  g  a  w  p  b  i  e  c  s  a |
+14| j  b  u  n  r  f  x  n  u  u  z  h  f  p  s  h  x  l  j  i |
+15| n  n  l  v  j  e  e  c  g  l  u  c  k  y  u  i  v  g  y  e |
+16| x  c  c  d  h  q  d  f  p  r  o  z  i  u  c  m  t  j  n  u |
+17| s  u  r  p  r  i  s  e  d  x  y  n  p  o  i  r  u  i  m  g |
+18| c  l  u  x  g  m  l  f  x  b  k  g  n  x  x  v  z  k  y  w |
+19| z  g  k  o  d  v  c  u  c  o  g  z  k  o  k  f  v  t  c  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+happy: ((11, 13), (15, 13))
+sad: ((8, 4), (8, 6))
+surprised: ((17, 0), (17, 8))
+frustrated: ((1, 6), (1, 15))
+worried: ((1, 19), (7, 19))
+embarrassed: ((0, 0), (0, 10))
+disappointed: ((1, 18), (12, 18))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+happy: ((11, 13), (15, 13))
+sad: ((8, 4), (8, 6))
+surprised: ((17, 0), (17, 8))
+frustrated: ((1, 6), (1, 15))
+worried: ((1, 19), (7, 19))
+embarrassed: ((0, 0), (0, 10))
+disappointed: ((1, 18), (12, 18))
+
+Naïve Time taken: 0.0687 seconds
+Naïve Memory used: 0.00 MB

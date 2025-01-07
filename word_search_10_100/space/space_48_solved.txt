@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| o  o  s  q  s  n  b  t  r  r |
+ 1| r  p  a  a  t  o  l  e  t  o |
+ 2| b  l  t  s  a  j  a  l  g  c |
+ 3| i  a  e  t  r  k  c  e  a  k |
+ 4| t  n  l  e  d  c  k  s  l  e |
+ 5| m  e  l  r  a  o  h  c  a  t |
+ 6| o  t  i  o  w  m  o  o  x  x |
+ 7| o  j  t  i  e  e  l  p  y  i |
+ 8| n  h  e  d  b  t  e  e  r  e |
+ 9| n  n  e  b  u  l  a  r  k  w |
+  +------------------------------+
+Dynamic Programming Solution:
+planet: ((1, 1), (6, 1))
+star: ((0, 4), (3, 4))
+galaxy: ((2, 8), (7, 8))
+moon: ((5, 0), (8, 0))
+asteroid: ((1, 3), (8, 3))
+comet: ((4, 5), (8, 5))
+nebula: ((9, 1), (9, 6))
+blackhole: ((0, 6), (8, 6))
+satellite: ((0, 2), (8, 2))
+telescope: ((0, 7), (8, 7))
+rocket: ((0, 9), (5, 9))
+orbit: ((0, 0), (4, 0))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((1, 1), (6, 1))
+star: ((0, 4), (3, 4))
+galaxy: ((2, 8), (7, 8))
+moon: ((5, 0), (8, 0))
+asteroid: ((1, 3), (8, 3))
+comet: ((4, 5), (8, 5))
+nebula: ((9, 1), (9, 6))
+blackhole: ((0, 6), (8, 6))
+satellite: ((0, 2), (8, 2))
+telescope: ((0, 7), (8, 7))
+rocket: ((0, 9), (5, 9))
+orbit: ((0, 0), (4, 0))
+
+Naïve Time taken: 0.0080 seconds
+Naïve Memory used: 0.00 MB

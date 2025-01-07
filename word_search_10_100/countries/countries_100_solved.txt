@@ -1,0 +1,37 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| c  a  n  a  d  a  c  e  p  a |
+ 1| k  l  e  a  n  e  a  a  l  r |
+ 2| t  j  s  i  c  i  i  i  n  g |
+ 3| n  u  a  n  d  s  z  a  c  e |
+ 4| v  p  a  n  s  a  p  k  h  n |
+ 5| s  r  i  u  r  a  u  y  i  t |
+ 6| f  x  r  b  j  i  k  w  n  i |
+ 7| p  o  r  t  u  g  a  l  a  n |
+ 8| d  f  v  g  i  t  a  l  y  a |
+ 9| l  g  e  r  m  a  n  y  d  i |
+  +------------------------------+
+Dynamic Programming Solution:
+canada: ((0, 0), (0, 5))
+argentina: ((0, 9), (8, 9))
+germany: ((9, 1), (9, 7))
+italy: ((8, 4), (8, 8))
+portugal: ((7, 0), (7, 7))
+china: ((3, 8), (7, 8))
+uk: ((5, 6), (6, 6))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+canada: ((0, 0), (0, 5))
+argentina: ((0, 9), (8, 9))
+germany: ((9, 1), (9, 7))
+italy: ((8, 4), (8, 8))
+portugal: ((7, 0), (7, 7))
+china: ((3, 8), (7, 8))
+uk: ((5, 6), (6, 6))
+
+Naïve Time taken: 0.0147 seconds
+Naïve Memory used: 0.00 MB

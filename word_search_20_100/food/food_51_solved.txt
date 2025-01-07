@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| h  i  q  f  e  u  r  k  b  m  y  j  x  k  x  z  s  r  z  s |
+ 1| t  c  y  v  o  o  i  b  k  z  y  r  j  a  x  j  t  j  e  u |
+ 2| b  a  h  l  n  s  c  i  j  a  t  c  g  v  j  e  d  u  m  s |
+ 3| e  o  p  e  o  o  e  u  c  q  c  r  a  t  j  y  b  l  o  h |
+ 4| i  g  h  z  e  h  o  j  w  a  t  p  a  s  t  a  o  i  j  i |
+ 5| c  f  b  u  h  s  z  d  k  o  k  g  s  o  k  m  p  g  t  e |
+ 6| c  d  q  d  d  b  e  e  l  y  h  e  j  o  o  u  r  j  c  e |
+ 7| h  d  w  g  f  j  u  e  t  e  f  m  a  t  o  i  g  e  p  o |
+ 8| o  a  p  i  e  u  c  r  g  t  s  o  i  s  q  u  i  d  f  t |
+ 9| c  v  w  c  e  u  v  q  g  x  i  r  u  q  d  o  t  k  u  m |
+10| o  e  e  z  u  q  i  d  c  e  r  u  c  o  o  k  i  e  s  w |
+11| l  d  k  x  u  r  a  d  q  u  r  q  s  y  z  q  w  m  l  d |
+12| a  t  w  n  m  l  r  d  b  c  k  e  h  w  d  e  f  a  e  i |
+13| t  o  p  q  a  u  b  y  b  a  d  c  k  l  p  l  t  p  s  p |
+14| e  c  e  s  h  a  t  f  e  p  i  b  r  e  a  d  p  q  q  t |
+15| c  a  t  a  e  v  c  t  t  w  i  x  m  u  s  v  w  r  w  o |
+16| d  j  a  j  v  q  s  c  d  j  t  z  y  t  s  x  e  y  o  b |
+17| l  u  c  l  z  v  k  n  n  k  c  e  z  c  a  d  f  z  t  i |
+18| o  t  o  z  n  f  a  u  g  i  o  o  c  a  r  m  q  q  t  m |
+19| c  f  n  g  w  s  z  v  i  c  e  c  r  e  a  m  j  x  j  j |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pasta: ((4, 11), (4, 15))
+sushi: ((0, 19), (4, 19))
+rice: ((0, 6), (3, 6))
+taco: ((15, 2), (18, 2))
+bread: ((14, 11), (14, 15))
+chocolate: ((6, 0), (14, 0))
+icecream: ((19, 8), (19, 15))
+cookies: ((10, 12), (10, 18))
+pie: ((8, 2), (8, 4))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pasta: ((4, 11), (4, 15))
+sushi: ((0, 19), (4, 19))
+rice: ((0, 6), (3, 6))
+taco: ((15, 2), (18, 2))
+bread: ((14, 11), (14, 15))
+chocolate: ((6, 0), (14, 0))
+icecream: ((19, 8), (19, 15))
+cookies: ((10, 12), (10, 18))
+pie: ((8, 2), (8, 4))
+
+Naïve Time taken: 0.0590 seconds
+Naïve Memory used: 0.00 MB

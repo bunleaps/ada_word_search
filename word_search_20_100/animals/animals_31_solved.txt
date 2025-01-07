@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| g  k  b  u  t  t  e  r  f  l  y  g  i  r  a  f  f  e  r  d |
+ 1| l  k  t  a  b  o  s  c  w  q  y  o  l  b  q  l  p  n  i  f |
+ 2| m  w  i  h  n  e  t  r  m  l  f  z  i  c  n  k  e  e  g  f |
+ 3| c  i  v  z  o  t  a  r  f  a  i  k  o  p  l  g  k  a  n  w |
+ 4| s  r  q  a  f  n  g  r  t  h  m  f  n  c  z  a  b  a  a  p |
+ 5| l  p  o  u  b  q  e  d  u  i  m  m  l  m  n  e  i  r  w  h |
+ 6| s  z  d  c  x  s  r  y  t  g  e  f  a  s  w  b  w  t  o  q |
+ 7| r  z  k  m  o  i  b  o  b  l  y  p  r  l  i  i  i  n  l  t |
+ 8| h  h  g  e  b  d  u  o  a  e  n  m  g  h  g  o  n  f  f  l |
+ 9| i  j  j  k  n  r  i  h  j  d  e  i  p  s  q  m  s  a  z  g |
+10| n  n  f  r  o  g  w  l  n  s  s  m  u  d  t  i  e  v  s  k |
+11| o  o  i  a  d  k  w  t  e  u  a  r  h  p  d  d  c  y  k  a |
+12| c  y  s  a  r  o  n  k  p  l  e  b  l  m  f  k  t  a  s  n |
+13| e  s  t  a  q  a  l  o  j  g  d  s  h  h  p  a  n  d  a  g |
+14| r  y  h  o  h  l  t  p  i  x  k  y  s  e  n  z  f  h  w  a |
+15| o  s  u  p  b  c  r  t  h  i  r  i  p  a  r  r  o  t  e  r |
+16| s  t  e  f  o  g  h  d  a  i  f  y  q  n  b  m  e  w  z  o |
+17| f  l  s  l  y  t  a  u  n  n  n  a  z  x  e  a  g  l  e  o |
+18| e  t  r  e  p  t  i  l  e  v  v  e  x  g  d  a  x  y  p  h |
+19| u  i  f  n  u  x  p  f  v  b  w  g  z  e  b  r  a  z  y  e |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+reptile: ((18, 2), (18, 8))
+insect: ((7, 16), (12, 16))
+lion: ((1, 12), (4, 12))
+giraffe: ((0, 11), (0, 17))
+frog: ((10, 2), (10, 5))
+parrot: ((15, 12), (15, 17))
+eagle: ((17, 14), (17, 18))
+wolf: ((5, 18), (8, 18))
+panda: ((13, 14), (13, 18))
+kangaroo: ((10, 19), (17, 19))
+rhinoceros: ((7, 0), (16, 0))
+zebra: ((19, 12), (19, 16))
+butterfly: ((0, 2), (0, 10))
+
+DP Time taken: 0.0019 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+reptile: ((18, 2), (18, 8))
+insect: ((7, 16), (12, 16))
+lion: ((1, 12), (4, 12))
+giraffe: ((0, 11), (0, 17))
+frog: ((10, 2), (10, 5))
+parrot: ((15, 12), (15, 17))
+eagle: ((17, 14), (17, 18))
+wolf: ((5, 18), (8, 18))
+panda: ((13, 14), (13, 18))
+kangaroo: ((10, 19), (17, 19))
+rhinoceros: ((7, 0), (16, 0))
+zebra: ((19, 12), (19, 16))
+butterfly: ((0, 2), (0, 10))
+
+Naïve Time taken: 0.0862 seconds
+Naïve Memory used: 0.00 MB

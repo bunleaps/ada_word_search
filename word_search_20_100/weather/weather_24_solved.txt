@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  b  a  r  b  k  r  h  i  j  c  u  o  c  o  l  d  r  a  i |
+ 1| a  r  v  f  k  r  x  k  q  i  a  z  b  c  x  j  v  t  i  b |
+ 2| w  e  s  j  a  a  e  k  h  p  u  x  f  x  q  t  o  a  t  m |
+ 3| s  e  f  f  s  i  t  y  j  g  s  v  e  d  h  h  a  t  h  n |
+ 4| p  z  r  o  z  n  m  t  y  i  h  j  q  h  u  a  r  p  i  p |
+ 5| e  e  o  g  f  y  s  e  n  a  w  l  x  m  r  t  r  m  g  s |
+ 6| m  d  s  g  o  r  y  z  s  x  u  d  t  s  r  g  k  m  b  r |
+ 7| w  q  t  y  d  o  q  k  n  n  o  i  y  u  i  w  y  t  h  j |
+ 8| f  i  k  p  q  g  b  j  a  y  o  w  i  n  c  k  g  n  m  t |
+ 9| s  s  f  e  m  t  g  v  n  l  f  w  g  n  a  n  d  l  t  i |
+10| o  t  o  p  d  r  i  z  z  l  e  n  y  y  n  g  e  s  h  r |
+11| f  q  b  p  d  d  b  h  m  e  i  w  v  o  e  j  e  n  u  j |
+12| k  j  e  m  i  v  j  l  t  n  t  s  n  w  n  f  q  t  n  r |
+13| s  u  w  m  p  v  t  l  t  m  s  t  o  r  m  y  o  o  d  w |
+14| s  e  u  f  l  x  r  h  u  w  s  b  u  g  d  t  u  r  e  h |
+15| f  h  u  i  r  s  g  y  n  i  y  u  c  r  v  d  z  n  r  w |
+16| a  y  a  d  o  i  d  i  a  p  h  p  w  w  k  r  v  a  o  e |
+17| o  h  h  p  l  n  f  r  e  i  c  n  s  a  y  y  l  d  e  j |
+18| q  b  s  w  i  v  i  b  l  i  z  z  a  r  d  b  a  o  r  n |
+19| j  r  e  w  o  c  l  o  u  d  y  j  u  z  x  a  q  j  e  s |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+sunny: ((6, 13), (10, 13))
+rainy: ((1, 5), (5, 5))
+cloudy: ((19, 5), (19, 10))
+stormy: ((13, 10), (13, 15))
+foggy: ((3, 3), (7, 3))
+dry: ((15, 15), (17, 15))
+cold: ((0, 13), (0, 16))
+thunder: ((9, 18), (15, 18))
+breeze: ((0, 1), (5, 1))
+frost: ((3, 2), (7, 2))
+drizzle: ((10, 4), (10, 10))
+blizzard: ((18, 7), (18, 14))
+hurricane: ((3, 14), (11, 14))
+tornado: ((12, 17), (18, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+sunny: ((6, 13), (10, 13))
+rainy: ((1, 5), (5, 5))
+cloudy: ((19, 5), (19, 10))
+stormy: ((13, 10), (13, 15))
+foggy: ((3, 3), (7, 3))
+dry: ((15, 15), (17, 15))
+cold: ((0, 13), (0, 16))
+thunder: ((9, 18), (15, 18))
+breeze: ((0, 1), (5, 1))
+frost: ((3, 2), (7, 2))
+drizzle: ((10, 4), (10, 10))
+blizzard: ((18, 7), (18, 14))
+hurricane: ((3, 14), (11, 14))
+tornado: ((12, 17), (18, 17))
+
+Naïve Time taken: 0.0823 seconds
+Naïve Memory used: 0.00 MB

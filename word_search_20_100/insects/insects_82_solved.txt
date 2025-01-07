@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  d  o  j  y  e  q  e  z  d  d  m  i  s  f  j  r  m  m  t |
+ 1| j  k  b  i  t  r  b  r  p  g  k  t  q  e  r  j  o  s  q  s |
+ 2| d  z  j  e  c  o  g  q  z  l  m  k  d  e  w  g  p  d  y  a |
+ 3| c  s  j  f  e  v  b  d  c  o  c  k  r  o  a  c  h  n  e  x |
+ 4| v  e  r  x  f  l  e  a  h  b  b  g  x  w  l  l  o  t  t  f |
+ 5| e  p  x  b  i  a  g  r  a  s  s  h  o  p  p  e  r  d  q  p |
+ 6| e  f  v  n  w  u  z  y  r  y  e  w  a  s  p  q  n  h  h  g |
+ 7| f  k  t  t  b  t  x  v  q  j  f  y  w  j  n  h  a  a  t  h |
+ 8| d  l  b  y  v  i  t  b  g  r  o  j  n  q  z  v  q  n  z  m |
+ 9| q  x  d  e  y  g  n  t  b  u  t  t  e  r  f  l  y  j  w  o |
+10| b  a  h  u  e  p  v  i  e  h  n  m  d  s  w  e  n  d  q  s |
+11| l  m  s  b  j  t  j  r  t  r  l  k  s  e  i  e  d  x  e  q |
+12| u  p  z  w  v  o  l  o  i  g  m  f  v  e  v  n  a  h  c  u |
+13| x  y  z  r  m  e  m  e  u  p  a  i  l  l  j  q  l  n  g  i |
+14| j  g  c  f  s  o  z  n  n  f  i  v  t  y  r  m  w  j  t  t |
+15| i  e  l  g  v  s  p  i  d  e  r  n  g  e  j  t  p  d  w  o |
+16| w  e  w  g  b  q  t  n  e  x  l  e  b  e  r  y  m  v  f  g |
+17| n  k  p  v  p  z  k  e  t  d  r  a  g  o  n  f  l  y  g  l |
+18| l  j  o  n  n  q  d  f  f  e  z  q  z  j  w  f  n  o  j  e |
+19| m  x  c  n  a  h  j  p  w  v  m  p  q  i  t  b  e  n  z  v |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+butterfly: ((9, 8), (9, 16))
+mosquito: ((8, 19), (15, 19))
+cockroach: ((3, 8), (3, 16))
+fly: ((9, 14), (9, 16))
+spider: ((15, 5), (15, 10))
+grasshopper: ((5, 6), (5, 16))
+dragonfly: ((17, 9), (17, 17))
+wasp: ((6, 11), (6, 14))
+flea: ((4, 4), (4, 7))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+butterfly: ((9, 8), (9, 16))
+mosquito: ((8, 19), (15, 19))
+cockroach: ((3, 8), (3, 16))
+fly: ((9, 14), (9, 16))
+spider: ((15, 5), (15, 10))
+grasshopper: ((5, 6), (5, 16))
+dragonfly: ((17, 9), (17, 17))
+wasp: ((6, 11), (6, 14))
+flea: ((4, 4), (4, 7))
+
+Naïve Time taken: 0.0365 seconds
+Naïve Memory used: 0.00 MB

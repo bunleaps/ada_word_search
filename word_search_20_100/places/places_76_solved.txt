@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| x  r  e  e  d  n  n  n  c  q  x  f  p  s  m  d  a  z  z  v |
+ 1| v  l  f  r  e  x  v  x  m  o  w  c  a  j  f  e  u  f  k  e |
+ 2| b  x  q  o  a  n  p  a  i  i  n  b  i  f  j  s  a  c  z  n |
+ 3| m  e  r  a  t  e  m  p  o  n  t  t  c  t  v  e  v  g  k  t |
+ 4| l  l  s  d  w  p  n  u  j  h  p  w  i  g  y  r  k  o  h  m |
+ 5| c  a  v  b  e  r  k  c  s  q  d  s  u  n  r  t  o  v  t  m |
+ 6| z  k  x  n  h  r  f  e  w  e  q  z  d  e  e  f  o  d  n  g |
+ 7| u  e  g  c  e  f  c  x  n  q  u  j  m  t  d  n  c  n  d  z |
+ 8| j  h  a  v  s  o  l  a  d  t  k  m  n  o  v  e  t  r  c  l |
+ 9| o  e  i  i  y  r  c  o  u  n  t  r  y  w  l  f  y  h  t  l |
+10| b  r  p  x  q  e  s  c  h  o  o  l  x  n  x  w  f  h  s  h |
+11| b  t  d  n  x  s  m  h  v  i  h  u  y  s  a  c  f  w  m  t |
+12| o  c  h  a  k  t  o  o  x  i  s  b  o  l  a  h  k  c  e  z |
+13| w  j  p  r  u  l  u  s  n  b  l  l  h  l  e  u  t  r  u  x |
+14| q  y  q  a  b  i  n  p  d  d  h  l  a  g  n  r  z  v  g  f |
+15| n  b  d  b  r  a  t  i  l  m  g  k  a  n  r  c  i  z  b  n |
+16| x  x  x  q  x  k  a  t  y  c  v  f  k  g  d  h  z  s  n  w |
+17| p  t  g  k  o  g  i  a  u  o  o  l  g  w  e  b  i  p  q  g |
+18| g  d  a  t  p  r  n  l  j  r  e  s  t  a  u  r  a  n  t  i |
+19| i  m  s  t  r  e  e  t  w  d  r  y  d  f  r  v  y  n  e  e |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+town: ((7, 13), (10, 13))
+mountain: ((11, 6), (18, 6))
+lake: ((4, 1), (7, 1))
+forest: ((7, 5), (12, 5))
+desert: ((0, 15), (5, 15))
+country: ((9, 6), (9, 12))
+street: ((19, 2), (19, 7))
+road: ((1, 3), (4, 3))
+school: ((10, 6), (10, 11))
+hospital: ((11, 7), (18, 7))
+church: ((11, 15), (16, 15))
+restaurant: ((18, 9), (18, 18))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+town: ((7, 13), (10, 13))
+mountain: ((11, 6), (18, 6))
+lake: ((4, 1), (7, 1))
+forest: ((7, 5), (12, 5))
+desert: ((0, 15), (5, 15))
+country: ((9, 6), (9, 12))
+street: ((19, 2), (19, 7))
+road: ((1, 3), (4, 3))
+school: ((10, 6), (10, 11))
+hospital: ((11, 7), (18, 7))
+church: ((11, 15), (16, 15))
+restaurant: ((18, 9), (18, 18))
+
+Naïve Time taken: 0.0587 seconds
+Naïve Memory used: 0.00 MB

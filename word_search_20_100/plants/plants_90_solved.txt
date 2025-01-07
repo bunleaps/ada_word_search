@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  u  z  s  n  q  q  z  y  g  d  x  d  a  i  s  y  s  v  x |
+ 1| k  p  t  l  m  s  h  m  z  n  b  z  x  y  n  g  l  r  o  t |
+ 2| q  s  o  f  n  a  n  u  j  x  x  y  z  r  h  m  p  b  h  h |
+ 3| o  s  x  r  o  u  s  z  t  s  r  e  w  o  f  f  d  k  m  y |
+ 4| q  i  l  f  p  a  b  t  g  t  s  p  l  s  v  v  y  o  t  s |
+ 5| v  f  d  e  o  j  k  h  u  u  g  d  b  e  z  s  p  r  q  h |
+ 6| y  p  t  r  o  r  s  b  t  l  i  a  j  a  f  n  e  t  y  r |
+ 7| b  r  f  n  t  w  c  c  l  w  i  g  b  h  m  w  x  k  w  u |
+ 8| l  v  l  v  z  e  a  h  p  k  b  p  u  e  o  b  b  w  y  b |
+ 9| i  t  i  b  n  c  e  d  i  l  t  j  t  l  r  v  o  f  h  z |
+10| l  r  e  n  s  m  w  a  n  d  f  r  f  g  s  p  c  o  q  m |
+11| y  w  d  g  e  c  l  i  e  b  m  n  e  a  o  a  a  p  q  z |
+12| i  i  w  c  m  i  b  i  u  c  u  a  j  e  q  l  p  u  x  c |
+13| o  q  q  b  s  i  v  s  x  s  i  v  p  o  u  m  s  z  d  k |
+14| p  w  l  o  p  g  s  y  y  y  s  g  l  l  r  m  v  x  u  a |
+15| w  d  n  o  l  o  h  b  n  s  s  r  r  d  e  r  b  w  h  v |
+16| f  t  k  v  m  l  o  k  a  s  i  y  q  p  a  c  n  s  u  e |
+17| e  u  k  e  w  x  d  r  h  i  y  s  f  l  o  w  e  r  p  g |
+18| o  d  q  g  r  k  g  x  k  s  m  m  x  l  o  p  v  b  m  q |
+19| b  m  m  c  s  l  h  j  h  r  s  a  y  t  k  c  y  w  w  n |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+flower: ((17, 12), (17, 17))
+shrub: ((4, 19), (8, 19))
+fern: ((4, 3), (7, 3))
+pine: ((8, 8), (11, 8))
+rose: ((2, 13), (5, 13))
+daisy: ((0, 12), (0, 16))
+lily: ((8, 0), (11, 0))
+palm: ((10, 15), (13, 15))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+flower: ((17, 12), (17, 17))
+shrub: ((4, 19), (8, 19))
+fern: ((4, 3), (7, 3))
+pine: ((8, 8), (11, 8))
+rose: ((2, 13), (5, 13))
+daisy: ((0, 12), (0, 16))
+lily: ((8, 0), (11, 0))
+palm: ((10, 15), (13, 15))
+
+Naïve Time taken: 0.0725 seconds
+Naïve Memory used: 0.00 MB

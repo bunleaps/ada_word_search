@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| h  o  b  o  m  g  p  c  h  m  i  k  h  i  s  p  f  a  t  r |
+ 1| v  s  a  i  l  i  n  g  r  w  f  i  u  t  p  j  e  m  e  o |
+ 2| m  a  r  a  t  h  o  n  f  i  a  v  d  n  a  c  n  y  s  w |
+ 3| b  o  x  i  n  g  m  t  h  m  c  m  y  b  a  j  c  t  u  i |
+ 4| b  k  j  t  h  b  s  v  s  q  s  k  i  i  n  g  i  p  i  n |
+ 5| b  k  w  o  c  b  b  n  o  k  p  a  e  t  x  k  n  r  o  g |
+ 6| s  u  u  o  r  z  a  f  o  l  a  e  o  t  e  r  g  c  x  m |
+ 7| x  o  l  h  k  a  x  s  k  w  l  t  s  a  u  n  r  n  t  o |
+ 8| c  j  c  b  u  n  b  g  k  a  b  e  i  u  j  j  n  d  m  b |
+ 9| y  z  u  c  y  s  a  m  y  e  r  o  y  n  r  v  h  i  u  c |
+10| c  q  l  d  e  u  s  v  z  m  t  a  a  b  g  f  z  v  s  j |
+11| l  r  k  i  o  r  e  e  v  j  n  b  t  r  a  r  i  i  m  f |
+12| i  g  o  l  f  k  b  y  o  f  p  a  a  e  d  l  z  n  k  e |
+13| n  x  k  v  r  v  a  m  b  b  h  y  s  l  v  i  l  g  g  v |
+14| g  e  f  e  k  g  l  n  q  g  b  j  n  t  l  p  n  n  k  e |
+15| q  z  c  g  w  x  l  l  n  g  n  r  d  f  i  q  l  g  j  k |
+16| v  y  e  d  c  n  d  u  u  c  f  q  r  r  t  c  g  h  l  e |
+17| t  s  s  r  r  d  w  r  e  s  t  l  i  n  g  w  s  z  y  i |
+18| w  k  r  d  s  w  i  m  m  i  n  g  v  h  o  c  k  e  y  a |
+19| w  c  m  w  c  a  r  c  h  e  r  y  e  w  m  h  d  d  h  w |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+baseball: ((8, 6), (15, 6))
+hockey: ((18, 13), (18, 18))
+golf: ((12, 1), (12, 4))
+cycling: ((8, 0), (14, 0))
+archery: ((19, 5), (19, 11))
+boxing: ((3, 0), (3, 5))
+wrestling: ((17, 6), (17, 14))
+marathon: ((2, 0), (2, 7))
+swimming: ((18, 4), (18, 11))
+diving: ((8, 17), (13, 17))
+skiing: ((4, 10), (4, 15))
+fencing: ((0, 16), (6, 16))
+rowing: ((0, 19), (5, 19))
+sailing: ((1, 1), (1, 7))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+baseball: ((8, 6), (15, 6))
+hockey: ((18, 13), (18, 18))
+golf: ((12, 1), (12, 4))
+cycling: ((8, 0), (14, 0))
+archery: ((19, 5), (19, 11))
+boxing: ((3, 0), (3, 5))
+wrestling: ((17, 6), (17, 14))
+marathon: ((2, 0), (2, 7))
+swimming: ((18, 4), (18, 11))
+diving: ((8, 17), (13, 17))
+skiing: ((4, 10), (4, 15))
+fencing: ((0, 16), (6, 16))
+rowing: ((0, 19), (5, 19))
+sailing: ((1, 1), (1, 7))
+
+Naïve Time taken: 0.0710 seconds
+Naïve Memory used: 0.00 MB

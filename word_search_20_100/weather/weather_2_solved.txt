@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| p  w  p  k  s  t  o  r  n  a  d  o  o  p  h  o  e  t  q  l |
+ 1| x  j  a  f  k  t  r  n  p  d  r  y  l  s  e  u  p  i  z  x |
+ 2| z  f  j  f  z  d  a  v  y  i  k  o  r  z  f  g  m  j  u  a |
+ 3| p  c  j  b  b  v  i  p  h  e  g  f  e  h  i  u  s  i  z  k |
+ 4| i  e  t  l  l  m  n  m  k  l  u  e  n  s  o  e  p  a  d  h |
+ 5| h  a  i  l  i  i  y  s  w  m  r  g  v  t  j  t  w  y  l  t |
+ 6| p  s  r  g  z  g  z  x  p  b  k  r  r  o  j  c  c  f  e  f |
+ 7| z  h  a  b  n  z  h  z  t  l  f  q  l  r  f  o  g  g  y  b |
+ 8| o  a  p  f  a  t  l  t  a  h  k  x  g  m  i  i  e  t  f  q |
+ 9| a  k  q  w  h  i  t  i  n  r  u  p  x  y  s  k  n  x  t  h |
+10| h  z  i  s  i  u  b  z  l  i  d  n  c  z  r  u  y  k  v  t |
+11| o  n  v  y  d  n  r  t  x  b  n  o  d  l  x  c  h  y  g  x |
+12| d  n  p  o  e  n  d  r  m  g  d  g  c  e  g  o  w  c  c  j |
+13| m  i  v  u  v  n  q  y  i  h  s  k  k  u  r  l  r  y  l  n |
+14| i  p  y  h  k  n  o  q  g  c  o  n  i  i  f  d  n  u  o  h |
+15| d  r  i  z  z  l  e  b  j  n  a  q  o  y  h  n  p  y  u  c |
+16| j  p  g  o  f  r  o  s  t  i  t  n  r  w  u  m  y  x  d  k |
+17| r  d  u  r  r  p  z  f  h  u  c  y  e  s  y  c  l  u  y  b |
+18| f  u  o  k  t  c  e  h  h  b  c  b  u  m  c  x  x  t  g  o |
+19| t  k  l  s  i  l  l  i  c  s  t  r  f  v  o  c  t  s  s  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+rainy: ((1, 6), (5, 6))
+cloudy: ((12, 18), (17, 18))
+stormy: ((4, 13), (9, 13))
+foggy: ((7, 14), (7, 18))
+dry: ((1, 9), (1, 11))
+cold: ((11, 15), (14, 15))
+frost: ((16, 4), (16, 8))
+hail: ((5, 0), (5, 3))
+drizzle: ((15, 0), (15, 6))
+tornado: ((0, 5), (0, 11))
+
+DP Time taken: 0.0015 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+rainy: ((1, 6), (5, 6))
+cloudy: ((12, 18), (17, 18))
+stormy: ((4, 13), (9, 13))
+foggy: ((7, 14), (7, 18))
+dry: ((1, 9), (1, 11))
+cold: ((11, 15), (14, 15))
+frost: ((16, 4), (16, 8))
+hail: ((5, 0), (5, 3))
+drizzle: ((15, 0), (15, 6))
+tornado: ((0, 5), (0, 11))
+
+Naïve Time taken: 0.0889 seconds
+Naïve Memory used: 0.00 MB

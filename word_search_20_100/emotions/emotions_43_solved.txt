@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  a  e  m  b  a  r  r  a  s  s  e  d  r  v  r  e  i  j  j |
+ 1| d  r  z  r  g  u  s  k  m  s  l  d  k  e  y  s  d  k  p  d |
+ 2| w  o  r  r  i  e  d  c  u  j  m  j  o  y  d  t  t  b  d  i |
+ 3| g  w  q  h  m  f  o  o  a  x  q  x  z  t  z  d  y  v  m  s |
+ 4| m  r  k  g  h  r  v  f  a  r  w  i  v  h  e  t  y  a  i  a |
+ 5| f  i  x  b  u  r  n  j  s  f  e  y  z  x  l  o  k  r  t  p |
+ 6| w  h  t  q  e  v  j  s  f  h  d  d  a  i  w  k  e  g  c  p |
+ 7| j  s  o  n  e  m  i  n  i  y  f  l  u  n  u  s  x  f  o  o |
+ 8| q  o  o  p  e  d  r  m  y  k  e  g  c  c  e  x  c  r  n  i |
+ 9| e  o  y  l  e  i  y  r  l  r  l  u  n  a  o  a  i  u  f  n |
+10| m  r  t  f  k  f  g  m  v  d  o  x  b  a  l  h  t  s  u  t |
+11| h  f  o  d  u  n  u  x  m  z  d  s  u  o  d  m  e  t  s  e |
+12| o  p  n  u  a  l  l  l  l  t  u  w  p  e  y  o  d  r  e  d |
+13| k  r  h  z  h  s  t  n  w  o  y  g  s  l  p  e  n  a  d  z |
+14| j  o  s  b  a  s  r  c  i  h  a  i  e  d  b  x  m  t  d  o |
+15| t  u  b  v  p  u  a  x  e  k  r  n  r  z  s  t  o  e  b  j |
+16| p  d  l  q  p  s  n  u  p  p  o  v  s  l  f  s  h  d  l  y |
+17| q  v  f  n  y  a  p  n  r  l  g  a  e  a  y  y  c  x  t  b |
+18| a  n  x  a  f  b  o  u  t  j  m  n  y  q  d  j  u  v  u  b |
+19| a  q  k  a  z  i  s  a  v  o  x  a  o  a  d  k  c  t  s  o |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+happy: ((13, 4), (17, 4))
+excited: ((6, 16), (12, 16))
+frustrated: ((7, 17), (16, 17))
+confused: ((6, 18), (13, 18))
+worried: ((2, 0), (2, 6))
+embarrassed: ((0, 2), (0, 12))
+proud: ((12, 1), (16, 1))
+disappointed: ((1, 19), (12, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+happy: ((13, 4), (17, 4))
+excited: ((6, 16), (12, 16))
+frustrated: ((7, 17), (16, 17))
+confused: ((6, 18), (13, 18))
+worried: ((2, 0), (2, 6))
+embarrassed: ((0, 2), (0, 12))
+proud: ((12, 1), (16, 1))
+disappointed: ((1, 19), (12, 19))
+
+Naïve Time taken: 0.0686 seconds
+Naïve Memory used: 0.00 MB

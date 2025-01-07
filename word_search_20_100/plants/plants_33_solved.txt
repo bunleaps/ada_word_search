@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| q  d  l  b  t  s  u  n  f  l  o  w  e  r  q  s  p  w  b  i |
+ 1| b  p  i  d  x  n  c  f  a  j  z  r  b  q  s  r  o  p  x  g |
+ 2| a  t  l  p  a  l  m  l  x  b  g  n  a  w  f  o  c  a  p  v |
+ 3| u  q  y  r  h  c  v  o  g  n  j  c  m  i  t  s  p  l  k  f |
+ 4| f  k  s  o  s  b  m  w  k  k  c  l  b  q  p  e  e  v  o  i |
+ 5| t  f  p  x  v  h  e  e  n  j  t  w  o  v  k  i  p  u  p  l |
+ 6| d  q  i  f  p  s  r  r  f  g  z  z  o  c  y  l  n  c  u  w |
+ 7| h  s  f  g  t  x  t  u  u  v  c  b  x  t  r  x  z  e  z  n |
+ 8| k  a  v  c  j  z  i  c  b  f  i  a  t  e  z  w  w  w  r  f |
+ 9| t  h  v  k  t  k  o  w  b  c  s  n  c  n  r  j  c  o  x  h |
+10| z  m  v  k  w  b  x  z  y  t  u  u  e  t  e  d  x  i  s  b |
+11| a  g  o  b  k  o  v  y  c  s  h  c  o  a  u  a  u  u  e  m |
+12| f  e  b  s  u  r  r  v  x  x  g  d  l  u  l  s  b  m  y  z |
+13| o  e  p  e  s  r  b  c  d  i  c  a  f  g  u  l  a  a  j  r |
+14| e  e  r  b  s  p  e  p  h  w  g  i  f  r  i  r  n  p  a  x |
+15| a  m  u  n  o  w  i  u  w  i  l  s  p  a  r  y  w  l  x  r |
+16| h  f  w  o  y  l  b  j  d  s  d  y  e  s  m  n  n  e  f  g |
+17| a  f  i  z  u  l  h  l  j  t  n  p  d  s  p  s  r  b  n  c |
+18| p  b  u  t  q  x  j  u  n  t  o  e  e  h  m  y  c  n  f  z |
+19| i  v  y  v  u  j  j  l  j  o  t  t  r  e  e  w  u  a  v  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tree: ((19, 11), (19, 14))
+flower: ((0, 8), (0, 13))
+grass: ((13, 13), (17, 13))
+bamboo: ((1, 12), (6, 12))
+maple: ((12, 17), (16, 17))
+rose: ((1, 15), (4, 15))
+daisy: ((12, 11), (16, 11))
+sunflower: ((0, 5), (0, 13))
+lily: ((0, 2), (3, 2))
+ivy: ((19, 0), (19, 2))
+palm: ((2, 3), (2, 6))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((19, 11), (19, 14))
+flower: ((0, 8), (0, 13))
+grass: ((13, 13), (17, 13))
+bamboo: ((1, 12), (6, 12))
+maple: ((12, 17), (16, 17))
+rose: ((1, 15), (4, 15))
+daisy: ((12, 11), (16, 11))
+sunflower: ((0, 5), (0, 13))
+lily: ((0, 2), (3, 2))
+ivy: ((19, 0), (19, 2))
+palm: ((2, 3), (2, 6))
+
+Naïve Time taken: 0.0650 seconds
+Naïve Memory used: 0.00 MB

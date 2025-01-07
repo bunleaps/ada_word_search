@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  o  m  c  d  l  o  o  o  r  b  i  t  q  y  c  c  y  r  v |
+ 1| q  r  s  e  y  k  q  p  l  a  n  e  t  f  n  k  v  o  t  k |
+ 2| u  r  d  j  m  x  x  p  c  q  h  a  w  q  i  x  q  f  s  e |
+ 3| b  v  m  b  x  w  e  x  r  m  e  t  e  o  r  d  a  j  w  g |
+ 4| s  o  l  a  r  g  s  y  s  t  e  m  p  c  i  r  r  a  h  o |
+ 5| c  o  n  s  t  e  l  l  a  t  i  o  n  o  c  r  a  m  a  s |
+ 6| x  t  e  l  e  s  c  o  p  e  y  w  r  e  a  f  l  u  s  t |
+ 7| j  n  s  y  s  y  c  e  k  u  x  e  c  e  p  t  y  g  t  a |
+ 8| o  d  r  g  b  c  v  s  y  z  t  a  y  h  r  h  z  o  r  r |
+ 9| e  j  g  x  g  c  r  e  h  s  p  t  l  g  f  c  x  n  o  p |
+10| t  y  s  b  a  g  x  o  a  s  h  a  l  i  e  n  s  e  n  v |
+11| a  r  n  w  l  u  c  c  c  g  g  f  i  e  d  x  e  b  a  l |
+12| m  q  s  d  a  n  y  t  i  k  y  c  t  y  f  l  y  u  u  e |
+13| l  k  z  w  x  i  c  l  n  t  e  i  z  i  o  m  w  l  t  j |
+14| v  r  p  c  y  v  c  k  x  k  l  t  a  h  q  r  q  a  e  x |
+15| z  l  r  o  g  e  l  l  w  l  f  a  k  a  z  g  e  q  d  e |
+16| k  q  h  m  n  r  u  s  e  l  i  c  w  j  j  o  t  y  t  c |
+17| a  r  n  e  m  s  t  t  r  t  a  r  o  l  h  a  o  x  f  p |
+18| c  m  r  t  o  e  a  e  w  l  k  f  p  l  e  o  w  j  n  f |
+19| y  i  c  q  k  s  d  i  b  v  m  o  o  n  w  x  i  d  w  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+planet: ((1, 7), (1, 12))
+star: ((5, 19), (8, 19))
+galaxy: ((9, 4), (14, 4))
+moon: ((19, 10), (19, 13))
+comet: ((14, 3), (18, 3))
+nebula: ((9, 17), (14, 17))
+telescope: ((6, 1), (6, 9))
+astronaut: ((5, 18), (13, 18))
+orbit: ((0, 8), (0, 12))
+universe: ((11, 5), (18, 5))
+meteor: ((3, 9), (3, 14))
+constellation: ((5, 0), (5, 12))
+aliens: ((10, 11), (10, 16))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((1, 7), (1, 12))
+star: ((5, 19), (8, 19))
+galaxy: ((9, 4), (14, 4))
+moon: ((19, 10), (19, 13))
+comet: ((14, 3), (18, 3))
+nebula: ((9, 17), (14, 17))
+telescope: ((6, 1), (6, 9))
+astronaut: ((5, 18), (13, 18))
+orbit: ((0, 8), (0, 12))
+universe: ((11, 5), (18, 5))
+meteor: ((3, 9), (3, 14))
+constellation: ((5, 0), (5, 12))
+aliens: ((10, 11), (10, 16))
+
+Naïve Time taken: 0.0485 seconds
+Naïve Memory used: 0.00 MB

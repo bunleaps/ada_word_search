@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| b  l  a  c  k  g  o  l  d  g |
+ 1| e  m  a  g  e  n  t  a  w  i |
+ 2| i  r  t  n  p  o  o  o  b  v |
+ 3| g  r  e  e  n  e  l  e  l  o |
+ 4| e  u  a  d  t  l  l  b  u  r |
+ 5| c  m  l  i  e  p  g  r  e  a |
+ 6| w  y  h  y  r  t  r  o  z  n |
+ 7| q  w  a  u  e  k  a  w  a  g |
+ 8| p  e  p  n  a  v  y  n  b  e |
+ 9| n  a  p  i  n  k  d  c  b  c |
+  +------------------------------+
+Dynamic Programming Solution:
+blue: ((2, 8), (5, 8))
+green: ((3, 0), (3, 4))
+orange: ((3, 9), (8, 9))
+pink: ((9, 2), (9, 5))
+black: ((0, 0), (0, 4))
+gray: ((5, 6), (8, 6))
+brown: ((4, 7), (8, 7))
+magenta: ((1, 1), (1, 7))
+navy: ((8, 3), (8, 6))
+teal: ((2, 2), (5, 2))
+gold: ((0, 5), (0, 8))
+beige: ((0, 0), (4, 0))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+blue: ((2, 8), (5, 8))
+green: ((3, 0), (3, 4))
+orange: ((3, 9), (8, 9))
+pink: ((9, 2), (9, 5))
+black: ((0, 0), (0, 4))
+gray: ((5, 6), (8, 6))
+brown: ((4, 7), (8, 7))
+magenta: ((1, 1), (1, 7))
+navy: ((8, 3), (8, 6))
+teal: ((2, 2), (5, 2))
+gold: ((0, 5), (0, 8))
+beige: ((0, 0), (4, 0))
+
+Naïve Time taken: 0.0110 seconds
+Naïve Memory used: 0.00 MB

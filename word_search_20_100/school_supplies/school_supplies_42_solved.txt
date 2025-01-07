@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  e  a  m  g  u  z  i  c  t  g  z  d  i  a  z  x  z  b  x |
+ 1| g  e  s  h  a  z  r  l  h  f  b  i  n  j  z  b  f  l  j  g |
+ 2| w  z  g  t  x  r  v  c  w  c  v  j  v  r  m  a  h  r  z  g |
+ 3| b  z  n  p  a  f  k  q  a  j  l  p  z  o  u  g  u  e  e  k |
+ 4| o  v  c  x  h  p  r  e  v  l  p  i  d  r  e  l  r  y  r  p |
+ 5| o  a  t  t  c  n  l  p  r  h  c  g  p  z  s  p  e  k  a  f |
+ 6| k  u  y  w  h  b  v  e  k  j  x  u  w  b  v  n  o  r  s  b |
+ 7| j  z  n  w  a  o  p  q  r  s  n  r  l  m  o  a  i  r  e  l |
+ 8| p  v  k  u  l  n  o  t  e  b  o  o  k  a  d  a  e  c  r  l |
+ 9| v  g  c  d  k  p  a  j  b  i  r  w  b  q  t  p  r  q  e  x |
+10| g  u  s  c  i  s  s  o  r  s  x  t  i  o  a  o  n  d  l  a |
+11| r  g  l  u  e  t  g  q  i  o  j  q  k  p  h  e  r  r  r  d |
+12| i  u  o  s  z  l  d  l  c  d  e  r  l  q  p  t  e  e  l  d |
+13| b  s  h  i  g  h  l  i  g  h  t  e  r  s  s  n  d  a  p  h |
+14| h  r  s  j  l  n  d  c  v  b  z  m  n  f  e  l  f  q  e  o |
+15| d  e  t  l  v  l  h  w  c  c  o  o  t  p  o  u  r  z  n  k |
+16| n  v  k  t  b  u  d  h  c  e  y  g  r  f  m  a  h  q  c  z |
+17| t  b  c  s  q  s  m  e  y  a  j  a  q  c  c  x  f  a  i  j |
+18| h  o  f  p  v  h  y  y  r  i  h  q  s  g  s  i  a  d  l  p |
+19| r  r  y  o  i  b  m  c  y  s  f  i  w  o  v  y  s  n  p  x |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pencil: ((13, 18), (18, 18))
+pen: ((13, 18), (15, 18))
+notebook: ((8, 5), (8, 12))
+eraser: ((3, 18), (8, 18))
+chalk: ((5, 4), (9, 4))
+book: ((8, 9), (8, 12))
+bag: ((1, 15), (3, 15))
+glue: ((11, 1), (11, 4))
+scissors: ((10, 2), (10, 9))
+highlighter: ((13, 2), (13, 12))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pencil: ((13, 18), (18, 18))
+pen: ((13, 18), (15, 18))
+notebook: ((8, 5), (8, 12))
+eraser: ((3, 18), (8, 18))
+chalk: ((5, 4), (9, 4))
+book: ((8, 9), (8, 12))
+bag: ((1, 15), (3, 15))
+glue: ((11, 1), (11, 4))
+scissors: ((10, 2), (10, 9))
+highlighter: ((13, 2), (13, 12))
+
+Naïve Time taken: 0.0531 seconds
+Naïve Memory used: 0.00 MB

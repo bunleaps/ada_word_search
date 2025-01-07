@@ -1,0 +1,43 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| d  s  k  a  t  i  n  g  a  s |
+ 1| b  g  h  o  c  k  e  y  r  u |
+ 2| a  o  f  s  o  t  r  r  c  r |
+ 3| s  l  f  d  a  e  g  u  h  f |
+ 4| e  f  u  r  c  n  k  g  e  i |
+ 5| b  j  a  c  i  g  v  b  r  n |
+ 6| a  k  o  l  w  f  t  y  y  g |
+ 7| l  s  c  r  i  c  k  e  t  w |
+ 8| l  y  j  b  o  x  i  n  g  f |
+ 9| c  v  t  e  n  n  i  s  f  g |
+  +------------------------------+
+Dynamic Programming Solution:
+baseball: ((1, 0), (8, 0))
+tennis: ((9, 2), (9, 7))
+cricket: ((7, 2), (7, 8))
+hockey: ((1, 2), (1, 7))
+golf: ((1, 1), (4, 1))
+rugby: ((2, 7), (6, 7))
+skating: ((0, 1), (0, 7))
+surfing: ((0, 9), (6, 9))
+archery: ((0, 8), (6, 8))
+boxing: ((8, 3), (8, 8))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+baseball: ((1, 0), (8, 0))
+tennis: ((9, 2), (9, 7))
+cricket: ((7, 2), (7, 8))
+hockey: ((1, 2), (1, 7))
+golf: ((1, 1), (4, 1))
+rugby: ((2, 7), (6, 7))
+skating: ((0, 1), (0, 7))
+surfing: ((0, 9), (6, 9))
+archery: ((0, 8), (6, 8))
+boxing: ((8, 3), (8, 8))
+
+Naïve Time taken: 0.0110 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| z  c  n  m  y  q  y  s  t  r  a  w  b  e  r  r  y  c  c  t |
+ 1| v  i  k  v  s  b  q  m  c  o  t  s  c  o  c  o  n  u  t  h |
+ 2| a  u  v  d  v  b  b  l  a  c  k  b  e  r  r  y  x  r  m  z |
+ 3| n  e  g  g  p  q  q  a  u  t  b  t  w  r  x  c  e  c  a  p |
+ 4| f  p  v  p  p  e  i  j  x  k  a  a  s  m  i  n  i  p  n  a |
+ 5| l  i  d  a  l  h  a  k  i  d  n  o  n  i  t  w  q  e  g  r |
+ 6| g  e  g  p  p  u  o  r  l  n  e  c  t  a  r  i  n  e  o  a |
+ 7| p  j  f  x  g  r  m  r  t  e  n  z  a  e  n  n  h  s  p  s |
+ 8| o  h  z  e  i  b  i  c  a  n  v  q  k  a  t  a  m  v  a  p |
+ 9| m  p  j  i  d  d  l  c  h  n  c  k  h  s  a  w  e  a  p  b |
+10| e  d  i  k  i  w  i  u  o  e  g  w  c  a  n  m  l  i  a  e |
+11| g  v  u  n  v  d  x  z  e  t  r  e  y  o  g  w  o  r  y  r |
+12| r  c  g  r  e  a  d  d  v  b  e  r  m  b  e  g  n  n  a  r |
+13| a  l  e  d  e  a  p  b  b  m  e  e  y  g  r  r  x  b  f  y |
+14| n  l  c  s  e  w  p  p  s  f  l  r  c  g  i  a  d  x  o  w |
+15| a  j  d  y  f  b  l  p  l  c  l  s  r  h  n  p  y  b  m  m |
+16| t  y  k  e  h  b  p  d  l  e  v  q  c  y  e  e  s  g  g  z |
+17| e  i  i  v  j  z  s  m  k  e  u  a  u  z  x  i  t  i  d  d |
+18| c  w  p  n  f  i  y  w  a  t  e  r  m  e  l  o  n  v  u  l |
+19| n  e  y  d  m  v  e  k  o  p  y  n  r  n  z  u  h  m  r  o |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+grape: ((12, 15), (16, 15))
+kiwi: ((10, 3), (10, 6))
+mango: ((2, 18), (6, 18))
+nectarine: ((6, 9), (6, 17))
+papaya: ((7, 18), (12, 18))
+pomegranate: ((7, 0), (17, 0))
+raspberry: ((5, 19), (13, 19))
+strawberry: ((0, 7), (0, 16))
+tangerine: ((8, 14), (16, 14))
+watermelon: ((18, 7), (18, 16))
+blackberry: ((2, 6), (2, 15))
+coconut: ((1, 12), (1, 18))
+melon: ((18, 12), (18, 16))
+
+DP Time taken: 0.0021 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+grape: ((12, 15), (16, 15))
+kiwi: ((10, 3), (10, 6))
+mango: ((2, 18), (6, 18))
+nectarine: ((6, 9), (6, 17))
+papaya: ((7, 18), (12, 18))
+pomegranate: ((7, 0), (17, 0))
+raspberry: ((5, 19), (13, 19))
+strawberry: ((0, 7), (0, 16))
+tangerine: ((8, 14), (16, 14))
+watermelon: ((18, 7), (18, 16))
+blackberry: ((2, 6), (2, 15))
+coconut: ((1, 12), (1, 18))
+melon: ((18, 12), (18, 16))
+
+Naïve Time taken: 0.0801 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| t  b  k  n  p  w  v  k  r  h  a  n  l  l  x  r  h  z  q  o |
+ 1| e  i  v  c  o  n  t  i  n  e  n  t  a  c  f  c  k  x  s  s |
+ 2| b  k  r  g  g  d  e  s  e  r  t  e  k  g  o  h  z  w  x  i |
+ 3| y  m  i  q  u  j  n  i  s  m  i  e  e  s  r  u  c  f  x  z |
+ 4| y  d  s  c  w  c  e  m  u  h  o  q  t  b  e  r  x  s  z  g |
+ 5| t  e  l  n  p  y  j  v  t  k  c  u  x  q  s  c  g  n  q  o |
+ 6| v  d  a  v  v  r  m  y  s  q  a  g  n  s  t  h  t  x  l  d |
+ 7| i  w  n  x  d  c  l  e  l  c  o  u  n  t  r  y  o  y  d  e |
+ 8| r  s  d  o  i  f  g  a  n  w  v  b  v  d  a  j  w  k  w  v |
+ 9| l  c  c  x  n  a  t  z  t  t  y  u  l  r  l  i  n  m  c  j |
+10| y  q  t  w  l  i  k  y  y  t  c  o  l  d  i  f  n  t  c  i |
+11| g  o  h  l  p  d  t  u  i  j  d  o  j  k  q  v  x  g  x  b |
+12| m  y  i  s  l  h  l  c  n  d  o  r  q  v  t  m  e  x  d  u |
+13| h  v  o  x  l  t  e  h  z  h  s  o  i  a  n  u  a  r  e  j |
+14| z  h  q  p  u  p  t  i  c  g  z  a  c  b  o  s  q  u  a  o |
+15| s  i  v  a  c  q  y  s  a  f  d  d  u  e  t  e  g  t  q  u |
+16| z  m  g  r  s  t  r  e  e  t  q  r  g  a  n  u  j  w  i  p |
+17| q  l  q  k  u  g  j  f  b  x  x  e  e  c  t  m  m  y  a  t |
+18| g  j  z  t  g  z  c  p  y  n  m  z  n  h  o  x  d  s  x  j |
+19| t  n  k  e  u  j  b  a  v  r  e  s  t  a  u  r  a  n  t  n |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+town: ((6, 16), (9, 16))
+park: ((14, 3), (17, 3))
+beach: ((14, 13), (18, 13))
+lake: ((0, 12), (3, 12))
+forest: ((1, 14), (6, 14))
+desert: ((2, 5), (2, 10))
+island: ((3, 2), (8, 2))
+country: ((7, 9), (7, 15))
+continent: ((1, 3), (1, 11))
+street: ((16, 4), (16, 9))
+road: ((12, 11), (15, 11))
+museum: ((12, 15), (17, 15))
+church: ((1, 15), (6, 15))
+restaurant: ((19, 9), (19, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+town: ((6, 16), (9, 16))
+park: ((14, 3), (17, 3))
+beach: ((14, 13), (18, 13))
+lake: ((0, 12), (3, 12))
+forest: ((1, 14), (6, 14))
+desert: ((2, 5), (2, 10))
+island: ((3, 2), (8, 2))
+country: ((7, 9), (7, 15))
+continent: ((1, 3), (1, 11))
+street: ((16, 4), (16, 9))
+road: ((12, 11), (15, 11))
+museum: ((12, 15), (17, 15))
+church: ((1, 15), (6, 15))
+restaurant: ((19, 9), (19, 18))
+
+Naïve Time taken: 0.0570 seconds
+Naïve Memory used: 0.00 MB

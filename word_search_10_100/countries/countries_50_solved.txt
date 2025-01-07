@@ -1,0 +1,43 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| a  r  g  e  n  t  i  n  a  s |
+ 1| b  g  u  c  g  a  e  k  i  p |
+ 2| y  r  e  s  a  x  u  u  t  a |
+ 3| h  f  a  r  s  n  h  s  a  i |
+ 4| c  j  r  z  m  i  a  a  l  n |
+ 5| h  a  a  a  i  a  a  d  y  d |
+ 6| i  p  k  q  n  l  n  i  a  i |
+ 7| n  a  g  s  x  c  m  y  a  a |
+ 8| a  n  s  w  e  d  e  n  p  m |
+ 9| e  p  o  r  t  u  g  a  l  x |
+  +------------------------------+
+Dynamic Programming Solution:
+argentina: ((0, 0), (0, 8))
+italy: ((1, 8), (5, 8))
+spain: ((0, 9), (4, 9))
+portugal: ((9, 1), (9, 8))
+china: ((4, 0), (8, 0))
+japan: ((4, 1), (8, 1))
+india: ((3, 9), (7, 9))
+usa: ((2, 7), (4, 7))
+uk: ((2, 7), (1, 7))
+sweden: ((8, 2), (8, 7))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+argentina: ((0, 0), (0, 8))
+italy: ((1, 8), (5, 8))
+spain: ((0, 9), (4, 9))
+portugal: ((9, 1), (9, 8))
+china: ((4, 0), (8, 0))
+japan: ((4, 1), (8, 1))
+india: ((3, 9), (7, 9))
+usa: ((2, 7), (4, 7))
+uk: ((2, 7), (1, 7))
+sweden: ((8, 2), (8, 7))
+
+Naïve Time taken: 0.0220 seconds
+Naïve Memory used: 0.00 MB

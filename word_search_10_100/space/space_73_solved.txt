@@ -1,0 +1,41 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| b  a  g  d  d  n  s  w  r  p |
+ 1| p  l  s  a  v  z  t  d  o  r |
+ 2| l  m  a  t  l  s  a  k  c  s |
+ 3| a  e  l  c  e  a  r  l  k  m |
+ 4| n  t  i  o  k  r  x  l  e  o |
+ 5| e  e  e  m  r  h  o  y  t  o |
+ 6| t  o  n  e  v  b  o  i  a  n |
+ 7| i  r  s  t  s  f  i  l  d  h |
+ 8| k  n  e  b  u  l  a  t  e  b |
+ 9| s  a  t  e  l  l  i  t  e  q |
+  +------------------------------+
+Dynamic Programming Solution:
+planet: ((1, 0), (6, 0))
+star: ((0, 6), (3, 6))
+moon: ((3, 9), (6, 9))
+comet: ((3, 3), (7, 3))
+nebula: ((8, 1), (8, 6))
+satellite: ((9, 0), (9, 8))
+rocket: ((0, 8), (5, 8))
+meteor: ((2, 1), (7, 1))
+aliens: ((2, 2), (7, 2))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((1, 0), (6, 0))
+star: ((0, 6), (3, 6))
+moon: ((3, 9), (6, 9))
+comet: ((3, 3), (7, 3))
+nebula: ((8, 1), (8, 6))
+satellite: ((9, 0), (9, 8))
+rocket: ((0, 8), (5, 8))
+meteor: ((2, 1), (7, 1))
+aliens: ((2, 2), (7, 2))
+
+Naïve Time taken: 0.0084 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  f  s  f  d  r  t  o  o  t  k  k  z  k  x  m  h  c  l  t |
+ 1| a  m  m  l  o  r  i  w  r  f  q  q  l  u  v  p  t  c  s  e |
+ 2| x  u  a  p  i  o  p  o  l  i  c  e  q  a  r  t  i  s  t  v |
+ 3| t  s  c  n  f  q  p  v  m  o  x  h  x  t  k  l  q  d  k  m |
+ 4| u  i  c  d  u  i  y  r  c  b  q  c  c  c  f  p  d  g  h  e |
+ 5| t  c  o  s  e  r  r  f  s  p  g  e  g  t  z  r  f  l  g  c |
+ 6| e  i  u  x  y  n  s  e  p  n  t  z  s  y  i  y  y  k  n  h |
+ 7| r  a  n  p  y  c  t  e  f  i  r  i  d  w  r  i  t  e  r  a |
+ 8| j  n  t  h  i  h  q  i  h  i  t  h  e  n  s  l  m  v  h  n |
+ 9| h  h  a  o  l  y  l  c  s  n  g  u  t  j  l  k  m  p  h  i |
+10| f  b  n  t  h  a  r  j  e  t  j  h  n  e  t  m  q  d  i  c |
+11| h  r  t  o  o  a  w  i  w  l  f  d  t  d  a  h  e  r  j  p |
+12| f  m  g  g  q  b  c  y  k  h  r  o  c  e  h  c  e  g  f  i |
+13| n  y  r  r  y  s  n  u  e  e  l  c  y  o  r  e  h  m  j  l |
+14| c  v  z  a  y  x  d  q  m  r  u  t  r  m  n  v  a  e  c  o |
+15| v  u  l  p  d  d  z  r  p  a  s  o  g  i  c  h  e  f  r  t |
+16| d  q  n  h  x  w  a  o  w  k  w  r  g  h  y  k  i  s  v  o |
+17| a  h  i  e  h  f  g  j  q  e  z  n  h  u  p  x  u  e  c  z |
+18| z  k  e  r  u  d  b  n  w  j  e  f  l  p  i  i  e  v  v  f |
+19| p  s  v  n  s  e  a  x  p  r  o  g  r  a  m  m  e  r  m  a |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+doctor: ((11, 11), (16, 11))
+chef: ((15, 14), (15, 17))
+pilot: ((11, 19), (15, 19))
+artist: ((2, 13), (2, 18))
+musician: ((1, 1), (8, 1))
+writer: ((7, 13), (7, 18))
+police: ((2, 6), (2, 11))
+mechanic: ((3, 19), (10, 19))
+accountant: ((2, 2), (11, 2))
+photographer: ((7, 3), (18, 3))
+programmer: ((19, 8), (19, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+doctor: ((11, 11), (16, 11))
+chef: ((15, 14), (15, 17))
+pilot: ((11, 19), (15, 19))
+artist: ((2, 13), (2, 18))
+musician: ((1, 1), (8, 1))
+writer: ((7, 13), (7, 18))
+police: ((2, 6), (2, 11))
+mechanic: ((3, 19), (10, 19))
+accountant: ((2, 2), (11, 2))
+photographer: ((7, 3), (18, 3))
+programmer: ((19, 8), (19, 17))
+
+Naïve Time taken: 0.0641 seconds
+Naïve Memory used: 0.00 MB

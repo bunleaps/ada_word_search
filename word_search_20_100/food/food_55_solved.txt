@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| h  p  j  g  l  c  h  e  e  s  e  f  c  n  r  j  w  g  s  r |
+ 1| m  z  t  y  n  e  b  d  p  n  f  t  l  a  v  y  a  q  a  z |
+ 2| v  e  s  i  l  f  u  e  a  i  h  w  a  d  k  i  d  y  s  m |
+ 3| n  j  t  m  x  u  r  y  g  e  e  o  e  c  i  e  k  d  g  m |
+ 4| z  u  e  l  i  c  g  g  w  a  y  r  g  a  o  c  x  y  c  d |
+ 5| i  v  a  v  x  i  e  o  n  e  b  d  c  e  c  s  u  h  j  j |
+ 6| i  m  k  e  f  j  r  w  k  o  k  w  t  j  u  u  e  v  o  g |
+ 7| f  x  r  v  k  v  j  i  t  y  o  a  k  m  y  u  r  y  j  h |
+ 8| u  q  o  i  w  p  h  o  k  r  l  d  v  u  x  v  b  r  y  d |
+ 9| c  o  m  n  o  s  k  c  n  o  o  o  l  m  e  d  v  r  y  a |
+10| b  w  e  b  u  n  w  o  c  x  i  b  g  e  g  m  l  g  b  m |
+11| b  i  o  s  e  p  f  o  q  g  k  o  f  a  s  a  w  r  g  o |
+12| k  r  c  t  p  n  h  b  u  r  r  i  t  o  z  v  o  p  d  s |
+13| g  b  e  e  t  c  f  w  g  d  d  p  z  z  j  o  w  t  c  w |
+14| s  x  i  a  c  d  a  r  g  a  g  t  i  r  k  j  a  t  z  h |
+15| r  i  c  e  d  r  h  a  l  d  m  p  p  a  s  t  a  l  m  p |
+16| b  d  t  y  u  e  e  a  m  z  a  s  a  n  d  w  i  c  h  n |
+17| l  a  c  t  z  p  s  a  v  l  l  d  n  h  z  w  p  f  n  h |
+18| s  o  u  p  i  j  m  c  m  k  n  t  c  u  t  w  j  q  r  o |
+19| j  c  o  o  k  i  e  s  g  i  a  g  j  q  l  d  r  s  o  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+burger: ((1, 6), (6, 6))
+pasta: ((15, 12), (15, 16))
+sandwich: ((16, 11), (16, 18))
+soup: ((18, 0), (18, 3))
+steak: ((2, 2), (6, 2))
+rice: ((15, 0), (15, 3))
+burrito: ((12, 7), (12, 13))
+cheese: ((0, 5), (0, 10))
+cookies: ((19, 1), (19, 7))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+burger: ((1, 6), (6, 6))
+pasta: ((15, 12), (15, 16))
+sandwich: ((16, 11), (16, 18))
+soup: ((18, 0), (18, 3))
+steak: ((2, 2), (6, 2))
+rice: ((15, 0), (15, 3))
+burrito: ((12, 7), (12, 13))
+cheese: ((0, 5), (0, 10))
+cookies: ((19, 1), (19, 7))
+
+Naïve Time taken: 0.0594 seconds
+Naïve Memory used: 0.00 MB

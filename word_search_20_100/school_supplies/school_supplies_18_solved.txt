@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| h  c  i  y  m  t  n  o  m  c  a  l  c  u  l  a  t  o  r  o |
+ 1| s  u  r  b  t  q  g  l  u  e  i  k  d  o  s  z  m  e  n  p |
+ 2| x  u  p  a  s  h  a  r  p  e  n  e  r  f  u  f  d  z  k  n |
+ 3| l  p  j  r  y  c  b  i  u  u  j  u  j  e  b  i  y  c  t  e |
+ 4| c  d  u  e  v  o  s  o  g  c  k  n  f  q  y  f  k  o  k  p |
+ 5| h  j  q  p  h  p  n  a  i  k  g  o  o  q  s  m  g  t  s  r |
+ 6| s  s  h  b  a  g  z  s  x  c  p  t  l  d  n  s  y  t  t  i |
+ 7| a  c  l  h  w  p  b  n  e  l  e  e  d  o  i  z  h  d  a  u |
+ 8| y  i  c  v  m  g  e  s  v  i  n  b  e  w  o  b  s  o  p  f |
+ 9| b  s  q  e  v  a  v  r  f  p  c  o  r  b  s  o  f  j  l  c |
+10| d  s  f  u  r  j  r  l  g  b  i  o  o  i  v  o  y  y  e  b |
+11| z  o  t  s  p  a  m  k  b  o  l  k  r  t  s  k  x  g  r  j |
+12| o  r  r  n  i  r  s  v  e  a  i  v  l  k  b  t  e  g  v  b |
+13| d  s  e  u  w  l  g  e  h  r  n  d  a  s  f  d  p  e  n  o |
+14| b  a  c  c  q  l  i  n  r  d  p  e  g  r  j  l  q  j  i  f |
+15| g  b  f  h  p  r  z  v  n  c  a  g  v  u  r  z  y  o  h  x |
+16| n  k  l  n  a  l  h  o  y  g  n  t  l  l  y  r  f  d  i  w |
+17| z  n  d  n  o  l  p  w  f  k  r  n  e  e  m  z  c  o  v  t |
+18| g  e  t  k  o  a  k  i  y  z  h  g  c  r  h  d  i  h  j  c |
+19| r  n  u  w  g  v  h  i  g  h  l  i  g  h  t  e  r  i  o  h |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pencil: ((6, 10), (11, 10))
+pen: ((2, 8), (2, 10))
+notebook: ((4, 11), (11, 11))
+ruler: ((14, 13), (18, 13))
+book: ((8, 11), (11, 11))
+bag: ((6, 3), (6, 5))
+glue: ((1, 6), (1, 9))
+scissors: ((6, 1), (13, 1))
+calculator: ((0, 9), (0, 18))
+stapler: ((5, 18), (11, 18))
+sharpener: ((2, 4), (2, 12))
+folder: ((4, 12), (9, 12))
+highlighter: ((19, 6), (19, 16))
+clipboard: ((6, 9), (14, 9))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pencil: ((6, 10), (11, 10))
+pen: ((2, 8), (2, 10))
+notebook: ((4, 11), (11, 11))
+ruler: ((14, 13), (18, 13))
+book: ((8, 11), (11, 11))
+bag: ((6, 3), (6, 5))
+glue: ((1, 6), (1, 9))
+scissors: ((6, 1), (13, 1))
+calculator: ((0, 9), (0, 18))
+stapler: ((5, 18), (11, 18))
+sharpener: ((2, 4), (2, 12))
+folder: ((4, 12), (9, 12))
+highlighter: ((19, 6), (19, 16))
+clipboard: ((6, 9), (14, 9))
+
+Naïve Time taken: 0.0503 seconds
+Naïve Memory used: 0.00 MB

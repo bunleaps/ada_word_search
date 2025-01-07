@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  x  p  r  m  n  c  x  z  d  a  v  h  r  v  u  h  a  r  j |
+ 1| p  c  j  n  u  b  l  q  a  a  d  r  t  f  w  b  b  x  s  o |
+ 2| y  n  g  b  c  r  m  e  f  g  o  w  r  c  f  r  a  r  m  x |
+ 3| p  u  l  c  i  j  q  t  q  o  w  n  x  a  v  a  m  g  j  p |
+ 4| e  x  s  s  k  l  r  t  y  b  o  d  b  n  h  i  o  k  k  r |
+ 5| h  s  h  l  w  a  l  t  l  z  k  t  s  o  k  n  u  o  o  m |
+ 6| f  t  c  j  e  w  d  m  v  s  r  y  a  s  o  l  t  t  o  o |
+ 7| a  o  r  h  n  t  z  m  e  m  w  y  p  e  u  a  h  r  m  c |
+ 8| t  m  l  e  g  y  b  z  k  n  s  w  k  t  e  a  r  f  h  q |
+ 9| g  a  p  s  v  s  z  c  d  r  v  j  a  l  i  h  h  h  n  c |
+10| l  c  a  h  z  p  e  y  g  n  q  u  x  c  r  n  x  w  g  t |
+11| t  h  y  o  e  n  t  z  t  a  m  h  c  e  r  m  q  w  i  e |
+12| x  u  w  u  i  t  h  o  g  l  s  z  h  e  n  t  f  r  g  e |
+13| s  c  z  l  b  e  f  m  e  x  y  n  e  z  f  g  v  y  x  t |
+14| s  x  d  d  z  a  s  i  z  q  k  n  s  x  f  e  j  d  f  h |
+15| x  y  l  e  i  d  o  d  n  s  k  i  t  y  h  o  j  d  m  p |
+16| g  r  p  r  v  d  t  g  u  g  k  j  j  p  p  a  q  i  x  t |
+17| a  c  u  x  d  b  a  c  k  i  e  i  g  c  e  u  n  k  n  z |
+18| h  e  a  d  g  d  y  x  o  g  x  r  n  p  a  j  g  d  e  i |
+19| r  h  t  w  m  y  v  y  y  e  j  l  k  q  p  p  e  y  e  j |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+head: ((18, 0), (18, 3))
+leg: ((8, 2), (8, 4))
+arm: ((2, 16), (2, 18))
+eye: ((19, 16), (19, 18))
+ear: ((8, 14), (8, 16))
+mouth: ((3, 16), (7, 16))
+nose: ((4, 13), (7, 13))
+stomach: ((5, 1), (11, 1))
+back: ((17, 5), (17, 8))
+chest: ((11, 12), (15, 12))
+shoulder: ((9, 3), (16, 3))
+brain: ((1, 15), (5, 15))
+teeth: ((10, 19), (14, 19))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+head: ((18, 0), (18, 3))
+leg: ((8, 2), (8, 4))
+arm: ((2, 16), (2, 18))
+eye: ((19, 16), (19, 18))
+ear: ((8, 14), (8, 16))
+mouth: ((3, 16), (7, 16))
+nose: ((4, 13), (7, 13))
+stomach: ((5, 1), (11, 1))
+back: ((17, 5), (17, 8))
+chest: ((11, 12), (15, 12))
+shoulder: ((9, 3), (16, 3))
+brain: ((1, 15), (5, 15))
+teeth: ((10, 19), (14, 19))
+
+Naïve Time taken: 0.0631 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| r  h  n  p  a  y  l  r  v  n  b  a  a  d  e  q  k  w  j  b |
+ 1| p  r  p  i  x  e  i  h  p  b  r  q  t  d  w  l  k  f  u  a |
+ 2| c  t  r  l  u  y  k  l  n  f  f  d  d  i  q  s  q  q  o  y |
+ 3| p  h  i  o  j  v  r  a  a  g  a  i  f  r  a  w  t  m  s  l |
+ 4| l  r  e  t  u  v  i  w  q  r  k  r  i  n  u  r  s  e  e  j |
+ 5| p  j  y  f  x  c  o  y  s  t  t  c  m  d  k  r  g  v  u  f |
+ 6| u  r  e  u  i  w  t  e  b  c  x  i  n  e  b  r  p  a  p  i |
+ 7| d  y  q  s  k  q  r  r  u  m  i  r  s  r  r  f  o  r  k  r |
+ 8| j  j  u  l  a  o  c  i  m  t  e  e  h  t  u  n  l  c  k  e |
+ 9| q  m  v  x  n  y  z  x  t  k  u  c  n  s  a  y  i  h  r  f |
+10| q  u  d  g  z  m  b  m  u  e  z  j  h  t  x  p  c  i  c  i |
+11| f  x  y  w  w  m  w  g  a  i  r  a  d  a  i  n  e  t  b  g |
+12| t  a  q  f  o  b  c  g  l  q  x  k  t  u  n  s  c  e  e  h |
+13| m  g  t  x  g  e  d  u  h  d  e  w  h  e  k  i  t  c  n  t |
+14| s  p  h  o  t  o  g  r  a  p  h  e  r  m  a  y  c  t  b  e |
+15| n  v  w  j  f  k  e  n  g  i  n  e  e  r  h  c  h  w  a  r |
+16| g  d  e  n  t  i  s  t  u  m  y  a  x  m  f  h  h  w  g  d |
+17| u  x  j  y  b  q  x  f  b  f  d  o  c  t  o  r  y  e  t  f |
+18| t  h  r  s  p  r  o  g  r  a  m  m  e  r  r  c  e  b  r  q |
+19| c  g  w  a  c  c  o  u  n  t  a  n  t  h  m  v  i  m  h  h |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+doctor: ((17, 10), (17, 15))
+engineer: ((15, 6), (15, 13))
+lawyer: ((2, 7), (7, 7))
+nurse: ((4, 13), (4, 17))
+pilot: ((0, 3), (4, 3))
+architect: ((6, 17), (14, 17))
+firefighter: ((5, 19), (15, 19))
+police: ((6, 16), (11, 16))
+accountant: ((19, 3), (19, 12))
+dentist: ((16, 1), (16, 7))
+photographer: ((14, 1), (14, 12))
+programmer: ((18, 4), (18, 13))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+doctor: ((17, 10), (17, 15))
+engineer: ((15, 6), (15, 13))
+lawyer: ((2, 7), (7, 7))
+nurse: ((4, 13), (4, 17))
+pilot: ((0, 3), (4, 3))
+architect: ((6, 17), (14, 17))
+firefighter: ((5, 19), (15, 19))
+police: ((6, 16), (11, 16))
+accountant: ((19, 3), (19, 12))
+dentist: ((16, 1), (16, 7))
+photographer: ((14, 1), (14, 12))
+programmer: ((18, 4), (18, 13))
+
+Naïve Time taken: 0.0500 seconds
+Naïve Memory used: 0.00 MB

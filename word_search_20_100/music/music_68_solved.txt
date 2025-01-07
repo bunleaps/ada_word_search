@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| k  w  h  t  x  h  n  d  n  o  t  e  z  r  g  j  t  r  k  j |
+ 1| l  t  e  r  z  e  m  f  c  g  o  s  l  w  h  o  f  c  m  p |
+ 2| s  f  a  x  f  y  g  i  t  a  t  r  p  a  u  v  l  o  v  m |
+ 3| b  l  d  j  r  i  y  a  c  d  l  r  c  z  s  d  s  n  i  m |
+ 4| y  u  p  w  g  u  k  d  y  r  a  b  u  h  a  k  t  c  i  j |
+ 5| f  t  h  e  p  p  z  z  e  a  o  s  u  m  e  p  s  e  c  h |
+ 6| u  e  o  s  i  n  p  t  c  n  v  p  x  m  p  s  n  r  q  a |
+ 7| a  t  n  t  i  c  c  u  x  e  y  y  h  c  x  e  t  t  h  r |
+ 8| d  w  e  t  e  y  i  u  l  b  z  g  l  o  n  t  t  r  m  m |
+ 9| b  p  s  m  z  d  q  t  i  u  a  o  m  g  n  h  i  d  a  o |
+10| k  s  a  x  o  p  h  o  n  e  c  n  e  j  z  e  q  b  n  n |
+11| e  v  s  w  n  g  o  g  d  v  e  g  d  c  m  o  m  o  v  y |
+12| m  y  e  v  p  n  n  r  i  i  h  q  f  i  w  h  m  l  r  o |
+13| n  e  i  a  a  a  o  q  l  o  c  u  y  e  t  s  c  o  s  f |
+14| o  k  l  i  e  h  b  f  y  l  z  e  y  y  m  f  i  m  z  v |
+15| s  j  p  o  c  t  k  z  r  i  e  w  h  u  m  x  l  a  q  z |
+16| c  f  r  u  d  k  p  o  i  n  a  r  r  b  g  q  m  o  c  s |
+17| d  s  a  a  g  y  y  w  c  o  u  d  s  i  n  g  e  r  r  e |
+18| y  g  u  i  t  a  r  y  s  f  k  x  o  g  v  u  f  k  h  e |
+19| c  h  q  v  q  o  n  w  v  p  y  s  o  m  c  t  e  a  i  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((18, 1), (18, 6))
+violin: ((11, 9), (16, 9))
+flute: ((2, 1), (6, 1))
+saxophone: ((10, 1), (10, 9))
+singer: ((17, 12), (17, 17))
+harmony: ((5, 19), (11, 19))
+note: ((0, 8), (0, 11))
+concert: ((1, 17), (7, 17))
+lyrics: ((13, 8), (18, 8))
+headphones: ((0, 2), (9, 2))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((18, 1), (18, 6))
+violin: ((11, 9), (16, 9))
+flute: ((2, 1), (6, 1))
+saxophone: ((10, 1), (10, 9))
+singer: ((17, 12), (17, 17))
+harmony: ((5, 19), (11, 19))
+note: ((0, 8), (0, 11))
+concert: ((1, 17), (7, 17))
+lyrics: ((13, 8), (18, 8))
+headphones: ((0, 2), (9, 2))
+
+Naïve Time taken: 0.0588 seconds
+Naïve Memory used: 0.00 MB

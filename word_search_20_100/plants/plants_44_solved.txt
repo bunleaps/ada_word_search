@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| r  i  t  e  x  d  s  o  j  f  l  o  w  e  r  v  h  q  b  q |
+ 1| u  s  n  l  b  u  s  j  f  p  y  y  j  q  s  y  c  x  m  e |
+ 2| f  s  w  h  u  p  p  b  m  a  x  g  e  f  f  e  m  o  b  t |
+ 3| h  g  v  a  n  i  e  v  y  l  g  n  x  j  g  a  w  i  r  g |
+ 4| i  i  r  j  o  p  c  w  f  m  c  a  c  t  u  s  a  x  c  q |
+ 5| s  w  p  a  w  f  e  r  n  r  s  v  e  n  u  x  s  e  a  i |
+ 6| s  e  u  i  s  g  c  r  b  o  u  f  d  e  z  r  y  a  w  u |
+ 7| d  q  y  p  n  s  u  m  w  s  b  t  l  k  n  s  u  n  j  h |
+ 8| x  v  p  g  j  e  d  s  o  e  o  f  r  i  i  n  m  g  w  a |
+ 9| x  v  k  e  e  t  o  h  s  s  z  q  l  a  l  t  c  w  n  b |
+10| a  o  h  m  p  e  e  r  r  u  s  f  d  x  h  y  j  a  s  d |
+11| g  k  c  m  l  q  b  u  g  b  n  t  g  l  p  n  p  v  v  w |
+12| s  r  f  p  m  j  a  b  l  c  h  f  b  i  v  i  n  e  r  v |
+13| a  x  a  h  m  y  m  i  w  o  a  k  l  v  z  n  k  h  h  y |
+14| m  m  y  t  v  k  b  v  i  d  h  u  l  o  k  b  w  v  n  i |
+15| d  b  q  i  e  f  o  r  i  g  t  v  h  d  w  b  h  v  b  z |
+16| w  j  t  e  k  v  o  h  h  t  s  u  u  r  r  e  q  q  y  s |
+17| o  l  r  n  f  g  c  l  o  m  m  t  l  q  f  o  r  j  s  g |
+18| d  t  k  m  s  r  x  p  t  q  p  v  k  u  p  d  v  m  d  h |
+19| z  a  i  g  o  b  j  g  k  z  g  a  m  y  d  o  l  l  i  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+flower: ((0, 9), (0, 14))
+shrub: ((8, 7), (12, 7))
+fern: ((5, 5), (5, 8))
+cactus: ((4, 10), (4, 15))
+vine: ((12, 14), (12, 17))
+bamboo: ((11, 6), (16, 6))
+oak: ((13, 9), (13, 11))
+rose: ((5, 9), (8, 9))
+palm: ((1, 9), (4, 9))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+flower: ((0, 9), (0, 14))
+shrub: ((8, 7), (12, 7))
+fern: ((5, 5), (5, 8))
+cactus: ((4, 10), (4, 15))
+vine: ((12, 14), (12, 17))
+bamboo: ((11, 6), (16, 6))
+oak: ((13, 9), (13, 11))
+rose: ((5, 9), (8, 9))
+palm: ((1, 9), (4, 9))
+
+Naïve Time taken: 0.0666 seconds
+Naïve Memory used: 0.00 MB

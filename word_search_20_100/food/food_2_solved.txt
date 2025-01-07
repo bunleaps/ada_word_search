@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| p  k  u  m  c  g  m  t  i  y  a  f  h  j  p  o  l  c  p  e |
+ 1| h  l  u  a  z  h  h  d  z  y  q  s  d  t  e  f  z  d  b  g |
+ 2| e  i  m  p  m  b  o  s  o  r  j  o  a  c  j  r  f  n  g  c |
+ 3| f  s  c  i  q  p  l  c  z  c  m  w  i  l  p  v  k  o  m  i |
+ 4| c  j  g  b  x  o  f  y  o  a  i  r  z  j  a  d  f  o  e  j |
+ 5| m  j  f  i  j  e  v  u  i  l  q  c  s  v  k  d  k  d  u  l |
+ 6| v  i  s  s  s  x  w  y  u  u  a  l  e  d  x  s  c  l  g  v |
+ 7| f  q  t  e  u  y  o  i  p  t  w  t  m  c  s  o  a  e  f  v |
+ 8| c  g  e  j  n  s  i  h  t  v  p  b  e  j  r  r  k  s  j  r |
+ 9| b  h  i  c  k  w  h  v  b  i  i  a  u  m  w  e  e  p  v  v |
+10| c  r  n  w  l  l  n  i  y  n  c  t  s  r  l  q  a  t  b  c |
+11| c  v  e  t  p  i  r  r  h  g  i  o  x  t  g  k  e  m  s  o |
+12| t  q  k  a  p  i  r  z  o  v  t  m  r  a  a  e  q  w  d  o |
+13| k  o  r  s  d  u  e  q  r  i  z  c  x  n  q  i  r  z  a  k |
+14| o  i  p  t  c  k  g  k  r  x  d  c  h  h  y  v  y  o  v  i |
+15| m  l  c  e  l  o  j  r  s  a  n  d  w  i  c  h  c  u  b  e |
+16| t  z  o  a  z  s  u  f  z  h  c  f  g  q  u  a  w  p  b  s |
+17| t  m  o  k  n  b  e  z  j  a  e  s  v  k  t  v  f  p  k  q |
+18| o  m  f  e  v  q  x  o  w  n  p  i  z  z  a  k  s  v  v  t |
+19| y  n  s  o  u  p  p  r  r  m  v  o  q  n  p  v  u  m  z  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((18, 10), (18, 14))
+sandwich: ((15, 8), (15, 15))
+soup: ((19, 2), (19, 5))
+steak: ((13, 3), (17, 3))
+noodles: ((2, 17), (8, 17))
+cake: ((6, 16), (9, 16))
+cookies: ((10, 19), (16, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((18, 10), (18, 14))
+sandwich: ((15, 8), (15, 15))
+soup: ((19, 2), (19, 5))
+steak: ((13, 3), (17, 3))
+noodles: ((2, 17), (8, 17))
+cake: ((6, 16), (9, 16))
+cookies: ((10, 19), (16, 19))
+
+Naïve Time taken: 0.0686 seconds
+Naïve Memory used: 0.00 MB

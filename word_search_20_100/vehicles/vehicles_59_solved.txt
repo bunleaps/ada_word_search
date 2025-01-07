@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| w  p  d  i  u  t  t  h  o  v  e  r  b  o  a  r  d  m  w  c |
+ 1| r  b  l  h  p  r  y  b  g  e  e  g  h  g  z  g  q  s  w  z |
+ 2| g  o  f  e  b  u  a  n  n  l  z  d  i  h  m  u  y  m  q  t |
+ 3| w  i  k  j  o  c  d  i  c  v  x  m  b  i  q  m  t  a  x  k |
+ 4| k  f  d  w  u  k  r  y  a  p  u  k  t  n  t  a  x  i  k  r |
+ 5| u  a  f  l  r  a  c  i  f  f  q  m  a  m  m  u  t  x  g  d |
+ 6| y  f  o  r  m  i  i  q  l  t  v  v  g  w  h  a  z  j  w  w |
+ 7| n  e  l  b  b  v  s  c  o  o  t  e  r  l  o  v  w  q  e  k |
+ 8| i  m  u  b  z  g  c  e  z  m  l  j  c  b  h  e  w  a  t  m |
+ 9| a  s  c  n  j  s  p  a  c  e  s  h  i  p  d  e  c  a  r  r |
+10| h  h  e  l  i  c  o  p  t  e  r  a  d  x  u  b  s  q  k  d |
+11| i  c  j  p  u  s  a  c  s  g  y  i  d  h  j  v  a  c  s  t |
+12| o  i  m  w  e  k  v  d  m  o  t  o  r  c  y  c  l  e  y  z |
+13| t  r  a  i  n  j  g  a  i  r  p  l  a  n  e  h  z  w  n  r |
+14| a  q  u  y  k  u  y  g  p  t  j  y  a  c  h  t  c  w  d  d |
+15| y  o  v  o  n  p  z  b  x  t  a  s  p  t  b  o  e  e  x  l |
+16| r  b  u  u  p  d  c  c  s  r  l  v  t  r  a  m  t  h  b  p |
+17| f  z  p  v  i  h  k  c  n  i  t  o  a  h  a  h  v  p  u  v |
+18| r  i  c  k  s  h  a  w  u  q  a  e  t  v  k  t  h  d  s  d |
+19| i  g  q  k  e  s  w  y  o  p  q  g  l  v  o  w  s  i  n  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+car: ((5, 6), (5, 4))
+truck: ((0, 5), (4, 5))
+motorcycle: ((12, 8), (12, 17))
+scooter: ((7, 6), (7, 12))
+bus: ((16, 18), (18, 18))
+train: ((13, 0), (13, 4))
+airplane: ((13, 7), (13, 14))
+helicopter: ((10, 1), (10, 10))
+yacht: ((14, 11), (14, 15))
+spaceship: ((9, 5), (9, 13))
+tram: ((16, 12), (16, 15))
+rickshaw: ((18, 0), (18, 7))
+taxi: ((4, 14), (4, 17))
+hoverboard: ((0, 7), (0, 16))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+car: ((5, 6), (5, 4))
+truck: ((0, 5), (4, 5))
+motorcycle: ((12, 8), (12, 17))
+scooter: ((7, 6), (7, 12))
+bus: ((16, 18), (18, 18))
+train: ((13, 0), (13, 4))
+airplane: ((13, 7), (13, 14))
+helicopter: ((10, 1), (10, 10))
+yacht: ((14, 11), (14, 15))
+spaceship: ((9, 5), (9, 13))
+tram: ((16, 12), (16, 15))
+rickshaw: ((18, 0), (18, 7))
+taxi: ((4, 14), (4, 17))
+hoverboard: ((0, 7), (0, 16))
+
+Naïve Time taken: 0.0340 seconds
+Naïve Memory used: 0.00 MB

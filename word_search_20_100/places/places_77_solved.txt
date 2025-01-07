@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| y  t  o  u  l  n  x  t  x  p  z  n  o  f  t  g  j  s  h  p |
+ 1| m  b  a  g  d  v  e  u  m  o  o  k  z  g  r  l  a  k  e  n |
+ 2| n  t  c  i  t  y  j  t  j  j  r  n  u  k  p  g  b  c  v  v |
+ 3| v  t  b  c  o  u  n  t  r  y  o  e  a  z  q  p  j  u  i  e |
+ 4| m  l  q  e  m  w  d  e  s  e  r  t  b  j  i  l  j  t  x  g |
+ 5| d  m  m  o  a  a  u  c  o  n  t  i  n  e  n  t  l  j  s  t |
+ 6| a  f  y  d  l  c  v  t  q  h  q  l  g  i  o  t  k  e  q  q |
+ 7| k  s  a  t  f  z  h  e  d  o  o  f  n  r  s  f  d  e  n  i |
+ 8| d  o  g  x  l  l  g  s  y  g  q  w  o  l  o  l  a  q  l  j |
+ 9| r  m  m  q  o  a  r  p  a  r  k  y  d  r  t  q  a  y  k  r |
+10| s  k  o  o  l  v  j  h  b  e  w  m  v  w  e  o  a  n  z  e |
+11| j  g  h  l  v  i  h  h  x  n  a  v  m  c  x  s  p  l  d  s |
+12| j  c  i  k  i  n  d  o  i  l  g  a  h  u  g  e  t  i  a  t |
+13| s  v  k  k  w  w  l  a  s  y  e  b  k  r  s  c  q  j  m  a |
+14| v  p  c  o  z  w  t  a  b  p  m  t  u  i  m  e  w  p  i  u |
+15| e  z  t  m  s  n  r  n  j  v  i  i  a  v  b  w  u  e  a  r |
+16| k  b  y  c  u  q  i  p  x  l  i  t  v  e  d  o  l  m  x  a |
+17| s  s  w  o  d  q  x  i  t  w  s  n  a  r  n  d  e  q  l  n |
+18| u  y  m  c  c  h  u  r  c  h  k  n  m  l  t  j  r  a  z  t |
+19| b  i  b  s  n  c  y  j  f  s  t  r  e  e  t  w  g  m  t  h |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+city: ((2, 2), (2, 5))
+park: ((9, 7), (9, 10))
+river: ((13, 13), (17, 13))
+lake: ((1, 15), (1, 18))
+desert: ((4, 6), (4, 11))
+country: ((3, 3), (3, 9))
+continent: ((5, 7), (5, 15))
+street: ((19, 9), (19, 14))
+church: ((18, 4), (18, 9))
+restaurant: ((9, 19), (18, 19))
+
+DP Time taken: 0.0019 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((2, 2), (2, 5))
+park: ((9, 7), (9, 10))
+river: ((13, 13), (17, 13))
+lake: ((1, 15), (1, 18))
+desert: ((4, 6), (4, 11))
+country: ((3, 3), (3, 9))
+continent: ((5, 7), (5, 15))
+street: ((19, 9), (19, 14))
+church: ((18, 4), (18, 9))
+restaurant: ((9, 19), (18, 19))
+
+Naïve Time taken: 0.0569 seconds
+Naïve Memory used: 0.00 MB

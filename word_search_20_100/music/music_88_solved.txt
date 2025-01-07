@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| g  g  n  h  q  o  r  c  h  e  s  t  r  a  b  c  m  t  u  r |
+ 1| t  r  t  i  m  u  v  j  s  a  x  o  p  h  o  n  e  o  o  s |
+ 2| j  a  c  g  t  g  o  s  a  j  a  l  m  y  c  o  u  v  s  w |
+ 3| j  o  p  a  h  h  e  a  d  p  h  o  n  e  s  d  x  o  q  f |
+ 4| n  v  n  u  r  p  a  c  o  g  u  o  t  s  r  s  s  m  h  z |
+ 5| o  r  f  l  u  t  e  t  w  v  m  v  i  o  n  o  u  r  g  e |
+ 6| t  m  i  f  y  m  e  l  s  r  o  u  h  h  g  t  o  h  m  g |
+ 7| e  o  y  f  o  j  z  r  a  x  i  c  n  b  f  x  p  y  i  c |
+ 8| r  o  p  z  i  y  a  h  d  m  v  i  o  l  i  n  x  t  c  u |
+ 9| n  u  e  z  d  t  t  v  a  r  i  d  b  d  l  q  o  h  r  l |
+10| u  j  u  o  i  j  p  f  s  c  z  r  j  w  w  f  q  m  o  i |
+11| o  n  l  u  p  i  a  n  o  l  o  f  s  s  h  h  j  e  p  r |
+12| p  e  g  s  z  u  e  l  n  k  y  n  p  i  s  b  k  j  h  m |
+13| m  p  k  i  n  z  h  h  e  g  y  r  c  i  n  h  a  v  o  v |
+14| c  u  b  i  k  n  g  d  o  j  j  i  i  e  c  g  n  b  n  r |
+15| o  x  p  a  r  y  g  i  j  j  s  m  p  c  r  r  e  y  e  q |
+16| l  b  l  e  n  u  r  k  m  d  r  s  q  w  s  t  k  r  c  t |
+17| i  e  u  t  s  d  g  r  l  d  n  x  p  d  r  u  m  s  z  b |
+18| t  b  b  p  t  i  s  g  l  x  s  a  l  b  u  m  a  b  d  e |
+19| p  e  p  i  j  a  b  c  t  r  u  m  p  e  t  r  c  w  u  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+piano: ((11, 4), (11, 8))
+drums: ((17, 13), (17, 17))
+violin: ((8, 10), (8, 15))
+flute: ((5, 2), (5, 6))
+saxophone: ((1, 8), (1, 16))
+trumpet: ((19, 8), (19, 14))
+orchestra: ((0, 5), (0, 13))
+rhythm: ((5, 17), (10, 17))
+note: ((4, 0), (7, 0))
+album: ((18, 11), (18, 15))
+microphone: ((6, 18), (15, 18))
+headphones: ((3, 5), (3, 14))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+piano: ((11, 4), (11, 8))
+drums: ((17, 13), (17, 17))
+violin: ((8, 10), (8, 15))
+flute: ((5, 2), (5, 6))
+saxophone: ((1, 8), (1, 16))
+trumpet: ((19, 8), (19, 14))
+orchestra: ((0, 5), (0, 13))
+rhythm: ((5, 17), (10, 17))
+note: ((4, 0), (7, 0))
+album: ((18, 11), (18, 15))
+microphone: ((6, 18), (15, 18))
+headphones: ((3, 5), (3, 14))
+
+Naïve Time taken: 0.0480 seconds
+Naïve Memory used: 0.00 MB

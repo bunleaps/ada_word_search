@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  d  c  c  k  n  h  e  l  e  p  h  a  n  t  f  r  m  c  s |
+ 1| z  c  z  g  x  v  s  w  n  d  n  f  c  f  c  p  t  r  w  d |
+ 2| y  s  i  w  i  x  f  o  b  n  g  k  q  a  k  t  e  h  o  o |
+ 3| i  l  u  w  c  n  e  l  m  y  s  a  v  m  o  k  j  i  c  l |
+ 4| k  b  i  r  d  w  s  f  c  a  f  n  r  r  k  j  z  n  t  p |
+ 5| d  r  j  d  x  s  q  e  a  o  j  g  r  a  d  n  a  o  o  h |
+ 6| b  a  z  a  e  c  l  m  c  h  t  a  u  x  o  i  b  c  p  i |
+ 7| z  e  t  t  a  k  w  e  r  t  p  r  w  i  b  t  u  e  u  n |
+ 8| n  r  a  v  g  h  o  x  r  f  e  o  l  i  r  i  t  r  s  o |
+ 9| d  u  r  r  l  v  e  i  f  l  l  o  h  t  z  g  t  o  v  v |
+10| h  k  e  x  e  i  h  u  a  a  y  p  n  e  d  e  e  s  c  z |
+11| o  f  p  t  j  z  r  h  m  k  m  a  y  e  e  r  r  f  j  y |
+12| n  x  t  n  g  w  w  m  r  a  k  s  k  l  y  d  f  a  d  i |
+13| e  n  i  t  i  o  a  a  j  h  l  a  i  o  j  d  l  v  b  e |
+14| y  j  l  o  r  m  h  k  m  p  n  d  z  z  f  f  y  k  t  i |
+15| b  n  e  j  a  s  z  n  g  s  o  n  a  w  y  i  e  p  v  s |
+16| e  i  b  m  f  o  h  o  h  c  w  r  w  c  b  c  s  g  t  z |
+17| e  a  z  t  f  x  r  z  o  t  b  u  y  z  u  s  o  h  g  b |
+18| a  t  t  z  e  f  z  r  n  e  f  v  z  z  l  x  l  d  z  o |
+19| r  g  x  d  m  j  c  d  z  f  f  t  v  p  a  n  d  a  k  o |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+reptile: ((9, 2), (15, 2))
+bird: ((4, 1), (4, 4))
+tiger: ((7, 15), (11, 15))
+elephant: ((0, 7), (0, 14))
+giraffe: ((12, 4), (18, 4))
+dolphin: ((1, 19), (7, 19))
+eagle: ((6, 4), (10, 4))
+wolf: ((1, 7), (4, 7))
+panda: ((19, 13), (19, 17))
+kangaroo: ((2, 11), (9, 11))
+rhinoceros: ((1, 17), (10, 17))
+ant: ((0, 12), (0, 14))
+butterfly: ((6, 16), (14, 16))
+honeybee: ((10, 0), (17, 0))
+octopus: ((2, 18), (8, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+reptile: ((9, 2), (15, 2))
+bird: ((4, 1), (4, 4))
+tiger: ((7, 15), (11, 15))
+elephant: ((0, 7), (0, 14))
+giraffe: ((12, 4), (18, 4))
+dolphin: ((1, 19), (7, 19))
+eagle: ((6, 4), (10, 4))
+wolf: ((1, 7), (4, 7))
+panda: ((19, 13), (19, 17))
+kangaroo: ((2, 11), (9, 11))
+rhinoceros: ((1, 17), (10, 17))
+ant: ((0, 12), (0, 14))
+butterfly: ((6, 16), (14, 16))
+honeybee: ((10, 0), (17, 0))
+octopus: ((2, 18), (8, 18))
+
+Naïve Time taken: 0.0927 seconds
+Naïve Memory used: 0.00 MB

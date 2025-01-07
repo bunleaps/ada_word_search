@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| g  p  k  f  s  i  v  c  o  m  e  d  y  t  l  o  u  p  i  f |
+ 1| e  c  q  f  q  s  i  a  d  k  x  t  f  l  b  j  e  r  a  s |
+ 2| p  q  i  l  e  g  c  r  b  v  v  a  q  s  i  c  o  o  n  b |
+ 3| g  j  u  z  s  s  a  r  b  t  i  n  h  h  n  x  r  d  i  o |
+ 4| c  e  b  p  b  w  t  v  i  z  h  m  u  a  k  e  l  u  m  a |
+ 5| b  h  n  o  a  l  l  i  b  p  c  r  m  i  a  t  n  c  a  c |
+ 6| e  l  a  r  x  q  d  z  v  i  t  o  i  f  b  i  g  e  t  j |
+ 7| q  v  o  n  e  o  r  i  p  a  r  z  h  l  a  h  d  r  i  m |
+ 8| j  d  a  c  k  t  f  q  r  b  l  x  a  l  l  m  d  s  o  u |
+ 9| y  o  c  c  k  c  r  f  z  e  h  n  l  o  k  e  s  c  n  s |
+10| f  c  t  u  i  b  i  a  i  m  c  i  k  p  u  k  r  r  l  i |
+11| p  u  o  f  r  n  u  s  i  c  v  t  x  x  o  u  x  e  a  c |
+12| o  m  r  a  l  a  e  s  u  l  e  k  o  x  l  r  s  e  b  a |
+13| p  e  x  h  k  t  j  m  t  a  e  j  p  r  v  s  l  n  k  l |
+14| c  n  a  p  c  s  v  a  a  e  n  r  z  w  e  n  a  p  p  w |
+15| o  t  u  z  p  e  i  c  f  i  r  q  r  r  w  m  e  l  a  c |
+16| r  a  r  a  b  e  m  b  f  l  d  n  t  w  a  o  z  a  h  b |
+17| n  r  x  h  o  r  r  o  r  b  k  c  y  r  u  v  o  y  b  w |
+18| j  y  p  r  e  m  i  e  r  e  a  q  d  l  q  l  g  s  x  k |
+19| h  e  r  o  b  s  e  q  u  e  l  v  w  b  w  m  a  l  x  i |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+actor: ((8, 2), (12, 2))
+popcorn: ((11, 0), (17, 0))
+sequel: ((19, 5), (19, 10))
+premiere: ((18, 2), (18, 9))
+hero: ((19, 0), (19, 3))
+comedy: ((0, 7), (0, 12))
+horror: ((17, 3), (17, 8))
+animation: ((1, 18), (9, 18))
+musical: ((7, 19), (13, 19))
+documentary: ((8, 1), (18, 1))
+producer: ((0, 17), (7, 17))
+screenplay: ((8, 17), (17, 17))
+
+DP Time taken: 0.0014 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+actor: ((8, 2), (12, 2))
+popcorn: ((11, 0), (17, 0))
+sequel: ((19, 5), (19, 10))
+premiere: ((18, 2), (18, 9))
+hero: ((19, 0), (19, 3))
+comedy: ((0, 7), (0, 12))
+horror: ((17, 3), (17, 8))
+animation: ((1, 18), (9, 18))
+musical: ((7, 19), (13, 19))
+documentary: ((8, 1), (18, 1))
+producer: ((0, 17), (7, 17))
+screenplay: ((8, 17), (17, 17))
+
+Naïve Time taken: 0.0777 seconds
+Naïve Memory used: 0.00 MB

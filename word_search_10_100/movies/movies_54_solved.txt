@@ -1,0 +1,39 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| t  h  d  k  a  w  a  r  d  t |
+ 1| r  w  i  g  q  c  s  v  r  t |
+ 2| a  y  r  o  i  s  t  t  n  p |
+ 3| i  r  e  c  e  m  k  o  o  o |
+ 4| l  s  c  r  i  p  t  r  r  p |
+ 5| e  z  t  t  s  n  e  x  r  c |
+ 6| r  c  o  t  o  h  e  i  i  o |
+ 7| a  b  r  n  d  r  a  m  a  r |
+ 8| q  s  e  q  u  e  l  w  a  n |
+ 9| s  p  r  e  m  i  e  r  e  e |
+  +------------------------------+
+Dynamic Programming Solution:
+director: ((0, 2), (7, 2))
+script: ((4, 1), (4, 6))
+popcorn: ((2, 9), (8, 9))
+trailer: ((0, 0), (6, 0))
+sequel: ((8, 1), (8, 6))
+premiere: ((9, 1), (9, 8))
+drama: ((7, 4), (7, 8))
+award: ((0, 4), (0, 8))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+director: ((0, 2), (7, 2))
+script: ((4, 1), (4, 6))
+popcorn: ((2, 9), (8, 9))
+trailer: ((0, 0), (6, 0))
+sequel: ((8, 1), (8, 6))
+premiere: ((9, 1), (9, 8))
+drama: ((7, 4), (7, 8))
+award: ((0, 4), (0, 8))
+
+Naïve Time taken: 0.0110 seconds
+Naïve Memory used: 0.00 MB

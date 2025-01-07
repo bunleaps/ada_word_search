@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| n  v  l  y  s  p  a  p  i  i  j  w  s  u  w  f  o  w  j  h |
+ 1| e  b  v  m  v  d  t  p  m  t  d  b  s  j  y  e  d  f  c  p |
+ 2| h  a  n  d  b  t  j  b  d  a  k  a  r  p  t  f  m  e  y  s |
+ 3| m  p  n  t  x  c  s  l  e  t  i  d  x  a  f  m  n  x  y  e |
+ 4| s  y  s  y  h  h  o  h  v  n  o  r  h  v  i  f  r  c  v  c |
+ 5| g  t  f  s  k  n  v  u  u  s  t  e  n  t  n  n  l  f  e  l |
+ 6| z  d  o  i  g  m  l  f  b  z  o  t  e  u  g  l  k  h  c  c |
+ 7| v  c  k  m  k  n  e  e  j  j  s  q  c  y  e  l  t  c  q  t |
+ 8| q  o  k  t  a  w  x  t  l  d  r  u  k  d  r  u  p  n  f  e |
+ 9| m  h  t  e  j  c  l  y  t  s  g  e  y  s  o  b  h  r  l  u |
+10| b  s  b  p  d  n  h  n  q  o  k  a  d  m  a  u  a  p  r  c |
+11| p  m  h  y  q  j  n  z  n  c  w  g  r  p  r  e  f  x  n  d |
+12| y  k  s  o  n  m  o  q  a  q  v  p  p  m  m  g  g  z  o  y |
+13| m  w  t  k  u  s  e  b  q  q  h  f  c  s  l  u  m  k  s  b |
+14| c  r  o  t  i  l  f  y  y  p  r  e  m  t  b  w  d  o  e  g |
+15| a  h  p  b  e  n  d  g  f  r  e  e  a  y  e  y  g  i  k  m |
+16| g  t  e  w  u  l  v  e  i  x  y  i  z  r  v  e  t  y  m  l |
+17| x  m  x  s  x  a  q  m  r  e  w  n  w  g  t  o  t  y  v  w |
+18| b  z  w  j  t  i  l  q  w  w  k  e  e  f  o  t  n  h  m  l |
+19| j  p  a  t  l  z  t  v  f  t  a  l  h  f  u  w  i  f  x  y |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+hand: ((2, 0), (2, 3))
+arm: ((10, 14), (12, 14))
+nose: ((11, 18), (14, 18))
+neck: ((5, 12), (8, 12))
+knee: ((7, 4), (7, 7))
+finger: ((3, 14), (8, 14))
+toe: ((18, 15), (16, 15))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+hand: ((2, 0), (2, 3))
+arm: ((10, 14), (12, 14))
+nose: ((11, 18), (14, 18))
+neck: ((5, 12), (8, 12))
+knee: ((7, 4), (7, 7))
+finger: ((3, 14), (8, 14))
+toe: ((18, 15), (16, 15))
+
+Naïve Time taken: 0.1047 seconds
+Naïve Memory used: 0.00 MB

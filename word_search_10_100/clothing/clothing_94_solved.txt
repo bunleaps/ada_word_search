@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| c  h  d  r  e  s  s  s  r  d |
+ 1| s  b  o  o  t  s  h  n  e  s |
+ 2| w  s  q  y  k  j  p  e  j  c |
+ 3| e  c  k  c  h  s  a  a  g  a |
+ 4| a  t  o  i  n  a  n  k  l  r |
+ 5| t  s  v  a  r  l  t  e  o  f |
+ 6| e  b  e  l  t  t  s  r  v  v |
+ 7| r  j  p  s  h  o  e  s  e  r |
+ 8| y  y  j  a  c  k  e  t  s  a |
+ 9| t  i  e  s  h  i  r  t  w  o |
+  +------------------------------+
+Dynamic Programming Solution:
+shirt: ((9, 3), (9, 7))
+pants: ((2, 6), (6, 6))
+jacket: ((8, 2), (8, 7))
+dress: ((0, 2), (0, 6))
+sweater: ((1, 0), (7, 0))
+shoes: ((7, 3), (7, 7))
+gloves: ((3, 8), (8, 8))
+scarf: ((1, 9), (5, 9))
+belt: ((6, 1), (6, 4))
+sneakers: ((0, 7), (7, 7))
+boots: ((1, 1), (1, 5))
+tie: ((9, 0), (9, 2))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+shirt: ((9, 3), (9, 7))
+pants: ((2, 6), (6, 6))
+jacket: ((8, 2), (8, 7))
+dress: ((0, 2), (0, 6))
+sweater: ((1, 0), (7, 0))
+shoes: ((7, 3), (7, 7))
+gloves: ((3, 8), (8, 8))
+scarf: ((1, 9), (5, 9))
+belt: ((6, 1), (6, 4))
+sneakers: ((0, 7), (7, 7))
+boots: ((1, 1), (1, 5))
+tie: ((9, 0), (9, 2))
+
+Naïve Time taken: 0.0093 seconds
+Naïve Memory used: 0.00 MB

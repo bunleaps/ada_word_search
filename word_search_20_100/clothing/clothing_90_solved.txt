@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| n  n  u  b  e  l  t  c  k  m  x  b  z  l  n  j  u  a  t  u |
+ 1| z  b  k  y  s  c  a  r  f  g  l  c  j  a  i  e  c  b  d  y |
+ 2| f  j  k  f  b  c  z  k  d  g  f  o  a  i  j  y  f  l  z  u |
+ 3| l  x  a  d  m  i  m  x  p  y  v  a  t  k  f  u  t  s  i  m |
+ 4| u  e  s  c  q  v  k  j  c  g  e  t  g  s  q  r  x  l  u  k |
+ 5| n  p  r  o  k  d  e  a  q  t  e  c  k  a  i  x  s  x  r  c |
+ 6| i  k  a  b  f  e  g  p  x  r  g  c  f  h  v  e  j  s  m  z |
+ 7| f  t  m  j  h  z  t  a  t  v  o  e  s  j  v  o  q  r  j  t |
+ 8| o  p  d  v  a  i  t  n  n  s  x  k  s  q  q  y  f  f  c  h |
+ 9| r  h  d  u  q  m  w  t  b  s  j  s  w  n  j  x  g  k  y  q |
+10| m  g  y  k  q  e  a  s  q  k  g  l  e  t  o  u  c  v  z  k |
+11| z  t  s  d  x  y  g  s  w  i  m  i  a  w  i  v  x  r  j  s |
+12| o  m  n  r  k  s  d  l  s  r  f  s  t  r  g  y  h  h  e  j |
+13| m  b  e  e  p  h  h  r  o  t  x  e  e  f  k  b  u  a  a  r |
+14| n  t  a  s  l  r  m  o  q  v  b  d  r  e  l  u  n  t  n  a |
+15| f  i  k  s  y  n  z  p  e  z  e  z  n  x  p  z  v  b  s  c |
+16| s  e  e  d  j  g  z  r  w  s  k  s  x  x  u  o  u  n  h  z |
+17| k  u  r  b  r  d  d  l  q  v  o  u  k  s  p  z  a  z  w  e |
+18| s  i  s  f  m  s  z  e  k  f  r  e  n  b  o  o  t  s  b  s |
+19| r  w  i  c  n  b  s  j  z  u  m  l  c  z  e  n  g  n  h  u |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pants: ((6, 7), (10, 7))
+dress: ((11, 3), (15, 3))
+skirt: ((9, 9), (13, 9))
+coat: ((1, 11), (4, 11))
+sweater: ((8, 12), (14, 12))
+scarf: ((1, 4), (1, 8))
+hat: ((12, 17), (14, 17))
+belt: ((0, 3), (0, 6))
+jeans: ((11, 18), (15, 18))
+sneakers: ((11, 2), (18, 2))
+boots: ((18, 13), (18, 17))
+tie: ((14, 1), (16, 1))
+uniform: ((4, 0), (10, 0))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pants: ((6, 7), (10, 7))
+dress: ((11, 3), (15, 3))
+skirt: ((9, 9), (13, 9))
+coat: ((1, 11), (4, 11))
+sweater: ((8, 12), (14, 12))
+scarf: ((1, 4), (1, 8))
+hat: ((12, 17), (14, 17))
+belt: ((0, 3), (0, 6))
+jeans: ((11, 18), (15, 18))
+sneakers: ((11, 2), (18, 2))
+boots: ((18, 13), (18, 17))
+tie: ((14, 1), (16, 1))
+uniform: ((4, 0), (10, 0))
+
+Naïve Time taken: 0.0579 seconds
+Naïve Memory used: 0.00 MB

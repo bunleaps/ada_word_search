@@ -1,0 +1,45 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| d  s  c  h  o  o  l  v  e  p |
+ 1| e  t  m  j  z  n  t  i  r  d |
+ 2| s  r  o  d  w  s  i  l  i  c |
+ 3| e  e  s  o  e  b  s  l  v  o |
+ 4| r  e  t  r  e  e  l  a  e  u |
+ 5| t  t  o  k  y  a  a  g  r  n |
+ 6| u  f  a  t  g  c  n  e  o  t |
+ 7| i  l  i  r  g  h  d  x  a  r |
+ 8| m  c  p  a  r  k  n  j  d  y |
+ 9| m  o  u  n  t  a  i  n  l  r |
+  +------------------------------+
+Dynamic Programming Solution:
+village: ((0, 7), (6, 7))
+park: ((8, 2), (8, 5))
+beach: ((3, 5), (7, 5))
+mountain: ((9, 0), (9, 7))
+river: ((1, 8), (5, 8))
+desert: ((0, 0), (5, 0))
+island: ((2, 6), (7, 6))
+country: ((2, 9), (8, 9))
+street: ((0, 1), (5, 1))
+road: ((5, 8), (8, 8))
+school: ((0, 1), (0, 6))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+village: ((0, 7), (6, 7))
+park: ((8, 2), (8, 5))
+beach: ((3, 5), (7, 5))
+mountain: ((9, 0), (9, 7))
+river: ((1, 8), (5, 8))
+desert: ((0, 0), (5, 0))
+island: ((2, 6), (7, 6))
+country: ((2, 9), (8, 9))
+street: ((0, 1), (5, 1))
+road: ((5, 8), (8, 8))
+school: ((0, 1), (0, 6))
+
+Naïve Time taken: 0.0105 seconds
+Naïve Memory used: 0.00 MB

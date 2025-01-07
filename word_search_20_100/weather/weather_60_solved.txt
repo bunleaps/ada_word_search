@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  t  t  z  h  x  b  n  j  i  v  v  m  f  v  o  j  l  b  c |
+ 1| p  l  g  n  d  j  r  v  t  n  b  x  w  r  s  b  a  k  d  w |
+ 2| d  r  i  z  z  l  e  n  r  h  n  u  s  b  n  q  s  j  f  f |
+ 3| c  g  k  z  c  c  e  z  m  c  u  d  b  b  o  i  k  r  w  m |
+ 4| s  a  p  g  z  n  z  g  p  o  p  m  v  b  w  g  e  o  i  y |
+ 5| q  s  o  p  j  a  e  h  f  l  e  l  i  b  y  d  k  n  w  l |
+ 6| s  v  o  r  h  k  r  m  o  d  y  g  b  d  n  r  j  c  i  w |
+ 7| w  r  c  t  b  u  c  d  i  t  y  j  k  u  m  v  l  l  n  w |
+ 8| g  k  e  t  y  c  r  r  g  l  v  d  h  o  t  d  i  o  d  g |
+ 9| g  l  u  n  o  c  n  r  a  h  p  t  w  q  i  b  g  u  y  m |
+10| j  h  n  h  f  r  r  u  i  i  f  y  k  o  m  g  h  d  t  b |
+11| c  u  p  l  v  m  n  t  f  c  n  p  e  z  m  w  t  y  w  g |
+12| s  f  b  z  v  d  p  a  z  j  a  y  z  q  v  y  n  n  j  j |
+13| g  x  d  i  q  f  s  a  d  p  k  n  z  w  m  m  i  o  n  g |
+14| l  r  r  s  c  e  r  a  s  o  z  z  e  r  p  y  n  v  a  r |
+15| o  h  y  k  a  m  e  o  l  o  c  a  o  g  i  c  g  e  s  r |
+16| x  b  b  y  t  h  s  i  s  i  c  t  m  c  h  n  r  r  d  x |
+17| i  c  g  a  s  q  s  c  i  t  s  c  n  v  d  d  f  y  b  z |
+18| d  f  p  j  o  e  o  o  q  n  r  h  y  w  r  k  t  h  t  f |
+19| o  i  w  x  f  o  g  g  y  i  u  p  p  d  h  a  i  l  w  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+cloudy: ((6, 17), (11, 17))
+snowy: ((1, 14), (5, 14))
+windy: ((5, 18), (9, 18))
+foggy: ((19, 4), (19, 8))
+dry: ((13, 2), (15, 2))
+hot: ((8, 12), (8, 14))
+cold: ((3, 9), (6, 9))
+lightning: ((7, 16), (15, 16))
+breeze: ((0, 6), (5, 6))
+hail: ((19, 14), (19, 17))
+drizzle: ((2, 0), (2, 6))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+cloudy: ((6, 17), (11, 17))
+snowy: ((1, 14), (5, 14))
+windy: ((5, 18), (9, 18))
+foggy: ((19, 4), (19, 8))
+dry: ((13, 2), (15, 2))
+hot: ((8, 12), (8, 14))
+cold: ((3, 9), (6, 9))
+lightning: ((7, 16), (15, 16))
+breeze: ((0, 6), (5, 6))
+hail: ((19, 14), (19, 17))
+drizzle: ((2, 0), (2, 6))
+
+Naïve Time taken: 0.0882 seconds
+Naïve Memory used: 0.00 MB

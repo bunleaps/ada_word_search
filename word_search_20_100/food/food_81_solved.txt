@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| y  e  c  h  i  j  p  l  r  x  p  v  u  k  u  p  i  n  g  m |
+ 1| l  v  n  z  s  h  b  x  t  o  n  m  m  d  p  n  f  a  y  o |
+ 2| s  a  n  d  w  i  c  h  o  c  o  l  a  t  e  f  t  n  n  l |
+ 3| b  r  e  a  d  x  i  a  a  h  a  n  y  l  o  s  z  y  x  b |
+ 4| r  h  x  t  c  u  r  r  y  s  l  b  x  e  a  s  k  j  w  r |
+ 5| s  y  u  q  t  n  w  r  s  y  a  q  a  p  c  u  a  x  v  z |
+ 6| q  t  o  f  j  v  l  e  y  b  t  l  y  f  r  s  q  d  f  b |
+ 7| w  u  e  n  r  r  l  f  r  u  f  z  a  v  z  h  m  a  j  e |
+ 8| d  o  r  j  e  d  j  w  i  r  f  l  j  d  p  i  w  b  o  a |
+ 9| q  s  k  o  o  j  s  m  j  g  i  z  e  b  g  b  y  w  g  x |
+10| d  t  y  o  i  e  a  y  p  e  c  t  o  q  g  s  o  u  p  f |
+11| j  e  n  h  i  e  k  t  m  r  k  p  d  r  l  s  s  x  w  i |
+12| j  a  h  k  r  s  g  w  x  k  j  d  h  l  x  e  t  t  b  w |
+13| w  k  o  c  j  m  r  d  q  s  s  f  g  o  f  x  x  u  s  z |
+14| j  o  e  u  o  j  g  t  l  p  e  u  t  z  o  w  i  e  m  o |
+15| c  c  i  w  o  c  v  n  k  i  g  i  t  a  c  o  a  c  e  x |
+16| i  z  w  r  q  a  d  u  p  n  r  p  i  z  z  a  h  c  n  u |
+17| b  y  r  g  j  k  b  r  u  r  x  z  c  r  e  k  i  s  m  o |
+18| y  k  v  w  l  e  a  m  u  d  q  a  a  o  h  r  k  c  m  p |
+19| c  h  e  e  s  e  c  b  v  d  o  m  m  k  v  a  g  w  v  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((16, 11), (16, 15))
+burger: ((6, 9), (11, 9))
+sandwich: ((2, 0), (2, 7))
+soup: ((10, 15), (10, 18))
+steak: ((9, 1), (13, 1))
+sushi: ((4, 15), (8, 15))
+taco: ((15, 12), (15, 15))
+curry: ((4, 4), (4, 8))
+bread: ((3, 0), (3, 4))
+cheese: ((19, 0), (19, 5))
+chocolate: ((2, 6), (2, 14))
+cake: ((15, 5), (18, 5))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((16, 11), (16, 15))
+burger: ((6, 9), (11, 9))
+sandwich: ((2, 0), (2, 7))
+soup: ((10, 15), (10, 18))
+steak: ((9, 1), (13, 1))
+sushi: ((4, 15), (8, 15))
+taco: ((15, 12), (15, 15))
+curry: ((4, 4), (4, 8))
+bread: ((3, 0), (3, 4))
+cheese: ((19, 0), (19, 5))
+chocolate: ((2, 6), (2, 14))
+cake: ((15, 5), (18, 5))
+
+Naïve Time taken: 0.0488 seconds
+Naïve Memory used: 0.00 MB

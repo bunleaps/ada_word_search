@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| u  c  n  s  c  h  o  o  l  g  u  c  o  u  n  t  r  y  x  d |
+ 1| a  m  m  p  s  a  g  b  o  k  d  m  m  t  k  i  h  l  j  c |
+ 2| c  s  e  h  a  o  v  t  g  w  i  e  s  u  a  f  v  o  k  q |
+ 3| z  s  v  w  f  r  l  t  r  q  f  s  s  w  s  x  q  w  i  h |
+ 4| j  z  k  t  q  c  k  l  o  e  o  k  l  e  w  e  x  o  z  o |
+ 5| l  d  l  q  x  t  h  v  y  w  s  o  e  a  r  f  u  b  j  n |
+ 6| r  j  e  j  q  p  k  u  v  t  z  t  t  u  n  t  z  m  m  u |
+ 7| d  s  h  o  m  t  x  h  r  w  o  m  a  l  k  d  z  x  w  n |
+ 8| w  z  m  e  n  a  c  w  t  c  w  q  b  u  o  b  s  t  c  q |
+ 9| x  a  h  h  b  a  d  s  v  r  h  a  o  x  r  f  c  u  t  v |
+10| r  w  o  z  e  s  e  a  v  i  l  l  a  g  e  a  o  m  o  y |
+11| d  b  a  b  i  r  a  u  t  v  h  f  w  r  v  a  n  a  w  v |
+12| x  p  o  t  o  a  v  b  c  e  u  p  g  t  l  k  t  t  n  d |
+13| d  i  k  f  h  b  v  y  e  r  q  x  d  t  o  d  i  a  t  m |
+14| a  l  c  n  t  y  v  k  a  x  c  i  t  y  a  d  n  c  o  z |
+15| a  m  o  u  n  t  a  i  n  n  y  h  g  i  a  h  e  m  w  e |
+16| j  b  r  j  f  l  n  i  l  b  n  f  i  o  k  j  n  h  o  v |
+17| y  h  o  s  p  i  t  a  l  m  s  a  r  i  v  r  t  z  d  r |
+18| p  o  k  g  m  t  k  s  t  r  e  e  t  v  g  f  l  n  s  i |
+19| j  c  j  l  q  q  c  u  i  e  s  t  m  a  p  d  t  s  j  b |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+city: ((14, 10), (14, 13))
+town: ((9, 18), (12, 18))
+village: ((10, 8), (10, 14))
+mountain: ((15, 1), (15, 8))
+river: ((9, 9), (13, 9))
+country: ((0, 11), (0, 17))
+continent: ((9, 16), (17, 16))
+street: ((18, 7), (18, 12))
+school: ((0, 3), (0, 8))
+hospital: ((17, 1), (17, 8))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((14, 10), (14, 13))
+town: ((9, 18), (12, 18))
+village: ((10, 8), (10, 14))
+mountain: ((15, 1), (15, 8))
+river: ((9, 9), (13, 9))
+country: ((0, 11), (0, 17))
+continent: ((9, 16), (17, 16))
+street: ((18, 7), (18, 12))
+school: ((0, 3), (0, 8))
+hospital: ((17, 1), (17, 8))
+
+Naïve Time taken: 0.0587 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| x  q  u  j  u  e  l  q  c  p  i  r  b  g  z  y  y  c  c  b |
+ 1| o  v  b  a  l  l  b  p  b  q  u  t  n  m  r  n  a  v  y  w |
+ 2| j  o  d  o  j  b  l  a  c  k  d  r  v  d  a  a  a  a  e  d |
+ 3| l  v  w  p  b  j  d  z  x  l  p  w  p  w  q  a  y  y  q  o |
+ 4| z  f  f  o  e  b  o  t  o  g  i  g  l  l  r  m  o  t  m  m |
+ 5| y  w  u  x  i  s  p  g  t  z  n  x  s  g  e  b  j  j  p  a |
+ 6| y  q  g  z  g  k  i  g  c  k  k  m  z  b  w  v  l  i  s  m |
+ 7| d  z  r  w  e  o  r  l  f  t  j  d  a  s  r  z  r  u  a  k |
+ 8| y  l  e  i  m  i  x  o  v  e  e  u  m  r  r  x  l  e  e  i |
+ 9| q  w  e  z  p  w  n  h  r  e  u  e  q  o  o  x  b  d  f  t |
+10| l  d  n  e  x  w  r  y  q  a  r  j  j  l  y  o  p  h  u  l |
+11| i  z  w  g  o  y  q  f  f  c  n  s  y  i  e  z  n  y  x  m |
+12| l  m  o  r  h  e  s  o  t  m  s  g  v  v  l  a  a  q  i  k |
+13| k  x  b  h  i  n  u  b  e  v  s  u  e  e  l  w  p  l  e  q |
+14| e  x  h  i  a  o  i  p  h  i  g  n  w  l  o  m  d  d  o  o |
+15| p  k  d  y  k  w  e  v  u  l  y  f  a  g  w  m  v  f  f  f |
+16| x  e  c  h  u  b  o  o  p  c  v  e  k  m  x  t  o  l  l  n |
+17| r  d  g  f  w  h  i  t  e  q  t  w  v  o  a  n  m  n  e  g |
+18| x  g  f  c  x  g  p  c  o  j  w  m  g  i  h  i  c  q  l  u |
+19| f  i  l  y  e  l  w  t  m  b  b  v  m  a  g  e  n  t  a  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+green: ((6, 2), (10, 2))
+yellow: ((10, 14), (15, 14))
+pink: ((3, 10), (6, 10))
+black: ((2, 5), (2, 9))
+white: ((17, 4), (17, 8))
+magenta: ((19, 12), (19, 18))
+navy: ((1, 15), (1, 18))
+beige: ((3, 4), (7, 4))
+olive: ((9, 13), (13, 13))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+green: ((6, 2), (10, 2))
+yellow: ((10, 14), (15, 14))
+pink: ((3, 10), (6, 10))
+black: ((2, 5), (2, 9))
+white: ((17, 4), (17, 8))
+magenta: ((19, 12), (19, 18))
+navy: ((1, 15), (1, 18))
+beige: ((3, 4), (7, 4))
+olive: ((9, 13), (13, 13))
+
+Naïve Time taken: 0.0650 seconds
+Naïve Memory used: 0.00 MB

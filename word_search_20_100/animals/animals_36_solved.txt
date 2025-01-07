@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  s  g  a  o  r  m  t  r  b  p  z  e  b  r  a  o  y  a  x |
+ 1| s  e  i  k  c  p  s  f  g  i  g  q  t  r  j  b  e  y  h  g |
+ 2| e  q  j  h  t  a  u  u  w  d  a  i  u  h  h  v  o  s  n  v |
+ 3| w  l  k  k  o  n  w  n  r  i  w  g  r  a  h  w  i  f  s  y |
+ 4| l  c  e  w  p  d  w  i  u  p  d  y  n  n  n  f  l  m  k  g |
+ 5| m  i  q  z  u  a  b  p  a  r  r  o  t  j  p  t  b  t  b  m |
+ 6| w  a  o  v  s  t  s  y  k  a  i  n  s  e  c  t  n  e  u  i |
+ 7| g  x  m  n  r  h  i  n  o  c  e  r  o  s  n  a  s  i  t  x |
+ 8| c  u  x  m  t  w  r  p  a  d  a  c  z  s  h  f  k  y  t  s |
+ 9| b  m  b  u  a  i  t  g  n  k  o  r  e  p  t  i  l  e  e  h |
+10| q  m  m  m  k  l  g  a  w  h  e  l  e  u  w  a  l  l  r  a |
+11| b  e  a  r  x  a  i  e  e  i  i  l  p  i  l  h  e  g  f  r |
+12| a  a  v  x  h  b  n  c  r  d  e  t  i  h  q  v  a  n  l  k |
+13| t  g  a  h  i  f  w  g  o  i  c  u  b  t  i  p  l  l  y  a |
+14| z  l  a  h  r  w  r  c  a  x  x  s  c  n  o  n  t  l  e  h |
+15| d  e  p  m  w  e  o  o  h  r  j  g  i  r  a  f  f  e  d  s |
+16| t  m  x  s  j  r  m  l  g  l  o  e  y  a  i  c  f  q  t  m |
+17| a  g  i  m  c  b  u  v  f  d  r  o  z  x  f  n  u  m  w  g |
+18| d  x  j  f  x  y  s  a  v  q  c  g  f  c  m  x  p  f  t  k |
+19| y  c  o  c  c  t  n  h  o  n  e  y  b  e  e  i  b  h  a  b |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+reptile: ((9, 11), (9, 17))
+insect: ((6, 10), (6, 15))
+giraffe: ((15, 11), (15, 17))
+parrot: ((5, 7), (5, 12))
+eagle: ((11, 1), (15, 1))
+bear: ((11, 0), (11, 3))
+panda: ((1, 5), (5, 5))
+rhinoceros: ((7, 4), (7, 13))
+zebra: ((0, 11), (0, 15))
+butterfly: ((5, 18), (13, 18))
+honeybee: ((19, 7), (19, 14))
+octopus: ((0, 4), (6, 4))
+shark: ((8, 19), (12, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+reptile: ((9, 11), (9, 17))
+insect: ((6, 10), (6, 15))
+giraffe: ((15, 11), (15, 17))
+parrot: ((5, 7), (5, 12))
+eagle: ((11, 1), (15, 1))
+bear: ((11, 0), (11, 3))
+panda: ((1, 5), (5, 5))
+rhinoceros: ((7, 4), (7, 13))
+zebra: ((0, 11), (0, 15))
+butterfly: ((5, 18), (13, 18))
+honeybee: ((19, 7), (19, 14))
+octopus: ((0, 4), (6, 4))
+shark: ((8, 19), (12, 19))
+
+Naïve Time taken: 0.0755 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  a  n  n  a  n  t  w  l  r  w  x  i  p  k  e  f  r  b  l |
+ 1| x  a  c  r  o  c  o  d  i  l  e  s  t  p  e  o  b  u  u  u |
+ 2| y  t  b  r  t  x  m  h  f  p  u  a  s  l  m  s  z  g  t  c |
+ 3| f  q  q  i  h  l  i  l  h  p  v  x  a  n  n  r  g  o  t  s |
+ 4| e  i  x  n  b  i  o  v  o  e  b  h  f  z  a  o  x  n  e  g |
+ 5| c  u  m  s  b  w  n  t  b  t  w  b  i  x  r  k  a  k  r  k |
+ 6| v  v  v  e  t  m  c  o  n  t  w  g  s  f  p  r  e  s  f  u |
+ 7| p  x  c  c  m  o  y  a  c  u  e  u  h  h  b  m  z  h  l  d |
+ 8| a  a  x  t  i  b  h  t  o  e  g  m  b  e  c  o  o  a  y  o |
+ 9| r  p  c  q  m  p  i  l  g  l  r  v  z  i  l  w  y  r  p  l |
+10| r  z  w  z  e  e  j  r  a  i  j  o  k  g  r  f  x  k  s  p |
+11| o  z  e  l  l  g  a  m  i  z  r  j  s  v  p  d  r  a  v  h |
+12| t  n  e  g  z  e  m  n  v  q  i  a  r  e  p  t  i  l  e  i |
+13| x  k  a  n  b  a  v  s  d  g  g  v  f  y  n  c  r  k  r  n |
+14| k  e  u  s  m  u  w  q  v  u  g  m  f  f  l  j  e  l  u  s |
+15| h  y  z  g  z  j  v  t  i  g  e  r  n  s  e  i  x  h  p  n |
+16| n  a  y  x  w  l  d  h  q  i  b  a  q  a  g  g  o  p  d  q |
+17| c  e  p  q  n  i  i  a  m  p  h  i  b  i  a  n  z  n  q  x |
+18| t  k  a  n  g  a  r  o  o  x  z  j  y  o  p  a  n  d  a  t |
+19| a  h  o  n  e  y  b  e  e  h  g  u  w  a  y  n  l  e  b  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+reptile: ((12, 12), (12, 18))
+amphibian: ((17, 7), (17, 15))
+fish: ((4, 12), (7, 12))
+insect: ((3, 3), (8, 3))
+tiger: ((15, 7), (15, 11))
+crocodile: ((1, 2), (1, 10))
+parrot: ((7, 0), (12, 0))
+dolphin: ((7, 19), (13, 19))
+panda: ((18, 14), (18, 18))
+kangaroo: ((18, 1), (18, 8))
+ant: ((0, 4), (0, 6))
+butterfly: ((0, 18), (8, 18))
+honeybee: ((19, 1), (19, 8))
+shark: ((6, 17), (10, 17))
+
+DP Time taken: 0.0019 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+reptile: ((12, 12), (12, 18))
+amphibian: ((17, 7), (17, 15))
+fish: ((4, 12), (7, 12))
+insect: ((3, 3), (8, 3))
+tiger: ((15, 7), (15, 11))
+crocodile: ((1, 2), (1, 10))
+parrot: ((7, 0), (12, 0))
+dolphin: ((7, 19), (13, 19))
+panda: ((18, 14), (18, 18))
+kangaroo: ((18, 1), (18, 8))
+ant: ((0, 4), (0, 6))
+butterfly: ((0, 18), (8, 18))
+honeybee: ((19, 1), (19, 8))
+shark: ((6, 17), (10, 17))
+
+Naïve Time taken: 0.0880 seconds
+Naïve Memory used: 0.00 MB

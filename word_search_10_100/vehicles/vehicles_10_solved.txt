@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| w  b  d  q  b  o  a  t  a  z |
+ 1| r  i  c  k  s  h  a  w  i  t |
+ 2| s  c  o  o  t  e  r  b  r  r |
+ 3| l  y  y  g  s  w  f  u  p  a |
+ 4| r  c  a  v  a  n  i  s  l  i |
+ 5| u  l  c  u  l  x  c  u  a  n |
+ 6| p  e  h  c  a  r  s  k  n  t |
+ 7| i  k  t  t  r  a  m  c  e  c |
+ 8| s  u  b  m  a  r  i  n  e  b |
+ 9| m  g  t  r  u  c  k  a  u  f |
+  +------------------------------+
+Dynamic Programming Solution:
+car: ((6, 3), (6, 5))
+truck: ((9, 2), (9, 6))
+van: ((4, 3), (4, 5))
+bicycle: ((0, 1), (6, 1))
+scooter: ((2, 0), (2, 6))
+bus: ((8, 2), (8, 0))
+train: ((1, 9), (5, 9))
+airplane: ((0, 8), (7, 8))
+boat: ((0, 4), (0, 7))
+yacht: ((3, 2), (7, 2))
+submarine: ((8, 0), (8, 8))
+tram: ((7, 3), (7, 6))
+rickshaw: ((1, 0), (1, 7))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+car: ((6, 3), (6, 5))
+truck: ((9, 2), (9, 6))
+van: ((4, 3), (4, 5))
+bicycle: ((0, 1), (6, 1))
+scooter: ((2, 0), (2, 6))
+bus: ((8, 2), (8, 0))
+train: ((1, 9), (5, 9))
+airplane: ((0, 8), (7, 8))
+boat: ((0, 4), (0, 7))
+yacht: ((3, 2), (7, 2))
+submarine: ((8, 0), (8, 8))
+tram: ((7, 3), (7, 6))
+rickshaw: ((1, 0), (1, 7))
+
+Naïve Time taken: 0.0101 seconds
+Naïve Memory used: 0.00 MB

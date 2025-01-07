@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  j  e  m  o  r  n  i  n  g  e  f  q  y  g  y  t  i  t  x |
+ 1| u  o  u  r  v  p  m  s  u  n  r  i  s  e  c  j  h  r  o  c |
+ 2| k  m  l  s  g  m  j  l  q  k  s  d  j  a  q  s  c  e  m  c |
+ 3| a  b  i  i  e  y  x  y  e  f  t  g  l  r  c  f  k  k  o  y |
+ 4| g  e  u  n  s  v  d  e  t  y  f  x  y  b  n  b  s  k  r  e |
+ 5| s  y  u  r  u  n  w  v  i  u  k  h  q  x  r  d  h  c  r  s |
+ 6| f  l  y  x  f  t  k  q  p  a  g  r  s  k  g  t  o  p  o  t |
+ 7| c  f  y  c  r  e  e  p  m  o  n  t  h  n  h  u  r  v  w  e |
+ 8| p  z  d  e  c  a  d  e  w  i  g  l  i  g  e  h  d  f  q  r |
+ 9| y  s  a  i  w  a  s  x  g  f  m  n  i  d  i  n  a  w  e  d |
+10| r  u  c  e  n  t  u  r  y  i  e  n  n  a  o  c  y  e  f  a |
+11| m  n  d  f  b  i  y  h  a  v  g  o  r  o  t  s  w  e  p  y |
+12| s  s  l  f  j  n  v  d  e  u  c  k  n  s  g  h  f  k  z  a |
+13| r  e  v  z  m  c  z  n  i  e  w  r  z  k  n  o  n  d  b  a |
+14| o  t  u  p  z  t  c  x  s  t  e  g  z  p  v  l  y  a  t  w |
+15| g  h  h  o  u  r  o  v  b  t  s  l  k  b  w  i  y  y  k  n |
+16| l  d  b  m  k  v  m  d  f  i  v  e  j  e  n  d  h  f  y  y |
+17| h  g  j  p  n  i  c  a  a  g  q  y  s  y  g  a  x  v  o  c |
+18| k  p  n  s  o  p  c  r  d  y  q  o  c  m  w  y  c  r  b  q |
+19| b  a  a  a  w  e  e  k  e  n  d  i  n  p  g  b  j  v  h  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+hour: ((15, 2), (15, 5))
+day: ((16, 15), (18, 15))
+week: ((19, 4), (19, 7))
+month: ((7, 8), (7, 12))
+year: ((0, 13), (3, 13))
+decade: ((8, 2), (8, 7))
+century: ((10, 2), (10, 8))
+morning: ((0, 3), (0, 9))
+tomorrow: ((0, 18), (7, 18))
+yesterday: ((3, 19), (11, 19))
+weekend: ((19, 4), (19, 10))
+weekday: ((9, 17), (15, 17))
+holiday: ((12, 15), (18, 15))
+sunrise: ((1, 7), (1, 13))
+sunset: ((9, 1), (14, 1))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+hour: ((15, 2), (15, 5))
+day: ((16, 15), (18, 15))
+week: ((19, 4), (19, 7))
+month: ((7, 8), (7, 12))
+year: ((0, 13), (3, 13))
+decade: ((8, 2), (8, 7))
+century: ((10, 2), (10, 8))
+morning: ((0, 3), (0, 9))
+tomorrow: ((0, 18), (7, 18))
+yesterday: ((3, 19), (11, 19))
+weekend: ((19, 4), (19, 10))
+weekday: ((9, 17), (15, 17))
+holiday: ((12, 15), (18, 15))
+sunrise: ((1, 7), (1, 13))
+sunset: ((9, 1), (14, 1))
+
+Naïve Time taken: 0.0554 seconds
+Naïve Memory used: 0.00 MB

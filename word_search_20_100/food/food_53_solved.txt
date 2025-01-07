@@ -1,0 +1,73 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| p  u  i  x  e  t  u  u  c  a  k  e  y  q  x  f  p  l  i  m |
+ 1| m  f  s  h  l  w  w  y  r  o  y  f  d  l  m  v  e  a  c  f |
+ 2| t  u  a  i  s  h  l  b  w  n  e  y  f  f  v  b  q  f  o  e |
+ 3| e  e  m  j  a  f  t  h  a  q  v  a  v  z  v  o  g  s  o  i |
+ 4| g  b  m  o  c  u  a  e  n  u  y  r  i  c  e  t  a  t  k  r |
+ 5| e  u  m  s  d  i  c  v  m  d  j  y  p  o  e  q  t  b  i  z |
+ 6| c  r  s  d  a  h  o  m  i  s  p  r  k  w  l  v  l  r  e  p |
+ 7| a  r  m  h  i  y  n  d  c  n  r  q  o  v  x  a  c  e  s  q |
+ 8| v  i  p  i  z  z  a  l  e  o  q  h  q  g  j  l  s  a  x  c |
+ 9| x  t  n  d  r  e  g  d  c  o  c  s  a  l  a  d  m  d  p  m |
+10| y  o  b  r  o  q  p  j  r  d  s  s  p  z  p  k  g  h  r  w |
+11| w  r  p  n  l  i  o  v  e  l  a  o  z  i  t  a  t  h  k  w |
+12| e  j  m  q  q  s  l  g  a  e  z  u  w  c  u  r  r  y  c  d |
+13| v  s  u  r  r  u  q  m  m  s  d  p  p  k  y  b  j  r  h  i |
+14| s  t  o  u  o  s  b  u  c  s  a  n  d  w  i  c  h  u  e  s |
+15| t  b  i  c  y  h  p  a  s  t  a  y  k  l  b  w  r  l  e  a |
+16| e  e  y  s  c  i  b  u  r  g  e  r  e  b  t  c  f  u  s  w |
+17| a  r  g  c  h  o  c  o  l  a  t  e  n  b  z  e  o  y  e  v |
+18| k  g  c  j  s  l  f  u  c  o  p  p  i  e  w  p  e  n  r  q |
+19| l  j  l  h  j  z  s  j  d  t  y  y  q  t  l  g  t  x  d  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((8, 2), (8, 6))
+burger: ((16, 6), (16, 11))
+pasta: ((15, 6), (15, 10))
+sandwich: ((14, 9), (14, 16))
+salad: ((9, 11), (9, 15))
+soup: ((10, 11), (13, 11))
+steak: ((14, 0), (18, 0))
+sushi: ((12, 5), (16, 5))
+rice: ((4, 11), (4, 14))
+noodles: ((7, 9), (13, 9))
+taco: ((3, 6), (6, 6))
+burrito: ((4, 1), (10, 1))
+curry: ((12, 13), (12, 17))
+bread: ((5, 17), (9, 17))
+cheese: ((12, 18), (17, 18))
+chocolate: ((17, 3), (17, 11))
+icecream: ((6, 8), (13, 8))
+cake: ((0, 8), (0, 11))
+cookies: ((1, 18), (7, 18))
+pie: ((18, 11), (18, 13))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((8, 2), (8, 6))
+burger: ((16, 6), (16, 11))
+pasta: ((15, 6), (15, 10))
+sandwich: ((14, 9), (14, 16))
+salad: ((9, 11), (9, 15))
+soup: ((10, 11), (13, 11))
+steak: ((14, 0), (18, 0))
+sushi: ((12, 5), (16, 5))
+rice: ((4, 11), (4, 14))
+noodles: ((7, 9), (13, 9))
+taco: ((3, 6), (6, 6))
+burrito: ((4, 1), (10, 1))
+curry: ((12, 13), (12, 17))
+bread: ((5, 17), (9, 17))
+cheese: ((12, 18), (17, 18))
+chocolate: ((17, 3), (17, 11))
+icecream: ((6, 8), (13, 8))
+cake: ((0, 8), (0, 11))
+cookies: ((1, 18), (7, 18))
+pie: ((18, 11), (18, 13))
+
+Naïve Time taken: 0.0371 seconds
+Naïve Memory used: 0.00 MB

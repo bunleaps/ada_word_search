@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| v  p  z  k  h  y  p  x  y  m  y  w  d  z  y  w  k  u  g  g |
+ 1| q  u  k  b  c  h  a  l  k  f  t  h  q  g  k  l  p  s  k  t |
+ 2| o  h  e  g  o  c  z  d  b  i  w  x  p  m  x  o  p  z  l  k |
+ 3| f  d  y  p  e  o  s  d  p  m  a  n  s  e  r  a  s  e  r  f |
+ 4| y  x  n  a  g  x  k  o  e  t  j  o  o  y  o  y  n  q  s  h |
+ 5| w  k  y  p  w  i  a  e  n  r  f  v  v  t  b  z  g  y  i  x |
+ 6| c  a  u  e  o  s  c  o  c  l  t  d  f  y  e  a  q  x  o  y |
+ 7| u  l  g  r  m  j  g  q  i  p  s  r  d  b  z  b  g  n  e  h |
+ 8| c  g  i  u  p  v  v  y  l  r  e  e  i  p  l  r  o  k  a  i |
+ 9| s  a  d  p  t  i  m  y  o  w  h  n  r  e  e  n  b  o  z  g |
+10| t  x  l  d  b  b  y  s  d  a  w  e  i  n  z  e  c  g  k  h |
+11| a  i  e  c  u  o  s  y  f  p  l  z  e  c  d  y  i  r  y  l |
+12| p  t  f  m  u  i  a  s  q  u  d  p  x  a  b  k  o  a  o  i |
+13| l  g  p  o  c  l  h  r  r  a  r  m  a  r  k  e  r  b  i  g |
+14| e  r  x  s  l  l  a  l  d  a  p  c  r  a  y  o  n  s  q  h |
+15| r  o  m  m  f  d  o  t  h  c  z  f  k  l  a  f  r  j  b  t |
+16| u  c  z  t  d  m  e  s  o  n  i  q  d  e  k  g  w  k  s  e |
+17| v  l  d  v  l  n  k  r  b  r  q  d  u  r  x  o  o  k  g  r |
+18| h  f  l  p  b  f  s  v  z  u  g  l  y  d  s  c  h  f  c  l |
+19| r  i  t  y  x  h  r  s  x  h  g  z  r  c  i  u  x  v  u  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pencil: ((3, 8), (8, 8))
+pen: ((3, 8), (5, 8))
+eraser: ((3, 13), (3, 18))
+marker: ((13, 11), (13, 16))
+chalk: ((1, 4), (1, 8))
+paper: ((3, 3), (7, 3))
+stapler: ((9, 0), (15, 0))
+highlighter: ((7, 19), (17, 19))
+crayons: ((14, 11), (14, 17))
+
+DP Time taken: 0.0014 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pencil: ((3, 8), (8, 8))
+pen: ((3, 8), (5, 8))
+eraser: ((3, 13), (3, 18))
+marker: ((13, 11), (13, 16))
+chalk: ((1, 4), (1, 8))
+paper: ((3, 3), (7, 3))
+stapler: ((9, 0), (15, 0))
+highlighter: ((7, 19), (17, 19))
+crayons: ((14, 11), (14, 17))
+
+Naïve Time taken: 0.0580 seconds
+Naïve Memory used: 0.00 MB

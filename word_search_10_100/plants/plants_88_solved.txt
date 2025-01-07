@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| l  i  s  m  o  s  s  c  w  v |
+ 1| i  v  n  e  p  f  e  r  n  x |
+ 2| l  y  e  f  a  c  n  r  m  s |
+ 3| y  r  m  l  p  a  o  o  o  h |
+ 4| t  p  a  o  o  c  t  s  e  r |
+ 5| y  i  p  w  a  t  u  e  e  u |
+ 6| h  n  l  e  k  u  l  n  s  b |
+ 7| p  e  e  r  n  s  i  f  p  g |
+ 8| g  r  a  s  s  v  p  n  u  n |
+ 9| t  z  c  b  a  m  b  o  o  c |
+  +------------------------------+
+Dynamic Programming Solution:
+flower: ((2, 3), (7, 3))
+grass: ((8, 0), (8, 4))
+shrub: ((2, 9), (6, 9))
+fern: ((1, 5), (1, 8))
+moss: ((0, 3), (0, 6))
+cactus: ((2, 5), (7, 5))
+bamboo: ((9, 3), (9, 8))
+oak: ((4, 4), (6, 4))
+pine: ((4, 1), (7, 1))
+maple: ((3, 2), (7, 2))
+rose: ((2, 7), (5, 7))
+tulip: ((4, 6), (8, 6))
+lily: ((0, 0), (3, 0))
+ivy: ((0, 1), (2, 1))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+flower: ((2, 3), (7, 3))
+grass: ((8, 0), (8, 4))
+shrub: ((2, 9), (6, 9))
+fern: ((1, 5), (1, 8))
+moss: ((0, 3), (0, 6))
+cactus: ((2, 5), (7, 5))
+bamboo: ((9, 3), (9, 8))
+oak: ((4, 4), (6, 4))
+pine: ((4, 1), (7, 1))
+maple: ((3, 2), (7, 2))
+rose: ((2, 7), (5, 7))
+tulip: ((4, 6), (8, 6))
+lily: ((0, 0), (3, 0))
+ivy: ((0, 1), (2, 1))
+
+Naïve Time taken: 0.0100 seconds
+Naïve Memory used: 0.00 MB

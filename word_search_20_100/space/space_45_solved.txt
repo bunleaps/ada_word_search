@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| h  l  k  x  b  b  t  j  u  r  l  u  s  r  z  o  b  o  s  v |
+ 1| h  j  x  q  y  p  w  l  z  s  t  w  n  t  a  m  c  r  w  n |
+ 2| c  w  c  x  d  m  o  z  c  e  x  n  f  i  e  t  v  b  i  p |
+ 3| i  m  i  v  o  e  s  c  m  q  h  a  f  x  v  z  k  i  r  u |
+ 4| r  e  y  k  l  t  d  o  n  t  r  e  q  b  u  e  t  t  z  v |
+ 5| a  b  t  g  t  e  c  h  l  c  p  n  b  a  y  u  r  w  l  i |
+ 6| z  s  t  e  v  o  b  e  e  a  s  u  l  g  a  c  t  s  e  a |
+ 7| h  f  t  q  l  r  b  c  s  n  r  u  u  n  j  e  o  c  e  i |
+ 8| u  m  v  e  p  e  a  f  e  m  b  k  o  s  e  s  q  b  p  g |
+ 9| w  s  t  o  r  p  s  i  e  e  u  r  s  u  t  x  l  r  l  r |
+10| m  o  o  n  s  o  l  c  n  y  t  o  c  y  o  a  v  m  a  q |
+11| r  u  m  u  j  a  i  e  o  s  q  c  y  a  s  v  r  l  n  e |
+12| l  p  b  p  r  f  z  d  a  p  z  k  d  a  e  t  b  n  e  t |
+13| n  f  z  f  k  p  q  p  q  t  e  e  v  r  t  d  e  g  t  o |
+14| a  f  l  i  g  h  t  y  e  a  r  t  h  u  p  m  i  m  t  d |
+15| v  g  a  l  a  x  y  j  t  d  p  q  f  u  d  a  j  z  r  d |
+16| e  p  i  j  z  p  x  o  j  e  p  i  g  c  m  m  n  z  z  v |
+17| v  i  c  o  n  s  t  e  l  l  a  t  i  o  n  z  s  z  s  c |
+18| c  h  p  b  l  a  c  k  h  o  l  e  t  y  e  d  m  n  s  x |
+19| h  l  s  a  t  e  l  l  i  t  e  q  x  z  w  y  x  y  q  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+planet: ((8, 18), (13, 18))
+galaxy: ((15, 1), (15, 6))
+moon: ((10, 0), (10, 3))
+blackhole: ((18, 3), (18, 11))
+satellite: ((19, 2), (19, 10))
+rocket: ((9, 11), (14, 11))
+orbit: ((0, 17), (4, 17))
+meteor: ((2, 5), (7, 5))
+lightyear: ((14, 2), (14, 10))
+constellation: ((17, 2), (17, 14))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((8, 18), (13, 18))
+galaxy: ((15, 1), (15, 6))
+moon: ((10, 0), (10, 3))
+blackhole: ((18, 3), (18, 11))
+satellite: ((19, 2), (19, 10))
+rocket: ((9, 11), (14, 11))
+orbit: ((0, 17), (4, 17))
+meteor: ((2, 5), (7, 5))
+lightyear: ((14, 2), (14, 10))
+constellation: ((17, 2), (17, 14))
+
+Naïve Time taken: 0.0660 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| d  j  p  r  q  y  e  n  g  i  n  e  e  r  w  c  p  p  m  v |
+ 1| q  t  l  j  x  g  l  e  w  f  h  f  q  s  x  f  i  b  h  a |
+ 2| f  p  q  a  y  x  p  t  e  k  i  t  a  y  r  b  l  n  w  r |
+ 3| h  b  y  i  w  e  i  h  l  g  n  s  q  a  q  d  o  e  r  c |
+ 4| q  v  s  h  s  y  c  a  t  c  r  m  j  g  t  t  t  d  i  h |
+ 5| o  h  k  r  s  v  e  s  h  e  d  o  c  t  o  r  n  y  t  i |
+ 6| p  w  u  n  e  v  i  r  t  h  c  o  t  t  a  j  d  k  e  t |
+ 7| c  n  i  s  e  t  f  h  r  d  h  x  s  s  l  r  e  t  r  e |
+ 8| v  e  o  n  n  w  g  e  g  r  m  i  r  b  q  c  j  k  h  c |
+ 9| w  d  c  e  w  i  h  x  v  a  t  e  t  m  i  x  i  y  n  t |
+10| n  n  i  w  f  c  x  p  v  r  z  s  c  l  q  q  a  a  m  b |
+11| y  c  u  e  a  r  d  y  a  n  h  i  o  h  f  h  i  k  w  j |
+12| s  v  r  e  c  v  e  d  i  o  u  p  p  z  a  c  y  p  p  g |
+13| e  i  t  l  a  c  c  o  u  n  t  a  n  t  i  n  c  g  w  a |
+14| f  h  t  c  z  h  g  f  z  y  u  u  i  s  v  a  i  c  d  d |
+15| w  f  q  w  i  d  e  n  t  i  s  t  u  w  d  a  k  c  s  u |
+16| p  r  o  g  r  a  m  m  e  r  v  m  i  m  g  q  r  r  c  l |
+17| s  b  k  h  e  f  g  p  h  o  t  o  g  r  a  p  h  e  r  s |
+18| k  x  r  c  f  a  r  m  e  r  w  l  b  z  p  r  n  z  y  n |
+19| r  q  x  p  n  a  k  f  p  t  v  c  d  v  c  r  l  m  w  i |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+doctor: ((5, 10), (5, 15))
+engineer: ((0, 6), (0, 13))
+pilot: ((0, 16), (4, 16))
+writer: ((2, 18), (7, 18))
+architect: ((1, 19), (9, 19))
+farmer: ((18, 4), (18, 9))
+accountant: ((13, 4), (13, 13))
+dentist: ((15, 5), (15, 11))
+photographer: ((17, 7), (17, 18))
+programmer: ((16, 0), (16, 9))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+doctor: ((5, 10), (5, 15))
+engineer: ((0, 6), (0, 13))
+pilot: ((0, 16), (4, 16))
+writer: ((2, 18), (7, 18))
+architect: ((1, 19), (9, 19))
+farmer: ((18, 4), (18, 9))
+accountant: ((13, 4), (13, 13))
+dentist: ((15, 5), (15, 11))
+photographer: ((17, 7), (17, 18))
+programmer: ((16, 0), (16, 9))
+
+Naïve Time taken: 0.0927 seconds
+Naïve Memory used: 0.00 MB

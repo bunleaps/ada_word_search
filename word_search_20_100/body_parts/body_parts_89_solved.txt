@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| n  e  v  d  b  d  j  v  z  m  e  h  s  v  b  a  c  k  b  g |
+ 1| p  e  l  s  b  w  f  i  n  g  e  r  x  l  f  f  y  i  y  p |
+ 2| w  d  r  k  r  t  x  v  v  j  a  x  w  b  x  l  d  u  e  a |
+ 3| r  r  d  i  a  s  v  v  d  u  i  h  a  y  u  f  j  e  k  e |
+ 4| g  e  f  n  i  h  y  j  r  a  t  y  c  d  d  b  q  a  y  j |
+ 5| i  s  m  j  n  a  n  y  k  q  c  e  h  w  c  h  a  n  d  t |
+ 6| a  b  g  u  q  d  o  s  l  l  x  t  e  y  g  s  n  w  o  t |
+ 7| t  m  n  e  c  k  o  e  t  z  u  d  o  t  b  q  y  q  h  w |
+ 8| o  a  i  e  e  n  y  c  d  o  x  t  g  f  h  c  c  f  k  h |
+ 9| e  h  z  n  f  e  x  x  m  f  m  l  l  r  n  s  m  i  s  n |
+10| w  n  e  a  u  y  a  r  t  t  o  a  j  o  b  n  b  e  j  s |
+11| u  z  d  a  u  v  n  j  m  h  x  o  c  w  p  x  a  i  t  t |
+12| w  u  l  z  d  t  b  u  l  t  w  n  t  h  n  o  s  e  s  q |
+13| v  u  m  x  l  e  a  r  n  d  d  e  x  l  j  z  s  w  g  l |
+14| v  o  v  k  v  y  c  b  j  u  k  s  h  o  u  l  d  e  r  c |
+15| d  i  d  a  t  m  o  w  k  o  n  d  g  a  d  r  v  q  g  j |
+16| k  o  j  z  s  h  e  a  r  t  e  s  g  w  r  f  p  l  u  n |
+17| m  f  l  a  q  f  w  s  c  h  e  s  t  n  q  m  a  e  j  k |
+18| d  a  r  m  k  v  l  d  r  y  n  j  v  n  n  p  v  g  u  y |
+19| g  m  r  b  w  n  w  d  a  y  h  u  m  x  v  n  d  k  r  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+hand: ((5, 15), (5, 18))
+leg: ((16, 17), (18, 17))
+arm: ((18, 1), (18, 3))
+ear: ((13, 5), (13, 7))
+nose: ((12, 14), (12, 17))
+back: ((0, 14), (0, 17))
+chest: ((17, 8), (17, 12))
+neck: ((7, 2), (7, 5))
+knee: ((14, 10), (17, 10))
+shoulder: ((14, 11), (14, 18))
+finger: ((1, 6), (1, 11))
+toe: ((7, 0), (9, 0))
+heart: ((16, 5), (16, 9))
+brain: ((1, 4), (5, 4))
+skin: ((1, 3), (4, 3))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+hand: ((5, 15), (5, 18))
+leg: ((16, 17), (18, 17))
+arm: ((18, 1), (18, 3))
+ear: ((13, 5), (13, 7))
+nose: ((12, 14), (12, 17))
+back: ((0, 14), (0, 17))
+chest: ((17, 8), (17, 12))
+neck: ((7, 2), (7, 5))
+knee: ((14, 10), (17, 10))
+shoulder: ((14, 11), (14, 18))
+finger: ((1, 6), (1, 11))
+toe: ((7, 0), (9, 0))
+heart: ((16, 5), (16, 9))
+brain: ((1, 4), (5, 4))
+skin: ((1, 3), (4, 3))
+
+Naïve Time taken: 0.0546 seconds
+Naïve Memory used: 0.00 MB

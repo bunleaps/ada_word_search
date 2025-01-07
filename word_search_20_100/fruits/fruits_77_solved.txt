@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  k  k  n  u  h  x  b  n  k  d  b  k  n  h  d  s  y  g  q |
+ 1| c  l  w  h  g  a  u  w  q  p  g  s  b  i  p  e  u  y  w  b |
+ 2| b  f  a  m  n  g  p  h  y  e  u  a  c  n  s  a  w  t  y  b |
+ 3| r  t  q  c  k  t  x  r  h  p  f  a  p  p  l  e  u  r  e  b |
+ 4| a  n  l  y  k  u  l  r  i  p  s  n  k  i  h  a  r  l  e  i |
+ 5| s  o  r  t  j  b  a  m  v  c  o  f  a  r  m  e  p  m  v  a |
+ 6| p  p  m  g  t  e  e  y  w  l  o  n  z  w  b  p  x  k  w  j |
+ 7| b  x  i  e  p  u  s  r  e  w  a  t  k  e  a  l  l  t  t  n |
+ 8| e  f  b  i  l  l  h  m  r  n  j  e  u  e  z  u  n  t  k  e |
+ 9| r  d  a  t  e  o  r  n  a  y  g  l  n  q  c  m  u  h  z  c |
+10| r  l  z  l  g  e  n  b  a  k  b  i  q  o  z  e  c  j  u  t |
+11| y  c  f  n  t  z  e  j  c  k  p  f  w  e  r  a  t  m  u  a |
+12| e  r  a  a  c  i  v  o  o  i  l  c  u  p  e  a  c  q  a  r |
+13| x  m  w  b  h  s  q  o  t  w  q  t  o  p  a  j  n  l  z  i |
+14| p  z  n  m  e  x  y  n  g  i  n  h  v  c  u  p  m  g  j  n |
+15| v  y  l  d  r  z  b  a  m  g  r  a  p  e  o  i  a  d  e  e |
+16| r  r  t  b  r  s  t  r  a  w  b  e  r  r  y  n  e  y  p  g |
+17| y  b  n  l  y  p  k  l  e  m  o  n  d  z  w  a  u  n  a  r |
+18| r  g  n  q  c  c  n  t  a  n  g  e  r  i  n  e  q  t  q  y |
+19| c  d  l  p  o  m  e  g  r  a  n  a  t  e  s  q  n  v  a  t |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+apple: ((3, 11), (3, 15))
+cherry: ((12, 4), (17, 4))
+date: ((9, 1), (9, 4))
+grape: ((15, 9), (15, 13))
+kiwi: ((11, 9), (14, 9))
+lemon: ((17, 7), (17, 11))
+nectarine: ((7, 19), (15, 19))
+plum: ((6, 15), (9, 15))
+pomegranate: ((19, 3), (19, 13))
+raspberry: ((3, 0), (11, 0))
+strawberry: ((16, 5), (16, 14))
+tangerine: ((18, 7), (18, 15))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+apple: ((3, 11), (3, 15))
+cherry: ((12, 4), (17, 4))
+date: ((9, 1), (9, 4))
+grape: ((15, 9), (15, 13))
+kiwi: ((11, 9), (14, 9))
+lemon: ((17, 7), (17, 11))
+nectarine: ((7, 19), (15, 19))
+plum: ((6, 15), (9, 15))
+pomegranate: ((19, 3), (19, 13))
+raspberry: ((3, 0), (11, 0))
+strawberry: ((16, 5), (16, 14))
+tangerine: ((18, 7), (18, 15))
+
+Naïve Time taken: 0.0827 seconds
+Naïve Memory used: 0.00 MB

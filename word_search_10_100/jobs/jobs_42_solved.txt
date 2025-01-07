@@ -1,0 +1,39 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| f  a  r  m  e  r  e  a  t  i |
+ 1| n  t  u  m  f  q  n  r  d  m |
+ 2| u  v  e  e  d  r  g  t  l  u |
+ 3| r  q  h  a  e  b  i  i  a  s |
+ 4| s  c  i  t  c  e  n  s  w  i |
+ 5| e  z  i  n  c  h  e  t  y  c |
+ 6| c  r  n  i  d  j  e  v  e  i |
+ 7| w  g  l  w  t  y  r  r  r  a |
+ 8| h  o  d  o  c  t  o  r  s  n |
+ 9| p  u  o  s  p  i  l  o  t  j |
+  +------------------------------+
+Dynamic Programming Solution:
+doctor: ((8, 2), (8, 7))
+engineer: ((0, 6), (7, 6))
+lawyer: ((2, 8), (7, 8))
+nurse: ((1, 0), (5, 0))
+pilot: ((9, 4), (9, 8))
+artist: ((0, 7), (5, 7))
+musician: ((1, 9), (8, 9))
+farmer: ((0, 0), (0, 5))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+doctor: ((8, 2), (8, 7))
+engineer: ((0, 6), (7, 6))
+lawyer: ((2, 8), (7, 8))
+nurse: ((1, 0), (5, 0))
+pilot: ((9, 4), (9, 8))
+artist: ((0, 7), (5, 7))
+musician: ((1, 9), (8, 9))
+farmer: ((0, 0), (0, 5))
+
+Naïve Time taken: 0.0070 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| z  g  g  b  w  p  l  v  v  n |
+ 1| p  r  r  b  w  e  e  c  o  e |
+ 2| l  a  u  m  x  a  m  o  f  c |
+ 3| u  p  p  a  w  c  o  r  i  t |
+ 4| m  e  t  a  p  h  n  a  g  a |
+ 5| k  i  w  i  y  p  n  n  p  r |
+ 6| p  d  a  t  e  a  l  g  e  i |
+ 7| j  c  h  e  r  r  y  e  a  n |
+ 8| l  s  m  a  n  g  o  u  r  e |
+ 9| s  a  b  a  n  a  n  a  j  u |
+  +------------------------------+
+Dynamic Programming Solution:
+banana: ((9, 2), (9, 7))
+cherry: ((7, 1), (7, 6))
+date: ((6, 1), (6, 4))
+fig: ((2, 8), (4, 8))
+grape: ((0, 1), (4, 1))
+kiwi: ((5, 0), (5, 3))
+lemon: ((0, 6), (4, 6))
+mango: ((8, 2), (8, 6))
+nectarine: ((0, 9), (8, 9))
+orange: ((2, 7), (7, 7))
+pear: ((5, 8), (8, 8))
+peach: ((0, 5), (4, 5))
+plum: ((1, 0), (4, 0))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+banana: ((9, 2), (9, 7))
+cherry: ((7, 1), (7, 6))
+date: ((6, 1), (6, 4))
+fig: ((2, 8), (4, 8))
+grape: ((0, 1), (4, 1))
+kiwi: ((5, 0), (5, 3))
+lemon: ((0, 6), (4, 6))
+mango: ((8, 2), (8, 6))
+nectarine: ((0, 9), (8, 9))
+orange: ((2, 7), (7, 7))
+pear: ((5, 8), (8, 8))
+peach: ((0, 5), (4, 5))
+plum: ((1, 0), (4, 0))
+
+Naïve Time taken: 0.0110 seconds
+Naïve Memory used: 0.00 MB

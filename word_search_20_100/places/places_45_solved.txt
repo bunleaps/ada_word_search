@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| x  m  r  y  j  m  h  y  i  d  u  j  i  z  o  v  d  o  k  l |
+ 1| u  s  u  o  c  r  v  l  c  m  z  p  p  h  p  g  e  s  y  c |
+ 2| f  u  p  s  a  j  t  u  d  o  d  k  v  q  f  g  k  y  i  r |
+ 3| s  y  y  t  e  d  z  f  y  r  g  i  w  v  b  a  w  d  r  e |
+ 4| r  y  m  x  p  u  b  o  r  o  q  w  s  i  e  d  h  e  m  s |
+ 5| p  r  l  u  a  c  m  r  w  v  e  e  g  l  f  f  v  y  j  t |
+ 6| g  x  c  r  r  o  s  e  q  w  r  d  j  l  a  i  q  b  s  a |
+ 7| q  j  n  l  k  u  n  s  y  y  z  o  t  a  r  n  f  f  d  u |
+ 8| q  b  l  u  s  n  n  t  d  d  l  h  j  g  q  j  d  o  b  r |
+ 9| d  b  c  n  p  t  e  q  z  k  f  o  m  e  l  a  k  e  c  a |
+10| c  w  w  w  c  r  d  w  i  n  q  s  z  t  n  h  u  n  f  n |
+11| n  o  z  b  j  y  e  r  v  q  g  p  x  i  c  i  e  w  x  t |
+12| t  a  y  e  t  j  s  n  q  y  z  i  a  t  h  k  w  l  b  w |
+13| r  j  f  a  v  q  e  g  j  w  u  t  b  d  u  c  y  p  r  j |
+14| o  v  r  c  a  o  r  y  y  d  n  a  q  j  r  o  i  y  a  e |
+15| e  e  g  h  c  f  t  e  q  u  u  l  i  a  c  m  q  t  t  h |
+16| s  c  e  d  w  k  h  g  o  w  q  i  z  v  h  m  i  k  y  f |
+17| n  e  o  c  q  s  r  m  q  u  t  v  g  c  r  l  p  s  g  w |
+18| f  o  w  a  w  e  f  o  c  o  n  t  i  n  e  n  t  j  i  e |
+19| p  y  m  s  c  h  o  o  l  s  t  r  e  e  t  a  c  k  c  o |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+village: ((3, 13), (9, 13))
+park: ((4, 4), (7, 4))
+beach: ((11, 3), (15, 3))
+lake: ((9, 14), (9, 17))
+forest: ((3, 7), (8, 7))
+desert: ((10, 6), (15, 6))
+country: ((5, 5), (11, 5))
+continent: ((18, 8), (18, 16))
+street: ((19, 9), (19, 14))
+school: ((19, 3), (19, 8))
+hospital: ((8, 11), (15, 11))
+church: ((11, 14), (16, 14))
+restaurant: ((2, 19), (11, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+village: ((3, 13), (9, 13))
+park: ((4, 4), (7, 4))
+beach: ((11, 3), (15, 3))
+lake: ((9, 14), (9, 17))
+forest: ((3, 7), (8, 7))
+desert: ((10, 6), (15, 6))
+country: ((5, 5), (11, 5))
+continent: ((18, 8), (18, 16))
+street: ((19, 9), (19, 14))
+school: ((19, 3), (19, 8))
+hospital: ((8, 11), (15, 11))
+church: ((11, 14), (16, 14))
+restaurant: ((2, 19), (11, 19))
+
+Naïve Time taken: 0.0575 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  c  k  a  h  t  q  m  b  j  m  i  x  j  f  e  m  w  i  h |
+ 1| t  z  g  e  d  f  w  e  k  l  w  l  o  a  q  s  y  x  l  f |
+ 2| j  n  t  r  d  b  r  o  w  n  u  f  j  t  d  r  q  f  m  s |
+ 3| b  c  f  w  e  q  c  r  z  d  c  e  o  r  a  n  g  e  a  t |
+ 4| s  z  h  f  e  e  b  p  p  w  y  a  x  t  j  c  k  j  r  e |
+ 5| i  w  s  e  p  v  n  d  m  y  a  p  u  p  w  u  e  x  o  i |
+ 6| m  o  y  s  w  y  t  g  e  m  n  u  c  o  u  g  h  j  o  y |
+ 7| n  m  w  h  i  t  e  e  f  r  n  d  d  d  i  r  k  j  n  c |
+ 8| r  r  u  c  q  d  s  w  a  y  x  a  j  e  o  n  p  r  r  e |
+ 9| e  h  g  h  w  m  n  j  e  l  y  m  b  f  i  l  m  l  s  i |
+10| d  u  u  r  y  e  y  e  l  l  o  w  m  p  o  b  t  g  e  q |
+11| k  u  b  n  b  p  y  s  v  i  q  v  a  h  u  r  k  o  o  l |
+12| h  f  a  l  j  o  l  i  v  e  s  t  k  n  y  y  h  l  l  z |
+13| g  a  q  x  a  e  r  w  v  f  n  i  s  h  a  s  k  r  m  q |
+14| i  u  z  d  h  c  j  x  i  e  c  d  l  r  a  v  t  d  t  u |
+15| w  e  q  y  a  f  k  l  g  g  v  h  g  v  v  m  y  r  q  t |
+16| g  j  m  h  y  a  n  a  w  z  o  k  z  b  e  w  h  b  j  a |
+17| i  e  l  x  u  x  m  k  i  i  e  l  y  r  k  r  f  i  e  h |
+18| z  m  e  i  i  j  l  k  m  v  w  m  d  s  v  e  i  v  n  n |
+19| q  r  o  u  a  r  e  d  u  m  x  i  q  w  a  c  g  p  u  g |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+red: ((19, 5), (19, 7))
+yellow: ((10, 6), (10, 11))
+orange: ((3, 12), (3, 17))
+white: ((7, 2), (7, 6))
+brown: ((2, 5), (2, 9))
+cyan: ((3, 10), (6, 10))
+maroon: ((2, 18), (7, 18))
+olive: ((12, 5), (12, 9))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+red: ((19, 5), (19, 7))
+yellow: ((10, 6), (10, 11))
+orange: ((3, 12), (3, 17))
+white: ((7, 2), (7, 6))
+brown: ((2, 5), (2, 9))
+cyan: ((3, 10), (6, 10))
+maroon: ((2, 18), (7, 18))
+olive: ((12, 5), (12, 9))
+
+Naïve Time taken: 0.0636 seconds
+Naïve Memory used: 0.00 MB

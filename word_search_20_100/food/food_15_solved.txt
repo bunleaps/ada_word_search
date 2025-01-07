@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  i  w  o  j  v  h  h  x  s  c  u  r  r  y  i  b  z  u  c |
+ 1| i  o  k  z  a  y  h  x  t  v  e  k  e  p  e  d  i  v  t  t |
+ 2| i  y  o  b  r  d  t  x  x  u  x  i  m  b  a  t  i  k  h  j |
+ 3| s  q  q  k  u  p  a  t  f  p  b  j  x  l  a  g  j  j  e  b |
+ 4| i  t  f  x  i  r  s  m  j  n  t  k  a  e  p  x  o  n  s  f |
+ 5| j  c  c  d  l  e  r  q  q  d  e  s  p  l  i  y  u  w  u  w |
+ 6| g  c  e  h  e  x  s  i  b  n  y  s  n  q  e  e  w  s  o  r |
+ 7| w  h  m  c  m  e  g  n  t  j  a  a  f  g  u  b  j  j  e  p |
+ 8| b  o  g  m  r  x  t  a  c  o  y  n  m  t  s  v  u  h  q  q |
+ 9| q  c  n  f  q  e  f  o  y  k  k  d  n  d  o  k  b  s  u  n |
+10| b  o  o  l  v  c  a  n  i  j  t  w  d  v  u  k  i  v  m  n |
+11| p  l  o  k  x  i  f  m  y  a  l  i  j  h  p  t  n  m  p  t |
+12| x  a  d  p  g  m  p  a  b  j  u  c  n  d  z  r  z  l  z  w |
+13| d  t  l  o  k  a  i  y  h  n  u  h  v  a  e  v  e  d  i  l |
+14| z  e  e  g  o  p  z  o  k  j  a  i  s  g  b  r  f  e  r  d |
+15| p  a  s  t  a  a  z  x  c  a  k  e  r  t  r  a  i  o  i  k |
+16| c  h  e  e  s  e  a  o  d  o  y  u  z  r  e  r  j  z  c  q |
+17| s  u  s  h  i  f  c  g  w  t  b  p  o  i  a  a  c  e  e  d |
+18| q  i  a  u  i  s  w  k  o  k  k  y  b  c  d  p  k  o  q  s |
+19| z  t  i  q  s  p  o  v  v  n  h  a  g  k  b  o  l  z  z  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((12, 6), (16, 6))
+pasta: ((15, 0), (15, 4))
+sandwich: ((6, 11), (13, 11))
+soup: ((8, 14), (11, 14))
+sushi: ((17, 0), (17, 4))
+rice: ((14, 18), (17, 18))
+noodles: ((9, 2), (15, 2))
+taco: ((8, 6), (8, 9))
+curry: ((0, 10), (0, 14))
+bread: ((14, 14), (18, 14))
+cheese: ((16, 0), (16, 5))
+chocolate: ((6, 1), (14, 1))
+cake: ((15, 8), (15, 11))
+pie: ((4, 14), (6, 14))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((12, 6), (16, 6))
+pasta: ((15, 0), (15, 4))
+sandwich: ((6, 11), (13, 11))
+soup: ((8, 14), (11, 14))
+sushi: ((17, 0), (17, 4))
+rice: ((14, 18), (17, 18))
+noodles: ((9, 2), (15, 2))
+taco: ((8, 6), (8, 9))
+curry: ((0, 10), (0, 14))
+bread: ((14, 14), (18, 14))
+cheese: ((16, 0), (16, 5))
+chocolate: ((6, 1), (14, 1))
+cake: ((15, 8), (15, 11))
+pie: ((4, 14), (6, 14))
+
+Naïve Time taken: 0.0516 seconds
+Naïve Memory used: 0.00 MB

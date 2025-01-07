@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  h  x  a  s  k  f  n  z  l  t  f  x  u  s  j  c  r  j  q |
+ 1| d  q  e  l  k  v  b  t  i  t  a  s  n  e  a  k  e  r  s  j |
+ 2| r  l  v  s  i  u  s  b  q  c  i  z  s  j  h  u  z  d  q  d |
+ 3| e  v  d  q  r  h  m  i  l  h  i  e  a  w  v  o  j  n  q  o |
+ 4| s  m  v  q  t  r  e  t  j  k  p  p  k  y  b  z  f  m  o  s |
+ 5| s  b  d  d  o  z  p  o  f  r  f  i  n  w  m  u  o  f  x  f |
+ 6| o  y  e  f  l  y  j  b  e  t  b  s  f  n  p  a  n  t  s  h |
+ 7| q  o  i  l  e  q  f  t  a  p  e  n  v  q  n  z  c  m  t  p |
+ 8| a  n  n  q  t  f  a  h  t  o  a  x  b  s  f  v  j  y  l  u |
+ 9| u  w  d  c  z  e  c  d  h  l  n  j  h  j  u  r  p  n  a  h |
+10| w  r  j  n  w  x  n  s  i  s  x  f  a  j  a  t  x  s  k  u |
+11| z  r  e  s  y  h  x  b  m  h  q  s  k  m  e  c  i  i  c  u |
+12| y  c  o  r  i  g  d  g  c  i  o  o  m  n  a  d  k  t  m  g |
+13| h  k  j  l  f  f  l  l  j  r  j  c  z  f  r  s  f  e  f  x |
+14| q  h  b  r  z  e  p  o  o  t  l  k  q  i  m  v  c  l  t  j |
+15| e  u  a  c  w  h  p  g  v  c  x  s  t  l  v  n  m  i  q  e |
+16| u  c  m  c  l  j  z  s  w  e  s  s  t  u  x  n  x  w  w  a |
+17| s  o  j  k  d  q  p  e  m  v  s  v  n  p  y  x  i  n  o  n |
+18| p  a  s  c  o  a  t  q  h  g  x  h  c  n  a  o  f  a  n  s |
+19| q  f  z  b  o  o  t  s  m  p  x  f  h  u  c  c  q  r  f  o |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+shirt: ((10, 9), (14, 9))
+pants: ((6, 14), (6, 18))
+dress: ((1, 0), (5, 0))
+skirt: ((0, 4), (4, 4))
+coat: ((18, 3), (18, 6))
+socks: ((11, 11), (15, 11))
+jeans: ((14, 19), (18, 19))
+sneakers: ((1, 11), (1, 18))
+boots: ((19, 3), (19, 7))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+shirt: ((10, 9), (14, 9))
+pants: ((6, 14), (6, 18))
+dress: ((1, 0), (5, 0))
+skirt: ((0, 4), (4, 4))
+coat: ((18, 3), (18, 6))
+socks: ((11, 11), (15, 11))
+jeans: ((14, 19), (18, 19))
+sneakers: ((1, 11), (1, 18))
+boots: ((19, 3), (19, 7))
+
+Naïve Time taken: 0.0661 seconds
+Naïve Memory used: 0.00 MB

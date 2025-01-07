@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  p  a  c  e  c  r  a  f  t  t  s  e  t  y  p  i  d  y  c |
+ 1| p  l  a  n  e  t  e  g  b  i  c  z  t  d  v  w  l  w  e  v |
+ 2| d  i  a  y  a  k  l  a  a  s  o  b  t  w  i  v  w  s  c  w |
+ 3| z  g  m  s  a  o  l  b  n  s  j  y  u  e  e  c  r  a  y  t |
+ 4| w  h  p  d  t  u  a  e  m  t  g  l  g  l  j  e  f  x  n  e |
+ 5| r  t  m  h  b  r  i  n  n  a  h  d  o  r  v  u  a  m  r  l |
+ 6| m  y  n  e  r  l  o  w  s  r  j  h  v  i  k  l  w  k  u  e |
+ 7| l  e  n  p  a  v  e  n  h  z  k  a  n  z  a  m  r  u  b  s |
+ 8| w  a  t  e  l  c  g  l  a  c  j  u  i  g  e  c  y  i  w  c |
+ 9| g  r  j  e  o  r  q  r  a  u  n  e  y  t  q  s  m  x  u  o |
+10| m  v  u  q  o  h  a  l  b  y  t  c  s  o  w  e  o  h  s  p |
+11| w  u  j  w  e  r  b  n  v  i  g  y  t  l  l  n  m  f  f  e |
+12| l  c  o  m  e  t  n  q  l  k  s  i  q  r  w  l  n  v  a  q |
+13| m  r  j  d  q  p  m  l  e  h  b  s  j  o  y  m  e  n  i  h |
+14| o  y  k  s  t  a  e  s  r  r  y  e  v  c  v  d  c  y  z  h |
+15| o  f  f  h  l  t  o  a  o  a  t  g  p  k  d  r  h  m  l  u |
+16| n  q  y  x  a  x  l  o  f  d  a  s  t  e  r  o  i  d  g  y |
+17| l  q  j  s  f  o  w  g  r  u  q  w  p  t  l  d  l  y  j  u |
+18| k  n  o  e  s  e  i  c  t  l  n  i  h  r  i  j  v  f  f  d |
+19| o  s  y  v  b  k  c  o  n  s  t  e  l  l  a  t  i  o  n  w |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+planet: ((1, 0), (1, 5))
+star: ((3, 9), (6, 9))
+moon: ((13, 0), (16, 0))
+asteroid: ((16, 10), (16, 17))
+comet: ((12, 1), (12, 5))
+telescope: ((3, 19), (11, 19))
+rocket: ((12, 13), (17, 13))
+spacecraft: ((0, 0), (0, 9))
+lightyear: ((1, 1), (9, 1))
+constellation: ((19, 6), (19, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((1, 0), (1, 5))
+star: ((3, 9), (6, 9))
+moon: ((13, 0), (16, 0))
+asteroid: ((16, 10), (16, 17))
+comet: ((12, 1), (12, 5))
+telescope: ((3, 19), (11, 19))
+rocket: ((12, 13), (17, 13))
+spacecraft: ((0, 0), (0, 9))
+lightyear: ((1, 1), (9, 1))
+constellation: ((19, 6), (19, 18))
+
+Naïve Time taken: 0.0528 seconds
+Naïve Memory used: 0.00 MB

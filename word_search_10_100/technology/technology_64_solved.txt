@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| d  s  o  f  t  w  a  r  e  k |
+ 1| c  o  m  p  u  t  e  r  i  e |
+ 2| h  h  a  r  d  w  a  r  e  y |
+ 3| i  f  d  r  o  n  e  g  j  b |
+ 4| p  k  p  r  i  n  t  e  r  o |
+ 5| m  o  u  s  e  d  a  t  a  a |
+ 6| t  a  b  l  e  t  h  r  u  r |
+ 7| A  I  m  o  n  i  t  o  r  d |
+ 8| i  n  t  e  r  n  e  t  u  k |
+ 9| c  v  c  a  m  e  r  a  z  u |
+  +------------------------------+
+Dynamic Programming Solution:
+computer: ((1, 0), (1, 7))
+tablet: ((6, 0), (6, 5))
+internet: ((8, 0), (8, 7))
+software: ((0, 1), (0, 8))
+hardware: ((2, 1), (2, 8))
+keyboard: ((0, 9), (7, 9))
+mouse: ((5, 0), (5, 4))
+monitor: ((7, 2), (7, 8))
+printer: ((4, 2), (4, 8))
+camera: ((9, 2), (9, 7))
+drone: ((3, 2), (3, 6))
+AI: ((7, 0), (7, 1))
+data: ((5, 5), (5, 8))
+chip: ((1, 0), (4, 0))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+computer: ((1, 0), (1, 7))
+tablet: ((6, 0), (6, 5))
+internet: ((8, 0), (8, 7))
+software: ((0, 1), (0, 8))
+hardware: ((2, 1), (2, 8))
+keyboard: ((0, 9), (7, 9))
+mouse: ((5, 0), (5, 4))
+monitor: ((7, 2), (7, 8))
+printer: ((4, 2), (4, 8))
+camera: ((9, 2), (9, 7))
+drone: ((3, 2), (3, 6))
+AI: ((7, 0), (7, 1))
+data: ((5, 5), (5, 8))
+chip: ((1, 0), (4, 0))
+
+Naïve Time taken: 0.0067 seconds
+Naïve Memory used: 0.00 MB

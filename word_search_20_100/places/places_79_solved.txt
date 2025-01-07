@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  t  g  j  c  i  s  v  u  q  e  r  i  v  e  r  i  j  v  k |
+ 1| s  b  m  v  t  d  s  t  u  i  e  g  a  r  c  g  o  i  i  i |
+ 2| l  k  u  o  v  u  n  l  r  p  v  f  v  e  w  d  g  b  l  j |
+ 3| n  t  s  s  t  e  m  h  a  e  r  u  u  l  w  b  u  j  l  k |
+ 4| e  o  e  j  q  a  c  e  z  n  e  u  m  j  u  k  s  i  a  m |
+ 5| k  g  u  i  w  k  s  o  j  n  d  t  x  o  a  y  g  k  g  o |
+ 6| w  o  m  b  r  a  j  d  u  q  y  a  e  h  e  f  d  w  e  u |
+ 7| i  e  z  a  x  w  u  d  m  n  d  k  s  e  q  t  m  f  c  n |
+ 8| v  x  p  d  d  q  f  k  h  a  t  c  h  i  h  l  c  y  y  t |
+ 9| h  m  w  t  u  n  y  o  o  p  t  r  h  b  p  a  e  t  b  a |
+10| h  p  d  a  e  z  d  r  r  d  h  n  y  u  r  k  k  r  i  i |
+11| u  o  e  e  j  a  c  t  m  e  t  s  b  t  r  e  a  h  f  n |
+12| e  o  s  b  e  a  c  h  g  n  s  o  p  m  o  c  w  o  y  f |
+13| s  w  e  p  t  x  p  p  e  n  c  t  q  n  u  w  h  z  n  c |
+14| x  g  r  y  i  e  i  n  t  l  s  y  t  n  j  p  n  m  f  l |
+15| f  x  t  t  a  t  i  w  b  p  t  g  h  h  p  u  c  v  a  f |
+16| n  s  m  t  b  t  a  m  l  i  f  o  g  z  t  o  r  g  k  t |
+17| n  p  m  k  n  s  o  l  c  f  p  v  o  v  c  m  u  g  y  d |
+18| m  j  p  o  u  s  y  m  m  d  k  g  s  c  h  o  o  l  a  l |
+19| o  a  c  v  x  u  p  k  s  r  e  s  t  a  u  r  a  n  t  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+village: ((0, 18), (6, 18))
+beach: ((12, 3), (12, 7))
+mountain: ((4, 19), (11, 19))
+river: ((0, 11), (0, 15))
+lake: ((8, 15), (11, 15))
+desert: ((10, 2), (15, 2))
+school: ((18, 12), (18, 17))
+museum: ((1, 2), (6, 2))
+restaurant: ((19, 9), (19, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+village: ((0, 18), (6, 18))
+beach: ((12, 3), (12, 7))
+mountain: ((4, 19), (11, 19))
+river: ((0, 11), (0, 15))
+lake: ((8, 15), (11, 15))
+desert: ((10, 2), (15, 2))
+school: ((18, 12), (18, 17))
+museum: ((1, 2), (6, 2))
+restaurant: ((19, 9), (19, 18))
+
+Naïve Time taken: 0.0666 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  n  c  f  j  i  s  u  a  p  b  y  g  v  d  a  v  r  e  l |
+ 1| u  r  h  g  f  v  i  c  e  c  r  e  a  m  x  j  w  e  z  c |
+ 2| h  k  e  r  d  l  t  n  a  b  u  h  a  u  r  r  y  s  a  i |
+ 3| l  c  e  g  i  m  p  j  w  s  f  z  k  i  q  t  x  u  v  r |
+ 4| q  h  s  s  p  g  r  c  w  l  z  s  e  u  m  a  f  s  v  s |
+ 5| i  o  e  h  e  b  i  p  x  i  e  r  a  f  g  k  v  h  b  t |
+ 6| l  c  y  b  n  c  c  h  p  i  a  i  v  g  s  a  t  i  k  e |
+ 7| b  o  p  u  p  h  e  y  k  y  e  z  b  x  c  a  q  f  y  a |
+ 8| k  l  v  r  q  i  u  o  c  s  c  w  n  r  i  n  l  p  n  k |
+ 9| c  a  m  r  e  x  o  u  l  z  a  u  o  o  e  e  f  a  v  a |
+10| y  t  u  i  m  c  u  w  y  x  f  n  f  n  o  a  k  n  d  x |
+11| h  e  m  t  l  z  h  b  u  m  i  b  d  n  z  d  d  c  i  s |
+12| u  a  e  o  v  g  j  w  e  o  z  u  t  w  a  h  l  k  w  z |
+13| b  b  z  y  v  i  a  i  n  k  s  r  c  q  i  d  u  e  d  p |
+14| y  j  q  u  e  a  t  i  o  o  y  g  u  h  i  c  k  w  s  l |
+15| t  u  w  z  e  l  h  a  t  u  n  e  r  l  y  o  h  x  n  d |
+16| t  a  u  p  a  s  t  a  w  k  z  r  r  c  a  k  e  p  g  e |
+17| u  z  c  t  u  q  m  j  q  h  w  b  y  f  l  p  q  i  s  n |
+18| j  x  b  o  f  r  k  k  n  l  k  l  i  b  z  q  w  e  f  f |
+19| m  q  p  a  c  u  c  a  b  u  t  j  u  h  s  o  u  p  h  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+burger: ((11, 11), (16, 11))
+pasta: ((16, 3), (16, 7))
+soup: ((19, 14), (19, 17))
+steak: ((4, 19), (8, 19))
+sushi: ((2, 17), (6, 17))
+rice: ((4, 6), (7, 6))
+burrito: ((6, 3), (12, 3))
+curry: ((13, 12), (17, 12))
+cheese: ((0, 2), (5, 2))
+chocolate: ((3, 1), (11, 1))
+icecream: ((1, 6), (1, 13))
+cake: ((16, 13), (16, 16))
+pie: ((16, 17), (18, 17))
+
+DP Time taken: 0.0030 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+burger: ((11, 11), (16, 11))
+pasta: ((16, 3), (16, 7))
+soup: ((19, 14), (19, 17))
+steak: ((4, 19), (8, 19))
+sushi: ((2, 17), (6, 17))
+rice: ((4, 6), (7, 6))
+burrito: ((6, 3), (12, 3))
+curry: ((13, 12), (17, 12))
+cheese: ((0, 2), (5, 2))
+chocolate: ((3, 1), (11, 1))
+icecream: ((1, 6), (1, 13))
+cake: ((16, 13), (16, 16))
+pie: ((16, 17), (18, 17))
+
+Naïve Time taken: 0.0667 seconds
+Naïve Memory used: 0.00 MB

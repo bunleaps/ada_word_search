@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| p  v  p  r  d  b  a  c  k  h  c  o  f  a  i  p  o  j  u  k |
+ 1| l  a  e  c  u  n  t  s  c  n  a  u  i  c  s  p  h  u  v  o |
+ 2| e  q  m  g  i  e  u  u  m  t  c  n  i  m  w  e  n  g  q  p |
+ 3| e  l  k  a  n  p  g  m  o  m  w  u  d  a  s  s  r  f  b  i |
+ 4| p  z  l  n  i  m  r  o  o  p  g  d  y  o  t  e  e  t  h  w |
+ 5| m  a  v  v  n  a  f  p  n  d  u  g  n  c  o  b  j  w  f  w |
+ 6| n  k  m  v  u  m  j  k  r  h  a  q  n  e  h  p  b  d  o  w |
+ 7| v  z  u  g  z  n  m  o  c  t  n  b  o  p  r  e  x  s  g  m |
+ 8| s  o  m  k  c  j  x  a  x  k  c  t  q  e  f  k  s  p  m  e |
+ 9| a  i  s  g  a  u  m  a  s  f  s  z  c  x  a  t  h  t  n  h |
+10| f  c  r  g  k  o  s  t  v  h  w  b  v  x  r  r  i  l  f  f |
+11| i  v  k  o  t  b  r  r  s  q  o  u  r  a  t  w  o  e  z  z |
+12| n  q  o  s  t  e  y  f  k  s  f  u  e  a  p  u  g  g  r  c |
+13| g  q  h  p  p  y  a  e  i  i  k  h  l  i  i  w  q  h  s  b |
+14| e  m  m  s  o  e  e  c  n  t  u  m  a  d  f  n  t  h  f  a |
+15| r  e  y  k  f  p  h  m  m  x  e  l  m  l  e  u  k  g  u  f |
+16| b  o  r  n  e  c  k  s  d  o  f  c  j  m  o  r  s  w  z  t |
+17| d  w  e  h  x  j  k  a  f  v  c  a  c  m  r  n  a  f  i  c |
+18| h  q  w  g  h  r  e  l  i  x  f  s  d  k  n  e  e  w  m  i |
+19| t  v  r  t  f  h  k  f  q  v  n  y  e  h  k  a  f  f  n  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+leg: ((10, 17), (12, 17))
+eye: ((12, 5), (14, 5))
+back: ((0, 5), (0, 8))
+neck: ((16, 3), (16, 6))
+knee: ((18, 13), (18, 16))
+finger: ((10, 0), (15, 0))
+skin: ((11, 8), (14, 8))
+teeth: ((4, 14), (4, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+leg: ((10, 17), (12, 17))
+eye: ((12, 5), (14, 5))
+back: ((0, 5), (0, 8))
+neck: ((16, 3), (16, 6))
+knee: ((18, 13), (18, 16))
+finger: ((10, 0), (15, 0))
+skin: ((11, 8), (14, 8))
+teeth: ((4, 14), (4, 18))
+
+Naïve Time taken: 0.0736 seconds
+Naïve Memory used: 0.00 MB

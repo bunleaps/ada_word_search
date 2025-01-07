@@ -1,0 +1,65 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  y  w  f  v  k  f  l  w  z  e  u  d  i  e  h  e  y  i  u |
+ 1| l  p  n  v  s  e  v  e  n  i  n  g  e  o  l  q  q  i  t  z |
+ 2| d  k  y  l  e  s  t  w  a  r  r  y  s  c  e  u  c  r  o  t |
+ 3| e  e  y  i  c  h  u  r  e  n  a  n  d  p  y  p  j  d  m  a |
+ 4| w  p  b  w  p  h  z  o  t  d  i  t  y  j  r  w  g  x  o  b |
+ 5| o  e  e  e  s  w  o  w  i  x  e  a  i  u  j  q  t  o  r  y |
+ 6| g  g  e  e  e  w  a  l  m  d  d  f  o  a  j  i  a  e  r  d |
+ 7| i  m  c  k  c  o  o  v  a  k  m  h  s  u  n  s  e  t  o  w |
+ 8| k  q  s  e  o  h  d  c  e  q  i  c  n  p  h  i  j  t  w  w |
+ 9| o  k  q  n  n  n  e  e  c  h  n  t  c  n  q  u  w  w  o  o |
+10| a  c  w  d  d  d  w  c  n  c  u  a  s  u  n  r  i  s  e  s |
+11| f  m  t  k  g  o  y  e  x  c  t  v  w  u  i  f  n  m  l  b |
+12| t  o  w  y  d  o  c  n  a  p  e  j  b  u  n  v  y  o  m  g |
+13| e  n  p  p  m  i  w  t  y  e  s  t  e  r  d  a  y  r  l  x |
+14| r  t  r  m  b  p  a  u  n  i  g  h  t  d  d  l  e  n  h  k |
+15| n  h  m  d  a  y  f  r  b  p  v  b  q  o  t  l  a  i  q  s |
+16| o  f  i  i  a  m  v  y  s  a  v  l  t  z  r  v  r  n  e  e |
+17| o  x  w  n  c  q  n  k  n  p  s  c  w  s  b  z  k  g  h  c |
+18| n  r  n  d  w  f  c  r  w  o  y  q  i  d  z  f  d  k  j  f |
+19| p  n  q  e  n  n  m  y  o  u  i  x  x  b  w  j  v  z  u  n |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+second: ((5, 4), (10, 4))
+minute: ((7, 10), (12, 10))
+day: ((13, 14), (13, 16))
+week: ((4, 3), (7, 3))
+month: ((11, 1), (15, 1))
+year: ((13, 16), (16, 16))
+century: ((10, 7), (16, 7))
+morning: ((11, 17), (17, 17))
+afternoon: ((10, 0), (18, 0))
+evening: ((1, 5), (1, 11))
+night: ((14, 8), (14, 12))
+tomorrow: ((1, 18), (8, 18))
+yesterday: ((13, 8), (13, 16))
+weekend: ((4, 3), (10, 3))
+sunrise: ((10, 12), (10, 18))
+sunset: ((7, 12), (7, 17))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+second: ((5, 4), (10, 4))
+minute: ((7, 10), (12, 10))
+day: ((13, 14), (13, 16))
+week: ((4, 3), (7, 3))
+month: ((11, 1), (15, 1))
+year: ((13, 16), (16, 16))
+century: ((10, 7), (16, 7))
+morning: ((11, 17), (17, 17))
+afternoon: ((10, 0), (18, 0))
+evening: ((1, 5), (1, 11))
+night: ((14, 8), (14, 12))
+tomorrow: ((1, 18), (8, 18))
+yesterday: ((13, 8), (13, 16))
+weekend: ((4, 3), (10, 3))
+sunrise: ((10, 12), (10, 18))
+sunset: ((7, 12), (7, 17))
+
+Naïve Time taken: 0.0559 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  e  n  z  e  v  o  l  l  e  y  b  a  l  l  v  r  k  j  p |
+ 1| s  n  o  w  b  o  a  r  d  i  n  g  q  k  i  v  x  u  q  p |
+ 2| k  s  z  d  r  h  g  t  i  e  n  t  r  x  a  g  p  s  v  v |
+ 3| u  m  z  w  r  n  m  g  f  i  j  e  l  c  u  r  i  p  i  h |
+ 4| i  m  p  b  i  g  n  f  t  t  c  l  p  s  r  n  a  e  j  g |
+ 5| v  g  h  c  n  i  m  a  t  c  a  m  y  g  n  m  t  t  l  o |
+ 6| p  x  n  i  x  w  k  x  o  b  j  r  n  e  f  z  r  e  e  l |
+ 7| b  e  i  o  o  s  q  s  e  s  e  i  t  z  x  b  g  m  f  f |
+ 8| f  k  b  q  z  v  k  s  d  h  l  s  u  r  f  i  n  g  k  v |
+ 9| s  f  u  h  j  x  a  e  c  i  v  m  r  v  x  s  n  a  t  y |
+10| w  q  t  t  d  b  r  r  a  m  d  r  e  r  n  i  l  t  b  n |
+11| m  t  q  h  g  j  a  s  z  p  l  t  d  g  l  r  e  i  c  r |
+12| p  a  b  a  s  k  e  t  b  a  l  l  n  t  z  k  j  y  z  r |
+13| b  p  o  p  a  g  q  l  f  f  f  i  s  c  c  j  u  d  o  o |
+14| c  y  c  l  i  n  g  g  u  w  v  e  y  i  y  y  j  p  k  w |
+15| j  g  d  w  z  t  g  d  w  i  r  b  r  o  e  t  e  x  j  i |
+16| l  j  m  e  b  l  d  l  d  w  g  c  z  i  q  j  u  o  a  n |
+17| s  w  i  m  m  i  n  g  l  u  k  p  w  x  o  x  m  u  p  g |
+18| g  h  o  c  k  e  y  e  r  k  p  d  c  l  j  t  x  k  t  y |
+19| c  g  y  m  n  a  s  t  i  c  s  m  a  r  a  t  h  o  n  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+basketball: ((12, 2), (12, 11))
+hockey: ((18, 1), (18, 6))
+golf: ((4, 19), (7, 19))
+volleyball: ((0, 5), (0, 14))
+cycling: ((14, 0), (14, 6))
+surfing: ((8, 11), (8, 17))
+gymnastics: ((19, 1), (19, 10))
+judo: ((13, 15), (13, 18))
+marathon: ((19, 11), (19, 18))
+swimming: ((17, 0), (17, 7))
+snowboarding: ((1, 0), (1, 11))
+rowing: ((12, 19), (17, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+basketball: ((12, 2), (12, 11))
+hockey: ((18, 1), (18, 6))
+golf: ((4, 19), (7, 19))
+volleyball: ((0, 5), (0, 14))
+cycling: ((14, 0), (14, 6))
+surfing: ((8, 11), (8, 17))
+gymnastics: ((19, 1), (19, 10))
+judo: ((13, 15), (13, 18))
+marathon: ((19, 11), (19, 18))
+swimming: ((17, 0), (17, 7))
+snowboarding: ((1, 0), (1, 11))
+rowing: ((12, 19), (17, 19))
+
+Naïve Time taken: 0.0726 seconds
+Naïve Memory used: 0.00 MB

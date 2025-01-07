@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  v  e  p  e  a  r  r  t  p  i  c  s  j  i  l  e  e  k  i |
+ 1| o  a  l  w  b  x  e  n  p  z  v  a  o  w  y  u  m  k  m  u |
+ 2| c  t  v  e  x  n  p  t  i  z  y  c  z  w  e  x  t  g  w  h |
+ 3| q  t  y  t  i  s  j  i  r  x  r  t  a  b  f  g  u  g  j  f |
+ 4| l  h  g  v  a  c  s  d  f  s  l  u  q  j  p  i  l  m  a  m |
+ 5| t  e  i  r  v  f  u  h  b  n  i  s  f  z  r  x  i  q  p  c |
+ 6| d  j  p  p  y  o  t  j  r  e  u  n  j  g  d  o  p  h  a  u |
+ 7| u  o  p  l  z  l  o  i  p  u  w  d  m  g  t  a  r  a  l  q |
+ 8| f  z  o  w  g  v  n  d  a  n  b  j  s  p  m  a  i  c  m  i |
+ 9| y  d  v  r  g  a  y  u  f  a  b  i  p  h  o  j  w  s  i  k |
+10| m  s  f  e  c  l  e  a  d  a  x  o  i  r  s  o  x  x  y  t |
+11| w  u  n  l  i  h  m  q  b  k  r  a  n  f  s  d  i  v  u  r |
+12| p  n  d  l  o  s  i  i  a  o  s  k  e  t  x  f  a  s  c  e |
+13| g  f  p  i  o  w  o  d  m  m  r  v  t  u  i  a  s  s  x  e |
+14| e  l  f  z  o  j  e  s  b  u  a  d  w  x  y  a  u  b  r  s |
+15| k  o  g  t  e  c  r  r  o  k  m  p  p  y  r  f  q  c  j  r |
+16| e  w  t  t  t  y  t  o  o  f  s  b  l  g  z  e  o  b  a  n |
+17| u  e  x  o  x  l  y  t  s  h  t  h  d  e  i  r  i  q  s  j |
+18| l  r  n  i  z  k  r  r  i  e  c  f  f  j  u  n  x  e  v  f |
+19| j  h  a  g  t  i  m  d  m  i  e  h  v  r  f  a  p  j  x  j |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tree: ((10, 19), (13, 19))
+flower: ((13, 1), (18, 1))
+fern: ((15, 15), (18, 15))
+moss: ((8, 14), (11, 14))
+cactus: ((0, 11), (5, 11))
+bamboo: ((11, 8), (16, 8))
+oak: ((10, 11), (12, 11))
+pine: ((9, 12), (12, 12))
+tulip: ((2, 16), (6, 16))
+sunflower: ((10, 1), (18, 1))
+ivy: ((0, 10), (2, 10))
+palm: ((5, 18), (8, 18))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((10, 19), (13, 19))
+flower: ((13, 1), (18, 1))
+fern: ((15, 15), (18, 15))
+moss: ((8, 14), (11, 14))
+cactus: ((0, 11), (5, 11))
+bamboo: ((11, 8), (16, 8))
+oak: ((10, 11), (12, 11))
+pine: ((9, 12), (12, 12))
+tulip: ((2, 16), (6, 16))
+sunflower: ((10, 1), (18, 1))
+ivy: ((0, 10), (2, 10))
+palm: ((5, 18), (8, 18))
+
+Naïve Time taken: 0.0730 seconds
+Naïve Memory used: 0.00 MB

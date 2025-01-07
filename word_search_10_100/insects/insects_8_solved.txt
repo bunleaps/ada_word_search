@@ -1,0 +1,31 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| m  m  c  a  o  f  l  y  c  b |
+ 1| m  m  o  t  h  u  k  g  o  u |
+ 2| v  o  t  f  p  h  u  f  c  t |
+ 3| c  n  s  s  l  b  y  e  k  t |
+ 4| a  h  a  q  y  e  l  f  r  e |
+ 5| o  w  n  d  u  t  a  e  o  r |
+ 6| p  g  a  w  e  i  d  i  a  f |
+ 7| h  l  k  e  e  i  t  k  c  l |
+ 8| r  v  b  e  p  r  l  o  h  y |
+ 9| c  w  b  s  t  u  g  t  q  d |
+  +------------------------------+
+Dynamic Programming Solution:
+butterfly: ((0, 9), (8, 9))
+cockroach: ((0, 8), (8, 8))
+fly: ((0, 5), (0, 7))
+moth: ((1, 1), (1, 4))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+butterfly: ((0, 9), (8, 9))
+cockroach: ((0, 8), (8, 8))
+fly: ((0, 5), (0, 7))
+moth: ((1, 1), (1, 4))
+
+Naïve Time taken: 0.0080 seconds
+Naïve Memory used: 0.00 MB

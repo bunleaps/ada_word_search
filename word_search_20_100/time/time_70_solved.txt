@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| r  o  l  i  e  i  i  q  m  a  g  n  c  w  e  s  r  i  a  w |
+ 1| m  u  d  i  g  i  z  w  o  y  e  c  f  w  d  h  m  a  x  u |
+ 2| p  z  e  u  s  g  a  r  n  p  b  t  f  n  m  s  a  k  r  o |
+ 3| a  m  c  w  r  x  o  d  t  s  c  x  o  i  a  t  e  c  j  m |
+ 4| c  b  a  x  f  v  b  q  h  g  m  c  n  j  e  t  s  z  o  t |
+ 5| f  q  d  x  t  a  c  f  x  o  e  b  k  s  u  b  d  s  o  g |
+ 6| c  d  e  a  w  a  c  e  a  s  w  q  n  n  a  o  e  u  l  t |
+ 7| b  u  r  j  e  s  f  e  s  r  o  u  i  u  z  u  v  n  w  o |
+ 8| t  g  j  n  g  s  x  t  n  l  s  m  z  s  x  y  e  r  g  m |
+ 9| i  z  h  t  z  e  w  q  e  t  s  z  y  m  v  e  n  i  q  o |
+10| s  f  q  k  a  a  y  u  x  r  u  h  i  o  w  s  i  s  y  r |
+11| n  y  e  h  k  m  p  e  q  s  n  r  z  r  o  t  n  e  n  r |
+12| w  e  d  c  h  v  f  a  a  x  c  o  y  n  v  e  g  t  f  o |
+13| w  n  p  f  q  x  r  d  d  r  t  y  o  i  b  r  j  o  h  w |
+14| p  i  t  c  b  h  o  l  i  d  a  y  a  n  r  d  r  d  o  v |
+15| u  g  p  k  d  f  y  o  w  d  d  u  t  g  y  a  i  a  w  k |
+16| h  h  o  d  m  a  g  l  k  f  r  c  d  l  x  y  i  y  k  c |
+17| g  t  j  v  z  d  y  e  a  u  o  v  s  t  m  f  x  a  q  a |
+18| h  y  j  a  s  f  e  h  o  t  i  w  v  y  q  t  h  a  z  l |
+19| w  z  u  y  q  w  d  h  x  w  e  e  k  e  n  d  n  l  z  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+day: ((14, 9), (14, 11))
+week: ((19, 9), (19, 12))
+month: ((0, 8), (4, 8))
+decade: ((1, 2), (6, 2))
+morning: ((9, 13), (15, 13))
+evening: ((6, 16), (12, 16))
+night: ((13, 1), (17, 1))
+today: ((12, 17), (16, 17))
+tomorrow: ((6, 19), (13, 19))
+yesterday: ((8, 15), (16, 15))
+weekend: ((19, 9), (19, 15))
+holiday: ((14, 5), (14, 11))
+sunrise: ((5, 17), (11, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+day: ((14, 9), (14, 11))
+week: ((19, 9), (19, 12))
+month: ((0, 8), (4, 8))
+decade: ((1, 2), (6, 2))
+morning: ((9, 13), (15, 13))
+evening: ((6, 16), (12, 16))
+night: ((13, 1), (17, 1))
+today: ((12, 17), (16, 17))
+tomorrow: ((6, 19), (13, 19))
+yesterday: ((8, 15), (16, 15))
+weekend: ((19, 9), (19, 15))
+holiday: ((14, 5), (14, 11))
+sunrise: ((5, 17), (11, 17))
+
+Naïve Time taken: 0.0718 seconds
+Naïve Memory used: 0.00 MB

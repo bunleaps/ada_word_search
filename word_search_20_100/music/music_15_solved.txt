@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| w  g  n  j  p  g  o  r  c  h  e  s  t  r  a  g  h  z  f  m |
+ 1| o  m  c  n  b  p  v  n  r  y  u  h  h  d  c  e  o  o  y  e |
+ 2| o  a  r  x  u  q  r  i  r  j  k  c  z  r  z  a  q  i  n  l |
+ 3| h  x  o  d  p  b  w  w  t  p  e  d  p  h  g  g  c  u  z  o |
+ 4| e  j  p  a  l  b  u  m  d  v  f  f  p  y  u  l  h  h  f  d |
+ 5| a  m  i  b  z  p  p  z  g  a  w  q  h  t  c  e  t  i  h  y |
+ 6| d  i  a  v  f  x  z  g  m  j  u  u  p  h  t  e  p  m  a  h |
+ 7| p  c  n  s  f  w  g  u  i  t  a  r  p  m  p  b  b  n  i  r |
+ 8| h  r  o  s  h  s  k  t  t  g  d  l  g  m  m  l  v  h  t  g |
+ 9| o  o  b  x  a  z  d  f  y  f  n  u  u  b  d  s  x  r  g  h |
+10| n  p  a  k  r  o  e  x  l  i  a  r  n  w  r  y  e  x  g  r |
+11| e  h  n  e  m  t  s  f  l  u  t  o  o  e  s  c  b  a  x  t |
+12| s  o  d  q  o  f  z  o  l  t  t  m  x  m  n  w  j  a  s  d |
+13| o  n  n  n  n  j  i  j  f  h  r  e  u  o  p  e  d  k  i  y |
+14| o  e  c  g  y  v  g  h  e  r  h  r  c  p  r  c  y  t  n  w |
+15| u  i  l  h  j  j  g  o  f  m  d  y  n  c  w  r  w  a  g  y |
+16| c  j  u  l  o  n  o  t  e  s  a  x  o  p  h  o  n  e  e  c |
+17| r  h  i  x  b  r  i  k  l  y  r  i  c  s  i  o  u  w  r  u |
+18| m  q  g  c  p  f  d  u  s  l  e  i  n  b  v  g  n  i  z  p |
+19| v  b  m  g  i  l  f  y  k  a  c  y  v  p  q  k  h  k  n  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((7, 6), (7, 11))
+piano: ((4, 2), (8, 2))
+saxophone: ((16, 9), (16, 17))
+singer: ((12, 18), (17, 18))
+band: ((9, 2), (12, 2))
+orchestra: ((0, 6), (0, 14))
+melody: ((0, 19), (5, 19))
+harmony: ((8, 4), (14, 4))
+rhythm: ((2, 13), (7, 13))
+note: ((16, 5), (16, 8))
+lyrics: ((17, 8), (17, 13))
+album: ((4, 3), (4, 7))
+microphone: ((5, 1), (14, 1))
+headphones: ((3, 0), (12, 0))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((7, 6), (7, 11))
+piano: ((4, 2), (8, 2))
+saxophone: ((16, 9), (16, 17))
+singer: ((12, 18), (17, 18))
+band: ((9, 2), (12, 2))
+orchestra: ((0, 6), (0, 14))
+melody: ((0, 19), (5, 19))
+harmony: ((8, 4), (14, 4))
+rhythm: ((2, 13), (7, 13))
+note: ((16, 5), (16, 8))
+lyrics: ((17, 8), (17, 13))
+album: ((4, 3), (4, 7))
+microphone: ((5, 1), (14, 1))
+headphones: ((3, 0), (12, 0))
+
+Naïve Time taken: 0.0535 seconds
+Naïve Memory used: 0.00 MB

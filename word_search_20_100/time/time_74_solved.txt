@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| v  o  w  n  j  y  k  b  e  i  e  c  l  n  x  t  d  r  e  x |
+ 1| q  i  o  k  g  y  y  c  g  h  h  n  z  c  b  n  r  c  v  d |
+ 2| h  c  f  w  q  r  o  n  b  m  m  z  t  p  f  v  g  y  t  n |
+ 3| j  o  l  l  u  y  i  s  u  n  r  i  s  e  a  b  t  e  n  p |
+ 4| g  l  u  t  e  n  e  z  s  e  c  o  n  d  f  f  r  s  y  t |
+ 5| s  w  n  r  r  t  e  a  e  k  t  a  i  h  t  k  u  t  w  o |
+ 6| x  e  t  o  h  w  v  p  r  v  h  w  v  k  e  f  m  e  e  m |
+ 7| c  c  m  o  a  l  a  z  e  t  x  b  d  e  r  d  q  r  e  o |
+ 8| w  n  l  n  i  g  h  t  n  p  y  z  w  u  n  r  d  d  k  r |
+ 9| f  e  o  c  v  p  h  o  j  o  o  u  s  c  o  m  q  a  d  r |
+10| c  g  e  n  j  q  m  t  n  a  k  v  y  s  o  a  s  y  a  o |
+11| e  d  c  k  y  x  a  l  s  w  o  a  q  x  n  u  g  e  y  w |
+12| d  w  a  x  e  f  g  i  r  b  d  s  u  n  s  e  t  d  q  h |
+13| r  e  v  j  l  n  x  p  g  i  p  m  q  u  w  a  v  g  y  l |
+14| k  q  c  u  e  b  d  h  h  o  l  i  d  a  y  s  v  a  u  w |
+15| a  p  v  a  o  z  m  y  l  e  v  e  n  i  n  g  d  k  r  q |
+16| g  y  o  n  d  n  l  n  h  r  i  f  q  r  g  o  u  a  k  i |
+17| l  m  d  v  q  e  i  t  m  i  n  u  t  e  t  a  a  q  z  f |
+18| g  w  v  v  f  c  l  v  u  v  a  y  y  b  k  f  n  g  q  s |
+19| p  f  i  y  x  t  s  t  o  z  q  m  v  q  b  k  y  w  z  e |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+second: ((4, 8), (4, 13))
+minute: ((17, 8), (17, 13))
+day: ((14, 12), (14, 14))
+week: ((5, 18), (8, 18))
+afternoon: ((3, 14), (11, 14))
+evening: ((15, 9), (15, 15))
+night: ((8, 3), (8, 7))
+tomorrow: ((4, 19), (11, 19))
+yesterday: ((2, 17), (10, 17))
+weekday: ((5, 18), (11, 18))
+holiday: ((14, 8), (14, 14))
+sunrise: ((3, 7), (3, 13))
+sunset: ((12, 11), (12, 16))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+second: ((4, 8), (4, 13))
+minute: ((17, 8), (17, 13))
+day: ((14, 12), (14, 14))
+week: ((5, 18), (8, 18))
+afternoon: ((3, 14), (11, 14))
+evening: ((15, 9), (15, 15))
+night: ((8, 3), (8, 7))
+tomorrow: ((4, 19), (11, 19))
+yesterday: ((2, 17), (10, 17))
+weekday: ((5, 18), (11, 18))
+holiday: ((14, 8), (14, 14))
+sunrise: ((3, 7), (3, 13))
+sunset: ((12, 11), (12, 16))
+
+Naïve Time taken: 0.0586 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| i  c  c  y  r  d  l  f  h  p  r  i  c  e  t  x  v  q  p  a |
+ 1| j  f  e  n  n  f  i  s  l  y  z  i  t  h  o  u  j  b  o  n |
+ 2| q  p  b  b  f  g  v  o  b  n  h  b  t  y  c  f  c  l  m  i |
+ 3| p  d  z  u  y  s  x  b  y  s  c  b  a  o  n  p  z  r  i  c |
+ 4| o  p  y  r  c  e  a  i  u  y  q  q  c  f  s  i  q  d  w  e |
+ 5| g  i  u  r  w  p  n  s  t  w  c  p  o  p  t  e  w  s  m  c |
+ 6| p  z  k  i  s  a  e  c  y  w  z  u  k  r  q  l  d  o  j  r |
+ 7| g  z  p  t  c  a  y  s  y  v  o  i  r  m  a  a  e  t  h  e |
+ 8| n  a  u  o  t  t  n  c  h  e  e  s  e  r  l  t  u  v  v  a |
+ 9| e  o  l  n  b  g  n  d  t  g  h  b  v  a  y  d  j  a  r  m |
+10| r  v  o  a  x  a  z  j  w  p  i  w  s  j  k  b  b  e  e  i |
+11| x  f  t  d  j  m  d  b  k  i  j  i  p  i  g  d  g  w  d  a |
+12| j  g  r  u  l  r  q  p  c  q  c  y  h  y  d  r  d  m  e  g |
+13| t  l  i  l  y  e  c  r  a  j  k  h  r  w  u  y  g  u  g  t |
+14| m  d  r  b  a  x  s  e  k  a  f  d  z  b  h  o  t  i  o  j |
+15| h  x  s  o  u  p  c  v  e  l  g  s  o  u  i  s  n  i  v  r |
+16| c  h  o  c  o  l  a  t  e  m  r  k  n  d  e  d  k  g  a  s |
+17| f  t  w  j  e  g  s  v  c  j  f  e  u  p  a  s  t  a  e  c |
+18| e  r  v  a  n  d  b  r  e  a  d  j  s  f  d  h  b  q  z  s |
+19| i  m  m  c  g  x  l  v  c  o  o  k  i  e  s  u  q  y  d  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((4, 1), (8, 1))
+pasta: ((17, 13), (17, 17))
+soup: ((15, 2), (15, 5))
+rice: ((0, 10), (0, 13))
+taco: ((2, 12), (5, 12))
+burrito: ((2, 3), (8, 3))
+bread: ((18, 6), (18, 10))
+cheese: ((8, 7), (8, 12))
+chocolate: ((16, 0), (16, 8))
+icecream: ((2, 19), (9, 19))
+cake: ((12, 8), (15, 8))
+cookies: ((19, 8), (19, 14))
+pie: ((3, 15), (5, 15))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((4, 1), (8, 1))
+pasta: ((17, 13), (17, 17))
+soup: ((15, 2), (15, 5))
+rice: ((0, 10), (0, 13))
+taco: ((2, 12), (5, 12))
+burrito: ((2, 3), (8, 3))
+bread: ((18, 6), (18, 10))
+cheese: ((8, 7), (8, 12))
+chocolate: ((16, 0), (16, 8))
+icecream: ((2, 19), (9, 19))
+cake: ((12, 8), (15, 8))
+cookies: ((19, 8), (19, 14))
+pie: ((3, 15), (5, 15))
+
+Naïve Time taken: 0.0561 seconds
+Naïve Memory used: 0.00 MB

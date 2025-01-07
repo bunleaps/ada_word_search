@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| t  u  o  l  v  i  n  e  x  u  p  h  v  m  o  s  w  z  k  u |
+ 1| x  z  z  i  k  p  z  x  w  n  l  e  i  h  b  b  q  s  s  h |
+ 2| p  x  f  a  q  l  d  h  k  i  w  z  r  f  y  e  s  x  a  t |
+ 3| o  q  o  y  r  i  y  z  e  h  d  h  q  c  r  a  d  o  d  c |
+ 4| r  c  v  s  t  l  m  r  m  r  f  z  u  k  r  d  d  n  j  z |
+ 5| c  i  m  b  k  y  z  l  p  o  x  c  u  g  o  o  h  t  t  a |
+ 6| h  w  a  l  p  s  l  a  c  s  z  q  e  h  p  l  d  r  c  j |
+ 7| i  k  p  x  k  i  s  a  b  e  b  o  k  t  v  f  q  e  a  d |
+ 8| d  r  l  u  x  b  n  z  i  u  z  p  v  s  r  i  b  e  a  y |
+ 9| w  r  e  x  o  d  g  e  r  y  h  g  u  a  l  t  r  d  z  t |
+10| m  i  v  c  k  n  n  h  g  r  c  t  p  d  o  c  s  r  l  r |
+11| v  f  l  b  a  j  s  c  g  x  c  g  w  p  k  b  k  q  m  k |
+12| b  p  f  l  o  w  e  r  w  a  b  p  v  w  j  u  g  b  r  m |
+13| p  d  t  t  u  l  i  p  c  f  g  a  x  c  a  r  s  f  s  l |
+14| n  n  y  r  n  t  j  d  c  r  o  l  c  d  g  s  e  s  k  c |
+15| m  k  j  r  q  x  n  a  f  q  x  m  r  j  o  g  s  i  o  t |
+16| h  f  e  l  r  c  m  i  u  v  j  z  a  m  q  g  x  b  u  d |
+17| g  f  j  b  u  d  t  s  f  o  w  o  k  t  s  c  z  q  o  o |
+18| w  a  y  d  i  g  a  y  b  s  u  n  f  l  o  w  e  r  d  b |
+19| u  h  b  y  x  h  l  l  r  t  h  u  i  b  a  m  b  o  o  n |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tree: ((5, 17), (8, 17))
+flower: ((12, 2), (12, 7))
+vine: ((0, 4), (0, 7))
+bamboo: ((19, 13), (19, 18))
+oak: ((12, 4), (10, 4))
+maple: ((5, 2), (9, 2))
+rose: ((4, 9), (7, 9))
+tulip: ((13, 3), (13, 7))
+daisy: ((14, 7), (18, 7))
+sunflower: ((18, 9), (18, 17))
+lily: ((2, 5), (5, 5))
+orchid: ((3, 0), (8, 0))
+palm: ((12, 11), (15, 11))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((5, 17), (8, 17))
+flower: ((12, 2), (12, 7))
+vine: ((0, 4), (0, 7))
+bamboo: ((19, 13), (19, 18))
+oak: ((12, 4), (10, 4))
+maple: ((5, 2), (9, 2))
+rose: ((4, 9), (7, 9))
+tulip: ((13, 3), (13, 7))
+daisy: ((14, 7), (18, 7))
+sunflower: ((18, 9), (18, 17))
+lily: ((2, 5), (5, 5))
+orchid: ((3, 0), (8, 0))
+palm: ((12, 11), (15, 11))
+
+Naïve Time taken: 0.0550 seconds
+Naïve Memory used: 0.00 MB

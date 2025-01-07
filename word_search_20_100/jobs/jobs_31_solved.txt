@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| h  s  y  c  n  g  d  g  k  i  o  d  s  f  p  v  g  w  q  z |
+ 1| k  g  v  m  q  k  e  r  f  i  r  e  f  i  g  h  t  e  r  f |
+ 2| t  l  q  a  e  v  t  v  a  s  i  u  g  x  z  u  r  b  v  w |
+ 3| q  t  a  a  q  c  u  r  b  c  w  b  i  u  f  s  v  e  t  n |
+ 4| b  k  c  t  a  p  h  p  o  l  i  c  e  g  y  c  k  s  z  t |
+ 5| d  d  c  b  v  a  h  a  w  j  v  m  u  s  i  c  i  a  n  p |
+ 6| e  o  o  l  w  j  r  c  n  j  b  n  j  x  x  t  l  n  x  h |
+ 7| n  c  u  b  n  w  n  c  h  i  h  u  z  x  r  j  y  z  k  o |
+ 8| t  t  n  x  a  r  f  i  h  e  c  r  q  a  h  r  z  m  w  t |
+ 9| i  o  t  p  n  i  i  w  b  i  f  s  l  p  i  a  w  e  r  o |
+10| s  r  a  r  l  t  e  z  r  f  t  e  s  a  q  i  q  t  m  g |
+11| t  k  n  t  x  e  p  q  c  e  t  e  z  e  w  y  e  s  q  r |
+12| i  l  t  y  e  r  d  i  l  c  e  u  c  v  w  y  g  i  i  a |
+13| g  l  i  z  f  a  u  l  l  s  k  o  p  t  v  k  e  s  t  p |
+14| u  s  y  b  s  r  c  a  i  o  m  q  j  l  i  g  u  r  b  h |
+15| x  k  z  p  e  a  k  h  w  z  t  g  h  k  n  r  g  c  u  e |
+16| f  z  e  n  g  i  n  e  e  r  s  c  i  e  n  t  i  s  t  r |
+17| r  g  o  h  v  v  m  w  r  r  i  v  z  p  a  j  a  d  v  t |
+18| h  c  q  x  k  h  n  p  r  o  g  r  a  m  m  e  r  s  y  w |
+19| l  k  d  r  f  a  r  m  e  r  f  o  j  r  c  y  r  s  v  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+doctor: ((5, 1), (10, 1))
+engineer: ((16, 2), (16, 9))
+nurse: ((6, 11), (10, 11))
+musician: ((5, 11), (5, 18))
+writer: ((7, 5), (12, 5))
+scientist: ((16, 10), (16, 18))
+firefighter: ((1, 8), (1, 18))
+police: ((4, 7), (4, 12))
+farmer: ((19, 4), (19, 9))
+accountant: ((3, 2), (12, 2))
+dentist: ((5, 0), (11, 0))
+photographer: ((5, 19), (16, 19))
+programmer: ((18, 7), (18, 16))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+doctor: ((5, 1), (10, 1))
+engineer: ((16, 2), (16, 9))
+nurse: ((6, 11), (10, 11))
+musician: ((5, 11), (5, 18))
+writer: ((7, 5), (12, 5))
+scientist: ((16, 10), (16, 18))
+firefighter: ((1, 8), (1, 18))
+police: ((4, 7), (4, 12))
+farmer: ((19, 4), (19, 9))
+accountant: ((3, 2), (12, 2))
+dentist: ((5, 0), (11, 0))
+photographer: ((5, 19), (16, 19))
+programmer: ((18, 7), (18, 16))
+
+Naïve Time taken: 0.0455 seconds
+Naïve Memory used: 0.00 MB

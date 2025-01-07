@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| o  m  j  g  a  l  a  x  y  w  l  t  z  g  q  c  a  b  k  v |
+ 1| p  c  a  a  l  g  q  n  x  m  a  s  t  e  r  o  i  d  z  u |
+ 2| g  x  q  z  i  l  d  d  x  c  g  v  u  j  d  a  s  u  w  k |
+ 3| s  j  m  s  e  b  i  g  a  s  t  r  o  n  a  u  t  r  o  o |
+ 4| y  l  u  t  n  v  b  g  g  x  t  w  b  o  v  h  w  j  r  d |
+ 5| x  i  n  a  s  s  l  x  h  r  z  e  i  e  u  p  r  z  b  m |
+ 6| x  j  t  r  n  x  a  u  c  t  f  q  l  p  x  o  o  j  i  b |
+ 7| u  a  n  z  b  v  c  d  o  s  y  y  t  e  i  f  y  c  t  e |
+ 8| f  b  o  d  c  e  k  y  n  o  u  e  v  j  s  g  e  u  p  p |
+ 9| u  d  m  k  g  n  h  i  s  l  n  q  a  h  m  c  l  h  o  b |
+10| n  u  i  r  p  n  o  r  t  a  i  v  s  r  m  t  o  h  n  s |
+11| i  s  b  d  x  t  l  o  e  r  m  x  f  k  o  u  t  p  x  a |
+12| v  u  q  v  e  h  e  c  l  s  g  n  b  b  o  j  d  c  e  t |
+13| e  e  y  m  f  j  l  k  l  s  j  z  e  b  n  h  t  r  j  e |
+14| r  o  o  n  p  o  w  e  a  y  r  a  o  b  e  l  o  r  g  l |
+15| s  c  v  m  y  l  s  t  t  s  h  j  t  k  u  e  p  c  g  l |
+16| e  g  r  f  l  z  x  r  i  t  p  i  a  t  t  l  n  f  a  i |
+17| p  l  a  n  e  t  f  l  o  e  q  j  h  e  t  s  a  u  i  t |
+18| n  k  h  q  x  x  w  q  n  m  q  a  m  t  l  j  x  h  z  e |
+19| i  k  i  n  b  s  p  a  c  e  c  r  a  f  t  o  o  j  c  d |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+planet: ((17, 0), (17, 5))
+star: ((3, 3), (6, 3))
+galaxy: ((0, 3), (0, 8))
+moon: ((10, 14), (13, 14))
+asteroid: ((1, 10), (1, 17))
+blackhole: ((4, 6), (12, 6))
+satellite: ((10, 19), (18, 19))
+rocket: ((10, 7), (15, 7))
+astronaut: ((3, 8), (3, 16))
+spacecraft: ((19, 5), (19, 14))
+orbit: ((3, 18), (7, 18))
+universe: ((9, 0), (16, 0))
+constellation: ((6, 8), (18, 8))
+aliens: ((0, 4), (5, 4))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((17, 0), (17, 5))
+star: ((3, 3), (6, 3))
+galaxy: ((0, 3), (0, 8))
+moon: ((10, 14), (13, 14))
+asteroid: ((1, 10), (1, 17))
+blackhole: ((4, 6), (12, 6))
+satellite: ((10, 19), (18, 19))
+rocket: ((10, 7), (15, 7))
+astronaut: ((3, 8), (3, 16))
+spacecraft: ((19, 5), (19, 14))
+orbit: ((3, 18), (7, 18))
+universe: ((9, 0), (16, 0))
+constellation: ((6, 8), (18, 8))
+aliens: ((0, 4), (5, 4))
+
+Naïve Time taken: 0.0491 seconds
+Naïve Memory used: 0.00 MB

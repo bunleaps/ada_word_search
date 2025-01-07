@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  e  s  s  h  o  e  s  j  a  c  k  e  t  c  l  x  o  m  e |
+ 1| p  a  t  x  w  u  y  e  n  k  w  g  x  f  h  a  t  i  r  c |
+ 2| y  a  i  o  t  a  j  e  s  w  e  a  t  e  r  t  s  t  b  o |
+ 3| o  w  j  f  j  x  y  h  y  d  e  y  t  r  b  o  s  t  d  x |
+ 4| a  m  y  a  o  b  j  w  u  t  r  a  s  y  q  t  q  g  q  z |
+ 5| y  s  l  y  m  z  x  d  z  v  z  e  m  c  m  i  u  t  c  b |
+ 6| r  g  t  o  n  a  s  d  g  l  k  e  s  v  a  y  r  g  z  o |
+ 7| v  n  n  k  r  a  s  m  r  a  t  g  c  s  d  r  w  r  k  d |
+ 8| n  k  n  x  t  f  e  s  k  c  s  t  l  l  m  y  f  h  a  t |
+ 9| q  g  l  r  s  h  r  s  g  t  o  k  i  g  z  t  s  s  z  d |
+10| a  w  i  h  h  e  q  o  n  n  s  a  w  e  y  n  k  b  l  q |
+11| d  h  s  m  k  n  a  a  h  y  x  r  t  u  a  c  i  p  g  f |
+12| s  h  x  a  m  k  p  g  b  l  h  g  v  e  o  u  r  b  l  r |
+13| t  f  e  u  n  i  f  o  r  m  e  j  j  s  r  z  t  r  o  f |
+14| m  n  b  g  e  j  c  r  w  j  q  a  o  b  p  d  h  j  v  m |
+15| s  k  m  o  b  v  a  h  r  n  l  c  h  z  o  w  z  y  e  o |
+16| o  c  w  x  o  e  e  m  d  g  u  z  k  w  m  v  t  g  s  k |
+17| r  p  d  c  w  t  l  i  u  g  h  v  m  a  l  r  p  i  u  e |
+18| m  f  v  y  o  b  s  t  r  v  e  u  q  b  u  w  f  e  c  f |
+19| b  t  y  d  q  d  g  e  x  m  a  r  e  f  s  x  n  x  h  h |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+jacket: ((0, 8), (0, 13))
+skirt: ((9, 16), (13, 16))
+sweater: ((2, 8), (2, 14))
+shoes: ((0, 3), (0, 7))
+gloves: ((11, 18), (16, 18))
+hat: ((1, 14), (1, 16))
+uniform: ((13, 3), (13, 9))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+jacket: ((0, 8), (0, 13))
+skirt: ((9, 16), (13, 16))
+sweater: ((2, 8), (2, 14))
+shoes: ((0, 3), (0, 7))
+gloves: ((11, 18), (16, 18))
+hat: ((1, 14), (1, 16))
+uniform: ((13, 3), (13, 9))
+
+Naïve Time taken: 0.0622 seconds
+Naïve Memory used: 0.00 MB

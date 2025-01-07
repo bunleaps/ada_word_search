@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  i  c  y  v  r  r  k  l  v  l  t  h  u  n  d  e  r  w  b |
+ 1| d  b  i  q  a  d  d  g  u  t  p  s  w  j  s  g  p  r  x  a |
+ 2| b  h  u  k  d  k  p  g  b  r  e  e  z  e  u  s  d  r  y  g |
+ 3| g  t  u  c  u  y  e  d  l  j  s  x  c  w  z  d  l  g  r  f |
+ 4| w  c  o  r  d  v  e  o  b  i  n  n  f  i  g  z  v  t  i  b |
+ 5| y  j  h  r  r  r  k  g  v  u  g  w  o  r  w  y  v  i  w  u |
+ 6| t  d  o  g  n  i  d  u  w  y  c  h  a  w  o  i  k  v  l  v |
+ 7| v  d  t  d  c  a  c  x  i  d  n  v  t  b  y  s  n  z  s  z |
+ 8| h  s  g  f  m  n  d  a  m  g  s  u  n  n  y  w  t  d  d  g |
+ 9| z  c  m  r  s  m  i  o  n  c  o  z  g  m  i  x  e  l  y  w |
+10| p  c  g  k  g  i  m  c  k  e  h  b  u  l  e  n  o  i  r  e |
+11| j  s  t  o  r  m  y  e  h  a  i  l  j  c  c  c  g  i  a  l |
+12| n  n  x  d  z  k  l  r  h  e  f  s  a  k  l  p  b  t  o  n |
+13| c  h  b  c  a  z  p  m  e  u  v  o  s  o  h  o  t  m  b  i |
+14| e  z  i  q  z  z  p  s  p  s  m  w  g  n  a  i  u  o  a  c |
+15| y  w  n  i  h  l  t  u  l  p  x  i  l  g  a  s  g  d  w  r |
+16| x  r  r  o  f  n  t  x  v  i  b  u  d  j  y  f  m  c  y  e |
+17| s  d  h  j  u  p  k  k  b  l  i  z  z  a  r  d  q  a  x  g |
+18| k  k  w  u  z  f  n  k  j  z  t  k  r  a  i  n  y  a  x  f |
+19| y  a  a  g  y  f  u  p  f  r  t  t  w  p  u  e  m  k  t  s |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+sunny: ((8, 10), (8, 14))
+rainy: ((18, 12), (18, 16))
+stormy: ((11, 1), (11, 6))
+dry: ((2, 16), (2, 18))
+hot: ((13, 14), (13, 16))
+thunder: ((0, 11), (0, 17))
+breeze: ((2, 8), (2, 13))
+hail: ((11, 8), (11, 11))
+blizzard: ((17, 8), (17, 15))
+
+DP Time taken: 0.0015 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+sunny: ((8, 10), (8, 14))
+rainy: ((18, 12), (18, 16))
+stormy: ((11, 1), (11, 6))
+dry: ((2, 16), (2, 18))
+hot: ((13, 14), (13, 16))
+thunder: ((0, 11), (0, 17))
+breeze: ((2, 8), (2, 13))
+hail: ((11, 8), (11, 11))
+blizzard: ((17, 8), (17, 15))
+
+Naïve Time taken: 0.0689 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| v  a  f  t  c  v  q  m  w  u  i  v  e  q  c  m  c  o  b  r |
+ 1| k  g  s  f  g  q  r  i  c  e  v  t  g  l  o  f  k  w  e  h |
+ 2| t  h  a  h  k  j  a  g  l  c  x  m  h  a  r  d  o  c  t  q |
+ 3| n  g  l  p  l  h  c  z  h  s  a  b  a  q  g  r  r  a  b  k |
+ 4| a  i  a  s  e  w  l  b  o  u  m  k  r  p  t  i  v  k  u  m |
+ 5| b  g  d  r  a  z  p  x  c  s  t  e  t  e  y  g  z  e  r  q |
+ 6| k  o  l  t  m  t  a  j  z  h  x  z  v  o  a  a  v  n  r  i |
+ 7| i  t  s  t  j  c  w  u  g  i  a  f  w  p  c  d  s  e  i  l |
+ 8| n  a  a  o  v  l  u  x  g  a  r  u  r  b  o  s  g  y  t  c |
+ 9| p  o  t  c  k  v  k  r  j  p  i  z  z  a  o  a  w  l  o  h |
+10| o  h  o  o  o  g  d  m  r  o  x  i  o  w  k  n  j  z  v  o |
+11| w  x  c  d  j  u  z  l  g  y  u  c  m  e  i  d  t  s  i  c |
+12| o  t  s  c  l  s  h  k  z  y  r  e  e  q  e  w  b  t  b  o |
+13| b  d  o  c  r  e  d  l  r  j  z  c  p  o  s  i  r  e  d  l |
+14| o  e  u  m  h  d  s  e  m  l  c  r  i  k  c  c  p  a  r  a |
+15| h  p  p  m  u  e  g  f  g  s  u  e  e  f  r  h  j  k  u  t |
+16| y  a  r  k  p  r  e  n  j  q  o  a  p  g  m  e  t  f  v  e |
+17| f  u  x  u  u  u  o  s  b  u  d  m  g  m  c  j  e  p  n  z |
+18| r  s  s  b  c  d  l  w  e  y  o  e  o  c  t  s  m  x  l  u |
+19| i  v  q  p  z  c  u  s  y  o  y  y  x  m  w  x  u  n  p  g |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((9, 9), (9, 13))
+sandwich: ((8, 15), (15, 15))
+salad: ((1, 2), (5, 2))
+soup: ((12, 2), (15, 2))
+steak: ((11, 17), (15, 17))
+sushi: ((3, 9), (7, 9))
+rice: ((1, 6), (1, 9))
+burrito: ((3, 18), (9, 18))
+chocolate: ((8, 19), (16, 19))
+icecream: ((10, 11), (17, 11))
+cake: ((2, 17), (5, 17))
+cookies: ((7, 14), (13, 14))
+pie: ((13, 12), (15, 12))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((9, 9), (9, 13))
+sandwich: ((8, 15), (15, 15))
+salad: ((1, 2), (5, 2))
+soup: ((12, 2), (15, 2))
+steak: ((11, 17), (15, 17))
+sushi: ((3, 9), (7, 9))
+rice: ((1, 6), (1, 9))
+burrito: ((3, 18), (9, 18))
+chocolate: ((8, 19), (16, 19))
+icecream: ((10, 11), (17, 11))
+cake: ((2, 17), (5, 17))
+cookies: ((7, 14), (13, 14))
+pie: ((13, 12), (15, 12))
+
+Naïve Time taken: 0.0629 seconds
+Naïve Memory used: 0.00 MB

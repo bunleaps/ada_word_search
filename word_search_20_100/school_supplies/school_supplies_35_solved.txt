@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  c  i  c  c  c  z  g  i  z  p  t  e  s  b  y  b  i  k  c |
+ 1| r  m  l  c  g  h  p  h  n  w  r  c  g  n  v  t  w  v  z  l |
+ 2| s  t  a  p  l  e  r  n  b  o  g  y  e  o  j  h  x  l  g  i |
+ 3| t  l  w  h  d  e  t  k  t  c  g  p  h  h  g  l  o  e  x  p |
+ 4| e  e  z  g  s  v  a  a  n  h  s  i  u  f  o  l  d  e  r  b |
+ 5| h  h  h  a  u  k  l  t  r  a  e  u  e  l  o  w  w  r  p  o |
+ 6| p  v  r  o  u  u  k  y  u  l  r  e  i  c  n  d  y  b  a  a |
+ 7| x  e  x  w  c  i  k  n  z  k  n  c  b  a  g  x  s  m  p  r |
+ 8| t  o  p  l  b  m  b  i  q  g  n  n  x  x  p  h  w  g  e  d |
+ 9| e  j  a  l  g  m  a  r  k  e  r  m  o  j  g  r  l  i  r  l |
+10| v  c  m  z  j  l  y  o  p  d  b  l  g  t  e  k  o  k  p  h |
+11| d  z  r  i  t  j  u  c  a  u  b  c  v  n  e  r  w  o  x  j |
+12| y  e  v  u  v  g  a  e  q  n  z  r  e  i  y  b  p  f  s  f |
+13| o  b  z  g  k  k  b  x  w  t  e  p  d  d  l  t  o  g  j  r |
+14| f  p  o  e  b  u  r  u  l  e  r  n  c  t  l  j  g  o  j  h |
+15| m  r  j  o  r  x  t  s  m  a  c  r  a  y  o  n  s  y  k  r |
+16| p  q  p  j  k  y  q  c  h  s  c  i  s  s  o  r  s  k  s  h |
+17| o  g  q  l  x  x  e  s  f  h  x  u  d  a  n  e  z  k  f  h |
+18| o  v  m  q  f  g  c  q  k  p  c  b  o  v  b  h  k  p  l  m |
+19| m  v  y  m  f  h  i  g  h  l  i  g  h  t  e  r  v  m  k  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+ruler: ((14, 6), (14, 10))
+marker: ((9, 5), (9, 10))
+chalk: ((3, 9), (7, 9))
+bag: ((7, 12), (7, 14))
+scissors: ((16, 9), (16, 16))
+paper: ((5, 18), (9, 18))
+stapler: ((2, 0), (2, 6))
+folder: ((4, 13), (4, 18))
+highlighter: ((19, 5), (19, 15))
+crayons: ((15, 10), (15, 16))
+clipboard: ((0, 19), (8, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+ruler: ((14, 6), (14, 10))
+marker: ((9, 5), (9, 10))
+chalk: ((3, 9), (7, 9))
+bag: ((7, 12), (7, 14))
+scissors: ((16, 9), (16, 16))
+paper: ((5, 18), (9, 18))
+stapler: ((2, 0), (2, 6))
+folder: ((4, 13), (4, 18))
+highlighter: ((19, 5), (19, 15))
+crayons: ((15, 10), (15, 16))
+clipboard: ((0, 19), (8, 19))
+
+Naïve Time taken: 0.0480 seconds
+Naïve Memory used: 0.00 MB

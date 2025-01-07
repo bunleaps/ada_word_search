@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| t  e  a  l  e  f  y  w  e  b |
+ 1| b  v  g  r  a  y  e  f  d  r |
+ 2| l  b  l  u  e  l  l  m  m  o |
+ 3| a  p  n  b  p  n  l  a  o  w |
+ 4| c  u  a  w  i  y  o  g  r  n |
+ 5| k  r  v  h  n  r  w  e  a  c |
+ 6| p  p  y  i  k  e  o  n  n  y |
+ 7| r  l  k  t  u  d  u  t  g  a |
+ 8| w  e  b  e  i  g  e  a  e  n |
+ 9| z  y  s  g  r  e  e  n  s  e |
+  +------------------------------+
+Dynamic Programming Solution:
+red: ((5, 5), (7, 5))
+blue: ((2, 1), (2, 4))
+green: ((9, 3), (9, 7))
+yellow: ((0, 6), (5, 6))
+purple: ((3, 1), (8, 1))
+orange: ((3, 8), (8, 8))
+pink: ((3, 4), (6, 4))
+black: ((1, 0), (5, 0))
+white: ((4, 3), (8, 3))
+gray: ((1, 2), (1, 5))
+brown: ((0, 9), (4, 9))
+cyan: ((5, 9), (8, 9))
+magenta: ((2, 7), (8, 7))
+navy: ((3, 2), (6, 2))
+teal: ((0, 0), (0, 3))
+beige: ((8, 2), (8, 6))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+red: ((5, 5), (7, 5))
+blue: ((2, 1), (2, 4))
+green: ((9, 3), (9, 7))
+yellow: ((0, 6), (5, 6))
+purple: ((3, 1), (8, 1))
+orange: ((3, 8), (8, 8))
+pink: ((3, 4), (6, 4))
+black: ((1, 0), (5, 0))
+white: ((4, 3), (8, 3))
+gray: ((1, 2), (1, 5))
+brown: ((0, 9), (4, 9))
+cyan: ((5, 9), (8, 9))
+magenta: ((2, 7), (8, 7))
+navy: ((3, 2), (6, 2))
+teal: ((0, 0), (0, 3))
+beige: ((8, 2), (8, 6))
+
+Naïve Time taken: 0.0095 seconds
+Naïve Memory used: 0.00 MB

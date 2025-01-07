@@ -1,0 +1,37 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| m  t  r  u  m  p  e  t  i  o |
+ 1| e  b  f  m  n  s  x  j  e  r |
+ 2| l  a  r  r  m  o  y  n  r  c |
+ 3| o  n  z  u  n  r  o  y  n  h |
+ 4| d  d  r  a  a  h  n  n  o  e |
+ 5| y  d  i  t  p  o  i  h  t  s |
+ 6| q  p  i  o  m  l  y  f  e  t |
+ 7| u  u  x  r  o  m  e  m  f  r |
+ 8| g  a  a  i  f  l  u  t  e  a |
+ 9| s  h  v  s  i  n  g  e  r  f |
+  +------------------------------+
+Dynamic Programming Solution:
+flute: ((8, 4), (8, 8))
+trumpet: ((0, 1), (0, 7))
+singer: ((9, 3), (9, 8))
+band: ((1, 1), (4, 1))
+orchestra: ((0, 9), (8, 9))
+melody: ((0, 0), (5, 0))
+note: ((3, 8), (6, 8))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+flute: ((8, 4), (8, 8))
+trumpet: ((0, 1), (0, 7))
+singer: ((9, 3), (9, 8))
+band: ((1, 1), (4, 1))
+orchestra: ((0, 9), (8, 9))
+melody: ((0, 0), (5, 0))
+note: ((3, 8), (6, 8))
+
+Naïve Time taken: 0.0100 seconds
+Naïve Memory used: 0.00 MB

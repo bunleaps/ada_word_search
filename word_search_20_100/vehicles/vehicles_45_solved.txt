@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| h  c  o  k  r  o  d  j  s  x  f  s  p  c  c  x  w  o  u  l |
+ 1| k  h  v  c  d  f  r  w  b  n  b  z  c  g  a  q  h  v  e  g |
+ 2| h  u  k  a  z  m  c  y  a  c  h  t  t  o  r  w  e  n  d  v |
+ 3| e  d  a  w  n  i  q  l  p  y  h  g  b  e  o  l  q  v  e  p |
+ 4| l  n  e  a  p  p  f  m  c  q  n  j  l  j  g  t  x  w  w  m |
+ 5| i  e  k  n  z  p  f  k  o  s  c  c  t  r  a  m  e  w  a  j |
+ 6| c  h  r  c  u  s  j  f  r  t  y  w  g  a  s  t  a  r  u  d |
+ 7| o  o  y  e  v  t  b  p  c  c  o  c  j  x  x  a  d  x  g  v |
+ 8| p  v  i  i  g  i  a  m  i  n  m  r  w  s  o  i  u  q  s  c |
+ 9| t  e  v  l  h  o  d  b  z  y  s  h  c  n  t  u  v  y  u  k |
+10| e  r  i  a  i  r  p  l  a  n  e  p  f  y  p  f  w  i  b  n |
+11| r  b  w  o  j  m  b  z  j  s  n  l  a  y  c  y  g  t  m  n |
+12| z  o  w  r  a  z  t  d  x  p  m  k  k  c  w  l  a  l  a  b |
+13| f  a  p  e  t  c  a  r  d  s  l  j  i  g  e  o  e  b  r  p |
+14| t  r  m  m  a  f  o  e  a  v  d  k  l  z  b  s  d  e  i  l |
+15| j  d  l  q  x  k  a  n  k  i  o  g  b  b  o  k  h  a  n  i |
+16| s  a  x  c  c  d  w  g  j  e  n  r  v  n  v  r  k  i  e  t |
+17| p  n  u  u  q  c  o  z  q  t  r  i  c  k  s  h  a  w  p  q |
+18| h  k  r  m  h  j  g  q  t  o  q  v  e  j  s  f  v  z  a  r |
+19| y  t  l  l  b  u  s  c  m  m  t  x  e  d  t  q  t  k  z  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+car: ((13, 5), (13, 7))
+bus: ((19, 4), (19, 6))
+airplane: ((10, 3), (10, 10))
+helicopter: ((2, 0), (11, 0))
+yacht: ((2, 7), (2, 11))
+submarine: ((8, 18), (16, 18))
+tram: ((5, 12), (5, 15))
+rickshaw: ((17, 10), (17, 17))
+hoverboard: ((6, 1), (15, 1))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+car: ((13, 5), (13, 7))
+bus: ((19, 4), (19, 6))
+airplane: ((10, 3), (10, 10))
+helicopter: ((2, 0), (11, 0))
+yacht: ((2, 7), (2, 11))
+submarine: ((8, 18), (16, 18))
+tram: ((5, 12), (5, 15))
+rickshaw: ((17, 10), (17, 17))
+hoverboard: ((6, 1), (15, 1))
+
+Naïve Time taken: 0.0503 seconds
+Naïve Memory used: 0.00 MB

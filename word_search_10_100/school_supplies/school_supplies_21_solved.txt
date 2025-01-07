@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| p  m  a  r  k  e  r  f  s  h |
+ 1| x  a  f  o  l  d  e  r  c  e |
+ 2| b  r  p  e  n  c  i  l  i  r |
+ 3| a  z  c  e  r  p  l  r  s  a |
+ 4| g  s  e  q  r  v  e  y  s  s |
+ 5| n  o  t  e  b  o  o  k  o  e |
+ 6| n  r  u  l  e  r  w  j  r  r |
+ 7| b  o  o  k  p  w  q  c  s  p |
+ 8| p  e  n  m  j  g  l  u  e  z |
+ 9| c  h  a  l  k  v  y  p  u  c |
+  +------------------------------+
+Dynamic Programming Solution:
+pencil: ((2, 2), (2, 7))
+pen: ((2, 2), (2, 4))
+notebook: ((5, 0), (5, 7))
+ruler: ((6, 1), (6, 5))
+eraser: ((1, 9), (6, 9))
+marker: ((0, 1), (0, 6))
+chalk: ((9, 0), (9, 4))
+book: ((5, 4), (5, 7))
+bag: ((2, 0), (4, 0))
+glue: ((8, 5), (8, 8))
+scissors: ((0, 8), (7, 8))
+folder: ((1, 2), (1, 7))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pencil: ((2, 2), (2, 7))
+pen: ((2, 2), (2, 4))
+notebook: ((5, 0), (5, 7))
+ruler: ((6, 1), (6, 5))
+eraser: ((1, 9), (6, 9))
+marker: ((0, 1), (0, 6))
+chalk: ((9, 0), (9, 4))
+book: ((5, 4), (5, 7))
+bag: ((2, 0), (4, 0))
+glue: ((8, 5), (8, 8))
+scissors: ((0, 8), (7, 8))
+folder: ((1, 2), (1, 7))
+
+Naïve Time taken: 0.0060 seconds
+Naïve Memory used: 0.00 MB

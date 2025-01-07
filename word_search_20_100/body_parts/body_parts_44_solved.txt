@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| y  u  c  f  a  k  b  e  s  v  y  o  k  m  s  x  f  n  a  o |
+ 1| s  d  n  f  b  j  n  d  h  q  z  x  t  s  i  d  z  y  n  v |
+ 2| s  o  b  r  a  i  n  r  o  p  j  e  e  c  d  e  w  h  s  u |
+ 3| q  l  y  k  w  e  q  m  u  d  a  e  b  n  o  e  y  d  d  a |
+ 4| q  l  t  h  e  a  r  t  l  x  y  j  a  v  z  m  a  z  c  c |
+ 5| c  r  j  e  e  x  i  g  d  e  s  h  r  p  r  e  o  u  z  r |
+ 6| b  t  s  i  s  k  i  n  e  w  x  k  a  a  h  b  a  c  k  k |
+ 7| i  o  v  x  f  o  o  t  r  g  v  q  n  x  q  d  w  j  l  s |
+ 8| n  y  c  l  t  m  b  l  w  t  q  v  d  e  b  u  u  p  k  h |
+ 9| p  k  z  j  v  z  s  e  n  x  x  t  b  n  e  y  d  g  l  q |
+10| m  y  w  n  p  d  r  b  z  v  m  x  v  m  m  n  w  m  b  u |
+11| x  t  y  r  g  g  g  c  d  r  d  y  g  m  c  x  b  f  c  n |
+12| n  s  e  k  s  h  w  r  a  w  y  q  p  k  z  s  o  f  n  d |
+13| b  f  t  e  w  n  b  e  m  z  g  q  i  b  p  d  g  o  e  b |
+14| z  d  o  o  t  r  b  z  m  e  b  z  l  e  m  q  r  o  c  a |
+15| q  s  y  b  m  h  f  v  l  f  i  n  g  e  r  o  t  t  k  j |
+16| l  w  p  s  u  a  r  s  x  q  p  c  o  e  t  a  u  v  s  w |
+17| v  z  m  r  v  f  c  f  v  m  r  t  x  b  n  s  o  t  f  l |
+18| x  l  c  h  e  s  t  h  m  y  k  q  j  s  n  f  b  z  h  m |
+19| i  p  l  f  q  q  k  l  i  b  h  k  d  b  n  f  n  v  z  i |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+foot: ((7, 4), (7, 7))
+ear: ((4, 4), (4, 6))
+back: ((6, 15), (6, 18))
+chest: ((18, 2), (18, 6))
+neck: ((12, 18), (15, 18))
+shoulder: ((0, 8), (7, 8))
+finger: ((15, 9), (15, 14))
+heart: ((4, 3), (4, 7))
+brain: ((2, 2), (2, 6))
+skin: ((6, 4), (6, 7))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+foot: ((7, 4), (7, 7))
+ear: ((4, 4), (4, 6))
+back: ((6, 15), (6, 18))
+chest: ((18, 2), (18, 6))
+neck: ((12, 18), (15, 18))
+shoulder: ((0, 8), (7, 8))
+finger: ((15, 9), (15, 14))
+heart: ((4, 3), (4, 7))
+brain: ((2, 2), (2, 6))
+skin: ((6, 4), (6, 7))
+
+Naïve Time taken: 0.0629 seconds
+Naïve Memory used: 0.00 MB

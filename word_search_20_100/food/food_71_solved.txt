@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| o  l  a  m  s  m  g  a  x  w  a  s  r  k  s  b  t  b  c  t |
+ 1| c  r  g  t  a  w  v  v  k  g  e  u  p  u  t  b  i  y  o  m |
+ 2| o  a  h  m  n  m  f  w  q  s  o  u  p  j  e  z  n  v  o  r |
+ 3| s  i  k  m  d  k  o  g  e  y  a  s  t  s  a  l  r  z  k  w |
+ 4| d  e  d  e  w  t  t  b  q  j  t  v  f  u  k  e  f  e  i  g |
+ 5| g  u  p  u  i  n  k  p  g  y  a  p  z  v  g  e  s  s  e  i |
+ 6| w  m  q  r  c  t  k  c  i  b  c  u  d  r  c  e  u  i  s  c |
+ 7| r  a  r  j  h  p  k  v  g  z  o  x  u  h  e  f  a  p  b  e |
+ 8| g  u  k  w  s  e  l  a  z  e  z  b  t  h  k  x  i  n  y  c |
+ 9| b  l  h  r  i  b  x  m  d  b  q  a  c  z  g  k  m  z  r  r |
+10| k  s  y  p  w  l  x  t  c  u  r  r  y  m  j  j  d  u  m  e |
+11| v  c  h  o  c  o  l  a  t  e  x  c  w  v  l  f  v  v  j  a |
+12| w  a  v  n  z  i  s  u  s  h  i  r  j  t  u  d  q  s  h  m |
+13| g  a  b  o  h  a  o  e  c  d  p  t  i  f  e  n  q  a  d  t |
+14| q  f  b  o  n  p  z  k  a  f  x  m  y  c  y  l  v  l  a  m |
+15| c  m  f  d  z  w  a  a  i  l  i  l  f  n  e  k  o  a  q  b |
+16| k  l  a  l  x  h  l  g  o  d  d  s  e  u  w  v  q  d  g  u |
+17| z  v  h  e  y  e  p  a  c  q  z  b  r  e  a  d  h  n  n  c |
+18| c  g  n  s  b  k  s  p  o  e  z  u  p  a  s  t  a  h  b  f |
+19| k  e  g  n  f  y  u  s  v  q  o  i  c  j  i  b  e  x  g  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pasta: ((18, 12), (18, 16))
+sandwich: ((0, 4), (7, 4))
+salad: ((12, 17), (16, 17))
+soup: ((2, 9), (2, 12))
+steak: ((0, 14), (4, 14))
+sushi: ((12, 6), (12, 10))
+noodles: ((12, 3), (18, 3))
+taco: ((4, 10), (7, 10))
+curry: ((10, 8), (10, 12))
+bread: ((17, 11), (17, 15))
+chocolate: ((11, 1), (11, 9))
+icecream: ((5, 19), (12, 19))
+cookies: ((0, 18), (6, 18))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pasta: ((18, 12), (18, 16))
+sandwich: ((0, 4), (7, 4))
+salad: ((12, 17), (16, 17))
+soup: ((2, 9), (2, 12))
+steak: ((0, 14), (4, 14))
+sushi: ((12, 6), (12, 10))
+noodles: ((12, 3), (18, 3))
+taco: ((4, 10), (7, 10))
+curry: ((10, 8), (10, 12))
+bread: ((17, 11), (17, 15))
+chocolate: ((11, 1), (11, 9))
+icecream: ((5, 19), (12, 19))
+cookies: ((0, 18), (6, 18))
+
+Naïve Time taken: 0.0601 seconds
+Naïve Memory used: 0.00 MB

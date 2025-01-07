@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| z  o  l  w  u  i  v  c  n  d  a  o  p  u  n  q  k  t  l  h |
+ 1| l  s  b  e  d  w  r  r  f  u  w  v  r  i  z  p  x  u  y  g |
+ 2| a  e  a  p  t  i  g  d  o  r  r  y  s  c  n  e  r  l  k  u |
+ 3| t  t  m  z  o  o  n  n  j  s  g  j  g  j  h  e  y  i  q  d |
+ 4| z  k  b  s  l  c  y  q  z  k  e  w  l  r  n  i  t  p  b  v |
+ 5| m  k  o  h  v  i  h  f  h  d  y  m  e  w  a  u  d  v  r  o |
+ 6| o  m  o  o  y  d  c  h  m  m  r  n  d  a  j  s  a  m  v  p |
+ 7| w  t  z  m  j  d  h  h  v  a  i  o  g  b  l  k  s  t  n  r |
+ 8| x  p  g  p  n  e  e  t  u  v  p  n  x  q  n  t  m  z  p  k |
+ 9| m  u  z  r  a  l  i  l  y  j  x  l  c  a  c  t  u  s  l  n |
+10| s  f  e  j  d  v  f  c  i  p  h  y  e  b  m  q  o  b  t  n |
+11| v  f  m  n  w  t  t  j  g  a  a  u  q  d  h  q  a  u  f  i |
+12| x  s  a  o  t  k  r  i  o  t  f  l  x  u  s  t  k  o  m  o |
+13| u  e  h  t  s  p  e  a  z  c  d  s  m  r  n  c  y  z  o  j |
+14| z  f  g  r  w  s  e  x  p  c  g  a  e  e  n  l  j  c  a  t |
+15| y  a  n  h  u  w  w  v  k  o  j  w  i  x  r  i  o  t  x  r |
+16| o  e  x  p  d  b  w  t  d  b  o  q  y  s  d  a  k  v  d  l |
+17| b  z  b  n  r  g  r  b  s  l  p  v  e  v  y  w  b  e  l  l |
+18| o  h  i  a  u  p  e  e  f  w  i  r  k  v  s  g  c  y  f  l |
+19| h  p  m  h  o  n  s  u  n  f  l  o  w  e  r  q  u  a  w  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tree: ((11, 6), (14, 6))
+flower: ((19, 9), (19, 14))
+cactus: ((9, 12), (9, 17))
+bamboo: ((1, 2), (6, 2))
+oak: ((10, 16), (12, 16))
+tulip: ((0, 17), (4, 17))
+sunflower: ((19, 6), (19, 14))
+lily: ((9, 5), (9, 8))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((11, 6), (14, 6))
+flower: ((19, 9), (19, 14))
+cactus: ((9, 12), (9, 17))
+bamboo: ((1, 2), (6, 2))
+oak: ((10, 16), (12, 16))
+tulip: ((0, 17), (4, 17))
+sunflower: ((19, 6), (19, 14))
+lily: ((9, 5), (9, 8))
+
+Naïve Time taken: 0.0674 seconds
+Naïve Memory used: 0.00 MB

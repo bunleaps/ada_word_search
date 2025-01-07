@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  e  h  z  l  y  s  o  g  k  t  e  a  l  x  e  a  l  k  u |
+ 1| k  b  d  k  b  b  s  k  s  m  j  n  o  u  e  d  x  f  m  p |
+ 2| y  q  e  m  l  l  a  q  t  w  a  g  r  g  a  q  v  m  l  y |
+ 3| n  p  s  d  l  p  u  w  r  y  q  j  a  o  g  p  o  d  s  g |
+ 4| z  i  j  m  y  h  u  e  c  x  b  f  n  b  r  z  e  s  t  o |
+ 5| b  w  j  d  a  b  k  r  l  c  e  e  g  d  e  r  z  i  k  l |
+ 6| l  a  b  s  n  r  p  q  p  p  i  t  e  m  e  f  m  l  n  d |
+ 7| q  g  x  w  m  q  o  u  e  l  g  t  g  i  n  i  a  v  p  x |
+ 8| s  a  o  w  r  y  d  o  b  q  e  a  j  z  x  k  g  e  v  b |
+ 9| j  r  o  d  r  h  e  w  n  p  b  k  p  j  w  h  e  r  v  t |
+10| b  s  g  a  m  f  p  l  j  e  c  f  h  q  j  o  n  q  f  b |
+11| z  l  x  y  d  j  d  t  l  a  c  n  u  u  k  o  t  a  l  r |
+12| b  g  x  u  d  m  e  d  l  o  s  y  a  a  y  z  a  c  b  f |
+13| g  c  e  s  l  e  u  b  z  r  w  o  v  v  z  k  s  p  b  z |
+14| o  l  p  j  t  u  k  v  p  f  h  g  a  m  u  p  y  i  z  n |
+15| l  w  e  i  i  v  o  s  t  q  m  n  j  o  x  a  m  n  w  t |
+16| i  h  h  d  q  d  k  f  o  g  g  e  m  r  r  k  i  k  t  p |
+17| v  w  e  v  n  v  f  t  c  s  p  d  d  g  t  n  f  r  y  e |
+18| e  r  f  t  r  a  y  w  c  x  e  s  x  l  q  b  r  s  r  j |
+19| k  b  v  j  e  x  y  p  j  d  k  f  b  o  d  t  t  t  y  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+red: ((5, 15), (5, 13))
+green: ((3, 14), (7, 14))
+orange: ((1, 12), (6, 12))
+pink: ((13, 17), (16, 17))
+magenta: ((6, 16), (12, 16))
+teal: ((0, 10), (0, 13))
+gold: ((3, 19), (6, 19))
+silver: ((4, 17), (9, 17))
+beige: ((4, 10), (8, 10))
+olive: ((14, 0), (18, 0))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+red: ((5, 15), (5, 13))
+green: ((3, 14), (7, 14))
+orange: ((1, 12), (6, 12))
+pink: ((13, 17), (16, 17))
+magenta: ((6, 16), (12, 16))
+teal: ((0, 10), (0, 13))
+gold: ((3, 19), (6, 19))
+silver: ((4, 17), (9, 17))
+beige: ((4, 10), (8, 10))
+olive: ((14, 0), (18, 0))
+
+Naïve Time taken: 0.0784 seconds
+Naïve Memory used: 0.00 MB

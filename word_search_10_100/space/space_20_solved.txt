@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| v  p  r  o  c  k  e  t  m  s |
+ 1| t  e  l  e  s  c  o  p  e  a |
+ 2| u  p  k  a  o  r  b  i  t  t |
+ 3| a  l  i  e  n  s  f  i  e  e |
+ 4| w  s  c  o  m  e  t  n  o  l |
+ 5| s  t  a  r  o  j  t  y  r  l |
+ 6| g  b  b  s  h  m  o  o  n  i |
+ 7| z  n  e  b  u  l  a  r  l  t |
+ 8| a  s  t  e  r  o  i  d  k  e |
+ 9| g  a  l  a  x  y  s  q  b  p |
+  +------------------------------+
+Dynamic Programming Solution:
+star: ((5, 0), (5, 3))
+galaxy: ((9, 0), (9, 5))
+moon: ((6, 5), (6, 8))
+asteroid: ((8, 0), (8, 7))
+comet: ((4, 2), (4, 6))
+nebula: ((7, 1), (7, 6))
+satellite: ((0, 9), (8, 9))
+telescope: ((1, 0), (1, 8))
+rocket: ((0, 2), (0, 7))
+orbit: ((2, 4), (2, 8))
+meteor: ((0, 8), (5, 8))
+aliens: ((3, 0), (3, 5))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+star: ((5, 0), (5, 3))
+galaxy: ((9, 0), (9, 5))
+moon: ((6, 5), (6, 8))
+asteroid: ((8, 0), (8, 7))
+comet: ((4, 2), (4, 6))
+nebula: ((7, 1), (7, 6))
+satellite: ((0, 9), (8, 9))
+telescope: ((1, 0), (1, 8))
+rocket: ((0, 2), (0, 7))
+orbit: ((2, 4), (2, 8))
+meteor: ((0, 8), (5, 8))
+aliens: ((3, 0), (3, 5))
+
+Naïve Time taken: 0.0040 seconds
+Naïve Memory used: 0.00 MB

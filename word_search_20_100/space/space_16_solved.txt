@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| d  o  m  q  v  m  w  u  r  r  z  p  i  i  w  m  d  k  d  g |
+ 1| c  p  e  u  d  u  s  a  s  q  q  p  z  s  f  q  t  n  i  a |
+ 2| o  l  t  y  s  w  w  r  x  m  p  l  g  t  s  q  n  f  h  d |
+ 3| n  f  e  b  f  a  j  l  s  k  t  o  g  a  x  q  w  x  s  g |
+ 4| s  n  o  q  b  s  t  a  i  u  r  t  b  r  l  w  v  z  s  b |
+ 5| t  c  r  t  a  s  l  e  a  g  u  o  q  l  s  a  d  l  p  l |
+ 6| e  k  o  c  e  u  b  n  l  u  h  q  c  j  u  j  x  t  a  a |
+ 7| l  d  z  m  b  l  o  a  v  l  t  t  g  k  t  c  q  y  c  c |
+ 8| l  a  x  e  e  r  e  u  s  u  i  f  y  i  e  k  f  x  e  k |
+ 9| a  o  n  d  t  t  r  s  n  t  r  t  e  e  s  t  s  v  c  h |
+10| t  z  k  s  e  o  t  p  c  i  e  d  e  v  a  u  z  o  r  o |
+11| i  c  a  a  w  i  r  n  r  o  v  r  e  m  z  r  e  s  a  l |
+12| o  p  k  g  b  m  s  c  x  v  p  e  o  x  c  k  d  m  f  e |
+13| n  e  n  r  r  v  f  r  y  v  r  e  r  i  k  h  s  o  t  w |
+14| s  a  o  h  n  y  e  r  q  p  e  a  w  s  d  j  m  o  n  p |
+15| e  o  x  o  n  z  t  h  i  u  j  p  i  u  e  l  j  n  j  x |
+16| b  r  p  a  q  l  f  e  w  d  x  u  p  y  k  x  h  d  u  e |
+17| v  x  i  v  t  k  a  s  o  l  a  r  h  s  y  s  t  e  m  t |
+18| w  v  g  f  a  l  i  e  n  s  r  q  b  e  k  d  x  f  i  q |
+19| k  r  n  g  v  i  x  p  l  a  n  e  t  v  v  s  t  i  j  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+planet: ((19, 7), (19, 12))
+star: ((1, 13), (4, 13))
+moon: ((12, 17), (15, 17))
+blackhole: ((4, 19), (12, 19))
+spacecraft: ((4, 18), (13, 18))
+meteor: ((0, 2), (5, 2))
+constellation: ((1, 0), (13, 0))
+aliens: ((18, 4), (18, 9))
+
+DP Time taken: 0.0015 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((19, 7), (19, 12))
+star: ((1, 13), (4, 13))
+moon: ((12, 17), (15, 17))
+blackhole: ((4, 19), (12, 19))
+spacecraft: ((4, 18), (13, 18))
+meteor: ((0, 2), (5, 2))
+constellation: ((1, 0), (13, 0))
+aliens: ((18, 4), (18, 9))
+
+Naïve Time taken: 0.0677 seconds
+Naïve Memory used: 0.00 MB

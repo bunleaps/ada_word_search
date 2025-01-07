@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| m  a  r  a  t  h  o  n  n  u  s  k  i  i  n  g  x  t  v  b |
+ 1| b  z  k  j  b  v  o  f  k  s  u  r  f  i  n  g  x  v  q  c |
+ 2| b  s  v  r  z  r  m  f  v  r  u  g  b  y  r  g  p  a  b  k |
+ 3| u  a  r  o  e  z  b  v  d  u  a  l  g  n  n  m  p  y  c  f |
+ 4| s  a  s  d  l  a  k  u  k  v  r  n  r  i  x  c  m  g  j  j |
+ 5| n  v  e  e  d  l  c  y  o  a  i  g  l  o  g  g  n  x  w  f |
+ 6| o  y  i  o  b  e  e  g  p  m  r  t  t  n  w  i  o  h  u  s |
+ 7| w  m  i  t  b  a  n  y  m  c  s  a  i  s  l  i  k  l  z  k |
+ 8| b  z  z  g  e  i  l  i  b  e  c  c  t  c  d  r  n  m  f  a |
+ 9| o  a  x  d  x  n  w  l  r  a  n  l  y  e  c  z  i  g  g  t |
+10| a  h  s  o  n  s  n  w  j  e  l  c  a  h  o  c  k  e  y  i |
+11| r  n  b  k  d  f  v  i  f  m  f  l  g  s  k  s  r  c  h  n |
+12| d  d  t  w  e  m  a  k  s  n  p  n  j  j  o  g  o  y  z  g |
+13| i  i  g  r  z  t  x  f  n  h  i  b  u  g  j  c  r  n  j  h |
+14| n  v  n  c  d  v  b  q  g  l  h  d  d  j  o  e  c  n  p  z |
+15| g  i  b  f  z  y  o  a  i  w  k  v  o  b  h  o  b  e  m  y |
+16| c  n  m  t  o  j  o  a  l  c  r  z  k  c  y  g  m  k  r  n |
+17| v  g  i  q  o  n  s  h  w  l  n  z  r  x  m  e  e  q  k  l |
+18| z  v  a  n  x  x  f  e  j  v  s  a  c  r  i  c  k  e  t  e |
+19| s  t  d  g  y  m  n  a  s  t  i  c  s  r  k  o  v  o  z  x |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+cricket: ((18, 12), (18, 18))
+hockey: ((10, 13), (10, 18))
+rugby: ((2, 9), (2, 13))
+skating: ((6, 19), (12, 19))
+surfing: ((1, 9), (1, 15))
+gymnastics: ((19, 3), (19, 12))
+judo: ((12, 12), (15, 12))
+marathon: ((0, 0), (0, 7))
+diving: ((12, 1), (17, 1))
+skiing: ((0, 10), (0, 15))
+snowboarding: ((4, 0), (15, 0))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+cricket: ((18, 12), (18, 18))
+hockey: ((10, 13), (10, 18))
+rugby: ((2, 9), (2, 13))
+skating: ((6, 19), (12, 19))
+surfing: ((1, 9), (1, 15))
+gymnastics: ((19, 3), (19, 12))
+judo: ((12, 12), (15, 12))
+marathon: ((0, 0), (0, 7))
+diving: ((12, 1), (17, 1))
+skiing: ((0, 10), (0, 15))
+snowboarding: ((4, 0), (15, 0))
+
+Naïve Time taken: 0.0777 seconds
+Naïve Memory used: 0.00 MB

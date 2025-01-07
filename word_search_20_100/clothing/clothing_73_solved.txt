@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| o  q  w  d  y  u  y  u  h  f  v  d  q  b  f  w  k  m  h  v |
+ 1| g  r  a  o  w  e  e  p  w  h  d  z  w  w  w  b  t  k  s  s |
+ 2| i  h  q  t  x  i  s  w  e  a  t  e  r  k  m  q  c  p  i  r |
+ 3| d  m  p  x  t  s  u  b  n  i  c  t  h  r  z  s  o  v  n  t |
+ 4| h  p  x  v  w  r  k  j  w  f  q  t  g  a  t  b  a  o  r  e |
+ 5| k  z  k  d  y  j  o  i  j  k  i  y  n  n  t  q  t  s  k  p |
+ 6| n  q  q  s  s  a  n  v  r  o  j  e  a  n  s  s  c  x  l  i |
+ 7| j  v  h  q  g  c  d  v  a  t  e  p  g  p  b  e  w  v  m  c |
+ 8| m  b  x  o  j  k  f  r  f  m  r  f  i  d  a  m  v  l  u  n |
+ 9| a  e  s  o  z  e  p  i  e  k  b  q  b  k  j  u  a  x  b  u |
+10| g  q  h  y  d  t  t  o  p  s  m  e  r  u  e  e  t  n  q  j |
+11| d  u  i  c  p  s  m  u  r  r  s  t  l  c  i  o  x  b  g  g |
+12| e  w  r  f  k  c  g  l  o  v  e  s  w  t  k  c  n  v  p  e |
+13| e  r  t  j  k  g  z  f  w  s  j  o  n  n  v  h  s  d  k  s |
+14| e  h  k  z  g  r  i  c  p  o  k  g  b  t  e  a  j  z  s  v |
+15| c  z  e  n  b  n  d  q  s  c  g  b  z  t  m  f  j  m  h  v |
+16| x  u  f  c  u  u  h  s  u  k  z  x  m  a  r  m  f  x  o  x |
+17| s  n  e  a  k  e  r  s  f  s  q  v  j  a  v  l  i  v  e  z |
+18| j  x  h  o  p  h  e  r  c  a  r  a  c  b  o  o  t  s  s  w |
+19| i  v  y  i  w  b  a  q  t  a  p  s  l  t  q  x  c  d  h  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+shirt: ((9, 2), (13, 2))
+jacket: ((5, 5), (10, 5))
+coat: ((2, 16), (5, 16))
+sweater: ((2, 6), (2, 12))
+shoes: ((14, 18), (18, 18))
+socks: ((13, 9), (17, 9))
+gloves: ((12, 6), (12, 11))
+jeans: ((6, 10), (6, 14))
+sneakers: ((17, 0), (17, 7))
+boots: ((18, 13), (18, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+shirt: ((9, 2), (13, 2))
+jacket: ((5, 5), (10, 5))
+coat: ((2, 16), (5, 16))
+sweater: ((2, 6), (2, 12))
+shoes: ((14, 18), (18, 18))
+socks: ((13, 9), (17, 9))
+gloves: ((12, 6), (12, 11))
+jeans: ((6, 10), (6, 14))
+sneakers: ((17, 0), (17, 7))
+boots: ((18, 13), (18, 17))
+
+Naïve Time taken: 0.0575 seconds
+Naïve Memory used: 0.00 MB

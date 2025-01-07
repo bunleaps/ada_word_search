@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| k  r  s  j  e  i  c  l  k  i  x  v  y  g  a  j  x  p  c  y |
+ 1| q  e  j  q  t  c  z  i  x  d  s  t  x  v  u  r  h  v  k  u |
+ 2| y  s  j  b  w  i  o  e  o  h  n  l  m  c  k  n  t  j  h  i |
+ 3| s  t  w  n  m  i  z  n  c  p  i  e  a  o  t  c  t  b  y  f |
+ 4| p  a  r  e  g  n  e  a  t  f  c  t  h  n  y  v  x  h  x  e |
+ 5| h  u  j  i  n  q  e  c  t  i  e  b  f  b  d  p  c  s  r  a |
+ 6| p  r  y  c  v  b  e  d  n  e  n  f  y  l  l  a  h  q  o  x |
+ 7| p  a  d  e  s  e  r  t  r  c  h  e  e  o  r  r  u  z  a  k |
+ 8| q  n  v  l  m  k  r  t  y  c  r  g  n  p  c  k  r  j  d  k |
+ 9| p  t  d  n  j  l  s  r  h  r  a  g  l  t  m  p  c  g  e  l |
+10| s  n  y  s  s  w  t  l  a  l  u  d  c  u  d  e  h  i  a  q |
+11| z  t  t  p  c  n  a  x  l  y  u  u  e  i  g  f  p  m  p  l |
+12| l  l  q  d  u  t  f  i  z  k  e  s  s  n  t  b  h  t  l  g |
+13| i  q  h  o  i  m  v  i  e  o  u  h  i  a  n  y  s  x  u  v |
+14| f  z  c  p  t  b  b  f  f  m  m  a  j  k  w  e  q  i  l  g |
+15| z  b  s  l  a  o  u  l  t  p  t  v  j  n  r  v  g  h  k  a |
+16| o  o  n  r  s  a  w  u  y  n  z  z  f  o  h  s  t  e  e  o |
+17| h  o  y  a  f  n  p  n  u  m  q  n  f  t  z  v  z  g  a  h |
+18| k  l  k  e  q  q  p  o  l  a  k  e  x  m  z  r  u  q  g  k |
+19| t  f  b  y  u  j  m  o  z  o  p  n  s  c  h  o  o  l  u  v |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+park: ((5, 15), (8, 15))
+lake: ((18, 8), (18, 11))
+desert: ((7, 2), (7, 7))
+road: ((5, 18), (8, 18))
+school: ((19, 12), (19, 17))
+church: ((5, 16), (10, 16))
+restaurant: ((0, 1), (9, 1))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+park: ((5, 15), (8, 15))
+lake: ((18, 8), (18, 11))
+desert: ((7, 2), (7, 7))
+road: ((5, 18), (8, 18))
+school: ((19, 12), (19, 17))
+church: ((5, 16), (10, 16))
+restaurant: ((0, 1), (9, 1))
+
+Naïve Time taken: 0.0727 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,45 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| t  r  a  i  n  z  b  a  l  f |
+ 1| r  x  n  t  j  p  i  i  a  x |
+ 2| a  j  k  s  q  w  c  r  b  e |
+ 3| m  b  u  s  m  d  y  p  o  y |
+ 4| j  i  h  f  j  z  c  l  a  a |
+ 5| c  x  v  v  a  n  l  a  t  c |
+ 6| t  r  u  c  k  x  e  n  u  h |
+ 7| q  i  r  q  l  w  h  e  a  t |
+ 8| a  a  x  t  a  x  i  t  v  w |
+ 9| c  d  s  c  o  o  t  e  r  o |
+  +------------------------------+
+Dynamic Programming Solution:
+truck: ((6, 0), (6, 4))
+van: ((5, 3), (5, 5))
+bicycle: ((0, 6), (6, 6))
+scooter: ((9, 2), (9, 8))
+bus: ((3, 1), (3, 3))
+train: ((0, 0), (0, 4))
+airplane: ((0, 7), (7, 7))
+boat: ((2, 8), (5, 8))
+yacht: ((3, 9), (7, 9))
+tram: ((0, 0), (3, 0))
+taxi: ((8, 3), (8, 6))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+truck: ((6, 0), (6, 4))
+van: ((5, 3), (5, 5))
+bicycle: ((0, 6), (6, 6))
+scooter: ((9, 2), (9, 8))
+bus: ((3, 1), (3, 3))
+train: ((0, 0), (0, 4))
+airplane: ((0, 7), (7, 7))
+boat: ((2, 8), (5, 8))
+yacht: ((3, 9), (7, 9))
+tram: ((0, 0), (3, 0))
+taxi: ((8, 3), (8, 6))
+
+Naïve Time taken: 0.0113 seconds
+Naïve Memory used: 0.00 MB

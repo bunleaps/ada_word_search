@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| q  g  h  q  e  a  z  r  y  b  j  d  q  z  x  c  q  c  y  c |
+ 1| c  h  a  r  d  w  a  r  e  k  p  j  q  r  x  l  d  w  f  o |
+ 2| c  o  z  u  l  v  a  a  h  p  g  s  a  d  v  o  r  r  v  m |
+ 3| p  b  d  c  p  n  e  q  o  l  k  e  k  z  v  u  o  j  r  p |
+ 4| d  c  i  i  j  d  m  v  y  u  f  r  w  o  b  d  n  A  I  u |
+ 5| g  j  v  t  n  k  x  k  h  l  o  m  u  i  e  w  e  q  r  t |
+ 6| a  c  v  t  a  g  l  u  g  t  l  z  b  n  z  z  l  e  o  e |
+ 7| e  m  z  q  x  b  q  c  i  h  h  f  j  u  e  k  u  t  b  r |
+ 8| i  o  x  h  q  r  l  n  f  x  j  o  u  c  a  m  e  r  a  v |
+ 9| u  n  o  h  v  j  o  e  e  s  d  i  y  r  x  r  s  k  y  t |
+10| n  e  t  c  k  m  q  t  t  r  v  r  f  m  q  o  o  z  f  d |
+11| e  t  q  o  p  y  e  b  a  m  p  a  k  g  n  b  f  m  i  q |
+12| t  w  x  g  x  n  x  o  m  z  b  q  i  r  a  o  t  p  a  i |
+13| r  o  h  t  r  l  b  a  p  s  m  m  i  t  z  t  w  t  f  d |
+14| r  r  v  e  v  y  l  e  a  t  b  o  a  f  k  n  a  k  s  q |
+15| z  k  t  e  e  u  n  o  o  h  a  d  u  t  s  d  r  a  w  r |
+16| k  n  a  k  p  p  i  p  e  t  c  i  h  s  y  p  e  w  w  t |
+17| i  j  p  r  i  n  t  e  r  p  j  u  z  l  e  c  k  w  w  r |
+18| s  a  t  e  l  l  i  t  e  x  f  m  r  l  c  h  i  p  d  e |
+19| a  t  h  s  m  a  r  t  p  h  o  n  e  x  s  h  x  s  d  t |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+computer: ((0, 19), (7, 19))
+smartphone: ((19, 3), (19, 12))
+software: ((9, 16), (16, 16))
+hardware: ((1, 1), (1, 8))
+printer: ((17, 2), (17, 8))
+camera: ((8, 13), (8, 18))
+drone: ((1, 16), (5, 16))
+AI: ((4, 17), (4, 18))
+cloud: ((0, 15), (4, 15))
+network: ((9, 1), (15, 1))
+robot: ((9, 15), (13, 15))
+chip: ((18, 14), (18, 17))
+satellite: ((18, 0), (18, 8))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+computer: ((0, 19), (7, 19))
+smartphone: ((19, 3), (19, 12))
+software: ((9, 16), (16, 16))
+hardware: ((1, 1), (1, 8))
+printer: ((17, 2), (17, 8))
+camera: ((8, 13), (8, 18))
+drone: ((1, 16), (5, 16))
+AI: ((4, 17), (4, 18))
+cloud: ((0, 15), (4, 15))
+network: ((9, 1), (15, 1))
+robot: ((9, 15), (13, 15))
+chip: ((18, 14), (18, 17))
+satellite: ((18, 0), (18, 8))
+
+Naïve Time taken: 0.0545 seconds
+Naïve Memory used: 0.00 MB

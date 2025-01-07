@@ -1,0 +1,73 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| z  h  c  c  b  w  o  n  q  i  l  y  b  y  e  j  k  d  r  m |
+ 1| e  o  n  r  u  o  f  a  m  s  h  a  r  k  r  b  o  h  z  i |
+ 2| b  n  z  o  t  l  s  z  v  u  o  q  f  i  s  h  h  l  w  s |
+ 3| r  e  d  c  t  f  c  n  f  a  v  u  u  b  w  u  e  r  k  m |
+ 4| a  y  i  o  e  a  m  n  a  e  m  e  l  j  i  l  q  g  a  l |
+ 5| b  b  i  d  r  o  b  y  r  k  b  p  k  y  a  n  w  p  n  b |
+ 6| i  e  l  i  f  r  y  i  f  i  e  r  h  h  u  q  n  a  g  e |
+ 7| r  e  s  l  l  i  o  n  s  n  o  k  w  i  l  h  c  f  a  a |
+ 8| d  w  k  e  y  z  m  a  m  m  a  l  c  p  b  w  x  f  r  r |
+ 9| j  m  o  n  k  y  c  j  z  e  a  g  l  e  a  i  r  g  o  r |
+10| c  y  c  g  i  r  a  f  f  e  b  y  z  u  q  n  a  g  o  h |
+11| r  e  p  t  i  l  e  d  x  y  k  t  n  z  t  a  d  n  j  i |
+12| f  p  a  p  a  r  r  o  t  j  n  s  p  n  a  z  n  a  s  n |
+13| n  k  j  i  e  i  v  l  t  u  u  q  a  s  w  l  r  t  t  o |
+14| f  k  l  x  l  f  p  k  u  p  r  h  l  h  o  n  h  b  h  c |
+15| z  f  d  i  k  m  x  m  o  e  p  s  i  n  s  e  c  t  v  e |
+16| b  r  g  h  b  q  g  t  g  e  h  j  k  j  g  j  d  k  e  r |
+17| d  o  t  o  i  d  c  i  l  t  j  h  o  p  g  q  s  u  v  o |
+18| u  g  p  i  l  o  t  e  m  j  z  f  r  l  b  w  u  q  t  s |
+19| d  a  h  a  e  d  o  l  p  h  i  n  k  e  p  p  q  x  a  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+mammal: ((8, 6), (8, 11))
+reptile: ((11, 0), (11, 6))
+bird: ((5, 0), (8, 0))
+fish: ((2, 12), (2, 15))
+insect: ((15, 12), (15, 17))
+lion: ((7, 4), (7, 7))
+giraffe: ((10, 3), (10, 9))
+crocodile: ((0, 3), (8, 3))
+frog: ((15, 1), (18, 1))
+parrot: ((12, 3), (12, 8))
+dolphin: ((19, 5), (19, 11))
+eagle: ((9, 9), (9, 13))
+bear: ((5, 19), (8, 19))
+wolf: ((0, 5), (3, 5))
+kangaroo: ((3, 18), (10, 18))
+rhinoceros: ((9, 19), (18, 19))
+zebra: ((0, 0), (4, 0))
+butterfly: ((0, 4), (8, 4))
+honeybee: ((0, 1), (7, 1))
+shark: ((1, 9), (1, 13))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+mammal: ((8, 6), (8, 11))
+reptile: ((11, 0), (11, 6))
+bird: ((5, 0), (8, 0))
+fish: ((2, 12), (2, 15))
+insect: ((15, 12), (15, 17))
+lion: ((7, 4), (7, 7))
+giraffe: ((10, 3), (10, 9))
+crocodile: ((0, 3), (8, 3))
+frog: ((15, 1), (18, 1))
+parrot: ((12, 3), (12, 8))
+dolphin: ((19, 5), (19, 11))
+eagle: ((9, 9), (9, 13))
+bear: ((5, 19), (8, 19))
+wolf: ((0, 5), (3, 5))
+kangaroo: ((3, 18), (10, 18))
+rhinoceros: ((9, 19), (18, 19))
+zebra: ((0, 0), (4, 0))
+butterfly: ((0, 4), (8, 4))
+honeybee: ((0, 1), (7, 1))
+shark: ((1, 9), (1, 13))
+
+Naïve Time taken: 0.0650 seconds
+Naïve Memory used: 0.00 MB

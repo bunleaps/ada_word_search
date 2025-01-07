@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| q  n  u  c  l  h  e  a  d  p  h  o  n  e  s  j  l  n  q  q |
+ 1| r  o  y  w  d  w  h  i  s  e  d  a  h  a  b  a  n  d  a  s |
+ 2| p  h  y  f  j  l  l  t  x  a  e  j  y  i  a  n  s  l  u  j |
+ 3| m  g  w  f  b  k  o  u  l  n  x  c  o  n  c  e  r  t  l  e |
+ 4| e  d  x  y  f  y  j  e  o  x  b  o  v  s  b  y  s  w  j  s |
+ 5| l  x  j  s  f  j  j  h  e  t  y  u  p  q  c  h  o  r  d  l |
+ 6| o  y  n  q  q  s  p  t  v  n  e  u  e  h  h  s  k  c  u  s |
+ 7| d  a  z  m  m  o  o  y  o  z  c  b  a  v  o  i  t  r  s  e |
+ 8| y  u  y  u  r  s  k  m  u  h  y  l  b  n  z  n  a  g  r  p |
+ 9| j  p  r  c  q  t  r  l  c  a  a  e  y  w  h  t  e  l  g  m |
+10| s  d  i  r  m  a  j  h  k  v  p  l  v  r  i  i  e  i  a  j |
+11| i  m  q  h  h  f  h  a  e  b  p  g  b  u  i  t  a  r  c  a |
+12| n  v  z  k  w  i  l  y  k  k  i  a  g  u  o  c  t  s  e  u |
+13| g  i  r  y  i  x  t  u  a  k  a  b  u  n  m  s  s  u  s  f |
+14| e  o  a  g  v  u  m  i  t  s  n  t  i  h  e  i  j  j  n  k |
+15| r  l  l  q  v  o  p  f  i  e  o  t  n  h  b  h  v  s  b  b |
+16| o  i  x  o  a  f  l  m  z  x  s  r  c  e  o  k  u  j  q  v |
+17| e  n  y  e  k  r  h  y  t  h  m  r  j  l  k  b  f  f  z  q |
+18| t  r  u  m  p  e  t  k  m  v  o  l  w  e  c  d  l  e  o  n |
+19| s  y  x  x  f  a  f  o  z  v  n  e  y  m  f  s  u  s  o  n |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+piano: ((11, 10), (15, 10))
+violin: ((12, 1), (17, 1))
+trumpet: ((18, 0), (18, 6))
+singer: ((10, 0), (15, 0))
+band: ((1, 14), (1, 17))
+melody: ((3, 0), (8, 0))
+rhythm: ((17, 5), (17, 10))
+chord: ((5, 14), (5, 18))
+concert: ((3, 11), (3, 17))
+headphones: ((0, 5), (0, 14))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+piano: ((11, 10), (15, 10))
+violin: ((12, 1), (17, 1))
+trumpet: ((18, 0), (18, 6))
+singer: ((10, 0), (15, 0))
+band: ((1, 14), (1, 17))
+melody: ((3, 0), (8, 0))
+rhythm: ((17, 5), (17, 10))
+chord: ((5, 14), (5, 18))
+concert: ((3, 11), (3, 17))
+headphones: ((0, 5), (0, 14))
+
+Naïve Time taken: 0.0544 seconds
+Naïve Memory used: 0.00 MB

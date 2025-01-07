@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  z  k  f  h  o  b  z  x  s  c  s  u  d  k  h  s  a  z  p |
+ 1| i  z  i  r  w  x  e  f  p  g  a  u  l  r  m  y  q  l  v  e |
+ 2| y  q  w  o  u  k  x  f  o  o  t  e  a  y  x  i  i  u  t  v |
+ 3| h  i  e  m  h  e  h  z  n  u  e  e  u  o  p  k  s  w  r  a |
+ 4| i  n  e  c  k  e  u  g  j  n  c  b  f  l  n  n  n  r  u  x |
+ 5| b  a  d  z  b  j  a  r  k  s  y  s  i  d  h  h  s  d  x  w |
+ 6| o  j  w  g  l  x  w  r  q  u  e  b  n  b  s  g  i  h  l  t |
+ 7| y  s  t  o  m  a  c  h  t  b  b  x  g  e  r  m  m  g  q  k |
+ 8| p  s  y  q  l  j  l  n  h  w  d  a  e  g  w  a  r  n  j  m |
+ 9| a  l  x  s  r  l  k  t  e  j  a  s  r  q  e  a  i  k  z  c |
+10| i  e  p  s  p  a  h  n  a  o  c  y  k  d  g  i  r  n  u  h |
+11| f  g  v  e  y  e  n  j  d  g  r  n  n  i  o  e  r  m  d  e |
+12| m  i  f  o  s  u  b  m  s  e  u  a  d  r  n  x  k  i  g  s |
+13| r  a  h  m  x  n  y  h  d  l  h  g  m  m  x  g  i  b  q  t |
+14| h  s  s  z  x  a  o  l  w  x  q  l  o  d  s  e  t  w  r  l |
+15| w  z  n  m  z  b  u  n  c  v  o  y  u  j  t  z  p  o  e  x |
+16| i  o  n  t  w  o  a  v  s  s  c  c  t  k  a  y  e  c  e  o |
+17| g  i  a  f  h  o  s  c  k  r  h  l  h  b  k  s  r  v  j  m |
+18| u  m  d  s  d  z  x  k  k  i  b  h  c  t  o  x  z  y  y  i |
+19| j  f  l  t  e  e  t  h  e  t  k  x  c  n  y  c  k  c  n  s |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+head: ((8, 8), (11, 8))
+foot: ((2, 7), (2, 10))
+leg: ((9, 1), (11, 1))
+eye: ((11, 3), (11, 5))
+mouth: ((13, 12), (17, 12))
+stomach: ((7, 1), (7, 7))
+chest: ((9, 19), (13, 19))
+neck: ((4, 1), (4, 4))
+finger: ((4, 12), (9, 12))
+teeth: ((19, 3), (19, 7))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+head: ((8, 8), (11, 8))
+foot: ((2, 7), (2, 10))
+leg: ((9, 1), (11, 1))
+eye: ((11, 3), (11, 5))
+mouth: ((13, 12), (17, 12))
+stomach: ((7, 1), (7, 7))
+chest: ((9, 19), (13, 19))
+neck: ((4, 1), (4, 4))
+finger: ((4, 12), (9, 12))
+teeth: ((19, 3), (19, 7))
+
+Naïve Time taken: 0.0665 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| j  a  k  d  o  u  q  s  h  a  v  m  z  p  z  g  i  p  d  m |
+ 1| x  s  l  v  g  l  f  t  q  s  m  c  o  m  e  t  p  u  q  f |
+ 2| t  p  s  i  p  w  d  e  j  t  l  u  s  h  r  o  n  q  n  r |
+ 3| d  a  o  g  e  p  d  l  p  e  b  k  m  a  t  o  e  s  f  c |
+ 4| y  c  l  a  z  n  y  e  n  r  m  t  t  u  o  m  n  g  u  o |
+ 5| p  e  a  l  k  n  s  s  z  o  p  s  a  m  t  k  l  i  n  n |
+ 6| l  c  r  a  n  k  s  c  n  i  d  n  d  e  s  m  a  w  i  s |
+ 7| i  r  b  x  s  v  r  o  j  d  o  t  n  r  d  c  k  l  v  t |
+ 8| g  a  s  y  h  m  t  p  h  r  u  a  j  s  v  o  m  g  e  e |
+ 9| h  f  y  d  c  o  c  e  t  e  l  e  b  t  u  r  h  p  r  l |
+10| t  t  s  i  a  s  l  s  i  p  s  f  j  j  f  e  d  o  s  l |
+11| y  l  t  q  x  a  a  r  f  b  l  a  c  k  h  o  l  e  e  a |
+12| e  x  e  w  z  t  i  o  l  r  n  w  m  q  t  r  w  o  v  t |
+13| a  y  m  j  u  e  d  c  z  i  e  w  a  s  p  z  c  x  x  i |
+14| r  t  n  h  p  l  c  k  n  g  b  u  x  k  o  a  h  m  h  o |
+15| y  g  w  w  p  l  z  e  s  b  u  c  v  k  r  r  l  t  r  n |
+16| i  q  h  h  b  i  a  t  m  d  l  s  f  o  u  l  i  f  e  m |
+17| n  h  p  d  d  t  h  o  t  e  a  k  h  i  s  b  h  i  v  n |
+18| n  i  t  s  x  e  r  g  p  o  a  x  r  k  r  c  p  t  t  d |
+19| y  u  z  g  h  f  m  e  t  e  o  r  d  o  r  v  e  r  g  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+galaxy: ((3, 3), (8, 3))
+asteroid: ((0, 9), (7, 9))
+comet: ((1, 11), (1, 15))
+nebula: ((12, 10), (17, 10))
+blackhole: ((11, 9), (11, 17))
+satellite: ((10, 5), (18, 5))
+telescope: ((1, 7), (9, 7))
+rocket: ((11, 7), (16, 7))
+spacecraft: ((1, 1), (10, 1))
+universe: ((4, 18), (11, 18))
+meteor: ((19, 6), (19, 11))
+lightyear: ((6, 0), (14, 0))
+constellation: ((3, 19), (15, 19))
+
+DP Time taken: 0.0390 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+galaxy: ((3, 3), (8, 3))
+asteroid: ((0, 9), (7, 9))
+comet: ((1, 11), (1, 15))
+nebula: ((12, 10), (17, 10))
+blackhole: ((11, 9), (11, 17))
+satellite: ((10, 5), (18, 5))
+telescope: ((1, 7), (9, 7))
+rocket: ((11, 7), (16, 7))
+spacecraft: ((1, 1), (10, 1))
+universe: ((4, 18), (11, 18))
+meteor: ((19, 6), (19, 11))
+lightyear: ((6, 0), (14, 0))
+constellation: ((3, 19), (15, 19))
+
+Naïve Time taken: 0.0705 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  a  w  z  k  t  d  m  o  y  m  i  j  a  j  y  r  g  y  l |
+ 1| p  s  n  o  y  e  r  b  i  m  r  s  m  u  i  j  d  y  x  y |
+ 2| x  n  h  g  b  m  k  u  m  m  c  v  v  z  x  g  d  e  v  i |
+ 3| h  r  f  k  c  v  h  o  m  i  l  n  r  s  u  p  x  s  h  k |
+ 4| e  e  o  w  c  u  n  m  r  p  o  r  c  h  e  s  t  r  a  c |
+ 5| a  t  m  t  m  a  u  y  f  i  e  x  z  r  w  y  o  f  d  j |
+ 6| d  f  e  m  i  b  l  m  a  x  b  t  t  i  h  c  a  r  j  t |
+ 7| p  m  l  p  l  h  j  i  c  c  o  n  c  e  r  t  o  y  y  f |
+ 8| h  i  o  a  m  t  f  u  h  e  w  u  o  s  m  h  r  q  x  i |
+ 9| o  c  d  e  t  s  t  o  k  n  a  j  t  u  c  m  r  t  c  e |
+10| n  r  y  j  h  l  w  a  a  r  n  y  f  r  h  y  t  h  m  d |
+11| e  o  k  u  f  m  t  c  v  i  o  l  i  n  d  w  v  e  n  k |
+12| s  p  r  r  y  l  s  v  u  g  u  i  t  a  r  y  n  p  z  r |
+13| b  h  g  k  d  j  u  k  f  b  q  f  m  s  k  o  j  l  b  b |
+14| a  o  i  t  b  r  j  t  n  w  o  i  n  k  h  d  d  p  h  b |
+15| o  n  f  q  b  a  u  e  e  s  a  z  l  p  j  j  a  d  z  f |
+16| t  e  w  l  f  x  n  m  h  a  r  m  o  n  y  w  o  o  f  v |
+17| n  n  b  x  a  d  m  d  s  x  n  x  c  s  i  n  g  e  r  v |
+18| a  e  w  f  x  d  f  q  s  g  a  c  y  v  m  c  a  h  f  l |
+19| p  n  o  t  e  d  n  n  x  s  s  j  e  h  k  q  k  y  p  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((12, 9), (12, 14))
+violin: ((11, 8), (11, 13))
+singer: ((17, 13), (17, 18))
+orchestra: ((4, 10), (4, 18))
+melody: ((5, 2), (10, 2))
+harmony: ((16, 8), (16, 14))
+rhythm: ((10, 13), (10, 18))
+note: ((19, 1), (19, 4))
+concert: ((7, 9), (7, 15))
+microphone: ((7, 1), (16, 1))
+headphones: ((3, 0), (12, 0))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((12, 9), (12, 14))
+violin: ((11, 8), (11, 13))
+singer: ((17, 13), (17, 18))
+orchestra: ((4, 10), (4, 18))
+melody: ((5, 2), (10, 2))
+harmony: ((16, 8), (16, 14))
+rhythm: ((10, 13), (10, 18))
+note: ((19, 1), (19, 4))
+concert: ((7, 9), (7, 15))
+microphone: ((7, 1), (16, 1))
+headphones: ((3, 0), (12, 0))
+
+Naïve Time taken: 0.0765 seconds
+Naïve Memory used: 0.00 MB

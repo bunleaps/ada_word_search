@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| r  l  x  v  f  m  m  u  s  e  u  m  q  x  q  r  m  u  f  k |
+ 1| a  b  t  u  m  u  y  k  f  n  e  r  v  x  a  k  k  j  h  m |
+ 2| p  c  o  u  n  t  r  y  z  d  b  h  m  t  n  f  t  l  i  p |
+ 3| c  u  k  v  l  p  a  r  k  u  e  n  a  k  w  o  u  r  l  b |
+ 4| l  k  o  d  x  m  n  p  g  s  o  s  n  i  f  r  o  u  y  m |
+ 5| r  y  w  i  f  f  m  u  m  c  l  r  e  v  b  e  r  e  g  b |
+ 6| m  i  s  l  a  n  d  f  x  n  m  y  g  r  y  s  a  w  k  e |
+ 7| o  a  h  p  x  g  g  w  m  f  n  b  t  t  t  t  r  t  o  a |
+ 8| p  t  a  s  c  h  o  o  l  y  t  h  i  y  t  e  l  i  x  c |
+ 9| z  w  c  b  a  h  i  t  i  a  y  c  u  n  g  n  g  a  b  h |
+10| z  u  o  d  m  a  s  e  t  o  w  n  i  a  x  j  n  b  h  j |
+11| v  z  n  s  i  o  u  g  b  k  k  u  l  x  n  o  t  g  o  u |
+12| e  m  t  b  s  f  u  j  f  u  h  l  a  r  i  v  e  r  s  q |
+13| g  w  i  a  c  s  r  n  f  a  i  h  h  o  d  s  v  u  p  b |
+14| q  u  n  z  e  s  t  z  t  v  l  c  h  u  r  c  h  y  i  r |
+15| c  f  e  h  o  l  l  r  f  a  o  h  v  w  z  q  m  d  t  x |
+16| x  x  n  q  n  d  a  r  e  i  i  z  d  l  p  g  l  c  a  l |
+17| g  m  t  j  a  o  f  k  s  e  q  n  q  l  j  h  a  y  l  c |
+18| o  x  r  o  k  g  h  l  e  p  t  a  z  n  n  e  b  a  h  d |
+19| y  v  r  r  e  s  t  a  u  r  a  n  t  v  u  i  c  a  l  y |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+town: ((10, 8), (10, 11))
+park: ((3, 5), (3, 8))
+beach: ((5, 19), (9, 19))
+river: ((12, 13), (12, 17))
+forest: ((2, 15), (7, 15))
+island: ((6, 1), (6, 6))
+country: ((2, 1), (2, 7))
+continent: ((9, 2), (17, 2))
+school: ((8, 3), (8, 8))
+hospital: ((10, 18), (17, 18))
+museum: ((0, 6), (0, 11))
+church: ((14, 11), (14, 16))
+restaurant: ((19, 3), (19, 12))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+town: ((10, 8), (10, 11))
+park: ((3, 5), (3, 8))
+beach: ((5, 19), (9, 19))
+river: ((12, 13), (12, 17))
+forest: ((2, 15), (7, 15))
+island: ((6, 1), (6, 6))
+country: ((2, 1), (2, 7))
+continent: ((9, 2), (17, 2))
+school: ((8, 3), (8, 8))
+hospital: ((10, 18), (17, 18))
+museum: ((0, 6), (0, 11))
+church: ((14, 11), (14, 16))
+restaurant: ((19, 3), (19, 12))
+
+Naïve Time taken: 0.0506 seconds
+Naïve Memory used: 0.00 MB

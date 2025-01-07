@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| v  r  u  v  p  t  a  c  f  c |
+ 1| c  p  b  d  r  r  c  o  y  z |
+ 2| i  o  v  i  e  a  t  m  k  e |
+ 3| n  p  i  r  m  i  r  e  s  s |
+ 4| e  c  l  e  i  l  e  d  c  e |
+ 5| m  o  l  c  e  e  s  y  r  q |
+ 6| a  r  a  t  r  r  s  o  i  u |
+ 7| l  n  i  o  e  a  t  s  p  e |
+ 8| g  e  n  r  e  c  p  t  t  l |
+ 9| d  r  a  m  a  h  e  r  o  s |
+  +------------------------------+
+Dynamic Programming Solution:
+actress: ((0, 6), (6, 6))
+director: ((1, 3), (8, 3))
+cinema: ((1, 0), (6, 0))
+script: ((3, 8), (8, 8))
+popcorn: ((1, 1), (7, 1))
+trailer: ((0, 5), (6, 5))
+sequel: ((3, 9), (8, 9))
+premiere: ((0, 4), (7, 4))
+villain: ((2, 2), (8, 2))
+hero: ((9, 5), (9, 8))
+comedy: ((0, 7), (5, 7))
+drama: ((9, 0), (9, 4))
+genre: ((8, 0), (8, 4))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+actress: ((0, 6), (6, 6))
+director: ((1, 3), (8, 3))
+cinema: ((1, 0), (6, 0))
+script: ((3, 8), (8, 8))
+popcorn: ((1, 1), (7, 1))
+trailer: ((0, 5), (6, 5))
+sequel: ((3, 9), (8, 9))
+premiere: ((0, 4), (7, 4))
+villain: ((2, 2), (8, 2))
+hero: ((9, 5), (9, 8))
+comedy: ((0, 7), (5, 7))
+drama: ((9, 0), (9, 4))
+genre: ((8, 0), (8, 4))
+
+Naïve Time taken: 0.0121 seconds
+Naïve Memory used: 0.00 MB

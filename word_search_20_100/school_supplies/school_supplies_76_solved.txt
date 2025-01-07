@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  c  g  s  c  r  p  i  g  c  g  l  u  e  d  f  y  l  s  v |
+ 1| f  q  f  t  c  l  n  f  r  f  k  r  h  h  m  n  l  l  j  k |
+ 2| f  n  s  o  u  i  i  e  i  r  x  u  u  i  p  g  f  q  m  r |
+ 3| g  h  k  t  h  a  s  p  y  h  v  l  u  g  d  b  l  s  h  u |
+ 4| l  z  x  s  a  i  p  s  b  i  k  e  o  h  i  r  t  g  y  z |
+ 5| n  x  z  h  c  p  y  o  o  o  g  r  i  l  x  e  p  g  b  i |
+ 6| o  w  a  a  y  c  l  t  h  r  a  x  h  i  k  u  v  o  j  l |
+ 7| t  f  k  r  x  s  i  e  v  z  s  r  v  g  n  g  a  w  r  q |
+ 8| e  e  t  p  q  x  c  m  r  x  c  i  d  h  j  f  n  e  z  k |
+ 9| b  r  z  e  f  y  a  v  l  q  i  y  x  t  t  y  p  x  q  l |
+10| o  a  s  n  b  a  l  v  s  b  d  u  y  e  t  a  n  n  f  w |
+11| o  s  q  e  r  k  c  j  m  a  r  k  e  r  p  v  e  d  m  y |
+12| k  e  j  r  l  m  u  v  y  v  l  w  x  a  t  p  w  r  h  b |
+13| o  r  j  a  k  j  l  a  f  w  y  m  m  y  k  j  y  e  r  m |
+14| o  y  h  f  s  g  a  b  a  g  j  y  d  o  h  a  v  f  r  p |
+15| t  c  s  b  b  i  t  h  g  l  l  m  o  k  w  m  h  i  x  m |
+16| v  l  c  c  i  x  o  h  k  n  k  b  h  f  o  l  d  e  r  o |
+17| a  p  l  v  x  v  r  g  a  b  d  v  m  t  j  h  j  i  h  h |
+18| e  i  u  y  b  b  m  p  e  n  c  i  l  u  t  t  v  p  m  r |
+19| t  q  m  c  r  a  y  o  n  s  q  s  j  x  l  a  l  i  g  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pencil: ((18, 7), (18, 12))
+pen: ((18, 7), (18, 9))
+notebook: ((5, 0), (12, 0))
+ruler: ((1, 11), (5, 11))
+eraser: ((8, 1), (13, 1))
+marker: ((11, 8), (11, 13))
+book: ((9, 0), (12, 0))
+bag: ((14, 7), (14, 9))
+glue: ((0, 10), (0, 13))
+calculator: ((8, 6), (17, 6))
+sharpener: ((4, 3), (12, 3))
+folder: ((16, 13), (16, 18))
+highlighter: ((1, 13), (11, 13))
+crayons: ((19, 3), (19, 9))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pencil: ((18, 7), (18, 12))
+pen: ((18, 7), (18, 9))
+notebook: ((5, 0), (12, 0))
+ruler: ((1, 11), (5, 11))
+eraser: ((8, 1), (13, 1))
+marker: ((11, 8), (11, 13))
+book: ((9, 0), (12, 0))
+bag: ((14, 7), (14, 5))
+glue: ((0, 10), (0, 13))
+calculator: ((8, 6), (17, 6))
+sharpener: ((4, 3), (12, 3))
+folder: ((16, 13), (16, 18))
+highlighter: ((1, 13), (11, 13))
+crayons: ((19, 3), (19, 9))
+
+Naïve Time taken: 0.0442 seconds
+Naïve Memory used: 0.00 MB

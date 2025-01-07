@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| x  b  t  e  s  v  r  e  l  c  h  u  r  c  h  u  c  i  a  h |
+ 1| i  j  e  u  k  k  x  o  s  j  r  f  o  r  e  s  t  u  o  v |
+ 2| i  v  u  y  r  u  p  c  o  u  n  t  r  y  v  t  e  l  r  j |
+ 3| k  b  i  a  t  k  m  q  y  m  z  h  g  z  j  t  a  k  i  z |
+ 4| a  q  p  u  p  r  u  y  f  d  e  e  v  j  e  t  h  e  v  b |
+ 5| l  r  f  g  e  z  s  i  f  s  c  m  l  e  i  y  h  k  q  r |
+ 6| q  f  v  v  u  j  e  r  f  i  x  d  r  p  k  q  g  z  k  m |
+ 7| v  e  i  v  u  t  u  c  b  r  z  t  s  s  e  h  q  a  c  i |
+ 8| v  r  a  k  r  o  m  o  z  h  s  o  h  g  r  n  i  x  k  d |
+ 9| l  k  o  b  p  w  i  n  g  m  h  n  a  g  r  f  n  w  i  e |
+10| r  u  g  k  p  n  a  t  x  b  g  l  n  s  y  o  r  a  s  s |
+11| t  w  s  j  c  x  l  i  c  e  l  v  l  k  m  g  a  b  l  e |
+12| d  m  q  m  e  j  j  n  k  i  w  j  j  q  k  g  e  d  a  r |
+13| v  l  k  p  b  m  m  e  v  f  l  e  o  p  v  n  r  w  n  t |
+14| w  j  a  c  o  e  p  n  r  f  z  g  l  o  n  m  h  m  d  g |
+15| k  u  u  k  n  p  a  t  m  o  u  n  t  a  i  n  g  m  p  x |
+16| r  c  n  c  e  r  u  c  r  s  c  h  o  o  l  g  q  i  h  j |
+17| n  t  s  n  v  w  h  n  h  d  e  d  j  m  a  r  r  c  i  z |
+18| v  y  z  o  c  r  e  s  t  a  u  r  a  n  t  o  v  d  i  c |
+19| j  c  a  i  h  b  e  t  c  i  t  y  n  f  d  e  b  s  c  o |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+city: ((19, 8), (19, 11))
+town: ((7, 5), (10, 5))
+mountain: ((15, 8), (15, 15))
+forest: ((1, 11), (1, 16))
+desert: ((8, 19), (13, 19))
+island: ((9, 18), (14, 18))
+country: ((2, 7), (2, 13))
+continent: ((7, 7), (15, 7))
+school: ((16, 9), (16, 14))
+museum: ((3, 6), (8, 6))
+church: ((0, 9), (0, 14))
+restaurant: ((18, 5), (18, 14))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((19, 8), (19, 11))
+town: ((7, 5), (10, 5))
+mountain: ((15, 8), (15, 15))
+forest: ((1, 11), (1, 16))
+desert: ((8, 19), (13, 19))
+island: ((9, 18), (14, 18))
+country: ((2, 7), (2, 13))
+continent: ((7, 7), (15, 7))
+school: ((16, 9), (16, 14))
+museum: ((3, 6), (8, 6))
+church: ((0, 9), (0, 14))
+restaurant: ((18, 5), (18, 14))
+
+Naïve Time taken: 0.0606 seconds
+Naïve Memory used: 0.00 MB

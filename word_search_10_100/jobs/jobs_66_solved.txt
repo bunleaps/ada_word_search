@@ -1,0 +1,35 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| p  i  l  o  t  d  m  m  u  z |
+ 1| e  n  g  i  n  e  e  r  p  u |
+ 2| t  i  w  l  n  h  g  w  o  g |
+ 3| d  e  t  w  a  u  d  g  l  a |
+ 4| w  o  a  c  r  w  r  f  i  r |
+ 5| r  s  c  c  h  i  y  s  c  t |
+ 6| x  c  l  t  h  e  t  e  e  i |
+ 7| i  t  c  l  o  e  f  e  r  s |
+ 8| f  a  r  m  e  r  r  f  r  t |
+ 9| j  m  u  s  i  c  i  a  n  z |
+  +------------------------------+
+Dynamic Programming Solution:
+engineer: ((1, 0), (1, 7))
+pilot: ((0, 0), (0, 4))
+artist: ((3, 9), (8, 9))
+musician: ((9, 1), (9, 8))
+police: ((1, 8), (6, 8))
+farmer: ((8, 0), (8, 5))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+engineer: ((1, 0), (1, 7))
+pilot: ((0, 0), (0, 4))
+artist: ((3, 9), (8, 9))
+musician: ((9, 1), (9, 8))
+police: ((1, 8), (6, 8))
+farmer: ((8, 0), (8, 5))
+
+Naïve Time taken: 0.0070 seconds
+Naïve Memory used: 0.00 MB

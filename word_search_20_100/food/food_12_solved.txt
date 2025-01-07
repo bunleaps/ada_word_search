@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| m  o  z  w  z  l  o  r  j  s  u  i  r  i  e  s  a  z  q  d |
+ 1| t  s  h  o  v  y  s  i  j  e  l  s  t  e  a  k  b  c  w  k |
+ 2| y  a  w  d  z  i  g  c  s  v  z  r  i  d  w  q  r  a  b  q |
+ 3| i  u  c  p  c  m  o  e  f  u  n  r  a  o  c  y  b  k  e  b |
+ 4| k  c  x  o  m  r  l  n  n  t  e  l  z  h  y  g  t  e  a  l |
+ 5| v  g  e  n  h  d  f  o  u  g  a  j  s  u  j  x  b  t  t  d |
+ 6| q  c  v  c  o  k  u  e  r  s  a  m  n  q  j  g  s  x  f  v |
+ 7| r  h  t  o  r  s  y  u  l  r  i  c  t  h  i  a  j  g  p  c |
+ 8| y  o  n  z  s  e  b  x  l  r  s  n  j  b  p  z  v  o  t  l |
+ 9| y  c  l  v  a  i  a  c  o  o  k  i  e  s  r  d  l  m  h  e |
+10| b  o  a  q  n  a  p  m  h  w  n  s  h  o  z  e  z  k  s  o |
+11| a  l  x  x  d  c  x  j  o  d  j  w  d  o  x  q  a  e  o  c |
+12| l  a  n  f  w  d  n  e  z  d  m  r  r  o  a  z  a  d  u  y |
+13| a  t  t  v  i  u  i  e  m  l  z  m  p  f  r  i  i  m  p  v |
+14| x  e  w  o  c  k  t  e  l  c  c  m  a  i  z  c  c  b  x  f |
+15| i  i  o  k  h  v  s  a  z  z  s  z  i  j  e  f  u  b  k  p |
+16| e  d  d  c  t  e  b  q  m  x  z  l  b  p  c  p  r  n  n  w |
+17| v  n  l  o  e  y  z  y  u  i  v  e  g  o  u  x  r  v  m  b |
+18| w  i  o  h  u  x  q  w  p  b  u  r  r  i  t  o  y  j  q  h |
+19| k  f  c  q  s  u  s  h  i  m  o  g  s  a  k  t  h  k  z  i |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+sandwich: ((8, 4), (15, 4))
+soup: ((10, 18), (13, 18))
+steak: ((1, 11), (1, 15))
+sushi: ((19, 4), (19, 8))
+rice: ((0, 7), (3, 7))
+burrito: ((18, 9), (18, 15))
+curry: ((14, 16), (18, 16))
+chocolate: ((6, 1), (14, 1))
+cake: ((1, 17), (4, 17))
+cookies: ((9, 7), (9, 13))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+sandwich: ((8, 4), (15, 4))
+soup: ((10, 18), (13, 18))
+steak: ((1, 11), (1, 15))
+sushi: ((19, 4), (19, 8))
+rice: ((0, 7), (3, 7))
+burrito: ((18, 9), (18, 15))
+curry: ((14, 16), (18, 16))
+chocolate: ((6, 1), (14, 1))
+cake: ((1, 17), (4, 17))
+cookies: ((9, 7), (9, 13))
+
+Naïve Time taken: 0.0650 seconds
+Naïve Memory used: 0.00 MB

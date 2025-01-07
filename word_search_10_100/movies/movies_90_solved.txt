@@ -1,0 +1,41 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| p  r  e  m  i  e  r  e  o  z |
+ 1| d  c  o  m  e  d  y  n  t  c |
+ 2| v  i  d  a  h  e  r  o  r  v |
+ 3| i  n  r  x  c  o  p  t  a  s |
+ 4| l  e  s  e  c  t  p  a  i  e |
+ 5| l  m  y  p  c  i  o  c  l  q |
+ 6| a  a  o  u  r  t  u  r  e  u |
+ 7| i  p  v  c  h  i  o  v  r  e |
+ 8| n  m  s  i  a  w  a  r  d  l |
+ 9| g  u  a  c  t  r  e  s  s  n |
+  +------------------------------+
+Dynamic Programming Solution:
+actress: ((9, 2), (9, 8))
+cinema: ((1, 1), (6, 1))
+trailer: ((1, 8), (7, 8))
+sequel: ((3, 9), (8, 9))
+premiere: ((0, 0), (0, 7))
+villain: ((2, 0), (8, 0))
+hero: ((2, 4), (2, 7))
+comedy: ((1, 1), (1, 6))
+award: ((8, 4), (8, 8))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+actress: ((9, 2), (9, 8))
+cinema: ((1, 1), (6, 1))
+trailer: ((1, 8), (7, 8))
+sequel: ((3, 9), (8, 9))
+premiere: ((0, 0), (0, 7))
+villain: ((2, 0), (8, 0))
+hero: ((2, 4), (2, 7))
+comedy: ((1, 1), (1, 6))
+award: ((8, 4), (8, 8))
+
+Naïve Time taken: 0.0100 seconds
+Naïve Memory used: 0.00 MB

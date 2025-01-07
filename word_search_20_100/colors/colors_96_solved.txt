@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| t  c  b  y  i  m  b  p  g  r  e  e  n  a  f  n  b  i  r  a |
+ 1| m  a  g  e  n  t  a  y  g  q  s  v  n  t  v  h  p  e  e  h |
+ 2| v  z  r  l  y  a  p  s  c  k  k  s  q  i  t  n  g  y  c  o |
+ 3| t  q  o  l  x  e  v  c  u  s  c  z  t  t  g  i  j  w  n  s |
+ 4| c  e  b  o  p  n  g  y  n  o  w  f  k  t  e  g  s  o  w  y |
+ 5| x  l  k  w  a  o  l  c  t  w  k  p  t  b  z  t  o  m  r  j |
+ 6| y  d  t  y  x  r  h  i  u  n  i  w  u  k  w  r  l  e  k  y |
+ 7| b  j  c  o  o  a  k  y  i  b  q  d  n  r  a  u  i  g  v  x |
+ 8| e  d  t  f  x  n  e  b  h  o  r  i  b  m  p  n  v  y  t  b |
+ 9| q  z  y  m  d  g  v  o  a  u  p  x  g  r  o  l  e  e  w  a |
+10| e  v  d  t  y  e  s  x  x  x  o  s  s  g  o  c  e  l  v  i |
+11| q  e  h  g  b  k  w  c  w  r  m  u  n  l  f  w  l  u  p  a |
+12| k  t  m  n  l  n  n  f  h  q  o  p  s  r  e  q  n  d  k  c |
+13| u  s  c  c  a  z  x  h  i  x  p  v  e  o  j  g  g  g  f  n |
+14| h  b  r  p  c  b  p  l  t  p  r  v  q  k  w  u  r  z  m  g |
+15| g  t  l  q  k  x  q  n  e  z  l  w  j  t  i  s  i  a  l  f |
+16| g  o  q  u  o  y  h  o  e  i  l  c  k  e  a  t  p  b  y  t |
+17| m  a  l  v  e  y  h  k  s  k  x  v  q  a  f  b  o  a  i  w |
+18| b  a  x  d  q  i  y  k  v  c  s  p  g  l  y  s  o  a  d  d |
+19| s  n  c  d  s  j  b  r  h  r  e  d  d  d  f  k  w  p  g  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+red: ((19, 9), (19, 11))
+green: ((0, 8), (0, 12))
+yellow: ((0, 3), (5, 3))
+orange: ((5, 5), (10, 5))
+black: ((11, 4), (15, 4))
+white: ((11, 8), (15, 8))
+magenta: ((1, 0), (1, 6))
+teal: ((15, 13), (18, 13))
+olive: ((5, 16), (9, 16))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+red: ((19, 9), (19, 11))
+green: ((0, 8), (0, 12))
+yellow: ((0, 3), (5, 3))
+orange: ((5, 5), (10, 5))
+black: ((11, 4), (15, 4))
+white: ((11, 8), (15, 8))
+magenta: ((1, 0), (1, 6))
+teal: ((15, 13), (18, 13))
+olive: ((5, 16), (9, 16))
+
+Naïve Time taken: 0.0797 seconds
+Naïve Memory used: 0.00 MB

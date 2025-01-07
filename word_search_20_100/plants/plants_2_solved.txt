@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| i  x  t  x  f  l  p  r  s  r  p  k  e  d  y  e  z  q  l  d |
+ 1| b  v  f  n  m  g  n  d  v  j  z  x  k  w  h  h  c  g  r  p |
+ 2| b  m  j  b  y  d  m  a  n  h  w  e  j  v  q  r  j  j  t  j |
+ 3| i  o  m  m  a  k  t  g  z  c  e  v  v  v  b  o  s  s  o  v |
+ 4| w  s  w  b  a  e  u  w  t  r  a  e  c  s  a  p  w  y  n  b |
+ 5| i  s  r  d  c  p  x  o  t  d  b  x  b  o  k  s  s  j  l  z |
+ 6| k  r  z  w  m  d  l  i  a  s  x  f  e  r  n  i  s  p  l  f |
+ 7| q  d  t  v  m  s  h  e  s  k  i  v  z  l  a  j  k  i  n  g |
+ 8| f  e  n  p  q  n  u  a  s  g  b  w  k  d  c  x  z  n  a  c |
+ 9| k  n  d  j  o  l  r  n  j  l  b  k  d  f  p  w  o  e  c  a |
+10| w  e  u  h  j  g  i  l  f  e  t  v  z  c  m  f  d  k  t  c |
+11| m  s  h  r  u  b  b  l  r  l  n  r  g  e  y  l  l  u  q  t |
+12| j  d  q  n  t  l  d  b  y  k  o  f  y  v  n  o  r  y  i  u |
+13| c  e  e  o  l  u  e  c  c  w  y  w  i  w  t  w  o  m  x  s |
+14| k  o  q  e  r  r  l  i  a  l  r  j  e  n  j  e  s  w  v  b |
+15| k  o  n  q  w  c  q  i  b  o  i  n  m  r  y  r  e  i  n  n |
+16| t  i  q  j  h  a  h  m  p  n  w  q  c  g  x  c  s  c  r  s |
+17| v  l  g  d  b  l  y  i  p  k  n  i  u  p  p  a  l  m  j  n |
+18| c  y  x  c  k  b  y  m  d  f  w  w  o  i  p  w  z  q  y  d |
+19| m  r  b  a  m  b  o  o  z  c  m  d  s  w  s  p  y  f  o  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+flower: ((10, 15), (15, 15))
+shrub: ((11, 1), (11, 5))
+fern: ((6, 11), (6, 14))
+moss: ((2, 1), (5, 1))
+cactus: ((8, 19), (13, 19))
+bamboo: ((19, 2), (19, 7))
+pine: ((6, 17), (9, 17))
+rose: ((12, 16), (15, 16))
+palm: ((17, 14), (17, 17))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+flower: ((10, 15), (15, 15))
+shrub: ((11, 1), (11, 5))
+fern: ((6, 11), (6, 14))
+moss: ((2, 1), (5, 1))
+cactus: ((8, 19), (13, 19))
+bamboo: ((19, 2), (19, 7))
+pine: ((6, 17), (9, 17))
+rose: ((12, 16), (15, 16))
+palm: ((17, 14), (17, 17))
+
+Naïve Time taken: 0.0700 seconds
+Naïve Memory used: 0.00 MB

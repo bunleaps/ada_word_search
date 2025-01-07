@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| v  n  o  t  e  b  o  o  k  i  n  x  c  f  m  k  m  l  f  p |
+ 1| s  c  r  a  y  o  n  s  t  m  a  r  k  e  r  l  h  y  h  x |
+ 2| d  y  c  s  h  a  r  p  e  n  e  r  y  e  n  g  x  h  i  w |
+ 3| s  r  l  t  i  x  f  g  n  m  v  k  s  o  l  a  u  m  g  u |
+ 4| t  a  i  z  j  i  a  t  w  i  p  a  f  c  j  p  h  z  h  x |
+ 5| a  t  p  u  s  z  q  g  v  b  r  a  v  t  w  c  n  u  l  j |
+ 6| p  p  b  y  w  n  a  q  e  e  f  q  p  j  y  r  n  y  i  y |
+ 7| l  e  o  h  u  b  j  h  u  w  h  a  l  e  o  r  b  v  g  k |
+ 8| e  n  a  i  d  a  v  i  d  t  q  l  z  t  r  s  q  w  h  l |
+ 9| r  c  r  e  c  h  a  l  k  k  z  g  a  w  z  k  z  g  t  m |
+10| e  i  d  e  j  r  c  o  i  e  p  l  q  y  c  o  z  t  e  w |
+11| o  l  g  a  e  h  f  g  i  o  u  b  l  r  k  n  r  s  r  i |
+12| u  z  a  l  s  y  h  u  l  c  x  q  n  g  e  p  r  e  w  r |
+13| q  e  u  f  h  w  h  v  l  u  p  s  l  l  j  o  w  l  h  u |
+14| f  r  l  z  o  x  t  a  z  d  e  e  y  r  s  g  a  y  g  v |
+15| c  n  y  q  f  l  c  s  y  m  m  g  k  s  s  p  l  b  y  v |
+16| u  t  r  s  i  x  d  j  p  l  z  o  i  c  o  a  e  k  f  d |
+17| k  h  b  o  o  k  k  e  t  x  d  c  o  l  x  o  e  n  j  n |
+18| f  z  l  r  l  u  c  v  r  w  s  o  n  v  o  l  l  s  d  a |
+19| j  x  k  n  o  m  c  u  h  t  a  t  q  v  u  s  f  w  h  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pencil: ((6, 1), (11, 1))
+pen: ((2, 7), (2, 9))
+notebook: ((0, 1), (0, 8))
+marker: ((1, 9), (1, 14))
+chalk: ((9, 4), (9, 8))
+book: ((0, 5), (0, 8))
+stapler: ((3, 0), (9, 0))
+sharpener: ((2, 3), (2, 11))
+highlighter: ((1, 18), (11, 18))
+crayons: ((1, 1), (1, 7))
+clipboard: ((2, 2), (10, 2))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pencil: ((6, 1), (11, 1))
+pen: ((2, 7), (2, 9))
+notebook: ((0, 1), (0, 8))
+marker: ((1, 9), (1, 14))
+chalk: ((9, 4), (9, 8))
+book: ((0, 5), (0, 8))
+stapler: ((3, 0), (9, 0))
+sharpener: ((2, 3), (2, 11))
+highlighter: ((1, 18), (11, 18))
+crayons: ((1, 1), (1, 7))
+clipboard: ((2, 2), (10, 2))
+
+Naïve Time taken: 0.0410 seconds
+Naïve Memory used: 0.00 MB

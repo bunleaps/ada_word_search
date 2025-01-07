@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| c  m  o  r  n  i  n  g  n  l |
+ 1| t  o  d  a  y  d  s  o  i  q |
+ 2| w  e  e  k  n  n  j  q  t  p |
+ 3| s  g  t  o  n  i  g  h  t  d |
+ 4| u  y  c  d  m  o  n  t  h  e |
+ 5| n  e  h  p  a  o  r  d  u  c |
+ 6| s  a  j  s  c  y  o  g  k  a |
+ 7| e  r  w  m  i  n  u  t  e  d |
+ 8| t  d  c  e  n  t  u  r  y  e |
+ 9| s  u  w  h  o  u  r  r  k  u |
+  +------------------------------+
+Dynamic Programming Solution:
+minute: ((7, 3), (7, 8))
+hour: ((9, 3), (9, 6))
+day: ((1, 2), (1, 4))
+week: ((2, 0), (2, 3))
+month: ((4, 4), (4, 8))
+year: ((4, 1), (7, 1))
+decade: ((3, 9), (8, 9))
+century: ((8, 2), (8, 8))
+morning: ((0, 1), (0, 7))
+night: ((3, 4), (3, 8))
+today: ((1, 0), (1, 4))
+sunset: ((3, 0), (8, 0))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+minute: ((7, 3), (7, 8))
+hour: ((9, 3), (9, 6))
+day: ((1, 2), (1, 4))
+week: ((2, 0), (2, 3))
+month: ((4, 4), (4, 8))
+year: ((4, 1), (7, 1))
+decade: ((3, 9), (8, 9))
+century: ((8, 2), (8, 8))
+morning: ((0, 1), (0, 7))
+night: ((3, 4), (3, 8))
+today: ((1, 0), (1, 4))
+sunset: ((3, 0), (8, 0))
+
+Naïve Time taken: 0.0081 seconds
+Naïve Memory used: 0.00 MB

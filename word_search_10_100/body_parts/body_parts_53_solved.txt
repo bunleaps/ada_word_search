@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| m  h  e  a  r  t  k  v  z  u |
+ 1| v  o  s  t  o  m  a  c  h  e |
+ 2| n  v  u  g  f  o  o  t  e  y |
+ 3| e  m  e  t  t  i  m  o  v  e |
+ 4| c  l  m  n  h  e  t  r  d  c |
+ 5| k  n  n  k  n  e  e  a  w  a |
+ 6| i  n  o  s  e  m  e  t  d  r |
+ 7| b  a  c  k  r  h  o  n  h  m |
+ 8| f  i  n  g  e  r  a  n  z  s |
+ 9| c  h  e  s  t  h  x  c  s  l |
+  +------------------------------+
+Dynamic Programming Solution:
+foot: ((2, 4), (2, 7))
+arm: ((5, 9), (7, 9))
+eye: ((1, 9), (3, 9))
+ear: ((0, 2), (0, 4))
+nose: ((6, 1), (6, 4))
+stomach: ((1, 2), (1, 8))
+back: ((7, 0), (7, 3))
+chest: ((9, 0), (9, 4))
+neck: ((2, 0), (5, 0))
+knee: ((5, 3), (5, 6))
+finger: ((8, 0), (8, 5))
+heart: ((0, 1), (0, 5))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+foot: ((2, 4), (2, 7))
+arm: ((5, 9), (7, 9))
+eye: ((1, 9), (3, 9))
+ear: ((0, 2), (0, 4))
+nose: ((6, 1), (6, 4))
+stomach: ((1, 2), (1, 8))
+back: ((7, 0), (7, 3))
+chest: ((9, 0), (9, 4))
+neck: ((2, 0), (5, 0))
+knee: ((5, 3), (5, 6))
+finger: ((8, 0), (8, 5))
+heart: ((0, 1), (0, 5))
+
+Naïve Time taken: 0.0102 seconds
+Naïve Memory used: 0.00 MB

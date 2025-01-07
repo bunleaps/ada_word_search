@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| g  h  k  q  x  i  y  s  l  m  u  t  l  j  i  z  x  v  e  c |
+ 1| k  l  p  l  e  r  a  s  e  r  z  a  s  d  h  a  h  b  p  y |
+ 2| v  i  b  e  n  y  b  w  n  a  a  n  y  r  b  q  c  v  t  r |
+ 3| v  g  a  u  n  m  o  m  q  d  o  s  s  h  l  t  a  u  p  s |
+ 4| m  c  l  e  f  n  o  z  l  y  j  e  x  c  p  u  k  s  s  h |
+ 5| t  v  n  o  o  c  k  i  a  m  t  c  l  t  k  c  f  r  d  a |
+ 6| q  c  w  c  l  o  c  r  a  m  t  m  r  s  f  e  o  b  d  r |
+ 7| f  h  d  u  d  n  c  u  r  v  m  e  h  p  i  s  b  j  u  p |
+ 8| l  a  w  v  e  b  f  j  s  u  p  m  e  g  s  e  n  x  x  e |
+ 9| m  l  a  p  r  p  q  d  r  a  l  a  u  i  k  x  z  r  f  n |
+10| n  k  o  c  y  e  k  j  p  s  f  e  c  m  a  k  e  b  h  e |
+11| w  o  c  m  h  q  n  t  c  x  x  s  r  y  v  l  v  j  i  r |
+12| k  o  t  c  a  l  c  u  l  a  t  o  r  y  p  e  k  v  i  g |
+13| r  g  s  e  u  l  q  c  l  i  p  b  o  a  r  d  c  k  t  c |
+14| r  v  u  v  b  r  q  k  d  g  t  y  t  i  s  y  e  k  b  l |
+15| k  m  t  g  g  o  e  i  l  o  e  s  f  v  w  m  r  b  a  t |
+16| t  r  s  l  b  x  o  d  b  m  k  q  c  a  h  p  w  j  g  h |
+17| m  y  e  u  g  t  z  k  z  p  p  l  v  o  i  y  s  j  b  f |
+18| y  e  n  e  u  c  u  g  n  k  a  n  m  a  r  k  e  r  v  t |
+19| h  h  i  g  h  l  i  g  h  t  e  r  m  r  d  v  j  a  x  g |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pen: ((7, 19), (9, 19))
+eraser: ((1, 4), (1, 9))
+marker: ((18, 12), (18, 17))
+chalk: ((6, 1), (10, 1))
+book: ((2, 6), (5, 6))
+bag: ((14, 18), (16, 18))
+glue: ((15, 3), (18, 3))
+calculator: ((12, 3), (12, 12))
+sharpener: ((3, 19), (11, 19))
+folder: ((4, 4), (9, 4))
+highlighter: ((19, 1), (19, 11))
+clipboard: ((13, 7), (13, 15))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pen: ((7, 19), (9, 19))
+eraser: ((1, 4), (1, 9))
+marker: ((18, 12), (18, 17))
+chalk: ((6, 1), (10, 1))
+book: ((2, 6), (5, 6))
+bag: ((14, 18), (16, 18))
+glue: ((15, 3), (18, 3))
+calculator: ((12, 3), (12, 12))
+sharpener: ((3, 19), (11, 19))
+folder: ((4, 4), (9, 4))
+highlighter: ((19, 1), (19, 11))
+clipboard: ((13, 7), (13, 15))
+
+Naïve Time taken: 0.0534 seconds
+Naïve Memory used: 0.00 MB

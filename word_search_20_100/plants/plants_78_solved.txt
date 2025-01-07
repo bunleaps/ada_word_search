@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| k  c  v  m  a  c  x  z  m  p  s  f  l  o  w  e  r  t  j  e |
+ 1| z  e  g  z  y  p  l  g  v  q  a  b  g  j  t  b  c  w  f  r |
+ 2| g  z  m  a  h  p  b  s  q  g  l  l  g  t  a  y  z  z  s  i |
+ 3| l  b  a  c  o  j  t  x  w  l  k  k  m  j  i  e  q  u  v  j |
+ 4| d  y  p  z  l  k  w  e  j  b  z  y  c  f  f  n  t  y  t  w |
+ 5| m  x  i  z  d  q  t  r  e  e  i  j  c  o  k  c  s  h  u  h |
+ 6| o  l  n  v  b  b  l  s  g  v  i  l  n  r  a  o  u  q  l  y |
+ 7| t  y  e  q  m  k  g  s  q  f  i  b  t  c  v  f  n  x  i  r |
+ 8| u  o  q  v  c  d  y  z  l  c  e  n  e  h  b  a  f  v  p  l |
+ 9| r  p  o  g  r  a  s  s  y  s  d  r  e  i  e  l  l  m  g  i |
+10| x  n  g  u  e  c  y  q  m  x  i  a  n  d  z  l  o  b  k  l |
+11| j  p  h  m  r  o  s  e  h  a  a  x  z  y  d  y  w  r  f  y |
+12| h  s  e  u  v  o  p  k  r  b  p  g  r  l  m  r  e  h  j  t |
+13| r  r  e  h  y  h  o  w  d  s  a  l  v  v  n  z  r  o  p  x |
+14| s  w  n  m  d  d  s  l  n  h  p  m  e  m  u  o  f  o  z  t |
+15| g  i  s  f  n  t  a  r  d  r  z  z  b  g  p  h  f  p  x  e |
+16| x  i  g  p  s  a  m  i  e  u  n  y  a  o  h  y  a  h  i  f |
+17| i  i  l  z  z  j  b  p  s  b  k  y  t  u  o  c  h  c  p  j |
+18| r  b  l  d  e  c  c  g  a  y  v  f  o  a  k  h  w  t  q  r |
+19| x  a  u  r  p  a  u  x  b  i  m  x  m  o  s  s  e  p  f  i |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tree: ((5, 6), (5, 9))
+flower: ((0, 11), (0, 16))
+grass: ((9, 3), (9, 7))
+shrub: ((13, 9), (17, 9))
+moss: ((19, 12), (19, 15))
+oak: ((18, 12), (18, 14))
+pine: ((4, 2), (7, 2))
+rose: ((11, 4), (11, 7))
+tulip: ((4, 18), (8, 18))
+sunflower: ((5, 16), (13, 16))
+lily: ((8, 19), (11, 19))
+orchid: ((5, 13), (10, 13))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((5, 6), (5, 9))
+flower: ((0, 11), (0, 16))
+grass: ((9, 3), (9, 7))
+shrub: ((13, 9), (17, 9))
+moss: ((19, 12), (19, 15))
+oak: ((18, 12), (18, 14))
+pine: ((4, 2), (7, 2))
+rose: ((11, 4), (11, 7))
+tulip: ((4, 18), (8, 18))
+sunflower: ((5, 16), (13, 16))
+lily: ((8, 19), (11, 19))
+orchid: ((5, 13), (10, 13))
+
+Naïve Time taken: 0.0666 seconds
+Naïve Memory used: 0.00 MB

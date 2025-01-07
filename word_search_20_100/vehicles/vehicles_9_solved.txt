@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| d  m  f  g  t  t  r  a  i  n  n  j  n  x  m  r  b  s  r  b |
+ 1| j  z  k  n  t  g  o  o  v  h  o  v  e  r  b  o  a  r  d  s |
+ 2| v  g  i  d  w  c  k  n  i  n  b  g  a  d  w  y  i  q  r  p |
+ 3| w  m  r  y  i  v  c  o  j  z  r  e  s  n  u  x  a  e  p  a |
+ 4| c  n  y  l  u  y  c  s  h  m  h  i  o  o  g  w  p  l  h  c |
+ 5| f  x  y  x  r  d  q  h  v  n  u  e  p  s  v  b  s  k  i  e |
+ 6| m  i  a  e  h  d  w  u  p  h  y  a  c  h  t  p  o  x  a  s |
+ 7| d  g  i  w  t  f  k  r  l  l  d  k  k  k  f  b  a  a  k  h |
+ 8| l  z  r  h  d  s  r  i  c  k  s  h  a  w  n  t  j  b  t  i |
+ 9| r  l  p  g  m  o  t  o  r  c  y  c  l  e  v  o  l  k  n  p |
+10| h  e  l  i  c  o  p  t  e  r  z  s  c  o  o  t  e  r  s  g |
+11| d  b  a  b  q  y  u  m  s  i  l  e  i  z  t  g  n  u  a  j |
+12| u  i  n  m  i  a  s  b  g  i  s  u  b  m  a  r  i  n  e  f |
+13| q  d  e  l  n  c  q  e  a  a  s  w  b  x  v  h  f  s  o  p |
+14| z  x  h  m  x  i  y  f  q  w  n  i  l  t  q  f  j  q  v  u |
+15| f  p  x  u  t  q  o  c  v  u  m  b  m  n  r  w  m  t  x  o |
+16| y  o  u  o  o  r  c  g  l  s  o  k  l  s  c  a  r  j  v  b |
+17| g  h  w  n  a  y  m  w  p  e  b  e  w  y  f  g  m  m  s  f |
+18| d  d  y  k  t  r  u  c  k  r  p  i  y  m  p  a  e  a  x  v |
+19| b  u  s  t  y  y  a  m  q  n  m  h  j  i  o  f  o  l  t  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+car: ((16, 14), (16, 16))
+truck: ((18, 4), (18, 8))
+motorcycle: ((9, 4), (9, 13))
+scooter: ((10, 11), (10, 17))
+bus: ((12, 12), (12, 10))
+train: ((0, 5), (0, 9))
+airplane: ((6, 2), (13, 2))
+helicopter: ((10, 0), (10, 9))
+yacht: ((6, 10), (6, 14))
+submarine: ((12, 10), (12, 18))
+spaceship: ((1, 19), (9, 19))
+rickshaw: ((8, 6), (8, 13))
+hoverboard: ((1, 9), (1, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+car: ((16, 14), (16, 16))
+truck: ((18, 4), (18, 8))
+motorcycle: ((9, 4), (9, 13))
+scooter: ((10, 11), (10, 17))
+bus: ((12, 12), (12, 10))
+train: ((0, 5), (0, 9))
+airplane: ((6, 2), (13, 2))
+helicopter: ((10, 0), (10, 9))
+yacht: ((6, 10), (6, 14))
+submarine: ((12, 10), (12, 18))
+spaceship: ((1, 19), (9, 19))
+rickshaw: ((8, 6), (8, 13))
+hoverboard: ((1, 9), (1, 18))
+
+Naïve Time taken: 0.0356 seconds
+Naïve Memory used: 0.00 MB

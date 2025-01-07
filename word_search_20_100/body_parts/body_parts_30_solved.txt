@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| j  r  h  n  g  q  d  w  e  h  r  y  p  t  m  i  k  a  e  s |
+ 1| o  m  j  e  t  d  v  c  y  m  h  f  l  c  z  k  i  t  c  y |
+ 2| l  w  g  o  t  e  e  t  h  c  z  p  m  l  g  n  u  m  d  r |
+ 3| s  z  a  f  z  z  n  e  c  e  e  c  o  q  s  m  s  b  r  d |
+ 4| w  k  r  r  x  q  e  i  g  s  s  n  u  k  b  r  a  i  n  m |
+ 5| u  z  i  p  m  o  i  m  o  c  e  t  t  p  e  m  j  e  q  n |
+ 6| r  l  r  n  t  s  v  n  h  g  e  d  h  v  y  m  z  q  e  b |
+ 7| c  i  e  t  b  t  h  l  a  z  h  f  d  j  z  k  y  u  t  v |
+ 8| d  e  n  g  d  o  s  u  n  c  v  s  h  o  u  l  d  e  r  l |
+ 9| f  y  x  x  o  m  u  k  d  k  f  u  i  c  e  t  y  n  m  w |
+10| n  z  v  c  s  a  i  u  y  i  v  i  s  f  d  y  t  m  g  v |
+11| e  a  r  a  b  c  k  n  e  e  h  f  n  g  b  b  e  d  l  j |
+12| x  n  r  b  p  h  g  k  o  f  s  t  i  g  k  b  l  i  g  i |
+13| n  f  e  w  y  x  l  p  k  h  g  h  c  c  e  z  w  q  i  q |
+14| l  f  v  c  s  y  f  y  x  e  l  k  a  y  f  r  t  r  w  g |
+15| f  i  f  t  k  a  a  m  l  a  d  b  k  k  v  o  t  h  k  c |
+16| c  n  w  c  j  t  c  k  z  d  z  k  o  p  o  h  t  x  n  z |
+17| o  u  n  t  q  j  i  n  d  j  h  i  a  f  p  w  h  a  t  r |
+18| w  o  k  f  s  e  j  y  m  k  m  u  f  j  h  y  z  k  j  t |
+19| f  y  d  z  z  i  h  e  a  r  t  x  e  t  k  h  s  c  w  b |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+head: ((13, 9), (16, 9))
+hand: ((6, 8), (9, 8))
+ear: ((11, 0), (11, 2))
+mouth: ((2, 12), (6, 12))
+stomach: ((6, 5), (12, 5))
+knee: ((11, 6), (11, 9))
+shoulder: ((8, 11), (8, 18))
+heart: ((19, 6), (19, 10))
+brain: ((4, 14), (4, 18))
+teeth: ((2, 4), (2, 8))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+head: ((13, 9), (16, 9))
+hand: ((6, 8), (9, 8))
+ear: ((11, 0), (11, 2))
+mouth: ((2, 12), (6, 12))
+stomach: ((6, 5), (12, 5))
+knee: ((11, 6), (11, 9))
+shoulder: ((8, 11), (8, 18))
+heart: ((19, 6), (19, 10))
+brain: ((4, 14), (4, 18))
+teeth: ((2, 4), (2, 8))
+
+Naïve Time taken: 0.0668 seconds
+Naïve Memory used: 0.00 MB

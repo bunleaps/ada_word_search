@@ -1,0 +1,65 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  r  o  a  l  c  q  x  w  m  c  v  j  m  f  d  j  b  z  s |
+ 1| v  m  e  p  i  e  r  v  y  p  g  y  d  x  p  b  b  l  f  n |
+ 2| r  x  p  r  a  z  m  m  k  e  q  r  m  d  z  g  a  a  m  g |
+ 3| j  f  o  i  p  p  r  o  n  a  t  w  a  s  m  l  q  c  x  h |
+ 4| h  z  m  c  p  w  a  a  n  r  s  f  n  t  s  q  v  k  g  m |
+ 5| f  i  e  o  l  p  h  y  b  g  c  o  g  o  o  s  i  b  f  b |
+ 6| o  a  g  t  e  j  d  k  a  e  c  l  o  b  r  p  h  e  w  l |
+ 7| s  t  r  a  w  b  e  r  r  y  p  h  y  m  a  j  u  r  a  u |
+ 8| t  j  a  b  l  m  c  z  n  h  e  e  f  h  n  e  i  r  t  e |
+ 9| a  c  n  a  l  s  r  h  m  j  r  b  a  m  g  l  f  y  e  b |
+10| n  t  a  n  n  p  x  j  e  e  v  f  s  c  e  v  u  i  r  e |
+11| g  n  t  a  h  i  q  w  n  r  r  k  k  h  h  c  d  i  m  r |
+12| e  g  e  n  w  n  g  i  q  q  r  j  i  t  d  s  l  i  e  r |
+13| r  v  x  a  f  e  r  r  n  c  y  y  u  w  f  d  x  f  l  y |
+14| i  m  b  c  y  a  j  i  a  k  u  n  q  h  i  z  a  c  o  a |
+15| n  e  e  j  t  p  q  o  h  p  o  m  p  k  v  f  p  t  n  f |
+16| e  l  v  c  c  p  l  k  g  c  e  a  l  m  h  p  j  t  e  y |
+17| f  o  e  k  f  l  v  i  o  c  o  c  u  k  v  f  r  v  d  p |
+18| l  n  m  x  g  e  f  c  m  w  z  m  m  z  m  m  j  t  a  e |
+19| y  i  s  x  d  k  r  a  s  p  b  e  r  r  y  o  a  f  m  g |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+apple: ((2, 4), (6, 4))
+banana: ((8, 3), (13, 3))
+mango: ((2, 12), (6, 12))
+orange: ((5, 14), (10, 14))
+pear: ((1, 9), (4, 9))
+pineapple: ((10, 5), (18, 5))
+plum: ((15, 12), (18, 12))
+pomegranate: ((2, 2), (12, 2))
+raspberry: ((19, 6), (19, 14))
+strawberry: ((7, 0), (7, 9))
+tangerine: ((8, 0), (16, 0))
+watermelon: ((6, 18), (15, 18))
+blueberry: ((5, 19), (13, 19))
+apricot: ((0, 3), (6, 3))
+blackberry: ((0, 17), (9, 17))
+melon: ((14, 1), (18, 1))
+
+DP Time taken: 0.0019 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+apple: ((2, 4), (6, 4))
+banana: ((8, 3), (13, 3))
+mango: ((2, 12), (6, 12))
+orange: ((5, 14), (10, 14))
+pear: ((1, 9), (4, 9))
+pineapple: ((10, 5), (18, 5))
+plum: ((15, 12), (18, 12))
+pomegranate: ((2, 2), (12, 2))
+raspberry: ((19, 6), (19, 14))
+strawberry: ((7, 0), (7, 9))
+tangerine: ((8, 0), (16, 0))
+watermelon: ((6, 18), (15, 18))
+blueberry: ((5, 19), (13, 19))
+apricot: ((0, 3), (6, 3))
+blackberry: ((0, 17), (9, 17))
+melon: ((14, 1), (18, 1))
+
+Naïve Time taken: 0.0774 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  p  j  p  t  n  g  k  n  d  i  r  e  c  t  o  r  g  l  m |
+ 1| f  h  o  r  o  m  a  n  c  e  s  a  y  p  x  b  u  e  j  u |
+ 2| h  o  r  r  o  r  s  x  a  l  h  c  b  i  r  w  a  n  b  s |
+ 3| f  a  o  b  o  a  k  i  c  v  i  t  r  k  z  a  c  r  a  i |
+ 4| d  o  c  u  m  e  n  t  a  r  y  r  u  s  e  q  u  e  l  c |
+ 5| y  e  a  p  a  j  b  x  f  w  l  e  v  x  a  f  b  n  s  a |
+ 6| p  h  n  m  o  f  a  l  o  e  i  s  k  i  u  y  o  v  c  l |
+ 7| o  y  a  a  w  p  a  c  o  x  s  s  f  y  l  i  z  t  d  g |
+ 8| z  r  u  h  w  m  c  j  t  c  r  t  e  f  t  l  p  s  e  s |
+ 9| d  z  y  m  c  a  p  o  e  o  k  t  i  a  e  i  a  f  m  c |
+10| h  c  q  a  l  u  r  r  r  r  r  b  m  v  r  s  x  i  h  r |
+11| t  f  o  c  l  c  r  d  o  n  b  i  u  c  a  o  n  b  n  e |
+12| t  c  i  n  e  m  a  h  a  d  n  d  s  s  l  l  w  x  c  e |
+13| e  r  c  p  i  u  o  e  x  a  u  s  p  i  t  t  m  l  o  n |
+14| r  g  a  h  c  r  d  s  c  i  x  c  v  l  a  e  h  h  m  p |
+15| t  u  i  i  e  s  o  l  m  j  m  p  e  s  b  k  r  t  e  l |
+16| b  e  n  h  l  q  l  q  o  k  t  e  z  r  b  x  v  d  d  a |
+17| c  f  q  h  d  e  w  d  l  p  r  e  m  i  e  r  e  z  y  y |
+18| u  f  q  e  y  u  r  n  b  o  x  o  f  f  i  c  e  d  f  b |
+19| t  h  r  i  l  l  e  r  l  k  y  d  i  b  z  p  n  o  f  o |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+actress: ((1, 11), (7, 11))
+director: ((0, 9), (0, 16))
+cinema: ((12, 1), (12, 6))
+sequel: ((4, 13), (4, 18))
+premiere: ((17, 9), (17, 16))
+romance: ((1, 3), (1, 9))
+comedy: ((12, 18), (17, 18))
+thriller: ((19, 0), (19, 7))
+horror: ((2, 0), (2, 5))
+musical: ((0, 19), (6, 19))
+documentary: ((4, 0), (4, 10))
+boxoffice: ((18, 8), (18, 16))
+screenplay: ((8, 19), (17, 19))
+genre: ((0, 17), (4, 17))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+actress: ((1, 11), (7, 11))
+director: ((0, 9), (0, 16))
+cinema: ((12, 1), (12, 6))
+sequel: ((4, 13), (4, 18))
+premiere: ((17, 9), (17, 16))
+romance: ((1, 3), (1, 9))
+comedy: ((12, 18), (17, 18))
+thriller: ((19, 0), (19, 7))
+horror: ((2, 0), (2, 5))
+musical: ((0, 19), (6, 19))
+documentary: ((4, 0), (4, 10))
+boxoffice: ((18, 8), (18, 16))
+screenplay: ((8, 19), (17, 19))
+genre: ((0, 17), (4, 17))
+
+Naïve Time taken: 0.0749 seconds
+Naïve Memory used: 0.00 MB

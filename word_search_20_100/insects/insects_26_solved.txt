@@ -1,0 +1,45 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  k  e  k  g  v  v  j  k  d  f  x  s  v  u  z  o  x  q  o |
+ 1| w  b  b  r  p  r  o  x  a  u  r  l  g  c  f  b  t  l  p  i |
+ 2| o  u  b  t  d  k  a  y  c  x  q  a  e  b  k  c  b  m  v  o |
+ 3| x  t  p  p  e  z  u  s  r  v  u  z  g  a  h  s  j  s  p  r |
+ 4| v  t  u  g  i  r  s  s  s  c  j  w  j  o  r  m  e  p  s  n |
+ 5| z  e  e  g  r  d  m  p  y  h  o  o  b  m  n  r  u  n  p  j |
+ 6| y  r  m  m  h  k  r  i  i  y  o  c  b  k  q  f  n  y  f  a |
+ 7| x  f  t  o  q  p  x  o  t  d  m  p  k  s  o  o  l  j  l  e |
+ 8| u  l  l  t  y  q  w  p  c  e  e  y  p  r  q  z  s  y  y  k |
+ 9| o  y  t  h  d  y  d  e  t  n  c  r  z  e  o  e  b  a  r  u |
+10| x  t  p  i  u  r  n  h  k  r  r  j  x  j  r  a  n  e  m  k |
+11| x  x  w  m  o  s  q  u  i  t  o  l  v  y  z  g  c  w  e  n |
+12| t  g  u  n  b  d  m  h  m  r  q  l  k  a  c  e  h  h  i  n |
+13| t  k  c  b  k  p  o  e  b  m  j  a  j  b  o  m  x  z  m  w |
+14| l  s  k  g  l  q  l  f  o  k  c  d  i  v  a  z  w  s  k  j |
+15| a  n  t  l  s  t  d  c  y  n  s  y  w  n  j  p  v  f  h  e |
+16| j  k  u  e  e  f  k  l  w  x  v  b  h  a  i  i  h  f  g  b |
+17| j  d  x  e  o  g  n  w  v  m  t  u  c  f  s  w  i  r  n  z |
+18| g  p  b  x  z  h  v  v  v  n  a  g  n  d  w  p  r  e  v  e |
+19| c  q  a  a  n  k  e  h  q  n  z  w  k  v  a  c  b  o  z  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+ant: ((15, 0), (15, 2))
+butterfly: ((1, 1), (9, 1))
+mosquito: ((11, 3), (11, 10))
+ladybug: ((12, 11), (18, 11))
+fly: ((7, 1), (9, 1))
+moth: ((6, 3), (9, 3))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+ant: ((15, 0), (15, 2))
+butterfly: ((1, 1), (9, 1))
+mosquito: ((11, 3), (11, 10))
+ladybug: ((12, 11), (18, 11))
+fly: ((7, 1), (9, 1))
+moth: ((6, 3), (9, 3))
+
+Naïve Time taken: 0.0493 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| y  u  i  w  x  x  c  r  l  c  s  c  g  q  j  j  h  f  l  r |
+ 1| h  s  e  q  a  n  z  f  t  k  m  z  o  l  q  z  a  j  i  a |
+ 2| k  k  o  q  r  n  v  j  z  w  p  m  a  t  d  r  t  e  u  k |
+ 3| m  s  c  a  r  f  e  e  s  e  a  n  u  u  e  i  c  l  t  r |
+ 4| j  o  a  e  u  s  l  a  g  y  j  e  p  a  n  t  s  y  v  g |
+ 5| m  c  m  p  b  j  w  i  f  b  a  p  d  d  l  m  e  q  u  n |
+ 6| m  k  e  j  y  e  o  e  p  l  m  m  d  e  j  y  s  h  u  x |
+ 7| d  s  m  g  f  a  b  b  a  o  a  u  v  b  q  e  q  z  s  w |
+ 8| v  w  r  r  w  n  z  e  k  t  s  d  d  t  v  g  f  e  u  q |
+ 9| s  c  o  z  t  s  a  v  m  u  e  g  p  o  l  q  o  x  v  y |
+10| y  i  b  r  j  q  k  b  z  j  r  r  l  b  h  h  o  z  w  l |
+11| b  t  i  n  a  j  h  q  v  w  i  g  s  w  s  b  m  a  m  k |
+12| f  k  t  p  c  q  u  n  i  f  o  r  m  r  c  p  n  d  c  l |
+13| s  e  w  z  k  z  p  g  p  t  z  s  e  t  t  g  e  w  g  m |
+14| c  v  f  i  e  j  i  v  t  b  h  k  t  t  d  h  v  z  e  e |
+15| a  v  o  c  t  t  m  l  p  s  a  r  a  w  m  b  z  z  u  q |
+16| y  a  j  t  c  z  e  n  s  e  i  o  c  w  z  y  n  c  f  s |
+17| s  g  b  o  i  b  j  e  n  h  c  z  b  o  o  t  s  v  u  j |
+18| u  q  e  p  q  e  r  s  s  f  o  n  k  e  u  i  m  h  c  b |
+19| p  n  b  y  m  d  h  r  p  q  y  i  b  v  z  o  f  f  r  b |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pants: ((4, 12), (4, 16))
+jacket: ((10, 4), (15, 4))
+socks: ((3, 1), (7, 1))
+scarf: ((3, 1), (3, 5))
+hat: ((0, 16), (2, 16))
+jeans: ((5, 5), (9, 5))
+boots: ((17, 12), (17, 16))
+pajamas: ((2, 10), (8, 10))
+uniform: ((12, 6), (12, 12))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pants: ((4, 12), (4, 16))
+jacket: ((10, 4), (15, 4))
+socks: ((3, 1), (7, 1))
+scarf: ((3, 1), (3, 5))
+hat: ((0, 16), (2, 16))
+jeans: ((5, 5), (9, 5))
+boots: ((17, 12), (17, 16))
+pajamas: ((2, 10), (8, 10))
+uniform: ((12, 6), (12, 12))
+
+Naïve Time taken: 0.0633 seconds
+Naïve Memory used: 0.00 MB

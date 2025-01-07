@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| k  z  z  b  g  g  w  g  x  l  c  s  m  e  t  e  o  r  c  a |
+ 1| m  z  u  b  s  o  l  a  r  g  s  y  s  t  e  m  m  q  o  s |
+ 2| s  x  p  l  g  y  b  q  s  t  a  r  g  f  p  m  t  n  n  t |
+ 3| a  p  h  e  s  u  d  r  g  a  g  z  z  k  r  i  f  j  s  e |
+ 4| z  h  a  b  l  a  c  k  h  o  l  e  n  v  b  q  r  u  t  r |
+ 5| d  h  f  c  j  r  c  s  h  e  g  j  r  r  q  e  o  m  e  o |
+ 6| x  w  l  l  e  o  r  u  a  l  v  a  o  v  d  t  c  z  l  i |
+ 7| a  w  v  x  a  c  a  m  n  t  t  m  l  b  e  y  k  m  l  d |
+ 8| v  g  w  p  l  y  r  n  o  i  e  y  l  a  k  h  e  a  a  w |
+ 9| n  l  w  m  i  j  n  a  v  o  v  l  k  v  x  c  t  k  t  r |
+10| z  e  g  l  e  i  i  t  f  f  n  e  l  z  q  y  d  m  i  v |
+11| z  x  b  c  n  y  e  e  n  t  z  x  r  i  c  w  i  b  o  s |
+12| m  w  d  u  s  w  z  l  p  j  e  c  j  s  t  h  e  t  n  o |
+13| g  r  d  t  l  x  x  e  d  l  t  i  i  e  e  e  t  n  c  y |
+14| h  o  l  n  s  a  d  s  w  e  a  j  j  i  b  w  l  z  u  c |
+15| c  o  m  u  o  m  r  c  m  g  t  n  o  k  y  d  o  h  y  p |
+16| x  w  i  v  q  x  t  o  x  t  n  p  e  f  n  a  d  z  z  i |
+17| c  u  d  b  f  h  c  p  h  x  r  h  u  t  l  v  r  z  w  u |
+18| l  k  b  t  y  n  j  e  c  k  a  s  t  r  o  n  a  u  t  m |
+19| f  r  u  l  f  y  l  i  g  h  t  y  e  a  r  e  k  l  n  n |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+star: ((2, 8), (2, 11))
+asteroid: ((0, 19), (7, 19))
+blackhole: ((4, 3), (4, 11))
+telescope: ((10, 7), (18, 7))
+rocket: ((4, 16), (9, 16))
+astronaut: ((18, 10), (18, 18))
+meteor: ((0, 12), (0, 17))
+lightyear: ((19, 6), (19, 14))
+constellation: ((0, 18), (12, 18))
+aliens: ((7, 4), (12, 4))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+star: ((2, 8), (2, 11))
+asteroid: ((0, 19), (7, 19))
+blackhole: ((4, 3), (4, 11))
+telescope: ((10, 7), (18, 7))
+rocket: ((4, 16), (9, 16))
+astronaut: ((18, 10), (18, 18))
+meteor: ((0, 12), (0, 17))
+lightyear: ((19, 6), (19, 14))
+constellation: ((0, 18), (12, 18))
+aliens: ((7, 4), (12, 4))
+
+Naïve Time taken: 0.0552 seconds
+Naïve Memory used: 0.00 MB

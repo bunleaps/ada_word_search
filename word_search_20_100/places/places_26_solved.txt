@@ -1,0 +1,67 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  m  a  c  o  n  t  i  n  e  n  t  d  e  r  e  p  i  w  y |
+ 1| o  t  c  o  u  n  t  r  y  v  p  c  f  g  k  w  o  g  k  s |
+ 2| r  c  z  b  h  o  i  u  k  t  w  d  q  c  u  f  e  n  f  n |
+ 3| e  h  m  j  z  e  o  s  s  c  h  o  o  l  b  i  j  v  x  m |
+ 4| s  u  i  q  o  u  l  j  l  l  p  p  z  u  q  g  j  h  f  d |
+ 5| t  r  n  j  e  x  f  f  t  a  a  u  m  i  q  c  k  u  h  z |
+ 6| d  c  h  s  q  y  f  l  y  n  n  k  d  n  s  x  t  z  n  t |
+ 7| k  h  o  b  t  r  o  a  d  p  g  d  e  l  y  a  q  w  p  w |
+ 8| m  s  s  w  w  o  y  r  p  u  t  j  v  j  q  c  o  v  y  f |
+ 9| w  x  p  s  t  r  e  e  t  h  n  c  j  a  u  t  y  g  i  x |
+10| z  s  i  m  k  f  h  p  s  h  m  o  u  n  t  a  i  n  f  k |
+11| v  e  t  i  u  r  n  m  s  k  x  g  m  u  s  e  u  m  u  f |
+12| i  k  a  g  q  j  a  g  r  p  b  e  a  c  h  f  p  d  d  d |
+13| l  k  l  n  f  c  i  t  y  a  v  e  h  x  i  v  z  z  e  n |
+14| l  t  a  z  t  c  d  m  s  r  z  u  t  z  j  u  a  s  s  y |
+15| a  y  b  b  r  x  d  y  f  k  e  r  i  v  e  r  l  o  e  o |
+16| g  z  l  s  t  j  z  x  w  o  y  v  t  j  y  t  y  h  r  f |
+17| e  u  a  z  f  m  z  m  u  l  b  w  x  x  f  p  y  y  t  x |
+18| k  b  v  u  y  z  n  r  y  s  c  w  v  k  d  r  a  z  y  z |
+19| y  m  c  r  e  s  t  a  u  r  a  n  t  f  w  k  p  k  p  v |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+city: ((13, 5), (13, 8))
+village: ((11, 0), (17, 0))
+park: ((12, 9), (15, 9))
+beach: ((12, 10), (12, 14))
+mountain: ((10, 10), (10, 17))
+river: ((15, 11), (15, 15))
+forest: ((0, 0), (5, 0))
+desert: ((12, 18), (17, 18))
+country: ((1, 2), (1, 8))
+continent: ((0, 3), (0, 11))
+street: ((9, 3), (9, 8))
+road: ((7, 5), (7, 8))
+school: ((3, 8), (3, 13))
+hospital: ((6, 2), (13, 2))
+museum: ((11, 12), (11, 17))
+church: ((2, 1), (7, 1))
+restaurant: ((19, 3), (19, 12))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((13, 5), (13, 8))
+village: ((11, 0), (17, 0))
+park: ((12, 9), (15, 9))
+beach: ((12, 10), (12, 14))
+mountain: ((10, 10), (10, 17))
+river: ((15, 11), (15, 15))
+forest: ((0, 0), (5, 0))
+desert: ((12, 18), (17, 18))
+country: ((1, 2), (1, 8))
+continent: ((0, 3), (0, 11))
+street: ((9, 3), (9, 8))
+road: ((7, 5), (7, 8))
+school: ((3, 8), (3, 13))
+hospital: ((6, 2), (13, 2))
+museum: ((11, 12), (11, 17))
+church: ((2, 1), (7, 1))
+restaurant: ((19, 3), (19, 12))
+
+Naïve Time taken: 0.0395 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| v  r  c  c  o  n  s  t  e  l  l  a  t  i  o  n  z  m  m  i |
+ 1| s  q  i  u  l  c  t  g  d  s  s  m  p  g  y  a  i  e  e  u |
+ 2| w  a  v  i  o  l  k  r  s  z  k  t  t  z  y  n  d  t  r  n |
+ 3| p  t  t  l  b  j  o  m  a  p  i  u  a  a  e  u  h  e  j  i |
+ 4| m  o  n  e  b  u  l  a  r  c  a  o  k  r  d  p  s  o  s  v |
+ 5| i  o  n  z  l  z  y  h  f  n  g  c  c  m  o  e  w  r  b  e |
+ 6| f  k  c  d  p  l  h  g  o  m  q  w  e  c  e  k  b  n  v  r |
+ 7| g  a  l  a  x  y  i  r  i  l  s  r  c  c  j  o  d  q  t  s |
+ 8| o  k  t  s  o  p  t  t  n  u  a  o  a  x  r  i  o  g  e  e |
+ 9| r  n  b  x  j  s  l  p  e  h  g  c  i  l  o  a  s  y  l  h |
+10| y  o  l  b  a  p  b  y  k  c  c  k  i  r  i  p  f  v  e  s |
+11| c  c  i  o  v  g  m  l  n  z  t  e  e  d  g  e  q  t  s  s |
+12| y  y  g  g  c  k  q  b  a  s  c  t  p  w  z  s  n  u  c  u |
+13| r  w  h  a  o  f  v  p  l  c  s  a  w  x  c  o  h  s  o  a |
+14| e  s  t  t  r  u  e  p  l  a  k  h  w  d  f  o  v  a  p  u |
+15| b  p  y  t  b  g  p  t  x  a  a  h  m  u  s  j  m  x  e  o |
+16| s  y  e  v  i  m  z  d  k  s  n  w  o  s  o  t  b  e  u  a |
+17| h  a  a  r  t  n  i  o  i  a  d  e  t  l  e  r  e  g  t  s |
+18| z  d  r  x  y  t  d  e  m  v  x  o  t  f  e  m  o  o  n  f |
+19| s  o  l  a  r  x  s  y  s  t  e  m  m  y  t  l  d  k  e  i |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+galaxy: ((7, 0), (7, 5))
+moon: ((18, 15), (18, 18))
+nebula: ((4, 2), (4, 7))
+telescope: ((7, 18), (15, 18))
+rocket: ((7, 11), (12, 11))
+orbit: ((13, 4), (17, 4))
+universe: ((1, 19), (8, 19))
+meteor: ((0, 17), (5, 17))
+lightyear: ((10, 2), (18, 2))
+constellation: ((0, 3), (0, 15))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+galaxy: ((7, 0), (7, 5))
+moon: ((18, 15), (18, 18))
+nebula: ((4, 2), (4, 7))
+telescope: ((7, 18), (15, 18))
+rocket: ((7, 11), (12, 11))
+orbit: ((13, 4), (17, 4))
+universe: ((1, 19), (8, 19))
+meteor: ((0, 17), (5, 17))
+lightyear: ((10, 2), (18, 2))
+constellation: ((0, 3), (0, 15))
+
+Naïve Time taken: 0.0565 seconds
+Naïve Memory used: 0.00 MB

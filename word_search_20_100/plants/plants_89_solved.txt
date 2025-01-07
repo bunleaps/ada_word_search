@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| z  k  c  n  s  n  k  q  n  h  s  g  b  b  s  i  g  p  u  m |
+ 1| w  q  n  u  u  c  f  i  c  q  h  y  y  s  d  z  w  m  r  e |
+ 2| s  e  v  e  i  r  g  a  m  b  s  l  o  x  m  p  l  d  a  r |
+ 3| d  u  g  b  e  h  r  s  r  i  i  e  f  c  n  a  h  s  h  v |
+ 4| e  a  n  w  i  r  s  n  a  l  n  d  e  a  p  m  n  l  b  p |
+ 5| a  x  o  f  h  k  r  d  w  i  q  a  m  z  k  s  v  r  x  v |
+ 6| i  l  y  m  l  e  a  a  p  d  w  g  b  p  t  r  e  e  m  m |
+ 7| f  v  c  p  f  o  b  t  k  l  i  n  c  z  q  n  v  y  b  l |
+ 8| j  i  o  a  y  r  w  r  b  a  m  b  o  o  o  e  m  u  w  p |
+ 9| s  n  i  v  y  c  y  e  f  o  b  e  c  s  c  l  r  u  h  g |
+10| y  e  r  m  l  n  a  b  r  h  h  q  l  i  k  h  q  z  g  o |
+11| n  u  h  h  i  g  a  c  y  t  s  v  q  g  s  q  w  j  d  a |
+12| s  g  g  v  u  j  i  b  t  w  h  g  s  m  a  p  l  e  m  k |
+13| s  n  u  d  n  p  o  p  u  u  x  k  m  q  x  m  c  s  r  g |
+14| g  r  a  s  s  m  w  i  l  z  s  q  l  g  x  g  o  c  n  s |
+15| p  r  q  t  j  j  n  x  i  i  i  t  r  y  o  z  p  s  v  g |
+16| z  b  u  p  e  t  r  y  p  k  z  c  b  i  i  c  y  k  s  u |
+17| r  k  z  s  d  e  j  f  o  r  c  h  i  d  c  r  v  h  q  j |
+18| y  o  o  b  u  a  b  q  o  m  k  z  i  l  l  b  h  q  a  z |
+19| a  r  b  e  e  n  w  z  y  c  i  s  u  f  i  p  d  r  p  n |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tree: ((6, 14), (6, 17))
+grass: ((14, 0), (14, 4))
+vine: ((7, 1), (10, 1))
+bamboo: ((8, 8), (8, 13))
+oak: ((10, 19), (12, 19))
+maple: ((12, 13), (12, 17))
+tulip: ((12, 8), (16, 8))
+orchid: ((17, 8), (17, 13))
+ivy: ((9, 2), (9, 4))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((6, 14), (6, 17))
+grass: ((14, 0), (14, 4))
+vine: ((7, 1), (10, 1))
+bamboo: ((8, 8), (8, 13))
+oak: ((10, 19), (12, 19))
+maple: ((12, 13), (12, 17))
+tulip: ((12, 8), (16, 8))
+orchid: ((17, 8), (17, 13))
+ivy: ((9, 2), (9, 4))
+
+Naïve Time taken: 0.0601 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| p  h  c  f  p  v  s  o  g  h  c  a  b  p  v  o  c  b  u  q |
+ 1| o  o  i  r  r  b  y  m  h  a  t  k  o  y  b  o  y  r  w  s |
+ 2| s  t  k  y  b  d  n  q  l  i  j  e  i  h  k  b  j  n  d  q |
+ 3| c  z  y  f  u  s  w  w  x  l  l  s  q  y  y  l  i  h  m  a |
+ 4| y  p  x  o  r  q  n  y  j  z  k  s  i  e  r  i  n  z  s  h |
+ 5| b  f  l  g  r  o  w  y  z  i  p  o  u  e  l  z  z  v  c  u |
+ 6| e  c  d  q  y  o  s  i  i  y  a  i  d  p  q  z  q  g  v  r |
+ 7| u  n  y  d  n  p  r  t  d  r  u  n  r  j  w  a  r  m  b  r |
+ 8| j  g  f  s  g  d  h  n  v  i  u  r  j  a  q  r  b  v  j  i |
+ 9| l  i  g  h  t  n  i  n  g  h  m  n  i  t  i  d  a  v  l  c |
+10| r  b  p  o  h  w  x  c  t  t  x  c  g  l  j  n  s  t  t  a |
+11| t  y  y  q  a  l  c  u  s  q  q  v  p  p  r  g  y  u  o  n |
+12| d  e  j  k  b  t  y  u  v  o  w  h  j  o  v  p  p  t  r  e |
+13| u  p  h  t  e  c  o  l  d  s  h  l  y  x  s  c  p  g  n  h |
+14| w  v  u  t  l  l  c  x  u  u  v  z  a  h  z  o  s  k  a  v |
+15| k  e  m  v  u  d  p  m  w  n  h  s  t  e  o  o  e  g  d  d |
+16| o  x  i  d  r  v  j  n  q  n  t  j  i  y  m  l  r  l  o  f |
+17| q  y  d  h  f  o  g  g  y  y  h  b  r  e  e  z  e  y  n  x |
+18| n  q  v  q  x  z  y  s  q  j  c  d  z  c  t  a  t  d  q  e |
+19| d  s  g  q  t  s  t  o  r  m  y  y  e  i  y  m  y  v  l  t |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+sunny: ((13, 9), (17, 9))
+stormy: ((19, 5), (19, 10))
+foggy: ((17, 4), (17, 8))
+humid: ((13, 2), (17, 2))
+hot: ((0, 1), (2, 1))
+cold: ((13, 5), (13, 8))
+lightning: ((9, 0), (9, 8))
+breeze: ((17, 11), (17, 16))
+hail: ((0, 9), (3, 9))
+blizzard: ((2, 15), (9, 15))
+hurricane: ((4, 19), (12, 19))
+tornado: ((10, 18), (16, 18))
+
+DP Time taken: 0.0014 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+sunny: ((13, 9), (17, 9))
+stormy: ((19, 5), (19, 10))
+foggy: ((17, 4), (17, 8))
+humid: ((13, 2), (17, 2))
+hot: ((0, 1), (2, 1))
+cold: ((13, 5), (13, 8))
+lightning: ((9, 0), (9, 8))
+breeze: ((17, 11), (17, 16))
+hail: ((0, 9), (3, 9))
+blizzard: ((2, 15), (9, 15))
+hurricane: ((4, 19), (12, 19))
+tornado: ((10, 18), (16, 18))
+
+Naïve Time taken: 0.0868 seconds
+Naïve Memory used: 0.00 MB

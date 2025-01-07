@@ -1,0 +1,65 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| k  b  a  h  k  h  d  x  m  l  i  e  w  z  j  x  k  t  o  j |
+ 1| l  w  c  c  b  i  j  e  e  e  d  r  n  n  a  c  k  o  o  h |
+ 2| b  y  f  w  j  b  r  z  l  e  r  s  g  o  l  f  x  t  k  e |
+ 3| e  d  r  z  f  e  p  i  o  r  p  g  k  b  b  t  d  z  j  a |
+ 4| a  g  s  i  g  e  f  a  d  t  i  t  n  k  g  r  v  j  h  d |
+ 5| p  q  i  n  c  e  r  r  y  d  r  u  m  s  g  u  r  w  y  p |
+ 6| i  j  i  w  r  s  t  r  a  g  s  o  m  e  e  m  h  s  v  h |
+ 7| a  s  c  o  n  c  e  r  t  c  s  k  y  l  b  p  y  y  e  o |
+ 8| n  a  l  b  u  m  l  g  u  i  t  a  r  o  s  e  t  z  y  n |
+ 9| o  i  g  b  l  o  g  c  m  f  b  w  w  f  a  t  h  h  g  e |
+10| h  g  d  a  b  l  j  v  v  l  h  m  d  r  v  s  m  a  d  s |
+11| k  p  c  n  k  y  n  z  e  u  d  v  t  v  e  a  i  r  e  v |
+12| k  e  z  d  t  k  f  a  q  t  z  s  g  f  a  x  v  m  y  v |
+13| h  w  m  u  r  u  f  k  w  e  e  x  q  n  m  o  l  o  l  h |
+14| y  m  x  v  i  o  l  i  n  h  p  j  q  k  v  p  j  n  s  y |
+15| e  m  h  o  e  l  v  e  c  d  c  v  v  q  n  h  a  y  o  i |
+16| a  d  e  d  k  t  t  r  u  f  e  y  z  u  g  o  b  c  x  y |
+17| k  e  g  g  r  o  o  c  h  o  r  d  p  f  e  n  x  u  z  c |
+18| s  g  h  k  n  t  l  g  p  d  b  x  n  h  l  e  n  a  n  x |
+19| t  e  i  u  m  i  c  r  o  p  h  o  n  e  i  n  o  c  e  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((8, 7), (8, 12))
+piano: ((5, 0), (9, 0))
+drums: ((5, 9), (5, 13))
+violin: ((14, 3), (14, 8))
+flute: ((9, 9), (13, 9))
+saxophone: ((10, 15), (18, 15))
+trumpet: ((3, 15), (9, 15))
+band: ((9, 3), (12, 3))
+melody: ((0, 8), (5, 8))
+harmony: ((9, 17), (15, 17))
+rhythm: ((5, 16), (10, 16))
+chord: ((17, 7), (17, 11))
+concert: ((7, 2), (7, 8))
+album: ((8, 1), (8, 5))
+microphone: ((19, 4), (19, 13))
+headphones: ((1, 19), (10, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((8, 7), (8, 12))
+piano: ((5, 0), (9, 0))
+drums: ((5, 9), (5, 13))
+violin: ((14, 3), (14, 8))
+flute: ((9, 9), (13, 9))
+saxophone: ((10, 15), (18, 15))
+trumpet: ((3, 15), (9, 15))
+band: ((9, 3), (12, 3))
+melody: ((0, 8), (5, 8))
+harmony: ((9, 17), (15, 17))
+rhythm: ((5, 16), (10, 16))
+chord: ((17, 7), (17, 11))
+concert: ((7, 2), (7, 8))
+album: ((8, 1), (8, 5))
+microphone: ((19, 4), (19, 13))
+headphones: ((1, 19), (10, 19))
+
+Naïve Time taken: 0.0566 seconds
+Naïve Memory used: 0.00 MB

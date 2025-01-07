@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| y  h  r  p  b  q  x  i  e  u  f  l  w  w  w  y  i  j  q  h |
+ 1| y  q  f  x  z  k  r  q  k  s  v  d  l  h  l  k  f  f  d  p |
+ 2| t  h  m  t  g  m  m  g  r  a  s  s  h  o  p  p  e  r  w  s |
+ 3| f  o  g  o  c  m  w  q  g  e  i  e  s  u  i  y  k  e  i  l |
+ 4| l  j  p  u  t  c  t  u  r  q  d  o  m  l  q  k  k  k  i  a |
+ 5| e  k  u  b  g  h  b  g  y  m  k  w  v  n  s  n  g  c  q  w |
+ 6| a  m  c  y  b  y  h  l  k  u  n  h  t  d  i  t  s  t  w  r |
+ 7| a  r  c  j  d  o  f  d  a  p  o  i  t  d  m  b  b  e  a  e |
+ 8| s  y  a  a  h  n  v  x  m  a  m  c  p  g  u  e  e  r  s  e |
+ 9| r  t  l  x  o  s  b  x  h  v  n  z  x  e  f  f  e  m  p  z |
+10| y  m  k  g  z  x  y  b  o  g  d  t  e  v  y  l  h  i  c  l |
+11| x  k  a  f  c  o  c  k  r  o  a  c  h  q  c  w  z  t  x  m |
+12| n  r  d  c  u  n  o  n  l  n  y  b  o  s  u  g  h  e  s  w |
+13| d  v  q  y  e  r  o  e  h  d  m  l  x  p  o  a  l  u  y  y |
+14| a  o  o  p  o  k  x  e  e  g  a  q  w  i  o  b  d  l  n  o |
+15| b  z  b  x  m  w  l  n  l  e  d  s  v  d  a  r  f  k  n  r |
+16| g  r  b  u  t  t  e  r  f  l  y  n  c  e  x  z  d  s  n  i |
+17| b  w  x  c  e  s  c  r  y  y  f  a  a  r  q  h  y  r  q  j |
+18| r  f  j  e  r  r  i  m  o  s  q  u  i  t  o  i  d  h  n  g |
+19| g  k  b  f  d  y  l  k  n  p  n  d  g  u  m  k  h  u  g  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+bee: ((7, 16), (9, 16))
+butterfly: ((16, 2), (16, 10))
+mosquito: ((18, 7), (18, 14))
+cockroach: ((11, 4), (11, 12))
+fly: ((16, 8), (16, 10))
+spider: ((12, 13), (17, 13))
+grasshopper: ((2, 7), (2, 17))
+wasp: ((6, 18), (9, 18))
+flea: ((3, 0), (6, 0))
+termite: ((6, 17), (12, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+bee: ((7, 16), (9, 16))
+butterfly: ((16, 2), (16, 10))
+mosquito: ((18, 7), (18, 14))
+cockroach: ((11, 4), (11, 12))
+fly: ((16, 8), (16, 10))
+spider: ((12, 13), (17, 13))
+grasshopper: ((2, 7), (2, 17))
+wasp: ((6, 18), (9, 18))
+flea: ((3, 0), (6, 0))
+termite: ((6, 17), (12, 17))
+
+Naïve Time taken: 0.0426 seconds
+Naïve Memory used: 0.00 MB

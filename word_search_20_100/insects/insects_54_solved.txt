@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  b  r  p  c  o  c  k  r  o  a  c  h  b  m  t  r  t  p  g |
+ 1| s  c  k  q  b  m  s  h  v  o  s  l  n  s  v  t  x  r  q  r |
+ 2| o  o  m  h  u  v  p  j  d  r  a  g  o  n  f  l  y  e  p  a |
+ 3| o  f  g  p  t  o  a  t  f  b  i  y  k  l  v  s  t  f  v  s |
+ 4| a  p  s  j  t  i  p  r  d  v  y  w  w  o  a  i  j  w  f  s |
+ 5| n  a  d  h  e  j  p  e  c  y  c  t  p  m  m  s  b  w  h  h |
+ 6| w  h  g  j  r  f  x  v  l  y  l  q  s  r  c  v  y  c  o  o |
+ 7| l  z  n  j  f  v  c  g  j  s  c  w  e  e  i  k  q  t  h  p |
+ 8| e  l  b  t  l  f  v  w  t  e  t  t  h  k  t  e  i  r  c  p |
+ 9| g  b  f  o  y  l  q  k  f  a  x  b  f  z  x  u  f  l  y  e |
+10| t  d  p  k  c  e  w  r  l  b  g  f  j  c  q  z  w  d  w  r |
+11| j  r  s  q  h  a  w  u  v  e  s  h  t  s  r  o  h  b  p  a |
+12| t  r  l  d  w  p  e  m  l  x  i  u  o  z  e  u  c  o  r  q |
+13| b  u  a  y  c  b  n  t  f  s  l  m  x  l  a  p  a  a  w  l |
+14| d  e  d  n  s  f  e  d  h  p  j  d  c  r  t  n  l  i  v  r |
+15| p  a  y  o  s  e  b  e  a  i  v  q  q  e  j  b  t  k  h  h |
+16| r  k  b  c  b  c  u  a  a  d  t  b  p  j  d  y  h  h  b  n |
+17| v  c  u  t  a  h  d  c  d  e  m  y  f  c  b  t  d  a  j  e |
+18| l  z  g  e  u  g  h  q  f  r  d  l  l  k  o  t  q  x  j  l |
+19| e  e  u  r  y  d  b  k  m  b  w  i  g  m  q  s  d  t  l  i |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+butterfly: ((1, 4), (9, 4))
+ladybug: ((12, 2), (18, 2))
+cockroach: ((0, 4), (0, 12))
+fly: ((2, 14), (2, 16))
+spider: ((13, 9), (18, 9))
+grasshopper: ((0, 19), (10, 19))
+dragonfly: ((2, 8), (2, 16))
+flea: ((8, 5), (11, 5))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+butterfly: ((1, 4), (9, 4))
+ladybug: ((12, 2), (18, 2))
+cockroach: ((0, 4), (0, 12))
+fly: ((2, 14), (2, 16))
+spider: ((13, 9), (18, 9))
+grasshopper: ((0, 19), (10, 19))
+dragonfly: ((2, 8), (2, 16))
+flea: ((8, 5), (11, 5))
+
+Naïve Time taken: 0.0434 seconds
+Naïve Memory used: 0.00 MB

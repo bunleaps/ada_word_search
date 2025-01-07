@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| k  y  d  a  i  s  y  j  p  m  w  q  w  x  y  c  p  w  s  h |
+ 1| o  m  d  a  a  o  d  j  o  m  m  t  b  m  h  m  r  z  y  t |
+ 2| z  x  i  p  i  n  e  y  i  a  y  x  r  m  r  e  d  j  q  i |
+ 3| z  m  l  y  m  n  d  s  s  x  k  u  a  e  w  j  s  b  f  b |
+ 4| o  x  q  d  r  h  t  g  q  w  s  m  y  o  e  n  k  b  d  h |
+ 5| n  v  z  t  v  i  g  t  e  v  c  l  l  q  n  d  u  e  w  f |
+ 6| j  s  r  b  p  w  t  a  u  y  i  f  s  m  y  r  l  a  r  e |
+ 7| t  h  k  r  u  o  g  f  a  l  n  r  g  a  e  p  x  u  t  r |
+ 8| e  r  t  i  w  u  s  c  o  u  i  k  h  w  a  d  g  m  p  n |
+ 9| l  u  i  l  h  c  a  y  s  r  d  p  o  m  b  p  r  n  t  l |
+10| s  b  n  t  u  j  b  n  v  a  c  l  s  f  h  e  a  m  p  q |
+11| i  i  q  z  g  h  b  m  x  g  f  h  y  l  e  m  s  v  r  p |
+12| y  v  h  v  h  g  f  w  o  q  s  w  i  n  p  w  s  m  c  f |
+13| s  y  f  c  a  c  t  u  s  s  a  r  i  d  r  m  h  d  s  w |
+14| l  z  e  y  x  a  o  p  q  j  s  v  o  w  k  r  o  k  i  a |
+15| z  h  c  t  f  o  b  x  a  z  k  u  r  s  j  m  v  l  d  i |
+16| h  w  h  f  b  f  g  o  q  l  v  h  u  k  e  y  p  t  n  d |
+17| e  f  c  m  f  k  z  b  m  o  m  h  s  l  b  g  q  y  d  z |
+18| c  y  a  n  b  f  u  d  u  w  g  v  g  d  n  g  k  k  g  s |
+19| x  b  s  u  h  z  b  h  i  a  u  q  z  b  d  m  e  l  v  u |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+grass: ((8, 16), (12, 16))
+shrub: ((6, 1), (10, 1))
+fern: ((5, 19), (8, 19))
+cactus: ((13, 3), (13, 8))
+pine: ((2, 3), (2, 6))
+daisy: ((0, 2), (0, 6))
+ivy: ((11, 1), (13, 1))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+grass: ((8, 16), (12, 16))
+shrub: ((6, 1), (10, 1))
+fern: ((5, 19), (8, 19))
+cactus: ((13, 3), (13, 8))
+pine: ((2, 3), (2, 6))
+daisy: ((0, 2), (0, 6))
+ivy: ((11, 1), (13, 1))
+
+Naïve Time taken: 0.0708 seconds
+Naïve Memory used: 0.00 MB

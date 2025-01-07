@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| i  g  v  v  x  v  w  u  u  d  o  e  u  r  f  p  k  l  u  y |
+ 1| t  e  e  t  h  u  e  p  t  b  p  o  l  a  y  v  t  v  b  u |
+ 2| s  z  v  t  y  v  c  w  e  a  p  r  p  z  r  x  n  h  n  q |
+ 3| k  m  r  o  t  j  t  n  n  q  j  t  u  z  z  m  h  h  b  e |
+ 4| i  o  m  e  x  s  d  r  v  e  m  s  m  s  r  d  i  x  d  w |
+ 5| n  s  y  x  e  m  i  e  y  r  l  e  g  f  f  g  b  a  a  g |
+ 6| h  k  b  h  v  a  s  s  e  l  u  h  e  n  r  b  e  y  e  n |
+ 7| i  g  c  s  a  o  f  g  h  k  d  e  t  e  w  h  i  i  a  m |
+ 8| c  g  f  q  n  b  n  o  c  o  i  r  y  d  c  x  m  k  q  l |
+ 9| y  x  t  s  x  i  r  e  o  e  u  r  n  h  b  n  c  s  x  d |
+10| b  v  d  d  f  u  n  a  b  t  r  l  a  x  a  a  h  n  x  i |
+11| i  m  r  c  d  t  m  t  i  h  l  s  d  k  b  n  i  t  x  e |
+12| c  y  v  w  m  m  r  t  l  n  w  x  i  e  x  m  d  o  o  o |
+13| a  r  l  s  a  w  h  h  u  v  z  x  h  j  r  p  d  s  g  o |
+14| n  v  q  q  g  m  t  e  b  b  e  s  f  d  j  b  r  i  h  d |
+15| j  i  y  k  f  u  x  e  a  m  j  y  l  t  w  a  o  b  v  d |
+16| e  b  y  s  o  h  w  b  y  r  g  u  e  v  e  a  m  c  c  t |
+17| b  d  q  m  c  d  h  y  h  f  t  b  h  w  f  t  r  g  n  q |
+18| m  h  c  z  t  t  s  q  z  s  x  x  c  a  c  z  a  f  f  u |
+19| w  p  s  s  t  o  m  a  c  h  j  z  n  k  n  e  e  d  j  v |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+leg: ((5, 10), (5, 12))
+arm: ((18, 16), (16, 16))
+eye: ((6, 16), (6, 18))
+ear: ((19, 16), (17, 16))
+stomach: ((19, 3), (19, 9))
+knee: ((19, 13), (19, 16))
+toe: ((2, 3), (4, 3))
+skin: ((2, 0), (5, 0))
+teeth: ((1, 0), (1, 4))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+leg: ((5, 10), (5, 12))
+arm: ((18, 16), (16, 16))
+eye: ((6, 16), (6, 18))
+ear: ((19, 16), (17, 16))
+stomach: ((19, 3), (19, 9))
+knee: ((19, 13), (19, 16))
+toe: ((2, 3), (4, 3))
+skin: ((2, 0), (5, 0))
+teeth: ((1, 0), (1, 4))
+
+Naïve Time taken: 0.0652 seconds
+Naïve Memory used: 0.00 MB

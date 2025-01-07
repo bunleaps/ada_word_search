@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| q  v  m  u  s  e  u  m  m  m  i  q  v  q  p  u  v  r  x  d |
+ 1| u  e  i  y  t  d  p  p  f  o  y  d  e  s  e  r  t  j  o  m |
+ 2| m  t  x  l  i  a  x  c  a  a  u  e  p  t  m  j  y  f  r  n |
+ 3| k  x  z  m  l  i  x  t  o  e  k  n  l  k  o  q  w  s  c  r |
+ 4| y  c  f  q  t  a  l  f  o  a  e  o  t  y  p  v  h  x  o  i |
+ 5| p  w  m  s  w  j  g  a  g  w  i  w  a  a  f  p  r  r  n  y |
+ 6| o  s  i  x  i  q  g  e  h  n  n  g  u  f  i  s  x  d  t  f |
+ 7| h  y  v  d  w  x  s  m  p  x  s  m  w  g  k  n  t  o  i  o |
+ 8| m  i  t  j  s  v  j  c  h  l  f  f  k  k  k  o  k  x  n  m |
+ 9| d  t  w  c  t  o  z  c  h  l  q  v  o  a  l  n  y  v  e  k |
+10| k  f  f  v  u  c  a  r  q  o  a  s  s  r  o  a  d  m  n  o |
+11| r  i  v  e  r  e  x  p  b  k  o  k  p  p  e  n  g  p  t  v |
+12| q  h  m  z  b  a  c  c  e  q  l  l  e  o  a  s  n  a  u  i |
+13| u  z  s  y  z  r  d  h  o  v  d  h  o  l  g  r  t  i  y  z |
+14| s  x  w  w  w  c  a  n  u  u  c  j  s  s  d  t  k  c  y  v |
+15| w  t  o  t  z  v  i  t  e  r  n  i  s  e  e  p  g  w  p  d |
+16| o  n  e  r  o  j  j  t  y  m  c  t  d  e  w  h  o  h  a  c |
+17| w  b  d  h  o  b  t  k  y  s  f  h  r  e  q  y  r  r  k  h |
+18| i  j  h  o  s  p  i  t  a  l  k  t  b  y  d  n  g  y  g  s |
+19| i  b  b  c  y  j  m  m  r  e  s  t  a  u  r  a  n  t  r  j |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+river: ((11, 0), (11, 4))
+desert: ((1, 11), (1, 16))
+continent: ((3, 18), (11, 18))
+road: ((10, 13), (10, 16))
+hospital: ((18, 2), (18, 9))
+museum: ((0, 2), (0, 7))
+restaurant: ((19, 8), (19, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+river: ((11, 0), (11, 4))
+desert: ((1, 11), (1, 16))
+continent: ((3, 18), (11, 18))
+road: ((10, 13), (10, 16))
+hospital: ((18, 2), (18, 9))
+museum: ((0, 2), (0, 7))
+restaurant: ((19, 8), (19, 17))
+
+Naïve Time taken: 0.0601 seconds
+Naïve Memory used: 0.00 MB

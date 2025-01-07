@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| h  a  c  z  g  s  s  y  y  d  r  g  d  s  e  i  n  q  s  w |
+ 1| u  w  b  b  f  a  h  u  k  e  y  b  o  a  r  d  x  w  x  b |
+ 2| m  d  n  s  o  t  u  k  o  v  k  w  q  c  a  m  e  r  a  k |
+ 3| o  x  x  v  x  e  c  o  d  i  n  g  f  i  k  y  v  l  y  m |
+ 4| c  m  h  g  e  l  j  s  i  n  q  n  h  n  e  n  v  t  s  o |
+ 5| h  y  a  q  s  l  v  m  y  e  w  j  r  t  x  j  g  r  o  n |
+ 6| i  w  y  h  k  i  v  a  h  t  g  r  m  e  r  n  m  l  f  i |
+ 7| p  c  h  f  v  t  z  r  e  w  d  i  a  r  n  v  b  u  t  t |
+ 8| c  t  r  r  h  e  t  t  h  o  c  t  i  n  t  h  q  i  w  o |
+ 9| c  f  f  i  i  e  t  p  a  r  v  o  i  e  a  g  l  g  a  r |
+10| y  z  l  t  l  g  i  h  r  k  p  o  m  t  a  h  p  l  r  d |
+11| z  r  o  b  o  t  y  o  d  d  r  s  a  p  x  m  e  h  e  o |
+12| z  y  a  o  b  k  l  n  w  r  i  d  l  z  u  e  e  m  s  e |
+13| f  t  e  h  x  g  c  e  a  o  n  l  l  c  l  t  t  a  a  s |
+14| f  z  p  l  a  t  v  h  r  n  t  o  y  i  l  z  e  q  m  y |
+15| g  s  y  z  b  h  I  a  e  e  e  g  i  e  x  o  y  r  x  a |
+16| x  z  p  y  t  A  q  p  q  c  r  w  s  o  w  z  u  e  w  f |
+17| p  n  w  t  a  c  n  u  m  w  o  u  r  g  c  r  h  d  a  o |
+18| o  f  s  l  y  k  r  f  c  n  o  k  w  l  z  e  b  q  e  e |
+19| z  b  p  y  o  u  l  z  y  m  p  w  m  z  b  v  t  d  q  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+smartphone: ((4, 7), (13, 7))
+internet: ((3, 13), (10, 13))
+software: ((4, 18), (11, 18))
+hardware: ((8, 8), (15, 8))
+keyboard: ((1, 8), (1, 15))
+monitor: ((3, 19), (9, 19))
+printer: ((10, 10), (16, 10))
+camera: ((2, 13), (2, 18))
+drone: ((11, 9), (15, 9))
+coding: ((3, 6), (3, 11))
+network: ((4, 9), (10, 9))
+robot: ((11, 1), (11, 5))
+chip: ((4, 0), (7, 0))
+satellite: ((0, 5), (8, 5))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+smartphone: ((4, 7), (13, 7))
+internet: ((3, 13), (10, 13))
+software: ((4, 18), (11, 18))
+hardware: ((8, 8), (15, 8))
+keyboard: ((1, 8), (1, 15))
+monitor: ((3, 19), (9, 19))
+printer: ((10, 10), (16, 10))
+camera: ((2, 13), (2, 18))
+drone: ((11, 9), (15, 9))
+coding: ((3, 6), (3, 11))
+network: ((4, 9), (10, 9))
+robot: ((11, 1), (11, 5))
+chip: ((4, 0), (7, 0))
+satellite: ((0, 5), (8, 5))
+
+Naïve Time taken: 0.0535 seconds
+Naïve Memory used: 0.00 MB

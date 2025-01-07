@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| m  w  v  f  w  q  y  d  n  k  c  y  m  j  z  i  y  l  i  k |
+ 1| n  t  r  p  m  v  a  a  c  y  g  l  o  g  j  x  k  h  k  y |
+ 2| g  q  s  h  e  n  n  a  n  j  r  b  i  a  h  b  p  l  p  s |
+ 3| s  r  l  h  c  n  s  i  s  x  u  h  y  p  u  z  j  f  p  d |
+ 4| e  v  n  h  a  p  h  h  i  u  q  f  p  e  b  n  e  r  f  z |
+ 5| c  w  k  z  d  r  k  z  s  y  v  a  g  p  u  o  e  j  r  k |
+ 6| m  l  g  t  f  r  p  r  k  e  r  a  s  e  r  p  a  e  t  m |
+ 7| k  z  c  p  r  k  o  e  p  e  n  c  i  l  a  d  k  r  w  t |
+ 8| e  b  o  o  k  s  o  y  n  b  q  r  j  p  a  r  a  w  d  c |
+ 9| x  c  p  t  s  n  h  m  w  e  o  a  f  e  a  s  c  r  r  f |
+10| r  v  d  i  f  l  o  j  b  t  r  b  o  m  r  m  d  u  z  x |
+11| q  e  c  d  t  o  k  t  a  f  c  h  a  l  k  k  z  l  x  n |
+12| e  s  n  j  s  y  l  l  e  o  r  r  v  m  u  n  q  e  r  s |
+13| r  u  q  u  o  m  u  d  y  b  p  i  g  g  w  w  r  r  i  k |
+14| s  q  o  u  d  c  e  h  e  j  o  f  p  z  l  x  i  t  c  w |
+15| x  b  c  z  l  m  o  c  v  r  m  o  e  b  t  u  u  y  f  y |
+16| f  l  y  a  w  r  f  l  z  h  v  g  k  f  g  a  e  a  p  m |
+17| g  t  c  g  z  x  h  i  g  h  l  i  g  h  t  e  r  h  p  r |
+18| c  r  a  y  o  n  s  r  y  i  v  f  e  u  y  m  b  a  g  s |
+19| b  i  b  f  h  t  a  j  x  v  s  t  a  p  l  e  r  q  n  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pencil: ((7, 8), (7, 13))
+pen: ((7, 8), (7, 10))
+ruler: ((9, 17), (13, 17))
+eraser: ((6, 9), (6, 14))
+chalk: ((11, 10), (11, 14))
+book: ((8, 1), (8, 4))
+bag: ((18, 16), (18, 18))
+stapler: ((19, 10), (19, 16))
+highlighter: ((17, 6), (17, 16))
+crayons: ((18, 0), (18, 6))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pencil: ((7, 8), (7, 13))
+pen: ((7, 8), (7, 10))
+ruler: ((9, 17), (13, 17))
+eraser: ((6, 9), (6, 14))
+chalk: ((11, 10), (11, 14))
+book: ((8, 1), (8, 4))
+bag: ((18, 16), (18, 18))
+stapler: ((19, 10), (19, 16))
+highlighter: ((17, 6), (17, 16))
+crayons: ((18, 0), (18, 6))
+
+Naïve Time taken: 0.0645 seconds
+Naïve Memory used: 0.00 MB

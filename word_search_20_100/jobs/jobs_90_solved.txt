@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| k  c  p  j  a  c  c  o  u  n  t  a  n  t  c  j  k  h  f  n |
+ 1| i  i  l  u  z  x  h  u  v  s  x  m  e  c  h  a  n  i  c  n |
+ 2| g  z  a  d  z  b  d  s  z  w  p  r  q  t  e  n  p  h  u  w |
+ 3| n  v  w  p  r  e  t  s  f  b  e  w  c  y  f  t  o  k  z  x |
+ 4| u  v  y  n  p  x  y  p  z  h  g  e  g  o  o  x  l  r  h  p |
+ 5| r  p  e  i  y  z  m  r  p  a  t  e  g  h  c  f  i  i  z  r |
+ 6| s  d  r  m  l  k  e  a  t  i  p  v  w  z  h  l  c  v  l  o |
+ 7| e  h  u  b  b  h  r  h  h  x  f  e  n  g  i  n  e  e  r  g |
+ 8| v  p  j  y  c  g  e  c  q  r  l  a  h  s  w  r  l  o  f  r |
+ 9| f  t  q  a  o  l  r  z  o  f  i  d  q  t  e  r  c  r  r  a |
+10| t  h  e  t  e  a  x  t  d  c  o  p  y  m  e  w  w  t  h  m |
+11| n  t  o  z  v  v  c  x  i  q  y  y  r  t  q  z  s  n  s  m |
+12| c  h  n  o  h  o  t  s  j  g  p  a  i  y  p  i  i  o  t  e |
+13| p  z  c  y  d  s  u  i  l  b  f  r  l  z  t  f  n  r  t  r |
+14| t  l  f  o  i  m  f  f  o  f  w  v  o  r  n  g  j  h  l  m |
+15| b  p  z  t  e  p  b  b  q  j  p  z  a  z  t  w  w  c  g  a |
+16| x  h  n  u  w  m  s  c  i  e  n  t  i  s  t  n  a  p  e  v |
+17| v  e  n  w  v  r  u  n  p  i  l  o  t  m  y  e  m  b  v  s |
+18| d  p  s  j  y  w  s  w  s  u  v  c  h  x  k  l  t  i  h  o |
+19| a  o  z  f  i  r  e  f  i  g  h  t  e  r  j  i  j  i  v  z |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+engineer: ((7, 11), (7, 18))
+lawyer: ((1, 2), (6, 2))
+nurse: ((3, 0), (7, 0))
+chef: ((0, 14), (3, 14))
+pilot: ((17, 8), (17, 12))
+scientist: ((16, 6), (16, 14))
+firefighter: ((19, 3), (19, 13))
+police: ((2, 16), (7, 16))
+mechanic: ((1, 11), (1, 18))
+accountant: ((0, 4), (0, 13))
+programmer: ((4, 19), (13, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+engineer: ((7, 11), (7, 18))
+lawyer: ((1, 2), (6, 2))
+nurse: ((3, 0), (7, 0))
+chef: ((0, 14), (3, 14))
+pilot: ((17, 8), (17, 12))
+scientist: ((16, 6), (16, 14))
+firefighter: ((19, 3), (19, 13))
+police: ((2, 16), (7, 16))
+mechanic: ((1, 11), (1, 18))
+accountant: ((0, 4), (0, 13))
+programmer: ((4, 19), (13, 19))
+
+Naïve Time taken: 0.0514 seconds
+Naïve Memory used: 0.00 MB

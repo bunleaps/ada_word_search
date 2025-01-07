@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| r  c  x  y  s  w  i  m  m  i  n  g  s  k  i  i  n  g  l  u |
+ 1| f  g  y  m  n  a  s  t  i  c  s  f  e  n  c  i  n  g  g  m |
+ 2| q  m  i  b  s  d  s  n  o  w  b  o  a  r  d  i  n  g  g  o |
+ 3| f  x  w  o  w  u  r  n  s  o  c  c  e  r  l  i  n  n  d  k |
+ 4| t  m  t  n  x  j  r  b  t  x  g  t  b  d  j  i  i  y  h  x |
+ 5| v  n  a  u  q  y  o  f  z  n  l  r  g  z  l  x  l  d  v  t |
+ 6| r  o  w  i  n  g  k  y  i  i  x  b  l  i  o  y  w  v  a  e |
+ 7| v  u  l  u  f  w  e  t  c  n  l  r  a  b  w  t  n  c  s  n |
+ 8| y  w  n  l  h  g  a  z  d  u  g  s  u  s  z  a  n  m  u  n |
+ 9| a  r  i  x  e  k  o  x  j  u  d  o  m  g  e  p  j  c  l  i |
+10| k  e  l  h  s  y  g  l  g  f  x  a  y  u  b  b  q  l  g  s |
+11| a  s  q  x  o  v  b  n  f  w  b  r  k  m  c  y  a  n  r  i |
+12| r  t  g  f  d  c  i  a  n  a  e  g  p  y  x  b  i  l  d  j |
+13| a  l  c  w  q  l  k  o  l  h  y  r  n  h  t  v  o  h  l  n |
+14| t  i  d  m  c  i  h  e  c  l  i  l  w  e  i  b  p  p  x  d |
+15| e  n  j  y  e  t  b  r  y  x  k  u  k  d  j  t  e  q  l  k |
+16| n  g  c  c  a  j  a  u  n  e  m  s  f  m  b  a  h  s  k  j |
+17| a  i  b  r  j  e  j  e  x  w  a  q  k  l  v  o  k  j  r  b |
+18| g  a  a  s  z  r  x  g  c  b  p  g  s  o  g  i  c  q  n  y |
+19| u  m  s  c  r  i  c  k  e  t  y  g  i  q  n  b  k  q  z  e |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+soccer: ((3, 8), (3, 13))
+tennis: ((5, 19), (10, 19))
+cricket: ((19, 3), (19, 9))
+karate: ((10, 0), (15, 0))
+wrestling: ((8, 1), (16, 1))
+gymnastics: ((1, 1), (1, 10))
+judo: ((9, 8), (9, 11))
+swimming: ((0, 4), (0, 11))
+skiing: ((0, 12), (0, 17))
+snowboarding: ((2, 6), (2, 17))
+fencing: ((1, 11), (1, 17))
+rowing: ((6, 0), (6, 5))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+soccer: ((3, 8), (3, 13))
+tennis: ((5, 19), (10, 19))
+cricket: ((19, 3), (19, 9))
+karate: ((10, 0), (15, 0))
+wrestling: ((8, 1), (16, 1))
+gymnastics: ((1, 1), (1, 10))
+judo: ((9, 8), (9, 11))
+swimming: ((0, 4), (0, 11))
+skiing: ((0, 12), (0, 17))
+snowboarding: ((2, 6), (2, 17))
+fencing: ((1, 11), (1, 17))
+rowing: ((6, 0), (6, 5))
+
+Naïve Time taken: 0.0668 seconds
+Naïve Memory used: 0.00 MB

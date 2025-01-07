@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| s  p  r  e  m  i  e  r  e  b |
+ 1| c  i  h  e  r  o  n  m  g  a |
+ 2| r  p  s  e  q  u  e  l  h  p |
+ 3| i  g  a  c  t  o  r  y  d  o |
+ 4| p  d  i  r  e  c  t  o  r  p |
+ 5| t  v  i  l  l  a  i  n  a  c |
+ 6| y  a  c  t  r  e  s  s  m  o |
+ 7| r  o  m  a  n  c  e  o  a  r |
+ 8| t  r  a  i  l  e  r  v  j  n |
+ 9| t  c  i  n  e  m  a  y  l  c |
+  +------------------------------+
+Dynamic Programming Solution:
+actor: ((3, 2), (3, 6))
+actress: ((6, 1), (6, 7))
+director: ((4, 1), (4, 8))
+cinema: ((9, 1), (9, 6))
+script: ((0, 0), (5, 0))
+popcorn: ((2, 9), (8, 9))
+trailer: ((8, 0), (8, 6))
+sequel: ((2, 2), (2, 7))
+premiere: ((0, 1), (0, 8))
+villain: ((5, 1), (5, 7))
+hero: ((1, 2), (1, 5))
+romance: ((7, 0), (7, 6))
+drama: ((3, 8), (7, 8))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+actor: ((3, 2), (3, 6))
+actress: ((6, 1), (6, 7))
+director: ((4, 1), (4, 8))
+cinema: ((9, 1), (9, 6))
+script: ((0, 0), (5, 0))
+popcorn: ((2, 9), (8, 9))
+trailer: ((8, 0), (8, 6))
+sequel: ((2, 2), (2, 7))
+premiere: ((0, 1), (0, 8))
+villain: ((5, 1), (5, 7))
+hero: ((1, 2), (1, 5))
+romance: ((7, 0), (7, 6))
+drama: ((3, 8), (7, 8))
+
+Naïve Time taken: 0.0090 seconds
+Naïve Memory used: 0.00 MB

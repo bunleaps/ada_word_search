@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  g  p  b  s  o  v  o  v  p  s  r  i  e  e  x  f  q  a  t |
+ 1| d  c  t  q  a  o  s  y  i  z  a  s  u  s  h  i  j  i  y  v |
+ 2| u  y  a  d  l  n  o  a  i  c  f  s  u  r  m  q  p  x  s  r |
+ 3| g  k  c  s  a  m  a  y  f  b  e  i  t  b  f  q  o  b  q  c |
+ 4| s  c  o  v  d  z  r  f  h  w  u  c  g  a  m  o  g  z  i  u |
+ 5| b  b  r  i  z  x  k  c  m  z  d  r  r  g  x  e  q  q  u  s |
+ 6| y  l  f  i  n  k  x  b  k  a  a  f  r  e  c  u  r  r  y  x |
+ 7| z  k  p  d  b  o  e  o  e  y  r  b  z  i  a  d  h  b  f  q |
+ 8| y  k  h  c  u  p  o  r  m  h  j  u  w  l  t  m  v  z  z  o |
+ 9| x  c  l  p  h  r  b  d  h  t  z  r  f  k  w  o  c  g  c  f |
+10| d  h  p  v  l  o  o  k  l  a  r  g  c  v  j  o  s  q  a  f |
+11| l  e  b  q  r  l  c  c  j  e  w  e  g  b  y  e  w  a  k  m |
+12| c  e  h  h  e  m  b  o  o  x  s  r  c  h  m  u  a  k  e  s |
+13| x  s  o  u  p  i  g  m  l  o  z  p  f  l  t  u  y  p  s  b |
+14| j  e  t  y  r  l  y  x  h  a  k  l  f  w  v  g  e  e  w  r |
+15| l  m  y  z  l  o  r  c  b  h  t  i  y  o  q  l  k  b  g  g |
+16| a  d  s  a  n  d  w  i  c  h  b  e  e  f  b  s  b  j  w  j |
+17| b  e  u  x  v  a  s  v  c  z  d  w  e  s  f  e  j  l  i  q |
+18| z  z  s  t  e  a  k  a  n  e  k  w  x  c  i  o  z  h  v  v |
+19| s  z  s  b  t  l  f  i  x  x  j  w  a  p  m  m  l  f  c  b |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+burger: ((7, 11), (12, 11))
+sandwich: ((16, 2), (16, 9))
+salad: ((0, 4), (4, 4))
+soup: ((13, 1), (13, 4))
+steak: ((18, 2), (18, 6))
+sushi: ((1, 11), (1, 15))
+taco: ((1, 2), (4, 2))
+curry: ((6, 14), (6, 18))
+cheese: ((9, 1), (14, 1))
+cake: ((9, 18), (12, 18))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+burger: ((7, 11), (12, 11))
+sandwich: ((16, 2), (16, 9))
+salad: ((0, 4), (4, 4))
+soup: ((13, 1), (13, 4))
+steak: ((18, 2), (18, 6))
+sushi: ((1, 11), (1, 15))
+taco: ((1, 2), (4, 2))
+curry: ((6, 14), (6, 18))
+cheese: ((9, 1), (14, 1))
+cake: ((9, 18), (12, 18))
+
+Naïve Time taken: 0.0555 seconds
+Naïve Memory used: 0.00 MB

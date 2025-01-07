@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  p  o  o  t  p  l  m  q  t  d  t  w  m  a  o  d  k  g  n |
+ 1| q  w  r  s  f  i  i  h  z  q  t  k  y  g  h  f  c  v  r  u |
+ 2| y  c  b  b  l  a  c  k  h  o  l  e  x  p  j  p  f  n  u  y |
+ 3| x  k  i  z  q  r  c  o  n  s  t  e  l  l  a  t  i  o  n  q |
+ 4| z  p  t  l  z  d  b  s  k  o  h  j  y  a  x  j  s  r  t  k |
+ 5| t  d  p  r  i  y  a  f  t  y  k  c  y  s  m  r  x  q  n  l |
+ 6| u  z  u  l  z  m  z  q  g  a  o  f  q  t  n  o  m  u  s  i |
+ 7| n  q  e  e  a  r  g  s  f  i  r  k  o  e  o  c  m  c  o  g |
+ 8| i  f  h  l  r  n  m  e  t  e  o  r  f  r  m  k  e  s  l  h |
+ 9| v  s  m  o  o  n  e  j  i  h  o  k  s  o  o  e  g  s  a  t |
+10| e  h  d  s  p  j  v  t  y  l  v  x  w  i  w  t  m  p  r  y |
+11| r  d  i  a  a  k  z  s  o  x  n  t  a  d  d  u  m  a  c  e |
+12| s  d  q  t  o  a  l  t  p  c  u  l  o  h  t  g  y  c  s  a |
+13| e  x  c  e  k  n  l  d  l  a  u  a  c  l  w  x  t  e  y  r |
+14| h  a  m  l  c  a  h  i  n  b  t  f  y  h  a  y  i  c  s  p |
+15| g  n  a  l  t  x  z  o  e  e  y  r  s  l  i  x  h  r  t  b |
+16| o  g  i  i  i  x  r  n  u  n  i  n  a  h  h  l  k  a  e  o |
+17| r  u  t  t  f  t  s  u  x  q  s  g  x  h  a  p  c  f  m  b |
+18| g  i  j  e  s  x  p  c  z  c  o  m  e  t  c  y  q  t  j  v |
+19| c  m  h  a  j  m  t  e  l  e  s  c  o  p  e  u  i  f  e  n |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+moon: ((9, 2), (9, 5))
+asteroid: ((4, 13), (11, 13))
+comet: ((18, 9), (18, 13))
+blackhole: ((2, 3), (2, 11))
+satellite: ((10, 3), (18, 3))
+telescope: ((19, 6), (19, 14))
+rocket: ((5, 15), (10, 15))
+spacecraft: ((9, 17), (18, 17))
+orbit: ((0, 2), (4, 2))
+universe: ((6, 0), (13, 0))
+meteor: ((8, 6), (8, 11))
+lightyear: ((5, 19), (13, 19))
+constellation: ((3, 6), (3, 18))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+moon: ((9, 2), (9, 5))
+asteroid: ((4, 13), (11, 13))
+comet: ((18, 9), (18, 13))
+blackhole: ((2, 3), (2, 11))
+satellite: ((10, 3), (18, 3))
+telescope: ((19, 6), (19, 14))
+rocket: ((5, 15), (10, 15))
+spacecraft: ((9, 17), (18, 17))
+orbit: ((0, 2), (4, 2))
+universe: ((6, 0), (13, 0))
+meteor: ((8, 6), (8, 11))
+lightyear: ((5, 19), (13, 19))
+constellation: ((3, 6), (3, 18))
+
+Naïve Time taken: 0.0495 seconds
+Naïve Memory used: 0.00 MB

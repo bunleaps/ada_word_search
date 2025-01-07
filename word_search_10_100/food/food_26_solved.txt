@@ -1,0 +1,39 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| p  s  r  p  s  c  a  k  e  w |
+ 1| i  b  a  w  i  u  y  z  a  l |
+ 2| e  c  u  n  z  z  s  t  y  n |
+ 3| u  s  u  r  d  s  z  h  t  o |
+ 4| s  a  p  r  g  w  o  a  i  o |
+ 5| t  l  a  r  r  e  i  u  o  d |
+ 6| e  a  s  s  u  y  r  c  p  l |
+ 7| a  d  t  b  r  e  a  d  h  e |
+ 8| k  q  a  b  l  t  d  q  i  s |
+ 9| u  l  h  r  i  c  e  k  f  q |
+  +------------------------------+
+Dynamic Programming Solution:
+pasta: ((4, 2), (8, 2))
+salad: ((3, 1), (7, 1))
+steak: ((4, 0), (8, 0))
+rice: ((9, 3), (9, 6))
+noodles: ((2, 9), (8, 9))
+bread: ((7, 3), (7, 7))
+cake: ((0, 5), (0, 8))
+pie: ((0, 0), (2, 0))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pasta: ((4, 2), (8, 2))
+salad: ((3, 1), (7, 1))
+steak: ((4, 0), (8, 0))
+rice: ((9, 3), (9, 6))
+noodles: ((2, 9), (8, 9))
+bread: ((7, 3), (7, 7))
+cake: ((0, 5), (0, 8))
+pie: ((0, 0), (2, 0))
+
+Naïve Time taken: 0.0140 seconds
+Naïve Memory used: 0.00 MB

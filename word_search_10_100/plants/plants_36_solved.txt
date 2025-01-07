@@ -1,0 +1,45 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| r  o  s  e  t  u  l  i  p  e |
+ 1| f  g  k  c  o  p  a  l  m  u |
+ 2| s  d  r  f  a  a  w  e  f  p |
+ 3| h  a  b  a  l  c  k  w  e  i |
+ 4| r  i  v  a  s  o  t  m  r  n |
+ 5| u  s  m  i  m  s  w  u  n  e |
+ 6| b  y  v  o  n  b  j  e  s  k |
+ 7| l  i  l  y  s  e  o  g  r  p |
+ 8| m  a  p  l  e  s  x  o  k  n |
+ 9| h  e  t  r  e  e  i  v  y  b |
+  +------------------------------+
+Dynamic Programming Solution:
+tree: ((9, 2), (9, 5))
+shrub: ((2, 0), (6, 0))
+fern: ((2, 8), (5, 8))
+pine: ((2, 9), (5, 9))
+maple: ((8, 0), (8, 4))
+rose: ((0, 0), (0, 3))
+tulip: ((0, 4), (0, 8))
+daisy: ((2, 1), (6, 1))
+lily: ((7, 0), (7, 3))
+ivy: ((9, 6), (9, 8))
+palm: ((1, 5), (1, 8))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((9, 2), (9, 5))
+shrub: ((2, 0), (6, 0))
+fern: ((2, 8), (5, 8))
+pine: ((2, 9), (5, 9))
+maple: ((8, 0), (8, 4))
+rose: ((0, 0), (0, 3))
+tulip: ((0, 4), (0, 8))
+daisy: ((2, 1), (6, 1))
+lily: ((7, 0), (7, 3))
+ivy: ((9, 6), (9, 8))
+palm: ((1, 5), (1, 8))
+
+Naïve Time taken: 0.0120 seconds
+Naïve Memory used: 0.00 MB

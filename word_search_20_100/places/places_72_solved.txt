@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  n  c  b  l  m  v  t  v  i  l  l  a  g  e  b  i  k  p  k |
+ 1| d  o  h  s  k  a  s  f  p  a  r  k  s  w  g  s  k  x  r  r |
+ 2| x  y  u  g  x  j  k  j  x  w  z  n  x  v  l  m  u  y  n  n |
+ 3| a  t  r  e  t  t  t  e  s  z  a  x  a  a  v  a  i  p  b  p |
+ 4| q  j  c  t  e  t  f  d  e  s  e  r  t  r  g  r  a  a  y  g |
+ 5| f  g  h  e  l  b  o  w  o  b  x  f  l  u  i  b  b  i  x  c |
+ 6| d  j  r  e  k  m  r  n  t  s  p  i  d  y  r  v  z  f  v  l |
+ 7| q  t  m  s  o  n  e  y  f  r  z  j  v  p  h  q  e  v  m  r |
+ 8| s  n  z  l  r  m  s  a  h  d  s  e  w  r  t  i  r  r  n  d |
+ 9| v  w  v  e  o  u  t  a  h  n  f  z  m  u  v  g  l  r  y  g |
+10| p  f  v  r  a  s  n  u  l  e  m  c  f  x  i  j  v  e  s  u |
+11| c  h  c  k  d  e  s  r  t  w  b  t  i  c  k  h  h  s  m  h |
+12| o  l  c  x  x  u  e  n  o  p  r  a  z  t  l  e  g  t  o  j |
+13| u  e  p  r  l  m  e  m  b  j  a  n  p  o  y  j  x  a  u  i |
+14| n  d  g  m  q  n  z  g  f  c  n  e  o  b  n  s  w  u  n  c |
+15| t  t  z  f  i  i  s  l  a  n  d  h  p  w  p  u  o  r  t  x |
+16| r  q  o  t  c  j  c  x  u  d  c  j  o  f  t  p  g  a  a  r |
+17| y  l  n  y  j  u  a  s  q  s  m  t  l  m  n  o  v  n  i  z |
+18| b  o  x  r  l  x  s  h  h  o  s  p  i  t  a  l  p  t  n  i |
+19| c  v  c  i  x  x  p  l  y  b  e  a  c  h  k  w  l  h  o  s |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+village: ((0, 8), (0, 14))
+park: ((1, 8), (1, 11))
+beach: ((19, 9), (19, 13))
+mountain: ((11, 18), (18, 18))
+forest: ((4, 6), (9, 6))
+desert: ((4, 7), (4, 12))
+island: ((15, 5), (15, 10))
+country: ((11, 0), (17, 0))
+road: ((8, 4), (11, 4))
+hospital: ((18, 8), (18, 15))
+museum: ((8, 5), (13, 5))
+church: ((0, 2), (5, 2))
+restaurant: ((9, 17), (18, 17))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+village: ((0, 8), (0, 14))
+park: ((1, 8), (1, 11))
+beach: ((19, 9), (19, 13))
+mountain: ((11, 18), (18, 18))
+forest: ((4, 6), (9, 6))
+desert: ((4, 7), (4, 12))
+island: ((15, 5), (15, 10))
+country: ((11, 0), (17, 0))
+road: ((8, 4), (11, 4))
+hospital: ((18, 8), (18, 15))
+museum: ((8, 5), (13, 5))
+church: ((0, 2), (5, 2))
+restaurant: ((9, 17), (18, 17))
+
+Naïve Time taken: 0.0510 seconds
+Naïve Memory used: 0.00 MB

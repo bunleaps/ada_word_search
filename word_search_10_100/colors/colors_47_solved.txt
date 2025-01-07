@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| y  p  i  n  k  h  b  o  n  b |
+ 1| c  r  k  o  n  a  r  l  a  e |
+ 2| g  q  e  e  r  i  o  i  v  i |
+ 3| v  r  e  d  b  a  w  v  y  g |
+ 4| d  r  a  d  l  l  n  e  z  e |
+ 5| g  b  l  y  u  s  a  g  g  c |
+ 6| q  o  k  u  e  v  l  c  e  y |
+ 7| g  c  p  u  r  p  l  e  k  a |
+ 8| r  w  h  i  t  e  a  l  f  n |
+ 9| o  g  r  y  e  l  l  o  w  g |
+  +------------------------------+
+Dynamic Programming Solution:
+red: ((3, 1), (3, 3))
+blue: ((3, 4), (6, 4))
+yellow: ((9, 3), (9, 8))
+purple: ((7, 2), (7, 7))
+pink: ((0, 1), (0, 4))
+white: ((8, 1), (8, 5))
+brown: ((0, 6), (4, 6))
+cyan: ((5, 9), (8, 9))
+navy: ((0, 8), (3, 8))
+teal: ((8, 4), (8, 7))
+beige: ((0, 9), (4, 9))
+olive: ((0, 7), (4, 7))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+red: ((3, 1), (3, 3))
+blue: ((3, 4), (6, 4))
+yellow: ((9, 3), (9, 8))
+purple: ((7, 2), (7, 7))
+pink: ((0, 1), (0, 4))
+white: ((8, 1), (8, 5))
+brown: ((0, 6), (4, 6))
+cyan: ((5, 9), (8, 9))
+navy: ((0, 8), (3, 8))
+teal: ((8, 4), (8, 7))
+beige: ((0, 9), (4, 9))
+olive: ((0, 7), (4, 7))
+
+Naïve Time taken: 0.0141 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,35 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| c  o  m  e  t  j  c  l  a  b |
+ 1| p  l  a  n  e  t  t  l  s  l |
+ 2| o  r  b  i  t  y  c  e  t  a |
+ 3| s  m  c  s  x  o  s  d  e  c |
+ 4| v  m  e  a  t  r  u  a  r  k |
+ 5| k  m  l  t  e  a  l  y  o  h |
+ 6| w  a  o  v  e  u  r  m  i  o |
+ 7| g  k  i  o  b  o  x  k  d  l |
+ 8| q  n  f  e  n  k  r  v  q  e |
+ 9| u  m  n  r  o  c  k  e  t  b |
+  +------------------------------+
+Dynamic Programming Solution:
+planet: ((1, 0), (1, 5))
+asteroid: ((0, 8), (7, 8))
+comet: ((0, 0), (0, 4))
+blackhole: ((0, 9), (8, 9))
+rocket: ((9, 3), (9, 8))
+orbit: ((2, 0), (2, 4))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((1, 0), (1, 5))
+asteroid: ((0, 8), (7, 8))
+comet: ((0, 0), (0, 4))
+blackhole: ((0, 9), (8, 9))
+rocket: ((9, 3), (9, 8))
+orbit: ((2, 0), (2, 4))
+
+Naïve Time taken: 0.0070 seconds
+Naïve Memory used: 0.00 MB

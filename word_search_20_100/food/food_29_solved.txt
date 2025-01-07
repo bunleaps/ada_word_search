@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| g  f  z  y  h  v  d  x  p  n  n  m  t  v  g  n  c  h  k  v |
+ 1| g  h  z  c  i  q  e  z  y  h  y  d  d  t  y  h  j  n  s  g |
+ 2| g  w  q  h  z  i  p  a  s  t  a  v  b  h  t  e  b  c  a  b |
+ 3| h  h  a  o  d  r  v  v  v  l  t  s  p  c  m  r  p  k  h  d |
+ 4| y  c  t  c  c  j  u  e  b  p  u  t  q  u  p  s  i  h  d  g |
+ 5| q  g  a  o  k  n  b  x  j  c  c  z  i  r  o  m  i  c  r  y |
+ 6| x  o  c  l  s  c  k  o  u  p  h  y  p  r  i  q  l  i  e  m |
+ 7| m  k  o  a  d  u  g  q  q  i  o  u  e  y  c  e  t  c  c  y |
+ 8| j  a  r  t  f  p  s  k  y  e  o  n  v  b  n  n  a  e  r  n |
+ 9| q  h  i  e  o  f  p  h  o  s  f  w  j  i  s  f  t  c  f  h |
+10| e  m  y  o  f  x  q  y  i  z  p  f  l  x  e  q  r  r  l  v |
+11| a  t  v  l  n  i  b  s  a  n  d  w  i  c  h  j  d  e  g  s |
+12| b  u  r  g  e  r  r  r  p  w  w  q  x  j  x  y  g  a  z  n |
+13| r  p  s  a  l  a  d  i  e  i  x  b  o  z  a  h  x  m  l  o |
+14| j  s  n  j  c  l  d  l  u  a  z  c  i  s  y  j  c  j  n  o |
+15| g  x  e  b  u  r  r  i  t  o  d  z  a  x  t  q  p  l  p  d |
+16| c  e  p  e  c  o  o  k  i  e  s  f  a  k  c  e  l  j  h  l |
+17| w  s  s  u  j  d  w  u  c  c  h  e  e  s  e  g  a  w  o  e |
+18| k  u  g  u  b  b  y  f  o  e  k  a  t  m  i  b  y  k  m  s |
+19| n  b  f  b  y  m  j  r  d  b  s  o  a  v  y  g  b  x  r  s |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+burger: ((12, 0), (12, 5))
+pasta: ((2, 6), (2, 10))
+sandwich: ((11, 7), (11, 14))
+salad: ((13, 2), (13, 6))
+noodles: ((12, 19), (18, 19))
+taco: ((4, 2), (7, 2))
+burrito: ((15, 3), (15, 9))
+curry: ((3, 13), (7, 13))
+cheese: ((17, 9), (17, 14))
+chocolate: ((1, 3), (9, 3))
+icecream: ((6, 17), (13, 17))
+cookies: ((16, 4), (16, 10))
+pie: ((6, 9), (8, 9))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+burger: ((12, 0), (12, 5))
+pasta: ((2, 6), (2, 10))
+sandwich: ((11, 7), (11, 14))
+salad: ((13, 2), (13, 6))
+noodles: ((12, 19), (18, 19))
+taco: ((4, 2), (7, 2))
+burrito: ((15, 3), (15, 9))
+curry: ((3, 13), (7, 13))
+cheese: ((17, 9), (17, 14))
+chocolate: ((1, 3), (9, 3))
+icecream: ((6, 17), (13, 17))
+cookies: ((16, 4), (16, 10))
+pie: ((6, 9), (8, 9))
+
+Naïve Time taken: 0.0662 seconds
+Naïve Memory used: 0.00 MB

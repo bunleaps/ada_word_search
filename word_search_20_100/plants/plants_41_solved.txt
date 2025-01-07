@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| m  o  s  s  u  d  o  r  c  h  i  d  b  y  y  q  g  z  j  l |
+ 1| l  v  m  c  i  f  e  v  w  o  h  s  c  u  k  o  d  n  h  t |
+ 2| s  a  x  a  q  l  g  z  d  r  b  k  t  r  o  y  p  f  h  e |
+ 3| u  d  q  t  p  a  c  d  a  m  k  v  b  u  h  l  g  m  b  h |
+ 4| n  z  f  i  r  l  i  s  i  e  t  z  a  j  l  w  v  k  z  s |
+ 5| f  y  v  r  w  e  e  e  s  d  i  k  m  f  o  i  z  v  h  j |
+ 6| l  f  k  k  z  n  e  l  y  d  i  l  b  f  e  a  p  b  p  e |
+ 7| o  f  h  m  g  c  o  c  z  a  a  t  o  h  o  r  k  f  i  s |
+ 8| w  i  x  y  i  j  l  n  q  a  r  g  o  r  g  f  n  h  n  a |
+ 9| e  q  e  h  j  e  d  c  g  o  z  l  i  l  y  f  l  o  e  j |
+10| r  i  w  a  u  d  e  o  g  t  l  f  k  q  l  h  h  g  a  j |
+11| e  g  l  s  d  n  e  o  l  d  o  i  v  x  h  p  j  l  n  m |
+12| k  b  p  v  i  z  m  k  i  v  y  g  n  o  w  y  e  p  j  r |
+13| u  j  h  v  q  d  f  e  p  i  r  a  r  f  p  z  j  p  r  e |
+14| u  h  a  p  a  l  m  l  n  h  u  o  v  a  s  h  r  u  b  q |
+15| m  a  l  z  n  k  t  o  o  r  n  s  s  e  s  b  v  z  e  f |
+16| c  a  c  t  u  s  g  w  e  w  d  z  c  e  s  s  i  t  i  u |
+17| h  b  s  s  m  p  y  b  u  e  e  y  l  s  j  a  l  s  o  x |
+18| k  y  k  b  s  l  r  f  s  l  a  r  n  i  o  q  p  i  o  a |
+19| m  s  v  g  w  q  q  r  d  i  f  p  b  o  l  l  r  y  z  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+flower: ((5, 0), (10, 0))
+shrub: ((14, 14), (14, 18))
+moss: ((0, 0), (0, 3))
+cactus: ((16, 0), (16, 5))
+bamboo: ((3, 12), (8, 12))
+pine: ((6, 18), (9, 18))
+daisy: ((2, 8), (6, 8))
+sunflower: ((2, 0), (10, 0))
+lily: ((9, 11), (9, 14))
+orchid: ((0, 6), (0, 11))
+ivy: ((12, 8), (12, 10))
+palm: ((14, 3), (14, 6))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+flower: ((5, 0), (10, 0))
+shrub: ((14, 14), (14, 18))
+moss: ((0, 0), (0, 3))
+cactus: ((16, 0), (16, 5))
+bamboo: ((3, 12), (8, 12))
+pine: ((6, 18), (9, 18))
+daisy: ((2, 8), (6, 8))
+sunflower: ((2, 0), (10, 0))
+lily: ((9, 11), (9, 14))
+orchid: ((0, 6), (0, 11))
+ivy: ((12, 8), (12, 10))
+palm: ((14, 3), (14, 6))
+
+Naïve Time taken: 0.0571 seconds
+Naïve Memory used: 0.00 MB

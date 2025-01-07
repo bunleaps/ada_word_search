@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| v  s  k  z  f  i  q  v  o  p  g  x  f  c  r  j  r  d  p  w |
+ 1| c  b  u  m  c  s  g  k  x  a  t  o  w  n  u  p  z  e  h  b |
+ 2| t  l  s  h  g  l  m  p  n  s  u  g  l  m  t  q  p  s  e  x |
+ 3| e  d  v  c  d  a  l  s  k  w  e  h  u  z  b  l  g  e  t  g |
+ 4| n  e  b  z  n  n  c  r  r  s  c  h  o  o  l  f  m  r  u  r |
+ 5| f  w  h  e  u  d  a  b  i  e  m  d  b  e  o  f  g  t  m  e |
+ 6| o  v  p  o  a  p  f  r  v  f  u  u  g  y  v  y  d  o  e  s |
+ 7| k  i  v  g  q  c  a  c  e  f  o  r  e  s  t  o  g  m  a  t |
+ 8| k  l  a  q  x  u  h  c  r  b  h  d  z  y  o  r  s  n  y  a |
+ 9| h  l  j  h  m  c  y  q  s  e  c  w  r  i  c  x  a  b  l  u |
+10| o  a  a  k  q  s  q  n  c  t  o  t  r  d  h  c  e  y  u  r |
+11| a  g  r  e  w  d  i  n  j  m  n  i  o  k  u  a  t  p  z  a |
+12| a  e  b  s  a  a  b  r  u  u  t  z  m  l  r  i  v  p  d  n |
+13| r  r  t  l  t  k  k  y  o  f  i  h  u  t  c  y  p  n  u  t |
+14| l  u  c  n  f  r  u  c  t  t  n  b  s  c  h  v  x  i  j  r |
+15| t  k  u  b  b  r  e  j  w  l  e  c  e  w  c  n  m  b  c  e |
+16| b  o  j  n  j  v  b  e  r  g  n  g  u  r  t  v  u  t  f  m |
+17| m  z  g  x  r  s  m  j  t  k  t  r  m  v  s  m  h  x  f  t |
+18| b  k  m  m  p  e  k  j  e  k  z  p  r  o  a  d  z  y  c  k |
+19| i  h  o  s  p  i  t  a  l  l  a  k  e  z  q  t  q  v  h  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+town: ((1, 10), (1, 13))
+village: ((6, 1), (12, 1))
+river: ((4, 8), (8, 8))
+lake: ((19, 9), (19, 12))
+forest: ((7, 9), (7, 14))
+desert: ((0, 17), (5, 17))
+island: ((0, 5), (5, 5))
+continent: ((9, 10), (17, 10))
+road: ((18, 12), (18, 15))
+school: ((4, 9), (4, 14))
+hospital: ((19, 1), (19, 8))
+museum: ((12, 12), (17, 12))
+church: ((9, 14), (14, 14))
+restaurant: ((4, 19), (13, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+town: ((1, 10), (1, 13))
+village: ((6, 1), (12, 1))
+river: ((4, 8), (8, 8))
+lake: ((19, 9), (19, 12))
+forest: ((7, 9), (7, 14))
+desert: ((0, 17), (5, 17))
+island: ((0, 5), (5, 5))
+continent: ((9, 10), (17, 10))
+road: ((18, 12), (18, 15))
+school: ((4, 9), (4, 14))
+hospital: ((19, 1), (19, 8))
+museum: ((12, 12), (17, 12))
+church: ((9, 14), (14, 14))
+restaurant: ((4, 19), (13, 19))
+
+Naïve Time taken: 0.0567 seconds
+Naïve Memory used: 0.00 MB

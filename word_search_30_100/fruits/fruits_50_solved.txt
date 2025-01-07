@@ -1,0 +1,85 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+  +------------------------------------------------------------------------------------------+
+ 0| e  c  i  t  n  k  g  z  o  q  i  t  o  b  w  c  d  u  d  j  d  x  v  o  e  e  n  d  n  k |
+ 1| z  o  g  a  p  c  p  f  p  q  r  u  c  b  a  o  o  j  r  n  f  q  p  a  z  i  t  t  o  h |
+ 2| k  c  x  n  k  j  n  s  i  l  b  o  o  l  t  u  l  a  i  p  z  d  n  p  r  y  i  v  x  r |
+ 3| a  o  x  g  c  o  j  o  n  i  t  e  u  a  e  z  o  i  t  x  y  a  m  e  p  c  c  c  v  i |
+ 4| e  n  s  e  i  e  v  o  e  q  w  r  x  c  r  p  j  b  w  l  n  o  c  o  n  i  k  y  q  x |
+ 5| e  u  j  r  k  o  r  r  a  s  u  l  l  k  m  g  p  v  y  a  n  p  j  b  r  j  f  j  g  r |
+ 6| x  t  g  i  y  r  k  d  p  u  n  u  f  b  e  l  f  a  b  q  t  v  u  l  m  a  a  j  r  l |
+ 7| d  n  m  n  s  h  i  m  p  a  a  x  u  e  l  r  p  p  y  u  r  n  x  f  j  f  n  w  a  i |
+ 8| x  w  x  e  y  x  d  l  l  d  w  m  w  r  o  d  o  b  b  n  a  q  s  i  i  i  a  g  p  n |
+ 9| o  p  n  c  w  o  g  a  e  g  g  c  p  r  n  k  e  f  s  p  w  w  t  o  f  w  t  j  e  v |
+10| y  o  r  t  b  t  e  d  t  e  s  u  u  y  a  l  p  z  o  s  k  j  x  z  u  d  s  y  k  w |
+11| i  m  g  l  r  v  x  j  n  e  a  p  c  t  s  l  l  t  v  n  x  j  w  x  n  u  l  r  p  s |
+12| k  e  j  o  q  o  u  s  y  b  l  p  g  u  v  a  u  k  t  l  k  s  c  q  i  g  w  p  j  n |
+13| j  g  p  k  i  w  i  w  t  e  s  q  d  g  y  s  m  s  c  n  j  a  f  u  h  s  o  j  d  z |
+14| r  r  w  k  l  k  s  s  a  q  y  a  f  a  y  k  j  s  v  q  w  p  c  o  i  n  i  a  n  u |
+15| n  a  f  a  j  g  n  p  x  a  w  g  p  h  w  c  c  o  a  m  t  p  v  c  x  x  r  c  m  j |
+16| w  n  i  b  b  t  r  h  e  w  h  a  n  e  c  t  a  r  i  n  e  l  c  d  u  x  g  s  u  t |
+17| x  a  g  g  r  z  e  p  d  a  p  b  q  l  k  b  t  o  h  x  l  e  n  e  x  p  l  q  q  c |
+18| u  t  w  u  x  l  w  p  j  k  r  n  f  s  w  r  c  v  n  d  y  x  o  c  k  r  c  f  o  g |
+19| g  e  w  l  j  w  k  i  f  z  f  y  k  z  r  w  z  p  r  r  j  v  h  w  f  f  g  f  i  r |
+20| y  m  a  n  g  o  p  m  d  i  p  i  l  k  x  x  h  d  u  p  i  k  l  e  m  o  n  k  w  f |
+21| d  n  m  v  i  b  t  p  e  a  c  h  b  d  f  e  p  y  o  d  f  b  c  w  z  i  b  j  m  c |
+22| a  v  m  r  g  f  o  c  i  h  g  y  a  q  a  x  j  n  u  p  i  d  u  g  d  x  x  x  o  l |
+23| i  v  n  w  l  o  l  z  f  d  k  l  d  j  g  s  i  b  n  x  j  l  m  y  a  d  m  f  o  d |
+24| m  b  p  i  i  z  y  s  s  p  x  d  m  e  l  o  n  l  b  h  w  w  d  o  n  w  e  t  i  v |
+25| o  i  w  n  p  e  h  j  l  l  q  t  s  t  r  a  w  b  e  r  r  y  k  u  e  o  b  a  r  p |
+26| s  f  b  l  u  e  b  e  r  r  y  d  o  n  q  i  s  r  a  s  p  b  e  r  r  y  p  h  s  r |
+27| a  m  n  f  e  f  e  q  j  z  s  t  a  o  v  u  f  z  n  a  d  m  c  y  r  q  h  a  b  y |
+28| g  k  t  c  n  e  z  g  f  f  c  h  e  r  r  y  v  a  p  r  i  c  o  t  j  p  u  v  y  w |
+29| o  d  g  w  h  s  e  q  h  m  v  v  l  t  f  a  b  n  o  v  y  x  g  m  r  v  h  g  b  h |
+  +------------------------------------------------------------------------------------------+
+Dynamic Programming Solution:
+apple: ((5, 8), (9, 8))
+cherry: ((28, 10), (28, 15))
+fig: ((15, 2), (17, 2))
+grape: ((5, 28), (9, 28))
+kiwi: ((13, 3), (13, 6))
+lemon: ((20, 22), (20, 26))
+mango: ((20, 1), (20, 5))
+nectarine: ((16, 12), (16, 20))
+peach: ((21, 7), (21, 11))
+pineapple: ((1, 8), (9, 8))
+plum: ((10, 16), (13, 16))
+pomegranate: ((9, 1), (19, 1))
+raspberry: ((26, 17), (26, 25))
+strawberry: ((25, 12), (25, 21))
+tangerine: ((0, 3), (8, 3))
+watermelon: ((0, 14), (9, 14))
+blueberry: ((26, 2), (26, 10))
+apricot: ((28, 17), (28, 23))
+blackberry: ((1, 13), (10, 13))
+coconut: ((0, 1), (6, 1))
+melon: ((24, 12), (24, 16))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.01 MB
+
+Naïve Method Solution:
+apple: ((5, 8), (9, 8))
+cherry: ((28, 10), (28, 15))
+fig: ((15, 2), (17, 2))
+grape: ((5, 28), (9, 28))
+kiwi: ((13, 3), (13, 6))
+lemon: ((20, 22), (20, 26))
+mango: ((20, 1), (20, 5))
+nectarine: ((16, 12), (16, 20))
+peach: ((21, 7), (21, 11))
+pineapple: ((1, 8), (9, 8))
+plum: ((10, 16), (13, 16))
+pomegranate: ((9, 1), (19, 1))
+raspberry: ((26, 17), (26, 25))
+strawberry: ((25, 12), (25, 21))
+tangerine: ((0, 3), (8, 3))
+watermelon: ((0, 14), (9, 14))
+blueberry: ((26, 2), (26, 10))
+apricot: ((28, 17), (28, 23))
+blackberry: ((1, 13), (10, 13))
+coconut: ((0, 1), (6, 1))
+melon: ((24, 12), (24, 16))
+
+Naïve Time taken: 0.1341 seconds
+Naïve Memory used: 0.00 MB

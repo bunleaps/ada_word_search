@@ -1,0 +1,35 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| b  c  k  a  n  t  x  v  n  b |
+ 1| f  f  d  k  b  w  n  c  y  m |
+ 2| l  v  f  h  e  h  a  l  f  o |
+ 3| e  a  u  l  e  m  f  s  e  s |
+ 4| a  m  d  c  y  r  r  l  p  q |
+ 5| z  o  i  y  e  k  t  t  k  u |
+ 6| l  t  t  t  b  e  y  m  p  i |
+ 7| i  h  t  n  e  u  n  d  q  t |
+ 8| u  u  m  b  y  a  g  v  e  o |
+ 9| b  s  p  i  d  e  r  d  j  r |
+  +------------------------------+
+Dynamic Programming Solution:
+ant: ((0, 3), (0, 5))
+bee: ((1, 4), (3, 4))
+mosquito: ((1, 9), (8, 9))
+spider: ((9, 1), (9, 6))
+moth: ((4, 1), (7, 1))
+flea: ((1, 0), (4, 0))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+ant: ((0, 3), (0, 5))
+bee: ((1, 4), (3, 4))
+mosquito: ((1, 9), (8, 9))
+spider: ((9, 1), (9, 6))
+moth: ((4, 1), (7, 1))
+flea: ((1, 0), (4, 0))
+
+Naïve Time taken: 0.0070 seconds
+Naïve Memory used: 0.00 MB

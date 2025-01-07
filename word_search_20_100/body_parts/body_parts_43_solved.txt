@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  l  v  m  o  u  t  h  k  f  o  j  b  e  y  a  m  j  v  v |
+ 1| n  b  u  g  r  d  e  j  t  a  o  i  i  p  i  g  h  y  b  c |
+ 2| q  r  s  n  u  y  h  x  o  t  v  s  a  f  i  g  u  t  a  c |
+ 3| n  x  x  h  e  j  t  s  e  n  j  b  a  t  t  c  j  u  z  f |
+ 4| x  x  l  l  o  h  y  e  f  m  i  s  t  o  m  a  c  h  h  m |
+ 5| h  c  k  y  d  u  j  l  e  j  a  u  h  n  q  p  z  a  m  t |
+ 6| j  m  l  f  u  x  l  w  m  t  z  e  e  i  f  t  o  u  f  n |
+ 7| t  r  n  e  i  i  n  d  z  m  h  o  a  m  t  c  m  z  y  s |
+ 8| k  n  e  e  m  i  g  d  e  s  v  a  r  e  a  f  z  l  d  j |
+ 9| d  u  g  x  k  q  s  q  h  r  o  w  t  h  n  r  n  q  c  q |
+10| b  e  r  s  e  f  t  v  h  w  a  u  k  k  a  z  r  g  u  k |
+11| q  j  a  j  n  o  m  k  f  s  t  v  g  t  v  k  m  s  r  b |
+12| c  k  a  r  h  o  c  r  i  p  n  t  v  r  q  a  x  w  g  o |
+13| m  b  t  d  h  t  f  k  n  w  u  e  i  p  g  w  r  t  q  f |
+14| n  v  r  c  u  e  g  z  g  q  j  t  c  b  k  c  w  m  j  g |
+15| x  o  h  a  t  v  a  p  e  b  s  j  q  k  a  m  e  o  a  x |
+16| s  d  s  a  i  z  r  d  r  e  a  r  g  w  o  c  z  h  b  e |
+17| v  g  e  e  n  n  o  v  h  t  a  e  n  s  g  y  k  d  l  m |
+18| q  e  t  i  c  d  b  c  h  e  l  g  a  r  m  k  s  e  l  e |
+19| h  d  o  s  r  z  a  o  y  s  v  l  v  e  r  s  h  v  k  u |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+foot: ((10, 5), (13, 5))
+arm: ((18, 12), (18, 14))
+ear: ((16, 9), (16, 11))
+mouth: ((0, 3), (0, 7))
+stomach: ((4, 11), (4, 17))
+knee: ((8, 0), (8, 3))
+finger: ((11, 8), (16, 8))
+toe: ((1, 8), (3, 8))
+heart: ((5, 12), (9, 12))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+foot: ((10, 5), (13, 5))
+arm: ((18, 12), (18, 14))
+ear: ((16, 9), (16, 11))
+mouth: ((0, 3), (0, 7))
+stomach: ((4, 11), (4, 17))
+knee: ((8, 0), (8, 3))
+finger: ((11, 8), (16, 8))
+toe: ((1, 8), (3, 8))
+heart: ((5, 12), (9, 12))
+
+Naïve Time taken: 0.0685 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  v  h  o  s  p  i  t  a  l  e  a  t  q  v  x  n  c  a  n |
+ 1| c  b  k  r  g  p  x  j  n  j  k  f  v  g  t  k  f  w  e  n |
+ 2| h  j  d  e  s  e  r  t  f  p  s  r  j  y  z  a  j  l  j  l |
+ 3| o  v  t  o  w  n  h  l  o  f  e  o  k  q  a  j  a  d  p  w |
+ 4| o  p  h  t  z  y  l  q  r  a  w  l  d  z  b  f  g  h  a  a |
+ 5| l  l  c  b  e  a  c  h  e  h  n  a  s  t  l  k  f  p  r  m |
+ 6| l  h  q  y  g  f  v  f  s  k  o  d  n  j  a  l  m  w  k  u |
+ 7| h  s  t  j  i  p  a  l  t  r  n  e  c  i  k  d  g  o  r  s |
+ 8| t  s  v  o  w  l  z  y  d  a  n  y  o  d  e  f  d  e  h  e |
+ 9| r  u  t  g  d  t  n  z  l  i  q  b  j  r  r  d  v  y  m  u |
+10| u  p  s  r  v  g  s  s  t  n  d  n  v  g  q  i  q  u  x  m |
+11| t  l  k  w  e  y  i  n  i  a  f  x  i  v  r  t  l  i  o  x |
+12| s  p  h  n  a  e  o  a  z  l  j  d  l  t  p  t  t  m  h  i |
+13| o  x  b  f  y  c  t  n  k  l  v  n  l  x  w  n  o  e  s  x |
+14| c  i  t  y  e  n  k  p  j  q  z  n  a  u  e  r  o  u  t  z |
+15| m  t  b  o  u  k  c  h  u  r  c  h  g  g  a  f  o  s  h  m |
+16| z  n  l  o  v  d  n  b  f  j  r  c  e  x  c  p  v  j  x  e |
+17| g  o  m  t  g  s  b  p  g  i  x  r  l  w  c  d  o  m  z  u |
+18| a  t  r  i  v  z  u  a  r  e  s  t  a  u  r  a  n  t  d  s |
+19| j  n  z  h  r  h  f  c  m  g  t  c  o  u  n  t  r  y  x  s |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+city: ((14, 0), (14, 3))
+town: ((3, 2), (3, 5))
+village: ((10, 12), (16, 12))
+park: ((3, 18), (6, 18))
+beach: ((5, 3), (5, 7))
+lake: ((5, 14), (8, 14))
+forest: ((2, 8), (7, 8))
+desert: ((2, 2), (2, 7))
+country: ((19, 11), (19, 17))
+school: ((0, 0), (5, 0))
+hospital: ((0, 2), (0, 9))
+museum: ((5, 19), (10, 19))
+church: ((15, 6), (15, 11))
+restaurant: ((18, 8), (18, 17))
+
+DP Time taken: 0.0013 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((14, 0), (14, 3))
+town: ((3, 2), (3, 5))
+village: ((10, 12), (16, 12))
+park: ((3, 18), (6, 18))
+beach: ((5, 3), (5, 7))
+lake: ((5, 14), (8, 14))
+forest: ((2, 8), (7, 8))
+desert: ((2, 2), (2, 7))
+country: ((19, 11), (19, 17))
+school: ((0, 0), (5, 0))
+hospital: ((0, 2), (0, 9))
+museum: ((5, 19), (10, 19))
+church: ((15, 6), (15, 11))
+restaurant: ((18, 8), (18, 17))
+
+Naïve Time taken: 0.0508 seconds
+Naïve Memory used: 0.00 MB

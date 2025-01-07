@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| j  b  f  p  c  r  i  c  k  e  t  d  a  g  t  j  f  w  e  g |
+ 1| c  q  l  n  p  f  g  v  h  g  a  p  i  i  w  m  s  b  h  e |
+ 2| w  w  b  j  r  n  e  g  n  o  w  r  t  v  w  i  v  a  d  q |
+ 3| i  y  k  g  i  d  n  i  v  i  c  f  o  d  i  c  h  f  x  l |
+ 4| k  e  f  l  o  i  l  b  o  j  o  k  j  w  f  n  w  s  a  c |
+ 5| p  n  c  k  l  t  r  a  l  m  r  q  e  v  i  z  g  n  a  s |
+ 6| d  y  d  i  s  r  y  s  l  o  s  r  r  y  c  n  a  o  q  w |
+ 7| c  f  a  e  g  s  k  k  e  w  x  k  q  u  l  m  g  w  z  i |
+ 8| s  s  r  f  g  o  a  e  y  e  x  f  a  l  g  b  r  b  g  m |
+ 9| h  w  l  n  s  x  r  t  b  f  n  b  a  t  p  b  q  o  b  m |
+10| c  o  c  e  m  p  a  b  a  v  q  b  e  g  i  g  y  a  i  i |
+11| g  v  i  o  a  s  t  a  l  h  e  o  n  c  n  n  f  r  q  n |
+12| a  l  j  v  r  j  e  l  l  s  d  i  r  i  s  k  g  d  s  g |
+13| r  i  n  h  a  w  y  l  a  u  f  e  c  i  u  w  y  i  k  a |
+14| c  p  t  i  t  u  q  b  j  r  c  n  n  a  d  l  f  n  i  w |
+15| h  y  h  e  h  h  a  v  u  c  e  n  b  o  x  i  n  g  i  p |
+16| e  w  g  d  o  l  i  s  o  f  e  x  f  c  k  o  g  h  n  c |
+17| r  b  a  t  n  k  z  s  d  t  u  w  p  q  q  y  r  r  g  a |
+18| y  m  h  g  y  m  n  a  s  t  i  c  s  t  c  f  x  v  e  s |
+19| d  r  s  w  p  h  t  x  j  v  y  y  p  l  e  u  k  w  e  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+basketball: ((4, 7), (13, 7))
+cricket: ((0, 4), (0, 10))
+volleyball: ((3, 8), (12, 8))
+archery: ((12, 0), (18, 0))
+boxing: ((15, 12), (15, 17))
+karate: ((7, 6), (12, 6))
+gymnastics: ((18, 3), (18, 12))
+marathon: ((10, 4), (17, 4))
+swimming: ((5, 19), (12, 19))
+skiing: ((12, 18), (17, 18))
+snowboarding: ((4, 17), (15, 17))
+
+DP Time taken: 0.0019 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+basketball: ((4, 7), (13, 7))
+cricket: ((0, 4), (0, 10))
+volleyball: ((3, 8), (12, 8))
+archery: ((12, 0), (18, 0))
+boxing: ((15, 12), (15, 17))
+karate: ((7, 6), (12, 6))
+gymnastics: ((18, 3), (18, 12))
+marathon: ((10, 4), (17, 4))
+swimming: ((5, 19), (12, 19))
+skiing: ((12, 18), (17, 18))
+snowboarding: ((4, 17), (15, 17))
+
+Naïve Time taken: 0.0843 seconds
+Naïve Memory used: 0.00 MB

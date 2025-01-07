@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| k  j  v  p  x  d  j  j  q  c  h  o  c  o  l  a  t  e  g  g |
+ 1| i  b  k  i  q  t  i  i  k  j  e  x  p  i  b  w  d  m  u  s |
+ 2| s  c  x  q  j  v  b  a  v  i  l  k  p  i  n  a  f  b  g  f |
+ 3| b  y  o  o  g  t  a  k  b  n  u  x  g  k  e  d  o  d  p  c |
+ 4| e  d  c  c  o  o  k  i  e  s  r  l  b  r  h  t  i  m  g  s |
+ 5| m  a  p  r  i  c  e  y  f  m  u  y  b  c  i  t  m  f  e  g |
+ 6| t  s  v  i  t  z  u  g  f  x  m  m  r  r  j  h  p  l  t  p |
+ 7| t  a  c  b  r  y  d  i  s  o  v  w  r  u  y  e  i  o  r  x |
+ 8| w  n  a  z  k  m  b  a  t  f  w  u  k  e  s  j  y  c  t  k |
+ 9| e  d  k  h  p  n  c  l  e  q  b  s  t  j  l  o  d  a  s  t |
+10| g  w  e  t  z  v  u  r  a  v  g  n  p  r  y  r  u  f  l  u |
+11| d  i  p  m  h  a  v  t  k  l  n  x  e  f  y  j  v  p  m  n |
+12| i  c  f  a  z  l  m  j  a  l  k  g  a  o  c  k  n  b  s  s |
+13| r  h  o  z  s  f  r  z  g  n  r  q  z  p  n  b  f  c  u  a |
+14| a  m  i  x  y  t  w  o  u  u  e  i  s  b  u  w  n  h  s  l |
+15| r  p  z  q  f  o  a  e  b  f  w  j  w  w  f  q  l  e  h  a |
+16| a  v  b  w  e  c  u  r  r  y  i  i  l  b  q  x  m  e  i  d |
+17| x  n  o  o  d  l  e  s  s  y  d  l  v  g  o  f  a  s  d  w |
+18| y  w  s  h  j  m  f  q  n  a  c  o  i  h  m  d  h  e  l  u |
+19| r  i  c  e  c  r  e  a  m  o  e  l  v  h  h  o  m  u  t  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+sandwich: ((6, 1), (13, 1))
+salad: ((12, 19), (16, 19))
+steak: ((7, 8), (11, 8))
+sushi: ((12, 18), (16, 18))
+rice: ((5, 3), (5, 6))
+noodles: ((17, 1), (17, 7))
+curry: ((16, 5), (16, 9))
+cheese: ((13, 17), (18, 17))
+chocolate: ((0, 9), (0, 17))
+icecream: ((19, 1), (19, 8))
+cake: ((7, 2), (10, 2))
+cookies: ((4, 3), (4, 9))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+sandwich: ((6, 1), (13, 1))
+salad: ((12, 19), (16, 19))
+steak: ((7, 8), (11, 8))
+sushi: ((12, 18), (16, 18))
+rice: ((5, 3), (5, 6))
+noodles: ((17, 1), (17, 7))
+curry: ((16, 5), (16, 9))
+cheese: ((13, 17), (18, 17))
+chocolate: ((0, 9), (0, 17))
+icecream: ((19, 1), (19, 8))
+cake: ((7, 2), (10, 2))
+cookies: ((4, 3), (4, 9))
+
+Naïve Time taken: 0.0589 seconds
+Naïve Memory used: 0.00 MB

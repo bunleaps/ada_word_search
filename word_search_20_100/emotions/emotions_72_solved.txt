@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| d  v  j  x  z  q  q  p  l  v  b  l  w  v  p  n  u  s  v  u |
+ 1| i  m  l  o  l  m  k  r  o  s  e  z  a  e  x  m  o  g  p  i |
+ 2| s  n  n  j  y  o  i  l  n  n  p  d  d  n  f  n  y  x  y  d |
+ 3| a  k  e  c  e  f  h  g  e  o  q  d  d  h  x  o  m  p  f  i |
+ 4| p  h  l  r  e  s  u  x  l  m  e  x  t  b  d  i  p  h  e  e |
+ 5| p  a  r  f  v  x  k  l  y  s  g  r  w  e  x  a  o  h  o  h |
+ 6| o  j  e  e  c  o  e  e  u  c  v  o  x  h  h  a  o  u  c  o |
+ 7| i  n  o  w  q  i  u  f  m  w  c  a  m  d  z  v  h  s  s  p |
+ 8| n  u  m  a  w  d  n  s  d  b  l  u  s  c  a  r  e  d  d  e |
+ 9| t  s  n  d  l  o  b  h  a  e  a  d  f  c  z  m  q  k  r  f |
+10| e  r  q  f  c  p  r  v  r  m  m  r  t  h  o  r  v  y  w  u |
+11| d  j  w  e  q  w  s  q  u  e  g  m  r  u  b  g  a  w  o  l |
+12| f  r  u  s  t  r  a  t  e  d  y  m  t  a  v  r  z  x  b  a |
+13| y  n  c  a  l  m  q  t  c  t  d  e  r  p  s  b  u  l  y  n |
+14| d  g  d  b  w  e  n  j  l  u  s  k  n  t  n  s  x  a  e  g |
+15| o  x  m  o  x  z  g  i  o  v  x  v  s  a  q  k  e  i  j  r |
+16| k  w  q  l  p  g  u  r  s  u  r  p  r  i  s  e  d  d  f  y |
+17| m  a  e  t  z  g  p  v  x  r  s  a  d  v  l  t  y  w  j  f |
+18| k  w  o  r  r  i  e  d  p  x  d  e  x  c  i  t  e  d  v  b |
+19| u  l  o  x  b  a  j  t  q  u  c  m  g  u  p  i  f  i  n  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+sad: ((17, 10), (17, 12))
+angry: ((12, 19), (16, 19))
+excited: ((18, 11), (18, 17))
+surprised: ((16, 8), (16, 16))
+scared: ((8, 12), (8, 17))
+calm: ((13, 2), (13, 5))
+frustrated: ((12, 0), (12, 9))
+worried: ((18, 1), (18, 7))
+lonely: ((0, 8), (5, 8))
+disappointed: ((0, 0), (11, 0))
+hopeful: ((5, 19), (11, 19))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+sad: ((17, 10), (17, 12))
+angry: ((12, 19), (16, 19))
+excited: ((18, 11), (18, 17))
+surprised: ((16, 8), (16, 16))
+scared: ((8, 12), (8, 17))
+calm: ((13, 2), (13, 5))
+frustrated: ((12, 0), (12, 9))
+worried: ((18, 1), (18, 7))
+lonely: ((0, 8), (5, 8))
+disappointed: ((0, 0), (11, 0))
+hopeful: ((5, 19), (11, 19))
+
+Naïve Time taken: 0.0605 seconds
+Naïve Memory used: 0.00 MB

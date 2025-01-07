@@ -1,0 +1,43 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| h  k  n  c  c  h  e  f  a  e |
+ 1| t  e  a  c  h  e  r  j  h  n |
+ 2| p  a  r  t  i  s  t  p  m  g |
+ 3| o  w  l  d  n  u  r  s  e  i |
+ 4| l  r  a  p  o  u  n  x  z  n |
+ 5| i  i  w  i  z  c  t  z  p  e |
+ 6| c  t  y  l  d  x  t  l  k  e |
+ 7| e  e  e  o  y  f  i  o  o  r |
+ 8| s  r  r  t  v  t  q  h  r  r |
+ 9| z  m  u  s  i  c  i  a  n  h |
+  +------------------------------+
+Dynamic Programming Solution:
+teacher: ((1, 0), (1, 6))
+engineer: ((0, 9), (7, 9))
+lawyer: ((3, 2), (8, 2))
+nurse: ((3, 4), (3, 8))
+chef: ((0, 4), (0, 7))
+pilot: ((4, 3), (8, 3))
+artist: ((2, 1), (2, 6))
+musician: ((9, 1), (9, 8))
+writer: ((3, 1), (8, 1))
+police: ((2, 0), (7, 0))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+teacher: ((1, 0), (1, 6))
+engineer: ((0, 9), (7, 9))
+lawyer: ((3, 2), (8, 2))
+nurse: ((3, 4), (3, 8))
+chef: ((0, 4), (0, 7))
+pilot: ((4, 3), (8, 3))
+artist: ((2, 1), (2, 6))
+musician: ((9, 1), (9, 8))
+writer: ((3, 1), (8, 1))
+police: ((2, 0), (7, 0))
+
+Naïve Time taken: 0.0050 seconds
+Naïve Memory used: 0.00 MB

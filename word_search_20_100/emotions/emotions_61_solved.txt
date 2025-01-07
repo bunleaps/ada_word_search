@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| n  g  t  k  t  b  s  o  l  g  y  n  o  h  c  e  k  h  s  h |
+ 1| n  d  f  y  p  n  t  c  v  p  a  n  x  i  o  u  s  w  s  c |
+ 2| a  s  e  n  e  r  x  w  v  t  l  n  e  r  v  o  u  s  i  i |
+ 3| q  t  m  c  x  l  o  l  i  d  u  b  i  r  c  f  n  k  t  q |
+ 4| m  r  b  v  c  o  g  u  g  s  f  c  x  f  z  r  i  o  h  h |
+ 5| d  h  a  o  i  a  z  c  d  c  i  x  d  t  r  u  f  b  d  g |
+ 6| h  o  r  x  t  p  x  i  o  y  e  e  i  u  k  s  y  j  i  u |
+ 7| h  p  r  q  e  y  d  h  k  n  s  s  q  l  h  t  q  r  s  i |
+ 8| v  e  a  n  d  d  e  o  p  i  f  s  f  e  c  r  n  y  a  l |
+ 9| f  f  s  f  d  b  z  w  r  c  w  u  r  u  n  a  z  j  p  t |
+10| k  u  s  r  h  q  j  p  p  v  c  s  s  f  z  t  v  x  p  y |
+11| c  l  e  o  q  y  r  w  h  a  x  c  r  e  m  e  k  g  o  r |
+12| z  c  d  p  p  u  t  b  h  t  m  a  w  c  d  d  u  m  i  l |
+13| l  o  w  p  s  l  q  c  y  l  q  r  l  o  e  s  l  y  n  j |
+14| o  c  a  w  a  r  o  w  a  l  b  e  g  f  r  a  f  r  t  o |
+15| n  h  z  n  c  m  w  v  n  b  g  d  s  s  c  r  s  h  e  y |
+16| e  j  y  e  k  w  s  q  g  b  j  r  a  f  e  n  i  b  d  f |
+17| l  g  z  r  j  p  v  s  r  o  q  u  d  e  n  a  q  e  n  u |
+18| y  w  t  q  g  g  p  c  y  y  q  y  w  n  i  f  u  j  d  l |
+19| c  a  m  r  d  i  a  x  x  a  o  i  r  e  l  a  x  e  d  n |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+sad: ((15, 12), (17, 12))
+angry: ((14, 8), (18, 8))
+excited: ((2, 4), (8, 4))
+nervous: ((2, 11), (2, 17))
+scared: ((10, 11), (15, 11))
+joyful: ((13, 19), (18, 19))
+frustrated: ((3, 15), (12, 15))
+lonely: ((13, 0), (18, 0))
+embarrassed: ((2, 2), (12, 2))
+relaxed: ((19, 12), (19, 18))
+anxious: ((1, 10), (1, 16))
+disappointed: ((5, 18), (16, 18))
+guilty: ((5, 19), (10, 19))
+hopeful: ((5, 1), (11, 1))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+sad: ((15, 12), (17, 12))
+angry: ((14, 8), (18, 8))
+excited: ((2, 4), (8, 4))
+nervous: ((2, 11), (2, 17))
+scared: ((10, 11), (15, 11))
+joyful: ((13, 19), (18, 19))
+frustrated: ((3, 15), (12, 15))
+lonely: ((13, 0), (18, 0))
+embarrassed: ((2, 2), (12, 2))
+relaxed: ((19, 12), (19, 18))
+anxious: ((1, 10), (1, 16))
+disappointed: ((5, 18), (16, 18))
+guilty: ((5, 19), (10, 19))
+hopeful: ((5, 1), (11, 1))
+
+Naïve Time taken: 0.0594 seconds
+Naïve Memory used: 0.00 MB

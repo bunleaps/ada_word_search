@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| j  a  m  k  u  m  x  d  a  c  o  n  t  i  n  e  n  t  p  l |
+ 1| v  y  s  t  o  o  x  k  b  g  i  a  o  m  i  l  t  b  l  y |
+ 2| b  e  a  c  h  u  r  u  l  x  d  h  t  s  t  r  e  e  t  u |
+ 3| g  l  j  j  z  n  q  w  u  f  w  e  x  d  d  l  g  r  a  d |
+ 4| j  k  h  l  e  t  f  r  o  a  d  c  s  r  o  c  u  y  u  j |
+ 5| o  q  o  r  l  a  k  a  g  f  m  r  h  e  e  m  m  u  r  b |
+ 6| m  o  x  k  e  i  b  g  j  a  e  r  t  x  r  u  z  n  e  c |
+ 7| l  c  m  h  t  n  q  u  o  w  x  f  k  n  t  t  m  n  s  n |
+ 8| a  l  z  e  x  y  u  j  u  a  a  d  b  a  b  c  u  g  t  k |
+ 9| k  g  e  r  i  v  e  r  v  i  n  t  w  w  c  x  s  j  a  r |
+10| e  h  o  s  p  i  t  a  l  a  s  i  f  k  m  o  e  i  u  s |
+11| b  c  o  u  n  t  r  y  l  e  z  f  c  r  a  e  u  y  r  c |
+12| o  l  e  g  l  r  l  s  r  t  j  n  f  c  p  v  m  d  a  h |
+13| f  d  c  t  d  e  i  o  e  y  s  p  e  n  h  a  q  z  n  o |
+14| w  u  i  b  o  h  f  r  h  y  i  g  p  d  b  u  r  g  t  o |
+15| o  o  t  j  x  w  r  z  v  q  a  e  f  y  a  z  r  k  d  l |
+16| z  x  y  p  h  f  n  a  s  l  l  s  f  k  q  j  r  c  q  u |
+17| g  w  u  m  t  l  s  v  l  t  a  i  h  s  d  p  q  b  h  c |
+18| e  z  m  q  x  z  m  i  b  u  k  b  w  u  y  q  q  b  m  p |
+19| n  x  o  z  k  n  v  i  l  l  d  o  y  z  z  c  v  o  f  s |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+city: ((13, 2), (16, 2))
+beach: ((2, 0), (2, 4))
+mountain: ((0, 5), (7, 5))
+river: ((9, 3), (9, 7))
+lake: ((7, 0), (10, 0))
+country: ((11, 1), (11, 7))
+continent: ((0, 9), (0, 17))
+street: ((2, 13), (2, 18))
+road: ((4, 7), (4, 10))
+school: ((10, 19), (15, 19))
+hospital: ((10, 1), (10, 8))
+museum: ((7, 16), (12, 16))
+restaurant: ((5, 18), (14, 18))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((13, 2), (16, 2))
+beach: ((2, 0), (2, 4))
+mountain: ((0, 5), (7, 5))
+river: ((9, 3), (9, 7))
+lake: ((7, 0), (10, 0))
+country: ((11, 1), (11, 7))
+continent: ((0, 9), (0, 17))
+street: ((2, 13), (2, 18))
+road: ((4, 7), (4, 10))
+school: ((10, 19), (15, 19))
+hospital: ((10, 1), (10, 8))
+museum: ((7, 16), (12, 16))
+restaurant: ((5, 18), (14, 18))
+
+Naïve Time taken: 0.0491 seconds
+Naïve Memory used: 0.00 MB

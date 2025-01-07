@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  n  u  g  u  i  d  x  e  j  k  w  q  q  g  e  f  f  r  h |
+ 1| e  e  q  f  f  u  g  y  e  z  t  u  v  i  f  j  s  q  y  i |
+ 2| b  u  z  m  v  y  t  o  w  n  e  m  i  z  w  e  j  p  m  s |
+ 3| a  f  y  h  t  v  i  l  l  a  g  e  n  m  w  u  w  y  k  k |
+ 4| z  g  k  i  w  g  o  d  q  h  c  s  n  u  g  i  d  n  l  a |
+ 5| c  i  c  v  e  n  q  i  p  l  i  c  y  c  j  n  k  l  l  c |
+ 6| s  c  h  u  r  c  h  u  n  j  h  f  s  v  a  y  i  p  p  w |
+ 7| b  t  y  s  y  f  n  b  m  l  l  w  a  l  n  l  k  e  l  c |
+ 8| e  r  r  b  c  x  l  j  e  n  c  l  s  e  o  h  r  p  t  l |
+ 9| k  e  f  e  r  h  m  c  i  g  o  i  a  r  p  c  o  s  u  b |
+10| r  s  a  m  e  g  o  a  w  p  n  o  p  h  g  b  e  a  p  e |
+11| a  t  i  t  x  t  t  o  y  l  t  k  l  e  j  r  n  n  i  a |
+12| l  a  k  e  d  n  h  y  l  n  i  p  r  d  o  o  e  h  k  c |
+13| x  u  i  v  u  e  r  a  z  a  n  m  a  f  e  b  a  b  l  h |
+14| q  r  x  o  m  t  l  r  k  z  e  r  u  r  d  s  m  c  e  k |
+15| n  a  m  x  n  f  e  l  b  q  n  x  o  s  k  h  e  b  q  z |
+16| k  n  v  u  b  v  m  l  n  v  t  x  z  a  e  q  p  r  y  q |
+17| u  t  o  c  i  x  h  q  g  u  l  w  x  y  d  u  e  t  t  n |
+18| v  c  i  r  h  o  s  p  i  t  a  l  n  f  e  m  m  r  g  z |
+19| v  c  k  d  k  e  m  u  e  g  l  h  b  q  v  i  r  u  d  s |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+town: ((2, 6), (2, 9))
+village: ((3, 5), (3, 11))
+beach: ((9, 19), (13, 19))
+lake: ((12, 0), (12, 3))
+continent: ((8, 10), (16, 10))
+hospital: ((18, 4), (18, 11))
+church: ((6, 1), (6, 6))
+restaurant: ((8, 1), (17, 1))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+town: ((2, 6), (2, 9))
+village: ((3, 5), (3, 11))
+beach: ((9, 19), (13, 19))
+lake: ((12, 0), (12, 3))
+continent: ((8, 10), (16, 10))
+hospital: ((18, 4), (18, 11))
+church: ((6, 1), (6, 6))
+restaurant: ((8, 1), (17, 1))
+
+Naïve Time taken: 0.0630 seconds
+Naïve Memory used: 0.00 MB

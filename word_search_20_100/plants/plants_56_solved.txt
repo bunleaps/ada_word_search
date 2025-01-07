@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| w  k  g  a  b  d  u  m  q  z  j  a  o  n  r  r  s  e  c  p |
+ 1| s  u  y  p  y  c  a  r  k  j  h  b  c  a  v  z  b  r  s  g |
+ 2| o  u  f  l  o  w  e  r  q  c  r  z  n  w  k  f  q  o  r  t |
+ 3| u  h  n  s  w  q  r  m  n  e  p  d  c  a  c  t  u  s  y  u |
+ 4| h  v  v  f  g  k  d  g  z  g  a  k  r  s  u  u  l  r  k  l |
+ 5| m  l  y  h  l  g  x  i  h  r  l  u  g  g  x  f  r  y  g  i |
+ 6| p  z  u  t  b  o  e  h  f  a  m  c  y  n  i  m  k  p  b  p |
+ 7| p  i  s  u  o  f  w  h  v  s  o  i  q  i  f  d  o  r  u  l |
+ 8| d  g  r  j  r  z  a  e  d  s  l  b  a  m  b  o  o  s  b  o |
+ 9| e  h  g  i  r  k  o  m  r  b  i  u  p  q  y  f  w  o  s  q |
+10| s  g  r  g  n  m  o  z  m  j  l  h  k  g  c  y  e  f  r  q |
+11| b  w  c  d  e  j  a  l  a  m  y  x  e  r  v  n  m  m  n  n |
+12| a  a  l  v  n  d  j  v  w  o  v  l  f  i  i  k  d  a  p  b |
+13| p  i  n  e  i  c  z  e  d  u  p  f  e  v  r  c  o  u  g  d |
+14| w  o  l  h  y  d  u  t  w  a  v  v  e  d  k  o  z  f  k  a |
+15| f  y  c  z  h  r  f  r  m  n  n  l  c  r  e  o  s  n  z  i |
+16| r  r  x  p  h  g  e  e  r  h  a  m  l  p  n  h  f  e  m  s |
+17| o  w  e  p  w  h  n  e  n  l  v  x  d  e  m  l  l  h  m  y |
+18| h  j  y  w  h  m  d  j  a  r  r  h  t  r  i  s  m  t  o  c |
+19| i  x  e  s  t  b  t  d  s  n  r  s  h  x  u  o  h  a  x  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tree: ((14, 7), (17, 7))
+flower: ((2, 2), (2, 7))
+grass: ((4, 9), (8, 9))
+cactus: ((3, 12), (3, 17))
+bamboo: ((8, 11), (8, 16))
+pine: ((13, 0), (13, 3))
+tulip: ((2, 19), (6, 19))
+daisy: ((13, 19), (17, 19))
+lily: ((8, 10), (11, 10))
+palm: ((3, 10), (6, 10))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((14, 7), (17, 7))
+flower: ((2, 2), (2, 7))
+grass: ((4, 9), (8, 9))
+cactus: ((3, 12), (3, 17))
+bamboo: ((8, 11), (8, 16))
+pine: ((13, 0), (13, 3))
+tulip: ((2, 19), (6, 19))
+daisy: ((13, 19), (17, 19))
+lily: ((8, 10), (11, 10))
+palm: ((3, 10), (6, 10))
+
+Naïve Time taken: 0.0640 seconds
+Naïve Memory used: 0.00 MB

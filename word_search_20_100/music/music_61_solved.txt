@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| r  b  t  h  e  a  d  p  h  o  n  e  s  d  y  h  v  j  u  u |
+ 1| m  s  d  j  i  r  b  q  e  f  e  a  z  y  v  q  x  t  c  a |
+ 2| e  e  n  u  n  p  p  u  n  n  r  y  n  c  q  h  r  y  i  e |
+ 3| l  w  f  f  y  i  u  c  l  t  l  o  z  c  f  e  e  l  c  n |
+ 4| o  q  z  q  z  a  s  i  s  w  m  b  e  s  c  n  d  v  z  i |
+ 5| d  g  w  h  b  n  p  e  x  r  d  n  c  n  o  q  b  s  p  k |
+ 6| y  u  m  c  h  o  h  p  a  j  o  i  o  h  p  p  y  q  i  p |
+ 7| k  i  g  r  q  c  s  h  k  h  r  c  p  k  z  b  u  n  k  b |
+ 8| h  t  v  i  r  f  i  s  p  y  n  o  y  z  i  n  q  b  x  j |
+ 9| s  a  n  o  k  i  t  o  l  j  r  t  w  e  j  o  n  g  s  v |
+10| a  r  a  e  s  x  x  i  w  c  e  b  l  e  s  t  b  j  c  i |
+11| g  q  h  z  g  a  n  h  i  p  u  a  e  y  b  e  m  n  h  o |
+12| x  u  b  u  s  q  h  m  m  k  q  b  r  i  m  m  p  s  o  l |
+13| w  l  k  a  q  x  i  u  e  d  c  e  l  z  y  u  m  l  r  i |
+14| p  z  x  l  d  w  r  t  m  n  g  f  e  d  c  u  v  o  d  n |
+15| k  y  y  b  b  t  u  h  i  n  u  s  b  k  r  m  m  m  c  w |
+16| p  l  t  u  a  l  t  a  i  g  o  y  a  d  s  g  g  s  y  a |
+17| q  i  g  m  f  y  n  s  y  h  b  r  n  f  k  h  n  t  o  n |
+18| b  m  h  d  h  m  g  e  y  s  i  p  d  o  o  f  i  z  z  i |
+19| y  r  x  r  b  k  v  d  l  e  s  u  c  l  v  j  z  z  c  b |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((5, 1), (10, 1))
+piano: ((2, 5), (6, 5))
+violin: ((9, 19), (14, 19))
+band: ((15, 12), (18, 12))
+melody: ((1, 0), (6, 0))
+note: ((8, 15), (11, 15))
+chord: ((10, 18), (14, 18))
+album: ((13, 3), (17, 3))
+headphones: ((0, 3), (0, 12))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((5, 1), (10, 1))
+piano: ((2, 5), (6, 5))
+violin: ((9, 19), (14, 19))
+band: ((15, 12), (18, 12))
+melody: ((1, 0), (6, 0))
+note: ((8, 15), (11, 15))
+chord: ((10, 18), (14, 18))
+album: ((13, 3), (17, 3))
+headphones: ((0, 3), (0, 12))
+
+Naïve Time taken: 0.0657 seconds
+Naïve Memory used: 0.00 MB

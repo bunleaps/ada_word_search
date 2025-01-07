@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  t  a  w  y  i  t  z  x  a  o  r  c  h  e  s  t  r  a  s |
+ 1| y  b  s  p  c  m  m  i  c  r  o  p  h  o  n  e  i  c  e  q |
+ 2| m  r  a  i  h  e  a  d  p  h  o  n  e  s  c  r  v  a  z  l |
+ 3| e  a  t  x  n  j  t  y  l  n  l  i  b  o  j  u  v  r  o  h |
+ 4| l  h  u  r  e  g  f  s  u  f  n  x  d  p  n  k  i  k  w  q |
+ 5| o  n  a  r  u  v  e  z  m  a  l  f  a  p  j  w  v  w  e  o |
+ 6| d  t  x  r  h  m  u  r  t  t  t  u  t  l  y  r  i  c  s  h |
+ 7| y  p  a  r  m  y  p  b  a  a  c  y  t  v  d  t  w  y  a  a |
+ 8| w  r  z  i  h  o  t  e  z  z  n  c  k  e  x  q  j  u  q  l |
+ 9| u  i  q  t  v  n  n  h  t  l  m  s  b  b  u  y  n  j  c  b |
+10| t  i  v  e  n  k  g  y  m  r  g  c  y  x  s  i  e  l  m  u |
+11| z  m  s  d  p  o  s  x  q  i  m  t  h  r  l  n  l  o  t  m |
+12| p  y  b  g  l  c  t  g  u  i  t  a  r  o  o  s  k  b  k  g |
+13| q  i  l  s  r  o  o  e  i  h  s  v  i  h  r  j  m  g  v  j |
+14| n  i  a  p  l  n  n  n  h  k  y  v  p  d  l  d  h  m  z  w |
+15| w  l  p  n  o  c  e  i  h  y  f  o  l  k  k  b  m  m  s  z |
+16| i  a  m  o  o  e  q  n  o  g  x  i  b  a  n  d  o  x  q  a |
+17| j  i  v  n  e  r  o  h  n  a  l  v  v  l  a  d  y  j  t  z |
+18| b  m  g  r  d  t  r  d  s  x  y  m  i  p  x  y  c  g  a  z |
+19| m  m  o  j  x  d  r  u  m  s  n  x  l  o  o  z  r  u  v  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((12, 7), (12, 12))
+drums: ((19, 5), (19, 9))
+band: ((16, 12), (16, 15))
+orchestra: ((0, 10), (0, 18))
+melody: ((2, 0), (7, 0))
+concert: ((12, 5), (18, 5))
+lyrics: ((6, 13), (6, 18))
+album: ((7, 19), (11, 19))
+microphone: ((1, 6), (1, 15))
+headphones: ((2, 4), (2, 13))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((12, 7), (12, 12))
+drums: ((19, 5), (19, 9))
+band: ((16, 12), (16, 15))
+orchestra: ((0, 10), (0, 18))
+melody: ((2, 0), (7, 0))
+concert: ((12, 5), (18, 5))
+lyrics: ((6, 13), (6, 18))
+album: ((7, 19), (11, 19))
+microphone: ((1, 6), (1, 15))
+headphones: ((2, 4), (2, 13))
+
+Naïve Time taken: 0.0544 seconds
+Naïve Memory used: 0.00 MB

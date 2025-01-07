@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  f  g  q  a  q  y  y  x  x  n  h  a  r  m  o  n  y  j  r |
+ 1| z  p  n  m  k  x  f  m  e  b  l  y  h  f  m  z  j  g  g  v |
+ 2| g  g  l  o  g  c  d  p  l  f  o  l  b  l  x  r  p  n  m  d |
+ 3| x  u  q  d  t  i  n  p  t  u  a  z  y  u  q  n  d  u  e  y |
+ 4| d  s  i  m  t  e  p  d  i  r  e  y  x  t  c  x  r  v  l  b |
+ 5| v  q  b  t  c  g  g  w  s  s  u  s  n  e  f  u  u  i  o  g |
+ 6| f  t  l  v  a  e  b  v  o  i  g  m  e  j  w  c  m  d  d  k |
+ 7| v  q  l  e  d  r  o  y  w  m  n  q  p  v  j  o  s  k  y  o |
+ 8| o  z  m  q  l  n  a  b  p  y  b  g  x  e  s  n  e  t  i  j |
+ 9| r  m  i  c  r  o  p  h  o  n  e  b  e  e  t  c  d  k  h  a |
+10| c  u  y  s  h  s  e  y  z  y  k  k  n  r  f  e  a  s  l  s |
+11| h  r  v  a  a  o  r  a  m  y  n  o  t  w  s  r  a  p  y  t |
+12| e  m  h  v  t  x  r  h  r  f  h  n  b  m  g  t  v  i  r  v |
+13| s  z  j  f  o  c  o  d  y  p  t  m  j  a  f  s  i  a  i  t |
+14| t  h  w  g  o  o  m  p  d  t  u  k  r  h  n  e  o  n  c  u |
+15| r  h  o  s  t  x  k  a  h  b  h  i  y  u  v  d  l  o  s  t |
+16| a  l  l  z  p  p  e  s  l  o  e  m  m  u  z  b  i  q  l  s |
+17| e  v  s  h  i  h  k  a  e  b  n  c  q  x  o  o  n  g  k  w |
+18| g  m  l  y  v  z  j  z  g  h  n  e  g  q  k  v  e  b  e  s |
+19| j  f  l  e  b  d  z  w  y  t  r  q  a  z  o  b  w  j  z  a |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+piano: ((11, 17), (15, 17))
+drums: ((3, 16), (7, 16))
+violin: ((12, 16), (17, 16))
+flute: ((1, 13), (5, 13))
+orchestra: ((8, 0), (16, 0))
+melody: ((2, 18), (7, 18))
+harmony: ((0, 11), (0, 17))
+concert: ((6, 15), (12, 15))
+lyrics: ((10, 18), (15, 18))
+microphone: ((9, 1), (9, 10))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+piano: ((11, 17), (15, 17))
+drums: ((3, 16), (7, 16))
+violin: ((12, 16), (17, 16))
+flute: ((1, 13), (5, 13))
+orchestra: ((8, 0), (16, 0))
+melody: ((2, 18), (7, 18))
+harmony: ((0, 11), (0, 17))
+concert: ((6, 15), (12, 15))
+lyrics: ((10, 18), (15, 18))
+microphone: ((9, 1), (9, 10))
+
+Naïve Time taken: 0.0693 seconds
+Naïve Memory used: 0.00 MB

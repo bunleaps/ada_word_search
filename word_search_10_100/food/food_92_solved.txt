@@ -1,0 +1,41 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| c  s  q  f  x  r  i  c  e  x |
+ 1| h  o  p  i  e  r  a  i  h  n |
+ 2| e  u  h  k  e  d  h  c  a  o |
+ 3| e  p  a  g  a  s  i  z  c  o |
+ 4| s  c  r  l  u  w  z  t  u  d |
+ 5| e  u  a  s  d  i  d  a  r  l |
+ 6| b  s  v  n  p  g  t  c  r  e |
+ 7| d  f  a  e  q  s  w  o  y  s |
+ 8| d  s  t  e  a  k  u  s  p  o |
+ 9| c  j  e  p  b  r  e  a  d  n |
+  +------------------------------+
+Dynamic Programming Solution:
+soup: ((0, 1), (3, 1))
+steak: ((8, 1), (8, 5))
+rice: ((0, 5), (0, 8))
+noodles: ((1, 9), (7, 9))
+taco: ((4, 7), (7, 7))
+curry: ((3, 8), (7, 8))
+bread: ((9, 4), (9, 8))
+cheese: ((0, 0), (5, 0))
+pie: ((1, 2), (1, 4))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+soup: ((0, 1), (3, 1))
+steak: ((8, 1), (8, 5))
+rice: ((0, 5), (0, 8))
+noodles: ((1, 9), (7, 9))
+taco: ((4, 7), (7, 7))
+curry: ((3, 8), (7, 8))
+bread: ((9, 4), (9, 8))
+cheese: ((0, 0), (5, 0))
+pie: ((1, 2), (1, 4))
+
+Naïve Time taken: 0.0128 seconds
+Naïve Memory used: 0.00 MB

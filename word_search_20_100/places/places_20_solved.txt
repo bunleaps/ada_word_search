@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| u  v  c  q  b  i  d  f  w  e  t  p  z  m  x  d  d  f  b  i |
+ 1| h  f  e  h  b  y  o  n  r  g  s  z  e  h  j  r  j  h  p  u |
+ 2| p  w  h  m  u  n  u  e  r  d  z  i  b  w  v  l  a  e  b  v |
+ 3| r  w  n  w  j  r  v  w  s  q  e  s  b  k  m  e  k  o  x  v |
+ 4| p  j  x  y  d  i  c  e  p  g  f  l  y  g  c  a  c  c  y  d |
+ 5| n  v  r  b  r  v  l  h  a  m  k  a  g  o  l  e  b  l  w  r |
+ 6| c  i  t  y  y  k  n  l  r  b  v  n  i  n  e  p  a  r  k  e |
+ 7| g  k  c  w  c  f  l  d  q  i  p  d  p  f  t  x  l  c  m  s |
+ 8| k  s  x  f  p  i  y  d  t  f  j  g  f  s  i  u  x  x  u  t |
+ 9| i  h  a  o  v  u  v  f  u  t  r  l  h  u  c  e  x  k  s  a |
+10| c  n  t  r  t  m  o  u  n  t  a  i  n  s  j  h  f  d  e  u |
+11| o  b  a  e  c  a  b  e  v  s  b  e  a  t  f  o  o  o  u  r |
+12| g  n  e  s  o  e  p  h  y  r  e  t  f  r  c  u  n  o  m  a |
+13| y  s  u  t  l  f  y  r  z  c  a  y  b  e  t  w  c  l  l  n |
+14| t  d  w  j  l  d  q  m  r  d  c  b  y  e  o  j  p  e  n  t |
+15| n  e  l  y  a  l  e  a  b  f  h  z  a  t  o  v  i  x  q  a |
+16| v  h  p  o  v  z  c  o  n  t  i  n  e  n  t  f  a  c  y  z |
+17| y  u  r  r  i  f  h  o  s  p  i  t  a  l  g  o  h  i  d  r |
+18| h  w  r  k  h  j  q  r  i  h  v  d  e  s  e  r  t  n  e  x |
+19| v  z  c  o  u  n  t  r  y  s  f  z  k  h  s  z  l  f  f  u |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+city: ((6, 0), (6, 3))
+park: ((6, 15), (6, 18))
+beach: ((11, 10), (15, 10))
+mountain: ((10, 5), (10, 12))
+forest: ((8, 3), (13, 3))
+desert: ((18, 11), (18, 16))
+island: ((2, 11), (7, 11))
+country: ((19, 2), (19, 8))
+continent: ((16, 6), (16, 14))
+street: ((10, 13), (15, 13))
+hospital: ((17, 6), (17, 13))
+museum: ((7, 18), (12, 18))
+restaurant: ((5, 19), (14, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((6, 0), (6, 3))
+park: ((6, 15), (6, 18))
+beach: ((11, 10), (15, 10))
+mountain: ((10, 5), (10, 12))
+forest: ((8, 3), (13, 3))
+desert: ((18, 11), (18, 16))
+island: ((2, 11), (7, 11))
+country: ((19, 2), (19, 8))
+continent: ((16, 6), (16, 14))
+street: ((10, 13), (15, 13))
+hospital: ((17, 6), (17, 13))
+museum: ((7, 18), (12, 18))
+restaurant: ((5, 19), (14, 19))
+
+Naïve Time taken: 0.0520 seconds
+Naïve Memory used: 0.00 MB

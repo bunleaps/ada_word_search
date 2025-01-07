@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| k  b  e  a  r  b  g  e  c  k  a  n  g  a  r  o  o  n  m  w |
+ 1| p  a  j  i  t  q  i  m  g  v  f  i  m  i  p  t  f  q  c  a |
+ 2| r  h  i  n  o  c  e  r  o  s  r  a  t  s  n  w  y  b  o  i |
+ 3| o  o  c  t  o  p  u  s  l  w  o  i  k  t  w  s  f  i  y  j |
+ 4| k  f  h  q  e  s  h  u  i  h  g  g  t  s  i  o  e  u  a  w |
+ 5| m  a  m  m  a  l  e  y  g  h  s  n  e  e  e  g  o  c  p  o |
+ 6| z  q  h  p  d  k  y  x  r  e  a  l  w  f  h  l  e  t  t  l |
+ 7| s  o  v  o  a  u  v  q  l  h  g  l  f  l  t  c  r  r  b  f |
+ 8| j  u  i  n  n  q  g  i  x  a  h  a  i  n  p  a  q  f  u  o |
+ 9| c  i  s  d  x  e  d  a  e  q  r  s  a  r  l  d  u  e  t  w |
+10| d  x  r  i  t  o  y  a  m  i  j  h  b  k  r  i  l  a  t  k |
+11| j  i  i  r  c  u  z  b  g  p  p  s  u  t  b  a  o  t  e  a |
+12| b  q  u  o  x  k  a  a  e  e  h  w  q  q  h  l  p  n  r  c |
+13| d  o  r  m  f  k  h  h  l  e  h  i  s  w  k  w  a  o  f  c |
+14| f  c  a  z  t  o  s  e  y  k  u  h  b  z  u  b  n  s  l  p |
+15| w  i  e  h  h  i  c  i  q  m  i  p  e  i  e  u  d  k  y  i |
+16| s  l  i  z  f  r  e  p  t  i  l  e  c  d  a  b  a  e  o  f |
+17| j  c  t  q  i  z  n  l  d  o  l  p  h  i  n  n  r  z  w  a |
+18| p  d  g  f  s  x  j  s  f  u  i  o  s  h  a  r  k  a  m  g |
+19| d  v  i  r  a  n  q  v  v  q  p  a  r  r  o  t  d  d  o  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+mammal: ((5, 0), (5, 5))
+reptile: ((16, 5), (16, 11))
+frog: ((1, 10), (4, 10))
+parrot: ((19, 10), (19, 15))
+dolphin: ((17, 8), (17, 14))
+bear: ((0, 1), (0, 4))
+wolf: ((4, 19), (7, 19))
+panda: ((12, 16), (16, 16))
+kangaroo: ((0, 9), (0, 16))
+rhinoceros: ((2, 0), (2, 9))
+butterfly: ((7, 18), (15, 18))
+octopus: ((3, 1), (3, 7))
+shark: ((18, 12), (18, 16))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+mammal: ((5, 0), (5, 5))
+reptile: ((16, 5), (16, 11))
+frog: ((1, 10), (4, 10))
+parrot: ((19, 10), (19, 15))
+dolphin: ((17, 8), (17, 14))
+bear: ((0, 1), (0, 4))
+wolf: ((4, 19), (7, 19))
+panda: ((12, 16), (16, 16))
+kangaroo: ((0, 9), (0, 16))
+rhinoceros: ((2, 0), (2, 9))
+butterfly: ((7, 18), (15, 18))
+octopus: ((3, 1), (3, 7))
+shark: ((18, 12), (18, 16))
+
+Naïve Time taken: 0.0819 seconds
+Naïve Memory used: 0.00 MB

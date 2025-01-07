@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  f  m  o  s  a  k  m  m  a  y  c  t  s  t  j  k  h  p  m |
+ 1| k  c  w  f  m  i  n  u  t  e  q  l  z  v  f  z  i  o  p  e |
+ 2| e  i  e  u  w  a  f  t  e  r  n  o  o  n  x  r  v  j  a  o |
+ 3| v  h  e  a  y  e  s  t  e  r  d  a  y  a  h  f  c  j  v  z |
+ 4| e  m  k  r  c  e  n  t  u  r  y  w  n  n  h  o  g  l  o  h |
+ 5| n  t  e  j  k  o  c  y  f  j  t  d  m  l  n  l  u  b  y  w |
+ 6| i  o  n  g  t  c  m  h  i  m  v  m  a  w  e  e  k  r  d  e |
+ 7| n  s  d  o  y  o  t  e  q  e  d  b  i  y  x  t  s  n  p  e |
+ 8| g  x  e  z  d  m  i  o  l  r  l  e  g  m  n  f  t  n  u  k |
+ 9| m  f  o  c  o  h  o  f  d  y  j  q  c  i  r  m  e  a  a  d |
+10| h  p  z  y  o  d  n  r  k  a  x  x  g  a  r  f  h  c  r  a |
+11| o  c  k  o  f  n  j  i  n  c  y  z  x  k  d  u  j  r  l  y |
+12| l  z  i  n  m  x  d  w  g  i  x  y  s  b  m  e  a  w  h  h |
+13| i  b  r  p  c  o  r  o  b  h  n  m  y  g  u  e  u  c  e  j |
+14| d  g  t  z  t  s  n  i  z  o  t  g  i  y  y  t  o  b  d  s |
+15| a  d  j  d  r  o  y  t  f  t  o  m  o  r  r  o  w  h  m  e |
+16| y  j  r  w  q  a  a  c  h  c  p  k  x  o  f  e  g  v  h  r |
+17| w  l  b  w  y  r  v  i  w  d  q  z  q  t  r  n  u  t  u  a |
+18| s  t  z  v  w  u  s  u  n  s  e  t  s  u  n  r  i  s  e  y |
+19| i  x  q  n  v  b  w  w  o  p  r  u  z  z  j  k  s  x  s  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+minute: ((1, 4), (1, 9))
+day: ((3, 10), (3, 12))
+week: ((6, 13), (6, 16))
+century: ((4, 4), (4, 10))
+afternoon: ((2, 5), (2, 13))
+evening: ((2, 0), (8, 0))
+tomorrow: ((15, 9), (15, 16))
+yesterday: ((3, 4), (3, 12))
+weekend: ((1, 2), (7, 2))
+weekday: ((5, 19), (11, 19))
+holiday: ((10, 0), (16, 0))
+sunrise: ((18, 12), (18, 18))
+sunset: ((18, 6), (18, 11))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+minute: ((1, 4), (1, 9))
+day: ((3, 10), (3, 12))
+week: ((6, 13), (6, 16))
+century: ((4, 4), (4, 10))
+afternoon: ((2, 5), (2, 13))
+evening: ((2, 0), (8, 0))
+tomorrow: ((15, 9), (15, 16))
+yesterday: ((3, 4), (3, 12))
+weekend: ((1, 2), (7, 2))
+weekday: ((5, 19), (11, 19))
+holiday: ((10, 0), (16, 0))
+sunrise: ((18, 12), (18, 18))
+sunset: ((18, 6), (18, 11))
+
+Naïve Time taken: 0.0515 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| d  o  c  u  m  e  n  t  a  r  y  s  g  e  n  r  e  j  j  c |
+ 1| d  h  j  f  g  y  q  s  d  v  c  s  l  x  v  d  b  p  r  c |
+ 2| s  w  j  o  r  f  q  j  s  r  i  i  w  p  g  r  y  h  o  a |
+ 3| x  f  f  l  d  h  e  r  o  e  a  m  n  p  n  d  d  t  m  n |
+ 4| z  p  i  m  j  o  h  y  h  k  a  m  s  e  e  r  p  x  a  i |
+ 5| b  f  r  s  j  s  e  q  u  e  l  s  a  m  m  i  b  z  n  m |
+ 6| b  l  j  o  d  f  r  v  e  e  e  u  o  k  r  a  f  u  c  a |
+ 7| o  f  o  z  d  z  d  l  f  r  m  c  p  c  e  t  q  e  e  t |
+ 8| x  t  b  c  q  u  p  c  t  s  i  q  s  k  o  d  r  r  g  i |
+ 9| o  l  h  r  k  k  c  c  v  i  l  l  a  i  n  e  o  n  q  o |
+10| f  b  c  v  l  b  a  e  t  y  v  j  g  j  i  r  s  a  g  n |
+11| f  m  f  n  f  t  u  w  r  t  q  f  u  m  r  i  e  q  m  f |
+12| i  v  t  g  q  h  h  s  r  b  x  j  e  o  b  b  l  n  u  c |
+13| c  h  d  d  i  r  e  c  t  o  r  r  h  s  g  j  r  z  s  j |
+14| e  v  w  m  n  i  f  a  d  e  p  s  a  v  t  o  n  d  i  r |
+15| x  b  v  d  b  l  n  f  q  c  r  r  r  w  c  i  o  z  c  m |
+16| f  c  g  x  i  l  x  n  p  k  u  d  n  p  a  a  v  s  a  w |
+17| a  c  t  o  r  e  y  s  h  x  v  l  o  q  s  r  i  a  l  k |
+18| i  w  y  t  v  r  z  i  f  w  w  p  r  i  v  h  d  j  l  j |
+19| k  q  x  n  q  t  r  a  i  l  e  r  c  p  a  u  k  h  f  y |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+actor: ((17, 0), (17, 4))
+director: ((13, 3), (13, 10))
+trailer: ((19, 5), (19, 11))
+sequel: ((5, 5), (5, 10))
+villain: ((9, 8), (9, 14))
+hero: ((3, 5), (3, 8))
+romance: ((1, 18), (7, 18))
+thriller: ((11, 5), (18, 5))
+animation: ((2, 19), (10, 19))
+musical: ((11, 18), (17, 18))
+documentary: ((0, 0), (0, 10))
+boxoffice: ((6, 0), (14, 0))
+genre: ((0, 12), (0, 16))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+actor: ((17, 0), (17, 4))
+director: ((13, 3), (13, 10))
+trailer: ((19, 5), (19, 11))
+sequel: ((5, 5), (5, 10))
+villain: ((9, 8), (9, 14))
+hero: ((3, 5), (3, 8))
+romance: ((1, 18), (7, 18))
+thriller: ((11, 5), (18, 5))
+animation: ((2, 19), (10, 19))
+musical: ((11, 18), (17, 18))
+documentary: ((0, 0), (0, 10))
+boxoffice: ((6, 0), (14, 0))
+genre: ((0, 12), (0, 16))
+
+Naïve Time taken: 0.0688 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  y  f  n  s  k  i  n  f  o  j  s  m  w  g  y  b  u  k  f |
+ 1| z  a  p  e  s  q  v  m  h  w  m  i  t  l  r  d  u  e  s  n |
+ 2| d  b  e  v  t  e  t  q  j  q  g  f  c  e  m  c  i  q  b  o |
+ 3| g  z  x  y  z  o  k  i  c  v  u  i  i  z  k  s  s  r  y  s |
+ 4| u  s  q  u  o  n  m  n  j  t  d  n  f  a  j  t  j  b  z  e |
+ 5| q  l  c  f  m  l  e  g  e  c  e  g  k  i  z  o  e  b  j  i |
+ 6| y  j  n  b  w  o  s  q  k  e  r  e  b  y  w  m  q  a  c  q |
+ 7| i  m  h  x  t  z  u  b  m  r  z  r  t  m  m  a  s  c  y  i |
+ 8| c  c  e  t  a  o  m  t  e  v  l  p  j  h  o  c  g  k  i  l |
+ 9| c  d  a  l  e  r  e  m  h  l  z  p  h  a  n  h  x  c  s  z |
+10| c  b  r  u  a  q  t  s  r  r  m  m  i  e  g  h  j  y  q  z |
+11| e  q  t  c  d  x  u  g  e  s  n  m  e  s  s  b  e  w  t  y |
+12| v  c  h  e  s  t  k  d  q  j  g  b  e  h  e  g  z  y  j  v |
+13| w  e  j  w  d  m  l  o  d  h  r  v  r  r  e  y  h  t  v  v |
+14| u  j  q  m  r  u  s  e  a  r  d  q  y  a  p  n  e  c  k  b |
+15| t  p  t  t  o  g  t  p  e  w  e  k  m  d  i  h  n  p  e  b |
+16| g  z  i  h  l  n  q  s  c  y  e  x  n  c  q  n  e  h  r  o |
+17| n  c  s  y  m  u  b  v  f  r  e  a  x  m  o  q  e  a  j  v |
+18| x  b  p  i  x  r  u  t  p  q  h  t  t  c  i  n  y  q  d  u |
+19| j  t  r  d  x  u  x  h  l  i  v  q  c  d  w  v  i  y  o  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+leg: ((5, 5), (5, 7))
+ear: ((14, 7), (14, 9))
+nose: ((1, 19), (4, 19))
+stomach: ((3, 15), (9, 15))
+back: ((5, 17), (8, 17))
+chest: ((12, 1), (12, 5))
+neck: ((14, 15), (14, 18))
+finger: ((2, 11), (7, 11))
+heart: ((7, 2), (11, 2))
+skin: ((0, 4), (0, 7))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+leg: ((5, 5), (5, 7))
+ear: ((14, 7), (14, 9))
+nose: ((1, 19), (4, 19))
+stomach: ((3, 15), (9, 15))
+back: ((5, 17), (8, 17))
+chest: ((12, 1), (12, 5))
+neck: ((14, 15), (14, 18))
+finger: ((2, 11), (7, 11))
+heart: ((7, 2), (11, 2))
+skin: ((0, 4), (0, 7))
+
+Naïve Time taken: 0.0715 seconds
+Naïve Memory used: 0.00 MB

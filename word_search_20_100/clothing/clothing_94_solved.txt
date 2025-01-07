@@ -1,0 +1,45 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| h  i  p  h  e  i  n  i  c  f  k  h  x  h  f  w  f  v  j  s |
+ 1| y  c  n  t  c  g  h  c  o  r  v  s  t  f  t  c  o  a  t  k |
+ 2| l  o  g  m  z  l  s  u  w  y  i  h  b  i  p  l  x  i  c  z |
+ 3| u  i  n  f  i  o  i  o  n  z  s  g  r  t  e  i  q  c  g  f |
+ 4| u  t  z  h  c  v  d  t  c  q  s  h  g  s  b  u  d  p  u  u |
+ 5| m  k  f  h  i  e  m  d  n  k  t  s  u  q  d  j  a  f  q  l |
+ 6| u  d  i  w  p  s  d  c  z  b  s  s  h  i  r  t  r  x  s  y |
+ 7| j  a  d  l  i  g  z  n  e  o  b  p  j  s  l  a  m  n  n  g |
+ 8| a  b  i  r  s  c  u  h  t  z  y  u  a  a  c  z  a  p  q  o |
+ 9| t  a  p  u  e  v  s  n  p  e  l  m  z  s  c  e  d  j  q  v |
+10| r  h  q  k  g  s  k  n  i  a  p  a  e  q  j  k  c  h  u  n |
+11| y  b  v  m  a  o  s  i  e  f  j  k  s  k  h  w  e  w  v  o |
+12| v  o  d  h  o  h  p  e  t  a  o  a  s  d  z  c  m  t  d  v |
+13| o  o  m  s  h  v  h  l  w  k  k  r  m  o  j  q  v  r  c  p |
+14| y  t  a  j  k  f  e  e  o  p  q  e  m  a  q  d  e  w  s  a |
+15| n  s  b  e  z  b  m  s  k  i  r  t  r  f  s  t  d  e  w  n |
+16| u  k  v  k  g  h  x  k  o  s  h  h  q  s  a  y  o  n  n  t |
+17| p  k  d  a  l  v  g  k  b  s  h  x  a  e  b  h  u  k  q  s |
+18| t  n  r  d  a  c  w  i  b  z  q  k  w  t  s  h  j  z  d  x |
+19| u  a  y  o  y  k  g  x  l  m  z  s  z  d  q  d  c  s  m  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+shirt: ((6, 11), (6, 15))
+pants: ((13, 19), (17, 19))
+skirt: ((15, 7), (15, 11))
+coat: ((1, 15), (1, 18))
+gloves: ((1, 5), (6, 5))
+boots: ((11, 1), (15, 1))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+shirt: ((6, 11), (6, 15))
+pants: ((13, 19), (17, 19))
+skirt: ((15, 7), (15, 11))
+coat: ((1, 15), (1, 18))
+gloves: ((1, 5), (6, 5))
+boots: ((11, 1), (15, 1))
+
+Naïve Time taken: 0.0649 seconds
+Naïve Memory used: 0.00 MB

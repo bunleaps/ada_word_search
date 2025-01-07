@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| y  x  s  u  s  h  i  e  r  t  n  u  u  g  y  s  b  h  e  z |
+ 1| v  q  k  l  s  c  n  a  n  u  d  l  w  n  k  t  u  c  m  t |
+ 2| t  w  p  a  x  h  g  o  m  x  t  d  c  e  l  y  r  a  w  a |
+ 3| m  r  v  i  p  o  j  e  o  c  l  d  i  w  z  s  r  w  n  c |
+ 4| h  f  i  x  e  c  e  a  g  d  u  g  y  l  h  e  i  v  m  o |
+ 5| l  p  g  c  k  o  x  j  m  w  l  r  v  n  m  r  t  s  c  s |
+ 6| z  u  y  g  e  l  l  g  p  v  g  e  r  k  t  a  o  v  f  b |
+ 7| s  f  h  o  p  a  s  t  a  t  a  s  s  y  s  n  u  u  t  o |
+ 8| c  w  l  c  z  t  k  b  m  u  v  t  b  m  a  x  d  c  y  g |
+ 9| o  z  g  u  q  e  e  o  h  a  s  l  u  b  n  u  c  q  c  n |
+10| o  n  t  e  b  a  b  n  z  f  f  d  r  e  d  w  h  e  h  x |
+11| k  o  r  j  o  f  h  z  h  y  o  l  g  u  w  x  a  c  e  e |
+12| i  g  u  n  b  c  i  c  j  g  b  z  e  x  i  l  g  o  e  s |
+13| e  t  i  h  z  p  z  a  w  b  i  v  r  d  c  h  h  r  s  l |
+14| s  g  d  a  o  i  e  k  i  d  r  s  j  a  h  c  m  n  e  r |
+15| x  s  t  e  a  k  c  e  b  e  f  t  a  q  j  j  g  s  a  e |
+16| w  w  s  i  a  n  i  a  j  o  c  l  y  l  n  q  k  o  h  m |
+17| r  y  y  t  g  i  c  e  c  r  e  a  m  c  a  g  p  u  f  s |
+18| m  m  o  g  u  c  m  z  z  a  z  a  h  x  e  d  o  p  b  l |
+19| b  c  s  b  r  e  a  d  i  d  n  p  u  a  f  r  v  b  d  o |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+burger: ((8, 12), (13, 12))
+pasta: ((7, 4), (7, 8))
+sandwich: ((7, 14), (14, 14))
+soup: ((15, 17), (18, 17))
+steak: ((15, 1), (15, 5))
+sushi: ((0, 2), (0, 6))
+taco: ((1, 19), (4, 19))
+burrito: ((0, 16), (6, 16))
+bread: ((19, 3), (19, 7))
+cheese: ((9, 18), (14, 18))
+chocolate: ((1, 5), (9, 5))
+icecream: ((17, 5), (17, 12))
+cake: ((12, 7), (15, 7))
+cookies: ((8, 0), (14, 0))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+burger: ((8, 12), (13, 12))
+pasta: ((7, 4), (7, 8))
+sandwich: ((7, 14), (14, 14))
+soup: ((15, 17), (18, 17))
+steak: ((15, 1), (15, 5))
+sushi: ((0, 2), (0, 6))
+taco: ((1, 19), (4, 19))
+burrito: ((0, 16), (6, 16))
+bread: ((19, 3), (19, 7))
+cheese: ((9, 18), (14, 18))
+chocolate: ((1, 5), (9, 5))
+icecream: ((17, 5), (17, 12))
+cake: ((12, 7), (15, 7))
+cookies: ((8, 0), (14, 0))
+
+Naïve Time taken: 0.0863 seconds
+Naïve Memory used: 0.00 MB

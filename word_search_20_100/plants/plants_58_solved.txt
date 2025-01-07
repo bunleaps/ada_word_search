@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| w  t  q  f  u  t  m  r  n  p  i  s  f  h  q  k  y  o  s  v |
+ 1| c  m  n  h  e  n  y  p  z  f  z  g  n  c  h  k  r  k  o  g |
+ 2| x  t  a  x  v  c  a  a  g  e  k  w  y  i  s  o  b  a  z  a |
+ 3| k  s  t  m  m  p  a  l  m  j  o  y  m  f  v  h  o  z  y  k |
+ 4| n  p  o  a  j  f  l  o  w  e  r  v  o  j  a  y  r  s  d  k |
+ 5| n  o  h  p  q  d  d  w  s  u  n  f  l  o  w  e  r  u  x  l |
+ 6| g  r  q  l  g  b  p  n  i  o  b  g  v  i  t  e  y  j  b  r |
+ 7| z  q  a  e  m  t  o  z  g  w  o  g  d  f  l  j  f  w  n  c |
+ 8| q  s  g  x  f  l  r  k  v  d  u  r  y  y  r  y  l  w  o  s |
+ 9| t  a  r  h  k  h  o  w  v  z  a  k  c  l  w  j  j  q  v  n |
+10| f  u  a  f  r  y  s  b  s  v  g  i  o  h  j  r  v  v  f  t |
+11| g  j  s  m  p  v  e  p  j  r  t  o  s  w  i  s  k  a  v  u |
+12| q  o  s  c  i  k  j  q  p  h  b  r  y  y  u  d  s  q  i  l |
+13| j  y  a  d  n  i  a  s  g  m  q  f  e  t  k  w  x  f  e  i |
+14| e  n  o  s  e  p  y  m  a  n  s  a  c  e  f  e  r  n  j  p |
+15| m  v  h  h  k  s  z  b  q  s  g  a  s  c  j  b  i  s  y  r |
+16| e  j  i  x  b  s  u  u  o  a  c  j  t  c  o  v  x  o  i  i |
+17| y  s  k  k  y  l  r  m  x  b  d  d  l  p  a  x  m  h  d  u |
+18| q  o  b  w  g  m  m  g  g  k  i  l  l  w  k  a  r  m  f  m |
+19| g  j  l  v  t  h  y  l  r  m  a  l  e  i  m  k  z  s  u  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+flower: ((4, 5), (4, 10))
+grass: ((8, 2), (12, 2))
+fern: ((14, 14), (14, 17))
+oak: ((16, 14), (18, 14))
+pine: ((11, 4), (14, 4))
+maple: ((3, 3), (7, 3))
+rose: ((8, 6), (11, 6))
+tulip: ((10, 19), (14, 19))
+sunflower: ((5, 8), (5, 16))
+palm: ((3, 5), (3, 8))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+flower: ((4, 5), (4, 10))
+grass: ((8, 2), (12, 2))
+fern: ((14, 14), (14, 17))
+oak: ((16, 14), (18, 14))
+pine: ((11, 4), (14, 4))
+maple: ((3, 3), (7, 3))
+rose: ((8, 6), (11, 6))
+tulip: ((10, 19), (14, 19))
+sunflower: ((5, 8), (5, 16))
+palm: ((3, 5), (3, 8))
+
+Naïve Time taken: 0.0652 seconds
+Naïve Memory used: 0.00 MB

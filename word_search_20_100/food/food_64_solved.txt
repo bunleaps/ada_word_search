@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| i  l  f  r  d  l  t  q  e  r  i  c  e  j  j  l  k  t  c  o |
+ 1| h  y  t  m  c  u  b  v  s  a  l  a  d  b  r  l  o  x  r  j |
+ 2| l  r  n  l  i  s  q  u  d  b  q  m  c  u  r  r  y  s  l  j |
+ 3| c  a  e  f  t  z  h  x  r  a  j  t  j  i  u  g  e  j  x  i |
+ 4| z  k  g  k  f  s  x  q  u  r  s  v  g  e  o  l  u  g  l  p |
+ 5| n  c  f  y  c  e  a  y  m  m  i  o  i  k  d  b  y  c  r  p |
+ 6| r  h  d  q  s  l  n  n  d  u  d  t  u  o  m  u  n  u  c  d |
+ 7| q  o  s  w  u  q  p  l  d  n  d  h  o  p  p  a  s  t  a  x |
+ 8| u  c  j  z  s  g  l  r  j  w  e  n  i  t  i  o  x  j  w  y |
+ 9| u  o  g  w  h  u  u  d  b  h  i  r  d  p  j  o  e  f  a  y |
+10| u  l  m  b  i  j  r  d  f  z  e  c  p  y  i  v  z  g  d  n |
+11| h  a  x  e  h  p  q  s  s  g  c  o  h  b  g  z  v  k  a  i |
+12| h  t  y  l  y  q  l  d  r  a  l  t  a  c  o  c  z  v  p  m |
+13| r  e  g  r  o  i  o  u  c  h  e  e  s  e  q  k  a  a  o  j |
+14| i  b  f  f  n  u  b  s  i  c  e  c  r  e  a  m  y  k  s  v |
+15| r  s  t  e  a  k  u  s  x  o  c  b  s  b  r  e  a  d  e  s |
+16| i  y  x  e  j  w  h  s  w  p  e  x  c  z  r  r  b  m  z  g |
+17| r  x  v  z  n  d  u  d  h  b  n  j  o  t  z  g  d  d  n  v |
+18| b  u  z  e  c  v  s  k  p  c  o  o  k  i  e  s  o  o  k  s |
+19| x  l  p  m  x  d  h  d  p  h  y  j  s  p  i  e  a  h  g  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pasta: ((7, 14), (7, 18))
+salad: ((1, 8), (1, 12))
+steak: ((15, 1), (15, 5))
+sushi: ((6, 4), (10, 4))
+rice: ((0, 9), (0, 12))
+taco: ((12, 11), (12, 14))
+curry: ((2, 12), (2, 16))
+bread: ((15, 13), (15, 17))
+cheese: ((13, 8), (13, 13))
+chocolate: ((5, 1), (13, 1))
+icecream: ((14, 8), (14, 15))
+cookies: ((18, 9), (18, 15))
+pie: ((19, 13), (19, 15))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pasta: ((7, 14), (7, 18))
+salad: ((1, 8), (1, 12))
+steak: ((15, 1), (15, 5))
+sushi: ((6, 4), (10, 4))
+rice: ((0, 9), (0, 12))
+taco: ((12, 11), (12, 14))
+curry: ((2, 12), (2, 16))
+bread: ((15, 13), (15, 17))
+cheese: ((13, 8), (13, 13))
+chocolate: ((5, 1), (13, 1))
+icecream: ((14, 8), (14, 15))
+cookies: ((18, 9), (18, 15))
+pie: ((19, 13), (19, 15))
+
+Naïve Time taken: 0.0434 seconds
+Naïve Memory used: 0.00 MB

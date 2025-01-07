@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| s  a  x  o  p  h  o  n  e  i |
+ 1| t  f  d  r  u  m  s  h  r  p |
+ 2| r  m  e  l  o  d  y  a  h  i |
+ 3| u  p  f  z  r  r  b  r  y  a |
+ 4| m  l  c  o  a  b  a  m  t  n |
+ 5| p  g  h  t  f  g  n  o  h  o |
+ 6| e  c  i  r  a  s  d  n  m  t |
+ 7| t  u  f  l  u  t  e  y  q  e |
+ 8| g  c  s  i  n  g  e  r  e  k |
+ 9| r  v  i  o  l  i  n  a  d  r |
+  +------------------------------+
+Dynamic Programming Solution:
+piano: ((1, 9), (5, 9))
+drums: ((1, 2), (1, 6))
+violin: ((9, 1), (9, 6))
+flute: ((7, 2), (7, 6))
+saxophone: ((0, 0), (0, 8))
+trumpet: ((1, 0), (7, 0))
+singer: ((8, 2), (8, 7))
+band: ((3, 6), (6, 6))
+melody: ((2, 1), (2, 6))
+harmony: ((1, 7), (7, 7))
+rhythm: ((1, 8), (6, 8))
+note: ((4, 9), (7, 9))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+piano: ((1, 9), (5, 9))
+drums: ((1, 2), (1, 6))
+violin: ((9, 1), (9, 6))
+flute: ((7, 2), (7, 6))
+saxophone: ((0, 0), (0, 8))
+trumpet: ((1, 0), (7, 0))
+singer: ((8, 2), (8, 7))
+band: ((3, 6), (6, 6))
+melody: ((2, 1), (2, 6))
+harmony: ((1, 7), (7, 7))
+rhythm: ((1, 8), (6, 8))
+note: ((4, 9), (7, 9))
+
+Naïve Time taken: 0.0090 seconds
+Naïve Memory used: 0.00 MB

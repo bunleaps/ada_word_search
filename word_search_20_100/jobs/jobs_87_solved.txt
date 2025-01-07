@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  n  n  q  j  z  w  y  q  w  d  x  u  a  c  v  a  k  w  y |
+ 1| t  y  z  e  r  e  v  c  j  r  o  w  s  c  s  k  z  e  d  w |
+ 2| y  k  g  x  l  p  w  p  e  m  c  b  c  c  s  z  r  p  l  a |
+ 3| f  p  t  s  p  o  r  m  s  z  t  g  i  o  p  z  u  r  n  a |
+ 4| a  e  n  e  w  o  r  c  r  l  o  m  e  u  z  i  k  o  d  r |
+ 5| r  w  h  g  a  a  l  r  l  l  r  v  n  n  z  k  m  g  e  c |
+ 6| t  g  c  y  f  c  c  i  d  k  l  l  t  t  q  l  e  r  n  h |
+ 7| i  m  b  h  f  p  h  p  c  a  z  o  i  a  x  a  n  a  t  i |
+ 8| s  u  u  b  e  r  n  e  u  e  l  i  s  n  k  m  g  m  i  t |
+ 9| t  q  m  s  r  f  j  p  r  w  w  a  t  t  b  u  i  m  s  e |
+10| h  s  s  e  i  k  f  y  p  k  x  r  t  s  c  z  n  e  t  c |
+11| k  p  c  f  c  c  i  v  a  k  b  b  i  s  o  n  e  r  s  t |
+12| o  t  u  g  x  h  i  h  a  c  c  n  t  t  j  e  e  i  l  i |
+13| l  a  b  f  q  v  a  a  a  i  s  u  r  k  e  h  r  t  a  j |
+14| c  i  p  t  r  g  q  n  n  b  l  r  i  r  t  r  o  k  w  g |
+15| i  h  w  n  z  v  i  w  i  p  u  s  x  b  o  l  i  i  y  c |
+16| y  o  b  b  b  y  m  b  v  c  p  e  i  j  i  w  j  x  e  k |
+17| b  j  f  i  f  m  v  q  r  j  l  w  j  p  g  u  z  u  r  n |
+18| v  s  e  j  r  c  e  f  i  r  e  f  i  g  h  t  e  r  h  z |
+19| t  h  m  o  p  h  o  t  o  g  r  a  p  h  e  r  j  t  n  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+doctor: ((0, 10), (5, 10))
+engineer: ((6, 16), (13, 16))
+lawyer: ((12, 18), (17, 18))
+nurse: ((12, 11), (16, 11))
+artist: ((4, 0), (9, 0))
+scientist: ((1, 12), (9, 12))
+architect: ((3, 19), (11, 19))
+firefighter: ((18, 7), (18, 17))
+accountant: ((0, 13), (9, 13))
+dentist: ((4, 18), (10, 18))
+photographer: ((19, 4), (19, 15))
+programmer: ((2, 17), (11, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+doctor: ((0, 10), (5, 10))
+engineer: ((6, 16), (13, 16))
+lawyer: ((12, 18), (17, 18))
+nurse: ((12, 11), (16, 11))
+artist: ((4, 0), (9, 0))
+scientist: ((1, 12), (9, 12))
+architect: ((3, 19), (11, 19))
+firefighter: ((18, 7), (18, 17))
+accountant: ((0, 13), (9, 13))
+dentist: ((4, 18), (10, 18))
+photographer: ((19, 4), (19, 15))
+programmer: ((2, 17), (11, 17))
+
+Naïve Time taken: 0.0652 seconds
+Naïve Memory used: 0.00 MB

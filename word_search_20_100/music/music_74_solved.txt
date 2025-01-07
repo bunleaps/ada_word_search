@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  v  i  o  l  i  n  o  n  u  z  a  g  a  y  r  k  e  e  l |
+ 1| p  s  f  v  c  l  j  h  d  t  q  n  k  n  g  x  d  g  y  g |
+ 2| t  a  v  p  a  z  t  n  e  s  a  b  v  l  i  i  v  m  b  h |
+ 3| c  s  k  n  d  z  i  p  d  r  q  c  e  c  d  l  h  d  q  e |
+ 4| u  a  e  j  j  p  m  x  t  z  x  m  x  s  q  t  o  p  g  a |
+ 5| v  x  d  b  k  u  f  s  l  d  u  g  m  i  y  h  b  q  a  d |
+ 6| d  o  p  g  r  r  e  j  v  b  b  u  s  h  h  d  j  v  m  p |
+ 7| t  p  n  t  x  h  h  j  l  s  r  z  r  j  r  p  k  e  n  h |
+ 8| o  h  s  t  c  x  d  a  v  d  i  m  z  o  v  w  k  f  o  o |
+ 9| n  o  e  r  c  a  z  i  z  a  v  n  h  o  f  g  k  z  t  n |
+10| f  n  o  r  v  v  i  q  f  b  s  c  g  w  l  a  i  m  e  e |
+11| y  e  o  p  i  s  d  s  x  s  s  w  h  e  y  f  a  e  j  s |
+12| j  h  z  c  w  n  c  k  w  g  u  i  t  a  r  e  q  l  s  v |
+13| j  p  f  y  a  g  e  z  i  f  v  r  m  n  i  p  w  o  l  n |
+14| e  k  l  b  r  v  f  u  d  l  l  p  d  t  c  h  m  d  z  o |
+15| r  d  o  b  d  j  h  g  c  u  w  i  y  b  s  p  h  y  j  t |
+16| d  z  h  a  r  m  o  n  y  t  q  a  q  m  u  y  u  c  y  d |
+17| e  s  b  a  f  a  n  w  o  e  t  n  b  c  i  q  p  u  m  u |
+18| k  m  i  c  r  o  p  h  o  n  e  o  f  g  z  n  h  l  i  g |
+19| x  v  c  o  n  c  e  r  t  j  v  x  d  t  w  m  p  z  o  x |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((12, 9), (12, 14))
+piano: ((14, 11), (18, 11))
+violin: ((0, 1), (0, 6))
+flute: ((13, 9), (17, 9))
+saxophone: ((3, 1), (11, 1))
+melody: ((10, 17), (15, 17))
+harmony: ((16, 2), (16, 8))
+note: ((7, 18), (10, 18))
+concert: ((19, 2), (19, 8))
+lyrics: ((10, 14), (15, 14))
+microphone: ((18, 1), (18, 10))
+headphones: ((2, 19), (11, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((12, 9), (12, 14))
+piano: ((14, 11), (18, 11))
+violin: ((0, 1), (0, 6))
+flute: ((13, 9), (17, 9))
+saxophone: ((3, 1), (11, 1))
+melody: ((10, 17), (15, 17))
+harmony: ((16, 2), (16, 8))
+note: ((7, 18), (10, 18))
+concert: ((19, 2), (19, 8))
+lyrics: ((10, 14), (15, 14))
+microphone: ((18, 1), (18, 10))
+headphones: ((2, 19), (11, 19))
+
+Naïve Time taken: 0.0637 seconds
+Naïve Memory used: 0.00 MB

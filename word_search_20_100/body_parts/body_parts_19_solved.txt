@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| g  f  i  n  g  e  r  h  f  x  j  g  v  u  r  r  b  d  g  x |
+ 1| p  y  n  m  h  o  d  m  e  y  q  w  o  b  c  l  d  h  k  l |
+ 2| c  e  l  t  b  e  w  k  d  a  b  h  c  a  r  t  c  x  j  o |
+ 3| w  o  u  v  v  y  c  m  q  v  r  x  a  c  h  a  q  t  u  q |
+ 4| i  o  d  s  y  e  n  n  r  t  k  t  g  k  m  l  e  n  y  m |
+ 5| m  d  m  b  n  i  h  w  j  b  f  l  p  o  h  b  r  k  n  g |
+ 6| m  l  g  f  y  w  h  i  f  u  h  z  t  t  h  h  s  c  a  u |
+ 7| r  h  i  a  r  m  m  w  o  b  w  s  e  i  e  b  j  o  q  d |
+ 8| j  x  v  y  b  h  e  a  d  f  m  e  n  e  s  k  i  n  y  j |
+ 9| s  h  o  u  l  d  e  r  v  t  t  d  n  t  u  x  p  f  l  x |
+10| u  w  i  u  d  t  u  d  o  j  x  k  x  f  y  g  t  h  q  j |
+11| n  v  y  d  w  l  i  o  m  j  c  p  f  v  f  l  o  r  w  j |
+12| b  c  y  z  p  r  f  m  a  s  r  e  a  n  z  i  r  q  o  v |
+13| r  p  h  f  l  o  r  o  y  u  w  j  h  v  x  c  i  q  c  n |
+14| a  u  r  e  y  q  j  o  i  s  c  s  u  j  h  h  u  m  i  q |
+15| i  d  l  h  s  e  a  y  m  n  a  b  x  f  z  g  u  f  m  y |
+16| n  e  d  i  z  t  a  r  f  l  e  g  g  o  h  o  o  t  d  x |
+17| h  a  n  d  g  t  h  r  g  s  l  e  y  e  l  p  u  o  w  p |
+18| f  n  x  f  p  v  z  c  o  q  x  o  t  p  u  d  r  e  g  v |
+19| l  i  m  i  n  r  r  n  p  q  q  z  e  p  n  u  n  m  u  a |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+head: ((8, 5), (8, 8))
+hand: ((17, 0), (17, 3))
+leg: ((16, 9), (16, 11))
+arm: ((7, 3), (7, 5))
+eye: ((17, 11), (17, 13))
+back: ((1, 13), (4, 13))
+shoulder: ((9, 0), (9, 7))
+finger: ((0, 1), (0, 6))
+toe: ((16, 17), (18, 17))
+brain: ((12, 0), (16, 0))
+skin: ((8, 14), (8, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+head: ((8, 5), (8, 8))
+hand: ((17, 0), (17, 3))
+leg: ((16, 9), (16, 11))
+arm: ((7, 3), (7, 5))
+eye: ((17, 11), (17, 13))
+back: ((1, 13), (4, 13))
+shoulder: ((9, 0), (9, 7))
+finger: ((0, 1), (0, 6))
+toe: ((16, 17), (18, 17))
+brain: ((12, 0), (16, 0))
+skin: ((8, 14), (8, 17))
+
+Naïve Time taken: 0.0571 seconds
+Naïve Memory used: 0.00 MB

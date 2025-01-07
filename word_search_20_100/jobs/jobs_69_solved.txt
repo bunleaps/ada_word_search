@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| d  w  p  m  p  h  o  t  o  g  r  a  p  h  e  r  f  f  q  t |
+ 1| o  w  j  u  t  t  b  f  u  o  k  d  u  s  f  c  f  y  h  n |
+ 2| n  n  v  s  o  i  x  n  s  e  m  x  v  f  i  p  i  a  f  z |
+ 3| n  h  m  i  b  i  h  f  c  r  i  l  z  n  y  v  r  j  a  q |
+ 4| a  p  j  c  e  c  z  i  j  y  c  v  a  j  f  g  e  y  z  c |
+ 5| r  w  p  i  v  b  l  j  k  r  p  h  s  y  g  c  f  t  x  q |
+ 6| c  l  r  a  s  o  e  e  v  v  c  o  c  g  w  h  i  b  x  c |
+ 7| h  a  o  n  p  b  n  j  p  e  c  g  i  i  b  e  g  l  k  a |
+ 8| i  w  g  t  i  m  g  j  m  g  g  b  e  b  u  f  h  s  j  h |
+ 9| t  y  r  n  w  r  i  t  e  r  z  n  n  n  y  l  t  m  i  a |
+10| e  e  a  m  b  s  n  x  l  d  o  c  t  o  r  c  e  l  t  f |
+11| c  r  m  d  q  w  e  g  h  e  v  n  i  t  l  a  r  n  v  r |
+12| t  z  m  d  q  e  e  k  q  x  a  y  s  c  v  g  a  y  z  h |
+13| o  n  e  r  s  c  r  o  e  r  k  i  t  e  e  t  e  h  z  z |
+14| c  n  r  r  f  a  r  m  e  r  t  g  i  a  n  t  t  v  t  q |
+15| f  t  u  x  i  h  o  h  g  n  u  k  o  u  o  n  s  s  r  u |
+16| k  n  p  e  h  d  c  l  e  p  e  z  o  l  o  a  i  x  x  p |
+17| e  w  n  y  s  a  t  d  i  n  x  c  i  y  t  t  m  s  x  j |
+18| y  o  d  v  e  b  a  v  r  x  c  p  o  j  r  n  r  i  e  u |
+19| o  g  o  t  g  h  c  k  w  a  e  u  f  a  u  h  n  u  y  x |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+doctor: ((10, 9), (10, 14))
+engineer: ((6, 6), (13, 6))
+lawyer: ((6, 1), (11, 1))
+chef: ((5, 15), (8, 15))
+musician: ((0, 3), (7, 3))
+writer: ((9, 4), (9, 9))
+scientist: ((5, 12), (13, 12))
+architect: ((4, 0), (12, 0))
+firefighter: ((1, 16), (11, 16))
+farmer: ((14, 4), (14, 9))
+photographer: ((0, 4), (0, 15))
+programmer: ((5, 2), (14, 2))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+doctor: ((10, 9), (10, 14))
+engineer: ((6, 6), (13, 6))
+lawyer: ((6, 1), (11, 1))
+chef: ((5, 15), (8, 15))
+musician: ((0, 3), (7, 3))
+writer: ((9, 4), (9, 9))
+scientist: ((5, 12), (13, 12))
+architect: ((4, 0), (12, 0))
+firefighter: ((1, 16), (11, 16))
+farmer: ((14, 4), (14, 9))
+photographer: ((0, 4), (0, 15))
+programmer: ((5, 2), (14, 2))
+
+Naïve Time taken: 0.0521 seconds
+Naïve Memory used: 0.00 MB

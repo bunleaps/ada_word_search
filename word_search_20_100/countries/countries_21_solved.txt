@@ -1,0 +1,73 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| o  n  o  r  w  a  y  y  y  q  z  u  a  n  y  r  t  r  x  s |
+ 1| m  b  p  o  l  a  n  d  l  i  o  q  h  n  c  y  u  u  g  x |
+ 2| g  e  u  k  h  h  p  r  r  b  c  h  i  n  a  a  r  s  b  z |
+ 3| c  o  x  i  l  m  e  o  f  y  p  z  w  w  n  r  k  s  s  m |
+ 4| w  p  b  i  d  b  g  c  n  w  k  n  r  i  r  m  e  i  w  u |
+ 5| l  q  u  r  c  e  j  a  p  a  n  l  t  p  f  i  y  a  i  z |
+ 6| g  k  v  m  z  o  m  b  e  n  e  n  w  y  x  t  j  i  t  z |
+ 7| j  t  n  k  r  r  y  w  d  c  e  c  v  z  e  a  o  q  z  i |
+ 8| t  p  s  j  e  a  e  t  e  g  t  n  c  c  r  l  p  z  e  c |
+ 9| l  c  l  g  s  s  b  e  r  c  a  n  a  d  a  y  l  q  r  e |
+10| v  u  o  u  r  t  r  a  o  d  e  n  m  a  r  k  z  h  l  l |
+11| z  f  w  j  n  g  a  u  s  t  r  a  l  i  a  d  p  l  a  a |
+12| i  n  d  i  a  b  x  l  l  s  o  s  s  l  v  l  a  p  n  n |
+13| s  p  a  i  n  i  i  l  r  c  e  g  y  p  t  g  u  m  d  d |
+14| t  r  u  l  j  z  l  z  u  n  a  a  z  f  u  w  m  s  w  k |
+15| s  b  m  c  a  f  y  m  c  v  i  m  h  t  z  e  d  v  u  e |
+16| j  g  s  r  c  k  l  r  e  m  d  r  r  x  l  b  n  i  v  n |
+17| r  v  b  f  r  a  n  c  e  k  z  o  y  h  p  j  l  e  z  y |
+18| n  s  f  f  i  n  l  a  n  d  p  k  n  j  h  f  s  r  j  a |
+19| g  p  n  g  r  s  w  e  d  e  n  d  e  x  b  u  l  i  g  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+canada: ((9, 9), (9, 14))
+france: ((17, 3), (17, 8))
+italy: ((5, 15), (9, 15))
+spain: ((13, 0), (13, 4))
+china: ((2, 10), (2, 14))
+japan: ((5, 6), (5, 10))
+india: ((12, 0), (12, 4))
+russia: ((0, 17), (5, 17))
+australia: ((11, 6), (11, 14))
+egypt: ((13, 10), (13, 14))
+kenya: ((14, 19), (18, 19))
+uk: ((2, 2), (2, 3))
+sweden: ((19, 5), (19, 10))
+norway: ((0, 1), (0, 6))
+denmark: ((10, 9), (10, 15))
+finland: ((18, 3), (18, 9))
+iceland: ((7, 19), (13, 19))
+switzerland: ((3, 18), (13, 18))
+turkey: ((0, 16), (5, 16))
+poland: ((1, 2), (1, 7))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+canada: ((9, 9), (9, 14))
+france: ((17, 3), (17, 8))
+italy: ((5, 15), (9, 15))
+spain: ((13, 0), (13, 4))
+china: ((2, 10), (2, 14))
+japan: ((5, 6), (5, 10))
+india: ((12, 0), (12, 4))
+russia: ((0, 17), (5, 17))
+australia: ((11, 6), (11, 14))
+egypt: ((13, 10), (13, 14))
+kenya: ((14, 19), (18, 19))
+uk: ((2, 2), (2, 3))
+sweden: ((19, 5), (19, 10))
+norway: ((0, 1), (0, 6))
+denmark: ((10, 9), (10, 15))
+finland: ((18, 3), (18, 9))
+iceland: ((7, 19), (13, 19))
+switzerland: ((3, 18), (13, 18))
+turkey: ((0, 16), (5, 16))
+poland: ((1, 2), (1, 7))
+
+Naïve Time taken: 0.0650 seconds
+Naïve Memory used: 0.00 MB

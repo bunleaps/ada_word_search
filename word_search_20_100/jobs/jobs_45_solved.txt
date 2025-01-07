@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| q  r  b  s  c  i  e  n  t  i  s  t  p  e  w  j  k  h  l  j |
+ 1| c  a  c  p  i  g  k  o  j  v  q  y  i  w  r  d  o  w  a  y |
+ 2| f  e  k  a  r  c  h  i  t  e  c  t  l  a  i  m  v  r  q  m |
+ 3| a  s  y  j  f  d  e  n  t  i  s  t  o  i  t  u  p  z  a  s |
+ 4| r  m  a  r  t  i  s  t  y  e  h  x  t  u  e  y  i  b  k  a |
+ 5| m  m  x  n  o  f  w  e  l  a  r  c  o  p  r  w  r  x  w  r |
+ 6| e  g  e  l  f  q  t  z  c  e  d  r  r  r  n  e  p  c  u  j |
+ 7| r  n  u  r  s  e  f  p  h  r  c  r  f  k  e  b  s  l  s  h |
+ 8| s  f  f  t  y  f  r  c  e  m  e  x  t  n  x  i  a  a  r  o |
+ 9| f  i  e  f  z  c  a  m  z  t  k  t  i  c  j  l  e  w  l  c |
+10| z  j  u  r  o  e  m  q  h  t  q  g  i  c  t  x  p  y  q  u |
+11| q  j  b  q  t  a  i  g  t  y  n  n  r  k  u  q  s  e  b  d |
+12| y  p  n  i  r  q  i  a  l  e  a  o  f  a  w  s  i  r  q  u |
+13| u  g  e  g  f  f  i  h  u  h  t  c  h  e  f  s  s  o  p  x |
+14| w  o  o  f  e  c  o  r  c  c  t  m  p  o  l  i  c  e  g  x |
+15| f  r  a  r  e  s  z  e  o  r  h  m  u  s  i  c  i  a  n  x |
+16| p  q  i  r  x  f  m  d  r  k  l  f  k  z  z  n  k  d  p  m |
+17| k  f  k  y  u  i  a  c  c  o  u  n  t  a  n  t  k  u  t  u |
+18| v  m  s  i  f  f  p  h  o  t  o  g  r  a  p  h  e  r  y  b |
+19| g  a  f  c  u  d  x  a  e  y  f  y  z  i  h  i  j  r  v  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+lawyer: ((7, 17), (12, 17))
+nurse: ((7, 1), (7, 5))
+chef: ((13, 11), (13, 14))
+pilot: ((0, 12), (4, 12))
+artist: ((4, 2), (4, 7))
+musician: ((15, 11), (15, 18))
+writer: ((0, 14), (5, 14))
+scientist: ((0, 3), (0, 11))
+architect: ((2, 3), (2, 11))
+police: ((14, 12), (14, 17))
+farmer: ((2, 0), (7, 0))
+accountant: ((17, 6), (17, 15))
+dentist: ((3, 5), (3, 11))
+photographer: ((18, 6), (18, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+lawyer: ((7, 17), (12, 17))
+nurse: ((7, 1), (7, 5))
+chef: ((13, 11), (13, 14))
+pilot: ((0, 12), (4, 12))
+artist: ((4, 2), (4, 7))
+musician: ((15, 11), (15, 18))
+writer: ((0, 14), (5, 14))
+scientist: ((0, 3), (0, 11))
+architect: ((2, 3), (2, 11))
+police: ((14, 12), (14, 17))
+farmer: ((2, 0), (7, 0))
+accountant: ((17, 6), (17, 15))
+dentist: ((3, 5), (3, 11))
+photographer: ((18, 6), (18, 17))
+
+Naïve Time taken: 0.0418 seconds
+Naïve Memory used: 0.00 MB

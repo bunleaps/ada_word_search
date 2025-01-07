@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| v  n  a  p  c  f  u  e  s  t |
+ 1| f  u  r  o  a  p  b  g  i  n |
+ 2| r  k  g  r  n  k  b  y  t  g |
+ 3| a  c  e  t  a  i  r  p  a  e |
+ 4| n  h  n  u  d  n  a  t  l  r |
+ 5| c  i  t  g  a  d  z  n  y  m |
+ 6| e  n  i  a  c  i  i  i  u  a |
+ 7| v  a  n  l  s  a  l  z  s  n |
+ 8| m  i  a  g  p  v  j  o  a  y |
+ 9| q  l  e  s  j  a  p  a  n  c |
+  +------------------------------+
+Dynamic Programming Solution:
+canada: ((0, 4), (5, 4))
+brazil: ((2, 6), (7, 6))
+argentina: ((0, 2), (8, 2))
+france: ((1, 0), (6, 0))
+germany: ((2, 9), (8, 9))
+italy: ((1, 8), (5, 8))
+portugal: ((0, 3), (7, 3))
+china: ((3, 1), (7, 1))
+japan: ((9, 4), (9, 8))
+india: ((3, 5), (7, 5))
+egypt: ((0, 7), (4, 7))
+usa: ((6, 8), (8, 8))
+uk: ((1, 1), (2, 1))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+canada: ((0, 4), (5, 4))
+brazil: ((2, 6), (7, 6))
+argentina: ((0, 2), (8, 2))
+france: ((1, 0), (6, 0))
+germany: ((2, 9), (8, 9))
+italy: ((1, 8), (5, 8))
+portugal: ((0, 3), (7, 3))
+china: ((3, 1), (7, 1))
+japan: ((9, 4), (9, 8))
+india: ((3, 5), (7, 5))
+egypt: ((0, 7), (4, 7))
+usa: ((6, 8), (8, 8))
+uk: ((1, 1), (2, 1))
+
+Naïve Time taken: 0.0152 seconds
+Naïve Memory used: 0.00 MB

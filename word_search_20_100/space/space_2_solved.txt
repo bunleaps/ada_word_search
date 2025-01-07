@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  g  g  y  e  t  n  n  n  o  r  b  i  t  m  j  o  l  q  d |
+ 1| y  q  z  r  u  t  k  e  k  d  l  i  g  h  t  y  e  a  r  q |
+ 2| t  v  r  v  n  q  d  b  j  d  d  l  x  q  t  e  z  s  k  a |
+ 3| r  e  t  p  i  a  f  u  y  t  p  v  a  y  p  t  x  o  q  s |
+ 4| o  i  n  r  v  h  n  l  x  d  q  l  r  d  e  f  q  l  g  t |
+ 5| r  n  a  w  e  o  b  a  t  r  d  n  a  k  m  h  i  a  m  e |
+ 6| e  t  v  c  r  r  r  u  h  n  l  y  c  n  n  y  m  r  o  r |
+ 7| s  k  n  q  s  w  a  h  t  q  r  o  o  q  e  i  f  t  t  o |
+ 8| n  a  g  p  e  n  r  a  j  h  r  i  n  b  x  t  f  s  e  i |
+ 9| d  u  m  b  o  o  t  j  b  c  t  g  a  l  a  x  y  y  l  d |
+10| t  b  s  r  e  i  s  z  o  a  i  t  b  a  n  x  i  s  e  g |
+11| q  m  t  t  g  f  a  a  l  f  e  n  r  c  f  n  y  t  s  l |
+12| x  s  e  d  a  v  t  l  u  m  m  b  k  k  m  m  w  e  c  n |
+13| a  m  u  l  d  g  e  h  o  o  q  r  i  h  x  e  o  m  o  o |
+14| k  i  z  x  s  t  l  c  m  o  m  t  w  o  u  f  y  j  p  y |
+15| i  r  x  k  s  o  l  g  r  n  u  h  k  l  y  a  v  s  e  n |
+16| j  r  j  n  e  v  i  t  v  s  r  h  i  e  g  c  y  x  v  j |
+17| a  e  o  q  w  a  t  s  p  a  c  e  c  r  a  f  t  h  z  x |
+18| p  c  c  s  b  f  e  t  x  k  a  t  w  e  e  p  y  f  j  p |
+19| c  u  l  t  r  e  v  d  i  a  l  i  e  n  s  q  k  j  s  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+galaxy: ((9, 11), (9, 16))
+moon: ((12, 9), (15, 9))
+asteroid: ((2, 19), (9, 19))
+nebula: ((0, 7), (5, 7))
+blackhole: ((8, 13), (16, 13))
+satellite: ((10, 6), (18, 6))
+telescope: ((7, 18), (15, 18))
+spacecraft: ((17, 7), (17, 16))
+orbit: ((0, 9), (0, 13))
+universe: ((1, 4), (8, 4))
+lightyear: ((1, 10), (1, 18))
+aliens: ((19, 9), (19, 14))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+galaxy: ((9, 11), (9, 16))
+moon: ((12, 9), (15, 9))
+asteroid: ((2, 19), (9, 19))
+nebula: ((0, 7), (5, 7))
+blackhole: ((8, 13), (16, 13))
+satellite: ((10, 6), (18, 6))
+telescope: ((7, 18), (15, 18))
+spacecraft: ((17, 7), (17, 16))
+orbit: ((0, 9), (0, 13))
+universe: ((1, 4), (8, 4))
+lightyear: ((1, 10), (1, 18))
+aliens: ((19, 9), (19, 14))
+
+Naïve Time taken: 0.0530 seconds
+Naïve Memory used: 0.00 MB

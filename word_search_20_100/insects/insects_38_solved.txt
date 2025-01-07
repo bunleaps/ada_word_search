@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| p  t  a  g  r  s  y  s  p  i  d  e  r  a  u  l  b  a  f  s |
+ 1| o  h  j  c  f  z  n  c  p  o  s  w  y  y  a  v  v  h  n  e |
+ 2| d  u  q  k  i  w  n  i  q  m  r  k  n  p  z  g  w  b  b  h |
+ 3| y  n  z  n  g  v  x  f  h  o  o  g  v  n  l  m  l  m  l  y |
+ 4| a  m  v  v  d  h  n  v  c  y  p  t  v  x  w  a  s  p  a  p |
+ 5| m  o  s  q  u  i  t  o  l  d  f  f  h  g  g  u  y  d  d  e |
+ 6| t  o  n  u  r  d  c  f  a  k  q  r  r  i  f  l  f  l  y  t |
+ 7| e  z  f  l  e  a  r  n  i  d  x  i  b  o  f  w  u  v  b  s |
+ 8| r  e  i  f  c  o  c  k  r  o  a  c  h  j  n  m  m  r  u  p |
+ 9| m  r  m  g  a  e  u  a  z  d  r  n  x  y  v  b  e  v  g  u |
+10| i  v  m  f  w  g  b  d  r  d  x  q  v  e  j  p  t  n  d  b |
+11| t  a  d  b  j  l  a  o  s  a  k  p  v  g  p  u  b  t  r  t |
+12| e  o  q  v  l  f  z  l  m  h  e  v  i  o  y  m  p  e  a  i |
+13| z  j  r  b  u  t  t  e  r  f  l  y  h  x  l  i  l  k  g  f |
+14| z  t  w  x  e  d  c  n  m  h  o  s  u  o  j  t  h  a  o  i |
+15| e  y  r  s  p  e  r  w  s  t  s  e  g  j  e  q  a  d  n  q |
+16| y  j  y  q  c  j  z  i  j  a  x  g  q  e  d  l  g  j  f  h |
+17| t  r  l  h  v  y  f  f  r  v  m  h  b  b  g  s  v  a  l  n |
+18| b  z  u  v  g  j  p  g  u  c  k  u  p  y  f  l  a  r  y  b |
+19| z  w  b  a  n  t  e  a  x  l  p  i  h  v  h  o  z  e  s  z |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+ant: ((19, 3), (19, 5))
+butterfly: ((13, 3), (13, 11))
+mosquito: ((5, 0), (5, 7))
+ladybug: ((3, 18), (9, 18))
+cockroach: ((8, 4), (8, 12))
+fly: ((6, 16), (6, 18))
+spider: ((0, 7), (0, 12))
+dragonfly: ((10, 18), (18, 18))
+wasp: ((4, 14), (4, 17))
+flea: ((7, 2), (7, 5))
+termite: ((6, 0), (12, 0))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+ant: ((19, 3), (19, 5))
+butterfly: ((13, 3), (13, 11))
+mosquito: ((5, 0), (5, 7))
+ladybug: ((3, 18), (9, 18))
+cockroach: ((8, 4), (8, 12))
+fly: ((6, 16), (6, 18))
+spider: ((0, 7), (0, 12))
+dragonfly: ((10, 18), (18, 18))
+wasp: ((4, 14), (4, 17))
+flea: ((7, 2), (7, 5))
+termite: ((6, 0), (12, 0))
+
+Naïve Time taken: 0.0294 seconds
+Naïve Memory used: 0.00 MB

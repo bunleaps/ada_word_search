@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| y  y  t  w  l  s  q  b  i  a  b  d  y  v  t  d  t  d  u  a |
+ 1| l  a  w  p  s  u  a  i  c  e  c  r  e  a  m  e  c  b  i  s |
+ 2| j  q  q  f  j  t  d  c  l  b  m  l  c  r  r  c  s  i  n  p |
+ 3| m  r  x  g  h  h  e  b  x  t  r  u  w  h  o  c  v  x  j  g |
+ 4| o  i  i  q  h  a  d  a  r  a  g  e  p  c  e  h  j  x  m  m |
+ 5| u  o  v  p  s  k  p  t  k  d  w  i  a  i  w  e  a  q  h  b |
+ 6| w  p  a  s  t  a  z  u  s  w  v  t  g  d  e  z  s  x  c  k |
+ 7| s  s  a  l  a  d  t  w  x  e  z  s  p  l  z  j  h  e  h  c |
+ 8| y  o  p  l  c  n  n  o  r  r  p  b  i  i  w  m  q  b  q  d |
+ 9| s  f  u  o  c  j  w  z  s  u  t  h  p  z  h  b  o  i  f  k |
+10| p  z  g  p  j  h  c  f  y  g  s  b  v  b  d  m  s  e  m  p |
+11| z  h  a  b  h  j  o  v  s  u  d  u  u  a  z  w  d  h  k  q |
+12| j  x  t  u  t  m  o  c  s  y  e  r  d  y  y  x  c  q  j  a |
+13| x  n  z  r  z  d  k  v  o  u  m  g  w  q  s  i  r  l  j  d |
+14| g  e  z  r  h  v  i  r  k  l  x  e  c  y  w  f  r  t  l  p |
+15| s  h  f  i  h  o  e  z  s  c  a  r  v  d  f  r  u  n  d  z |
+16| o  e  t  t  t  a  s  v  y  a  k  t  n  c  m  i  z  o  q  m |
+17| g  q  x  o  f  d  b  w  h  k  k  a  e  m  i  c  a  a  z  q |
+18| c  x  v  c  u  r  r  y  p  e  s  q  f  r  i  e  a  u  v  h |
+19| b  p  i  x  n  n  o  o  d  l  e  s  d  j  s  p  e  v  z  y |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+burger: ((10, 11), (15, 11))
+pasta: ((6, 1), (6, 5))
+salad: ((7, 1), (7, 5))
+rice: ((15, 15), (18, 15))
+noodles: ((19, 5), (19, 11))
+burrito: ((11, 3), (17, 3))
+curry: ((18, 3), (18, 7))
+icecream: ((1, 7), (1, 14))
+cake: ((15, 9), (18, 9))
+cookies: ((10, 6), (16, 6))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+burger: ((10, 11), (15, 11))
+pasta: ((6, 1), (6, 5))
+salad: ((7, 1), (7, 5))
+rice: ((15, 15), (18, 15))
+noodles: ((19, 5), (19, 11))
+burrito: ((11, 3), (17, 3))
+curry: ((18, 3), (18, 7))
+icecream: ((1, 7), (1, 14))
+cake: ((15, 9), (18, 9))
+cookies: ((10, 6), (16, 6))
+
+Naïve Time taken: 0.0582 seconds
+Naïve Memory used: 0.00 MB

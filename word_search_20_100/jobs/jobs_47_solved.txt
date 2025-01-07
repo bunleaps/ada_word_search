@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  o  d  k  d  a  e  r  p  r  o  g  r  a  m  m  e  r  p  f |
+ 1| s  c  s  o  z  b  k  t  n  y  g  p  i  l  o  t  x  l  i  i |
+ 2| l  q  i  v  c  g  o  a  u  b  d  t  g  q  f  p  i  s  r  r |
+ 3| j  p  m  e  e  t  i  b  k  r  c  o  t  c  o  y  b  e  x  e |
+ 4| c  g  h  m  n  c  o  g  b  e  h  y  z  j  z  r  h  d  p  f |
+ 5| f  c  l  o  i  t  k  r  t  z  h  v  i  i  f  c  i  t  i  i |
+ 6| w  f  o  s  t  h  i  i  p  o  n  l  j  r  a  x  m  k  v  g |
+ 7| r  f  u  s  c  o  h  s  c  m  u  g  u  e  r  x  t  z  j  h |
+ 8| e  m  i  e  r  c  g  j  t  l  r  v  t  y  m  o  e  x  x  t |
+ 9| c  h  k  o  r  b  n  r  v  z  s  c  x  k  e  l  m  j  b  e |
+10| e  j  l  a  y  a  d  s  a  p  e  g  d  i  r  u  e  a  z  r |
+11| c  n  o  a  y  x  r  c  q  p  o  m  n  j  q  t  c  w  e  g |
+12| c  x  g  c  w  b  a  t  w  s  h  l  e  r  m  v  h  j  p  p |
+13| a  w  n  i  t  y  a  v  i  b  d  e  i  n  l  a  a  n  i  u |
+14| i  k  g  q  n  s  e  l  t  s  y  x  r  c  p  m  n  v  j  u |
+15| s  c  m  n  n  e  d  r  a  q  t  b  t  d  e  k  i  x  z  o |
+16| b  u  x  r  z  i  e  q  c  z  m  u  c  h  e  f  c  n  x  i |
+17| y  i  l  a  f  m  o  r  o  w  r  i  t  e  r  b  s  z  s  w |
+18| f  s  f  v  a  q  a  c  c  o  u  n  t  a  n  t  n  x  o  b |
+19| d  e  n  t  i  s  t  s  g  a  w  a  q  e  g  s  w  p  r  x |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+nurse: ((6, 10), (10, 10))
+chef: ((16, 12), (16, 15))
+pilot: ((1, 11), (1, 15))
+writer: ((17, 9), (17, 14))
+firefighter: ((0, 19), (10, 19))
+farmer: ((5, 14), (10, 14))
+mechanic: ((9, 16), (16, 16))
+accountant: ((18, 6), (18, 15))
+dentist: ((19, 0), (19, 6))
+programmer: ((0, 8), (0, 17))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+nurse: ((6, 10), (10, 10))
+chef: ((16, 12), (16, 15))
+pilot: ((1, 11), (1, 15))
+writer: ((17, 9), (17, 14))
+firefighter: ((0, 19), (10, 19))
+farmer: ((5, 14), (10, 14))
+mechanic: ((9, 16), (16, 16))
+accountant: ((18, 6), (18, 15))
+dentist: ((19, 0), (19, 6))
+programmer: ((0, 8), (0, 17))
+
+Naïve Time taken: 0.0564 seconds
+Naïve Memory used: 0.00 MB

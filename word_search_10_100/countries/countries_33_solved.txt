@@ -1,0 +1,45 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| d  n  u  k  s  p  a  i  n  p |
+ 1| a  r  g  e  n  t  i  n  a  o |
+ 2| x  m  b  i  n  d  i  a  r  r |
+ 3| q  x  r  c  a  n  a  d  a  t |
+ 4| f  r  a  n  c  e  z  y  n  u |
+ 5| h  l  z  g  b  x  l  a  g  g |
+ 6| c  h  i  n  a  a  p  f  z  a |
+ 7| j  u  l  i  t  a  u  s  a  l |
+ 8| t  y  e  i  j  l  q  b  f  v |
+ 9| g  e  r  m  a  n  y  a  j  z |
+  +------------------------------+
+Dynamic Programming Solution:
+canada: ((3, 3), (3, 8))
+brazil: ((2, 2), (7, 2))
+argentina: ((1, 0), (1, 8))
+france: ((4, 0), (4, 5))
+germany: ((9, 0), (9, 6))
+spain: ((0, 4), (0, 8))
+portugal: ((0, 9), (7, 9))
+china: ((6, 0), (6, 4))
+india: ((2, 3), (2, 7))
+usa: ((7, 6), (7, 8))
+uk: ((0, 2), (0, 3))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+canada: ((3, 3), (3, 8))
+brazil: ((2, 2), (7, 2))
+argentina: ((1, 0), (1, 8))
+france: ((4, 0), (4, 5))
+germany: ((9, 0), (9, 6))
+spain: ((0, 4), (0, 8))
+portugal: ((0, 9), (7, 9))
+china: ((6, 0), (6, 4))
+india: ((2, 3), (2, 7))
+usa: ((7, 6), (7, 8))
+uk: ((0, 2), (0, 3))
+
+Naïve Time taken: 0.0110 seconds
+Naïve Memory used: 0.00 MB

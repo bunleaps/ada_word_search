@@ -1,0 +1,43 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| p  s  o  u  p  i  e  o  u  n |
+ 1| a  a  s  s  t  q  v  h  o  m |
+ 2| s  n  t  o  v  a  d  e  a  n |
+ 3| t  d  e  b  g  a  c  z  c  o |
+ 4| a  w  a  u  e  i  z  o  u  o |
+ 5| s  i  k  r  r  i  a  d  r  d |
+ 6| l  c  b  g  p  e  a  r  r  l |
+ 7| h  h  r  e  n  l  p  s  y  e |
+ 8| l  v  e  r  a  c  a  k  e  s |
+ 9| e  s  u  s  h  i  x  e  r  j |
+  +------------------------------+
+Dynamic Programming Solution:
+burger: ((3, 3), (8, 3))
+pasta: ((0, 0), (4, 0))
+sandwich: ((0, 1), (7, 1))
+soup: ((0, 1), (0, 4))
+steak: ((1, 2), (5, 2))
+sushi: ((9, 1), (9, 5))
+noodles: ((2, 9), (8, 9))
+curry: ((3, 8), (7, 8))
+cake: ((8, 5), (8, 8))
+pie: ((0, 4), (0, 6))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+burger: ((3, 3), (8, 3))
+pasta: ((0, 0), (4, 0))
+sandwich: ((0, 1), (7, 1))
+soup: ((0, 1), (0, 4))
+steak: ((1, 2), (5, 2))
+sushi: ((9, 1), (9, 5))
+noodles: ((2, 9), (8, 9))
+curry: ((3, 8), (7, 8))
+cake: ((8, 5), (8, 8))
+pie: ((0, 4), (0, 6))
+
+Naïve Time taken: 0.0180 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| v  u  x  m  m  z  j  i  i  b  d  z  d  c  h  t  h  c  n  s |
+ 1| i  i  p  s  v  l  v  m  e  u  k  u  f  f  c  v  z  d  s  p |
+ 2| z  r  b  k  d  y  l  o  w  t  q  d  u  q  l  u  e  o  d  i |
+ 3| w  r  m  p  p  g  a  t  a  t  g  r  j  r  j  e  k  w  l  d |
+ 4| n  y  q  o  g  g  d  h  r  e  w  a  u  l  j  s  a  l  l  e |
+ 5| t  v  b  q  h  e  y  w  a  r  q  g  q  x  k  u  k  l  s  r |
+ 6| q  o  t  s  l  j  b  p  n  f  n  o  v  m  i  q  q  c  p  u |
+ 7| o  b  z  t  o  r  u  c  k  l  j  n  s  a  w  t  z  e  j  i |
+ 8| l  g  e  w  s  o  g  b  h  y  b  f  c  n  e  o  t  g  c  v |
+ 9| l  e  v  c  m  w  c  x  w  z  w  l  o  r  b  i  t  c  c  y |
+10| b  h  i  o  k  n  z  z  g  j  n  y  e  t  m  y  p  u  x  m |
+11| v  q  e  c  f  l  y  q  l  c  y  p  n  r  p  p  u  h  t  q |
+12| p  k  s  k  w  h  h  d  k  k  p  a  e  p  t  m  w  k  e  r |
+13| e  t  e  r  e  s  w  g  b  o  c  t  r  b  b  o  n  n  l  v |
+14| c  b  d  o  m  a  b  b  h  d  o  e  a  c  g  k  n  c  x  f |
+15| e  v  g  a  k  r  e  s  e  g  l  z  c  o  d  g  r  q  t  e |
+16| t  t  x  c  d  h  s  u  m  e  m  o  s  q  u  i  t  o  z  x |
+17| o  g  r  h  m  a  w  s  q  d  p  a  g  v  p  r  y  k  q  j |
+18| h  p  x  p  r  q  d  f  w  a  k  j  l  g  k  f  a  u  z  g |
+19| q  o  b  g  i  e  l  k  u  b  v  g  w  a  s  p  r  y  i  a |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+butterfly: ((0, 9), (8, 9))
+mosquito: ((16, 10), (16, 17))
+ladybug: ((2, 6), (8, 6))
+cockroach: ((9, 3), (17, 3))
+fly: ((11, 4), (11, 6))
+spider: ((0, 19), (5, 19))
+dragonfly: ((2, 11), (10, 11))
+moth: ((1, 7), (4, 7))
+wasp: ((19, 12), (19, 15))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+butterfly: ((0, 9), (8, 9))
+mosquito: ((16, 10), (16, 17))
+ladybug: ((2, 6), (8, 6))
+cockroach: ((9, 3), (17, 3))
+fly: ((11, 4), (11, 6))
+spider: ((0, 19), (5, 19))
+dragonfly: ((2, 11), (10, 11))
+moth: ((1, 7), (4, 7))
+wasp: ((19, 12), (19, 15))
+
+Naïve Time taken: 0.0415 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| q  k  l  h  t  s  i  p  z  k  i  l  e  a  q  j  e  c  g  p |
+ 1| u  f  t  m  q  j  n  e  o  r  p  u  z  g  n  f  n  h  d  g |
+ 2| m  t  q  o  c  d  i  n  r  z  d  w  n  a  w  t  w  i  d  c |
+ 3| o  c  l  q  m  y  i  m  f  w  z  p  m  v  d  j  r  m  x  z |
+ 4| n  o  k  y  l  n  h  b  j  p  a  s  p  i  d  e  r  w  v  c |
+ 5| u  r  h  f  h  m  h  g  k  s  w  s  u  o  s  m  p  a  c  u |
+ 6| u  q  q  o  m  t  q  g  c  f  o  h  p  h  w  o  f  r  o  d |
+ 7| l  v  m  e  o  b  u  t  t  e  r  f  l  y  s  w  e  e  c  r |
+ 8| d  t  p  m  z  b  b  z  v  j  x  t  v  k  o  p  e  c  k  a |
+ 9| u  m  j  p  y  l  x  l  t  p  n  y  o  t  p  b  g  p  r  g |
+10| u  y  r  d  c  a  c  c  l  o  f  s  i  o  y  g  l  d  o  o |
+11| i  q  a  b  q  b  d  x  w  r  x  u  h  c  x  d  s  i  a  n |
+12| v  l  n  l  f  e  e  i  h  j  q  s  c  g  h  b  w  f  c  f |
+13| s  o  y  k  l  e  y  a  t  s  s  m  v  o  j  x  e  o  h  l |
+14| j  p  d  n  e  t  o  t  o  a  a  j  f  y  u  t  y  q  v  y |
+15| j  p  b  u  a  l  r  m  r  k  s  k  j  l  i  p  b  m  y  r |
+16| n  y  j  a  r  e  b  g  n  x  v  s  d  m  v  o  t  i  q  v |
+17| o  b  g  z  l  k  r  i  n  f  i  h  r  h  e  o  d  v  g  x |
+18| u  q  y  v  t  t  n  l  k  z  z  e  s  x  v  j  b  q  x  z |
+19| p  m  z  y  u  q  d  i  b  a  t  t  q  r  l  f  g  u  f  i |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+bee: ((11, 5), (13, 5))
+butterfly: ((7, 5), (7, 13))
+cockroach: ((5, 18), (13, 18))
+fly: ((7, 11), (7, 13))
+spider: ((4, 11), (4, 16))
+dragonfly: ((6, 19), (14, 19))
+beetle: ((11, 5), (16, 5))
+flea: ((12, 4), (15, 4))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+bee: ((11, 5), (13, 5))
+butterfly: ((7, 5), (7, 13))
+cockroach: ((5, 18), (13, 18))
+fly: ((7, 11), (7, 13))
+spider: ((4, 11), (4, 16))
+dragonfly: ((6, 19), (14, 19))
+beetle: ((11, 5), (16, 5))
+flea: ((12, 4), (15, 4))
+
+Naïve Time taken: 0.0421 seconds
+Naïve Memory used: 0.00 MB

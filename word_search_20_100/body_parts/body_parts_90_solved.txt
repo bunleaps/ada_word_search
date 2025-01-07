@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| y  g  i  i  w  e  s  f  o  c  a  y  p  m  h  i  i  y  z  w |
+ 1| k  l  h  u  p  e  e  h  n  j  j  u  v  t  t  z  y  b  m  t |
+ 2| o  a  n  u  g  t  e  b  o  v  i  u  v  y  z  o  x  a  i  k |
+ 3| v  t  k  g  o  w  p  x  u  u  b  m  z  t  u  z  e  y  a  o |
+ 4| l  s  p  y  p  d  t  t  w  s  l  q  g  d  l  o  p  c  k  c |
+ 5| e  t  f  c  q  n  u  m  h  p  b  d  j  r  a  e  p  x  v  l |
+ 6| g  o  v  i  c  l  s  p  e  k  h  n  e  u  v  e  b  o  p  b |
+ 7| s  m  j  z  n  w  v  z  a  b  i  a  s  r  t  t  h  y  y  g |
+ 8| c  a  e  y  e  g  y  t  d  b  r  a  i  n  z  v  c  s  n  p |
+ 9| q  c  t  e  c  k  e  p  e  a  r  v  p  o  j  p  h  e  e  q |
+10| p  h  p  k  d  s  n  r  h  b  r  f  x  a  r  o  t  x  u  a |
+11| u  o  z  f  v  d  a  e  h  a  n  n  h  y  r  w  c  v  w  n |
+12| a  n  s  n  e  d  o  m  e  c  n  s  e  e  h  m  h  o  d  o |
+13| t  m  i  q  v  k  j  h  b  k  h  d  e  c  a  f  e  m  z  s |
+14| w  k  a  m  v  k  t  l  m  t  n  c  g  e  k  x  s  l  l  e |
+15| s  z  d  g  t  u  d  m  e  a  f  v  p  l  d  l  t  r  q  b |
+16| h  o  z  u  o  b  t  e  h  t  l  q  n  d  p  h  x  c  q  h |
+17| c  s  k  m  j  o  t  c  n  k  q  y  o  a  o  w  m  m  j  a |
+18| p  z  y  t  o  y  x  j  b  o  t  y  h  a  f  a  n  q  u  a |
+19| y  s  c  f  k  y  c  c  p  j  q  h  e  a  r  t  p  z  a  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+head: ((11, 8), (11, 5))
+leg: ((4, 0), (6, 0))
+eye: ((8, 2), (8, 4))
+ear: ((5, 15), (5, 13))
+nose: ((11, 19), (14, 19))
+stomach: ((4, 1), (10, 1))
+back: ((10, 9), (13, 9))
+chest: ((11, 16), (15, 16))
+heart: ((19, 11), (19, 15))
+brain: ((8, 9), (8, 13))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+head: ((11, 8), (11, 5))
+leg: ((4, 0), (6, 0))
+eye: ((8, 2), (8, 4))
+ear: ((5, 15), (5, 13))
+nose: ((11, 19), (14, 19))
+stomach: ((4, 1), (10, 1))
+back: ((10, 9), (13, 9))
+chest: ((11, 16), (15, 16))
+heart: ((19, 11), (19, 15))
+brain: ((8, 9), (8, 13))
+
+Naïve Time taken: 0.0627 seconds
+Naïve Memory used: 0.00 MB

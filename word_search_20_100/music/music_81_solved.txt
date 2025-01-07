@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| v  d  x  h  j  z  d  p  k  x  r  g  n  k  b  x  c  k  x  m |
+ 1| r  z  o  l  i  f  m  g  j  f  t  b  f  i  a  y  o  y  e  e |
+ 2| s  x  g  j  e  c  v  r  m  z  k  z  v  t  n  c  n  d  g  c |
+ 3| u  o  m  t  q  y  i  p  h  j  p  z  m  q  d  o  z  r  y  m |
+ 4| g  b  o  b  g  o  o  h  j  y  x  q  p  w  m  y  d  q  l  i |
+ 5| z  n  t  f  c  d  l  n  t  s  t  x  a  r  r  s  d  g  r  c |
+ 6| e  m  p  r  r  x  i  l  n  j  w  h  a  e  d  b  h  r  b  r |
+ 7| a  x  e  o  u  v  n  i  l  l  t  h  m  g  l  v  e  l  v  o |
+ 8| q  w  h  l  w  m  y  z  s  g  n  l  d  c  h  g  i  x  t  p |
+ 9| c  c  j  m  o  z  p  c  l  f  l  u  t  e  n  n  b  n  o  h |
+10| r  t  m  k  u  d  i  e  p  l  d  f  t  i  x  e  q  o  n  o |
+11| r  s  d  t  y  r  y  g  t  w  l  w  s  f  w  c  r  a  r  n |
+12| q  w  r  k  y  w  z  j  b  b  i  d  f  y  z  a  r  x  w  e |
+13| x  t  u  l  k  s  a  x  o  p  h  o  n  e  t  t  c  q  w  d |
+14| g  d  m  h  e  a  d  p  h  o  n  e  s  i  s  l  a  n  p  d |
+15| a  l  s  d  d  v  n  r  k  k  q  q  u  e  a  l  b  u  m  j |
+16| e  m  s  h  i  n  u  z  j  v  t  g  h  q  e  s  u  g  b  c |
+17| d  e  j  h  c  o  n  c  e  r  t  c  a  x  w  u  e  u  g  z |
+18| m  h  b  p  c  h  o  y  j  s  r  d  n  g  f  h  w  g  j  b |
+19| f  p  i  a  n  o  b  p  g  o  x  d  a  l  i  g  l  k  k  e |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+piano: ((19, 1), (19, 5))
+drums: ((11, 2), (15, 2))
+violin: ((2, 6), (7, 6))
+flute: ((9, 9), (9, 13))
+saxophone: ((13, 5), (13, 13))
+band: ((0, 14), (3, 14))
+concert: ((17, 4), (17, 10))
+album: ((15, 14), (15, 18))
+microphone: ((3, 19), (12, 19))
+headphones: ((14, 3), (14, 12))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+piano: ((19, 1), (19, 5))
+drums: ((11, 2), (15, 2))
+violin: ((2, 6), (7, 6))
+flute: ((9, 9), (9, 13))
+saxophone: ((13, 5), (13, 13))
+band: ((0, 14), (3, 14))
+concert: ((17, 4), (17, 10))
+album: ((15, 14), (15, 18))
+microphone: ((3, 19), (12, 19))
+headphones: ((14, 3), (14, 12))
+
+Naïve Time taken: 0.0602 seconds
+Naïve Memory used: 0.00 MB

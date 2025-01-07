@@ -1,0 +1,37 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| v  m  r  i  v  e  r  q  d  f |
+ 1| i  o  i  s  l  a  n  d  e  o |
+ 2| l  u  p  z  t  d  v  x  s  r |
+ 3| l  n  r  a  a  t  j  s  e  e |
+ 4| a  t  j  o  r  y  o  m  r  s |
+ 5| g  a  r  e  t  k  a  w  t  t |
+ 6| e  i  z  i  j  w  e  k  n  c |
+ 7| y  n  c  u  y  k  k  u  z  s |
+ 8| y  m  b  e  a  c  h  z  z  q |
+ 9| h  h  e  l  a  c  w  q  y  r |
+  +------------------------------+
+Dynamic Programming Solution:
+village: ((0, 0), (6, 0))
+beach: ((8, 2), (8, 6))
+mountain: ((0, 1), (7, 1))
+river: ((0, 2), (0, 6))
+forest: ((0, 9), (5, 9))
+desert: ((0, 8), (5, 8))
+island: ((1, 2), (1, 7))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+village: ((0, 0), (6, 0))
+beach: ((8, 2), (8, 6))
+mountain: ((0, 1), (7, 1))
+river: ((0, 2), (0, 6))
+forest: ((0, 9), (5, 9))
+desert: ((0, 8), (5, 8))
+island: ((1, 2), (1, 7))
+
+Naïve Time taken: 0.0090 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  u  w  k  x  t  r  h  m  o  o  n  s  c  g  d  c  j  y  i |
+ 1| o  r  b  i  t  a  n  j  p  u  u  p  f  d  i  e  o  v  g  c |
+ 2| k  s  h  v  s  h  m  y  k  a  t  m  g  t  t  e  n  i  i  i |
+ 3| y  c  p  y  a  t  u  x  y  y  z  v  e  i  z  s  s  b  m  w |
+ 4| q  d  o  a  q  q  t  s  c  q  r  n  l  j  q  z  t  a  e  u |
+ 5| j  l  g  n  c  j  x  g  s  j  a  l  x  d  b  d  e  s  t  d |
+ 6| w  e  v  t  j  e  r  w  t  l  e  g  i  y  l  x  l  t  e  f |
+ 7| s  o  u  e  k  s  c  i  p  t  r  o  k  t  a  x  l  r  o  c |
+ 8| r  t  t  n  y  m  y  r  a  q  r  z  d  p  c  r  a  o  r  l |
+ 9| o  t  a  f  i  e  f  s  a  e  d  v  n  j  k  j  t  n  e  i |
+10| c  m  e  r  w  v  j  g  t  f  f  r  g  e  h  t  i  a  o  g |
+11| k  n  x  l  m  b  e  s  a  q  t  p  k  p  o  o  o  u  w  h |
+12| e  e  t  k  e  u  a  r  g  l  h  m  c  h  l  i  n  t  y  t |
+13| t  b  i  m  b  s  o  l  s  p  a  n  a  o  e  g  s  v  k  y |
+14| v  u  c  e  k  u  c  g  p  e  n  x  n  t  m  r  y  v  a  e |
+15| h  l  f  u  f  c  i  o  p  v  c  a  y  c  m  e  e  e  j  a |
+16| h  a  y  s  c  j  f  m  p  b  n  c  s  e  e  f  t  w  a  r |
+17| u  g  z  a  j  w  w  z  b  e  e  x  d  g  n  e  f  k  d  i |
+18| s  a  l  i  e  n  s  d  r  z  e  c  l  q  d  i  w  d  e  w |
+19| u  s  o  l  a  r  z  s  y  s  t  e  m  w  x  p  k  l  x  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+moon: ((0, 8), (0, 11))
+nebula: ((11, 1), (16, 1))
+blackhole: ((5, 14), (13, 14))
+rocket: ((8, 0), (13, 0))
+astronaut: ((4, 17), (12, 17))
+orbit: ((1, 0), (1, 4))
+meteor: ((3, 18), (8, 18))
+lightyear: ((8, 19), (16, 19))
+constellation: ((0, 16), (12, 16))
+aliens: ((18, 1), (18, 6))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+moon: ((0, 8), (0, 11))
+nebula: ((11, 1), (16, 1))
+blackhole: ((5, 14), (13, 14))
+rocket: ((8, 0), (13, 0))
+astronaut: ((4, 17), (12, 17))
+orbit: ((1, 0), (1, 4))
+meteor: ((3, 18), (8, 18))
+lightyear: ((8, 19), (16, 19))
+constellation: ((0, 16), (12, 16))
+aliens: ((18, 1), (18, 6))
+
+Naïve Time taken: 0.0670 seconds
+Naïve Memory used: 0.00 MB

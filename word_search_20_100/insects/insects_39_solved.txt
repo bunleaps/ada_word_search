@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| o  g  v  o  e  e  i  w  b  h  p  m  u  g  w  v  z  j  w  c |
+ 1| y  q  t  e  r  m  i  t  e  e  u  n  c  t  a  q  v  f  a  z |
+ 2| w  d  i  n  o  b  t  r  b  c  o  c  k  r  o  a  c  h  b  k |
+ 3| h  z  i  h  p  f  h  d  s  c  e  q  e  r  i  g  e  z  d  d |
+ 4| p  r  k  u  z  q  m  p  f  l  q  r  d  e  v  h  d  v  r  g |
+ 5| p  i  q  p  y  s  h  h  c  k  j  m  w  x  x  t  e  h  a  c |
+ 6| v  b  s  b  g  e  a  x  b  h  a  l  e  p  l  q  c  w  g  d |
+ 7| g  a  b  e  c  l  b  u  t  t  e  r  f  l  y  t  v  l  o  j |
+ 8| w  q  c  e  l  m  c  d  y  k  h  r  d  p  d  g  o  g  n  j |
+ 9| s  s  k  t  u  w  o  l  u  l  v  y  k  g  v  r  s  i  f  p |
+10| d  n  h  l  u  t  v  s  o  e  v  l  m  s  e  o  h  y  l  i |
+11| p  p  j  e  c  z  r  o  q  p  s  h  i  p  t  l  w  v  y  c |
+12| x  y  y  n  g  c  z  b  x  u  t  o  p  d  e  x  a  r  b  v |
+13| s  l  i  i  b  v  c  i  e  o  i  o  n  g  q  e  h  g  g  j |
+14| f  g  s  w  n  w  w  x  m  e  h  t  e  w  l  u  a  u  u  y |
+15| m  i  u  s  u  t  h  u  y  s  j  o  o  f  v  v  b  l  f  d |
+16| c  r  r  z  x  k  b  t  s  p  i  d  e  r  z  y  o  l  r  e |
+17| w  b  q  a  i  i  m  a  e  w  t  u  m  x  d  c  s  a  l  j |
+18| v  t  m  s  g  p  r  b  j  n  q  f  g  a  z  k  s  i  g  g |
+19| x  k  d  n  h  g  u  u  a  j  o  w  l  w  n  z  k  f  r  w |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+bee: ((6, 3), (8, 3))
+butterfly: ((7, 6), (7, 14))
+cockroach: ((2, 9), (2, 17))
+fly: ((7, 12), (7, 14))
+spider: ((16, 8), (16, 13))
+dragonfly: ((3, 18), (11, 18))
+beetle: ((6, 3), (11, 3))
+termite: ((1, 2), (1, 8))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+bee: ((6, 3), (8, 3))
+butterfly: ((7, 6), (7, 14))
+cockroach: ((2, 9), (2, 17))
+fly: ((7, 12), (7, 14))
+spider: ((16, 8), (16, 13))
+dragonfly: ((3, 18), (11, 18))
+beetle: ((6, 3), (11, 3))
+termite: ((1, 2), (1, 8))
+
+Naïve Time taken: 0.0399 seconds
+Naïve Memory used: 0.00 MB

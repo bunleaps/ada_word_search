@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| t  z  d  y  t  d  j  r  e  k  b  y  m  n  p  t  u  n  j  d |
+ 1| m  i  h  p  e  a  r  e  n  s  m  k  w  g  m  j  c  a  g  c |
+ 2| h  v  t  l  q  r  e  o  s  c  c  c  e  c  k  g  a  c  s  r |
+ 3| h  h  p  n  j  r  i  o  s  r  k  v  g  a  l  e  c  x  m  s |
+ 4| p  a  v  l  t  o  m  n  c  e  d  a  i  s  y  a  t  s  j  h |
+ 5| m  u  b  g  e  q  t  w  s  w  l  n  q  c  k  n  u  m  o  r |
+ 6| i  w  g  x  v  r  x  p  d  x  j  m  t  p  r  s  s  y  v  u |
+ 7| g  j  n  a  q  q  w  b  a  m  b  o  o  a  r  j  t  j  d  b |
+ 8| r  k  a  f  t  g  z  v  i  s  u  n  f  l  o  w  e  r  l  w |
+ 9| l  l  i  i  l  q  v  i  h  v  o  y  e  m  d  b  s  x  n  p |
+10| k  q  l  b  z  o  f  n  x  m  y  y  d  p  v  h  h  g  c  s |
+11| f  k  i  e  z  b  w  e  w  h  v  o  a  k  o  k  y  r  u  p |
+12| y  z  l  t  r  k  i  e  t  o  k  v  d  g  p  v  e  a  m  t |
+13| c  u  y  e  u  d  e  g  r  y  r  u  y  r  n  v  m  s  z  m |
+14| r  r  f  t  o  l  p  u  x  o  o  c  i  w  a  j  m  s  m  x |
+15| i  s  e  c  q  t  i  j  p  i  n  e  h  w  a  f  s  y  o  n |
+16| v  s  r  r  i  l  g  p  l  b  e  c  o  i  e  s  a  e  f  l |
+17| d  s  n  b  b  y  u  o  x  o  f  o  z  q  d  y  e  g  v  f |
+18| w  a  q  t  s  f  t  l  s  p  s  a  v  t  t  x  y  z  p  u |
+19| o  b  m  o  b  y  x  t  u  a  i  w  q  f  k  y  x  t  i  u |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+flower: ((8, 12), (8, 17))
+grass: ((10, 17), (14, 17))
+shrub: ((3, 19), (7, 19))
+fern: ((14, 2), (17, 2))
+cactus: ((1, 16), (6, 16))
+vine: ((8, 7), (11, 7))
+bamboo: ((7, 7), (7, 12))
+oak: ((11, 11), (11, 13))
+pine: ((15, 8), (15, 11))
+daisy: ((4, 10), (4, 14))
+sunflower: ((8, 9), (8, 17))
+lily: ((10, 2), (13, 2))
+palm: ((6, 13), (9, 13))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+flower: ((8, 12), (8, 17))
+grass: ((10, 17), (14, 17))
+shrub: ((3, 19), (7, 19))
+fern: ((14, 2), (17, 2))
+cactus: ((1, 16), (6, 16))
+vine: ((8, 7), (11, 7))
+bamboo: ((7, 7), (7, 12))
+oak: ((11, 11), (11, 13))
+pine: ((15, 8), (15, 11))
+daisy: ((4, 10), (4, 14))
+sunflower: ((8, 9), (8, 17))
+lily: ((10, 2), (13, 2))
+palm: ((6, 13), (9, 13))
+
+Naïve Time taken: 0.0641 seconds
+Naïve Memory used: 0.00 MB

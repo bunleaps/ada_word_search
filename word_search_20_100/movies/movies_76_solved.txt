@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  y  v  j  i  b  l  m  p  r  e  m  i  e  r  e  l  a  z  s |
+ 1| e  v  a  c  v  v  q  j  p  o  r  v  i  l  l  a  i  n  q  p |
+ 2| g  b  c  b  m  m  f  i  b  o  x  o  f  f  i  c  e  i  d  r |
+ 3| u  j  t  g  b  j  g  t  t  h  d  p  z  z  o  j  y  m  o  o |
+ 4| i  n  r  q  j  x  p  c  a  t  o  r  z  s  j  t  i  a  c  d |
+ 5| j  w  e  d  i  i  e  v  v  u  x  r  z  q  o  r  m  t  u  u |
+ 6| b  x  s  j  r  r  t  r  a  i  l  e  r  d  e  e  p  i  m  c |
+ 7| h  u  s  c  i  s  v  z  e  z  r  w  b  o  n  w  h  o  e  e |
+ 8| b  e  s  d  m  q  c  b  a  e  j  i  v  i  r  i  l  n  n  r |
+ 9| f  l  r  p  l  h  d  r  l  g  t  p  c  n  g  h  g  a  t  h |
+10| a  h  o  o  i  w  r  l  e  k  h  l  e  v  e  t  o  m  a  h |
+11| j  f  l  c  r  r  i  y  s  e  q  u  e  l  z  j  i  u  r  a |
+12| j  c  e  o  k  r  v  q  j  t  n  n  i  e  q  r  e  s  y  w |
+13| o  c  t  s  h  b  u  i  g  u  r  p  s  q  j  c  i  i  d  a |
+14| w  c  o  t  t  n  u  s  e  o  e  x  l  j  n  e  c  c  v  r |
+15| a  d  e  m  o  i  s  s  c  a  l  f  m  a  r  f  a  a  c  d |
+16| c  k  v  z  e  s  v  p  t  l  y  s  m  n  y  m  e  l  o  v |
+17| d  y  b  a  w  d  o  a  l  e  h  o  e  g  a  a  m  f  c  h |
+18| j  i  d  y  b  p  y  i  l  m  r  g  p  r  l  k  h  q  z  t |
+19| e  b  k  x  c  w  i  z  n  k  v  d  d  w  y  k  u  v  x  e |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+actress: ((1, 2), (7, 2))
+trailer: ((6, 6), (6, 12))
+sequel: ((11, 8), (11, 13))
+premiere: ((0, 8), (0, 15))
+villain: ((1, 11), (1, 17))
+animation: ((0, 17), (8, 17))
+musical: ((10, 17), (16, 17))
+documentary: ((2, 18), (12, 18))
+producer: ((1, 19), (8, 19))
+boxoffice: ((2, 8), (2, 16))
+award: ((11, 19), (15, 19))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+actress: ((1, 2), (7, 2))
+trailer: ((6, 6), (6, 12))
+sequel: ((11, 8), (11, 13))
+premiere: ((0, 8), (0, 15))
+villain: ((1, 11), (1, 17))
+animation: ((0, 17), (8, 17))
+musical: ((10, 17), (16, 17))
+documentary: ((2, 18), (12, 18))
+producer: ((1, 19), (8, 19))
+boxoffice: ((2, 8), (2, 16))
+award: ((11, 19), (15, 19))
+
+Naïve Time taken: 0.0787 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| w  k  d  d  i  s  h  a  r  p  e  n  e  r  r  l  o  p  x  p |
+ 1| d  k  b  c  g  o  s  t  a  p  l  e  r  u  q  t  s  s  w  e |
+ 2| g  f  e  a  w  m  f  r  o  q  f  l  b  r  d  o  v  b  k  n |
+ 3| c  c  n  f  x  q  f  r  m  m  j  j  a  u  p  j  e  t  y  c |
+ 4| a  m  m  e  o  s  z  z  e  n  a  i  g  t  a  d  r  y  w  i |
+ 5| v  w  m  j  j  l  g  t  a  o  i  r  j  l  p  l  o  n  i  l |
+ 6| q  v  d  o  t  x  d  u  o  t  y  g  k  j  e  h  t  m  c  c |
+ 7| w  j  h  u  v  m  q  e  a  e  n  h  h  e  r  m  o  k  u  h |
+ 8| u  p  g  c  h  z  d  u  r  b  a  l  o  p  r  c  t  p  j  a |
+ 9| g  a  s  q  l  i  e  p  r  o  h  m  k  x  e  q  u  b  b  l |
+10| f  l  x  c  n  i  g  f  g  o  q  f  i  j  v  o  x  m  o  k |
+11| f  a  u  d  i  q  p  h  u  k  a  k  f  u  f  v  d  s  o  r |
+12| w  y  a  e  c  s  h  b  l  h  o  o  r  r  a  u  j  b  k  z |
+13| y  e  t  p  k  t  s  k  o  i  k  r  o  x  p  t  e  b  z  i |
+14| u  g  e  e  t  a  y  o  t  a  g  n  u  g  e  o  r  p  r  e |
+15| l  y  t  n  k  g  g  e  r  q  r  h  x  l  l  s  a  m  m  y |
+16| e  n  o  d  m  t  i  x  h  s  x  d  t  r  e  p  s  y  i  x |
+17| b  y  x  v  f  a  c  r  a  y  o  n  s  e  p  r  e  x  y  x |
+18| f  g  h  i  g  a  o  n  t  f  m  d  t  o  r  j  r  v  b  z |
+19| c  m  o  l  a  t  j  h  c  a  l  c  u  l  a  t  o  r  n  a |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pencil: ((0, 19), (5, 19))
+pen: ((0, 9), (0, 11))
+notebook: ((4, 9), (11, 9))
+eraser: ((13, 16), (18, 16))
+chalk: ((6, 19), (10, 19))
+book: ((8, 9), (11, 9))
+bag: ((2, 12), (4, 12))
+calculator: ((19, 8), (19, 17))
+paper: ((3, 14), (7, 14))
+stapler: ((1, 6), (1, 12))
+sharpener: ((0, 5), (0, 13))
+crayons: ((17, 6), (17, 12))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pencil: ((0, 19), (5, 19))
+pen: ((0, 9), (0, 11))
+notebook: ((4, 9), (11, 9))
+eraser: ((13, 16), (18, 16))
+chalk: ((6, 19), (10, 19))
+book: ((8, 9), (11, 9))
+bag: ((2, 12), (4, 12))
+calculator: ((19, 8), (19, 17))
+paper: ((3, 14), (7, 14))
+stapler: ((1, 6), (1, 12))
+sharpener: ((0, 5), (0, 13))
+crayons: ((17, 6), (17, 12))
+
+Naïve Time taken: 0.0550 seconds
+Naïve Memory used: 0.00 MB

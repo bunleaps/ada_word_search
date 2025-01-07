@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| w  m  w  u  e  o  f  h  w  i  t  v  q  o  c  c  e  k  l  w |
+ 1| h  q  e  y  l  y  r  i  c  s  p  o  d  g  q  h  r  n  o  m |
+ 2| a  o  h  i  a  l  b  u  m  j  h  g  r  p  c  o  t  u  y  i |
+ 3| l  f  m  z  p  w  s  f  g  u  a  a  u  p  g  r  p  q  r  c |
+ 4| c  s  j  u  z  g  s  l  g  k  r  a  m  e  i  d  n  u  c  r |
+ 5| y  o  c  u  q  e  n  u  k  l  m  o  s  r  x  i  t  n  d  o |
+ 6| b  r  j  h  m  m  o  t  o  q  o  j  n  l  l  s  r  e  m  p |
+ 7| k  m  q  m  e  z  t  e  s  l  n  x  s  o  g  w  n  e  s  h |
+ 8| c  e  l  u  l  q  e  k  r  c  y  e  i  k  j  o  p  u  t  o |
+ 9| o  l  h  k  g  y  e  j  f  q  n  v  o  t  h  v  c  b  d  n |
+10| n  o  s  i  n  g  e  r  j  o  a  a  v  p  v  d  m  e  p  e |
+11| c  d  b  a  r  j  k  o  h  r  a  f  o  g  n  a  p  r  d  e |
+12| e  y  s  k  a  r  n  p  t  i  m  x  t  a  j  t  i  r  a  k |
+13| r  i  q  b  a  a  d  s  q  c  a  r  b  n  n  p  p  h  f  h |
+14| t  a  o  t  i  a  e  c  l  s  h  h  r  b  a  l  n  r  s  p |
+15| d  k  i  p  e  h  q  e  g  g  m  y  s  p  f  c  c  v  s  i |
+16| b  u  z  h  c  h  y  v  y  u  q  t  k  d  a  q  g  u  v  g |
+17| g  h  a  r  i  s  t  b  x  q  n  h  t  r  u  m  p  e  t  a |
+18| c  g  o  p  p  b  l  y  t  y  p  m  u  u  d  t  b  g  j  c |
+19| m  j  c  o  r  d  y  n  w  p  q  a  t  p  u  r  e  y  i  j |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+drums: ((1, 12), (5, 12))
+flute: ((3, 7), (7, 7))
+trumpet: ((17, 12), (17, 18))
+singer: ((10, 2), (10, 7))
+melody: ((7, 1), (12, 1))
+harmony: ((2, 10), (8, 10))
+rhythm: ((13, 11), (18, 11))
+note: ((5, 6), (8, 6))
+chord: ((0, 15), (4, 15))
+concert: ((8, 0), (14, 0))
+lyrics: ((1, 4), (1, 9))
+album: ((2, 4), (2, 8))
+microphone: ((1, 19), (10, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+drums: ((1, 12), (5, 12))
+flute: ((3, 7), (7, 7))
+trumpet: ((17, 12), (17, 18))
+singer: ((10, 2), (10, 7))
+melody: ((7, 1), (12, 1))
+harmony: ((2, 10), (8, 10))
+rhythm: ((13, 11), (18, 11))
+note: ((5, 6), (8, 6))
+chord: ((0, 15), (4, 15))
+concert: ((8, 0), (14, 0))
+lyrics: ((1, 4), (1, 9))
+album: ((2, 4), (2, 8))
+microphone: ((1, 19), (10, 19))
+
+Naïve Time taken: 0.0515 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  o  d  n  f  s  s  t  z  h  v  c  r  m  t  w  c  k  d  e |
+ 1| r  p  i  e  d  m  v  a  c  d  a  m  g  r  k  p  x  f  m  t |
+ 2| x  u  u  t  y  a  w  s  u  g  j  o  e  e  i  y  x  s  j  u |
+ 3| q  i  m  w  u  r  j  c  p  a  e  t  r  v  o  x  a  p  d  h |
+ 4| c  c  o  o  w  t  i  y  d  r  u  a  j  g  f  x  g  r  o  k |
+ 5| k  l  n  r  m  p  v  x  k  p  w  n  s  s  z  b  a  i  h  b |
+ 6| e  o  i  k  o  h  o  k  m  d  k  w  y  h  e  o  e  n  k  a |
+ 7| i  u  t  u  u  o  x  o  r  m  p  y  u  n  b  p  f  t  x  t |
+ 8| g  d  o  x  s  n  c  a  y  i  I  e  o  y  t  w  t  e  b  b |
+ 9| m  w  r  b  e  e  h  c  h  A  b  r  e  u  k  j  f  r  v  z |
+10| g  x  n  h  u  b  s  c  e  i  d  k  o  q  d  v  i  c  h  v |
+11| f  s  i  v  w  c  o  k  o  t  d  l  a  b  d  u  n  a  z  r |
+12| m  j  p  c  u  p  f  r  p  l  j  a  d  t  o  d  t  m  j  r |
+13| a  q  p  o  a  e  t  r  x  y  k  z  i  n  k  t  e  e  f  z |
+14| q  p  e  d  f  k  w  k  i  a  b  n  l  x  e  u  r  r  h  m |
+15| u  b  v  i  c  e  a  x  x  m  s  u  z  p  y  w  n  a  k  a |
+16| w  k  l  n  v  v  r  d  a  t  a  c  z  a  g  x  e  f  o  i |
+17| x  g  v  g  j  v  e  y  j  t  a  b  l  e  t  l  t  l  v  d |
+18| s  a  t  e  l  l  i  t  e  j  v  g  g  t  p  x  r  j  d  q |
+19| v  y  w  l  u  l  o  f  d  z  g  z  a  w  s  d  x  e  l  t |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+smartphone: ((0, 5), (9, 5))
+tablet: ((17, 9), (17, 14))
+internet: ((10, 16), (17, 16))
+software: ((10, 6), (17, 6))
+mouse: ((5, 4), (9, 4))
+monitor: ((3, 2), (9, 2))
+printer: ((3, 17), (9, 17))
+camera: ((10, 17), (15, 17))
+cloud: ((4, 1), (8, 1))
+coding: ((12, 3), (17, 3))
+data: ((16, 7), (16, 10))
+network: ((0, 3), (6, 3))
+satellite: ((18, 0), (18, 8))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+smartphone: ((0, 5), (9, 5))
+tablet: ((17, 9), (17, 14))
+internet: ((10, 16), (17, 16))
+software: ((10, 6), (17, 6))
+mouse: ((5, 4), (9, 4))
+monitor: ((3, 2), (9, 2))
+printer: ((3, 17), (9, 17))
+camera: ((10, 17), (15, 17))
+cloud: ((4, 1), (8, 1))
+coding: ((12, 3), (17, 3))
+data: ((16, 7), (16, 10))
+network: ((0, 3), (6, 3))
+satellite: ((18, 0), (18, 8))
+
+Naïve Time taken: 0.0626 seconds
+Naïve Memory used: 0.00 MB

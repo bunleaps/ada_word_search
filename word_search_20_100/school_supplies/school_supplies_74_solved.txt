@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| c  f  f  g  c  q  c  l  i  p  b  o  a  r  d  z  p  m  h  d |
+ 1| o  o  t  n  o  a  x  y  q  e  p  y  p  k  r  m  x  u  a  b |
+ 2| r  l  f  g  o  p  l  d  r  n  m  l  l  e  g  k  l  n  u  b |
+ 3| u  d  g  d  l  t  s  l  p  k  f  a  t  u  n  x  r  g  c  b |
+ 4| l  e  s  y  s  u  e  m  h  a  h  h  i  x  z  c  g  q  k  b |
+ 5| e  r  d  t  x  k  e  b  d  c  g  x  v  l  p  z  i  v  s  k |
+ 6| r  s  h  b  m  l  i  l  o  i  i  u  u  l  b  l  l  l  c  s |
+ 7| a  o  m  y  w  y  k  a  l  o  a  q  m  j  y  o  f  d  i  m |
+ 8| t  p  a  l  p  v  e  h  u  p  k  r  f  e  r  j  r  d  s  r |
+ 9| t  q  r  v  z  i  g  j  j  b  b  e  e  r  h  m  y  t  s  v |
+10| r  g  k  s  o  i  s  q  x  p  a  x  c  a  n  y  m  e  o  z |
+11| b  w  e  p  h  n  h  g  e  v  g  y  z  s  g  m  b  j  r  a |
+12| s  y  r  n  o  a  f  f  j  b  h  b  y  e  j  c  k  r  s  u |
+13| q  t  g  y  q  o  r  g  j  s  o  z  r  r  c  b  e  s  s  y |
+14| q  s  a  k  l  t  b  p  q  w  m  o  b  w  z  p  o  f  m  l |
+15| l  r  j  p  n  z  x  y  e  m  w  d  k  r  a  p  b  d  y  g |
+16| c  m  o  s  l  w  w  p  w  n  b  i  q  p  m  o  g  z  u  x |
+17| p  o  p  n  e  e  r  a  y  m  e  n  v  y  h  a  d  p  a  c |
+18| y  b  u  a  z  m  r  k  h  l  q  r  e  z  h  k  k  l  z  c |
+19| l  c  a  l  c  u  l  a  t  o  r  k  b  q  u  m  e  b  o  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pen: ((0, 9), (2, 9))
+ruler: ((2, 0), (6, 0))
+eraser: ((8, 13), (13, 13))
+marker: ((7, 2), (12, 2))
+bag: ((9, 10), (11, 10))
+scissors: ((5, 18), (12, 18))
+calculator: ((19, 1), (19, 10))
+folder: ((0, 1), (5, 1))
+clipboard: ((0, 6), (0, 14))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pen: ((0, 9), (2, 9))
+ruler: ((2, 0), (6, 0))
+eraser: ((8, 13), (13, 13))
+marker: ((7, 2), (12, 2))
+bag: ((9, 10), (11, 10))
+scissors: ((5, 18), (12, 18))
+calculator: ((19, 1), (19, 10))
+folder: ((0, 1), (5, 1))
+clipboard: ((0, 6), (0, 14))
+
+Naïve Time taken: 0.0567 seconds
+Naïve Memory used: 0.00 MB

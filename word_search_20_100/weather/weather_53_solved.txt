@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| i  k  z  o  w  i  n  d  y  d  j  t  h  u  n  d  e  r  c  w |
+ 1| n  l  h  b  e  u  z  r  x  y  u  t  t  n  z  j  t  s  i  y |
+ 2| g  a  f  r  m  g  q  q  g  d  s  v  j  d  n  v  b  u  h  b |
+ 3| r  w  d  u  u  t  o  n  i  o  m  c  i  n  d  v  a  d  o  h |
+ 4| r  t  e  i  p  i  i  m  r  l  o  u  t  z  y  l  c  z  t  h |
+ 5| f  c  j  f  j  n  u  f  s  t  o  r  m  y  s  q  y  e  w  u |
+ 6| p  q  j  i  t  h  n  r  l  q  h  t  c  l  k  u  z  y  m  r |
+ 7| q  f  z  h  x  p  u  i  c  d  i  j  x  p  n  o  n  k  l  r |
+ 8| z  i  g  b  d  e  a  g  p  r  t  s  b  b  m  u  x  n  a  i |
+ 9| k  i  x  l  v  h  k  a  q  i  w  o  t  i  a  p  j  g  y  c |
+10| l  c  o  k  j  g  c  j  h  z  f  z  r  a  m  e  f  a  w  a |
+11| o  c  m  a  r  m  l  a  p  z  l  k  x  n  z  a  z  h  d  n |
+12| s  n  o  w  y  c  o  r  s  l  m  p  a  e  a  m  d  r  v  e |
+13| y  x  j  u  p  i  u  d  a  e  l  v  e  y  u  d  a  n  b  v |
+14| g  f  u  q  d  p  d  w  y  h  l  r  b  n  n  z  o  h  t  j |
+15| a  m  l  f  p  a  y  n  m  l  b  l  r  y  z  j  q  a  c  b |
+16| i  h  f  h  v  r  i  b  f  k  c  b  g  i  d  r  y  d  t  s |
+17| v  p  s  u  f  a  s  b  j  l  i  g  l  t  k  u  g  j  l  u |
+18| w  r  b  j  r  s  q  c  y  h  o  b  x  o  c  e  u  o  u  c |
+19| b  z  l  w  x  f  q  u  l  f  p  m  x  a  c  b  e  s  g  v |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+cloudy: ((10, 6), (15, 6))
+stormy: ((5, 8), (5, 13))
+snowy: ((12, 0), (12, 4))
+windy: ((0, 4), (0, 8))
+dry: ((16, 14), (16, 16))
+hot: ((2, 18), (4, 18))
+thunder: ((0, 11), (0, 17))
+drizzle: ((7, 9), (13, 9))
+hurricane: ((4, 19), (12, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+cloudy: ((10, 6), (15, 6))
+stormy: ((5, 8), (5, 13))
+snowy: ((12, 0), (12, 4))
+windy: ((0, 4), (0, 8))
+dry: ((16, 14), (16, 16))
+hot: ((2, 18), (4, 18))
+thunder: ((0, 11), (0, 17))
+drizzle: ((7, 9), (13, 9))
+hurricane: ((4, 19), (12, 19))
+
+Naïve Time taken: 0.1075 seconds
+Naïve Memory used: 0.00 MB

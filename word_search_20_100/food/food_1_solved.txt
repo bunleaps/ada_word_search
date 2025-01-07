@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  v  r  i  c  e  w  u  c  c  b  a  r  l  o  c  u  j  f  n |
+ 1| s  d  l  z  a  p  j  k  r  q  w  i  d  c  i  x  w  c  g  q |
+ 2| u  r  g  s  k  j  k  i  c  e  c  r  e  a  m  t  x  u  z  q |
+ 3| s  n  o  h  r  f  e  t  a  u  n  x  w  b  c  u  r  r  y  m |
+ 4| h  c  a  k  e  d  j  s  a  n  d  w  i  c  h  v  u  r  l  a |
+ 5| i  j  h  z  a  z  z  i  c  h  e  e  s  e  g  o  e  i  q  z |
+ 6| g  f  h  l  c  m  p  i  e  g  w  l  s  i  d  g  v  i  h  j |
+ 7| f  t  a  g  z  f  d  t  r  o  y  u  n  e  r  q  v  m  h  n |
+ 8| g  s  h  k  x  t  a  y  w  w  x  j  n  u  d  b  k  u  z  h |
+ 9| j  p  p  u  w  l  q  a  q  h  t  x  b  b  j  o  p  y  u  d |
+10| j  f  g  i  o  z  d  d  c  n  d  y  n  y  p  k  m  l  l  t |
+11| a  f  h  c  z  m  i  o  x  l  a  c  j  c  a  x  i  i  p  p |
+12| p  a  o  m  u  z  t  w  s  u  k  j  a  e  l  f  o  f  w  r |
+13| k  h  v  x  t  i  a  z  f  o  c  o  t  d  x  c  d  a  c  a |
+14| c  k  w  t  r  s  i  k  w  z  u  s  l  f  a  a  t  a  h  t |
+15| h  c  p  r  o  u  p  f  n  x  n  p  i  t  e  s  a  z  a  d |
+16| w  z  u  o  j  d  n  o  o  d  l  e  s  r  a  p  r  s  t  e |
+17| y  b  o  v  n  d  b  m  e  k  c  m  b  p  c  n  z  f  m  p |
+18| c  o  o  k  i  e  s  f  m  f  z  k  b  f  g  l  y  t  y  q |
+19| x  z  v  u  u  o  w  f  o  j  v  r  i  w  n  i  e  c  d  o |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+sandwich: ((4, 7), (4, 14))
+sushi: ((1, 0), (5, 0))
+rice: ((0, 2), (0, 5))
+noodles: ((16, 6), (16, 12))
+curry: ((3, 14), (3, 18))
+cheese: ((5, 8), (5, 13))
+icecream: ((2, 7), (2, 14))
+cake: ((4, 1), (4, 4))
+cookies: ((18, 0), (18, 6))
+pie: ((6, 6), (6, 8))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+sandwich: ((4, 7), (4, 14))
+sushi: ((1, 0), (5, 0))
+rice: ((0, 2), (0, 5))
+noodles: ((16, 6), (16, 12))
+curry: ((3, 14), (3, 18))
+cheese: ((5, 8), (5, 13))
+icecream: ((2, 7), (2, 14))
+cake: ((4, 1), (4, 4))
+cookies: ((18, 0), (18, 6))
+pie: ((6, 6), (6, 8))
+
+Naïve Time taken: 0.0547 seconds
+Naïve Memory used: 0.00 MB

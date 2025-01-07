@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| g  h  o  q  s  k  i  d  d  l  e  m  t  j  c  j  n  q  c  z |
+ 1| q  l  j  c  c  c  v  u  c  r  s  y  k  t  u  b  l  u  k  r |
+ 2| h  k  h  x  o  x  a  x  a  t  c  u  e  p  n  g  b  z  t  r |
+ 3| d  f  u  i  m  u  j  c  g  w  h  i  q  j  m  i  v  e  e  a |
+ 4| c  v  l  z  u  l  n  r  x  m  o  o  n  u  t  w  e  j  f  a |
+ 5| h  m  h  c  s  r  n  t  i  u  o  f  o  i  v  r  t  s  a  a |
+ 6| u  o  s  b  e  m  o  u  r  v  l  h  n  z  t  n  u  m  x  q |
+ 7| r  u  i  e  u  v  v  x  w  y  e  w  p  s  e  l  q  w  m  z |
+ 8| c  n  p  g  m  h  o  v  v  t  o  r  o  n  h  i  o  n  b  u |
+ 9| h  t  v  i  l  l  a  g  e  t  y  f  i  i  s  l  a  n  d  k |
+10| a  a  x  a  u  j  b  e  f  h  r  t  f  g  j  c  i  y  g  o |
+11| e  i  t  d  u  y  z  f  j  x  n  o  k  r  i  i  r  f  e  z |
+12| z  n  s  d  m  a  i  t  o  o  f  d  a  i  l  t  o  m  n  z |
+13| s  k  z  j  b  i  k  h  c  r  q  j  z  d  v  y  q  j  v  o |
+14| g  n  g  i  s  r  w  p  u  e  e  x  b  w  b  g  p  t  d  j |
+15| m  f  g  k  a  p  v  u  j  h  h  s  z  i  f  e  j  g  w  s |
+16| w  o  f  p  s  e  d  e  s  e  r  t  t  n  l  e  a  x  h  f |
+17| f  r  j  r  e  s  t  a  u  r  a  n  t  t  e  m  l  c  q  p |
+18| h  o  s  p  i  t  a  l  k  r  g  w  p  c  l  a  k  e  h  p |
+19| s  w  a  r  p  p  m  z  v  t  j  v  t  y  u  m  y  f  f  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+city: ((10, 15), (13, 15))
+village: ((9, 2), (9, 8))
+mountain: ((5, 1), (12, 1))
+lake: ((18, 14), (18, 17))
+desert: ((16, 6), (16, 11))
+island: ((9, 13), (9, 18))
+school: ((1, 10), (6, 10))
+hospital: ((18, 0), (18, 7))
+museum: ((3, 4), (8, 4))
+church: ((4, 0), (9, 0))
+restaurant: ((17, 3), (17, 12))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((10, 15), (13, 15))
+village: ((9, 2), (9, 8))
+mountain: ((5, 1), (12, 1))
+lake: ((18, 14), (18, 17))
+desert: ((16, 6), (16, 11))
+island: ((9, 13), (9, 18))
+school: ((1, 10), (6, 10))
+hospital: ((18, 0), (18, 7))
+museum: ((3, 4), (8, 4))
+church: ((4, 0), (9, 0))
+restaurant: ((17, 3), (17, 12))
+
+Naïve Time taken: 0.0542 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| f  e  l  e  p  h  a  n  t  w |
+ 1| a  m  p  h  i  b  i  a  n  d |
+ 2| u  p  a  r  r  o  t  m  x  t |
+ 3| f  i  g  a  e  b  f  a  d  i |
+ 4| r  e  e  l  p  i  i  m  s  g |
+ 5| o  b  a  n  t  r  s  m  n  e |
+ 6| g  h  o  g  i  d  h  a  a  r |
+ 7| w  i  w  o  l  f  q  l  k  g |
+ 8| l  h  h  i  e  e  v  w  e  b |
+ 9| v  i  n  s  e  c  t  k  c  t |
+  +------------------------------+
+Dynamic Programming Solution:
+mammal: ((2, 7), (7, 7))
+reptile: ((2, 4), (8, 4))
+amphibian: ((1, 0), (1, 8))
+bird: ((3, 5), (6, 5))
+fish: ((3, 6), (6, 6))
+insect: ((9, 1), (9, 6))
+tiger: ((2, 9), (6, 9))
+elephant: ((0, 1), (0, 8))
+snake: ((4, 8), (8, 8))
+frog: ((3, 0), (6, 0))
+parrot: ((2, 1), (2, 6))
+wolf: ((7, 2), (7, 5))
+ant: ((0, 6), (0, 8))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+mammal: ((2, 7), (7, 7))
+reptile: ((2, 4), (8, 4))
+amphibian: ((1, 0), (1, 8))
+bird: ((3, 5), (6, 5))
+fish: ((3, 6), (6, 6))
+insect: ((9, 1), (9, 6))
+tiger: ((2, 9), (6, 9))
+elephant: ((0, 1), (0, 8))
+snake: ((4, 8), (8, 8))
+frog: ((3, 0), (6, 0))
+parrot: ((2, 1), (2, 6))
+wolf: ((7, 2), (7, 5))
+ant: ((0, 6), (0, 8))
+
+Naïve Time taken: 0.0157 seconds
+Naïve Memory used: 0.00 MB

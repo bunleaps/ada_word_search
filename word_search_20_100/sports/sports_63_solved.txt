@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  f  k  k  k  a  m  j  i  j  j  a  r  c  h  e  r  y  o  k |
+ 1| d  s  e  d  g  y  m  n  a  s  t  i  c  s  d  x  g  y  p  s |
+ 2| w  g  y  n  o  g  s  o  e  y  i  l  t  g  n  n  g  x  y  a |
+ 3| l  s  b  i  c  b  o  k  j  e  n  k  s  t  i  d  m  o  x  i |
+ 4| k  b  j  a  e  i  v  l  a  u  p  i  z  l  e  h  o  p  m  l |
+ 5| u  m  u  i  s  l  n  z  f  t  n  z  c  h  z  p  z  x  w  i |
+ 6| s  g  q  p  x  k  t  g  r  n  i  y  e  b  p  k  y  b  r  n |
+ 7| k  m  t  y  f  b  e  l  e  e  c  n  r  a  d  a  p  m  e  g |
+ 8| s  l  f  o  o  d  k  t  t  e  l  s  g  s  i  t  c  a  s  m |
+ 9| m  i  d  c  u  b  j  a  b  s  o  h  t  e  v  j  r  t  t  a |
+10| s  u  l  q  h  z  r  u  t  a  q  y  t  b  i  c  i  n  l  r |
+11| j  w  m  g  k  a  h  r  s  y  l  k  e  a  n  v  c  o  i  a |
+12| g  w  i  h  k  a  y  o  r  u  s  l  p  l  g  y  k  s  n  t |
+13| i  q  h  m  o  e  j  w  u  u  r  o  h  l  t  w  e  k  g  h |
+14| e  n  a  o  m  h  s  i  g  f  l  f  c  s  g  z  t  i  t  o |
+15| z  q  i  b  c  i  t  n  b  w  h  e  i  c  o  l  s  i  r  n |
+16| q  e  f  p  a  k  n  g  y  d  z  q  y  n  e  v  f  n  j  f |
+17| j  y  d  l  o  c  e  g  i  y  o  h  f  g  g  r  f  g  l  r |
+18| c  a  o  n  w  q  e  y  u  b  o  x  i  n  g  d  s  c  e  k |
+19| s  v  o  l  l  e  y  b  a  l  l  u  g  p  j  e  s  e  e  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+baseball: ((6, 13), (13, 13))
+cricket: ((8, 16), (14, 16))
+volleyball: ((19, 1), (19, 10))
+rugby: ((12, 8), (16, 8))
+archery: ((0, 11), (0, 17))
+boxing: ((18, 9), (18, 14))
+wrestling: ((5, 18), (13, 18))
+gymnastics: ((1, 4), (1, 13))
+marathon: ((8, 19), (15, 19))
+diving: ((7, 14), (12, 14))
+skiing: ((12, 17), (17, 17))
+rowing: ((11, 7), (16, 7))
+sailing: ((1, 19), (7, 19))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+baseball: ((6, 13), (13, 13))
+cricket: ((8, 16), (14, 16))
+volleyball: ((19, 1), (19, 10))
+rugby: ((12, 8), (16, 8))
+archery: ((0, 11), (0, 17))
+boxing: ((18, 9), (18, 14))
+wrestling: ((5, 18), (13, 18))
+gymnastics: ((1, 4), (1, 13))
+marathon: ((8, 19), (15, 19))
+diving: ((7, 14), (12, 14))
+skiing: ((12, 17), (17, 17))
+rowing: ((11, 7), (16, 7))
+sailing: ((1, 19), (7, 19))
+
+Naïve Time taken: 0.0812 seconds
+Naïve Memory used: 0.00 MB

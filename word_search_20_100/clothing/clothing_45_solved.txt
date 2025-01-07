@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| n  w  y  z  t  i  g  x  b  c  n  y  t  i  j  u  v  i  h  y |
+ 1| k  o  x  y  g  h  n  j  s  k  u  p  f  s  j  e  m  p  a  e |
+ 2| g  x  p  o  s  d  y  l  o  w  f  p  r  w  b  d  a  m  t  y |
+ 3| o  m  k  t  i  e  f  o  c  u  e  s  e  v  d  n  t  n  z  l |
+ 4| b  o  h  s  s  r  a  n  k  w  x  a  g  b  d  w  h  l  s  h |
+ 5| w  y  w  o  a  n  x  b  s  w  e  u  t  f  e  i  r  b  d  o |
+ 6| x  b  n  c  i  t  e  d  f  s  d  b  t  e  y  l  l  h  r  t |
+ 7| f  c  s  d  m  w  z  a  r  h  x  a  f  n  r  s  t  r  e  f |
+ 8| n  e  k  y  h  t  v  e  k  o  p  m  z  g  t  k  b  v  s  c |
+ 9| k  m  q  j  a  c  k  e  t  e  j  o  l  o  j  i  o  e  s  q |
+10| y  m  p  y  n  g  e  v  c  s  r  i  d  j  y  r  p  b  y  n |
+11| m  s  u  z  s  l  d  d  r  y  m  s  x  d  p  t  t  u  h  d |
+12| c  n  m  t  t  o  j  q  a  a  m  a  q  v  f  y  z  u  n  s |
+13| o  b  s  t  u  v  c  u  n  h  u  k  v  m  o  i  t  z  d  b |
+14| a  p  w  q  c  e  l  m  j  s  i  r  r  c  g  v  k  e  d  o |
+15| t  s  a  p  c  s  z  c  x  z  h  o  k  v  s  a  r  c  c  o |
+16| j  p  g  n  w  f  x  s  d  g  f  i  p  a  j  a  m  a  s  t |
+17| a  v  d  p  t  f  d  j  t  i  p  r  r  q  x  p  z  i  o  s |
+18| r  j  h  t  h  s  w  p  n  b  g  u  d  t  q  p  q  w  l  d |
+19| l  z  q  k  p  f  d  u  g  s  k  n  m  p  t  c  n  m  r  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+jacket: ((9, 3), (9, 8))
+dress: ((5, 18), (9, 18))
+skirt: ((7, 15), (11, 15))
+coat: ((12, 0), (15, 0))
+shoes: ((6, 9), (10, 9))
+socks: ((1, 8), (5, 8))
+gloves: ((10, 5), (15, 5))
+hat: ((0, 18), (2, 18))
+boots: ((13, 19), (17, 19))
+tie: ((3, 3), (3, 5))
+pajamas: ((16, 12), (16, 18))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+jacket: ((9, 3), (9, 8))
+dress: ((5, 18), (9, 18))
+skirt: ((7, 15), (11, 15))
+coat: ((12, 0), (15, 0))
+shoes: ((6, 9), (10, 9))
+socks: ((1, 8), (5, 8))
+gloves: ((10, 5), (15, 5))
+hat: ((0, 18), (2, 18))
+boots: ((13, 19), (17, 19))
+tie: ((3, 3), (3, 5))
+pajamas: ((16, 12), (16, 18))
+
+Naïve Time taken: 0.0607 seconds
+Naïve Memory used: 0.00 MB

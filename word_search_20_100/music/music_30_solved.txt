@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  e  d  k  h  y  m  t  h  j  h  j  w  b  d  a  g  h  n  z |
+ 1| k  j  d  k  a  d  r  r  h  h  r  g  d  k  f  j  u  d  t  h |
+ 2| q  w  c  f  r  e  c  o  c  o  n  c  e  r  t  i  o  s  l  a |
+ 3| e  k  z  y  m  b  r  j  w  m  t  k  o  o  i  h  g  p  c  z |
+ 4| a  s  w  g  o  d  v  g  u  e  r  h  y  t  h  m  w  s  r  p |
+ 5| l  y  p  r  n  l  z  b  p  y  p  z  v  a  m  a  b  f  f  h |
+ 6| y  a  b  y  y  c  l  m  a  o  t  l  s  c  w  u  t  p  k  p |
+ 7| r  o  k  i  h  a  u  f  u  l  r  c  a  l  f  l  u  t  e  y |
+ 8| i  d  g  c  r  r  b  o  g  s  f  c  o  n  y  j  n  p  s  t |
+ 9| c  r  h  u  t  e  n  j  v  y  a  r  h  d  v  f  o  t  l  p |
+10| s  u  v  n  i  o  k  g  j  p  o  x  o  e  s  e  r  n  v  b |
+11| y  m  i  h  k  t  s  r  b  q  g  l  o  l  s  p  d  o  c  g |
+12| y  s  o  b  m  g  a  h  c  x  e  o  x  p  x  t  y  t  h  d |
+13| d  s  l  h  l  h  a  r  e  m  p  f  m  d  h  k  r  e  o  k |
+14| r  u  i  o  m  f  c  e  a  h  m  i  s  e  n  o  b  a  r  l |
+15| o  o  n  u  p  i  a  n  o  j  c  i  n  m  q  z  n  r  d  m |
+16| g  l  i  l  q  m  j  a  b  a  n  d  a  l  v  z  s  e  c  d |
+17| j  x  m  i  c  r  o  p  h  o  n  e  e  w  c  t  f  v  w  z |
+18| n  t  s  h  q  t  h  e  a  d  p  h  o  n  e  s  g  i  o  u |
+19| z  p  s  s  q  k  r  s  i  n  g  e  r  g  d  q  j  q  r  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+piano: ((15, 4), (15, 8))
+drums: ((8, 1), (12, 1))
+violin: ((10, 2), (15, 2))
+flute: ((7, 14), (7, 18))
+singer: ((19, 7), (19, 12))
+band: ((16, 8), (16, 11))
+harmony: ((0, 4), (6, 4))
+rhythm: ((4, 10), (4, 15))
+note: ((10, 17), (13, 17))
+chord: ((11, 18), (15, 18))
+concert: ((2, 8), (2, 14))
+lyrics: ((5, 0), (10, 0))
+microphone: ((17, 2), (17, 11))
+headphones: ((18, 6), (18, 15))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+piano: ((15, 4), (15, 8))
+drums: ((8, 1), (12, 1))
+violin: ((10, 2), (15, 2))
+flute: ((7, 14), (7, 18))
+singer: ((19, 7), (19, 12))
+band: ((16, 8), (16, 11))
+harmony: ((0, 4), (6, 4))
+rhythm: ((4, 10), (4, 15))
+note: ((10, 17), (13, 17))
+chord: ((11, 18), (15, 18))
+concert: ((2, 8), (2, 14))
+lyrics: ((5, 0), (10, 0))
+microphone: ((17, 2), (17, 11))
+headphones: ((18, 6), (18, 15))
+
+Naïve Time taken: 0.0468 seconds
+Naïve Memory used: 0.00 MB

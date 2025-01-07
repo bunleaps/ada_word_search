@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| i  h  h  d  d  k  h  c  q  u  n  k  z  e  v  l  k  o  x  a |
+ 1| y  s  a  n  d  w  i  c  h  l  j  s  y  w  p  i  e  h  n  f |
+ 2| x  f  b  d  q  j  f  j  m  n  d  i  t  f  r  v  z  e  q  d |
+ 3| q  y  i  m  w  a  y  d  l  a  f  j  g  e  r  t  d  d  c  p |
+ 4| r  j  a  o  d  u  s  b  r  e  a  d  z  k  a  r  d  n  o  z |
+ 5| b  b  c  c  r  o  t  w  x  c  v  z  d  s  r  k  n  z  o  z |
+ 6| e  a  c  u  t  i  w  v  b  f  h  g  s  y  m  f  k  g  k  c |
+ 7| t  b  u  r  g  e  r  i  z  i  x  o  v  u  q  l  c  y  i  b |
+ 8| k  m  f  r  z  i  l  b  q  k  r  q  c  f  s  y  p  x  e  e |
+ 9| p  k  x  y  i  s  s  h  f  h  c  b  i  o  z  h  v  c  s  f |
+10| d  e  z  m  y  o  a  o  d  d  e  p  z  m  l  p  i  v  p  r |
+11| m  s  a  i  w  u  l  j  u  c  a  p  p  c  t  a  h  p  i  m |
+12| i  z  x  i  p  p  a  p  a  e  l  o  v  a  e  s  t  l  c  b |
+13| n  b  n  y  t  g  d  s  p  e  z  r  j  k  e  t  n  e  h  u |
+14| n  p  x  b  a  x  e  o  k  i  a  l  e  e  j  a  k  t  e  r |
+15| g  i  y  c  d  l  o  n  v  b  z  b  h  s  y  a  f  c  e  r |
+16| j  x  q  y  d  w  h  b  e  o  f  z  l  n  x  b  z  n  s  i |
+17| w  b  b  o  e  k  r  v  t  h  s  r  a  w  z  m  c  t  e  t |
+18| a  t  o  s  f  e  n  w  s  f  n  i  c  e  c  r  e  a  m  o |
+19| m  n  n  f  d  m  u  z  h  i  s  z  n  c  j  r  i  c  e  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+burger: ((7, 1), (7, 6))
+pasta: ((10, 15), (14, 15))
+sandwich: ((1, 1), (1, 8))
+salad: ((9, 6), (13, 6))
+soup: ((9, 5), (12, 5))
+rice: ((19, 15), (19, 18))
+burrito: ((12, 19), (18, 19))
+curry: ((5, 3), (9, 3))
+bread: ((4, 7), (4, 11))
+cheese: ((12, 18), (17, 18))
+icecream: ((18, 11), (18, 18))
+cake: ((11, 13), (14, 13))
+cookies: ((3, 18), (9, 18))
+pie: ((1, 14), (1, 16))
+
+DP Time taken: 0.0020 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+burger: ((7, 1), (7, 6))
+pasta: ((10, 15), (14, 15))
+sandwich: ((1, 1), (1, 8))
+salad: ((9, 6), (13, 6))
+soup: ((9, 5), (12, 5))
+rice: ((19, 15), (19, 18))
+burrito: ((12, 19), (18, 19))
+curry: ((5, 3), (9, 3))
+bread: ((4, 7), (4, 11))
+cheese: ((12, 18), (17, 18))
+icecream: ((18, 11), (18, 18))
+cake: ((11, 13), (14, 13))
+cookies: ((3, 18), (9, 18))
+pie: ((1, 14), (1, 16))
+
+Naïve Time taken: 0.0558 seconds
+Naïve Memory used: 0.00 MB

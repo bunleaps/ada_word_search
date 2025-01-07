@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| p  c  y  s  p  b  e  u  z  g  i  o  j  s  h  t  o  t  p  v |
+ 1| z  m  x  s  h  h  l  b  x  b  u  t  t  e  r  f  l  y  c  u |
+ 2| c  c  e  f  m  b  z  i  f  u  g  y  f  j  f  b  t  r  c  e |
+ 3| w  m  w  w  r  o  w  z  y  h  o  t  h  q  j  l  e  l  h  s |
+ 4| p  h  z  i  a  f  t  y  x  b  w  b  j  i  w  p  e  d  d  p |
+ 5| o  y  z  w  o  l  a  h  n  w  e  p  s  w  p  i  t  a  r  k |
+ 6| m  u  j  h  a  x  m  a  y  k  s  g  s  o  h  q  e  v  a  e |
+ 7| o  v  e  q  c  d  d  b  p  a  u  v  h  b  f  v  r  p  g  j |
+ 8| s  r  g  d  z  o  b  r  w  b  o  s  f  d  e  l  m  i  o  w |
+ 9| q  l  g  s  g  w  c  e  y  r  s  r  y  s  y  e  i  a  n  h |
+10| u  g  o  t  d  h  e  d  e  a  k  o  t  p  m  g  t  k  f  e |
+11| i  t  r  z  k  x  a  q  r  t  i  s  x  i  u  f  e  y  l  v |
+12| t  h  e  f  b  l  j  g  m  y  l  z  p  d  l  e  c  n  y  b |
+13| o  y  f  c  r  n  o  x  a  f  k  e  u  e  q  t  s  z  y  r |
+14| c  j  c  w  f  y  f  p  j  c  o  c  k  r  o  a  c  h  c  g |
+15| t  a  n  t  l  r  h  y  n  a  l  e  u  q  k  r  l  w  c  i |
+16| p  l  o  f  e  h  i  c  p  k  n  b  m  s  c  r  x  t  i  i |
+17| t  y  t  w  f  k  i  s  x  z  x  k  w  s  y  y  j  x  e  n |
+18| d  h  h  w  c  g  t  a  z  l  c  j  h  e  z  y  t  h  u  n |
+19| x  x  k  d  k  y  z  u  y  j  m  i  z  v  v  e  c  g  h  u |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+ant: ((15, 1), (15, 3))
+butterfly: ((1, 9), (1, 17))
+mosquito: ((6, 0), (13, 0))
+cockroach: ((14, 9), (14, 17))
+fly: ((1, 15), (1, 17))
+spider: ((9, 13), (14, 13))
+dragonfly: ((4, 18), (12, 18))
+termite: ((5, 16), (11, 16))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+ant: ((15, 1), (15, 3))
+butterfly: ((1, 9), (1, 17))
+mosquito: ((6, 0), (13, 0))
+cockroach: ((14, 9), (14, 17))
+fly: ((1, 15), (1, 17))
+spider: ((9, 13), (14, 13))
+dragonfly: ((4, 18), (12, 18))
+termite: ((5, 16), (11, 16))
+
+Naïve Time taken: 0.0426 seconds
+Naïve Memory used: 0.00 MB

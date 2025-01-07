@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  c  j  i  i  c  g  w  t  o  r  n  a  d  o  g  q  k  k  j |
+ 1| o  f  n  l  k  q  u  f  l  m  i  h  c  a  f  n  v  w  p  u |
+ 2| w  e  i  e  o  u  r  o  l  j  j  u  o  k  v  f  r  g  u  s |
+ 3| j  c  i  n  r  f  f  r  f  b  c  r  z  o  s  n  o  w  y  d |
+ 4| o  o  i  h  a  u  r  r  j  f  d  r  i  l  q  g  q  q  k  u |
+ 5| z  l  b  k  i  q  k  t  o  i  d  i  w  i  a  u  w  b  s  u |
+ 6| z  d  m  i  n  j  f  k  m  s  x  c  a  g  i  c  i  l  z  q |
+ 7| w  y  w  w  y  l  s  u  e  x  t  a  e  h  w  b  n  i  o  o |
+ 8| j  z  w  q  t  s  h  i  g  m  c  n  g  t  n  b  d  z  g  i |
+ 9| c  n  f  l  m  s  j  h  w  t  p  e  m  n  d  g  y  z  v  w |
+10| l  h  w  v  f  g  t  a  d  b  o  t  v  i  y  q  z  a  r  q |
+11| o  o  r  v  b  h  x  o  m  j  r  k  d  n  k  n  q  r  h  f |
+12| u  t  z  x  i  j  f  q  r  f  h  e  r  g  v  o  j  d  a  a |
+13| d  w  s  h  n  n  r  o  z  m  o  k  e  a  c  y  h  s  i  w |
+14| y  i  a  l  u  e  e  j  j  v  y  g  v  z  r  e  k  q  l  m |
+15| j  s  t  t  d  k  z  k  r  q  s  w  g  d  e  c  n  q  q  q |
+16| r  q  i  n  i  y  l  i  z  j  t  u  j  y  e  j  c  u  f  v |
+17| d  k  u  z  l  j  j  o  x  f  v  o  g  t  c  y  w  r  b  x |
+18| r  h  q  k  o  o  r  x  k  b  d  d  b  s  u  n  n  y  h  n |
+19| t  e  d  r  i  z  z  l  e  b  a  j  u  q  p  s  l  w  v  i |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+sunny: ((18, 13), (18, 17))
+rainy: ((3, 4), (7, 4))
+cloudy: ((9, 0), (14, 0))
+snowy: ((3, 14), (3, 18))
+windy: ((5, 16), (9, 16))
+hot: ((10, 1), (12, 1))
+cold: ((3, 1), (6, 1))
+lightning: ((4, 13), (12, 13))
+hail: ((11, 18), (14, 18))
+drizzle: ((19, 2), (19, 8))
+blizzard: ((5, 17), (12, 17))
+hurricane: ((1, 11), (9, 11))
+tornado: ((0, 8), (0, 14))
+
+DP Time taken: 0.0014 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+sunny: ((18, 13), (18, 17))
+rainy: ((3, 4), (7, 4))
+cloudy: ((9, 0), (14, 0))
+snowy: ((3, 14), (3, 18))
+windy: ((5, 16), (9, 16))
+hot: ((10, 1), (12, 1))
+cold: ((3, 1), (6, 1))
+lightning: ((4, 13), (12, 13))
+hail: ((11, 18), (14, 18))
+drizzle: ((19, 2), (19, 8))
+blizzard: ((5, 17), (12, 17))
+hurricane: ((1, 11), (9, 11))
+tornado: ((0, 8), (0, 14))
+
+Naïve Time taken: 0.0634 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| j  y  z  i  z  a  k  c  p  o  l  i  c  e  z  a  w  y  f  z |
+ 1| j  j  w  e  w  j  h  k  h  z  m  o  s  o  u  q  m  o  a  s |
+ 2| d  i  w  d  q  x  n  g  r  e  f  e  l  y  i  t  b  k  r  i |
+ 3| n  h  y  r  w  s  u  r  n  z  f  k  j  s  p  v  n  c  m  f |
+ 4| j  x  g  g  i  e  c  h  z  u  i  k  u  d  i  i  m  g  e  m |
+ 5| s  m  z  y  l  t  w  i  t  e  a  c  h  e  r  v  l  a  r  p |
+ 6| a  p  k  y  z  y  e  c  e  d  q  c  u  e  d  x  p  o  r  s |
+ 7| l  r  h  z  e  k  s  r  y  n  r  d  t  o  u  k  l  m  t  d |
+ 8| x  o  t  v  j  u  m  r  c  e  t  h  e  o  w  r  c  q  z  j |
+ 9| v  g  c  i  g  g  i  t  e  n  g  i  r  r  u  x  q  a  b  a |
+10| h  r  j  a  s  l  d  n  w  i  k  o  s  k  h  y  z  l  s  c |
+11| q  a  g  h  p  t  i  m  f  m  t  n  r  t  l  v  m  q  t  c |
+12| z  m  i  p  i  g  z  e  e  c  e  l  l  d  j  t  f  k  s  o |
+13| u  m  p  j  n  a  r  j  o  c  m  y  a  d  y  r  l  m  h  u |
+14| b  e  k  e  p  i  s  d  m  e  h  n  m  w  m  z  l  f  n  n |
+15| r  r  a  b  f  r  n  u  r  s  e  a  x  h  y  h  z  t  n  t |
+16| l  e  k  q  d  d  e  n  t  i  s  t  n  r  e  e  t  e  t  a |
+17| m  p  h  o  t  o  g  r  a  p  h  e  r  i  d  u  r  g  w  n |
+18| c  o  e  i  p  m  m  u  s  i  c  i  a  n  c  z  n  b  o  t |
+19| o  m  x  y  o  p  n  a  a  r  c  h  i  t  e  c  t  d  c  z |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+teacher: ((5, 8), (5, 14))
+nurse: ((15, 6), (15, 10))
+musician: ((18, 6), (18, 13))
+architect: ((19, 8), (19, 16))
+police: ((0, 8), (0, 13))
+farmer: ((0, 18), (5, 18))
+accountant: ((9, 19), (18, 19))
+dentist: ((16, 5), (16, 11))
+photographer: ((17, 1), (17, 12))
+programmer: ((6, 1), (15, 1))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+teacher: ((5, 8), (5, 14))
+nurse: ((15, 6), (15, 10))
+musician: ((18, 6), (18, 13))
+architect: ((19, 8), (19, 16))
+police: ((0, 8), (0, 13))
+farmer: ((0, 18), (5, 18))
+accountant: ((9, 19), (18, 19))
+dentist: ((16, 5), (16, 11))
+photographer: ((17, 1), (17, 12))
+programmer: ((6, 1), (15, 1))
+
+Naïve Time taken: 0.0584 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  s  h  w  h  m  y  s  y  g  k  v  f  s  y  q  k  l  d  k |
+ 1| c  k  a  z  p  q  z  x  f  l  j  v  i  p  b  r  d  g  t  h |
+ 2| m  c  c  t  g  o  f  t  a  i  m  a  f  a  m  n  e  x  b  m |
+ 3| v  o  o  f  e  t  k  l  l  n  x  p  n  c  z  t  j  d  f  a |
+ 4| o  n  w  e  s  l  u  m  z  k  r  w  t  e  k  e  u  j  d  e |
+ 5| c  s  f  c  d  b  l  n  x  x  f  h  i  c  a  l  c  t  g  o |
+ 6| o  t  u  g  e  z  m  i  i  h  c  n  l  r  a  e  u  o  d  q |
+ 7| m  e  d  n  k  s  g  a  t  v  k  g  f  a  m  s  a  t  e  s |
+ 8| e  l  y  z  q  p  j  o  l  e  e  n  i  f  e  c  h  r  z  o |
+ 9| t  l  f  s  c  b  x  m  x  i  o  r  w  t  t  o  n  j  a  l |
+10| n  a  x  d  e  g  h  d  b  o  e  t  s  i  e  p  o  h  e  a |
+11| c  t  v  d  j  l  d  c  m  q  a  n  d  e  o  e  u  l  d  r |
+12| q  i  j  c  h  w  p  w  t  a  e  t  s  t  r  y  o  i  l  i |
+13| c  o  x  z  y  p  l  h  v  a  e  b  o  t  x  h  o  i  k  s |
+14| c  n  o  h  n  v  a  y  v  g  g  w  e  a  k  r  e  t  b  y |
+15| q  y  q  r  d  z  n  s  t  a  r  k  l  c  e  a  p  r  k  s |
+16| w  c  o  o  b  d  e  c  l  g  c  a  a  t  k  r  b  v  h  t |
+17| h  o  f  x  p  i  t  s  r  o  g  l  s  s  k  w  q  z  f  e |
+18| r  m  u  y  r  m  t  a  r  y  b  a  u  f  y  h  t  p  f  m |
+19| a  s  t  r  o  n  a  u  t  l  i  g  h  t  y  e  a  r  u  l |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+planet: ((12, 6), (17, 6))
+star: ((15, 7), (15, 10))
+comet: ((5, 0), (9, 0))
+telescope: ((3, 15), (11, 15))
+astronaut: ((19, 0), (19, 8))
+spacecraft: ((0, 13), (9, 13))
+meteor: ((7, 14), (12, 14))
+lightyear: ((19, 9), (19, 17))
+constellation: ((2, 1), (14, 1))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((12, 6), (17, 6))
+star: ((15, 7), (15, 10))
+comet: ((5, 0), (9, 0))
+telescope: ((3, 15), (11, 15))
+astronaut: ((19, 0), (19, 8))
+spacecraft: ((0, 13), (9, 13))
+meteor: ((7, 14), (12, 14))
+lightyear: ((19, 9), (19, 17))
+constellation: ((2, 1), (14, 1))
+
+Naïve Time taken: 0.0568 seconds
+Naïve Memory used: 0.00 MB

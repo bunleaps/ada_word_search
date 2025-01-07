@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  f  q  i  i  u  w  w  c  x  w  q  h  j  i  y  u  o  j  p |
+ 1| x  r  l  i  m  p  u  r  d  y  d  w  j  t  n  r  r  l  s  k |
+ 2| o  l  b  y  a  u  c  o  c  k  r  o  a  c  h  e  o  t  i  v |
+ 3| r  x  i  e  w  q  p  d  s  c  s  t  f  k  p  t  l  m  w  w |
+ 4| v  u  l  a  d  y  b  u  g  q  r  l  h  p  i  j  p  w  j  x |
+ 5| l  f  e  j  e  n  m  k  s  r  j  t  o  u  d  w  h  k  q  p |
+ 6| n  o  b  q  y  p  k  p  q  q  o  h  q  j  c  a  x  s  m  s |
+ 7| f  d  e  u  z  r  c  p  y  m  s  s  s  u  l  s  m  m  z  b |
+ 8| c  e  z  h  t  i  s  u  f  s  o  m  g  j  v  p  l  i  d  a |
+ 9| b  w  a  o  s  t  i  o  a  m  c  j  a  x  r  u  g  n  b  q |
+10| b  e  e  t  l  e  e  r  l  l  j  z  j  x  g  p  j  n  x  m |
+11| g  b  l  x  u  p  g  r  c  t  e  r  m  i  t  e  t  m  h  z |
+12| u  o  d  s  r  e  o  l  f  j  e  p  b  a  v  g  r  e  b  k |
+13| h  e  y  q  b  l  o  e  g  l  t  j  j  w  t  q  k  r  x  l |
+14| m  a  v  s  q  n  i  p  o  h  y  p  v  s  a  l  d  v  t  m |
+15| r  r  j  g  v  u  b  z  l  f  t  d  j  r  s  n  q  s  r  j |
+16| d  r  a  g  o  n  f  l  y  p  w  o  z  p  u  z  t  w  x  o |
+17| w  n  m  x  a  x  p  w  u  b  b  f  s  p  l  d  s  c  c  q |
+18| c  o  q  o  m  z  k  c  s  p  i  d  e  r  l  o  x  k  q  g |
+19| q  h  q  x  o  e  s  o  p  h  n  l  p  i  m  e  o  b  h  t |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+bee: ((10, 0), (10, 2))
+ladybug: ((4, 2), (4, 8))
+cockroach: ((2, 6), (2, 14))
+fly: ((16, 6), (16, 8))
+spider: ((18, 8), (18, 13))
+dragonfly: ((16, 0), (16, 8))
+beetle: ((10, 0), (10, 5))
+wasp: ((5, 15), (8, 15))
+termite: ((11, 9), (11, 15))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+bee: ((10, 0), (10, 2))
+ladybug: ((4, 2), (4, 8))
+cockroach: ((2, 6), (2, 14))
+fly: ((16, 6), (16, 8))
+spider: ((18, 8), (18, 13))
+dragonfly: ((16, 0), (16, 8))
+beetle: ((10, 0), (10, 5))
+wasp: ((5, 15), (8, 15))
+termite: ((11, 9), (11, 15))
+
+Naïve Time taken: 0.0320 seconds
+Naïve Memory used: 0.00 MB

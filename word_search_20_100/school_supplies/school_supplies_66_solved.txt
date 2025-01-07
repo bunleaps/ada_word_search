@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| m  c  x  g  k  v  e  x  w  c  u  x  u  a  n  m  k  t  t  h |
+ 1| e  j  l  b  n  l  e  p  n  r  i  s  s  t  a  p  l  e  r  s |
+ 2| m  f  e  i  w  b  x  l  z  j  q  w  r  a  j  t  k  v  i  k |
+ 3| y  g  m  v  p  y  p  l  e  r  a  s  e  r  d  m  b  m  u  j |
+ 4| h  m  n  b  f  b  x  a  c  k  b  l  w  u  n  g  o  e  k  z |
+ 5| g  a  a  b  h  h  o  v  p  k  z  l  d  e  r  x  s  w  z  o |
+ 6| e  p  i  r  g  o  b  a  l  e  g  c  p  f  c  h  h  c  w  f |
+ 7| l  s  o  v  k  u  z  a  r  g  r  t  r  u  l  y  a  j  j  l |
+ 8| n  c  g  z  e  e  h  f  m  d  r  n  c  a  j  k  r  m  u  z |
+ 9| s  u  a  u  g  c  r  v  k  e  u  f  j  f  y  e  p  r  h  o |
+10| c  t  l  k  v  s  t  k  p  s  l  d  m  q  n  o  e  y  b  g |
+11| i  g  f  o  l  d  e  r  l  m  e  z  x  m  o  f  n  o  o  t |
+12| s  f  v  j  f  m  b  g  g  k  r  m  t  z  s  m  e  s  o  y |
+13| s  p  s  l  y  c  a  l  c  u  l  a  t  o  r  j  r  b  k  n |
+14| o  m  b  b  i  e  b  e  h  y  t  g  p  x  q  p  r  g  f  r |
+15| r  c  h  q  i  r  d  u  u  o  t  p  h  u  o  x  a  h  n  s |
+16| s  n  o  t  e  b  o  o  k  k  n  k  z  i  o  n  h  i  x  k |
+17| i  l  k  k  v  e  m  g  x  p  e  n  c  i  l  x  g  m  l  l |
+18| p  j  h  i  g  h  l  i  g  h  t  e  r  h  m  x  v  b  u  f |
+19| i  s  c  d  v  b  a  m  z  m  b  z  j  b  x  b  a  g  i  q |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pencil: ((17, 9), (17, 14))
+pen: ((17, 9), (17, 11))
+notebook: ((16, 1), (16, 8))
+ruler: ((8, 10), (12, 10))
+eraser: ((3, 8), (3, 13))
+book: ((16, 5), (16, 8))
+bag: ((19, 15), (19, 17))
+scissors: ((9, 0), (16, 0))
+calculator: ((13, 5), (13, 14))
+stapler: ((1, 12), (1, 18))
+sharpener: ((5, 16), (13, 16))
+folder: ((11, 2), (11, 7))
+highlighter: ((18, 2), (18, 12))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pencil: ((17, 9), (17, 14))
+pen: ((17, 9), (17, 11))
+notebook: ((16, 1), (16, 8))
+ruler: ((8, 10), (12, 10))
+eraser: ((3, 8), (3, 13))
+book: ((16, 5), (16, 8))
+bag: ((19, 15), (19, 17))
+scissors: ((9, 0), (16, 0))
+calculator: ((13, 5), (13, 14))
+stapler: ((1, 12), (1, 18))
+sharpener: ((5, 16), (13, 16))
+folder: ((11, 2), (11, 7))
+highlighter: ((18, 2), (18, 12))
+
+Naïve Time taken: 0.0431 seconds
+Naïve Memory used: 0.00 MB

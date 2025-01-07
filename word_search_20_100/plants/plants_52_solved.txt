@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| d  n  z  d  s  d  k  f  i  f  l  s  n  j  f  h  b  a  x  w |
+ 1| b  a  l  l  a  f  d  n  e  o  x  z  r  t  c  g  c  i  k  m |
+ 2| a  c  i  h  t  h  o  n  d  q  h  i  v  y  u  u  r  m  p  g |
+ 3| v  w  f  s  s  d  g  n  f  y  i  u  r  f  s  l  l  m  a  e |
+ 4| l  j  l  x  y  w  x  m  e  e  l  o  f  o  t  o  i  r  o  g |
+ 5| i  c  o  d  o  l  h  g  t  u  r  k  e  c  i  r  b  p  v  l |
+ 6| n  v  w  m  p  d  c  r  j  h  b  n  z  m  e  e  e  h  q  b |
+ 7| x  m  e  m  d  g  f  f  r  j  o  e  o  s  b  s  l  e  l  v |
+ 8| f  f  r  v  o  c  r  v  u  p  s  m  o  a  w  r  o  t  t  o |
+ 9| k  p  p  a  i  s  s  o  p  a  f  r  i  h  k  h  u  w  x  r |
+10| m  c  d  w  p  n  s  v  w  t  u  s  j  p  b  o  u  b  v  c |
+11| p  i  p  v  o  t  e  b  n  g  r  a  s  s  j  w  s  i  j  h |
+12| y  l  o  s  e  o  n  a  o  a  y  t  u  q  l  n  h  u  e  i |
+13| e  s  j  l  f  d  r  m  n  x  n  y  t  q  x  h  r  q  m  d |
+14| t  r  p  o  j  y  k  b  a  f  l  k  x  a  k  t  u  k  i  u |
+15| l  a  k  q  f  g  z  o  u  i  e  x  t  h  f  j  b  x  k  n |
+16| m  e  i  r  q  q  p  o  l  n  v  g  z  c  a  c  t  u  s  s |
+17| i  p  a  l  m  o  u  m  i  o  j  s  i  n  w  h  q  d  o  o |
+18| e  q  l  q  p  x  o  p  t  g  x  y  d  q  e  n  p  l  a  q |
+19| s  u  n  f  l  o  w  e  r  u  j  z  v  a  o  p  c  a  q  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+flower: ((19, 3), (19, 8))
+grass: ((11, 9), (11, 13))
+shrub: ((11, 16), (15, 16))
+cactus: ((16, 13), (16, 18))
+bamboo: ((11, 7), (16, 7))
+sunflower: ((19, 0), (19, 8))
+orchid: ((8, 19), (13, 19))
+ivy: ((2, 11), (2, 13))
+palm: ((17, 1), (17, 4))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+flower: ((19, 3), (19, 8))
+grass: ((11, 9), (11, 13))
+shrub: ((11, 16), (15, 16))
+cactus: ((16, 13), (16, 18))
+bamboo: ((11, 7), (16, 7))
+sunflower: ((19, 0), (19, 8))
+orchid: ((8, 19), (13, 19))
+ivy: ((2, 11), (2, 13))
+palm: ((17, 1), (17, 4))
+
+Naïve Time taken: 0.0678 seconds
+Naïve Memory used: 0.00 MB

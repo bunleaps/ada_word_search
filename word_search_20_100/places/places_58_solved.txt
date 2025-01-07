@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| n  b  y  t  e  f  e  j  f  f  y  w  v  j  c  z  g  f  u  c |
+ 1| p  l  n  e  o  i  g  p  w  t  v  g  l  t  h  z  g  i  x  c |
+ 2| w  a  s  a  e  w  h  o  s  p  i  t  a  l  f  v  q  g  y  k |
+ 3| g  j  c  d  b  c  n  p  g  m  n  o  i  c  y  x  c  j  e  s |
+ 4| z  k  h  g  z  i  n  d  d  o  g  p  c  o  n  r  s  d  i  c |
+ 5| l  x  o  f  t  i  n  e  c  i  t  y  w  u  x  y  a  e  s  r |
+ 6| s  n  o  w  z  r  f  s  r  n  m  y  k  n  b  o  p  u  l  e |
+ 7| t  o  l  z  n  m  t  e  r  e  f  w  l  t  r  o  m  j  a  s |
+ 8| r  j  b  c  f  t  p  r  q  o  h  d  u  r  w  m  o  l  n  t |
+ 9| e  a  h  y  o  n  c  t  i  q  x  m  p  y  d  d  y  u  d  a |
+10| e  q  k  x  r  e  o  c  r  p  m  o  u  n  t  a  i  n  p  u |
+11| t  w  b  z  e  r  v  e  h  v  x  h  i  s  t  k  f  w  z  r |
+12| c  s  u  b  s  v  v  i  b  u  s  m  a  u  e  l  j  x  g  a |
+13| x  p  b  y  t  i  s  y  l  e  r  p  v  e  e  u  i  p  k  n |
+14| l  g  n  k  r  e  h  a  d  l  h  c  k  i  h  t  m  v  h  t |
+15| j  q  r  y  h  h  w  i  n  t  a  a  h  s  v  b  n  c  j  l |
+16| y  a  y  c  b  b  s  d  t  k  l  g  b  z  j  q  a  x  m  p |
+17| p  a  f  g  a  f  x  v  j  b  o  t  e  j  a  e  c  b  v  l |
+18| a  w  m  b  s  g  r  v  h  l  p  s  s  h  b  o  r  f  a  b |
+19| c  o  n  t  i  n  e  n  t  s  h  r  h  d  z  d  j  w  t  d |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+city: ((5, 8), (5, 11))
+mountain: ((10, 10), (10, 17))
+forest: ((8, 4), (13, 4))
+desert: ((4, 7), (9, 7))
+island: ((4, 18), (9, 18))
+country: ((3, 13), (9, 13))
+continent: ((19, 0), (19, 8))
+street: ((6, 0), (11, 0))
+school: ((2, 2), (7, 2))
+hospital: ((2, 6), (2, 13))
+restaurant: ((5, 19), (14, 19))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((5, 8), (5, 11))
+mountain: ((10, 10), (10, 17))
+forest: ((8, 4), (13, 4))
+desert: ((4, 7), (9, 7))
+island: ((4, 18), (9, 18))
+country: ((3, 13), (9, 13))
+continent: ((19, 0), (19, 8))
+street: ((6, 0), (11, 0))
+school: ((2, 2), (7, 2))
+hospital: ((2, 6), (2, 13))
+restaurant: ((5, 19), (14, 19))
+
+Naïve Time taken: 0.0665 seconds
+Naïve Memory used: 0.00 MB

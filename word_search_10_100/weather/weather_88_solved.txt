@@ -1,0 +1,41 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| y  f  r  o  s  t  w  h  k  w |
+ 1| c  p  g  y  t  t  d  r  y  i |
+ 2| o  c  s  n  o  w  y  t  q  n |
+ 3| l  l  u  h  r  a  i  n  y  d |
+ 4| d  o  y  t  m  o  y  a  y  y |
+ 5| y  u  h  z  y  g  b  n  p  y |
+ 6| x  d  q  a  g  l  n  o  d  l |
+ 7| w  y  h  o  i  u  o  x  w  o |
+ 8| k  g  f  k  s  l  z  w  j  s |
+ 9| r  h  u  m  i  d  k  f  d  y |
+  +------------------------------+
+Dynamic Programming Solution:
+rainy: ((3, 4), (3, 8))
+cloudy: ((2, 1), (7, 1))
+stormy: ((0, 4), (5, 4))
+snowy: ((2, 2), (2, 6))
+windy: ((0, 9), (4, 9))
+humid: ((9, 1), (9, 5))
+dry: ((1, 6), (1, 8))
+cold: ((1, 0), (4, 0))
+frost: ((0, 1), (0, 5))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+rainy: ((3, 4), (3, 8))
+cloudy: ((2, 1), (7, 1))
+stormy: ((0, 4), (5, 4))
+snowy: ((2, 2), (2, 6))
+windy: ((0, 9), (4, 9))
+humid: ((9, 1), (9, 5))
+dry: ((1, 6), (1, 8))
+cold: ((1, 0), (4, 0))
+frost: ((0, 1), (0, 5))
+
+Naïve Time taken: 0.0121 seconds
+Naïve Memory used: 0.00 MB

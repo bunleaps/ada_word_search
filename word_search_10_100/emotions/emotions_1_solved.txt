@@ -1,0 +1,37 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| l  c  a  l  m  u  n  s  s  s |
+ 1| c  o  s  z  q  f  e  u  s  c |
+ 2| e  o  n  a  k  m  r  r  y  a |
+ 3| a  n  n  e  d  p  v  p  j  r |
+ 4| p  n  c  f  l  e  o  r  o  e |
+ 5| r  y  g  i  u  y  u  i  y  d |
+ 6| o  k  q  r  p  s  s  s  f  z |
+ 7| u  v  u  p  y  a  e  e  u  c |
+ 8| d  n  a  p  d  w  p  d  l  q |
+ 9| k  h  e  x  c  i  t  e  d  t |
+  +------------------------------+
+Dynamic Programming Solution:
+excited: ((9, 2), (9, 8))
+nervous: ((0, 6), (6, 6))
+surprised: ((0, 7), (8, 7))
+scared: ((0, 9), (5, 9))
+calm: ((0, 1), (0, 4))
+joyful: ((3, 8), (8, 8))
+proud: ((4, 0), (8, 0))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+excited: ((9, 2), (9, 8))
+nervous: ((0, 6), (6, 6))
+surprised: ((0, 7), (8, 7))
+scared: ((0, 9), (5, 9))
+calm: ((0, 1), (0, 4))
+joyful: ((3, 8), (8, 8))
+proud: ((4, 0), (8, 0))
+
+Naïve Time taken: 0.0110 seconds
+Naïve Memory used: 0.00 MB

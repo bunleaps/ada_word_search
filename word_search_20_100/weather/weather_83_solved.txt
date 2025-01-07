@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| y  w  n  y  o  y  a  p  q  w  w  i  a  v  n  x  k  b  u  b |
+ 1| v  i  o  r  m  q  u  y  v  e  u  i  b  s  w  x  w  i  a  s |
+ 2| n  l  n  q  p  p  n  u  z  r  j  h  n  n  b  i  w  m  z  v |
+ 3| u  s  b  g  l  n  q  e  r  g  c  k  s  d  m  b  p  h  z  h |
+ 4| g  y  r  l  u  e  e  p  e  l  l  o  h  m  y  s  y  d  v  g |
+ 5| d  n  w  s  i  r  h  u  q  k  i  b  l  b  j  l  h  g  y  a |
+ 6| e  r  u  n  b  z  l  m  h  d  s  i  f  d  b  c  a  w  k  z |
+ 7| y  a  i  l  h  g  z  c  u  s  t  n  p  e  s  x  i  b  q  x |
+ 8| k  i  g  z  w  c  s  a  r  a  o  l  w  j  f  i  l  a  n  n |
+ 9| q  n  u  v  z  o  z  n  r  k  r  z  f  d  r  n  i  c  x  z |
+10| r  y  y  d  x  l  p  r  i  d  m  d  a  r  o  b  g  l  n  n |
+11| r  i  n  j  j  v  e  q  c  s  y  h  m  l  s  k  h  o  r  y |
+12| y  u  y  c  a  d  w  l  a  t  j  u  h  u  t  h  t  u  v  s |
+13| n  y  h  u  n  p  o  k  n  m  o  t  v  d  k  s  n  d  x  f |
+14| x  r  p  u  s  a  c  t  e  i  o  r  i  j  g  w  i  y  f  o |
+15| q  r  h  w  y  n  y  d  o  h  j  m  n  a  g  i  n  s  k  g |
+16| u  t  r  w  a  a  o  l  q  l  u  a  m  a  o  q  g  y  k  g |
+17| h  w  b  m  g  g  f  w  k  h  q  h  u  q  d  f  g  e  l  y |
+18| g  c  u  o  c  d  r  y  y  g  n  w  b  j  n  o  q  z  u  x |
+19| m  a  x  l  n  e  n  j  q  j  e  y  y  a  l  y  w  d  j  d |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+rainy: ((6, 1), (10, 1))
+cloudy: ((9, 17), (14, 17))
+stormy: ((6, 10), (11, 10))
+foggy: ((13, 19), (17, 19))
+dry: ((18, 5), (18, 7))
+lightning: ((8, 16), (16, 16))
+frost: ((8, 14), (12, 14))
+hail: ((5, 16), (8, 16))
+hurricane: ((6, 8), (14, 8))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+rainy: ((6, 1), (10, 1))
+cloudy: ((9, 17), (14, 17))
+stormy: ((6, 10), (11, 10))
+foggy: ((13, 19), (17, 19))
+dry: ((18, 5), (18, 7))
+lightning: ((8, 16), (16, 16))
+frost: ((8, 14), (12, 14))
+hail: ((5, 16), (8, 16))
+hurricane: ((6, 8), (14, 8))
+
+Naïve Time taken: 0.1101 seconds
+Naïve Memory used: 0.00 MB

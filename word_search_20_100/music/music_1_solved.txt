@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  b  g  a  n  e  d  r  u  m  s  d  c  l  k  n  w  h  s  i |
+ 1| f  b  f  z  k  n  j  s  q  s  t  v  t  k  k  q  c  m  s  j |
+ 2| o  y  h  b  r  l  x  z  c  c  q  l  x  e  t  a  b  i  i  s |
+ 3| x  q  g  j  p  a  e  i  x  f  k  h  o  t  u  v  n  c  n  v |
+ 4| b  t  v  v  w  z  r  t  t  a  p  n  x  y  e  k  o  r  g  a |
+ 5| v  b  u  u  m  y  e  d  s  w  a  k  w  t  e  h  t  o  e  l |
+ 6| i  k  c  x  l  p  d  h  p  i  t  d  u  k  r  e  e  p  r  b |
+ 7| o  e  g  o  m  h  r  p  p  r  p  l  o  i  j  a  h  h  w  u |
+ 8| l  d  y  u  n  x  g  o  k  n  f  e  t  i  b  d  i  o  y  m |
+ 9| i  g  r  z  y  c  b  u  r  b  p  j  a  h  a  p  a  n  v  e |
+10| n  t  t  s  b  q  e  y  i  c  f  g  r  h  n  h  g  e  d  w |
+11| x  h  x  o  j  v  z  r  w  t  h  v  u  a  d  o  e  i  q  w |
+12| y  g  e  i  l  f  n  j  t  k  a  e  i  x  i  n  d  e  i  t |
+13| x  r  u  k  j  v  j  j  p  x  d  r  s  w  g  e  f  n  p  e |
+14| a  t  h  s  a  x  o  p  h  o  n  e  a  t  y  s  l  l  t  m |
+15| x  q  x  y  a  w  q  b  y  c  j  d  u  d  r  q  g  l  e  g |
+16| y  h  h  y  t  q  n  c  h  o  r  d  o  s  t  a  e  h  z  y |
+17| t  n  p  m  r  h  u  s  n  u  r  l  r  p  l  e  x  a  f  u |
+18| w  c  y  f  a  a  m  k  h  v  e  h  a  r  m  o  n  y  s  x |
+19| e  a  j  d  e  r  h  w  o  m  d  c  q  y  q  n  l  u  x  j |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+drums: ((0, 6), (0, 10))
+violin: ((5, 0), (10, 0))
+saxophone: ((14, 3), (14, 11))
+singer: ((1, 18), (6, 18))
+band: ((8, 14), (11, 14))
+harmony: ((18, 11), (18, 17))
+note: ((3, 16), (6, 16))
+chord: ((16, 7), (16, 11))
+album: ((4, 19), (8, 19))
+microphone: ((1, 17), (10, 17))
+headphones: ((5, 15), (14, 15))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+drums: ((0, 6), (0, 10))
+violin: ((5, 0), (10, 0))
+saxophone: ((14, 3), (14, 11))
+singer: ((1, 18), (6, 18))
+band: ((8, 14), (11, 14))
+harmony: ((18, 11), (18, 17))
+note: ((3, 16), (6, 16))
+chord: ((16, 7), (16, 11))
+album: ((4, 19), (8, 19))
+microphone: ((1, 17), (10, 17))
+headphones: ((5, 15), (14, 15))
+
+Naïve Time taken: 0.0641 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| y  s  c  a  c  t  u  s  b  p  v  j  t  x  x  g  w  q  x  n |
+ 1| x  o  j  c  k  c  l  n  t  h  w  y  s  j  e  u  p  u  r  u |
+ 2| s  p  v  a  t  i  o  p  r  r  p  e  b  y  k  i  x  o  l  l |
+ 3| h  l  o  n  x  k  s  m  e  m  p  e  r  q  l  f  y  g  l  z |
+ 4| p  q  m  w  n  i  i  w  e  j  n  v  f  u  d  u  i  l  c  m |
+ 5| b  d  f  f  v  z  o  h  j  i  z  f  t  p  g  r  i  g  o  g |
+ 6| s  f  e  n  l  l  n  a  p  i  u  b  m  q  q  v  o  k  k  h |
+ 7| k  w  r  j  f  o  i  j  v  n  e  i  a  m  o  l  o  u  x  w |
+ 8| h  r  n  n  b  s  w  s  h  r  u  b  b  m  n  w  s  k  z  b |
+ 9| v  o  u  j  n  q  y  e  k  o  i  f  e  u  b  c  u  m  c  d |
+10| q  s  q  m  m  p  r  p  r  r  j  a  q  k  u  o  o  d  j  d |
+11| r  g  l  z  t  p  w  b  a  m  e  q  l  p  e  s  o  z  g  n |
+12| k  i  c  m  i  c  l  n  p  l  b  f  x  i  e  b  a  n  o  i |
+13| o  m  a  p  l  e  p  i  f  x  m  o  q  b  v  m  z  k  n  u |
+14| r  a  q  w  x  n  w  f  l  n  g  q  b  v  x  y  d  z  g  x |
+15| c  c  t  p  r  o  s  e  x  y  x  s  x  x  y  w  b  p  r  d |
+16| h  s  k  o  c  n  r  j  x  d  y  a  c  s  x  s  z  r  a  x |
+17| i  h  x  v  o  p  v  k  j  b  c  u  i  j  f  l  g  p  s  x |
+18| d  h  v  i  n  e  p  m  o  s  s  a  i  i  v  k  b  u  s  a |
+19| d  f  r  f  s  y  i  e  l  e  d  w  f  h  w  h  r  f  x  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tree: ((1, 8), (4, 8))
+grass: ((14, 18), (18, 18))
+shrub: ((8, 7), (8, 11))
+fern: ((5, 2), (8, 2))
+moss: ((18, 7), (18, 10))
+cactus: ((0, 2), (0, 7))
+vine: ((18, 2), (18, 5))
+maple: ((13, 1), (13, 5))
+rose: ((15, 4), (15, 7))
+orchid: ((13, 0), (18, 0))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((1, 8), (4, 8))
+grass: ((14, 18), (18, 18))
+shrub: ((8, 7), (8, 11))
+fern: ((5, 2), (8, 2))
+moss: ((18, 7), (18, 10))
+cactus: ((0, 2), (0, 7))
+vine: ((18, 2), (18, 5))
+maple: ((13, 1), (13, 5))
+rose: ((15, 4), (15, 7))
+orchid: ((13, 0), (18, 0))
+
+Naïve Time taken: 0.0611 seconds
+Naïve Memory used: 0.00 MB

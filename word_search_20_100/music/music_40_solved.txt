@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| p  k  l  h  b  p  t  m  o  t  p  p  q  w  w  m  s  m  i  w |
+ 1| e  r  v  f  r  c  s  u  c  o  n  c  e  r  t  e  s  r  m  u |
+ 2| g  z  y  x  j  r  e  a  r  u  v  l  p  c  i  l  d  e  f  w |
+ 3| l  v  j  h  b  i  q  c  x  d  r  u  m  s  f  o  e  d  v  o |
+ 4| r  h  y  t  h  m  q  s  l  o  a  q  c  c  x  d  b  b  t  l |
+ 5| q  c  k  c  l  p  w  p  c  o  p  q  f  s  q  y  n  y  v  p |
+ 6| m  t  o  e  r  i  j  c  s  z  u  h  b  g  s  a  n  j  i  f |
+ 7| i  t  r  u  m  p  e  t  h  n  a  y  o  b  h  o  f  m  o  r |
+ 8| c  x  f  h  e  a  d  p  h  o  n  e  s  n  m  l  n  o  l  h |
+ 9| r  c  n  s  k  h  a  k  r  s  r  s  a  r  e  o  g  b  i  j |
+10| o  r  y  l  i  c  g  f  y  k  c  d  a  h  m  y  i  u  n  r |
+11| p  u  i  q  f  n  l  j  f  n  p  h  v  u  b  q  j  s  c  p |
+12| h  k  i  g  q  e  g  n  s  o  h  i  i  b  y  h  r  w  h  k |
+13| o  l  k  j  z  l  g  e  x  t  u  a  a  b  m  y  i  b  c  z |
+14| n  y  b  i  w  c  h  u  r  e  x  y  v  n  k  i  r  o  d  e |
+15| e  r  a  r  s  a  w  l  i  v  l  z  r  p  o  o  w  d  g  c |
+16| i  i  n  t  k  w  y  j  f  t  l  a  l  b  u  m  m  i  u  e |
+17| p  c  d  v  c  y  q  y  h  q  a  n  d  i  i  o  o  m  m  n |
+18| k  s  o  r  c  h  e  s  t  r  a  r  y  v  c  o  n  v  w  d |
+19| l  l  v  s  i  s  b  n  y  f  l  u  t  e  c  i  p  f  p  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+drums: ((3, 9), (3, 13))
+violin: ((5, 18), (10, 18))
+flute: ((19, 9), (19, 13))
+trumpet: ((7, 1), (7, 7))
+band: ((14, 2), (17, 2))
+orchestra: ((18, 2), (18, 10))
+melody: ((0, 15), (5, 15))
+rhythm: ((4, 0), (4, 5))
+note: ((11, 9), (14, 9))
+concert: ((1, 8), (1, 14))
+lyrics: ((13, 1), (18, 1))
+album: ((16, 11), (16, 15))
+microphone: ((6, 0), (15, 0))
+headphones: ((8, 3), (8, 12))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+drums: ((3, 9), (3, 13))
+violin: ((5, 18), (10, 18))
+flute: ((19, 9), (19, 13))
+trumpet: ((7, 1), (7, 7))
+band: ((14, 2), (17, 2))
+orchestra: ((18, 2), (18, 10))
+melody: ((0, 15), (5, 15))
+rhythm: ((4, 0), (4, 5))
+note: ((11, 9), (14, 9))
+concert: ((1, 8), (1, 14))
+lyrics: ((13, 1), (18, 1))
+album: ((16, 11), (16, 15))
+microphone: ((6, 0), (15, 0))
+headphones: ((8, 3), (8, 12))
+
+Naïve Time taken: 0.0447 seconds
+Naïve Memory used: 0.00 MB

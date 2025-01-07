@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  a  i  a  d  y  f  c  h  i  c  a  r  z  k  c  z  j  c  z |
+ 1| c  i  i  w  t  e  p  n  e  o  s  q  r  d  y  w  z  b  w  g |
+ 2| c  p  f  o  d  d  l  r  x  r  t  o  o  t  f  o  a  z  a  s |
+ 3| o  h  o  f  c  h  j  a  e  o  z  v  k  e  i  q  q  f  s  x |
+ 4| u  o  e  u  l  r  k  e  w  o  c  t  y  a  r  s  a  b  b  w |
+ 5| n  t  j  d  d  j  n  r  e  y  s  j  v  c  e  i  t  w  a  p |
+ 6| t  o  j  h  e  i  v  c  w  i  e  s  s  h  f  i  o  c  r  n |
+ 7| a  g  f  m  g  n  i  l  t  s  c  r  m  e  i  q  v  m  c  v |
+ 8| n  r  r  n  s  l  t  n  b  d  z  i  m  r  g  n  x  u  h  d |
+ 9| t  a  e  a  o  u  e  i  t  v  s  q  o  q  h  n  f  s  i  n |
+10| m  p  w  p  z  i  d  o  s  n  o  m  e  k  t  q  a  i  t  m |
+11| u  h  c  r  c  y  m  l  y  t  b  s  b  f  e  a  r  c  e  z |
+12| v  e  g  s  i  k  f  w  n  f  r  d  u  s  r  r  m  i  c  h |
+13| b  r  p  t  z  t  x  v  t  u  d  o  j  z  p  h  e  a  t  t |
+14| w  r  c  i  r  i  e  j  n  c  o  c  r  a  e  i  r  n  d  f |
+15| z  w  n  a  l  b  d  r  y  x  i  t  o  w  k  i  q  v  r  t |
+16| j  z  q  x  o  o  l  b  g  p  r  o  g  r  a  m  m  e  r  f |
+17| m  h  o  r  k  l  t  c  h  e  f  r  y  e  e  q  m  s  l  e |
+18| o  f  x  x  l  w  z  r  h  u  j  h  g  e  s  l  o  h  z  i |
+19| j  m  p  j  y  q  g  a  m  e  c  h  a  n  i  c  s  b  p  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+teacher: ((2, 13), (8, 13))
+doctor: ((12, 11), (17, 11))
+chef: ((17, 7), (17, 10))
+musician: ((7, 17), (14, 17))
+architect: ((5, 18), (13, 18))
+firefighter: ((2, 14), (12, 14))
+farmer: ((9, 16), (14, 16))
+mechanic: ((19, 8), (19, 15))
+accountant: ((0, 0), (9, 0))
+photographer: ((2, 1), (13, 1))
+programmer: ((16, 9), (16, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+teacher: ((2, 13), (8, 13))
+doctor: ((12, 11), (17, 11))
+chef: ((17, 7), (17, 10))
+musician: ((7, 17), (14, 17))
+architect: ((5, 18), (13, 18))
+firefighter: ((2, 14), (12, 14))
+farmer: ((9, 16), (14, 16))
+mechanic: ((19, 8), (19, 15))
+accountant: ((0, 0), (9, 0))
+photographer: ((2, 1), (13, 1))
+programmer: ((16, 9), (16, 18))
+
+Naïve Time taken: 0.0617 seconds
+Naïve Memory used: 0.00 MB

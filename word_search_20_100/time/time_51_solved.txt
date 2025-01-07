@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| x  k  t  z  v  p  f  q  y  k  i  b  e  l  h  w  z  v  u  c |
+ 1| s  l  k  o  p  v  u  h  j  v  d  d  e  v  o  e  k  u  e  b |
+ 2| x  i  k  d  m  u  h  j  o  l  e  s  b  i  u  e  l  f  l  l |
+ 3| i  n  f  i  a  o  x  j  q  l  i  r  s  e  r  k  g  d  g  z |
+ 4| g  w  z  l  l  y  r  y  y  r  i  p  n  s  r  e  f  l  q  g |
+ 5| e  c  f  s  f  n  y  r  n  o  y  d  i  m  n  n  s  u  c  q |
+ 6| s  a  e  f  u  s  i  u  o  b  d  g  a  r  v  d  n  d  m  m |
+ 7| o  p  b  n  a  n  s  g  v  w  e  u  k  y  x  s  w  l  n  o |
+ 8| w  k  g  i  t  v  s  h  h  b  c  l  y  f  k  o  u  f  h  r |
+ 9| w  b  f  s  e  u  b  e  x  t  a  a  m  d  u  m  h  s  n  n |
+10| j  g  y  d  y  v  r  g  t  h  d  u  t  y  u  q  v  o  k  i |
+11| f  f  x  m  e  f  e  y  g  k  e  z  d  e  m  u  o  w  n  n |
+12| g  w  q  o  s  v  h  n  e  u  e  s  m  f  z  n  i  z  t  g |
+13| u  q  r  n  t  x  h  e  i  t  x  y  w  n  r  q  b  i  j  w |
+14| g  r  l  t  e  f  w  w  u  n  a  a  q  e  s  y  e  a  r  z |
+15| q  v  y  h  r  y  c  n  p  d  g  u  t  y  q  p  k  u  a  m |
+16| h  g  l  t  d  o  i  s  o  y  x  f  c  m  z  e  w  a  v  g |
+17| w  e  e  k  a  m  x  t  q  a  a  l  c  i  d  i  e  d  o  q |
+18| i  p  j  s  y  a  i  z  c  x  t  o  o  v  i  z  i  o  d  c |
+19| c  i  u  a  a  y  b  l  s  s  e  c  o  n  d  x  n  o  b  t |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+second: ((19, 9), (19, 14))
+hour: ((0, 14), (3, 14))
+day: ((16, 4), (18, 4))
+week: ((17, 0), (17, 3))
+month: ((11, 3), (15, 3))
+year: ((14, 15), (14, 18))
+decade: ((6, 10), (11, 10))
+morning: ((6, 19), (12, 19))
+yesterday: ((10, 4), (18, 4))
+weekend: ((0, 15), (6, 15))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+second: ((19, 9), (19, 14))
+hour: ((0, 14), (3, 14))
+day: ((16, 4), (18, 4))
+week: ((17, 0), (17, 3))
+month: ((11, 3), (15, 3))
+year: ((14, 15), (14, 18))
+decade: ((6, 10), (11, 10))
+morning: ((6, 19), (12, 19))
+yesterday: ((10, 4), (18, 4))
+weekend: ((0, 15), (6, 15))
+
+Naïve Time taken: 0.0777 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,47 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| o  c  r  i  c  k  e  t  g  y |
+ 1| c  y  c  l  i  n  g  x  k  a |
+ 2| a  r  c  h  e  r  y  i  s  z |
+ 3| s  o  c  c  e  r  z  i  b  r |
+ 4| h  s  u  r  f  i  n  g  o  u |
+ 5| s  k  a  t  i  n  g  x  x  g |
+ 6| j  u  d  o  e  o  o  k  i  b |
+ 7| x  f  l  t  u  j  l  d  n  y |
+ 8| h  o  c  k  e  y  f  r  g  k |
+ 9| e  b  a  s  e  b  a  l  l  r |
+  +------------------------------+
+Dynamic Programming Solution:
+soccer: ((3, 0), (3, 5))
+baseball: ((9, 1), (9, 8))
+cricket: ((0, 1), (0, 7))
+hockey: ((8, 0), (8, 5))
+golf: ((5, 6), (8, 6))
+rugby: ((3, 9), (7, 9))
+cycling: ((1, 0), (1, 6))
+skating: ((5, 0), (5, 6))
+surfing: ((4, 1), (4, 7))
+archery: ((2, 0), (2, 6))
+boxing: ((3, 8), (8, 8))
+judo: ((6, 0), (6, 3))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+soccer: ((3, 0), (3, 5))
+baseball: ((9, 1), (9, 8))
+cricket: ((0, 1), (0, 7))
+hockey: ((8, 0), (8, 5))
+golf: ((5, 6), (8, 6))
+rugby: ((3, 9), (7, 9))
+cycling: ((1, 0), (1, 6))
+skating: ((5, 0), (5, 6))
+surfing: ((4, 1), (4, 7))
+archery: ((2, 0), (2, 6))
+boxing: ((3, 8), (8, 8))
+judo: ((6, 0), (6, 3))
+
+Naïve Time taken: 0.0090 seconds
+Naïve Memory used: 0.00 MB

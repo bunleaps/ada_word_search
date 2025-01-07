@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  t  p  e  f  s  e  x  l  q  m  j  f  a  y  e  z  o  w  p |
+ 1| b  p  o  q  c  l  r  a  l  m  z  q  u  c  y  x  y  r  s  d |
+ 2| d  u  w  f  l  e  u  z  j  s  n  a  s  t  i  o  p  c  t  u |
+ 3| w  v  o  o  t  v  b  t  t  r  a  g  f  z  p  q  d  h  j  a |
+ 4| f  k  c  h  o  r  d  k  e  t  e  t  s  i  d  h  l  e  f  l |
+ 5| m  o  j  v  g  p  u  w  v  t  v  c  a  n  f  e  b  s  v  b |
+ 6| e  s  o  x  w  g  o  m  o  i  i  z  a  v  j  a  g  t  x  u |
+ 7| l  t  a  z  h  w  m  n  p  r  o  b  u  s  b  d  k  r  v  m |
+ 8| o  s  y  x  c  a  c  o  y  e  o  l  m  z  s  p  s  a  y  q |
+ 9| d  z  h  o  o  o  r  l  t  p  t  i  i  m  q  h  h  x  p  r |
+10| y  c  c  h  q  p  n  m  n  l  q  g  u  n  g  o  o  r  e  p |
+11| f  e  f  g  z  n  h  c  o  n  r  r  u  l  r  n  h  l  k  g |
+12| i  g  e  x  i  z  v  o  e  n  d  d  f  i  m  e  f  o  p  w |
+13| o  f  z  v  n  v  p  x  n  r  y  i  s  g  t  s  m  o  g  w |
+14| j  c  b  s  h  r  i  u  l  e  t  y  f  i  o  a  g  l  e  o |
+15| c  w  b  v  o  f  a  a  z  f  s  g  d  a  n  t  r  f  k  q |
+16| m  o  g  h  t  p  n  a  k  p  r  n  o  s  d  g  d  n  i  p |
+17| v  s  j  c  r  u  o  c  b  s  i  o  p  j  b  a  e  h  t  e |
+18| m  i  c  r  o  p  h  o  n  e  j  y  q  c  d  y  h  r  l  u |
+19| r  h  y  t  h  m  a  a  e  k  f  m  d  m  l  i  t  k  p  m |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+piano: ((13, 6), (17, 6))
+orchestra: ((0, 17), (8, 17))
+melody: ((5, 0), (10, 0))
+rhythm: ((19, 0), (19, 5))
+chord: ((4, 2), (4, 6))
+album: ((3, 19), (7, 19))
+microphone: ((18, 0), (18, 9))
+headphones: ((4, 15), (13, 15))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+piano: ((13, 6), (17, 6))
+orchestra: ((0, 17), (8, 17))
+melody: ((5, 0), (10, 0))
+rhythm: ((19, 0), (19, 5))
+chord: ((4, 2), (4, 6))
+album: ((3, 19), (7, 19))
+microphone: ((18, 0), (18, 9))
+headphones: ((4, 15), (13, 15))
+
+Naïve Time taken: 0.0666 seconds
+Naïve Memory used: 0.00 MB

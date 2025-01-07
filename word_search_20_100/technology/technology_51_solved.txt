@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  z  e  d  n  c  a  m  e  r  a  p  i  n  c  o  s  x  k  s |
+ 1| f  z  n  e  t  w  o  r  k  l  e  y  r  d  l  r  h  g  b  m |
+ 2| s  d  j  k  l  l  u  s  l  b  p  k  e  y  b  o  a  r  d  a |
+ 3| f  a  y  b  j  j  p  q  w  q  x  z  z  k  I  b  r  s  i  r |
+ 4| a  t  j  r  b  n  y  e  c  e  j  s  z  A  j  o  d  s  n  t |
+ 5| o  a  r  s  o  f  t  w  a  r  e  q  l  y  b  t  w  s  t  p |
+ 6| i  g  c  l  t  p  z  p  z  t  q  o  d  d  w  g  a  x  e  h |
+ 7| g  q  k  l  y  t  b  r  p  t  h  s  m  e  r  b  r  e  r  o |
+ 8| d  a  x  o  j  s  a  i  o  c  h  q  d  u  s  o  e  r  n  n |
+ 9| a  i  s  m  j  b  a  n  c  p  o  e  e  c  q  v  n  f  e  e |
+10| n  m  a  a  d  c  i  t  z  h  b  d  f  t  l  n  e  e  t  j |
+11| n  l  o  b  i  w  q  e  e  s  i  h  i  t  g  o  y  c  o  c |
+12| f  e  n  n  s  l  t  r  h  l  e  p  s  n  a  j  u  k  m  d |
+13| r  m  j  j  i  z  d  w  m  t  l  w  e  o  g  b  r  d  m  q |
+14| y  f  a  u  b  t  r  g  z  o  t  i  s  m  y  l  l  s  f  w |
+15| y  b  u  l  s  m  o  b  k  p  u  h  t  y  w  o  n  e  h  g |
+16| z  s  k  l  k  b  n  r  v  a  q  s  k  e  m  x  z  c  t  e |
+17| w  t  q  p  g  t  w  f  e  i  p  w  e  v  z  x  h  w  y  s |
+18| i  q  q  j  u  h  m  h  s  x  v  h  x  j  v  b  h  h  v  z |
+19| e  c  o  m  p  u  t  e  r  a  v  s  s  j  u  r  r  v  r  a |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+computer: ((19, 1), (19, 8))
+smartphone: ((0, 19), (9, 19))
+internet: ((3, 18), (10, 18))
+software: ((5, 3), (5, 10))
+hardware: ((1, 16), (8, 16))
+keyboard: ((2, 11), (2, 18))
+printer: ((6, 7), (12, 7))
+camera: ((0, 5), (0, 10))
+data: ((2, 1), (5, 1))
+network: ((1, 2), (1, 8))
+robot: ((1, 15), (5, 15))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+computer: ((19, 1), (19, 8))
+smartphone: ((0, 19), (9, 19))
+internet: ((3, 18), (10, 18))
+software: ((5, 3), (5, 10))
+hardware: ((1, 16), (8, 16))
+keyboard: ((2, 11), (2, 18))
+printer: ((6, 7), (12, 7))
+camera: ((0, 5), (0, 10))
+data: ((2, 1), (5, 1))
+network: ((1, 2), (1, 8))
+robot: ((1, 15), (5, 15))
+
+Naïve Time taken: 0.0566 seconds
+Naïve Memory used: 0.00 MB

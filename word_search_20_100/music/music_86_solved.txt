@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  h  e  a  d  p  h  o  n  e  s  w  l  s  d  g  r  k  a  j |
+ 1| s  f  w  z  p  n  e  h  v  g  c  z  s  m  b  h  y  u  k  b |
+ 2| d  s  h  x  i  w  l  t  s  a  x  o  p  h  o  n  e  u  t  r |
+ 3| g  r  b  l  x  k  t  c  c  q  h  z  u  x  r  d  t  v  s  h |
+ 4| k  m  o  v  l  a  o  n  d  n  n  d  y  g  d  a  b  s  u  y |
+ 5| i  i  u  w  x  a  l  b  u  m  z  u  r  t  w  x  r  a  c  t |
+ 6| v  r  t  z  e  p  i  a  n  o  v  m  r  u  k  b  r  m  h  h |
+ 7| r  t  w  n  j  y  b  r  k  u  t  e  g  z  m  t  x  m  o  m |
+ 8| n  k  c  o  l  a  a  a  k  s  c  z  p  q  s  s  g  j  r  o |
+ 9| d  n  i  t  i  t  l  x  w  n  h  t  d  e  m  a  f  e  d  m |
+10| f  b  o  e  i  d  i  e  o  e  x  n  h  i  x  e  g  w  a  c |
+11| f  n  r  u  u  l  p  c  t  k  a  c  c  v  e  n  c  d  b  k |
+12| l  q  g  q  h  h  j  u  b  b  r  g  m  j  i  m  v  k  z  e |
+13| h  n  m  m  j  a  l  g  m  o  f  m  v  s  e  t  o  p  c  t |
+14| u  w  f  m  e  f  r  k  e  o  t  r  u  m  p  e  t  e  k  x |
+15| l  y  r  i  c  s  u  m  l  d  o  c  d  o  m  q  f  n  e  v |
+16| a  r  a  e  f  z  x  h  o  e  g  k  c  v  d  t  j  m  d  q |
+17| l  e  x  g  b  g  l  d  d  n  q  i  p  q  w  s  a  h  v  x |
+18| k  a  b  h  n  b  d  v  y  k  y  a  v  o  i  l  u  h  t  a |
+19| c  x  a  h  m  i  c  r  o  p  h  o  n  e  i  b  c  x  f  f |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+piano: ((6, 5), (6, 9))
+saxophone: ((2, 8), (2, 16))
+trumpet: ((14, 10), (14, 16))
+melody: ((13, 8), (18, 8))
+rhythm: ((2, 19), (7, 19))
+note: ((7, 3), (10, 3))
+chord: ((5, 18), (9, 18))
+lyrics: ((15, 0), (15, 5))
+album: ((5, 5), (5, 9))
+microphone: ((19, 4), (19, 13))
+headphones: ((0, 1), (0, 10))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+piano: ((6, 5), (6, 9))
+saxophone: ((2, 8), (2, 16))
+trumpet: ((14, 10), (14, 16))
+melody: ((13, 8), (18, 8))
+rhythm: ((2, 19), (7, 19))
+note: ((7, 3), (10, 3))
+chord: ((5, 18), (9, 18))
+lyrics: ((15, 0), (15, 5))
+album: ((5, 5), (5, 9))
+microphone: ((19, 4), (19, 13))
+headphones: ((0, 1), (0, 10))
+
+Naïve Time taken: 0.0527 seconds
+Naïve Memory used: 0.00 MB

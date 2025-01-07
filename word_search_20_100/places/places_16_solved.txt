@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  t  d  v  i  l  l  a  g  e  a  y  r  y  m  q  v  r  t  z |
+ 1| h  s  d  z  w  n  p  s  g  h  e  w  y  f  n  r  a  e  p  t |
+ 2| q  r  f  a  m  w  u  t  b  t  j  c  h  u  r  c  h  j  m  l |
+ 3| n  t  i  z  s  w  f  z  x  w  k  o  c  i  t  y  d  s  n  w |
+ 4| d  t  t  u  c  h  g  j  o  p  m  z  h  h  a  x  f  t  x  d |
+ 5| s  k  k  r  h  c  a  x  v  z  o  t  x  t  l  g  f  r  q  e |
+ 6| f  l  h  r  o  c  o  n  t  i  n  e  n  t  b  f  i  e  x  s |
+ 7| h  n  s  o  o  s  b  g  p  a  r  k  g  e  q  n  w  e  u  e |
+ 8| b  k  b  t  l  r  x  r  r  k  n  f  o  r  r  p  c  t  i  r |
+ 9| c  t  n  d  x  r  i  u  o  c  f  o  n  x  k  l  e  n  s  t |
+10| s  o  m  d  k  w  a  v  t  a  k  r  v  x  p  l  l  n  l  a |
+11| j  y  u  j  a  t  s  u  e  r  d  e  y  i  a  n  i  k  a  c |
+12| e  a  i  n  s  j  x  m  y  r  p  s  k  t  o  a  g  v  n  v |
+13| w  h  j  e  t  u  k  w  n  l  e  t  i  z  t  v  x  u  d  t |
+14| q  t  r  r  x  r  d  n  m  s  m  p  l  n  q  s  u  s  n  z |
+15| h  t  q  a  p  t  y  u  p  u  s  z  u  u  r  j  e  x  v  l |
+16| v  v  j  p  s  d  e  j  b  o  e  o  f  p  l  k  e  g  y  h |
+17| z  a  k  y  h  s  d  p  h  b  m  l  r  y  a  a  s  i  r  c |
+18| t  o  w  n  u  g  b  e  a  c  h  r  c  l  m  o  a  m  d  r |
+19| n  z  s  m  v  t  r  y  p  b  j  r  z  d  k  n  g  p  r  i |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+city: ((3, 12), (3, 15))
+town: ((18, 0), (18, 3))
+village: ((0, 3), (0, 9))
+park: ((7, 8), (7, 11))
+beach: ((18, 6), (18, 10))
+forest: ((8, 11), (13, 11))
+desert: ((4, 19), (9, 19))
+island: ((8, 18), (13, 18))
+continent: ((6, 5), (6, 13))
+street: ((3, 17), (8, 17))
+school: ((3, 4), (8, 4))
+church: ((2, 11), (2, 16))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+city: ((3, 12), (3, 15))
+town: ((18, 0), (18, 3))
+village: ((0, 3), (0, 9))
+park: ((7, 8), (7, 11))
+beach: ((18, 6), (18, 10))
+forest: ((8, 11), (13, 11))
+desert: ((4, 19), (9, 19))
+island: ((8, 18), (13, 18))
+continent: ((6, 5), (6, 13))
+street: ((3, 17), (8, 17))
+school: ((3, 4), (8, 4))
+church: ((2, 11), (2, 16))
+
+Naïve Time taken: 0.0520 seconds
+Naïve Memory used: 0.00 MB

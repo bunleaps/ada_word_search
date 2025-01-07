@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| o  y  c  h  g  e  l  e  p  h  a  n  t  p  l  k  h  s  t  p |
+ 1| x  n  z  o  w  a  o  z  j  h  d  m  f  g  g  l  q  v  o  k |
+ 2| z  z  q  c  y  v  c  r  o  c  o  d  i  l  e  x  n  a  k  b |
+ 3| v  s  l  t  m  b  i  r  d  h  o  n  e  y  b  e  e  r  s  e |
+ 4| g  n  r  o  a  k  n  n  o  e  t  i  g  e  r  i  a  z  n  a |
+ 5| z  a  h  p  m  y  c  a  l  v  u  u  g  i  v  h  o  y  e  r |
+ 6| k  k  i  u  m  y  j  i  m  l  l  b  d  i  s  z  u  v  s  k |
+ 7| w  e  n  s  a  l  t  z  c  i  f  p  a  x  r  a  v  l  w  m |
+ 8| c  e  o  v  l  p  y  o  e  b  d  a  a  n  a  a  c  a  h  k |
+ 9| f  f  c  j  e  z  a  x  c  b  u  o  n  n  y  h  f  l  a  y |
+10| r  t  e  r  e  p  i  m  d  k  r  t  l  t  d  a  n  f  l  t |
+11| o  k  r  s  o  d  t  k  p  t  a  a  t  p  s  a  z  i  e  t |
+12| g  z  o  g  u  c  x  m  o  h  s  n  b  e  h  l  m  q  m  f |
+13| k  m  s  b  e  t  q  r  e  n  i  u  g  n  r  i  e  w  h  j |
+14| g  t  z  s  m  i  r  r  c  t  h  b  e  a  b  f  n  o  r  l |
+15| t  i  n  d  q  a  l  p  s  s  j  c  i  a  r  q  l  e  t  o |
+16| l  i  r  t  p  l  i  x  i  o  x  w  l  a  g  o  c  y  y  i |
+17| k  r  j  h  a  e  o  f  n  d  p  i  e  u  n  l  o  x  w  h |
+18| q  m  q  u  b  c  n  w  b  h  n  h  v  r  l  y  e  n  q  e |
+19| a  g  z  i  p  l  w  o  l  f  x  n  k  c  u  e  g  o  x  x |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+mammal: ((3, 4), (8, 4))
+bird: ((3, 5), (3, 8))
+lion: ((15, 6), (18, 6))
+tiger: ((4, 10), (4, 14))
+elephant: ((0, 5), (0, 12))
+crocodile: ((2, 6), (2, 14))
+snake: ((3, 1), (7, 1))
+frog: ((9, 0), (12, 0))
+whale: ((7, 18), (11, 18))
+bear: ((2, 19), (5, 19))
+wolf: ((19, 6), (19, 9))
+rhinoceros: ((4, 2), (13, 2))
+ant: ((0, 10), (0, 12))
+honeybee: ((3, 9), (3, 16))
+octopus: ((1, 3), (7, 3))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+mammal: ((3, 4), (8, 4))
+bird: ((3, 5), (3, 8))
+lion: ((15, 6), (18, 6))
+tiger: ((4, 10), (4, 14))
+elephant: ((0, 5), (0, 12))
+crocodile: ((2, 6), (2, 14))
+snake: ((3, 1), (7, 1))
+frog: ((9, 0), (12, 0))
+whale: ((7, 18), (11, 18))
+bear: ((2, 19), (5, 19))
+wolf: ((19, 6), (19, 9))
+rhinoceros: ((4, 2), (13, 2))
+ant: ((0, 10), (0, 12))
+honeybee: ((3, 9), (3, 16))
+octopus: ((1, 3), (7, 3))
+
+Naïve Time taken: 0.0781 seconds
+Naïve Memory used: 0.00 MB

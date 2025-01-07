@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| g  r  q  d  e  n  g  i  n  e  e  r  z  a  t  u  w  k  e  d |
+ 1| p  r  o  g  r  a  m  m  e  r  b  v  p  p  r  u  f  e  i  o |
+ 2| q  d  g  g  t  x  k  u  d  e  n  t  i  s  t  u  b  q  u  d |
+ 3| k  r  y  w  b  j  x  h  b  p  i  l  o  t  u  o  z  m  p  w |
+ 4| m  f  b  c  h  e  f  b  x  r  s  n  h  d  o  v  u  p  h  d |
+ 5| c  w  i  p  s  x  j  t  j  y  l  a  w  y  e  r  i  r  o  u |
+ 6| m  r  v  r  f  c  r  i  z  q  l  p  w  b  l  r  e  e  t  a |
+ 7| i  u  a  c  e  e  i  f  w  v  a  a  f  x  p  h  z  e  o  w |
+ 8| b  e  s  o  m  f  r  e  v  t  c  q  t  b  c  y  e  c  g  r |
+ 9| l  x  m  r  y  e  i  t  n  e  a  n  q  a  g  c  p  a  r  m |
+10| j  h  a  e  t  t  m  g  g  t  a  r  e  w  i  f  p  k  a  t |
+11| t  f  f  i  c  n  o  l  h  t  i  t  c  l  w  i  u  r  p  c |
+12| f  g  r  a  f  h  n  n  n  t  x  s  o  h  t  w  z  o  h  a |
+13| z  w  a  w  l  a  a  u  l  q  e  p  t  e  i  m  c  x  e  r |
+14| g  s  e  k  n  g  o  n  j  n  q  r  s  f  d  t  r  v  r  t |
+15| s  q  l  u  z  c  v  q  i  e  i  r  v  b  s  o  e  c  k  i |
+16| m  u  s  i  c  i  a  n  e  c  u  a  q  p  t  b  p  c  k  s |
+17| t  g  e  a  p  j  i  b  p  n  e  i  c  c  m  r  o  z  t  t |
+18| m  i  s  n  a  f  y  w  q  f  s  r  o  l  w  j  m  z  i  j |
+19| t  g  s  f  s  v  v  y  d  f  g  d  t  k  e  n  v  m  i  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+engineer: ((0, 4), (0, 11))
+lawyer: ((5, 10), (5, 15))
+chef: ((4, 3), (4, 6))
+pilot: ((3, 9), (3, 13))
+artist: ((12, 19), (17, 19))
+musician: ((16, 0), (16, 7))
+dentist: ((2, 8), (2, 14))
+photographer: ((3, 18), (14, 18))
+programmer: ((1, 0), (1, 9))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+engineer: ((0, 4), (0, 11))
+lawyer: ((5, 10), (5, 15))
+chef: ((4, 3), (4, 6))
+pilot: ((3, 9), (3, 13))
+artist: ((12, 19), (17, 19))
+musician: ((16, 0), (16, 7))
+dentist: ((2, 8), (2, 14))
+photographer: ((3, 18), (14, 18))
+programmer: ((1, 0), (1, 9))
+
+Naïve Time taken: 0.0552 seconds
+Naïve Memory used: 0.00 MB

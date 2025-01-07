@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  x  j  i  c  e  c  r  e  a  m  r  p  m  h  c  k  v  g  x |
+ 1| b  x  g  o  d  c  u  r  r  y  r  i  h  f  r  e  l  o  r  x |
+ 2| i  b  j  r  n  v  z  v  m  r  d  c  b  b  o  m  x  x  p  j |
+ 3| b  o  k  j  d  k  c  p  w  i  j  e  v  c  u  l  k  k  i  i |
+ 4| u  r  x  z  r  l  w  y  w  s  t  n  o  o  d  l  e  s  z  l |
+ 5| r  x  e  n  y  z  d  o  p  j  c  v  g  y  u  m  z  i  z  n |
+ 6| h  o  h  a  l  b  u  r  g  e  r  h  o  g  s  x  c  w  a  a |
+ 7| z  y  j  n  d  a  r  u  h  u  x  b  o  e  p  k  n  j  i  f |
+ 8| c  e  r  c  n  g  n  t  f  b  m  f  i  c  g  a  s  t  c  s |
+ 9| x  o  u  n  e  a  e  e  i  z  w  k  i  b  o  d  s  k  a  v |
+10| u  s  x  m  n  s  s  s  o  b  o  x  l  u  p  l  w  t  d  y |
+11| s  a  l  a  d  e  f  r  u  o  y  c  a  k  e  i  a  d  a  v |
+12| h  n  r  t  e  i  y  p  c  s  j  w  o  o  o  q  e  t  j  j |
+13| p  d  w  h  g  z  q  t  p  y  h  f  c  u  o  b  d  d  e  b |
+14| d  w  c  s  t  e  a  k  a  c  g  i  y  s  x  h  v  c  a  l |
+15| s  i  r  f  x  f  o  u  r  c  n  b  u  r  r  i  t  o  k  d |
+16| b  c  n  l  y  a  d  x  c  e  o  y  h  o  p  x  h  h  v  v |
+17| i  h  x  h  k  p  b  i  q  v  u  z  v  u  h  d  k  u  p  o |
+18| q  p  c  h  j  y  l  l  m  i  e  l  o  u  a  d  d  c  m  l |
+19| o  u  j  o  t  j  o  s  s  y  g  s  g  b  p  w  l  q  a  h |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((2, 18), (6, 18))
+burger: ((6, 5), (6, 10))
+sandwich: ((10, 1), (17, 1))
+salad: ((11, 0), (11, 4))
+steak: ((14, 3), (14, 7))
+rice: ((0, 11), (3, 11))
+noodles: ((4, 11), (4, 17))
+burrito: ((15, 11), (15, 17))
+curry: ((1, 5), (1, 9))
+icecream: ((0, 3), (0, 10))
+cake: ((11, 11), (11, 14))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((2, 18), (6, 18))
+burger: ((6, 5), (6, 10))
+sandwich: ((10, 1), (17, 1))
+salad: ((11, 0), (11, 4))
+steak: ((14, 3), (14, 7))
+rice: ((0, 11), (3, 11))
+noodles: ((4, 11), (4, 17))
+burrito: ((15, 11), (15, 17))
+curry: ((1, 5), (1, 9))
+icecream: ((0, 3), (0, 10))
+cake: ((11, 11), (11, 14))
+
+Naïve Time taken: 0.0552 seconds
+Naïve Memory used: 0.00 MB

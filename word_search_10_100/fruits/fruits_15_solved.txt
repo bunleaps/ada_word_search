@@ -1,0 +1,37 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| o  y  z  m  a  n  g  o  w  a |
+ 1| r  o  l  e  m  o  n  k  e  p |
+ 2| a  b  s  s  g  a  i  n  l  p |
+ 3| n  d  a  k  n  r  i  x  y  l |
+ 4| g  k  a  a  i  r  a  r  m  e |
+ 5| e  p  n  t  a  w  r  p  p  p |
+ 6| u  a  f  t  e  e  i  p  e  l |
+ 7| b  w  c  s  h  g  u  g  a  u |
+ 8| z  e  t  c  i  t  c  g  r  m |
+ 9| n  v  o  f  p  e  a  c  h  u |
+  +------------------------------+
+Dynamic Programming Solution:
+apple: ((0, 9), (4, 9))
+lemon: ((1, 2), (1, 6))
+mango: ((0, 3), (0, 7))
+orange: ((0, 0), (5, 0))
+pear: ((5, 8), (8, 8))
+peach: ((9, 4), (9, 8))
+plum: ((5, 9), (8, 9))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+apple: ((0, 9), (4, 9))
+lemon: ((1, 2), (1, 6))
+mango: ((0, 3), (0, 7))
+orange: ((0, 0), (5, 0))
+pear: ((5, 8), (8, 8))
+peach: ((9, 4), (9, 8))
+plum: ((5, 9), (8, 9))
+
+Naïve Time taken: 0.0140 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  i  n  g  e  r  c  t  b  e  k  c  x  b  d  m  t  i  y  u |
+ 1| f  v  r  o  s  h  o  u  l  d  e  r  q  w  y  u  u  z  p  j |
+ 2| q  w  o  c  e  u  m  p  t  m  x  z  n  g  u  j  d  t  j  g |
+ 3| v  z  i  t  y  y  p  c  w  f  c  h  e  s  t  z  t  t  l  w |
+ 4| c  e  a  j  o  b  e  w  c  j  b  g  o  e  l  q  i  p  d  n |
+ 5| d  n  e  b  g  e  u  f  c  x  n  z  f  p  n  u  g  n  p  y |
+ 6| z  v  i  e  k  n  m  x  n  f  f  w  x  x  k  l  a  c  v  y |
+ 7| h  x  a  h  i  n  e  j  i  t  x  u  d  r  p  h  t  z  m  v |
+ 8| h  w  a  k  a  r  e  w  u  y  m  b  w  m  i  i  n  n  n  w |
+ 9| y  p  s  n  r  q  y  e  e  s  y  n  v  b  s  v  b  b  s  j |
+10| b  g  z  l  o  z  l  v  o  s  t  p  w  s  x  v  a  r  a  f |
+11| l  j  i  z  c  s  k  a  y  v  k  o  c  t  a  y  c  a  x  o |
+12| w  n  w  t  p  c  e  w  i  q  l  p  m  r  e  u  k  i  a  o |
+13| s  d  q  l  m  z  y  u  w  u  x  e  t  a  i  e  e  n  r  t |
+14| w  l  m  o  u  t  h  s  p  n  j  c  g  l  c  n  t  a  m  o |
+15| h  c  m  r  f  i  x  y  m  o  c  q  b  k  i  h  e  h  r  b |
+16| q  v  p  x  h  z  l  x  v  d  n  a  a  p  k  x  o  c  d  g |
+17| w  f  y  z  y  e  u  t  k  o  i  q  f  c  k  p  s  m  k  p |
+18| x  y  j  x  j  p  x  c  z  s  x  t  h  i  j  f  z  i  g  s |
+19| h  e  a  r  t  n  s  j  l  h  e  a  d  b  j  p  i  h  w  y |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+head: ((19, 9), (19, 12))
+foot: ((10, 19), (13, 19))
+arm: ((12, 18), (14, 18))
+ear: ((19, 1), (19, 3))
+mouth: ((14, 2), (14, 6))
+back: ((9, 16), (12, 16))
+chest: ((3, 10), (3, 14))
+shoulder: ((1, 4), (1, 11))
+finger: ((0, 0), (0, 5))
+heart: ((19, 0), (19, 4))
+brain: ((9, 17), (13, 17))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+head: ((19, 9), (19, 12))
+foot: ((10, 19), (13, 19))
+arm: ((12, 18), (14, 18))
+ear: ((19, 1), (19, 3))
+mouth: ((14, 2), (14, 6))
+back: ((9, 16), (12, 16))
+chest: ((3, 10), (3, 14))
+shoulder: ((1, 4), (1, 11))
+finger: ((0, 0), (0, 5))
+heart: ((19, 0), (19, 4))
+brain: ((9, 17), (13, 17))
+
+Naïve Time taken: 0.0693 seconds
+Naïve Memory used: 0.00 MB

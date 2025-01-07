@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| q  p  t  s  k  k  d  r  s  z  s  b  w  d  i  i  l  z  o  k |
+ 1| p  l  s  w  w  b  e  l  t  w  y  k  u  g  g  e  n  u  j  q |
+ 2| v  s  o  h  l  e  i  u  a  a  p  c  l  f  l  d  g  a  h  j |
+ 3| a  n  u  x  i  l  a  u  y  y  f  h  b  l  o  e  y  b  s  m |
+ 4| u  l  m  r  q  r  q  t  m  n  x  r  d  s  v  e  k  k  r  w |
+ 5| e  n  k  d  i  i  t  a  e  d  h  i  h  r  e  c  c  m  m  d |
+ 6| r  e  g  q  q  i  j  b  z  r  o  x  u  m  s  o  o  r  k  y |
+ 7| e  s  a  i  t  f  t  n  o  p  y  r  v  s  s  n  o  a  q  q |
+ 8| k  k  p  v  e  a  t  w  t  o  g  l  s  a  h  f  h  o  t  t |
+ 9| a  i  d  q  h  q  h  k  s  x  t  e  w  k  i  e  b  g  s  i |
+10| p  r  h  h  p  g  m  a  s  o  r  s  d  n  s  v  k  x  n  e |
+11| j  t  w  d  w  g  q  v  e  d  a  n  u  s  j  n  k  l  e  u |
+12| w  a  n  c  w  p  a  j  a  m  a  s  r  y  l  q  l  v  a  s |
+13| j  t  c  b  n  l  g  e  y  d  o  s  k  k  p  b  i  n  k  z |
+14| x  o  d  k  s  c  a  r  f  b  n  z  i  k  a  a  f  u  e  f |
+15| q  f  m  f  e  b  c  q  h  a  h  j  t  s  t  j  n  u  r  r |
+16| f  y  g  n  q  t  k  r  e  r  t  s  e  i  f  g  c  t  s  y |
+17| z  q  e  i  g  z  b  j  n  j  a  o  g  d  r  k  k  b  s  z |
+18| j  q  g  z  t  t  j  o  b  h  h  a  n  m  j  b  s  m  e  r |
+19| a  g  r  a  n  k  c  a  i  s  u  z  x  o  d  s  i  x  t  z |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+skirt: ((7, 1), (11, 1))
+gloves: ((1, 14), (6, 14))
+scarf: ((14, 4), (14, 8))
+hat: ((18, 10), (16, 10))
+belt: ((1, 5), (1, 8))
+sneakers: ((9, 18), (16, 18))
+tie: ((8, 19), (10, 19))
+pajamas: ((12, 5), (12, 11))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+skirt: ((7, 1), (11, 1))
+gloves: ((1, 14), (6, 14))
+scarf: ((14, 4), (14, 8))
+hat: ((18, 10), (16, 10))
+belt: ((1, 5), (1, 8))
+sneakers: ((9, 18), (16, 18))
+tie: ((8, 19), (10, 19))
+pajamas: ((12, 5), (12, 11))
+
+Naïve Time taken: 0.0673 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  c  o  n  p  m  e  t  e  o  r  j  i  q  b  n  l  r  x  r |
+ 1| s  o  o  f  k  c  q  k  g  a  l  a  x  y  f  d  q  n  a  c |
+ 2| t  n  n  x  h  n  r  f  v  c  m  n  o  c  i  t  i  z  c  c |
+ 3| r  s  c  s  k  a  g  m  l  e  k  o  e  h  e  d  q  t  l  g |
+ 4| o  t  a  t  j  r  o  c  k  e  t  p  o  i  l  c  o  h  f  x |
+ 5| n  e  j  a  s  b  b  q  k  o  o  p  n  n  n  g  r  v  m  z |
+ 6| a  l  s  r  w  x  y  e  g  c  g  b  i  e  o  n  u  w  w  v |
+ 7| u  l  e  y  h  w  t  j  s  g  t  k  i  z  b  p  n  b  k  s |
+ 8| t  a  q  h  j  e  e  e  b  c  l  o  c  r  o  u  h  c  a  o |
+ 9| s  t  s  m  m  o  l  y  f  l  b  e  k  a  t  b  l  b  l  l |
+10| a  i  s  o  w  e  e  c  v  a  a  l  n  a  s  u  k  a  i  a |
+11| t  o  c  k  t  h  e  k  m  a  s  c  d  t  v  q  u  k  e  r |
+12| e  n  d  c  o  a  f  h  c  z  k  t  k  h  f  s  u  z  n  y |
+13| l  z  u  n  i  v  e  r  s  e  j  j  e  h  l  s  s  i  s  s |
+14| l  z  f  t  a  g  k  r  c  j  a  y  h  r  o  x  v  y  g  y |
+15| i  z  q  p  s  b  y  b  m  b  f  j  l  d  o  l  c  k  h  s |
+16| t  p  b  t  j  s  p  a  c  e  c  r  a  f  t  i  e  j  n  t |
+17| e  o  l  i  g  h  t  y  e  a  r  y  l  r  m  s  d  n  l  e |
+18| z  i  w  b  c  p  l  a  n  e  t  i  q  a  d  j  k  y  j  m |
+19| n  h  d  p  m  n  z  u  s  x  y  b  o  r  b  i  t  t  d  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+planet: ((18, 5), (18, 10))
+star: ((3, 3), (6, 3))
+galaxy: ((1, 8), (1, 13))
+satellite: ((9, 0), (17, 0))
+rocket: ((4, 5), (4, 10))
+astronaut: ((0, 0), (8, 0))
+spacecraft: ((16, 5), (16, 14))
+orbit: ((19, 12), (19, 16))
+universe: ((13, 2), (13, 9))
+meteor: ((0, 5), (0, 10))
+lightyear: ((17, 2), (17, 10))
+constellation: ((0, 1), (12, 1))
+aliens: ((8, 18), (13, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((18, 5), (18, 10))
+star: ((3, 3), (6, 3))
+galaxy: ((1, 8), (1, 13))
+satellite: ((9, 0), (17, 0))
+rocket: ((4, 5), (4, 10))
+astronaut: ((0, 0), (8, 0))
+spacecraft: ((16, 5), (16, 14))
+orbit: ((19, 12), (19, 16))
+universe: ((13, 2), (13, 9))
+meteor: ((0, 5), (0, 10))
+lightyear: ((17, 2), (17, 10))
+constellation: ((0, 1), (12, 1))
+aliens: ((8, 18), (13, 18))
+
+Naïve Time taken: 0.0480 seconds
+Naïve Memory used: 0.00 MB

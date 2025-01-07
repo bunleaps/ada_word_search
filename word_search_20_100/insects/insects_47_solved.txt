@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| i  f  s  d  p  b  f  b  h  y  d  d  t  t  v  w  y  k  d  v |
+ 1| d  b  s  e  s  l  j  l  b  z  k  n  a  g  z  g  h  n  w  w |
+ 2| j  n  p  r  b  t  f  k  e  z  v  r  n  q  d  l  l  g  g  w |
+ 3| p  a  i  g  x  s  s  g  r  a  s  s  h  o  p  p  e  r  m  e |
+ 4| g  a  d  i  d  r  a  g  o  n  f  l  y  j  j  f  p  k  w  j |
+ 5| n  e  e  c  p  m  b  u  t  t  e  r  f  l  y  s  l  a  o  h |
+ 6| y  y  r  m  j  w  e  k  n  p  f  z  a  i  a  t  a  f  e  r |
+ 7| v  x  y  k  e  t  v  b  z  x  h  x  n  w  g  p  j  j  t  p |
+ 8| j  l  j  i  i  z  z  u  p  b  a  d  t  u  f  y  o  o  k  r |
+ 9| e  s  a  m  v  u  w  v  u  k  c  v  e  b  e  e  t  l  e  v |
+10| x  o  r  d  h  y  e  l  f  q  o  g  c  f  l  y  r  y  a  w |
+11| y  e  k  b  y  b  b  e  f  g  c  c  b  l  b  m  u  r  g  t |
+12| t  u  h  t  w  b  u  b  j  y  k  h  z  e  u  h  c  e  m  v |
+13| t  u  n  r  c  x  u  w  f  a  r  e  t  o  e  b  p  j  j  g |
+14| p  z  i  s  w  m  r  g  x  r  o  u  q  y  v  i  e  w  g  w |
+15| s  f  z  b  r  o  r  q  f  i  a  a  v  e  b  c  d  b  d  y |
+16| e  o  s  l  i  t  a  l  h  o  c  v  j  q  s  l  f  e  y  j |
+17| x  k  b  o  r  h  z  s  p  p  h  b  u  k  y  m  q  g  d  f |
+18| u  q  y  g  w  u  h  f  y  f  y  x  t  p  n  d  r  v  e  j |
+19| l  l  m  o  s  q  u  i  t  o  e  r  u  v  q  d  e  t  z  z |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+ant: ((3, 9), (5, 9))
+bee: ((9, 13), (9, 15))
+butterfly: ((5, 6), (5, 14))
+mosquito: ((19, 2), (19, 9))
+cockroach: ((9, 10), (17, 10))
+fly: ((4, 10), (4, 12))
+spider: ((1, 2), (6, 2))
+grasshopper: ((3, 7), (3, 17))
+dragonfly: ((4, 4), (4, 12))
+moth: ((14, 5), (17, 5))
+beetle: ((9, 13), (9, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+ant: ((3, 9), (5, 9))
+bee: ((9, 13), (9, 15))
+butterfly: ((5, 6), (5, 14))
+mosquito: ((19, 2), (19, 9))
+cockroach: ((9, 10), (17, 10))
+fly: ((4, 10), (4, 12))
+spider: ((1, 2), (6, 2))
+grasshopper: ((3, 7), (3, 17))
+dragonfly: ((4, 4), (4, 12))
+moth: ((14, 5), (17, 5))
+beetle: ((9, 13), (9, 18))
+
+Naïve Time taken: 0.0303 seconds
+Naïve Memory used: 0.00 MB

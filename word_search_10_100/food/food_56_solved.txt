@@ -1,0 +1,39 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| s  s  r  b  c  u  r  r  y  e |
+ 1| j  a  u  s  u  o  p  i  e  n |
+ 2| d  n  n  s  o  r  z  b  b  p |
+ 3| s  s  o  d  h  u  g  r  u  a |
+ 4| p  a  t  o  w  i  p  e  r  s |
+ 5| c  i  l  e  d  i  p  a  r  t |
+ 6| a  y  z  a  a  l  c  d  i  a |
+ 7| k  z  o  z  d  k  e  h  t  h |
+ 8| e  t  q  t  a  c  o  s  o  u |
+ 9| g  e  d  d  r  i  c  e  l  e |
+  +------------------------------+
+Dynamic Programming Solution:
+pasta: ((2, 9), (6, 9))
+rice: ((9, 4), (9, 7))
+taco: ((8, 3), (8, 6))
+burrito: ((2, 8), (8, 8))
+curry: ((0, 4), (0, 8))
+bread: ((2, 7), (6, 7))
+cake: ((5, 0), (8, 0))
+pie: ((1, 6), (1, 8))
+
+DP Time taken: 0.0005 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pasta: ((2, 9), (6, 9))
+rice: ((9, 4), (9, 7))
+taco: ((8, 3), (8, 6))
+burrito: ((2, 8), (8, 8))
+curry: ((0, 4), (0, 8))
+bread: ((2, 7), (6, 7))
+cake: ((5, 0), (8, 0))
+pie: ((1, 6), (1, 8))
+
+Naïve Time taken: 0.0149 seconds
+Naïve Memory used: 0.00 MB

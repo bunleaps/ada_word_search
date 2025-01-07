@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| o  y  i  s  l  a  n  d  v  j  t  j  s  c  h  o  o  l  w  g |
+ 1| c  z  n  l  o  k  k  e  z  o  g  x  s  e  q  l  x  z  p  x |
+ 2| u  o  h  t  e  f  j  b  m  l  a  k  e  d  n  c  a  n  e  s |
+ 3| u  r  u  z  u  a  o  n  k  k  u  g  j  m  n  y  n  y  g  n |
+ 4| z  h  z  n  l  n  c  s  d  r  e  c  h  u  r  c  h  e  y  y |
+ 5| m  b  l  w  t  y  j  e  i  r  d  q  o  i  s  r  g  t  y  m |
+ 6| p  m  p  x  e  r  b  j  a  l  e  x  u  s  k  a  i  r  m  o |
+ 7| u  k  b  i  e  z  y  d  c  l  t  s  b  f  l  c  h  z  r  u |
+ 8| r  f  w  p  p  r  g  h  o  l  r  f  t  l  o  v  q  u  w  n |
+ 9| i  t  e  e  l  o  j  o  n  n  s  o  i  a  p  r  i  u  d  t |
+10| v  d  o  n  q  o  j  s  t  u  t  v  m  z  u  s  e  p  v  a |
+11| e  n  g  w  s  d  o  p  i  b  r  w  v  u  r  r  f  s  n  i |
+12| r  y  b  e  n  t  p  i  n  e  e  e  g  r  s  r  a  w  t  n |
+13| b  g  g  k  o  e  i  t  e  a  e  l  s  t  u  e  c  n  v  z |
+14| s  v  u  n  k  u  q  a  n  c  t  f  c  l  k  r  u  z  t  k |
+15| c  q  w  r  e  k  t  l  t  h  x  n  p  z  y  d  p  m  x  n |
+16| o  g  e  m  j  a  g  c  b  l  h  r  i  u  a  b  g  k  s  o |
+17| h  h  v  o  p  a  r  k  g  l  s  i  u  o  e  u  p  z  s  y |
+18| a  p  a  l  w  t  o  l  d  e  s  e  r  t  l  p  l  y  h  x |
+19| e  c  u  f  q  w  s  c  d  a  x  a  k  k  x  e  s  b  m  y |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+park: ((17, 4), (17, 7))
+beach: ((11, 9), (15, 9))
+mountain: ((5, 19), (12, 19))
+river: ((8, 0), (12, 0))
+lake: ((2, 9), (2, 12))
+desert: ((18, 8), (18, 13))
+island: ((0, 2), (0, 7))
+continent: ((7, 8), (15, 8))
+street: ((9, 10), (14, 10))
+school: ((0, 12), (0, 17))
+hospital: ((8, 7), (15, 7))
+church: ((4, 11), (4, 16))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+park: ((17, 4), (17, 7))
+beach: ((11, 9), (15, 9))
+mountain: ((5, 19), (12, 19))
+river: ((8, 0), (12, 0))
+lake: ((2, 9), (2, 12))
+desert: ((18, 8), (18, 13))
+island: ((0, 2), (0, 7))
+continent: ((7, 8), (15, 8))
+street: ((9, 10), (14, 10))
+school: ((0, 12), (0, 17))
+hospital: ((8, 7), (15, 7))
+church: ((4, 11), (4, 16))
+
+Naïve Time taken: 0.0720 seconds
+Naïve Memory used: 0.00 MB

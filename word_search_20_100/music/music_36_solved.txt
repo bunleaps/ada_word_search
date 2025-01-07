@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| g  v  y  h  b  l  v  s  w  b  w  n  l  s  y  n  n  a  v  k |
+ 1| f  i  c  c  i  w  g  e  f  u  m  t  g  i  p  f  x  f  m  e |
+ 2| l  m  h  o  t  i  j  f  a  r  a  t  z  h  m  g  v  u  l  j |
+ 3| s  e  f  n  b  r  g  v  y  n  f  v  i  o  l  i  n  q  q  t |
+ 4| g  l  g  c  x  o  u  y  r  s  j  l  d  r  u  m  s  j  a  l |
+ 5| t  o  y  e  x  a  r  m  s  f  a  p  u  p  s  t  h  c  c  y |
+ 6| h  d  n  r  d  m  r  c  p  m  s  x  a  t  e  l  y  b  s  r |
+ 7| o  y  a  t  f  g  i  n  h  e  m  v  o  r  e  g  h  e  r  i |
+ 8| x  x  s  f  u  p  k  c  c  e  t  r  e  p  q  h  n  j  t  c |
+ 9| q  h  u  y  k  t  o  q  r  a  s  g  g  g  h  o  e  h  w  s |
+10| m  p  e  r  f  g  c  v  x  o  n  t  u  h  h  o  k  x  w  q |
+11| e  m  g  u  i  t  a  r  p  i  p  l  r  p  j  u  n  t  m  n |
+12| a  m  a  g  e  m  o  l  s  i  p  h  d  a  l  t  z  e  d  l |
+13| j  q  e  w  d  c  b  u  k  k  a  a  o  g  w  h  w  c  i  f |
+14| g  f  x  k  t  h  r  a  n  c  e  n  g  n  o  b  o  g  u  s |
+15| y  q  v  i  s  o  r  k  n  h  j  v  o  z  e  a  a  l  v  n |
+16| q  b  f  c  k  r  l  s  p  d  t  m  r  r  h  y  t  h  m  p |
+17| g  f  w  l  k  d  u  u  f  z  r  j  v  x  a  l  b  u  m  z |
+18| b  n  o  t  e  j  i  n  e  h  f  p  w  g  z  f  y  w  m  u |
+19| y  z  h  h  a  r  m  o  n  y  z  u  r  y  f  j  m  w  k  b |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+guitar: ((11, 2), (11, 7))
+drums: ((4, 12), (4, 16))
+violin: ((3, 11), (3, 16))
+melody: ((2, 1), (7, 1))
+harmony: ((19, 3), (19, 9))
+rhythm: ((16, 13), (16, 18))
+note: ((18, 1), (18, 4))
+chord: ((13, 5), (17, 5))
+concert: ((1, 3), (7, 3))
+lyrics: ((4, 19), (9, 19))
+album: ((17, 14), (17, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+guitar: ((11, 2), (11, 7))
+drums: ((4, 12), (4, 16))
+violin: ((3, 11), (3, 16))
+melody: ((2, 1), (7, 1))
+harmony: ((19, 3), (19, 9))
+rhythm: ((16, 13), (16, 18))
+note: ((18, 1), (18, 4))
+chord: ((13, 5), (17, 5))
+concert: ((1, 3), (7, 3))
+lyrics: ((4, 19), (9, 19))
+album: ((17, 14), (17, 18))
+
+Naïve Time taken: 0.0530 seconds
+Naïve Memory used: 0.00 MB

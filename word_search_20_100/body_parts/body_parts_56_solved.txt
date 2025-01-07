@@ -1,0 +1,65 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  k  u  j  z  c  v  b  j  j  n  y  w  q  v  c  j  h  r  z |
+ 1| r  d  y  e  p  h  m  m  q  r  h  z  b  m  c  a  f  x  p  h |
+ 2| u  f  w  r  b  e  z  m  o  w  z  e  w  n  b  s  j  r  u  b |
+ 3| x  x  s  s  d  s  b  n  e  u  j  o  a  f  o  o  t  i  j  r |
+ 4| o  z  s  h  a  t  h  o  x  s  t  n  g  r  t  j  x  h  h  a |
+ 5| v  c  l  o  a  z  f  s  z  u  n  h  a  s  t  z  h  p  t  i |
+ 6| l  h  j  u  j  z  b  e  n  e  c  k  i  e  o  y  g  d  e  n |
+ 7| t  h  y  l  g  n  o  x  d  b  e  u  y  f  s  m  n  g  e  w |
+ 8| y  j  o  d  u  q  a  x  r  m  h  a  a  q  m  a  p  v  t  o |
+ 9| y  e  y  e  t  a  s  y  g  i  p  j  z  z  h  i  i  j  h  h |
+10| f  a  s  r  s  m  k  m  b  l  x  b  g  v  i  p  b  w  s  g |
+11| i  r  n  b  q  o  i  z  x  w  q  l  z  a  k  f  u  f  t  o |
+12| n  d  s  p  w  k  n  b  a  c  k  e  x  y  y  z  q  f  o  e |
+13| g  m  f  k  i  c  y  r  a  r  m  g  y  f  l  j  q  q  m  y |
+14| e  b  a  i  v  t  e  h  e  a  d  r  k  a  x  w  f  v  a  e |
+15| r  m  g  e  e  j  o  e  r  z  q  e  w  h  f  e  b  h  c  u |
+16| z  t  x  b  i  m  n  w  x  b  o  c  p  g  k  d  g  h  h  w |
+17| p  t  x  v  o  k  p  m  z  t  f  a  o  y  s  r  f  w  w  f |
+18| i  k  g  t  t  v  c  h  p  y  p  g  z  t  y  p  y  w  d  z |
+19| b  v  v  y  x  w  h  d  h  y  c  a  o  e  g  b  d  v  y  k |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+head: ((14, 7), (14, 10))
+foot: ((3, 13), (3, 16))
+leg: ((11, 11), (13, 11))
+arm: ((13, 8), (13, 10))
+eye: ((9, 1), (9, 3))
+ear: ((9, 1), (11, 1))
+nose: ((3, 7), (6, 7))
+stomach: ((10, 18), (16, 18))
+back: ((12, 7), (12, 10))
+chest: ((0, 5), (4, 5))
+neck: ((6, 8), (6, 11))
+shoulder: ((3, 3), (10, 3))
+finger: ((10, 0), (15, 0))
+brain: ((2, 19), (6, 19))
+skin: ((9, 6), (12, 6))
+teeth: ((5, 18), (9, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+head: ((14, 7), (14, 10))
+foot: ((3, 13), (3, 16))
+leg: ((11, 11), (13, 11))
+arm: ((13, 8), (13, 10))
+eye: ((9, 1), (9, 3))
+ear: ((9, 1), (11, 1))
+nose: ((3, 7), (6, 7))
+stomach: ((10, 18), (16, 18))
+back: ((12, 7), (12, 10))
+chest: ((0, 5), (4, 5))
+neck: ((6, 8), (6, 11))
+shoulder: ((3, 3), (10, 3))
+finger: ((10, 0), (15, 0))
+brain: ((2, 19), (6, 19))
+skin: ((9, 6), (12, 6))
+teeth: ((8, 18), (4, 18))
+
+Naïve Time taken: 0.0655 seconds
+Naïve Memory used: 0.00 MB

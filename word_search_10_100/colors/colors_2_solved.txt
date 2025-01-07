@@ -1,0 +1,43 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| j  y  g  c  y  a  n  b  u  d |
+ 1| z  w  e  g  m  c  f  r  p  x |
+ 2| b  p  x  l  r  h  z  o  i  u |
+ 3| l  r  e  d  l  e  s  w  n  o |
+ 4| a  t  n  d  w  o  e  n  k  r |
+ 5| c  g  r  a  y  h  w  n  e  a |
+ 6| k  d  x  d  v  y  i  g  y  n |
+ 7| o  b  l  u  e  y  x  t  h  g |
+ 8| r  o  p  u  r  p  l  e  e  e |
+ 9| g  m  a  g  e  n  t  a  w  h |
+  +------------------------------+
+Dynamic Programming Solution:
+red: ((3, 1), (3, 3))
+blue: ((7, 1), (7, 4))
+purple: ((8, 2), (8, 7))
+orange: ((3, 9), (8, 9))
+pink: ((1, 8), (4, 8))
+black: ((2, 0), (6, 0))
+gray: ((5, 1), (5, 4))
+brown: ((0, 7), (4, 7))
+cyan: ((0, 3), (0, 6))
+magenta: ((9, 1), (9, 7))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+red: ((3, 1), (3, 3))
+blue: ((7, 1), (7, 4))
+purple: ((8, 2), (8, 7))
+orange: ((3, 9), (8, 9))
+pink: ((1, 8), (4, 8))
+black: ((2, 0), (6, 0))
+gray: ((5, 1), (5, 4))
+brown: ((0, 7), (4, 7))
+cyan: ((0, 3), (0, 6))
+magenta: ((9, 1), (9, 7))
+
+Naïve Time taken: 0.0121 seconds
+Naïve Memory used: 0.00 MB

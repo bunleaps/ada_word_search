@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  a  t  q  j  e  a  p  b  g  k  c  j  f  e  t  o  n  z  m |
+ 1| n  k  b  t  r  n  z  i  b  x  f  b  a  y  j  g  c  z  n  m |
+ 2| s  k  i  s  l  a  n  d  l  o  b  e  q  m  u  e  n  h  o  u |
+ 3| z  p  m  v  x  v  b  w  x  r  o  a  d  a  h  b  t  p  a  a |
+ 4| y  w  e  t  h  o  u  x  s  o  a  u  b  g  s  v  v  q  l  h |
+ 5| k  e  j  v  o  x  b  e  a  c  h  g  g  y  d  a  q  b  g  o |
+ 6| n  g  p  u  a  w  q  k  n  u  o  n  n  q  t  m  w  d  p  k |
+ 7| l  a  k  e  h  g  n  i  z  m  u  i  y  e  a  r  k  c  h  c |
+ 8| s  c  a  c  g  z  a  c  o  u  n  t  r  y  e  i  f  a  o  y |
+ 9| m  k  o  o  h  t  r  i  r  u  n  j  l  d  f  v  g  x  s  a |
+10| s  x  c  n  n  u  p  v  t  e  y  k  r  h  d  e  r  b  p  e |
+11| p  p  l  u  t  t  r  x  i  p  s  d  t  c  p  r  o  u  i  m |
+12| h  c  o  y  j  i  o  c  s  l  s  t  o  p  h  d  y  f  t  v |
+13| g  m  b  d  k  f  n  k  h  t  l  y  a  n  j  t  q  e  a  o |
+14| e  x  d  e  g  o  q  e  j  m  r  a  x  u  i  p  c  s  l  c |
+15| o  d  v  s  i  r  j  t  n  g  t  e  g  c  r  z  n  g  v  m |
+16| s  b  v  e  m  e  f  r  w  t  k  f  e  e  p  a  b  d  c  g |
+17| c  v  u  r  r  s  s  z  y  r  z  d  i  t  s  s  n  j  x  u |
+18| k  j  z  t  i  t  e  h  a  w  s  m  p  x  n  y  b  t  f  j |
+19| m  u  s  e  u  m  k  p  y  s  c  h  o  o  l  v  h  v  u  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+beach: ((5, 6), (5, 10))
+river: ((7, 15), (11, 15))
+lake: ((7, 0), (7, 3))
+forest: ((13, 5), (18, 5))
+desert: ((13, 3), (18, 3))
+island: ((2, 2), (2, 7))
+country: ((8, 7), (8, 13))
+road: ((3, 9), (3, 12))
+school: ((19, 9), (19, 14))
+hospital: ((7, 18), (14, 18))
+museum: ((19, 0), (19, 5))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+beach: ((5, 6), (5, 10))
+river: ((7, 15), (11, 15))
+lake: ((7, 0), (7, 3))
+forest: ((13, 5), (18, 5))
+desert: ((13, 3), (18, 3))
+island: ((2, 2), (2, 7))
+country: ((8, 7), (8, 13))
+road: ((3, 9), (3, 12))
+school: ((19, 9), (19, 14))
+hospital: ((7, 18), (14, 18))
+museum: ((19, 0), (19, 5))
+
+Naïve Time taken: 0.0543 seconds
+Naïve Memory used: 0.00 MB

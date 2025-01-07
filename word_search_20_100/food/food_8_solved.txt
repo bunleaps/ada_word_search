@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| e  b  m  x  t  a  d  i  p  f  t  h  f  z  h  p  t  u  n  k |
+ 1| h  p  l  v  d  c  u  e  i  i  z  t  b  c  z  i  g  u  h  g |
+ 2| d  a  a  a  y  c  t  w  z  k  o  q  l  c  o  b  y  k  y  c |
+ 3| d  k  l  s  q  y  e  k  z  v  j  o  i  h  c  o  g  x  z  h |
+ 4| n  a  p  k  t  g  t  d  a  e  o  h  u  o  p  b  h  k  w  e |
+ 5| s  d  r  o  j  a  d  c  x  o  v  d  v  c  x  m  r  t  h  e |
+ 6| w  c  o  s  l  m  q  c  h  s  h  h  z  o  u  w  a  s  k  s |
+ 7| e  w  o  u  y  d  d  c  a  s  o  y  b  l  d  v  v  t  m  e |
+ 8| r  b  v  o  t  t  i  p  f  k  i  u  p  a  c  j  q  e  t  t |
+ 9| q  f  b  z  k  w  a  s  d  n  e  f  p  t  s  d  x  a  g  p |
+10| n  t  m  p  d  i  z  c  f  r  e  h  p  e  f  b  d  k  k  n |
+11| o  n  v  n  g  x  e  o  o  z  m  s  y  i  s  r  b  f  g  o |
+12| s  j  a  c  r  x  c  s  d  i  c  e  c  r  e  a  m  y  j  o |
+13| u  s  u  v  i  n  x  t  h  z  g  i  m  g  o  r  c  y  n  d |
+14| s  h  f  j  c  l  b  k  v  r  z  h  r  t  k  c  c  v  y  l |
+15| h  o  g  o  e  a  r  r  n  m  h  u  i  w  c  p  u  r  x  e |
+16| i  p  l  o  v  d  e  h  w  n  b  r  x  j  w  j  r  i  q  s |
+17| g  l  m  j  c  w  a  c  n  l  r  n  n  v  g  n  r  b  b  z |
+18| i  v  e  q  i  p  d  i  y  u  o  g  v  w  i  t  y  q  n  e |
+19| n  f  e  a  g  b  m  i  b  v  v  w  e  z  l  u  x  n  o  b |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((0, 8), (4, 8))
+steak: ((6, 17), (10, 17))
+sushi: ((12, 0), (16, 0))
+rice: ((12, 4), (15, 4))
+noodles: ((10, 19), (16, 19))
+curry: ((14, 16), (18, 16))
+bread: ((14, 6), (18, 6))
+cheese: ((2, 19), (7, 19))
+chocolate: ((2, 13), (10, 13))
+icecream: ((12, 9), (12, 16))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((0, 8), (4, 8))
+steak: ((6, 17), (10, 17))
+sushi: ((12, 0), (16, 0))
+rice: ((12, 4), (15, 4))
+noodles: ((10, 19), (16, 19))
+curry: ((14, 16), (18, 16))
+bread: ((14, 6), (18, 6))
+cheese: ((2, 19), (7, 19))
+chocolate: ((2, 13), (10, 13))
+icecream: ((12, 9), (12, 16))
+
+Naïve Time taken: 0.0750 seconds
+Naïve Memory used: 0.00 MB

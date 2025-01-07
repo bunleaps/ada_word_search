@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| o  m  p  j  c  a  k  e  u  m  j  q  j  y  n  z  n  c  c  g |
+ 1| a  s  j  t  s  a  v  g  l  l  u  j  w  v  i  x  j  g  j  i |
+ 2| g  t  m  a  t  f  o  p  d  b  t  b  c  h  e  e  s  e  l  a |
+ 3| p  e  h  c  l  w  i  i  c  c  t  f  e  c  a  c  q  j  i  l |
+ 4| q  a  y  d  p  q  u  e  p  y  v  j  c  r  e  k  f  k  q  n |
+ 5| h  k  n  m  k  x  y  s  k  i  s  o  u  p  f  a  b  o  m  c |
+ 6| i  g  w  o  l  x  x  v  y  d  z  i  q  y  k  s  z  i  k  h |
+ 7| b  c  r  p  o  v  s  z  f  w  y  z  h  o  g  a  d  c  s  o |
+ 8| k  g  y  a  s  d  d  k  d  s  g  l  a  y  d  n  n  e  f  c |
+ 9| j  t  a  x  l  v  l  m  e  u  w  q  z  g  v  d  d  c  b  o |
+10| e  c  a  d  d  y  j  e  x  s  u  r  t  v  p  w  m  r  g  l |
+11| c  w  m  c  y  b  g  x  s  h  p  u  b  r  p  i  b  e  t  a |
+12| k  t  l  g  o  u  b  p  n  i  z  z  j  m  k  c  z  a  u  t |
+13| n  m  l  d  s  r  y  u  p  b  l  m  h  i  c  h  p  m  g  e |
+14| r  f  g  w  o  g  p  j  r  a  b  r  e  a  d  u  g  s  n  m |
+15| f  n  w  u  b  e  k  e  g  r  s  v  p  c  p  r  r  u  r  k |
+16| a  r  i  c  e  r  m  p  a  d  i  t  n  d  e  w  w  r  t  s |
+17| q  g  f  b  c  o  o  k  i  e  s  t  a  c  w  f  u  k  y  m |
+18| m  h  s  s  a  l  a  d  g  h  m  t  o  h  b  h  i  x  n  z |
+19| t  f  x  r  q  s  z  i  y  w  r  r  a  w  t  z  z  k  y  e |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+burger: ((11, 5), (16, 5))
+sandwich: ((6, 15), (13, 15))
+salad: ((18, 3), (18, 7))
+soup: ((5, 10), (5, 13))
+steak: ((1, 1), (5, 1))
+sushi: ((8, 9), (12, 9))
+rice: ((16, 1), (16, 4))
+bread: ((14, 10), (14, 14))
+cheese: ((2, 12), (2, 17))
+chocolate: ((5, 19), (13, 19))
+icecream: ((6, 17), (13, 17))
+cake: ((0, 4), (0, 7))
+cookies: ((17, 4), (17, 10))
+pie: ((2, 7), (4, 7))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+burger: ((11, 5), (16, 5))
+sandwich: ((6, 15), (13, 15))
+salad: ((18, 3), (18, 7))
+soup: ((5, 10), (5, 13))
+steak: ((1, 1), (5, 1))
+sushi: ((8, 9), (12, 9))
+rice: ((16, 1), (16, 4))
+bread: ((14, 10), (14, 14))
+cheese: ((2, 12), (2, 17))
+chocolate: ((5, 19), (13, 19))
+icecream: ((6, 17), (13, 17))
+cake: ((0, 4), (0, 7))
+cookies: ((17, 4), (17, 10))
+pie: ((2, 7), (4, 7))
+
+Naïve Time taken: 0.0530 seconds
+Naïve Memory used: 0.00 MB

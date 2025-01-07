@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| z  g  k  b  m  d  t  p  d  o  j  l  o  d  o  t  x  s  p  k |
+ 1| i  t  n  e  t  w  o  r  k  x  j  t  q  h  r  v  y  e  t  m |
+ 2| k  w  i  i  g  i  j  c  o  u  w  x  j  e  s  f  i  w  x  o |
+ 3| l  e  d  p  h  g  j  o  i  b  b  m  t  d  r  h  n  b  r  u |
+ 4| h  i  y  a  A  I  c  k  c  s  o  u  o  r  e  s  t  r  o  s |
+ 5| g  h  e  b  f  d  r  o  n  e  p  t  m  n  s  o  e  d  n  e |
+ 6| h  q  p  w  o  t  w  r  n  m  u  s  o  n  a  f  r  o  f  y |
+ 7| k  t  y  g  x  a  m  z  o  z  e  h  j  u  t  t  n  h  d  h |
+ 8| w  b  g  r  l  c  r  c  h  l  p  u  r  t  e  w  e  z  t  s |
+ 9| m  k  m  e  p  z  l  d  w  t  c  h  i  p  l  a  t  w  y  l |
+10| h  q  z  p  o  w  o  o  r  x  f  e  n  j  l  r  b  r  b  w |
+11| a  j  s  r  h  r  h  a  u  i  z  t  c  h  i  e  s  d  e  d |
+12| r  u  e  i  n  y  m  t  w  d  t  t  r  q  t  e  g  a  n  y |
+13| d  h  s  n  i  s  f  f  d  t  m  v  h  c  e  n  k  a  w  g |
+14| w  w  a  t  k  v  w  f  b  a  v  d  r  f  i  r  r  r  x  y |
+15| a  a  y  e  r  m  j  a  a  b  z  o  h  d  n  e  s  p  f  d |
+16| r  r  v  r  i  w  d  a  x  l  q  c  o  k  m  j  l  r  e  k |
+17| e  n  m  k  p  d  a  t  a  e  a  c  i  a  a  z  j  j  p  u |
+18| t  o  u  w  s  e  d  x  o  t  u  e  c  l  a  z  t  p  r  a |
+19| j  n  l  c  t  g  p  p  f  u  m  o  n  i  t  o  r  a  w  t |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tablet: ((13, 9), (18, 9))
+internet: ((2, 16), (9, 16))
+software: ((4, 15), (11, 15))
+hardware: ((10, 0), (17, 0))
+mouse: ((1, 19), (5, 19))
+monitor: ((19, 10), (19, 16))
+printer: ((10, 3), (16, 3))
+drone: ((5, 5), (5, 9))
+AI: ((4, 4), (4, 5))
+data: ((17, 5), (17, 8))
+network: ((1, 2), (1, 8))
+chip: ((9, 10), (9, 13))
+satellite: ((5, 14), (13, 14))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tablet: ((13, 9), (18, 9))
+internet: ((2, 16), (9, 16))
+software: ((4, 15), (11, 15))
+hardware: ((10, 0), (17, 0))
+mouse: ((1, 19), (5, 19))
+monitor: ((19, 10), (19, 16))
+printer: ((10, 3), (16, 3))
+drone: ((5, 5), (5, 9))
+AI: ((4, 4), (4, 5))
+data: ((17, 5), (17, 8))
+network: ((1, 2), (1, 8))
+chip: ((9, 10), (9, 13))
+satellite: ((5, 14), (13, 14))
+
+Naïve Time taken: 0.0541 seconds
+Naïve Memory used: 0.00 MB

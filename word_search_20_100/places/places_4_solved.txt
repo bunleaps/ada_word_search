@@ -1,0 +1,53 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| x  t  j  w  h  i  h  s  r  b  n  k  e  t  w  f  a  x  l  m |
+ 1| m  h  m  p  s  o  o  n  m  s  r  z  u  h  m  n  d  h  c  v |
+ 2| x  u  r  g  u  l  s  f  l  s  c  h  o  o  l  v  j  t  u  i |
+ 3| u  x  s  i  k  b  s  p  o  w  x  i  t  r  d  l  n  s  a  l |
+ 4| j  y  g  e  v  w  l  d  i  r  i  r  t  n  i  e  z  g  f  l |
+ 5| y  x  k  f  u  e  j  q  t  t  e  n  o  y  n  r  y  v  v  a |
+ 6| f  a  y  q  w  m  r  u  x  s  a  s  j  i  i  v  s  f  o  g |
+ 7| j  v  m  b  e  a  c  h  e  z  v  l  t  i  c  f  b  m  z  e |
+ 8| k  n  l  r  u  n  a  d  y  m  m  n  f  c  b  g  l  i  s  w |
+ 9| d  f  e  z  p  h  b  p  m  m  o  u  n  t  a  i  n  z  i  j |
+10| m  w  n  w  z  y  v  c  r  c  o  u  y  f  m  p  a  r  k  c |
+11| u  a  x  n  r  f  p  i  o  m  h  m  e  v  r  o  a  d  g  v |
+12| k  t  g  s  o  g  y  s  u  u  l  k  h  i  u  s  n  l  i  s |
+13| q  j  g  r  o  u  w  l  y  y  n  a  g  o  r  r  u  r  g  t |
+14| y  m  y  k  c  u  q  a  r  z  h  t  k  x  y  t  d  f  q  r |
+15| j  u  g  j  z  c  v  n  n  i  i  s  r  e  d  d  b  c  y  e |
+16| c  h  u  r  c  h  n  d  u  b  u  p  m  y  g  m  m  n  o  e |
+17| o  o  z  l  h  w  u  r  e  s  t  a  u  r  a  n  t  k  r  t |
+18| p  m  k  s  o  b  j  f  u  m  d  w  k  l  b  g  k  y  a  a |
+19| u  x  s  t  k  l  a  e  a  s  a  b  a  d  r  y  b  g  s  a |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+village: ((1, 19), (7, 19))
+park: ((10, 15), (10, 18))
+beach: ((7, 3), (7, 7))
+mountain: ((9, 9), (9, 16))
+island: ((11, 7), (16, 7))
+street: ((12, 19), (17, 19))
+road: ((11, 14), (11, 17))
+school: ((2, 9), (2, 14))
+church: ((16, 0), (16, 5))
+restaurant: ((17, 7), (17, 16))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+village: ((1, 19), (7, 19))
+park: ((10, 15), (10, 18))
+beach: ((7, 3), (7, 7))
+mountain: ((9, 9), (9, 16))
+island: ((11, 7), (16, 7))
+street: ((12, 19), (17, 19))
+road: ((11, 14), (11, 17))
+school: ((2, 9), (2, 14))
+church: ((16, 0), (16, 5))
+restaurant: ((17, 7), (17, 16))
+
+Naïve Time taken: 0.0555 seconds
+Naïve Memory used: 0.00 MB

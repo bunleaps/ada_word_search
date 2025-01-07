@@ -1,0 +1,37 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| i  s  l  a  n  d  o  g  y  r |
+ 1| i  c  w  f  r  o  a  d  n  l |
+ 2| q  a  i  p  o  t  e  i  g  t |
+ 3| c  f  z  t  e  r  a  d  e  b |
+ 4| j  g  i  e  y  t  e  g  o  e |
+ 5| p  a  r  k  n  n  a  s  h  a |
+ 6| i  t  f  u  w  l  d  q  t  c |
+ 7| s  j  o  o  l  a  k  e  e  h |
+ 8| r  m  t  i  r  i  v  e  r  j |
+ 9| y  a  v  d  e  s  e  r  t  i |
+  +------------------------------+
+Dynamic Programming Solution:
+park: ((5, 0), (5, 3))
+beach: ((3, 9), (7, 9))
+river: ((8, 4), (8, 8))
+lake: ((7, 4), (7, 7))
+desert: ((9, 3), (9, 8))
+island: ((0, 0), (0, 5))
+road: ((1, 4), (1, 7))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+park: ((5, 0), (5, 3))
+beach: ((3, 9), (7, 9))
+river: ((8, 4), (8, 8))
+lake: ((7, 4), (7, 7))
+desert: ((9, 3), (9, 8))
+island: ((0, 0), (0, 5))
+road: ((1, 4), (1, 7))
+
+Naïve Time taken: 0.0090 seconds
+Naïve Memory used: 0.00 MB

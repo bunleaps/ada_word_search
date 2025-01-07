@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  i  g  h  t  y  e  a  r  o  o  n  h  o  k  b  p  r  z  l |
+ 1| c  n  e  b  u  l  a  s  v  p  s  k  y  s  f  v  b  u  s  q |
+ 2| o  q  z  m  w  t  c  t  o  r  b  m  z  a  g  q  y  u  p  u |
+ 3| n  j  v  j  j  j  z  r  j  c  z  w  f  e  m  t  n  n  a  m |
+ 4| s  a  r  o  k  c  c  o  l  k  l  r  i  n  e  z  q  i  c  v |
+ 5| t  m  o  o  n  x  e  n  d  m  k  u  z  t  w  p  q  v  e  t |
+ 6| e  x  o  c  y  a  e  a  x  s  x  q  i  n  b  b  l  e  c  g |
+ 7| l  i  r  z  s  l  c  u  j  y  d  l  z  a  a  n  v  r  r  d |
+ 8| l  v  b  k  o  i  o  t  a  y  l  k  n  t  n  k  y  s  a  p |
+ 9| a  u  i  b  l  e  m  t  r  e  f  y  e  h  s  o  d  e  f  z |
+10| t  s  t  l  a  n  e  a  t  y  x  n  c  u  g  i  v  m  t  z |
+11| i  h  p  a  r  s  t  a  x  a  a  t  t  e  o  a  f  e  b  i |
+12| o  e  t  c  v  s  s  v  l  l  n  h  p  r  u  b  s  q  o  t |
+13| n  m  r  k  s  f  s  a  p  f  i  r  e  o  p  d  q  j  y  m |
+14| m  k  p  h  y  q  g  o  i  w  y  t  m  w  o  h  b  d  j  e |
+15| l  l  h  o  s  b  m  b  f  u  s  h  d  h  f  v  f  t  y  t |
+16| q  w  a  l  t  j  m  j  j  a  p  w  b  r  g  c  w  t  p  e |
+17| t  p  y  e  e  g  g  y  j  e  k  l  i  h  r  e  q  f  a  o |
+18| v  z  j  c  m  e  r  o  c  k  e  t  o  k  m  t  e  h  c  r |
+19| r  k  h  e  r  e  e  k  h  t  e  l  e  s  c  o  p  e  l  z |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+moon: ((5, 1), (5, 4))
+comet: ((7, 6), (11, 6))
+nebula: ((1, 1), (1, 6))
+blackhole: ((9, 3), (17, 3))
+telescope: ((19, 9), (19, 17))
+rocket: ((18, 6), (18, 11))
+astronaut: ((0, 7), (8, 7))
+spacecraft: ((1, 18), (10, 18))
+orbit: ((6, 2), (10, 2))
+universe: ((2, 17), (9, 17))
+meteor: ((13, 19), (18, 19))
+lightyear: ((0, 0), (0, 8))
+constellation: ((1, 0), (13, 0))
+aliens: ((6, 5), (11, 5))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+moon: ((5, 1), (5, 4))
+comet: ((7, 6), (11, 6))
+nebula: ((1, 1), (1, 6))
+blackhole: ((9, 3), (17, 3))
+telescope: ((19, 9), (19, 17))
+rocket: ((18, 6), (18, 11))
+astronaut: ((0, 7), (8, 7))
+spacecraft: ((1, 18), (10, 18))
+orbit: ((6, 2), (10, 2))
+universe: ((2, 17), (9, 17))
+meteor: ((13, 19), (18, 19))
+lightyear: ((0, 0), (0, 8))
+constellation: ((1, 0), (13, 0))
+aliens: ((6, 5), (11, 5))
+
+Naïve Time taken: 0.0488 seconds
+Naïve Memory used: 0.00 MB

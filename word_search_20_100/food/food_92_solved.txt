@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| o  g  w  p  a  s  t  a  n  g  x  f  r  j  x  w  b  h  h  p |
+ 1| p  a  n  a  i  a  w  k  p  x  t  h  b  u  r  g  e  r  v  n |
+ 2| t  i  t  b  w  z  j  i  x  z  a  a  a  t  j  k  g  e  r  a |
+ 3| p  p  e  c  w  x  m  c  p  n  c  p  v  l  x  l  c  m  b  d |
+ 4| d  b  a  n  g  i  w  e  x  h  o  i  i  q  z  i  m  s  d  o |
+ 5| q  v  e  f  q  b  r  p  l  n  b  z  f  l  r  u  w  h  c  s |
+ 6| l  i  q  a  r  f  o  v  b  s  e  z  d  m  p  w  c  x  a  t |
+ 7| m  t  t  h  g  f  z  u  n  a  q  a  h  s  o  g  z  e  s  g |
+ 8| i  c  e  c  r  e  a  m  e  l  l  d  j  n  t  k  v  e  g  h |
+ 9| o  c  s  u  s  h  i  k  l  a  v  s  w  g  k  e  l  f  a  b |
+10| h  w  h  b  x  f  a  t  t  d  z  n  o  f  v  d  a  d  t  c |
+11| b  c  f  p  u  c  d  v  r  y  j  x  i  u  o  b  y  k  q  h |
+12| u  u  u  y  i  r  m  c  h  e  e  s  e  o  p  i  d  c  q  o |
+13| b  r  o  h  e  d  r  m  o  q  v  s  n  x  k  h  s  l  j  c |
+14| v  r  b  b  m  e  f  i  y  o  g  h  b  m  i  c  q  b  n  o |
+15| x  y  g  r  a  w  z  n  t  w  k  d  m  k  b  u  e  i  v  l |
+16| v  h  q  e  h  n  b  m  a  o  b  i  g  i  f  d  g  g  a  a |
+17| q  w  s  a  n  d  w  i  c  h  x  p  e  a  t  o  n  v  z  t |
+18| c  d  f  d  k  w  k  z  a  f  a  q  w  s  r  a  t  h  r  e |
+19| d  s  b  r  p  z  h  h  h  i  r  r  j  s  j  m  p  d  c  t |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pizza: ((3, 11), (7, 11))
+burger: ((1, 12), (1, 17))
+pasta: ((0, 3), (0, 7))
+sandwich: ((17, 2), (17, 9))
+salad: ((6, 9), (10, 9))
+sushi: ((9, 2), (9, 6))
+taco: ((1, 10), (4, 10))
+curry: ((11, 1), (15, 1))
+bread: ((14, 3), (18, 3))
+cheese: ((12, 7), (12, 12))
+chocolate: ((10, 19), (18, 19))
+icecream: ((8, 0), (8, 7))
+
+DP Time taken: 0.0011 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pizza: ((3, 11), (7, 11))
+burger: ((1, 12), (1, 17))
+pasta: ((0, 3), (0, 7))
+sandwich: ((17, 2), (17, 9))
+salad: ((6, 9), (10, 9))
+sushi: ((9, 2), (9, 6))
+taco: ((1, 10), (4, 10))
+curry: ((11, 1), (15, 1))
+bread: ((14, 3), (18, 3))
+cheese: ((12, 7), (12, 12))
+chocolate: ((10, 19), (18, 19))
+icecream: ((8, 0), (8, 7))
+
+Naïve Time taken: 0.0555 seconds
+Naïve Memory used: 0.00 MB

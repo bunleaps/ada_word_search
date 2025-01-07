@@ -1,0 +1,43 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| i  n  t  e  r  n  e  t  q  s |
+ 1| s  c  c  a  m  e  r  a  m  h |
+ 2| o  p  o  m  o  u  s  e  o  a |
+ 3| f  t  r  m  d  a  t  a  n  r |
+ 4| t  a  c  i  p  u  o  n  i  d |
+ 5| w  b  s  h  n  u  g  h  t  w |
+ 6| a  l  g  I  i  t  t  r  o  a |
+ 7| r  e  A  c  d  p  e  e  r  r |
+ 8| e  t  d  r  o  n  e  r  r  e |
+ 9| l  k  e  y  b  o  a  r  d  r |
+  +------------------------------+
+Dynamic Programming Solution:
+tablet: ((3, 1), (8, 1))
+internet: ((0, 0), (0, 7))
+software: ((1, 0), (8, 0))
+hardware: ((1, 9), (8, 9))
+keyboard: ((9, 1), (9, 8))
+mouse: ((2, 3), (2, 7))
+monitor: ((1, 8), (7, 8))
+camera: ((1, 2), (1, 7))
+drone: ((8, 2), (8, 6))
+data: ((3, 4), (3, 7))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tablet: ((3, 1), (8, 1))
+internet: ((0, 0), (0, 7))
+software: ((1, 0), (8, 0))
+hardware: ((1, 9), (8, 9))
+keyboard: ((9, 1), (9, 8))
+mouse: ((2, 3), (2, 7))
+monitor: ((1, 8), (7, 8))
+camera: ((1, 2), (1, 7))
+drone: ((8, 2), (8, 6))
+data: ((3, 4), (3, 7))
+
+Naïve Time taken: 0.0100 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| u  y  f  e  k  n  s  z  u  o  d  z  x  h  i  l  f  u  r  a |
+ 1| k  g  j  r  v  l  v  n  x  g  n  k  y  q  h  r  j  q  q  z |
+ 2| q  u  n  l  e  t  g  z  e  b  o  o  t  s  e  o  e  j  v  l |
+ 3| g  x  q  s  q  a  u  q  l  a  i  g  t  t  b  y  a  z  g  s |
+ 4| y  l  e  e  e  b  d  x  v  e  k  a  a  e  j  l  n  e  s  k |
+ 5| i  w  o  i  i  e  v  h  e  h  h  e  y  o  g  j  s  a  x  i |
+ 6| z  p  t  v  d  l  s  l  r  x  w  p  r  k  e  x  h  x  p  r |
+ 7| e  i  b  g  e  t  a  h  r  s  c  g  t  s  q  o  s  t  q  t |
+ 8| i  m  l  g  a  s  i  k  i  b  z  i  g  n  m  q  j  m  a  n |
+ 9| j  b  f  x  q  j  r  b  b  r  n  w  r  r  u  q  s  u  e  s |
+10| s  j  a  c  k  e  t  b  z  j  t  b  o  d  r  e  s  s  c  q |
+11| a  o  b  p  z  p  o  f  z  t  y  f  z  i  o  e  d  j  p  c |
+12| k  j  y  t  a  g  h  s  a  x  i  b  u  h  s  j  v  e  a  z |
+13| f  x  c  i  w  j  k  z  c  n  q  u  s  j  h  k  r  z  n  q |
+14| i  l  z  b  e  s  a  w  u  a  z  m  o  q  y  v  c  b  t  o |
+15| l  l  r  n  o  l  o  m  r  o  r  o  q  c  f  x  a  y  s  y |
+16| q  n  k  g  g  h  p  c  a  n  r  f  h  s  o  x  l  a  g  n |
+17| s  e  b  m  a  n  l  r  k  s  k  e  b  n  k  a  i  h  v  j |
+18| i  i  j  d  i  m  s  y  o  s  q  e  n  y  x  a  t  x  a  g |
+19| e  y  z  l  e  x  j  n  f  d  c  v  x  c  m  c  o  l  c  h |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+pants: ((11, 18), (15, 18))
+jacket: ((10, 1), (10, 6))
+dress: ((10, 13), (10, 17))
+skirt: ((3, 19), (7, 19))
+hat: ((7, 7), (7, 5))
+belt: ((4, 5), (7, 5))
+jeans: ((1, 16), (5, 16))
+boots: ((2, 9), (2, 13))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+pants: ((11, 18), (15, 18))
+jacket: ((10, 1), (10, 6))
+dress: ((10, 13), (10, 17))
+skirt: ((3, 19), (7, 19))
+hat: ((7, 7), (7, 5))
+belt: ((4, 5), (7, 5))
+jeans: ((1, 16), (5, 16))
+boots: ((2, 9), (2, 13))
+
+Naïve Time taken: 0.0680 seconds
+Naïve Memory used: 0.00 MB

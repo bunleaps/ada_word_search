@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| s  s  m  h  o  f  i  n  g  e  r  q  t  l  l  d  k  u  q  k |
+ 1| s  t  r  t  m  v  o  r  g  z  d  g  n  p  r  o  v  j  w  n |
+ 2| h  o  d  v  c  t  y  e  u  m  c  s  u  c  m  d  m  p  o  e |
+ 3| o  m  b  m  k  y  l  x  k  o  z  z  u  j  l  r  c  x  o  e |
+ 4| u  a  r  n  m  n  t  m  h  p  a  k  i  o  b  u  i  u  m  s |
+ 5| l  c  a  h  j  m  k  f  y  f  u  d  l  c  c  r  f  w  x  h |
+ 6| d  h  i  g  k  s  o  r  b  b  x  j  t  n  h  t  w  j  r  w |
+ 7| e  s  n  i  v  w  q  u  l  a  i  g  e  p  s  n  h  b  k  n |
+ 8| r  t  e  e  t  h  n  a  t  w  l  n  a  e  q  e  b  a  h  v |
+ 9| u  g  s  h  z  n  t  r  f  h  x  g  r  v  k  e  w  c  e  d |
+10| k  t  y  a  g  r  h  m  h  m  x  t  h  o  v  y  b  k  a  j |
+11| o  n  w  p  i  j  c  m  j  b  l  r  e  w  f  e  s  v  r  h |
+12| f  n  v  z  j  a  b  j  a  u  t  n  p  k  s  o  t  l  t  a |
+13| h  p  i  i  g  t  l  d  c  h  z  h  m  e  z  l  o  s  a  n |
+14| y  l  n  s  q  d  h  r  h  e  v  k  m  g  t  x  x  t  c  d |
+15| b  k  k  e  k  g  i  m  e  a  m  t  a  i  i  y  c  k  x  s |
+16| c  p  i  y  s  i  a  o  s  d  e  g  o  f  q  f  c  w  s  z |
+17| g  y  o  i  b  y  n  l  t  s  z  v  n  e  b  j  t  j  u  u |
+18| b  y  b  q  z  x  b  x  o  q  y  g  q  n  q  x  y  m  l  n |
+19| w  f  z  h  y  r  l  n  n  e  c  k  h  g  f  m  w  n  d  t |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+head: ((13, 9), (16, 9))
+hand: ((11, 19), (14, 19))
+arm: ((8, 7), (10, 7))
+eye: ((9, 15), (11, 15))
+ear: ((7, 12), (9, 12))
+stomach: ((0, 1), (6, 1))
+back: ((7, 17), (10, 17))
+chest: ((13, 8), (17, 8))
+neck: ((19, 8), (19, 11))
+knee: ((0, 19), (3, 19))
+shoulder: ((1, 0), (8, 0))
+finger: ((0, 5), (0, 10))
+heart: ((8, 18), (12, 18))
+brain: ((3, 2), (7, 2))
+teeth: ((8, 1), (8, 5))
+
+DP Time taken: 0.0019 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+head: ((13, 9), (16, 9))
+hand: ((11, 19), (14, 19))
+arm: ((8, 7), (10, 7))
+eye: ((9, 15), (11, 15))
+ear: ((7, 12), (9, 12))
+stomach: ((0, 1), (6, 1))
+back: ((7, 17), (10, 17))
+chest: ((13, 8), (17, 8))
+neck: ((19, 8), (19, 11))
+knee: ((0, 19), (3, 19))
+shoulder: ((1, 0), (8, 0))
+finger: ((0, 5), (0, 10))
+heart: ((8, 18), (12, 18))
+brain: ((3, 2), (7, 2))
+teeth: ((8, 1), (8, 5))
+
+Naïve Time taken: 0.0713 seconds
+Naïve Memory used: 0.00 MB

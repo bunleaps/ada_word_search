@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| f  i  v  t  h  e  s  s  p  a  c  e  c  r  a  f  t  c  p  t |
+ 1| g  y  g  m  c  o  n  s  t  e  l  l  a  t  i  o  n  u  l  p |
+ 2| e  n  h  q  l  m  x  m  q  t  w  z  x  v  r  x  u  n  a  l |
+ 3| i  e  a  d  u  b  l  a  c  k  h  o  l  e  d  c  h  m  n  a |
+ 4| w  b  s  f  b  u  r  t  l  h  w  r  o  c  k  e  t  m  e  v |
+ 5| q  u  a  s  t  r  o  n  a  u  t  w  v  g  m  i  j  f  t  b |
+ 6| q  l  j  s  t  v  l  t  w  n  s  a  p  l  o  p  c  e  p  c |
+ 7| b  a  c  m  q  s  f  y  o  l  a  s  s  m  e  t  e  o  r  k |
+ 8| z  m  w  w  s  o  l  a  r  j  s  y  s  t  e  m  t  c  w  q |
+ 9| s  a  t  e  l  l  i  t  e  v  u  d  f  t  e  i  i  j  s  r |
+10| x  i  s  n  x  g  a  l  a  x  y  n  x  e  b  r  t  a  z  n |
+11| o  t  i  r  o  t  v  r  w  l  i  t  i  r  x  f  o  h  d  g |
+12| f  g  e  l  e  z  r  v  j  l  g  g  o  v  f  d  a  i  b  z |
+13| u  d  z  m  r  t  o  h  a  z  b  l  l  l  e  w  s  o  d  a |
+14| q  q  o  i  a  b  l  h  q  r  f  y  k  b  r  r  y  h  l  l |
+15| r  c  a  e  t  e  l  e  s  c  o  p  e  x  m  i  s  r  u  i |
+16| d  z  g  r  c  f  n  s  y  e  s  t  a  r  o  q  g  e  b  e |
+17| s  z  o  f  q  r  p  c  n  c  p  m  o  o  n  r  w  w  l  n |
+18| g  p  i  i  c  v  z  l  r  w  h  u  d  w  n  c  p  s  a  s |
+19| q  j  b  l  l  i  g  h  t  y  e  a  r  d  k  u  y  d  u  c |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+planet: ((0, 18), (5, 18))
+star: ((16, 10), (16, 13))
+galaxy: ((10, 5), (10, 10))
+moon: ((17, 11), (17, 14))
+nebula: ((2, 1), (7, 1))
+blackhole: ((3, 5), (3, 13))
+satellite: ((9, 0), (9, 8))
+telescope: ((15, 4), (15, 12))
+rocket: ((4, 11), (4, 16))
+astronaut: ((5, 2), (5, 10))
+spacecraft: ((0, 7), (0, 16))
+meteor: ((7, 13), (7, 18))
+lightyear: ((19, 4), (19, 12))
+constellation: ((1, 4), (1, 16))
+aliens: ((13, 19), (18, 19))
+
+DP Time taken: 0.0009 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+planet: ((0, 18), (5, 18))
+star: ((16, 10), (16, 13))
+galaxy: ((10, 5), (10, 10))
+moon: ((17, 11), (17, 14))
+nebula: ((2, 1), (7, 1))
+blackhole: ((3, 5), (3, 13))
+satellite: ((9, 0), (9, 8))
+telescope: ((15, 4), (15, 12))
+rocket: ((4, 11), (4, 16))
+astronaut: ((5, 2), (5, 10))
+spacecraft: ((0, 7), (0, 16))
+meteor: ((7, 13), (7, 18))
+lightyear: ((19, 4), (19, 12))
+constellation: ((1, 4), (1, 16))
+aliens: ((13, 19), (18, 19))
+
+Naïve Time taken: 0.0364 seconds
+Naïve Memory used: 0.00 MB

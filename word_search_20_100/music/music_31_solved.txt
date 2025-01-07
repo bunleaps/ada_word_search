@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| b  o  p  e  c  u  u  q  r  s  h  c  g  s  i  q  u  r  t  w |
+ 1| p  b  i  a  j  n  u  w  x  p  b  l  a  w  g  v  m  n  y  g |
+ 2| k  a  f  g  x  o  s  z  o  d  m  h  d  r  j  t  a  m  e  t |
+ 3| y  k  r  l  s  r  y  f  v  l  g  t  r  x  e  k  n  s  u  u |
+ 4| z  g  a  n  a  u  s  t  q  u  c  x  u  p  w  a  e  d  y  b |
+ 5| y  l  k  t  j  m  a  f  h  n  h  o  m  s  r  w  s  i  u  o |
+ 6| m  k  i  m  q  q  x  y  s  a  o  u  s  c  u  r  j  z  t  e |
+ 7| g  u  n  s  u  x  o  a  g  p  r  x  k  k  o  r  d  y  r  w |
+ 8| g  j  y  k  g  y  p  u  m  t  d  b  k  o  r  t  s  o  m  b |
+ 9| h  u  m  n  z  j  h  l  z  i  n  y  e  u  c  e  g  j  i  m |
+10| s  a  a  c  n  d  o  n  r  i  s  j  h  d  h  g  i  c  c  e |
+11| o  s  y  l  o  v  n  k  l  v  b  a  n  d  e  s  b  o  r  l |
+12| h  d  x  p  t  f  e  o  r  f  l  u  t  e  s  i  y  n  o  o |
+13| a  i  f  h  e  g  i  x  l  h  l  l  k  v  t  n  m  c  p  d |
+14| r  q  b  m  s  v  l  v  k  m  y  t  q  m  r  g  m  e  h  y |
+15| m  z  e  w  x  b  d  s  u  q  m  t  h  h  a  e  r  r  o  f |
+16| o  l  y  r  i  c  s  b  s  u  a  q  h  e  u  r  j  t  n  n |
+17| n  x  a  f  n  r  l  d  w  l  y  p  u  m  z  h  o  u  e  u |
+18| y  j  t  n  h  a  z  h  e  a  d  p  h  o  n  e  s  z  a  v |
+19| p  i  a  n  o  t  k  p  f  o  k  d  q  q  c  b  r  r  k  p |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+piano: ((19, 0), (19, 4))
+drums: ((2, 12), (6, 12))
+flute: ((12, 9), (12, 13))
+saxophone: ((4, 6), (12, 6))
+singer: ((11, 15), (16, 15))
+band: ((11, 10), (11, 13))
+orchestra: ((7, 14), (15, 14))
+melody: ((9, 19), (14, 19))
+harmony: ((12, 0), (18, 0))
+note: ((10, 4), (13, 4))
+chord: ((4, 10), (8, 10))
+concert: ((10, 17), (16, 17))
+lyrics: ((16, 1), (16, 6))
+microphone: ((8, 18), (17, 18))
+headphones: ((18, 7), (18, 16))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+piano: ((19, 0), (19, 4))
+drums: ((2, 12), (6, 12))
+flute: ((12, 9), (12, 13))
+saxophone: ((4, 6), (12, 6))
+singer: ((11, 15), (16, 15))
+band: ((11, 10), (11, 13))
+orchestra: ((7, 14), (15, 14))
+melody: ((9, 19), (14, 19))
+harmony: ((12, 0), (18, 0))
+note: ((10, 4), (13, 4))
+chord: ((4, 10), (8, 10))
+concert: ((10, 17), (16, 17))
+lyrics: ((16, 1), (16, 6))
+microphone: ((8, 18), (17, 18))
+headphones: ((18, 7), (18, 16))
+
+Naïve Time taken: 0.0565 seconds
+Naïve Memory used: 0.00 MB

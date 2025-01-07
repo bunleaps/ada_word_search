@@ -1,0 +1,49 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| c  y  c  l  i  n  g  g  g  b |
+ 1| c  r  i  c  k  e  t  g  o  o |
+ 2| k  a  r  c  h  e  r  y  l  x |
+ 3| g  f  t  e  n  n  i  s  f  i |
+ 4| n  s  o  c  c  e  r  v  r  n |
+ 5| b  a  s  e  b  a  l  l  j  g |
+ 6| s  i  t  r  u  g  b  y  u  v |
+ 7| f  s  k  a  t  i  n  g  d  q |
+ 8| s  m  h  o  c  k  e  y  o  l |
+ 9| s  u  r  f  i  n  g  n  e  a |
+  +------------------------------+
+Dynamic Programming Solution:
+soccer: ((4, 1), (4, 6))
+baseball: ((5, 0), (5, 7))
+tennis: ((3, 2), (3, 7))
+cricket: ((1, 0), (1, 6))
+hockey: ((8, 2), (8, 7))
+golf: ((0, 8), (3, 8))
+rugby: ((6, 3), (6, 7))
+cycling: ((0, 0), (0, 6))
+skating: ((7, 1), (7, 7))
+surfing: ((9, 0), (9, 6))
+archery: ((2, 1), (2, 7))
+boxing: ((0, 9), (5, 9))
+judo: ((5, 8), (8, 8))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+soccer: ((4, 1), (4, 6))
+baseball: ((5, 0), (5, 7))
+tennis: ((3, 2), (3, 7))
+cricket: ((1, 0), (1, 6))
+hockey: ((8, 2), (8, 7))
+golf: ((0, 8), (3, 8))
+rugby: ((6, 3), (6, 7))
+cycling: ((0, 0), (0, 6))
+skating: ((7, 1), (7, 7))
+surfing: ((9, 0), (9, 6))
+archery: ((2, 1), (2, 7))
+boxing: ((0, 9), (5, 9))
+judo: ((5, 8), (8, 8))
+
+Naïve Time taken: 0.0110 seconds
+Naïve Memory used: 0.00 MB

@@ -1,0 +1,55 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  m  z  p  o  r  e  s  t  a  u  r  a  n  t  u  i  m  b  i |
+ 1| i  d  l  v  d  n  o  x  o  s  t  r  e  e  t  d  j  l  h  g |
+ 2| i  f  i  p  k  d  q  m  f  n  t  b  t  f  e  r  i  a  q  a |
+ 3| f  w  p  d  u  i  a  d  t  n  m  r  w  v  j  t  p  k  h  o |
+ 4| o  d  c  r  i  j  a  u  e  z  e  t  t  i  b  m  v  e  h  b |
+ 5| o  l  z  i  m  o  j  n  y  s  t  q  m  l  y  n  b  p  e  u |
+ 6| a  k  r  v  r  h  i  v  e  e  f  v  h  l  i  n  k  j  m  g |
+ 7| m  u  k  e  f  t  a  d  d  q  s  c  h  a  f  f  a  o  e  r |
+ 8| d  i  d  r  n  m  i  a  t  v  r  k  t  g  h  x  x  e  y  e |
+ 9| j  s  s  o  o  e  p  h  k  u  t  a  l  e  n  v  y  v  j  y |
+10| r  l  c  w  x  j  z  b  h  s  g  v  z  i  i  z  g  t  d  x |
+11| f  a  y  y  j  r  g  c  i  l  z  e  a  a  c  y  d  l  f  w |
+12| p  n  a  o  p  a  d  y  c  z  r  t  f  x  r  n  a  z  i  b |
+13| i  d  n  m  a  o  y  l  v  a  n  p  d  t  y  t  t  x  g  n |
+14| q  t  g  a  r  x  x  i  w  u  y  p  n  m  i  s  r  w  o  t |
+15| f  o  o  v  k  s  d  w  o  t  a  u  p  p  e  a  z  e  q  l |
+16| w  w  w  t  a  p  e  m  i  k  o  t  s  r  b  e  a  c  h  y |
+17| l  n  g  h  k  d  g  c  i  c  n  o  o  t  o  q  u  x  o  a |
+18| k  b  s  c  h  o  o  l  d  f  h  f  f  l  y  e  h  f  r  t |
+19| z  n  k  m  f  r  j  m  u  s  e  u  m  n  e  u  u  i  h  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+town: ((14, 1), (17, 1))
+village: ((3, 13), (9, 13))
+park: ((12, 4), (15, 4))
+beach: ((16, 14), (16, 18))
+river: ((4, 3), (8, 3))
+lake: ((1, 17), (4, 17))
+island: ((8, 1), (13, 1))
+street: ((1, 9), (1, 14))
+school: ((18, 2), (18, 7))
+museum: ((19, 7), (19, 12))
+restaurant: ((0, 5), (0, 14))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+town: ((14, 1), (17, 1))
+village: ((3, 13), (9, 13))
+park: ((12, 4), (15, 4))
+beach: ((16, 14), (16, 18))
+river: ((4, 3), (8, 3))
+lake: ((1, 17), (4, 17))
+island: ((8, 1), (13, 1))
+street: ((1, 9), (1, 14))
+school: ((18, 2), (18, 7))
+museum: ((19, 7), (19, 12))
+restaurant: ((0, 5), (0, 14))
+
+Naïve Time taken: 0.0526 seconds
+Naïve Memory used: 0.00 MB

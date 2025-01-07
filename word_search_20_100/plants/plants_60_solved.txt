@@ -1,0 +1,57 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| m  c  u  v  c  o  j  s  l  i  l  y  z  q  w  m  k  w  i  e |
+ 1| j  j  x  i  s  l  y  f  q  t  q  n  n  m  r  d  i  m  n  p |
+ 2| q  z  n  o  m  f  t  k  m  u  s  c  q  x  k  m  t  o  o  p |
+ 3| w  i  t  x  h  l  w  r  m  t  c  v  a  g  x  w  s  s  p  j |
+ 4| g  c  m  z  x  o  j  j  a  b  b  p  l  j  w  i  r  s  w  n |
+ 5| d  r  k  k  v  w  w  e  p  y  o  p  i  d  r  o  k  v  m  c |
+ 6| i  a  a  t  f  e  v  i  l  r  s  g  v  n  m  y  p  u  s  a |
+ 7| s  v  i  s  u  r  c  f  e  r  n  n  f  i  e  w  p  q  a  c |
+ 8| u  r  y  s  s  l  w  x  h  e  j  f  a  w  n  b  z  o  h  t |
+ 9| n  t  f  v  y  i  i  i  o  x  c  g  l  n  o  e  w  r  e  u |
+10| f  c  v  y  v  k  o  p  t  v  o  h  f  f  i  c  x  c  l  s |
+11| l  b  u  r  i  a  q  s  n  b  r  b  y  f  y  j  b  h  f  l |
+12| o  p  e  t  h  z  b  a  m  b  o  o  i  s  s  r  z  i  f  z |
+13| w  a  j  t  d  d  f  e  u  o  f  r  s  h  x  z  y  d  e  y |
+14| e  o  l  r  e  p  l  n  s  t  r  g  n  r  j  u  s  s  q  u |
+15| r  y  t  e  c  q  a  a  o  t  w  d  o  u  f  i  o  y  s  t |
+16| w  u  o  e  z  a  e  l  a  a  e  i  k  b  k  r  r  r  k  x |
+17| v  j  p  h  z  d  a  d  m  y  k  i  b  t  n  p  u  l  q  p |
+18| i  x  u  s  m  e  v  v  c  s  u  f  e  b  h  y  g  f  r  b |
+19| a  t  k  r  a  j  l  o  o  a  f  e  k  u  s  p  w  d  v  r |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+tree: ((13, 3), (16, 3))
+flower: ((10, 0), (15, 0))
+shrub: ((12, 13), (16, 13))
+fern: ((7, 7), (7, 10))
+moss: ((1, 17), (4, 17))
+cactus: ((5, 19), (10, 19))
+bamboo: ((12, 6), (12, 11))
+maple: ((3, 8), (7, 8))
+sunflower: ((7, 0), (15, 0))
+lily: ((0, 8), (0, 11))
+orchid: ((8, 17), (13, 17))
+ivy: ((11, 4), (9, 4))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+tree: ((13, 3), (16, 3))
+flower: ((10, 0), (15, 0))
+shrub: ((12, 13), (16, 13))
+fern: ((7, 7), (7, 10))
+moss: ((1, 17), (4, 17))
+cactus: ((5, 19), (10, 19))
+bamboo: ((12, 6), (12, 11))
+maple: ((3, 8), (7, 8))
+sunflower: ((7, 0), (15, 0))
+lily: ((0, 8), (0, 11))
+orchid: ((8, 17), (13, 17))
+ivy: ((11, 4), (9, 4))
+
+Naïve Time taken: 0.0605 seconds
+Naïve Memory used: 0.00 MB

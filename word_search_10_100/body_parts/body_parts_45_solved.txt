@@ -1,0 +1,51 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9
+  +------------------------------+
+ 0| c  h  e  s  t  h  e  a  d  b |
+ 1| b  s  g  h  f  t  m  w  z  m |
+ 2| c  r  g  e  n  o  h  s  s  o |
+ 3| l  h  a  n  d  e  o  t  t  u |
+ 4| h  e  m  i  m  n  a  t  o  t |
+ 5| e  s  g  r  n  o  b  r  m  h |
+ 6| a  k  a  c  e  s  a  e  a  w |
+ 7| r  i  k  n  e  e  c  e  c  h |
+ 8| t  n  e  y  e  o  k  x  h  p |
+ 9| d  h  n  e  c  k  v  q  i  e |
+  +------------------------------+
+Dynamic Programming Solution:
+head: ((0, 5), (0, 8))
+hand: ((3, 1), (3, 4))
+eye: ((8, 2), (8, 4))
+ear: ((5, 0), (7, 0))
+mouth: ((1, 9), (5, 9))
+nose: ((4, 5), (7, 5))
+stomach: ((2, 8), (8, 8))
+back: ((5, 6), (8, 6))
+chest: ((0, 0), (0, 4))
+neck: ((9, 2), (9, 5))
+knee: ((7, 2), (7, 5))
+toe: ((3, 7), (3, 5))
+heart: ((4, 0), (8, 0))
+skin: ((5, 1), (8, 1))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+head: ((0, 5), (0, 8))
+hand: ((3, 1), (3, 4))
+eye: ((8, 2), (8, 4))
+ear: ((5, 0), (7, 0))
+mouth: ((1, 9), (5, 9))
+nose: ((4, 5), (7, 5))
+stomach: ((2, 8), (8, 8))
+back: ((5, 6), (8, 6))
+chest: ((0, 0), (0, 4))
+neck: ((9, 2), (9, 5))
+knee: ((7, 2), (7, 5))
+toe: ((3, 7), (3, 5))
+heart: ((4, 0), (8, 0))
+skin: ((5, 1), (8, 1))
+
+Naïve Time taken: 0.0095 seconds
+Naïve Memory used: 0.00 MB

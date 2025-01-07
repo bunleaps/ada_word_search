@@ -1,0 +1,61 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| r  c  z  a  x  w  v  o  k  h  t  c  y  j  k  r  n  f  x  s |
+ 1| s  o  q  r  t  f  i  p  p  g  c  b  c  d  z  l  s  o  n  h |
+ 2| k  u  j  c  v  i  l  c  r  o  q  v  n  j  g  v  t  r  b  x |
+ 3| b  n  y  h  r  f  l  h  b  p  k  a  d  e  y  g  r  e  x  k |
+ 4| q  t  t  u  c  o  a  a  z  r  l  u  d  m  p  e  e  s  c  x |
+ 5| k  r  b  r  g  e  g  p  a  s  v  a  f  f  q  r  e  t  h  s |
+ 6| z  y  k  c  n  t  e  p  i  t  w  e  v  w  a  d  t  f  b  o |
+ 7| x  x  d  h  v  h  b  n  m  h  b  e  a  c  h  g  k  e  y  o |
+ 8| h  o  s  p  i  t  a  l  w  p  n  f  h  s  t  u  v  m  d  f |
+ 9| k  i  w  d  j  g  s  e  b  y  a  m  h  w  m  m  d  o  t  x |
+10| n  t  o  w  n  m  u  s  e  u  m  x  u  i  q  x  e  u  l  e |
+11| x  p  v  s  e  c  o  n  t  i  n  e  n  t  m  d  q  n  j  g |
+12| h  f  d  b  o  s  c  h  o  o  l  m  s  h  u  i  m  t  h  s |
+13| r  i  v  e  r  q  h  e  b  y  y  o  y  a  r  h  b  a  w  d |
+14| p  q  n  p  s  d  n  n  u  t  g  k  e  v  r  o  c  i  e  p |
+15| m  b  w  c  p  e  y  o  i  g  p  k  o  b  n  o  a  n  m  q |
+16| y  g  a  o  w  m  r  c  f  j  a  l  b  r  z  e  l  d  r  s |
+17| n  r  b  o  w  p  o  t  x  l  a  n  k  o  a  a  c  c  i  z |
+18| m  j  l  w  l  z  k  r  e  s  t  a  u  r  a  n  t  g  q  x |
+19| n  k  e  h  o  v  g  x  l  o  d  c  s  n  a  h  c  g  y  h |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+town: ((10, 1), (10, 4))
+village: ((0, 6), (6, 6))
+beach: ((7, 10), (7, 14))
+mountain: ((8, 17), (15, 17))
+river: ((13, 0), (13, 4))
+forest: ((0, 17), (5, 17))
+country: ((0, 1), (6, 1))
+continent: ((11, 5), (11, 13))
+street: ((1, 16), (6, 16))
+school: ((12, 5), (12, 10))
+hospital: ((8, 0), (8, 7))
+museum: ((10, 5), (10, 10))
+church: ((2, 3), (7, 3))
+restaurant: ((18, 7), (18, 16))
+
+DP Time taken: 0.0000 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+town: ((10, 1), (10, 4))
+village: ((0, 6), (6, 6))
+beach: ((7, 10), (7, 14))
+mountain: ((8, 17), (15, 17))
+river: ((13, 0), (13, 4))
+forest: ((0, 17), (5, 17))
+country: ((0, 1), (6, 1))
+continent: ((11, 5), (11, 13))
+street: ((1, 16), (6, 16))
+school: ((12, 5), (12, 10))
+hospital: ((8, 0), (8, 7))
+museum: ((10, 5), (10, 10))
+church: ((2, 3), (7, 3))
+restaurant: ((18, 7), (18, 16))
+
+Naïve Time taken: 0.0515 seconds
+Naïve Memory used: 0.00 MB

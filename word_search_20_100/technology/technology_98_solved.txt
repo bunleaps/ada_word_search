@@ -1,0 +1,63 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| l  i  o  c  j  u  l  i  s  a  t  f  n  x  z  d  f  o  m  f |
+ 1| i  h  k  e  y  b  o  a  r  d  o  h  k  c  s  p  m  t  o  r |
+ 2| m  k  n  d  r  o  n  e  b  p  r  i  n  t  e  r  l  m  k  o |
+ 3| c  o  b  e  t  A  h  n  g  i  v  d  j  s  b  a  o  k  g  g |
+ 4| d  c  u  e  y  j  I  c  s  c  o  m  p  u  t  e  r  h  o  e |
+ 5| z  s  t  s  p  s  f  r  y  i  x  m  v  c  o  d  i  n  g  w |
+ 6| o  i  b  f  e  y  f  n  j  i  n  t  e  r  n  e  t  z  j  s |
+ 7| s  p  u  m  t  a  b  l  e  t  a  q  k  e  d  z  c  p  r  j |
+ 8| d  t  z  e  j  l  c  a  m  e  r  a  p  o  p  d  h  x  x  p |
+ 9| f  r  k  e  g  e  q  s  s  w  t  h  l  c  t  i  l  g  y  m |
+10| o  d  a  t  a  e  m  m  d  a  j  q  a  l  j  n  u  l  v  o |
+11| i  y  r  f  b  y  e  a  n  e  t  w  o  r  k  l  u  a  g  r |
+12| m  c  t  z  x  v  a  r  h  a  r  e  b  r  d  r  a  c  o  o |
+13| u  i  r  c  l  r  e  t  h  k  g  x  l  s  a  w  s  r  l  b |
+14| k  u  o  i  p  j  a  p  d  w  d  c  w  l  m  j  a  z  u  o |
+15| p  c  a  i  x  t  y  h  j  h  u  x  o  g  i  t  q  r  y  t |
+16| f  l  h  q  w  g  x  o  f  o  o  p  g  z  r  t  t  t  e  y |
+17| v  c  y  v  y  m  o  n  i  t  o  r  q  j  j  b  e  z  y  v |
+18| m  c  l  o  u  d  t  e  n  f  o  h  r  l  g  s  x  a  z  s |
+19| o  s  q  a  n  s  o  f  t  w  a  r  e  j  i  f  c  c  m  d |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+computer: ((4, 9), (4, 16))
+smartphone: ((9, 7), (18, 7))
+tablet: ((7, 4), (7, 9))
+internet: ((6, 9), (6, 16))
+software: ((19, 5), (19, 12))
+keyboard: ((1, 2), (1, 9))
+monitor: ((17, 5), (17, 11))
+printer: ((2, 9), (2, 15))
+camera: ((8, 6), (8, 11))
+drone: ((2, 3), (2, 7))
+cloud: ((18, 1), (18, 5))
+coding: ((5, 13), (5, 18))
+data: ((10, 1), (10, 4))
+network: ((11, 8), (11, 14))
+robot: ((11, 19), (15, 19))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+computer: ((4, 9), (4, 16))
+smartphone: ((9, 7), (18, 7))
+tablet: ((7, 4), (7, 9))
+internet: ((6, 9), (6, 16))
+software: ((19, 5), (19, 12))
+keyboard: ((1, 2), (1, 9))
+monitor: ((17, 5), (17, 11))
+printer: ((2, 9), (2, 15))
+camera: ((8, 6), (8, 11))
+drone: ((2, 3), (2, 7))
+cloud: ((18, 1), (18, 5))
+coding: ((5, 13), (5, 18))
+data: ((10, 1), (10, 4))
+network: ((11, 8), (11, 14))
+robot: ((11, 19), (15, 19))
+
+Naïve Time taken: 0.0354 seconds
+Naïve Memory used: 0.00 MB

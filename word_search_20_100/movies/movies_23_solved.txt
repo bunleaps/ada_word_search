@@ -1,0 +1,59 @@
+Wordsearch grid:
+    0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
+  +------------------------------------------------------------+
+ 0| a  n  f  i  w  c  o  m  e  d  y  t  h  r  i  l  l  e  r  s |
+ 1| m  u  s  i  c  a  l  q  c  v  v  x  r  b  x  n  k  z  z  c |
+ 2| l  e  y  h  b  k  c  w  s  e  r  e  b  w  j  q  i  g  f  r |
+ 3| d  e  h  u  u  o  x  f  c  c  t  y  q  s  l  c  g  u  r  e |
+ 4| h  e  r  o  p  w  x  n  p  s  r  i  z  w  g  w  h  o  w  e |
+ 5| x  l  e  a  j  x  a  o  u  o  a  i  t  i  o  h  t  g  s  n |
+ 6| j  d  l  z  c  m  s  b  f  d  p  m  p  m  h  c  g  e  c  p |
+ 7| d  a  w  c  o  t  k  e  l  f  i  c  g  t  a  n  v  n  w  l |
+ 8| o  r  w  r  p  c  r  h  q  t  i  r  o  t  g  w  d  r  w  a |
+ 9| c  b  l  a  o  t  b  e  r  u  u  c  e  r  j  g  u  e  f  y |
+10| u  u  j  l  r  j  y  s  s  a  e  s  e  c  n  t  v  h  e  d |
+11| m  m  b  i  m  d  a  g  t  s  n  l  y  y  t  p  w  o  s  r |
+12| e  c  w  p  r  e  m  i  e  r  e  z  l  b  n  o  r  r  t  a |
+13| n  s  p  b  g  t  q  c  p  f  a  o  k  i  u  e  r  r  i  m |
+14| t  t  x  i  c  q  e  i  k  i  z  e  a  v  c  e  q  o  v  a |
+15| a  m  u  q  d  r  s  n  m  g  n  l  y  u  l  x  a  r  a  h |
+16| r  j  x  r  p  k  p  e  w  g  l  g  d  i  n  b  n  e  l  k |
+17| y  t  c  z  k  u  v  m  w  i  l  o  a  k  c  k  i  c  f  g |
+18| s  r  p  u  c  d  i  a  v  u  r  r  v  j  g  j  f  c  k  n |
+19| a  n  i  m  a  t  i  o  n  p  t  t  m  y  z  z  y  n  x  e |
+  +------------------------------------------------------------+
+Dynamic Programming Solution:
+cinema: ((13, 7), (18, 7))
+premiere: ((12, 3), (12, 10))
+hero: ((4, 0), (4, 3))
+comedy: ((0, 5), (0, 10))
+thriller: ((0, 11), (0, 18))
+drama: ((10, 19), (14, 19))
+horror: ((10, 17), (15, 17))
+animation: ((19, 0), (19, 8))
+musical: ((1, 0), (1, 6))
+documentary: ((7, 0), (17, 0))
+screenplay: ((0, 19), (9, 19))
+genre: ((5, 17), (9, 17))
+festival: ((9, 18), (16, 18))
+
+DP Time taken: 0.0010 seconds
+DP Memory used: 0.00 MB
+
+Naïve Method Solution:
+cinema: ((13, 7), (18, 7))
+premiere: ((12, 3), (12, 10))
+hero: ((4, 0), (4, 3))
+comedy: ((0, 5), (0, 10))
+thriller: ((0, 11), (0, 18))
+drama: ((10, 19), (14, 19))
+horror: ((10, 17), (15, 17))
+animation: ((19, 0), (19, 8))
+musical: ((1, 0), (1, 6))
+documentary: ((7, 0), (17, 0))
+screenplay: ((0, 19), (9, 19))
+genre: ((5, 17), (9, 17))
+festival: ((9, 18), (16, 18))
+
+Naïve Time taken: 0.0777 seconds
+Naïve Memory used: 0.00 MB
